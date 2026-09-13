@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.2.0` |
+| Version | `0.3.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-13` |
 | Country scope | `UNIVERSAL` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
+| Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight inventory (2026-09-13); Iteration 1 architecture drafts |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13) |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
 
@@ -33,7 +33,7 @@ This is the single map of controlled documents. Update when adding, approving or
 |---|---|---|---|---|
 | FND-001 | `docs/00-foundation/PROJECT_CHARTER.md` | DRAFT | CORE+MY | Skeleton |
 | FND-002 | `docs/00-foundation/VISION_MISSION_OBJECTIVES.md` | DRAFT | CORE | Skeleton |
-| FND-003 | `docs/00-foundation/CONCEPT_CONSTITUTION.md` | UNDER REVIEW | CORE | Iteration 1 constitution draft — not APPROVED |
+| FND-003 | `docs/00-foundation/CONCEPT_CONSTITUTION.md` | APPROVED | CORE | v1.0.0 — ratified Core constitution |
 | FND-004 | `docs/00-foundation/CORE_DIFFERENTIATORS.md` | DRAFT | CORE | Skeleton |
 | FND-005 | `docs/00-foundation/DESIGN_PRINCIPLES.md` | DRAFT | CORE | Skeleton |
 | FND-006 | `docs/00-foundation/GLOSSARY.md` | DRAFT | CORE | Skeleton |
@@ -77,12 +77,13 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | EVD-001 | `docs/12-evidence/CLAIMS_REGISTER.md` | DRAFT | Claims inventory |
 | EVD-002 | `docs/12-evidence/EVIDENCE_REGISTER.md` | DRAFT | Evidence inventory |
 | EVD-003 | `docs/12-evidence/RESEARCH_GAPS.md` | DRAFT | Research detail companion to GAP_REGISTER |
+| EVD-004 | `docs/12-evidence/SUPERSEDED_CONCEPTS.md` | APPROVED | Prevent restoration of superseded historical directions |
 | DEC-000 | `docs/13-decisions/SECTION_README.md` | DRAFT | ADR process |
 | DEC-001 | `docs/13-decisions/ADR_INDEX.md` | DRAFT | ADR index |
 | DEC-TPL | `docs/13-decisions/adr/ADR-TEMPLATE.md` | DRAFT | Template |
-| ADR-0001 | `docs/13-decisions/adr/ADR-0001-core-vs-country-implementation.md` | UNDER REVIEW | Core vs country separation |
-| ADR-0002 | `docs/13-decisions/adr/ADR-0002-lab-first-mission-based.md` | UNDER REVIEW | Lab-First / Mission-Based (not lab-only) |
-| ADR-0003 | `docs/13-decisions/adr/ADR-0003-formal-examination-recognition-safety-layer.md` | UNDER REVIEW | Exams + parallel capability layer |
+| ADR-0001 | `docs/13-decisions/adr/ADR-0001-core-vs-country-implementation.md` | APPROVED | v1.0.0 — Core vs country separation |
+| ADR-0002 | `docs/13-decisions/adr/ADR-0002-lab-first-mission-based.md` | APPROVED | v1.0.0 — Lab-First / Mission-Based (not lab-only) |
+| ADR-0003 | `docs/13-decisions/adr/ADR-0003-formal-examination-recognition-safety-layer.md` | APPROVED | v1.0.0 — Recognition layer + parallel capability layer |
 
 ---
 

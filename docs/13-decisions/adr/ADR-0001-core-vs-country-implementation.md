@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0001` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-13` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-13` |
+| Deciders | Human architectural review |
 | Country scope | `CORE` (defines separation rule for all countries) |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
+| Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `FND-003` Concept Constitution; `PROJECT_RULES.md` |
-| Related gaps / claims | GAP-005, GAP-006, GAP-007, GAP-012, GAP-014; CLM-003, CLM-004 |
-| Source documents | Architecture brief (2026-09-13); `references/oman/` and `references/malaysia/` as historical sources only |
+| Related gaps / claims | GAP-005, GAP-006, GAP-007, GAP-012, GAP-014, GAP-017; CLM-003, CLM-004 |
+| Source documents | Architecture brief (2026-09-13); `references/oman/` and `references/malaysia/` as historical sources only; human ratification (2026-09-13) |
 
 ---
 
@@ -21,7 +22,7 @@ Core Educational Model versus Country Implementation Profiles
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
 
 ## Context
 
@@ -53,16 +54,19 @@ The following are **not** universal Core requirements merely because they appear
 - Oman-specific ministries, partners, Omanization targets or Vision framing;
 - any Malaysia-specific statute, board, language policy or government priority.
 
-Country profiles may adopt residential models or heightened data-localisation rules **only** as country decisions, with cited authority where factual claims are made.
+Country/project implementation profiles may adopt residential models or heightened data-localisation rules **only** as country/project implementation decisions, with cited authority where factual claims are made.
 
-Historical materials under `references/` remain immutable sources. They inform design; they do not automatically become Core or Malaysia policy.
+**When an implementation feature is represented as legally or regulatorily required, that claim must be supported by authoritative evidence in the Country Implementation Profile.**
+
+Historical materials under `references/` remain immutable sources. They inform design; they do not automatically become Core or Malaysia policy. Superseded historical directions are recorded in `docs/12-evidence/SUPERSEDED_CONCEPTS.md`.
 
 ## Rationale
 
 - Protects portability of Core IP across future implementations.
 - Prevents silent importation of Oman assumptions into Malaysia work.
 - Makes country compliance research auditable and citable in the correct layer.
-- Clarifies conflict resolution: approved Core ADRs/constitution govern universal rules; country profiles govern local adaptation without rewriting Core by stealth.
+- Distinguishes statutory mandates (which require evidence) from legitimate project-level design choices that are not statutes.
+- Clarifies conflict resolution: approved Core ADRs/constitution govern universal rules; country/project profiles govern local adaptation without rewriting Core by stealth.
 
 ## Consequences
 
@@ -75,14 +79,14 @@ Historical materials under `references/` remain immutable sources. They inform d
 **Risks / costs**
 
 - Contributors must resist convenience copying from polished country proposals.
-- Some popular features in historical decks (e.g. mandatory boarding) must be re-justified per country.
+- Some popular features in historical decks (e.g. mandatory boarding) must be re-justified per country/project.
 - Temporary duplication of headings across Core and country docs until profiles mature.
 
 **Follow-on work**
 
 - Keep Malaysia profile skeleton free of invented regulation (`docs/10-malaysia/`).
-- Future ADRs for boarding (country), data architecture (country), and Oman reference hierarchy (GAP-012).
-- ADR-0008 / ADR-0009 proposals are largely subsumed at Core level by this decision; country choices remain open.
+- Future ADRs for boarding (country/project), data architecture (country/project), and Oman reference hierarchy (GAP-012).
+- ADR-0008 / ADR-0009 proposals are largely subsumed at Core level by this decision; Malaysia/project choices remain open.
 
 ## Alternatives Considered
 
@@ -94,7 +98,7 @@ Historical materials under `references/` remain immutable sources. They inform d
 
 | Country | Implication |
 |---|---|
-| Malaysia | All MY curriculum, exam boards, languages, identity content, law, accreditation, child protection, data, industry/government priorities and residential model live under `docs/10-malaysia/`. Concept Note proposals remain proposals until ratified. |
+| Malaysia | All MY curriculum, exam boards, languages, identity content, law, accreditation, child protection, data, industry/government priorities and residential model live under `docs/10-malaysia/`. Concept Note proposals remain proposals until ratified. Legal/regulatory claims require authoritative evidence. |
 | Oman / others | Historical proposals are references only unless a future country profile is opened and decisions are re-taken deliberately. |
 
 ## Related Documents
@@ -102,15 +106,16 @@ Historical materials under `references/` remain immutable sources. They inform d
 - `docs/00-foundation/CONCEPT_CONSTITUTION.md` (§11)
 - `PROJECT_RULES.md` (§3)
 - `docs/10-malaysia/MALAYSIA_IMPLEMENTATION_PROFILE.md`
+- `docs/12-evidence/SUPERSEDED_CONCEPTS.md`
 - `references/README.md`
 - ADR-0002, ADR-0003
 
 ## Open Questions
 
-1. When may a country feature be elevated into Core (criteria for “universalisation”)?
-2. What governance body ratifies Core versus country-profile changes?
+1. When may a country/project feature be elevated into Core (criteria for “universalisation”)? (`GAP-017`)
+2. What governance body ratifies Core versus country/project-profile changes?
 3. Canonical Malaysia Concept Note file (GAP-014) still unresolved.
-4. Ownership/governance model for a Malaysian campus (GAP-007) remains a Malaysia decision, not a Core rule.
+4. Ownership/governance model for a Malaysian campus (GAP-007) remains a Malaysia country/project decision, not a Core rule.
 
 ## Explicit non-claims
 

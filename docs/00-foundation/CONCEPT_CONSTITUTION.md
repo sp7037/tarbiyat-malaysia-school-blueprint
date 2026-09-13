@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `FND-003` |
-| Version | `0.2.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Last reviewed | `2026-09-13` |
+| Approved | `2026-09-13` |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
+| Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `PROJECT_RULES.md`; `ADR-0001`; `ADR-0002`; `ADR-0003`; `FND-005`; `FND-006` |
-| Source documents | Architecture brief (2026-09-13); founding principles in `PROJECT_RULES.md`; historical references under `references/` (source only) |
+| Source documents | Architecture brief (2026-09-13); founding principles in `PROJECT_RULES.md`; historical references under `references/` (source only); human architectural ratification (2026-09-13) |
 
-> **Document status:** This text is submitted for human review. It is **not APPROVED** and must not be treated as settled institutional policy until ratified.
+> **Document status:** `APPROVED` Core constitution (v1.0.0). Material change requires an ADR and human approval.
 
 ---
 
@@ -19,17 +20,17 @@
 
 This Concept Constitution states the founding educational architecture of Tarbiyat: the principles that define the model, the boundaries that protect it from silent alteration, and the distinctions that keep country implementation from contaminating universal Core design.
 
-It exists so that subsequent curriculum, campus, assessment, industry and Malaysia-profile work can proceed from a shared baseline. Where this document conflicts with earlier ideation in historical proposals, this Constitution (once approved) and its companion Architecture Decision Records prevail for current design direction.
+It exists so that subsequent curriculum, campus, assessment, industry and Malaysia-profile work can proceed from a shared baseline. Where this document conflicts with earlier ideation in historical proposals, this Constitution and its companion Architecture Decision Records prevail for current design direction. Historical directions that must not be restored are recorded in `docs/12-evidence/SUPERSEDED_CONCEPTS.md`.
 
 ---
 
 ## 2. Definition of Tarbiyat
 
-Tarbiyat is a **Lab-First, Mission-Based educational architecture** in which students learn substantially through investigation, design, production, experimentation and real missions, while remaining compatible with the formal recognition systems required in the country of implementation.
+Tarbiyat is a **Lab-First, Mission-Based educational architecture** in which students learn substantially through investigation, design, production, experimentation and real missions, while remaining compatible with the applicable statutory or recognised curriculum, assessment and credentialing requirements of the country of implementation.
 
-Tarbiyat is intended as a **new organising logic for schooling**, not merely an upgrade of conventional classroom schooling by the addition of better equipment. The student’s educational experience is progressively organised around missions, laboratories, studios, workshops, field and community environments, and demonstrated capability. Formal curriculum and examinations remain present as the recognition and statutory safety layer where required.
+Tarbiyat is intended as a **distinct organising architecture for schooling**, not merely an upgrade of conventional classroom schooling by the addition of better equipment. The student’s educational experience is progressively organised around missions, laboratories, studios, workshops, field and community environments, and demonstrated capability. Applicable statutory or recognised curriculum, assessment and credentialing requirements remain in place as the Formal Recognition Layer where required. Tarbiyat does not abolish applicable statutory or recognised examinations where they are required.
 
-The word *Tarbiyat* here denotes character-informed formation alongside capability: ethics, responsibility, physical development and national identity are treated as integral to the model. Specific national identity content is defined in the relevant country implementation profile, not in this Core Constitution.
+The word *Tarbiyat* here denotes character-informed formation alongside capability: ethics, responsibility, physical development and civic formation are treated as integral to the model. Tarbiyat develops ethical responsibility, cultural grounding, civic responsibility and respect for the national context of the country in which it operates. The content and expression of national identity are determined in the Country Implementation Profile.
 
 ---
 
@@ -39,10 +40,10 @@ Tarbiyat is **not**:
 
 1. A conventional subject-and-period school with laboratories used mainly for confirmation practicals.
 2. A lab-only model that abolishes books, theory, languages, mathematics practice, seminars or examination preparation.
-3. An examination-abolition project. Historic phrases such as “NO exams” or “abolish exams” in early source drafts are **superseded as current design direction**.
+3. An examination-abolition project. Historic phrases such as “NO exams” or “abolish exams” in early source drafts are **superseded** (see `SUPERSEDED_CONCEPTS.md`).
 4. A system that permanently labels young children as future doctors, engineers, entrepreneurs or similar.
-5. A universal boarding or residential mandate. Residential, day-school or hybrid formats are country/project choices.
-6. A universal requirement for sovereign or on-premise data centres. Safe, lawful, privacy-conscious information governance is required; country-specific data-sovereignty architecture belongs in the country profile.
+5. A universal boarding or residential mandate. Residential, day-school or hybrid formats are country/project implementation choices.
+6. A universal requirement for sovereign or on-premise data centres. Safe, lawful, privacy-conscious information governance is required; country-specific data-sovereignty architecture belongs in the country/project implementation profile.
 7. A Malaysia-hard-coded model. Malaysia is the first current implementation focus; Malaysian statutes, boards, languages, identity content and industry priorities belong under `docs/10-malaysia/`.
 8. A claim of proven uniqueness, government endorsement or completed regulatory approval. Such claims require evidence and remain outside this Constitution.
 
@@ -50,18 +51,18 @@ Tarbiyat is **not**:
 
 ## 4. Foundational Educational Principles
 
-The following principles define current Core direction (subject to ratification):
+The following principles define approved Core direction:
 
-1. **Lab-First, not lab-only** — laboratories and related production environments are primary organising spaces; direct instruction remains wherever pedagogically appropriate.
+1. **Lab-First, not lab-only** — laboratories and related production environments are primary organising spaces; direct instruction remains wherever pedagogically appropriate. Intensity is progressive and age-appropriate; Core does not prescribe one fixed mission/laboratory percentage for every age or stage.
 2. **Mission-Based learning** — sustained missions with real or realistically scoped problems organise substantial learning effort.
-3. **Production over demonstration** — practical work should generally produce artefacts, systems, data, performances or services of learning value, not only confirm a known result.
+3. **Production over demonstration** — practical work should generally produce inspectable, discussable or demonstrable outcomes of serious student work, not only confirm a known result.
 4. **Disciplines as knowledge tools** — curriculum disciplines increasingly serve mission accomplishment, while systematic subject learning is preserved where required for coherence and recognition.
 5. **Exploration before strong specialisation** — broad exposure precedes Major/Minor pathway commitment.
-6. **Longitudinal pathway discovery** — preference, engagement, persistence, aptitude, mentor observation, portfolio evidence and parent/student dialogue inform pathway choices; algorithmic tools may assist but must not be the sole authority.
-7. **Productive experimental failure** — disciplined failure, reflection and improvement are legitimate learning, not merely error to be hidden.
-8. **Dual recognition of attainment** — formal credentials and Tarbiyat capability records are complementary, not substitutes for statutory requirements.
+6. **Longitudinal pathway discovery** — preference, engagement, persistence, aptitude, mentor observation, portfolio evidence and parent/student dialogue inform pathway choices. No automated or algorithmic system may independently assign, restrict or permanently determine a student's educational pathway; such systems may provide evidence or recommendations only.
+7. **Productive experimental failure** — responsible experimentation from which evidence, reflection and improvement arise is legitimate learning. Negligence, unsafe conduct, academic dishonesty or persistent non-engagement are not productive failure.
+8. **Dual recognition of attainment** — formally recognised academic evidence and Tarbiyat capability records are complementary; the capability layer does not replace applicable statutory or recognised requirements.
 9. **Real-world connection** — government, community and industry missions, Industry-in-Residence and supervised enterprise pathways are Core-enabled features, executed under law and safeguarding.
-10. **Ethics, safety and human oversight** — capability without responsibility is incomplete; human judgment remains accountable for student welfare and pathway decisions.
+10. **Ethics, safety and human oversight** — capability without responsibility is incomplete; accountable human judgment and student participation remain mandatory for pathway decisions.
 
 ---
 
@@ -71,9 +72,11 @@ Tarbiyat operates through a **dual-layer principle**:
 
 ### A. Formal Recognition Layer
 
-The applicable national or otherwise recognised curriculum, statutory requirements and formal examinations remain in place where required by the country of implementation. This layer protects academic portability, compliance and student life-chances that depend on recognised credentials.
+The applicable statutory or recognised curriculum, assessment and credentialing requirements remain in place where required by the country of implementation. This layer protects academic portability, compliance and student life-chances that depend on recognised credentials.
 
-Country authorities, boards and exact examination frameworks are **not** defined here. They are specified in the country implementation profile after lawful research and citation.
+**Tarbiyat does not abolish applicable statutory or recognised examinations where they are required.**
+
+Country authorities, boards and exact examination or credentialing frameworks are **not** defined here. They are specified in the Country Implementation Profile after lawful research and citation. When an implementation feature is represented as legally or regulatorily required, that claim must be supported by authoritative evidence in the Country Implementation Profile.
 
 ### B. Tarbiyat Learning Engine
 
@@ -83,8 +86,8 @@ The student’s lived educational experience is progressively organised around m
 
 | Layer | Primary function | Does not |
 |---|---|---|
-| Formal Recognition Layer | Statutory/recognised credentials and compulsory curriculum coverage | Replace Tarbiyat pedagogy as the organising experience |
-| Tarbiyat Learning Engine | Capability formation through mission and production | Replace or abolish statutory examination requirements |
+| Formal Recognition Layer | Applicable statutory/recognised curriculum, assessment and credentialing | Replace Tarbiyat pedagogy as the organising experience |
+| Tarbiyat Learning Engine | Capability formation through mission and production | Replace or abolish applicable statutory or recognised examination requirements |
 
 Neither layer may be falsely presented as eliminating the other. See **ADR-0003**.
 
@@ -111,6 +114,14 @@ Classrooms, where retained, function primarily as **Knowledge Studios / seminar 
 
 Direct instruction, books, reading, theory, languages, mathematics practice, seminars and examination preparation remain wherever they are pedagogically appropriate. Tarbiyat is **Lab-First, not Lab-Only**. See **ADR-0002**.
 
+**The intensity of Lab-First and Mission-Based learning is progressive and age-appropriate. The Core does not prescribe one fixed mission/laboratory percentage for every age or progression stage.**
+
+### Production
+
+**Production** means the creation of an inspectable, discussable or demonstrable outcome of serious student work. It need not be a physical manufactured object.
+
+Examples may include, without becoming exhaustive: artefact, prototype, system, experiment, dataset, research finding, analysis, software, design, performance, documentary, business model, policy proposal, service or community intervention.
+
 ### Mission-Based production cycle
 
 Where age, safety and project type permit, productive work should generally progress through:
@@ -122,6 +133,10 @@ Later stages may include, under supervision and law:
 **Deploy → IP protection → venture / licensing / technology transfer / social implementation**
 
 Not every mission reaches every later stage. Premature commercialisation or unsafe deployment is not required for educational validity.
+
+### Productive failure
+
+**Productive failure** means responsible experimentation from which evidence, reflection and improvement arise. Negligence, unsafe conduct, academic dishonesty or persistent non-engagement are not classified as productive failure.
 
 ---
 
@@ -138,7 +153,7 @@ Until decided otherwise:
 - young children must not receive premature permanent career labels;
 - early years emphasise breadth across learning worlds rather than irreversible tracking;
 - pathway discovery uses longitudinal evidence: student preference, repeated voluntary engagement, persistence, demonstrated aptitude, mentor observation, portfolio evidence, and parent/student dialogue;
-- AI or other algorithmic systems may support pattern recognition but must not be the sole authority determining a child’s future pathway.
+- **No automated or algorithmic system may independently assign, restrict or permanently determine a student's educational pathway. Such systems may provide evidence or recommendations only; accountable human judgment and student participation remain mandatory.** The Core does not require that AI or algorithmic systems be used.
 
 At suitable ages (TBD), students may pursue **Major + Minor** pathways within six broad professional/learning worlds:
 
@@ -155,10 +170,10 @@ World definitions and competency maps remain to be detailed under `docs/03-world
 
 ## 8. Capability and Assessment Principle
 
-By graduation, a Tarbiyat student should possess **both**:
+At major completion or exit stages, a Tarbiyat student should possess **both**:
 
-1. **Formal examination / recognition credentials** required by the applicable Formal Recognition Layer; and  
-2. A **longitudinal capability record** that may include:
+1. **Applicable formally recognised academic evidence** required by the Formal Recognition Layer; and  
+2. A **Tarbiyat longitudinal capability record** that may include:
 
 - mission portfolio  
 - Competency Graph  
@@ -171,7 +186,7 @@ By graduation, a Tarbiyat student should possess **both**:
 - ethical / responsibility evidence  
 - industry / community exposure  
 
-The Competency Graph, portfolio and Proof of Capability Profile constitute the **Tarbiyat capability layer**. They complement formal examinations; they do not replace statutory requirements. Detailed schemas remain open (`GAP-009`, `GAP-010`).
+The Competency Graph, portfolio and Proof of Capability Profile constitute the **Tarbiyat capability layer**. They complement applicable statutory or recognised assessment and credentialing requirements; they do not replace them and are not claimed to be legally equivalent. Detailed schemas remain open (`GAP-009`, `GAP-010`).
 
 ---
 
@@ -185,7 +200,7 @@ Core-enabled (not automatically implemented in every country) features include:
 - student intellectual property pathways  
 - Mission-to-Market and supervised micro-venture possibilities  
 
-Legal ownership, IP assignment, child employment rules, procurement and commercialisation constraints are **country-profile matters** and must not be invented in Core documents.
+Legal ownership, IP assignment, child employment rules, procurement and commercialisation constraints are **country/project implementation matters** and must not be invented in Core documents.
 
 ---
 
@@ -200,9 +215,9 @@ Human educators, mentors and governors remain accountable for:
 - integrity of assessment evidence;  
 - pathway advice and decisions affecting a student’s future options.
 
-Automated systems may assist analysis; they do not displace human accountability.
+Automated systems may assist analysis; they do not displace human accountability. No automated or algorithmic system may independently assign, restrict or permanently determine a student's educational pathway.
 
-National identity content is required as a Core principle of formation, but its substance is defined in the country implementation profile.
+Tarbiyat develops ethical responsibility, cultural grounding, civic responsibility and respect for the national context of the country in which it operates. The content and expression of national identity are determined in the Country Implementation Profile.
 
 ---
 
@@ -217,8 +232,10 @@ National identity content is required as a Core principle of formation, but its 
 
 Historical Oman and other country materials under `references/` are source documents only. They do not automatically become Core or Malaysia requirements. See **ADR-0001**.
 
-**Boarding** is not a universal Core requirement.  
+**Boarding** is not a universal Core requirement; residential, day-school or hybrid formats are country/project implementation decisions.  
 **Sovereign / on-premise data architecture** is not automatically a universal Core requirement; Core requires safe, lawful, privacy-conscious information governance.
+
+When an implementation feature is represented as legally or regulatorily required, that claim must be supported by authoritative evidence in the Country Implementation Profile.
 
 ---
 
@@ -227,15 +244,15 @@ Historical Oman and other country materials under `references/` are source docum
 Material change to any of the following requires an Architecture Decision Record and human approval before the Constitution is amended:
 
 1. Dual-layer architecture (Formal Recognition Layer + Tarbiyat Learning Engine)  
-2. Lab-First / not Lab-Only stance  
-3. Retention of recognised examinations as recognition safety layer  
+2. Lab-First / not Lab-Only stance, including progressive age-appropriate intensity without a fixed Core percentage  
+3. Retention of applicable statutory or recognised examinations where required  
 4. Explore → Discover → Choose → Deepen → Produce as the working progression  
 5. Prohibition on premature permanent career labelling of young children  
-6. Complementary capability layer (Competency Graph / portfolio / Proof of Capability)  
-7. Separation of Core from country implementation profiles  
+6. Complementary capability layer (Competency Graph / portfolio / Proof of Capability) without claimed legal equivalence to statutory credentials  
+7. Separation of Core from country/project implementation profiles  
 8. Non-mandate of boarding as a Core universal  
 9. Non-automatic elevation of country data-sovereignty architectures into Core  
-10. Human oversight of pathway decisions (algorithms may assist, not solely decide)
+10. Human oversight of pathway decisions (algorithms may recommend only; may not independently determine pathways)
 
 ---
 
@@ -247,8 +264,8 @@ The following remain open and must not be filled by invention in this Constituti
 2. Age and rules for introducing Major + Minor (`GAP-004`)  
 3. Detailed Competency Graph schema (`GAP-009`)  
 4. Proof of Capability Profile format and verification rules (`GAP-010`)  
-5. Timetable proportions between mission work, Knowledge Studios and examination preparation  
-6. Which mission authenticity threshold is required at each stage  
+5. Timetable proportions between mission work, Knowledge Studios and examination preparation (`GAP-016`)  
+6. Which mission authenticity threshold is required at each stage (`GAP-018`)  
 7. Malaysia-specific regulatory, curriculum-board, residential and data decisions (`GAP-001`, `GAP-002`, `GAP-005`, `GAP-006`, and related)  
 8. Ownership/governance model for any particular national campus (`GAP-007`)  
 9. Six-world competency maps and cross-world mission rules (`GAP-008`)  
@@ -256,14 +273,14 @@ The following remain open and must not be filled by invention in this Constituti
 
 ---
 
-## Related decisions (UNDER REVIEW)
+## Related decisions (APPROVED)
 
-| ADR | Subject |
-|---|---|
-| `ADR-0001` | Core Educational Model vs Country Implementation |
-| `ADR-0002` | Lab-First and Mission-Based Learning Architecture |
-| `ADR-0003` | Formal Examination and Recognition Safety Layer |
+| ADR | Subject | Status |
+|---|---|---|
+| `ADR-0001` | Core Educational Model vs Country Implementation | `APPROVED` |
+| `ADR-0002` | Lab-First and Mission-Based Learning Architecture | `APPROVED` |
+| `ADR-0003` | Formal Examination and Recognition Safety Layer | `APPROVED` |
 
 ## Explicit non-claims
 
-This Constitution does **not** claim government approval, regulatory compliance, partnership agreements, completed curriculum maps, or proven comparative superiority over other school models.
+This Constitution does **not** claim government approval, regulatory compliance, partnership agreements, completed curriculum maps, legal equivalence of capability records to statutory credentials, or proven comparative superiority over other school models.

@@ -19,6 +19,15 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Ratification — FND-003 + ADR-0001/0002/0003 APPROVED (2026-09-13)
+
+- Applied controlled human-review amendments to Concept Constitution and ADR-0001–0003.
+- Promoted FND-003 and ADR-0001–0003 to `APPROVED` v1.0.0.
+- Created `docs/12-evidence/SUPERSEDED_CONCEPTS.md` (SUP-001–SUP-007).
+- Updated ADR_INDEX, MASTER_INDEX, GAP_REGISTER, CLAIMS_REGISTER.
+- Closed Core design conflicts only; Malaysia implementation gaps remain open.
+- No new pedagogy sections; no commit in this step.
+
 ### Iteration 1 — Concept Constitution + founding ADRs (2026-09-13)
 
 - Drafted `docs/00-foundation/CONCEPT_CONSTITUTION.md` v0.2.0 as `UNDER REVIEW` (dual-layer architecture; Lab-First/not Lab-Only; exploration before specialisation; Core vs country).
