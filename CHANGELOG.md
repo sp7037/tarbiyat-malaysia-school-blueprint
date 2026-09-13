@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Iteration 1 — Concept Constitution + founding ADRs (2026-09-13)
+
+- Drafted `docs/00-foundation/CONCEPT_CONSTITUTION.md` v0.2.0 as `UNDER REVIEW` (dual-layer architecture; Lab-First/not Lab-Only; exploration before specialisation; Core vs country).
+- Drafted ADR-0001, ADR-0002, ADR-0003 as `UNDER REVIEW` (Core vs country; Lab-First/Mission-Based; formal examination safety layer + parallel capability assessment).
+- Updated `ADR_INDEX.md`, `MASTER_INDEX.md`, and `GAP_REGISTER.md` (clarified Core non-mandates for boarding/data; added GAP-016–018; recorded superseded exam-abolition direction).
+- No other blueprint sections drafted. No documents marked APPROVED. No commit in this iteration.
+
 ### Iteration 0 — Documentation framework bootstrap (2026-09-13)
 
 - Established empty blueprint repository at `D:\School_Project\tarbiyat-malaysia-school-blueprint` as the controlled documentation home.
