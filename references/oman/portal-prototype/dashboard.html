@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tarbiyat National Youth Tech Missions Campus — v5.0</title>
+<script>
+// ── SESSION GUARD ─────────────────────────────────────────────────
+// Runs before any rendering. If no valid session, redirect instantly.
+(function(){
+  const session = sessionStorage.getItem('tarbiyat_session');
+  if(!session){window.location.replace('index.html');return;}
+  try{
+    const s = JSON.parse(atob(session));
+    // Session expires after 8 hours
+    if(!s.user || !s.ts || (Date.now() - s.ts) > 8*60*60*1000){
+      sessionStorage.removeItem('tarbiyat_session');
+      window.location.replace('index.html');
+    }
+  } catch(e){
+    sessionStorage.removeItem('tarbiyat_session');
+    window.location.replace('index.html');
+  }
+})();
+</script>
+<style>
+/* ─── DESIGN TOKENS ─────────────────────────────────────── */
+:root {
+  --navy:   #0D1F35;
+  --navy2:  #1B3557;
+  --navy3:  #243B55;
+  --gold:   #B8860B;
+  --gold-l: #D4A017;
+  --gold-xl:#FBF5E6;
+  --teal:   #0E6655;
+  --purp:   #4A235A;
+  --cream:  #F8F4EE;
+  --white:  #FFFFFF;
+  --grey:   #8A9BB0;
+  --dgrey:  #2C3E50;
+  --border: rgba(184,134,11,0.25);
+  --glow:   0 0 40px rgba(184,134,11,0.12);
+  --r:      6px;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:    'Consolas', 'Courier New', monospace;
+}
+
+/* ─── RESET ──────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
+body{
+  font-family:var(--font-display);
+  background:var(--navy);
+  color:var(--white);
+  min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* ─── GEOMETRIC BACKGROUND PATTERN ──────────────────────── */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:
+    repeating-linear-gradient(60deg, rgba(184,134,11,0.03) 0px, rgba(184,134,11,0.03) 1px, transparent 1px, transparent 40px),
+    repeating-linear-gradient(-60deg, rgba(184,134,11,0.03) 0px, rgba(184,134,11,0.03) 1px, transparent 1px, transparent 40px),
+    repeating-linear-gradient(0deg, rgba(184,134,11,0.02) 0px, rgba(184,134,11,0.02) 1px, transparent 1px, transparent 40px);
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ─── SCROLLBAR ──────────────────────────────────────────── */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--navy)}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px}
+
+/* ─── LAYOUT ─────────────────────────────────────────────── */
+#app{position:relative;z-index:1}
+
+/* ─── HEADER STRIP ───────────────────────────────────────── */
+.top-strip{
+  background:linear-gradient(90deg, var(--navy2) 0%, var(--navy3) 60%, rgba(184,134,11,0.15) 100%);
+  border-bottom:1px solid var(--border);
+  padding:10px 32px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:11px;
+  color:var(--grey);
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  position:sticky;
+  top:0;
+  z-index:100;
+  backdrop-filter:blur(12px);
+}
+.top-strip .brand{color:var(--gold);font-weight:700;font-size:12px;letter-spacing:0.12em}
+.top-strip .badge{
+  background:rgba(184,134,11,0.15);
+  border:1px solid var(--border);
+  color:var(--gold-l);
+  padding:3px 12px;
+  border-radius:20px;
+  font-size:10px;
+  font-weight:600;
+}
+
+/* ─── NAV TABS ───────────────────────────────────────────── */
+.nav-tabs{
+  display:flex;
+  gap:0;
+  border-bottom:1px solid var(--border);
+  padding:0 32px;
+  background:rgba(13,31,53,0.8);
+  backdrop-filter:blur(8px);
+  overflow-x:auto;
+}
+.nav-tab{
+  padding:14px 22px;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--grey);
+  cursor:pointer;
+  border-bottom:2px solid transparent;
+  transition:all 0.2s;
+  white-space:nowrap;
+  background:none;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+}
+.nav-tab:hover{color:var(--white);border-bottom-color:rgba(184,134,11,0.4)}
+.nav-tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+
+/* ─── PAGE WRAPPER ───────────────────────────────────────── */
+.page{display:none;animation:fadeIn 0.35s ease}
+.page.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* ─── SECTION WRAPPER ────────────────────────────────────── */
+.section{padding:48px 32px;max-width:1280px;margin:0 auto}
+
+/* ─── HERO ───────────────────────────────────────────────── */
+.hero{
+  padding:60px 32px 48px;
+  max-width:1280px;
+  margin:0 auto;
+}
+.hero-eyebrow{
+  font-size:11px;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:600;
+  margin-bottom:16px;
+}
+.hero-title{
+  font-size:clamp(28px,4vw,48px);
+  font-weight:300;
+  line-height:1.15;
+  color:var(--white);
+  margin-bottom:8px;
+  letter-spacing:-0.02em;
+}
+.hero-title strong{font-weight:800;color:var(--gold)}
+.hero-subtitle{
+  font-size:14px;
+  color:var(--grey);
+  line-height:1.6;
+  max-width:640px;
+  margin-bottom:40px;
+}
+
+/* ─── METRIC BANNER ──────────────────────────────────────── */
+.metric-banner{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:1px;
+  background:var(--border);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  overflow:hidden;
+  margin-bottom:48px;
+}
+.metric-item{
+  background:rgba(27,53,87,0.6);
+  padding:24px 28px;
+  position:relative;
+  transition:background 0.2s;
+}
+.metric-item:hover{background:rgba(27,53,87,0.9)}
+.metric-item::before{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;
+  height:2px;
+  background:var(--gold);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform 0.3s;
+}
+.metric-item:hover::before{transform:scaleX(1)}
+.metric-label{
+  font-size:10px;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--grey);
+  margin-bottom:8px;
+  font-weight:600;
+}
+.metric-value{
+  font-size:clamp(20px,2.5vw,28px);
+  font-weight:800;
+  color:var(--white);
+  font-family:var(--font-mono);
+  line-height:1;
+  margin-bottom:4px;
+}
+.metric-value .currency{color:var(--gold);font-size:0.7em;font-weight:600}
+.metric-sub{font-size:11px;color:var(--grey)}
+
+/* ─── PORTAL CARDS ───────────────────────────────────────── */
+.portal-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:20px;
+  margin-bottom:48px;
+}
+.portal-card{
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:36px 32px;
+  cursor:pointer;
+  transition:all 0.25s;
+  position:relative;
+  overflow:hidden;
+  background:rgba(27,53,87,0.3);
+}
+.portal-card::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg, transparent 60%, rgba(184,134,11,0.06));
+  pointer-events:none;
+}
+.portal-card:hover{
+  border-color:var(--gold);
+  background:rgba(27,53,87,0.6);
+  transform:translateY(-2px);
+  box-shadow:var(--glow);
+}
+.portal-card .icon{
+  font-size:28px;
+  margin-bottom:20px;
+  display:block;
+}
+.portal-card .audience{
+  font-size:10px;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:700;
+  margin-bottom:10px;
+}
+.portal-card .title{
+  font-size:18px;
+  font-weight:700;
+  color:var(--white);
+  margin-bottom:12px;
+  line-height:1.3;
+}
+.portal-card .desc{
+  font-size:13px;
+  color:var(--grey);
+  line-height:1.65;
+  margin-bottom:24px;
+}
+.portal-card .links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.portal-tag{
+  font-size:10px;
+  padding:4px 10px;
+  border:1px solid var(--border);
+  border-radius:20px;
+  color:var(--grey);
+  font-weight:600;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+}
+.portal-cta{
+  margin-top:24px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:12px;
+  font-weight:700;
+  color:var(--gold);
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+}
+.portal-cta::after{content:'→';transition:transform 0.2s}
+.portal-card:hover .portal-cta::after{transform:translateX(4px)}
+
+/* ─── BREAKTHROUGH LIST ───────────────────────────────────── */
+.bt-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:12px;
+}
+.bt-item{
+  display:flex;
+  gap:16px;
+  padding:20px;
+  border:1px solid rgba(184,134,11,0.15);
+  border-radius:var(--r);
+  background:rgba(27,53,87,0.2);
+  transition:all 0.2s;
+}
+.bt-item:hover{border-color:var(--gold);background:rgba(27,53,87,0.5)}
+.bt-num{
+  font-size:11px;
+  font-weight:800;
+  color:var(--gold);
+  font-family:var(--font-mono);
+  letter-spacing:0.1em;
+  white-space:nowrap;
+  padding-top:2px;
+}
+.bt-title{font-size:13px;font-weight:700;color:var(--white);margin-bottom:6px}
+.bt-desc{font-size:12px;color:var(--grey);line-height:1.6}
+
+/* ─── SECTION HEADING ────────────────────────────────────── */
+.sec-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  margin-bottom:28px;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.sec-head h2{
+  font-size:clamp(18px,2.5vw,26px);
+  font-weight:300;
+  color:var(--white);
+  letter-spacing:-0.01em;
+}
+.sec-head h2 strong{font-weight:800;color:var(--gold)}
+.sec-eyebrow{
+  font-size:10px;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:700;
+  margin-bottom:8px;
+}
+.sec-note{font-size:12px;color:var(--grey)}
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider{
+  height:1px;
+  background:linear-gradient(90deg,var(--gold) 0%,rgba(184,134,11,0.2) 40%,transparent 70%);
+  margin:40px 0;
+}
+
+/* ─── BUDGET BLOCKS ──────────────────────────────────────── */
+.budget-list{display:flex;flex-direction:column;gap:8px}
+.budget-row{
+  border:1px solid rgba(184,134,11,0.15);
+  border-radius:var(--r);
+  overflow:hidden;
+  transition:border-color 0.2s;
+}
+.budget-row:hover{border-color:var(--gold)}
+.budget-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:16px 20px;
+  cursor:pointer;
+  gap:16px;
+  background:rgba(27,53,87,0.3);
+  transition:background 0.2s;
+}
+.budget-header:hover,.budget-row.open .budget-header{background:rgba(27,53,87,0.7)}
+.budget-label{font-size:13px;font-weight:600;color:var(--white);flex:1;min-width:0}
+.budget-right{display:flex;align-items:center;gap:16px;flex-shrink:0}
+.budget-omr{
+  font-family:var(--font-mono);
+  font-size:13px;
+  font-weight:700;
+  color:var(--gold);
+}
+.budget-bar-wrap{width:120px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;flex-shrink:0}
+.budget-bar{height:4px;background:var(--gold);border-radius:2px;transition:width 0.6s ease}
+.budget-toggle{
+  font-size:14px;
+  color:var(--gold);
+  transition:transform 0.25s;
+  flex-shrink:0;
+  width:16px;
+  text-align:center;
+}
+.budget-row.open .budget-toggle{transform:rotate(90deg)}
+.budget-detail{
+  display:none;
+  padding:20px;
+  background:rgba(13,31,53,0.6);
+  border-top:1px solid rgba(184,134,11,0.1);
+}
+.budget-row.open .budget-detail{display:block}
+
+/* ─── LAB CARDS ──────────────────────────────────────────── */
+.lab-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  gap:16px;
+}
+.lab-card{
+  border:1px solid rgba(184,134,11,0.15);
+  border-radius:var(--r);
+  overflow:hidden;
+  transition:all 0.25s;
+  cursor:pointer;
+}
+.lab-card:hover,.lab-card.open{border-color:var(--gold)}
+.lab-header{
+  padding:20px;
+  background:rgba(27,53,87,0.4);
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+}
+.lab-name{font-size:13px;font-weight:700;color:var(--white);flex:1;line-height:1.4}
+.lab-meta{
+  display:flex;
+  gap:12px;
+  flex-shrink:0;
+  text-align:right;
+}
+.lab-sqm{font-size:10px;color:var(--grey);font-family:var(--font-mono)}
+.lab-cost{font-size:12px;font-weight:700;color:var(--gold);font-family:var(--font-mono)}
+.lab-expand{
+  display:none;
+  padding:16px 20px;
+  background:rgba(13,31,53,0.5);
+  border-top:1px solid rgba(184,134,11,0.1);
+}
+.lab-card.open .lab-expand{display:block}
+.equip-list{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.equip-item{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  font-size:12px;
+  color:var(--grey);
+  line-height:1.5;
+}
+.equip-dot{
+  width:4px;height:4px;
+  border-radius:50%;
+  background:var(--gold);
+  flex-shrink:0;
+  margin-top:6px;
+}
+
+/* ─── COMPETENCY RADAR ───────────────────────────────────── */
+#radar-canvas{display:block;margin:0 auto}
+.competency-page{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:32px;
+  align-items:start;
+}
+@media(max-width:800px){.competency-page{grid-template-columns:1fr}}
+
+.student-profile{
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  overflow:hidden;
+}
+.sp-header{
+  background:linear-gradient(135deg,var(--navy2),var(--navy3));
+  padding:24px;
+  border-bottom:1px solid var(--border);
+}
+.sp-name{font-size:18px;font-weight:700;color:var(--white);margin-bottom:4px}
+.sp-sub{font-size:12px;color:var(--gold);font-weight:600;margin-bottom:8px}
+.sp-mission{font-size:11px;color:var(--grey);line-height:1.5}
+.sp-body{padding:20px;display:flex;flex-direction:column;gap:12px}
+.sp-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:12px;
+}
+.sp-row-label{color:var(--grey);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;font-size:10px}
+.sp-row-value{color:var(--white);font-weight:600;font-family:var(--font-mono)}
+
+.dim-bars{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.dim-bar-row{display:flex;flex-direction:column;gap:4px}
+.dim-bar-label{
+  display:flex;justify-content:space-between;
+  font-size:11px;color:var(--grey);font-weight:600;
+}
+.dim-bar-label span:last-child{color:var(--white);font-family:var(--font-mono)}
+.dim-bar-track{height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden}
+.dim-bar-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(0.23,1,0.32,1)}
+
+.board-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px;
+}
+.board-cell{
+  background:rgba(27,53,87,0.4);
+  border:1px solid rgba(184,134,11,0.15);
+  border-radius:4px;padding:10px;text-align:center;
+}
+.board-cell-label{font-size:10px;color:var(--grey);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px}
+.board-cell-value{font-size:16px;font-weight:800;color:var(--white);font-family:var(--font-mono)}
+.board-cell.high .board-cell-value{color:#27AE60}
+.board-cell.mid .board-cell-value{color:var(--gold)}
+.board-cell.low .board-cell-value{color:#E74C3C}
+
+/* ─── SECURITY LAYERS ────────────────────────────────────── */
+.sec-layers{display:flex;flex-direction:column;gap:16px}
+.sec-layer{
+  border-radius:var(--r);
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.08);
+  transition:border-color 0.2s;
+}
+.sec-layer:hover{border-color:var(--gold)}
+.sec-layer-head{
+  padding:20px 24px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  cursor:pointer;
+}
+.sec-layer-dot{
+  width:12px;height:12px;
+  border-radius:50%;
+  flex-shrink:0;
+}
+.sec-layer-title{font-size:14px;font-weight:700;color:var(--white);flex:1}
+.sec-layer-toggle{color:var(--gold);transition:transform 0.25s;font-size:14px}
+.sec-layer.open .sec-layer-toggle{transform:rotate(90deg)}
+.sec-layer-body{
+  display:none;
+  padding:16px 24px 20px 52px;
+  border-top:1px solid rgba(255,255,255,0.06);
+}
+.sec-layer.open .sec-layer-body{display:block}
+.sec-item{
+  display:flex;align-items:flex-start;gap:10px;
+  font-size:12px;color:var(--grey);line-height:1.6;padding:4px 0;
+}
+.sec-bullet{color:var(--gold);flex-shrink:0;font-size:10px;margin-top:3px}
+
+/* ─── ZONE ALLOCATIONS ───────────────────────────────────── */
+.zone-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:16px;
+}
+.zone-card{
+  border-radius:var(--r);
+  padding:28px;
+  border:1px solid rgba(255,255,255,0.08);
+  position:relative;
+  overflow:hidden;
+  transition:transform 0.2s,box-shadow 0.2s;
+}
+.zone-card:hover{transform:translateY(-2px);box-shadow:var(--glow)}
+.zone-card::before{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;height:3px;
+}
+.zone-a::before{background:var(--navy2)}
+.zone-b::before{background:var(--gold)}
+.zone-c::before{background:var(--teal)}
+.zone-d::before{background:var(--purp)}
+.zone-a{background:rgba(27,53,87,0.4)}
+.zone-b{background:rgba(184,134,11,0.1)}
+.zone-c{background:rgba(14,102,85,0.15)}
+.zone-d{background:rgba(74,35,90,0.2)}
+.zone-label{
+  font-size:10px;letter-spacing:0.14em;text-transform:uppercase;
+  font-weight:700;margin-bottom:12px;
+}
+.zone-a .zone-label{color:var(--gold)}
+.zone-b .zone-label{color:var(--gold-l)}
+.zone-c .zone-label{color:#27AE60}
+.zone-d .zone-label{color:#A86CC1}
+.zone-title{font-size:16px;font-weight:700;color:var(--white);margin-bottom:8px}
+.zone-sqm{
+  font-size:28px;font-weight:800;font-family:var(--font-mono);
+  color:var(--white);margin-bottom:4px;
+  line-height:1;
+}
+.zone-sqm span{font-size:12px;color:var(--grey);font-weight:400;font-family:var(--font-display)}
+.zone-pct{font-size:11px;color:var(--grey);margin-bottom:16px}
+.zone-items{display:flex;flex-direction:column;gap:5px}
+.zone-item{font-size:11px;color:var(--grey);line-height:1.5}
+
+/* ─── VISION 2040 TABLE ──────────────────────────────────── */
+.v40-table{width:100%;border-collapse:separate;border-spacing:0 6px}
+.v40-table th{
+  font-size:10px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--grey);font-weight:600;padding:10px 16px;text-align:left;
+}
+.v40-table td{padding:14px 16px;font-size:13px;line-height:1.55}
+.v40-table tr td:first-child{
+  background:rgba(27,53,87,0.6);
+  color:var(--gold);font-weight:700;
+  border-radius:var(--r) 0 0 var(--r);
+  border:1px solid rgba(184,134,11,0.2);
+  border-right:none;
+  width:220px;
+}
+.v40-table tr td:last-child{
+  background:rgba(27,53,87,0.3);
+  color:var(--grey);
+  border-radius:0 var(--r) var(--r) 0;
+  border:1px solid rgba(184,134,11,0.1);
+  border-left:none;
+}
+
+/* ─── OMANIZATION ────────────────────────────────────────── */
+.oman-timeline{display:flex;flex-direction:column;gap:0}
+.oman-row{
+  display:flex;align-items:stretch;gap:0;
+  position:relative;
+}
+.oman-row::after{
+  content:'';position:absolute;left:28px;top:50px;bottom:-1px;
+  width:1px;background:var(--border);z-index:0;
+}
+.oman-row:last-child::after{display:none}
+.oman-dot-col{
+  width:56px;flex-shrink:0;
+  display:flex;justify-content:center;padding-top:20px;
+  position:relative;z-index:1;
+}
+.oman-dot{
+  width:12px;height:12px;border-radius:50%;
+  background:var(--gold);border:2px solid var(--navy);
+  box-shadow:0 0 0 3px rgba(184,134,11,0.25);
+}
+.oman-content{
+  flex:1;padding:16px 16px 24px;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.oman-yr{font-size:11px;color:var(--gold);font-weight:700;letter-spacing:0.1em;margin-bottom:6px;text-transform:uppercase}
+.oman-desc{font-size:13px;color:var(--grey);line-height:1.6}
+.oman-pct{
+  display:inline-block;
+  font-size:22px;font-weight:800;color:var(--white);
+  font-family:var(--font-mono);margin-right:4px;
+}
+
+/* ─── FOOTER ──────────────────────────────────────────────── */
+.footer{
+  border-top:1px solid var(--border);
+  padding:24px 32px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:48px;
+}
+.footer-left{font-size:11px;color:var(--grey)}
+.footer-right{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:0.06em}
+.confidential{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(184,134,11,0.1);
+  border:1px solid var(--border);
+  padding:4px 14px;border-radius:20px;
+  font-size:10px;color:var(--gold);font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;
+}
+
+/* ─── UTILITY ────────────────────────────────────────────── */
+.tag{
+  display:inline-block;
+  font-size:10px;padding:3px 10px;
+  border:1px solid var(--border);border-radius:20px;
+  color:var(--grey);font-weight:600;letter-spacing:0.05em;text-transform:uppercase;
+  margin:2px;
+}
+.tag.gold{border-color:var(--gold);color:var(--gold)}
+.tag.teal{border-color:var(--teal);color:#27AE60}
+.tag.purp{border-color:var(--purp);color:#A86CC1}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:10px 20px;border-radius:var(--r);
+  font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;
+  cursor:pointer;transition:all 0.2s;border:none;
+}
+.btn-gold{background:var(--gold);color:var(--navy)}
+.btn-gold:hover{background:var(--gold-l)}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--grey)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.live-dot{
+  width:8px;height:8px;border-radius:50%;background:#27AE60;
+  animation:pulse 2s infinite;display:inline-block;
+}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(39,174,96,0.4)}50%{box-shadow:0 0 0 6px rgba(39,174,96,0)}}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media(max-width:640px){
+  .top-strip .badge{display:none}
+  .section,.hero{padding-left:16px;padding-right:16px}
+  .nav-tabs{padding:0 16px}
+  .competency-page{grid-template-columns:1fr}
+}
+
+/* ─── TOTALS ROW ─────────────────────────────────────────── */
+.total-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 24px;
+  background:linear-gradient(90deg,rgba(184,134,11,0.15),rgba(184,134,11,0.05));
+  border:1px solid var(--gold);
+  border-radius:var(--r);
+  margin-top:16px;
+}
+.total-label{font-size:14px;font-weight:700;color:var(--white)}
+.total-value{font-size:22px;font-weight:800;color:var(--gold);font-family:var(--font-mono)}
+
+/* ─── PROSE ──────────────────────────────────────────────── */
+.prose{
+  font-size:13px;color:var(--grey);line-height:1.75;
+  max-width:760px;
+}
+.prose strong{color:var(--white);font-weight:600}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- TOP STRIP -->
+<div class="top-strip">
+  <span class="brand">TARBIYAT SOCIOTECH FOUNDATION</span>
+  <span id="session-user" style="color:#B8860B;font-size:11px;font-weight:600;letter-spacing:0.06em"></span>
+  <div style="display:flex;align-items:center;gap:12px">
+    <span class="badge">🔒 STRICTLY CONFIDENTIAL · v5.0</span>
+    <button onclick="doLogout()" style="background:rgba(170,34,34,0.2);border:1px solid rgba(170,34,34,0.5);color:#E74C3C;padding:3px 14px;border-radius:20px;font-size:10px;font-weight:700;cursor:pointer;letter-spacing:0.08em;text-transform:uppercase;font-family:inherit">&#9211; LOGOUT</button>
+  </div>
+</div>
+
+<!-- NAV TABS -->
+<div class="nav-tabs">
+  <button class="nav-tab active" onclick="showPage('home')">Overview</button>
+  <button class="nav-tab" onclick="showPage('strategic')">Strategic Policy</button>
+  <button class="nav-tab" onclick="showPage('financial')">Financial Operations</button>
+  <button class="nav-tab" onclick="showPage('infrastructure')">Engineering & Labs</button>
+  <button class="nav-tab" onclick="showPage('security')">Security Playbook</button>
+  <button class="nav-tab" onclick="showPage('competency')">Competency Graph</button>
+  <button class="nav-tab" onclick="showPage('hr')">HR Architecture</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: HOME -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+  <div class="hero">
+    <div class="hero-eyebrow">Sultanate of Oman · Nizwa, Al Dakhiliyah Governorate</div>
+    <h1 class="hero-title">
+      <strong>TARBIYAT</strong><br>
+      National Youth Tech Missions<br>Campus &amp; College
+    </h1>
+    <p class="hero-subtitle">
+      Version 5.0 — The Comprehensive Sovereign Implementation Framework.<br>
+      Seven global breakthroughs. One world-class residential campus. Fully government-owned.
+    </p>
+
+    <!-- METRIC BANNER -->
+    <div class="metric-banner">
+      <div class="metric-item">
+        <div class="metric-label">Total Investment</div>
+        <div class="metric-value"><span class="currency">OMR </span>39.25M</div>
+        <div class="metric-sub">≈ ₹857 Crore · Govt. of Oman funded</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Student Capacity</div>
+        <div class="metric-value">1,900</div>
+        <div class="metric-sub">1,500 School · 400 Applied College</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Campus Footprint</div>
+        <div class="metric-value">60,000 <span class="currency">sqm</span></div>
+        <div class="metric-sub">30,000 sqm built · G+4 · LEED Certified</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Residential</div>
+        <div class="metric-value">500 <span class="currency">beds</span></div>
+        <div class="metric-sub">100% full boarding · Day-boarding prohibited</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Mission Labs</div>
+        <div class="metric-value">12</div>
+        <div class="metric-sub">World-class · 2,195 sqm · OMR 1.895M</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Permanent Staff</div>
+        <div class="metric-value">170</div>
+        <div class="metric-sub">Resident · 24×7 · Dual-tier faculty</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-label">Target Launch</div>
+        <div class="metric-value" style="font-size:20px">Sept 2028</div>
+        <div class="metric-sub">Nizwa · 24-month construction programme</div>
+      </div>
+    </div>
+
+    <!-- PORTAL CARDS -->
+    <div class="sec-eyebrow" style="margin-bottom:16px">Ministry Access Portals</div>
+    <div class="portal-grid">
+      <div class="portal-card" onclick="showPage('strategic')">
+        <span class="icon">⚖️</span>
+        <div class="audience">For: Ministers · Policy Directors · MoE · MoHERI</div>
+        <div class="title">Strategic Policy Portal</div>
+        <div class="desc">Vision 2040 alignment matrix, Tarbiyat four-circle framework, seven structural breakthroughs, governance architecture, and Omanization roadmap to full sovereign leadership.</div>
+        <div class="links">
+          <span class="portal-tag">Vision 2040</span>
+          <span class="portal-tag">Tarbiyat</span>
+          <span class="portal-tag">Governance</span>
+          <span class="portal-tag">Omanization</span>
+        </div>
+        <div class="portal-cta">Enter Strategic Portal</div>
+      </div>
+
+      <div class="portal-card" onclick="showPage('financial')">
+        <span class="icon">📊</span>
+        <div class="audience">For: CFOs · Auditors · MOCIIP · Treasury</div>
+        <div class="title">Financial Operations Portal</div>
+        <div class="desc">CAPEX/OPEX drill-down, technology amortization cycles, import substitution fiscal savings tracker, IP revenue distribution model, and annual recurring overhead sustainability analysis.</div>
+        <div class="links">
+          <span class="portal-tag">CAPEX OMR 33M</span>
+          <span class="portal-tag">OPEX OMR 2.9M/yr</span>
+          <span class="portal-tag">Import Substitution</span>
+        </div>
+        <div class="portal-cta">Enter Financial Portal</div>
+      </div>
+
+      <div class="portal-card" onclick="showPage('infrastructure')">
+        <span class="icon">⚙️</span>
+        <div class="audience">For: Engineers · Architects · Ministry of Infrastructure</div>
+        <div class="title">Technical Infrastructure &amp; Security Portal</div>
+        <div class="desc">Lab equipment configurations, zone spatial allocations, Data Centre tolerances, multi-layer campus defense architecture, sovereign network isolation, and engineering cost matrix.</div>
+        <div class="links">
+          <span class="portal-tag">12 Labs</span>
+          <span class="portal-tag">Zone A–D Plans</span>
+          <span class="portal-tag">Sovereign Data</span>
+        </div>
+        <div class="portal-cta">Enter Technical Portal</div>
+      </div>
+    </div>
+
+    <!-- SEVEN BREAKTHROUGHS -->
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Seven Global Breakthroughs — Version 5.0</div>
+    <div class="bt-grid" id="bt-grid"></div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-left">Tarbiyat Sociotech Foundation · New Delhi, Republic of India · legal.srworlds.in · irme.in</div>
+    <div class="footer-right"><span class="confidential">🔒 Strictly Confidential · For Official Ministry Use Only</span></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: STRATEGIC POLICY -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-strategic" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Strategic Policy Portal · Ministry of Education · MoHERI</div>
+    <div class="sec-head">
+      <h2><strong>Vision 2040</strong> Strategic Alignment</h2>
+      <span class="sec-note">Sovereign Human Capital Edition · v5.0</span>
+    </div>
+
+    <table class="v40-table">
+      <thead><tr><th>Vision 2040 Pillar</th><th>Tarbiyat Campus Response</th></tr></thead>
+      <tbody>
+        <tr><td>Education &amp; Human Capital</td><td>Mission-based, AI-assessed, dual-credentialed learning: Proof of Capability Profiles™ + board exam qualifications for 100% of graduates. No terminal examinations.</td></tr>
+        <tr><td>Digital Economy &amp; AI</td><td>Student-built Micro-SMEs and licensed IP feed national digital transformation. Sovereign Competency Graph is itself a national AI education infrastructure asset — hosted on government-owned Tier-2 Data Centre.</td></tr>
+        <tr><td>Import Substitution &amp; Fiscal Sovereignty</td><td>Campus acts as a national technology import substitution engine. Student-built agricultural IoT, cybersecurity tools, and smart city systems replace expensive foreign imports — OMR retained within the sovereign economy and reported annually to MOCIIP.</td></tr>
+        <tr><td>Cyber-Sovereignty</td><td>Siyadah Al-Raqmiyya trains Omani youth to audit AI systems, defend national data architectures, and represent Oman at ITU, GovTech, and international AI governance forums. Graduates serve as sovereign technology diplomats.</td></tr>
+        <tr><td>Regional Balance</td><td>Nizwa positioned as Oman's Youth Tech Innovation Hub — decentralising high-value economic activity, talent development, and R&D infrastructure beyond Muscat.</td></tr>
+        <tr><td>Identity &amp; Social Cohesion</td><td>100% full boarding + exclusive Tarbiyat Mentor Faculty: Islamic ethics, Arabic language mastery, and Omani national identity developed daily — every evening, every year of the school term. Non-negotiable by design.</td></tr>
+        <tr><td>Economic Diversification</td><td>Youth Micro-Venture Economy produces Grade 11+ licensed Micro-SMEs procured by PDO, OQ, MoAg, MoH, and ROP — youngest and most contextually accurate technology supplier ecosystem in Oman.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Governance &amp; Ownership Architecture</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:40px">
+      <div class="zone-card zone-a">
+        <div class="zone-label">Ownership</div>
+        <div class="zone-title">100% Government of Oman</div>
+        <div class="prose" style="margin-top:10px">All land, buildings, labs, equipment, the Tier-2 Data Centre, and all digital assets are owned by the Ministry of Education / Government of Oman from Day 1. Tarbiyat Sociotech Foundation holds <strong>zero equity</strong> and zero asset claim — at any point, under any circumstance.</div>
+      </div>
+      <div class="zone-card zone-b">
+        <div class="zone-label">Engagement</div>
+        <div class="zone-title">10-Year Minimum Partnership</div>
+        <div class="prose" style="margin-top:10px">Grade 5 students must reach the Applied College by Year 8. The Sovereign Competency Graph requires 3 years of AI calibration. The Import Substitution Engine requires 5+ years to demonstrate measurable fiscal impact. The Omanization plan requires the full 10 years to reach <strong>100% Omani leadership</strong>.</div>
+      </div>
+      <div class="zone-card zone-c">
+        <div class="zone-label">IP Policy</div>
+        <div class="zone-title">Zero Foundation IP Extraction</div>
+        <div class="prose" style="margin-top:10px">All mission IP co-owned by <strong>Omani state and students</strong>. Revenue split: 40% student team · 40% MoHERI national education innovation fund · 20% campus reinvestment · 0% Foundation — ever. Registered through On-Campus IP &amp; Commercialisation Desk under Omani commercial law.</div>
+      </div>
+    </div>
+
+    <div class="sec-eyebrow" style="margin-bottom:16px">Omanization Roadmap</div>
+    <div class="oman-timeline" id="oman-timeline"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: FINANCIAL -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-financial" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Financial Operations Portal · CFOs · Auditors · MOCIIP</div>
+    <div class="sec-head">
+      <h2><strong>CAPEX</strong> Budget Drill-Down</h2>
+      <span class="sec-note">OMR 39,250,000 · Click any row to expand</span>
+    </div>
+
+    <div class="budget-list" id="capex-list"></div>
+    <div class="total-row">
+      <div class="total-label">GRAND TOTAL — CAPEX + 3-Year OPEX</div>
+      <div class="total-value">OMR 39,250,000</div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Annual Recurring OPEX (Year 3 onwards) — OMR 2,918,865</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px" id="opex-cards"></div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Technology Amortization Lifecycle</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div class="zone-card zone-a">
+        <div class="zone-label">3-Year Hardware Cycle</div>
+        <div class="zone-title">OMR 271,900 total</div>
+        <div style="font-size:12px;color:var(--gold);font-family:var(--font-mono);margin-bottom:12px">Annualised: OMR 90,633 / year</div>
+        <div class="zone-items">
+          <div class="zone-item">GPU Workstations (24×) — OMR 43,200</div>
+          <div class="zone-item">HPC Server Nodes (8×) — OMR 76,000</div>
+          <div class="zone-item">Robotics Controllers (12 sets) — OMR 38,400</div>
+          <div class="zone-item">Network Switch Gear (18×) — OMR 37,800</div>
+          <div class="zone-item">3D Printing Systems (16×) — OMR 22,400</div>
+          <div class="zone-item">Drone Fleet (24×) — OMR 21,600</div>
+          <div class="zone-item">AR/VR Headsets (40×) — OMR 24,000</div>
+          <div class="zone-item">Biotech Equipment (lot) — OMR 8,500</div>
+        </div>
+      </div>
+      <div class="zone-card zone-d">
+        <div class="zone-label">5-Year Capital Renewal Cycle</div>
+        <div class="zone-title">OMR 513,000 total</div>
+        <div style="font-size:12px;color:#A86CC1;font-family:var(--font-mono);margin-bottom:12px">Annualised: OMR 102,600 / year</div>
+        <div class="zone-items">
+          <div class="zone-item">Sovereign Competency Graph Refresh — OMR 95,000</div>
+          <div class="zone-item">Solar PV Panel Replacement (30%) — OMR 85,000</div>
+          <div class="zone-item">Battery Cell Replacement (1 MWh) — OMR 140,000</div>
+          <div class="zone-item">CNC Milling Centre Rebuild — OMR 48,000</div>
+          <div class="zone-item">Wi-Fi 6 Network Full Refresh — OMR 38,000</div>
+          <div class="zone-item">Enterprise Software Licensing — OMR 55,000</div>
+          <div class="zone-item">Micro-Grid Testbed Equipment — OMR 30,000</div>
+          <div class="zone-item">Solar Lab Equipment Overhaul — OMR 22,000</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Sovereign Import Substitution — Fiscal Value Model</div>
+    <div style="background:rgba(14,102,85,0.12);border:1px solid rgba(14,102,85,0.3);border-radius:var(--r);padding:28px">
+      <div style="font-size:13px;font-weight:700;color:#27AE60;margin-bottom:12px">Campus as State Revenue-Saving Asset</div>
+      <div class="prose" style="margin-bottom:16px">By Year 5: minimum 10–15 student-built Micro-SME products procured annually by Omani government ministries — directly replacing foreign technology imports in agriculture, health, municipal services, and cybersecurity. Measurable OMR savings to the Omani state treasury reported annually to MOCIIP.</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+        <div style="background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.2);border-radius:4px;padding:16px;text-align:center">
+          <div style="font-size:10px;color:#27AE60;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Ministry of Agriculture</div>
+          <div style="font-size:13px;color:var(--white);font-weight:600">Smart Agri-IoT Nodes</div>
+          <div style="font-size:11px;color:var(--grey);margin-top:4px">Replacing foreign sensor imports</div>
+        </div>
+        <div style="background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.2);border-radius:4px;padding:16px;text-align:center">
+          <div style="font-size:10px;color:#27AE60;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Royal Oman Police</div>
+          <div style="font-size:13px;color:var(--white);font-weight:600">Cybersecurity Tools</div>
+          <div style="font-size:11px;color:var(--grey);margin-top:4px">Replacing foreign security vendors</div>
+        </div>
+        <div style="background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.2);border-radius:4px;padding:16px;text-align:center">
+          <div style="font-size:10px;color:#27AE60;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Municipal Affairs</div>
+          <div style="font-size:13px;color:var(--white);font-weight:600">Smart City Infrastructure</div>
+          <div style="font-size:11px;color:var(--grey);margin-top:4px">Replacing foreign municipal software</div>
+        </div>
+        <div style="background:rgba(39,174,96,0.1);border:1px solid rgba(39,174,96,0.2);border-radius:4px;padding:16px;text-align:center">
+          <div style="font-size:10px;color:#27AE60;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Ministry of Health</div>
+          <div style="font-size:13px;color:var(--white);font-weight="600">Health Informatics Systems</div>
+          <div style="font-size:11px;color:var(--grey);margin-top:4px">Replacing foreign health data platforms</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: INFRASTRUCTURE -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-infrastructure" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Engineering &amp; Infrastructure Portal · Architects · Engineers</div>
+    <div class="sec-head">
+      <h2><strong>Zone Allocation</strong> — 60,000 sqm Master Plan</h2>
+    </div>
+
+    <div class="zone-grid">
+      <div class="zone-card zone-a">
+        <div class="zone-label">Zone A — Academic Core</div>
+        <div class="zone-sqm">22,000 <span>sqm</span></div>
+        <div class="zone-pct">37% of total site</div>
+        <div class="zone-items">
+          <div class="zone-item">12 Mission Labs · 2,195 sqm total</div>
+          <div class="zone-item">24 Smart Classrooms · 1,800 sqm</div>
+          <div class="zone-item">Grand Auditorium · 1,400 sqm · 1,000 seats</div>
+          <div class="zone-item">Admin HQ · 600 sqm</div>
+          <div class="zone-item">Library &amp; Research Hub · 500 sqm</div>
+          <div class="zone-item">Tier-2 Data Centre · Sovereign</div>
+          <div class="zone-item">Industry-in-Residence Hub · 200 sqm</div>
+          <div class="zone-item">IP &amp; Commercialisation Desk · 80 sqm</div>
+        </div>
+      </div>
+      <div class="zone-card zone-b">
+        <div class="zone-label">Zone B — Residential</div>
+        <div class="zone-sqm">16,000 <span>sqm</span></div>
+        <div class="zone-pct">27% of total site · OMR 14,430,000</div>
+        <div class="zone-items">
+          <div class="zone-item">Male Hostel · 250 beds · 3,200 sqm</div>
+          <div class="zone-item">Female Hostel · 250 beds · 3,200 sqm</div>
+          <div class="zone-item">Faculty Residences · 50 units · 2,400 sqm</div>
+          <div class="zone-item">Grand Mosque &amp; Musalla · 600 sqm</div>
+          <div class="zone-item">Student Dining · 800-seat · 800 sqm</div>
+          <div class="zone-item">Health Centre · 320 sqm · 24×7</div>
+        </div>
+      </div>
+      <div class="zone-card zone-c">
+        <div class="zone-label">Zone C — Kinetic Sports</div>
+        <div class="zone-sqm">10,000 <span>sqm</span></div>
+        <div class="zone-pct">17% of total site · OMR 3,750,000</div>
+        <div class="zone-items">
+          <div class="zone-item">Indoor Multi-Sports Gymnasium · 1,800 sqm</div>
+          <div class="zone-item">Competition Swimming Pool · 750 sqm</div>
+          <div class="zone-item">Outdoor Multi-Sport Courts · 1,500 sqm</div>
+          <div class="zone-item">400m IAAF Running Track &amp; Field · 4,000 sqm</div>
+          <div class="zone-item">Fitness &amp; Strength Training · 400 sqm</div>
+        </div>
+      </div>
+      <div class="zone-card zone-d">
+        <div class="zone-label">Zone D — Sovereign Utility</div>
+        <div class="zone-sqm">12,000 <span>sqm</span></div>
+        <div class="zone-pct">19% of total site · OMR 7,530,000</div>
+        <div class="zone-items">
+          <div class="zone-item">500 kW Solar PV Array</div>
+          <div class="zone-item">1 MWh LFP Battery Energy Storage</div>
+          <div class="zone-item">Dual 500 kVA Diesel Generators</div>
+          <div class="zone-item">Dual Central AC Chiller Plant</div>
+          <div class="zone-item">RO Water Desalination · 200 m³/day</div>
+          <div class="zone-item">4 Structural Security Towers</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">12 World-Class Mission Labs — OMR 1,895,000 · Click to expand equipment</div>
+    <div class="lab-grid" id="lab-grid"></div>
+
+    <div class="divider"></div>
+    <div class="total-row">
+      <div class="total-label">Full Engineering Cost Matrix — All Zones</div>
+      <div class="total-value">OMR 60,250,350</div>
+    </div>
+    <p class="prose" style="margin-top:12px">The OMR 39,250,000 figure in the main proposal represents the Foundation's conservative base-case estimate for phased and value-engineered delivery. The gap represents optionality for phased delivery, local contractor competitive tendering, and value engineering on non-critical finish specifications.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: SECURITY -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-security" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Security Playbook · Annexure C · Multi-Layer Architecture</div>
+    <div class="sec-head">
+      <h2><strong>Physical, Data &amp; Cyber</strong> Security Architecture</h2>
+    </div>
+
+    <div class="prose" style="margin-bottom:32px">The campus operates at the intersection of three security obligations: a 24-hour residential institution housing <strong>1,500 minors</strong>; a sovereign IP repository for student mission data, Proof of Capability Profiles, and corporate R&D datasets from <strong>PDO, OQ, Omantel, Asyad, and ROP</strong>; and a high-value government infrastructure asset worth <strong>OMR 39+ million</strong>. Four concentric rings of protection are deployed.</div>
+
+    <div class="sec-layers" id="sec-layers"></div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Visitor Sandboxing — 6-Step Workflow</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px" id="visitor-workflow"></div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Data Sovereignty — Corporate Partner Isolation</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px">
+      <div class="zone-card zone-d" style="padding:20px">
+        <div class="zone-label">Encryption</div>
+        <div style="font-size:13px;font-weight:700;color:var(--white);margin-bottom:8px">AES-256 at rest · TLS 1.3 in transit</div>
+        <div class="prose" style="font-size:12px">All data on campus — student records, mission IP, corporate R&D datasets, operational systems — encrypted at rest with AES-256 and in transit with TLS 1.3. No plaintext data anywhere in the sovereign network.</div>
+      </div>
+      <div class="zone-card zone-c" style="padding:20px">
+        <div class="zone-label">Network Isolation</div>
+        <div style="font-size:13px;font-weight:700;color:var(--white);margin-bottom:8px">4 Physically Separate Segments</div>
+        <div class="prose" style="font-size:12px">Sovereign Academic Network · Corporate Partner VLAN (isolated per partner) · Campus Operations Network · Administrative Network. No routing between segments. Inter-segment traffic passes through dual NGFW with deep packet inspection.</div>
+      </div>
+      <div class="zone-card zone-a" style="padding:20px">
+        <div class="zone-label">Geo-Sovereignty</div>
+        <div style="font-size:13px;font-weight:700;color:var(--white);margin-bottom:8px">Zero Data Outside Oman</div>
+        <div class="prose" style="font-size:12px">Geo-blocking enforced at NGFW level: all non-Omani IP ranges blocked by default except explicitly whitelisted government and academic partners. All data on on-campus Tier-2 Data Centre owned 100% by Government of Oman. No cloud storage — ever.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: COMPETENCY GRAPH -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-competency" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Sovereign Competency Graph Simulator · Live Student Profile</div>
+    <div class="sec-head">
+      <h2><strong>Proof of Capability Profile™</strong> — Live Preview</h2>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span class="live-dot"></span>
+        <span style="font-size:11px;color:#27AE60;font-weight:700;text-transform:uppercase;letter-spacing:0.08em">Live Simulation</span>
+      </div>
+    </div>
+
+    <div class="competency-page">
+      <!-- LEFT: RADAR -->
+      <div>
+        <canvas id="radar-canvas" width="460" height="420"></canvas>
+        <div class="dim-bars" id="dim-bars" style="margin-top:24px"></div>
+      </div>
+
+      <!-- RIGHT: PROFILE -->
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <div class="student-profile">
+          <div class="sp-header">
+            <div class="sp-name">Fatima Al-Rashidi</div>
+            <div class="sp-sub">Grade 11 · AI & Data Systems Track · Pioneer Cohort 2028</div>
+            <div class="sp-mission">Active Mission: Smart Irrigation AI Node — Ministry of Agriculture (Import Substitution)</div>
+          </div>
+          <div class="sp-body">
+            <div class="sp-row">
+              <div class="sp-row-label">Registered Micro-SME</div>
+              <div class="sp-row-value" style="font-size:11px;font-family:var(--font-display);color:#27AE60">Al-Rashidi AgriTech Solutions</div>
+            </div>
+            <div class="sp-row">
+              <div class="sp-row-label">IP Filings</div>
+              <div class="sp-row-value">2 Patents Pending</div>
+            </div>
+            <div class="sp-row">
+              <div class="sp-row-label">Mission Deliverables</div>
+              <div class="sp-row-value">14 Completed</div>
+            </div>
+            <div class="sp-row">
+              <div class="sp-row-label">Profile Generated</div>
+              <div class="sp-row-value" style="color:#27AE60" id="profile-date">—</div>
+            </div>
+            <div class="sp-row">
+              <div class="sp-row-label">Competency Percentile</div>
+              <div class="sp-row-value" id="avg-score" style="color:var(--gold)">—</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOARD EXAM PROGRESS -->
+        <div>
+          <div style="font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:0.12em;font-weight:700;margin-bottom:12px">
+            Board Exam Readiness (Grade 12 · Dual-Credentialing Track)
+          </div>
+          <div class="board-grid" id="board-grid"></div>
+        </div>
+
+        <!-- DUAL CREDENTIAL NOTICE -->
+        <div style="background:rgba(184,134,11,0.08);border:1px solid var(--border);border-radius:var(--r);padding:16px">
+          <div style="font-size:11px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Dual Credentialing Status</div>
+          <div style="font-size:12px;color:var(--grey);line-height:1.6">
+            Fatima is on track to graduate with <strong style="color:var(--white)">two valid credentials</strong>: a cryptographically signed <strong style="color:var(--gold)">Proof of Capability Profile™</strong> (MoHERI recognised) and a <strong style="color:var(--white)">Grade 12 Board Examination Certificate</strong> (CBSE/Cambridge equivalent) — ensuring both innovation pathway and global university entry access.
+          </div>
+        </div>
+
+        <!-- CONTROLS -->
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn btn-gold" onclick="simulateGrowth()">▶ Simulate Mission Completion</button>
+          <button class="btn btn-outline" onclick="resetScores()">↺ Reset to Baseline</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIMENSIONS EXPLANATION -->
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Six Competency Dimensions — What the AI Engine Evaluates</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px" id="dim-cards"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- PAGE: HR -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-hr" class="page">
+  <div class="section">
+    <div class="sec-eyebrow">Annexure A · Human Resource &amp; Faculty Architecture</div>
+    <div class="sec-head">
+      <h2><strong>170 Permanent Staff</strong> — Institutional Hierarchy</h2>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:32px" id="hr-summary"></div>
+
+    <div class="divider"></div>
+    <div class="sec-eyebrow" style="margin-bottom:16px">Separation of Concerns — Dual Faculty Architecture</div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">
+      <div class="zone-card zone-a">
+        <div class="zone-label">Tier 1 — Global Tech Engineers</div>
+        <div class="zone-title">Big-Tech Alumni · 5+ Years Industry</div>
+        <div class="zone-items" style="margin-top:12px">
+          <div class="zone-item">• Mission Lab Instruction &amp; R&D Supervision</div>
+          <div class="zone-item">• Technical Mentorship &amp; Prototype Evaluation</div>
+          <div class="zone-item">• Industry-in-Residence Co-Supervision</div>
+          <div class="zone-item">• Sovereign Competency Graph Assessment</div>
+          <div class="zone-item" style="margin-top:8px;color:var(--gold)">⚠ Bound by Sovereign Institutional Code of Conduct — technical transmission only. Cannot instruct on religion, culture, ethics, or national identity.</div>
+        </div>
+      </div>
+      <div class="zone-card zone-b">
+        <div class="zone-label">Tier 2 — Tarbiyat Mentor Faculty</div>
+        <div class="zone-title">Omani / Arab Educators · Vetted &amp; Certified</div>
+        <div class="zone-items" style="margin-top:12px">
+          <div class="zone-item">• Character Development &amp; Moral Instruction</div>
+          <div class="zone-item">• Arabic Documentation &amp; Reflection Journals</div>
+          <div class="zone-item">• Omani Identity &amp; National Values Modelling</div>
+          <div class="zone-item">• Board Exam Preparation &amp; Academic Coaching</div>
+          <div class="zone-item">• Exclusive guardianship of residential evening programme</div>
+          <div class="zone-item" style="margin-top:8px;color:var(--gold-l)">Tarbiyat Quotient evaluated on the same mission pipeline as Tier 1 technical evaluation — simultaneously, independently.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-eyebrow" style="margin-bottom:16px">Government Support Required for Foundation Team</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px" id="govt-support"></div>
+  </div>
+</div>
+
+</div><!-- /#app -->
+
+<script>
+// ─── DATA ────────────────────────────────────────────────
+const BREAKTHROUGHS = [
+  {n:"01",t:"Sovereign Competency Graph",d:"AI engine replacing all terminal examinations — cryptographically signed Proof of Capability Profiles™ hosted on government-owned Tier-2 Data Centre."},
+  {n:"02",t:"Student Micro-Venture Economy",d:"Grade 11+ students register Micro-SMEs under Omani law from campus; government ministries procure student-built systems directly."},
+  {n:"03",t:"Industry-in-Residence Protocol",d:"PDO, OQ, Omantel, Asyad, ROP engineers resident daily as co-supervisors on active national R&D missions — not annual visitors."},
+  {n:"04",t:"Siyadah Al-Raqmiyya",d:"Digital Sovereignty framework: AI bias auditing, national data sovereignty training, international tech policy representation at ITU and GovTech forums."},
+  {n:"05",t:"Sovereign Import Substitution Engine",d:"Campus converts from cost-centre to active state revenue-saving asset — student Micro-SMEs replace foreign technology imports, measurable OMR saved annually."},
+  {n:"06",t:"Parallel Dual-Credentialing",d:"Board exam safety net (CBSE/Cambridge/Omani) reverse-engineered into daily skills sprints — global credit portability guaranteed alongside mission portfolios."},
+  {n:"07",t:"100% Boarding + Separation of Concerns",d:"Day-boarding prohibited. Dual-tier faculty architecture: Global Tech Engineers (technical only) + Tarbiyat Mentor Faculty (values, identity, culture) — strictly separated mandates."},
+];
+
+const CAPEX = [
+  {l:"Site Development, Master Planning & Civil Works (60,000 sqm)",omr:4500000,pct:13.6,detail:"Includes site clearance, boundary walling, all underground infrastructure (drainage, utilities), road network, perimeter security tower foundations, covered walkway structures, and landscape preparation across full 60,000 sqm campus footprint."},
+  {l:"Main Academic Building — G+4, 30,000 sqm, world-class build",omr:9000000,pct:27.2,detail:"Zone A primary structure: reinforced concrete G+4 with Turath-Meets-Technology architectural façade, Mashrabiya screens, traditional Omani arches, open mission studios with 5m clear ceiling heights in all 12 labs, fully glazed atrium, covered walkways connecting all wings."},
+  {l:"Grand Auditorium — 1,000-seat, fully equipped",omr:2500000,pct:7.6,detail:"Purpose-built 1,400 sqm auditorium with 1,000 fixed theatre seats, 4K laser projection system, 32-channel digital mixing console, 48-point line-array speaker system, simultaneous translation booths (×4), broadcast-quality live streaming, backstage and green room facilities."},
+  {l:"Student Hostel — 500-Bed 100% Full Boarding World-Class Block",omr:3500000,pct:10.6,detail:"G+3 residential block: completely separated male wing (250 beds) and female wing (250 beds) — no shared corridors or entrances. Twin rooms 14 sqm, single rooms 12 sqm. Supervised study halls, prayer rooms, recreation rooms, residential supervisor offices per floor."},
+  {l:"Faculty & Staff Residences — 50+ on-campus units",omr:1500000,pct:4.5,detail:"30 two-bedroom apartments (85 sqm each) and 20 one-bedroom apartments (60 sqm each). Fully furnished, individual kitchens, private bathrooms, balconies, campus network. Separate residential cluster from student hostels with independent access."},
+  {l:"Sports Complex — Multi-sport, gym, pool, 400m track",omr:1200000,pct:3.6,detail:"Zone C: indoor multi-sports gymnasium (1,800 sqm, FIBA-standard), 25m 8-lane competition pool (750 sqm), three outdoor courts (1,500 sqm, ITF acrylic surfaces), IAAF-standard 400m running track with field (4,000 sqm), fitness gym (400 sqm)."},
+  {l:"12 World-Class Mission Labs — Full Equipment & Technology",omr:5000000,pct:15.1,detail:"All 12 labs to professional industrial/research grade — minimum 5m clear ceiling heights. Robotics Arena (OMR 185K) · AI/ML Lab (OMR 210K) · Cybersecurity SOC (OMR 160K) · Solar/Energy Lab (OMR 145K) · Drone/IoT Studio (OMR 130K) · EV/Mechatronics (OMR 175K) · Biotech Lab (OMR 140K) · Space/Remote Sensing (OMR 155K) · Smart Cities Lab (OMR 120K) · 3D Printing Studio (OMR 105K) · AR/VR Studio (OMR 175K) · Materials Science Lab (OMR 195K)."},
+  {l:"24 Smart Classrooms — Full Digital & Interactive Technology",omr:1800000,pct:5.4,detail:"24 × 75 sqm smart studio classrooms: double-width 4K interactive smart boards, ambient IoT environmental sensors (temperature, CO2, noise, occupancy — integrated with BMS), wireless presentation systems, individual student charging points, acoustic wall treatment, flexible furniture for mission debrief configurations."},
+  {l:"Industry-in-Residence Hub & IP Commercialisation Desk",omr:600000,pct:1.8,detail:"Industry Hub (200 sqm): 20 dedicated corporate partner workstations partitioned by corporate identity, 4 private secure project meeting rooms, biometric-authenticated access terminals connected to isolated VLAN partitions. IP Desk (80 sqm): Secure IP vault, 4 client consultation offices, government liaison suite with MoHERI and MOCIIP secure terminals."},
+  {l:"Tier-2 On-Campus Sovereign Data Centre",omr:600000,pct:1.8,detail:"Government of Oman owned — hosts Sovereign Competency Graph AI engine, Proof of Capability Profile™ database, mission IP repository, all campus smart systems. AES-256 at rest, TLS 1.3 in transit. Dual power feeds, N+1 cooling, biometric dual-factor access with mantrap airlock."},
+  {l:"24×7 Power: 500kW Solar + 1MWh Battery + Generator Backup",omr:900000,pct:2.7,detail:"500 kW monocrystalline solar PV array (Tier-1 panels: Jinko, LONGi, or Canadian Solar) + 1 MWh LFP battery energy storage system (4,000+ charge cycle life) + two 500 kVA diesel generators (N+1 redundancy) with 15,000-litre underground fuel tank (72-hour autonomous operation). Zero power interruption — ever."},
+  {l:"Fibre, Wi-Fi 6 & Smart Campus Infrastructure",omr:600000,pct:1.8,detail:"Redundant dual-ring single-mode fibre backbone (10 Gbps) + 96 indoor Wi-Fi 6 access points + 24 outdoor Wi-Fi 6 APs + AI-driven Building Management System (BMS): energy monitoring, automated HVAC, access control, CCTV integration, predictive maintenance."},
+  {l:"Central Library, Health Centre, Mosque, Dining, Landscaping",omr:1200000,pct:3.6,detail:"Central Library (500 sqm, 15,000+ volumes, AI research terminals) · Grand Mosque/Musalla (600 sqm, 400 male + 200 female capacity, Imam residence) · Student Health Centre (320 sqm, 24×7 medical clinic, counselling suites, physiotherapy) · Student Dining Hall (800 sqm, 800-seat concurrent) · Native Omani landscaping with smart drip irrigation."},
+  {l:"LEED Certification, Safety, CCTV & Access Control",omr:400000,pct:1.2,detail:"LEED Platinum certification process, commissioning and testing, third-party quality assurance. Full 120+ camera enterprise CCTV system, biometric access control readers across all zones, fire suppression and alarm systems, emergency lighting, and perimeter security integration."},
+];
+
+const LABS = [
+  {n:"Robotics Arena & Advanced Manufacturing",sqm:220,cost:185000,eq:["6× industrial 6-axis robotic arms (KUKA/ABB, 10–80kg payload)","3-axis & 5-axis CNC milling centres","2-tonne overhead gantry crane","Laser cutting & engraving system","12× robot programming workstations","Safety light curtains & fencing systems","Floor grid for autonomous mobile robot navigation"]},
+  {n:"AI, Machine Learning & Data Science Lab",sqm:180,cost:210000,eq:["24× GPU workstations (NVIDIA RTX 4090 or equivalent)","2× AI training servers (8× NVIDIA A100 GPUs each)","6-panel 4K data visualisation wall","500TB Tier-1 research NAS","4× large-format digital collaboration boards","Sovereign Competency Graph VLAN data pipeline"]},
+  {n:"Cybersecurity Operations Centre (SOC)",sqm:175,cost:160000,eq:["Network traffic simulation platform (Spirent/Ixia)","Dedicated honeypot & sandboxed attack simulation network","16× dual-4K SOC analyst workstations","Hardware Security Module (HSM) for cryptographic exercises","Dark web monitoring terminal (read-only, air-gapped)","8× Kali Linux penetration testing stations","Threat intelligence feed subscriptions"]},
+  {n:"Solar, Renewable Energy & Micro-Grid Lab",sqm:190,cost:145000,eq:["20kW PV test array (multi-orientation, shading scenarios)","PV degradation & I-V characteristic measurement chamber","Micro-grid testbed (grid-tied & island-mode inverters)","10kWh lab-scale battery bank","4× power quality analysers","Solar irradiance measurement station (pyranometer array)"]},
+  {n:"Drone, UAV & IoT Control Studio",sqm:185,cost:130000,eq:["Indoor drone arena (8m × 12m, full-height netting)","Outdoor drone test pad (200 sqm, roof terrace)","Carbon fibre moulding tools & soldering benches","30-metre deployable telemetry tracking mast","60× IoT sensor development kits","LoRaWAN network server","12× drone simulation software stations"]},
+  {n:"EV, Mechatronics & Advanced Propulsion Workshop",sqm:210,cost:175000,eq:["2× full EV drivetrain teardown stations (hydraulic lifts)","AC/DC motor test bench with torque/speed measurement","Battery pack assembly & thermal management station","4× hydraulic & pneumatic training rigs","8× PLC programming & industrial automation stations","1-tonne overhead gantry crane"]},
+  {n:"Biotech, Health Informatics & Assistive Devices",sqm:180,cost:140000,eq:["2× Class 2 biological safety cabinets","4× centrifuges, spectrophotometer, PCR machines (×2)","6× digital microscopy stations","Cell culture incubator","Anonymised Omani public health informatics server","Haptic feedback testing rig"]},
+  {n:"Space Technology & Remote Sensing Lab",sqm:175,cost:155000,eq:["Ku-band satellite dish & ground station terminal","6× SAR data processing workstations","ArcGIS/SNAP/QGIS 20-seat network licence","Orbital mechanics simulation software (STK)","CubeSat design & assembly bench","Space environment test chamber (vacuum/thermal)"]},
+  {n:"Smart Cities, Civil Technology & Infrastructure",sqm:180,cost:120000,eq:["12× BIM workstations (Autodesk Revit/ArchiCAD)","Structural load testing frame with digital DAQ","Concrete & materials testing equipment","3D scale model printing station for urban planning","Smart city IoT dashboard display wall","SCADA training system for water & power grids"]},
+  {n:"3D Printing & Additive Manufacturing Studio",sqm:165,cost:105000,eq:["4× large-format FDM printers (500mm build volume)","4× SLA resin printers","1× SLS nylon powder sintering printer","2× structured light 3D scanning systems","12× Fusion 360 / SolidWorks design workstations","Filament & resin storage management system"]},
+  {n:"AR, VR, Extended Reality & Digital Twin Studio",sqm:160,cost:175000,eq:["40× enterprise VR headsets (Meta Quest Pro or equiv.)","12-camera optical motion capture system (full-room)","8× haptic glove development kits","16× digital twin workstations (Unreal Engine/Unity)","4m × 2.5m immersive LED display wall","12× AR headsets (HoloLens or equivalent)"]},
+  {n:"Materials Science, Chemistry & Advanced Testing",sqm:175,cost:195000,eq:["SEM with EDX capability","X-ray diffractometer (XRD)","Fourier-transform infrared spectrometer (FTIR)","Differential scanning calorimeter (DSC)","Universal materials testing machine (10kN)","2× high-temperature furnaces (1600°C max)","4× fume cupboards (BS EN 14175 certified)"]},
+];
+
+const SECURITY_LAYERS = [
+  {l:"Layer 1 — Perimeter & Physical Security",c:"#4A235A",items:["3m reinforced masonry boundary wall + concealed cable alarm detection (silent alert to Command Centre on breach/climb)","PAS 68 / IWA 14 hydraulic anti-ram bollards — stops 7.5-tonne vehicle at 80 km/h — all vehicle entry points","48× 4K panoramic infrared CCTV cameras (AI-powered: motion classification, line-crossing alerts, object detection) at 20m intervals","Smart adaptive LED perimeter lighting — solar powered, motion-triggered maximum brightness","Bulletproof glazing gatehouse with vehicle inspection area and airlock-style double-door entry system"]},
+  {l:"Layer 2 — Command & Surveillance Architecture",c:"#1B3557",items:["Security Command Centre: enterprise VMS managing 120+ cameras — minimum 90-day on-site video retention in Omani sovereign network","AI video analytics: perimeter line-crossing, crowd density, abandoned object detection, gender-zone boundary alerts","4× structural security command towers at campus apex points — 6m height, reinforced concrete, 4K PTZ cameras with 40× zoom + thermal imaging","All towers connected by armoured fibre to Command Centre — independent UPS (4-hour autonomous), direct encrypted line to Royal Oman Police","Minimum one certified security officer per tower during all hours of darkness and all public events"]},
+  {l:"Layer 3 — Campus Biometric Access Matrix",c:"#0E6655",items:["120+ biometric readers across campus: facial recognition and/or fingerprint per zone type","Tier-2 Data Centre: dual biometric (fingerprint + retinal scan) + mantrap anti-tailgating airlock — CPO authorisation for any exception access","Male hostel wing: any female staff entry generates automatic Security Command Centre alert","Female hostel wing: any male staff entry generates immediate Security Command Centre alert + automated Ministry-level notification","All access events timestamped, biometrically logged, and retained — override actions require dual authorisation"]},
+  {l:"Core — Sovereign Data & Cybersecurity",c:"#B8860B",items:["AES-256 at rest · TLS 1.3 in transit — all data categories, all systems, no exceptions","4 physically isolated network segments — no routing between; inter-segment traffic through dual NGFW with 90-day deep packet inspection logs","Dual Next-Generation Firewall (active-standby): IPS, application-aware DPI, DNS filtering, SSL inspection, geo-blocking of all non-Omani IPs","On-campus SIEM: 12-month log retention, real-time anomaly alerting, quarterly threat hunts by Siyadah Al-Raqmiyya student cohort","EDR on all campus-managed devices: autonomous threat containment within 3 minutes of malicious behaviour detection","Annual penetration testing by NCA-approved firm · DLP at all network egress points · USB blocked by default"]},
+];
+
+const OPEX_CARDS = [
+  {l:"Total Payroll (170 staff)",v:"OMR 1,480,000",c:"#1B3557"},
+  {l:"Halal Catering (800-seat)",v:"OMR 600,000",c:"#B8860B"},
+  {l:"Tech Renewal Reserve (3yr)",v:"OMR 90,633",c:"#0E6655"},
+  {l:"Capital Renewal Reserve (5yr)",v:"OMR 102,600",c:"#4A235A"},
+  {l:"HVAC & Chiller Operations",v:"OMR 68,800",c:"#1B3557"},
+  {l:"Landscaping & Grounds",v:"OMR 46,400",c:"#0E6655"},
+  {l:"Mission Lab Consumables",v:"OMR 80,000",c:"#B8860B"},
+  {l:"Solar & Battery Operations",v:"OMR 25,700",c:"#4A235A"},
+  {l:"Security Systems Operations",v:"OMR 48,000",c:"#AA2222"},
+  {l:"Medical Centre Operations",v:"OMR 36,000",c:"#1B3557"},
+  {l:"Board Exam Fees",v:"OMR 24,000",c:"#0E6655"},
+  {l:"Contingency (8%)",v:"OMR 216,732",c:"#B8860B"},
+];
+
+const DIMS = [
+  {k:"engineering",l:"Engineering Intelligence",c:"#3498DB",s:87},
+  {k:"code",l:"Digital & Code Proficiency",c:"#B8860B",s:91},
+  {k:"systems",l:"Systems Thinking",c:"#27AE60",s:78},
+  {k:"tarbiyat",l:"Tarbiyat & Ethics Quotient",c:"#9B59B6",s:94},
+  {k:"innovation",l:"Innovation Index",c:"#E74C3C",s:83},
+  {k:"cyber",l:"Sovereign & Cyber Competency",c:"#1ABC9C",s:72},
+];
+
+const BOARD = [
+  {l:"Mathematics",v:82},{l:"Physics",v:79},{l:"Arabic Lang",v:96},
+  {l:"English",v:88},{l:"Islamic Std",v:98},{l:"Chemistry",v:74},
+];
+
+const OMAN_STEPS = [
+  {yr:"Year 1",pct:"70%",desc:"Omani staff across teaching, labs, Tarbiyat Mentor Faculty, and administration. Global Tech Engineers in senior technical instruction roles."},
+  {yr:"Year 2",pct:"80%",desc:"Omani Tarbiyat Mentors leading all character, culture, and evening residential programming independently."},
+  {yr:"Year 3",pct:"90%",desc:"Full operational management by Omani staff. Global Tech Engineers transition to senior technical advisory positions."},
+  {yr:"Year 5",pct:"100%",desc:"Full Omani academic and administrative leadership across all positions. Foundation in pure strategic advisory role."},
+  {yr:"Year 7",pct:"Sovereign",desc:"Foundation in strategic advisory only — campus fully self-sufficient and sovereign. Renewal of partnership or full handover."},
+];
+
+const HR_SUMMARY = [
+  {cat:"Executive Leadership",n:3,col:"#B8860B",note:"CPO · Dir. Technical · Head Tarbiyat Faculty"},
+  {cat:"Operational Directors",n:3,col:"#1B3557",note:"Registrar · CFO · Foreign Relations"},
+  {cat:"Tier 1 — Global Tech Engineers",n:24,col:"#0E6655",note:"Lab Instructors · Mission Coaches · Rotating 2yr+"},
+  {cat:"Tier 2 — Tarbiyat Mentor Faculty",n:20,col:"#4A235A",note:"Fully Resident · Vetted · Arabic/Islamic"},
+  {cat:"Engineering & Technical Support",n:30,col:"#1B3557",note:"Sysadmin · Power · Lab Techs · HVAC · Water"},
+  {cat:"Medical & Wellness Staff",n:10,col:"#AA2222",note:"MBBS · Nurses · Psychologists · Physiotherapist"},
+  {cat:"Residential & Dining Operations",n:24,col:"#B8860B",note:"Catering · Housekeeping · Hostel Management"},
+  {cat:"Security Command Centre",n:12,col:"#4A235A",note:"24×7 · 4 Tower Supervisors · Roving Patrol"},
+  {cat:"Admin, Grounds & Student Services",n:34,col:"#0E6655",note:"Registrar Office · Finance · Grounds · Reception"},
+];
+
+const GOVT_SUPPORT = [
+  {l:"Long-Term Residency Visas",d:"Multi-year professional visas for 10–15 Foundation officials — with family visas where applicable."},
+  {l:"Quality On-Campus Accommodation",d:"Fully furnished on-campus residences appropriate to senior professional standing — within Faculty Residences block."},
+  {l:"Travel & Relocation Support",d:"Initial relocation assistance + minimum two return home visits per year per Foundation team member."},
+  {l:"Competitive Professional Salary",d:"Benchmarked to senior international professional standards in Oman — within approved project OPEX budget."},
+  {l:"Healthcare Coverage",d:"Full health insurance for Foundation team members and their immediate families for the duration of the engagement."},
+  {l:"Professional Recognition",d:"Full status as senior project officers of the Government of Oman's flagship campus — Ministry-level credentials."},
+];
+
+const VISITOR_STEPS = [
+  {s:"Step 1",t:"Pre-Registration",d:"All visits pre-registered by a campus Director minimum 24 hours in advance. Visitor identity documents submitted digitally for pre-clearance."},
+  {s:"Step 2",t:"Identity Verification",d:"Visitor presents original government-issued photo ID at gatehouse. Officer verifies against pre-registration record. Visitor photographed for digital record."},
+  {s:"Step 3",t:"Security Briefing",d:"5-minute briefing: prohibited areas, photography restrictions in labs and hostel zones, data/IP confidentiality obligations, and emergency evacuation protocols."},
+  {s:"Step 4",t:"RFID Badge Programming",d:"Visitor issued a colour-coded RFID badge pre-programmed for specific zones listed in pre-registration only. Badge logs all access events in real time."},
+  {s:"Step 5",t:"Escorted Campus Access",d:"Visitor accompanied at all times by a designated Visitor Escort Officer. No unescorted movement beyond main visitor reception and conference facilities."},
+  {s:"Step 6",t:"Exit Record",d:"On departure: badge deactivated and collected. Visitor signs Confidentiality and Campus Conduct Register. Visit record retained for 5 years."},
+];
+
+// ─── RENDER FUNCTIONS ─────────────────────────────────────
+function fmt(n){return"OMR "+n.toLocaleString()}
+
+function renderBreakthroughs(){
+  const g=document.getElementById("bt-grid");
+  if(!g)return;
+  g.innerHTML=BREAKTHROUGHS.map(b=>`
+    <div class="bt-item">
+      <div class="bt-num">${b.n}</div>
+      <div>
+        <div class="bt-title">${b.t}</div>
+        <div class="bt-desc">${b.d}</div>
+      </div>
+    </div>`).join("");
+}
+
+function renderCapex(){
+  const el=document.getElementById("capex-list");
+  if(!el)return;
+  const maxOmr=Math.max(...CAPEX.map(c=>c.omr));
+  el.innerHTML=CAPEX.map((c,i)=>`
+    <div class="budget-row" id="br-${i}">
+      <div class="budget-header" onclick="toggleBudget(${i})">
+        <div class="budget-label">${c.l}</div>
+        <div class="budget-right">
+          <div class="budget-bar-wrap"><div class="budget-bar" style="width:${(c.omr/maxOmr*100).toFixed(1)}%"></div></div>
+          <div class="budget-omr">${fmt(c.omr)}</div>
+          <div class="budget-toggle">›</div>
+        </div>
+      </div>
+      <div class="budget-detail">
+        <p class="prose">${c.detail}</p>
+      </div>
+    </div>`).join("");
+}
+
+function toggleBudget(i){
+  const el=document.getElementById("br-"+i);
+  el.classList.toggle("open");
+}
+
+function renderOpexCards(){
+  const el=document.getElementById("opex-cards");
+  if(!el)return;
+  el.innerHTML=OPEX_CARDS.map(o=>`
+    <div style="background:rgba(27,53,87,0.4);border:1px solid rgba(184,134,11,0.15);border-radius:6px;padding:20px;border-top:3px solid ${o.c}">
+      <div style="font-size:10px;color:var(--grey);text-transform:uppercase;letter-spacing:0.1em;font-weight:600;margin-bottom:8px">${o.l}</div>
+      <div style="font-size:17px;font-weight:800;color:var(--white);font-family:var(--font-mono)">${o.v}</div>
+    </div>`).join("");
+}
+
+function renderLabs(){
+  const el=document.getElementById("lab-grid");
+  if(!el)return;
+  el.innerHTML=LABS.map((lab,i)=>`
+    <div class="lab-card" id="lab-${i}" onclick="toggleLab(${i})">
+      <div class="lab-header">
+        <div class="lab-name">${lab.n}</div>
+        <div class="lab-meta">
+          <div>
+            <div class="lab-sqm">${lab.sqm} sqm</div>
+            <div class="lab-cost">OMR ${lab.cost.toLocaleString()}</div>
+          </div>
+        </div>
+      </div>
+      <div class="lab-expand">
+        <div class="equip-list">
+          ${lab.eq.map(e=>`<div class="equip-item"><div class="equip-dot"></div><span>${e}</span></div>`).join("")}
+        </div>
+      </div>
+    </div>`).join("");
+}
+
+function toggleLab(i){
+  document.getElementById("lab-"+i).classList.toggle("open");
+}
+
+function renderSecurity(){
+  const el=document.getElementById("sec-layers");
+  if(!el)return;
+  el.innerHTML=SECURITY_LAYERS.map((s,i)=>`
+    <div class="sec-layer" id="sl-${i}" style="background:rgba(0,0,0,0.2)">
+      <div class="sec-layer-head" onclick="toggleSec(${i})">
+        <div class="sec-layer-dot" style="background:${s.c}"></div>
+        <div class="sec-layer-title">${s.l}</div>
+        <div class="sec-layer-toggle">›</div>
+      </div>
+      <div class="sec-layer-body">
+        ${s.items.map(it=>`<div class="sec-item"><span class="sec-bullet">▸</span><span>${it}</span></div>`).join("")}
+      </div>
+    </div>`).join("");
+  // open all by default
+  SECURITY_LAYERS.forEach((_,i)=>document.getElementById("sl-"+i).classList.add("open"));
+}
+
+function toggleSec(i){document.getElementById("sl-"+i).classList.toggle("open")}
+
+function renderVisitorWorkflow(){
+  const el=document.getElementById("visitor-workflow");
+  if(!el)return;
+  el.innerHTML=VISITOR_STEPS.map((v,i)=>`
+    <div style="background:rgba(27,53,87,0.4);border:1px solid rgba(184,134,11,0.15);border-radius:6px;padding:20px">
+      <div style="font-size:10px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:6px">${v.s}</div>
+      <div style="font-size:13px;font-weight:700;color:var(--white);margin-bottom:8px">${v.t}</div>
+      <div style="font-size:12px;color:var(--grey);line-height:1.65">${v.d}</div>
+    </div>`).join("");
+}
+
+function renderOmanization(){
+  const el=document.getElementById("oman-timeline");
+  if(!el)return;
+  el.innerHTML=OMAN_STEPS.map((o,i)=>`
+    <div class="oman-row">
+      <div class="oman-dot-col"><div class="oman-dot"></div></div>
+      <div class="oman-content">
+        <div class="oman-yr">${o.yr}</div>
+        <div class="oman-desc"><span class="oman-pct">${o.pct}</span> Omani Staff — ${o.desc}</div>
+      </div>
+    </div>`).join("");
+}
+
+function renderHR(){
+  const el=document.getElementById("hr-summary");
+  if(!el)return;
+  el.innerHTML=HR_SUMMARY.map(h=>`
+    <div style="background:rgba(27,53,87,0.4);border:1px solid rgba(184,134,11,0.15);border-radius:6px;padding:20px;border-left:4px solid ${h.col}">
+      <div style="font-size:11px;color:var(--grey);text-transform:uppercase;letter-spacing:0.08em;font-weight:600;margin-bottom:8px">${h.cat}</div>
+      <div style="font-size:28px;font-weight:800;color:var(--white);font-family:var(--font-mono);margin-bottom:4px">${h.n}</div>
+      <div style="font-size:11px;color:${h.col}">${h.note}</div>
+    </div>`).join("");
+
+  const gs=document.getElementById("govt-support");
+  if(gs) gs.innerHTML=GOVT_SUPPORT.map(g=>`
+    <div style="background:rgba(27,53,87,0.4);border:1px solid rgba(184,134,11,0.15);border-radius:6px;padding:20px">
+      <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:8px">${g.l}</div>
+      <div style="font-size:12px;color:var(--grey);line-height:1.6">${g.d}</div>
+    </div>`).join("");
+}
+
+// ─── RADAR CANVAS ────────────────────────────────────────
+let currentScores={...DIMS.reduce((a,d)=>({...a,[d.k]:d.s}),{})};
+let animFrame;
+
+function drawRadar(scores){
+  const canvas=document.getElementById("radar-canvas");
+  if(!canvas)return;
+  const ctx=canvas.getContext("2d");
+  const W=canvas.width,H=canvas.height;
+  const cx=W/2,cy=H/2,r=Math.min(W,H)/2-60;
+  const n=DIMS.length;
+  ctx.clearRect(0,0,W,H);
+
+  // background rings
+  for(let ring=1;ring<=5;ring++){
+    ctx.beginPath();
+    const rr=r*ring/5;
+    for(let i=0;i<n;i++){
+      const a=Math.PI*2*i/n-Math.PI/2;
+      const x=cx+rr*Math.cos(a),y=cy+rr*Math.sin(a);
+      i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
+    }
+    ctx.closePath();
+    ctx.strokeStyle=`rgba(184,134,11,${0.06+ring*0.03})`;
+    ctx.lineWidth=1;
+    ctx.stroke();
+
+    // ring label
+    const labelA=-Math.PI/2;
+    ctx.fillStyle="rgba(138,155,176,0.6)";
+    ctx.font="10px Consolas, monospace";
+    ctx.textAlign="center";
+    ctx.fillText(`${ring*20}`,cx+rr*Math.cos(labelA)-4,cy+rr*Math.sin(labelA)+3);
+  }
+
+  // spokes
+  DIMS.forEach((_,i)=>{
+    const a=Math.PI*2*i/n-Math.PI/2;
+    ctx.beginPath();
+    ctx.moveTo(cx,cy);
+    ctx.lineTo(cx+r*Math.cos(a),cy+r*Math.sin(a));
+    ctx.strokeStyle="rgba(184,134,11,0.12)";
+    ctx.lineWidth=1;
+    ctx.stroke();
+  });
+
+  // data polygon
+  const pts=DIMS.map((d,i)=>{
+    const a=Math.PI*2*i/n-Math.PI/2;
+    const sc=scores[d.k]/100;
+    return{x:cx+r*sc*Math.cos(a),y:cy+r*sc*Math.sin(a),c:d.c};
+  });
+
+  ctx.beginPath();
+  pts.forEach((p,i)=>i===0?ctx.moveTo(p.x,p.y):ctx.lineTo(p.x,p.y));
+  ctx.closePath();
+  ctx.fillStyle="rgba(184,134,11,0.12)";
+  ctx.fill();
+  ctx.strokeStyle="rgba(184,134,11,0.6)";
+  ctx.lineWidth=2;
+  ctx.stroke();
+
+  // data points
+  pts.forEach((p,i)=>{
+    ctx.beginPath();
+    ctx.arc(p.x,p.y,5,0,Math.PI*2);
+    ctx.fillStyle=DIMS[i].c;
+    ctx.fill();
+    ctx.strokeStyle="rgba(13,31,53,0.8)";
+    ctx.lineWidth=2;
+    ctx.stroke();
+  });
+
+  // labels
+  DIMS.forEach((d,i)=>{
+    const a=Math.PI*2*i/n-Math.PI/2;
+    const lx=cx+(r+36)*Math.cos(a);
+    const ly=cy+(r+36)*Math.sin(a);
+    ctx.fillStyle=d.c;
+    ctx.font="bold 11px Arial,sans-serif";
+    ctx.textAlign="center";
+    ctx.textBaseline="middle";
+    const words=d.l.split(" ");
+    if(words.length<=2){
+      ctx.fillText(d.l,lx,ly);
+    } else {
+      const mid=Math.ceil(words.length/2);
+      ctx.fillText(words.slice(0,mid).join(" "),lx,ly-7);
+      ctx.fillText(words.slice(mid).join(" "),lx,ly+7);
+    }
+    ctx.fillStyle="rgba(255,255,255,0.9)";
+    ctx.font="bold 13px Consolas,monospace";
+    ctx.fillText(scores[d.k],lx,ly+20);
+  });
+}
+
+function renderDimBars(scores){
+  const el=document.getElementById("dim-bars");
+  if(!el)return;
+  el.innerHTML=DIMS.map(d=>`
+    <div class="dim-bar-row">
+      <div class="dim-bar-label">
+        <span style="color:${d.c}">${d.l}</span>
+        <span>${scores[d.k]}</span>
+      </div>
+      <div class="dim-bar-track">
+        <div class="dim-bar-fill" style="width:${scores[d.k]}%;background:${d.c}"></div>
+      </div>
+    </div>`).join("");
+}
+
+function renderBoardGrid(){
+  const el=document.getElementById("board-grid");
+  if(!el)return;
+  el.innerHTML=BOARD.map(b=>`
+    <div class="board-cell ${b.v>=90?'high':b.v>=80?'':b.v>=75?'mid':'low'}">
+      <div class="board-cell-label">${b.l}</div>
+      <div class="board-cell-value">${b.v}%</div>
+    </div>`).join("");
+}
+
+function renderDimCards(){
+  const el=document.getElementById("dim-cards");
+  if(!el)return;
+  el.innerHTML=DIMS.map(d=>`
+    <div style="border:1px solid rgba(255,255,255,0.08);border-radius:6px;padding:20px;border-top:3px solid ${d.c}">
+      <div style="font-size:12px;font-weight:700;color:${d.c};margin-bottom:8px">${d.l}</div>
+      <div style="font-size:12px;color:var(--grey);line-height:1.6">Mission logs, fabrication records, engineering outputs, and daily lab performance — continuously evaluated by the AI engine against calibrated competency rubrics for this dimension.</div>
+    </div>`).join("");
+}
+
+function updateProfileMeta(scores){
+  const avg=Math.round(Object.values(scores).reduce((a,b)=>a+b,0)/6);
+  const el=document.getElementById("avg-score");
+  if(el)el.textContent=avg+"th percentile — Pioneer Cohort";
+  const dt=document.getElementById("profile-date");
+  if(dt)dt.textContent=new Date().toLocaleDateString("en-OM",{day:"2-digit",month:"short",year:"numeric"})+" · Live";
+}
+
+function simulateGrowth(){
+  const newScores={};
+  DIMS.forEach(d=>{
+    newScores[d.k]=Math.min(100,currentScores[d.k]+Math.floor(Math.random()*8+2));
+  });
+  currentScores={...newScores};
+  drawRadar(currentScores);
+  renderDimBars(currentScores);
+  updateProfileMeta(currentScores);
+}
+
+function resetScores(){
+  DIMS.forEach(d=>{currentScores[d.k]=d.s});
+  drawRadar(currentScores);
+  renderDimBars(currentScores);
+  updateProfileMeta(currentScores);
+}
+
+// ─── PAGE NAVIGATION ─────────────────────────────────────
+function showPage(id){
+  document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+  document.querySelectorAll(".nav-tab").forEach(t=>t.classList.remove("active"));
+  document.getElementById("page-"+id).classList.add("active");
+  const tabs=document.querySelectorAll(".nav-tab");
+  const map={home:0,strategic:1,financial:2,infrastructure:3,security:4,competency:5,hr:6};
+  if(map[id]!==undefined)tabs[map[id]].classList.add("active");
+  window.scrollTo({top:0,behavior:"smooth"});
+  if(id==="competency"){
+    setTimeout(()=>{drawRadar(currentScores);renderDimBars(currentScores);renderBoardGrid();renderDimCards();updateProfileMeta(currentScores);},100);
+  }
+}
+
+// ─── INIT ─────────────────────────────────────────────────
+function init(){
+  renderBreakthroughs();
+  renderCapex();
+  renderOpexCards();
+  renderLabs();
+  renderSecurity();
+  renderVisitorWorkflow();
+  renderOmanization();
+  renderHR();
+}
+
+// ── SESSION DISPLAY & LOGOUT ──────────────────────────────
+function doLogout(){
+  sessionStorage.removeItem('tarbiyat_session');
+  window.location.replace('index.html');
+}
+function showSessionUser(){
+  try{
+    const s=JSON.parse(atob(sessionStorage.getItem('tarbiyat_session')||''));
+    const el=document.getElementById('session-user');
+    if(el && s.name) el.textContent='Authenticated: '+s.name.toUpperCase()+' · '+s.role.toUpperCase();
+  }catch(e){}
+}
+document.addEventListener("DOMContentLoaded",function(){init();showSessionUser();});
+</script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>User Management — Tarbiyat Portal Admin</title>
+<style>
+:root{
+  --navy:#070F1A; --navy2:#0D1F35; --navy3:#1B3557;
+  --gold:#B8860B; --gold-l:#D4A017; --lgold:#FBF5E6;
+  --red:#C0392B; --lred:rgba(192,57,43,0.12);
+  --green:#1E8449; --lgreen:rgba(30,132,73,0.12);
+  --grey:#5D6D7E; --lgrey:#8A9BB0; --white:#F0F4F8;
+  --border:rgba(184,134,11,0.22);
+  --mono:'Consolas','Courier New',monospace;
+  --sans:'Segoe UI','Helvetica Neue',Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px}
+body{font-family:var(--sans);background:var(--navy);color:var(--white);min-height:100vh}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(184,134,11,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(184,134,11,0.03) 1px,transparent 1px);background-size:48px 48px;pointer-events:none;z-index:0}
+
+/* ── ADMIN AUTH GATE ── */
+#gate{position:fixed;inset:0;background:var(--navy);z-index:999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0}
+#gate.hide{display:none}
+.gate-card{width:100%;max-width:380px;margin:20px;background:rgba(13,31,53,0.9);border:1px solid var(--border);border-radius:4px;padding:36px 32px;text-align:center}
+.gate-title{font-family:var(--mono);font-size:11px;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.gate-sub{font-size:13px;color:var(--lgrey);margin-bottom:24px}
+.gate-warn{font-size:11px;color:rgba(231,76,60,0.7);margin-bottom:20px;padding:9px 12px;border-left:3px solid rgba(192,57,43,0.5);text-align:left;font-style:italic}
+
+/* ── LAYOUT ── */
+#app{position:relative;z-index:1;max-width:860px;margin:0 auto;padding:32px 24px 60px}
+
+/* ── TOP BAR ── */
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px;flex-wrap:wrap;gap:12px}
+.topbar-left h1{font-size:20px;font-weight:700;color:var(--white)}
+.topbar-left h1 span{color:var(--gold)}
+.topbar-left p{font-size:12px;color:var(--lgrey);margin-top:3px;font-family:var(--mono);letter-spacing:0.06em}
+.back-btn{font-family:var(--mono);font-size:11px;color:var(--lgrey);text-decoration:none;border:1px solid rgba(93,109,126,0.3);padding:7px 16px;border-radius:3px;letter-spacing:0.1em;text-transform:uppercase;transition:all .2s;cursor:pointer;background:none}
+.back-btn:hover{color:var(--gold);border-color:var(--gold)}
+
+/* ── SECTION LABEL ── */
+.sec-lbl{font-family:var(--mono);font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:14px}
+
+/* ── ADD USER FORM ── */
+.add-box{background:rgba(13,31,53,0.7);border:1px solid var(--border);border-radius:4px;padding:24px;margin-bottom:32px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+@media(max-width:560px){.form-grid{grid-template-columns:1fr}}
+.field{display:flex;flex-direction:column;gap:6px}
+.flbl{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--lgrey);font-weight:600}
+.finput{background:rgba(7,15,26,0.7);border:1px solid rgba(184,134,11,0.2);border-radius:3px;padding:10px 13px;font-family:var(--mono);font-size:13px;color:var(--white);outline:none;letter-spacing:0.04em;transition:border-color .2s,box-shadow .2s;width:100%}
+.finput::placeholder{color:rgba(93,109,126,0.5)}
+.finput:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,134,11,0.09)}
+.pw-wrap{position:relative}
+.pw-wrap .finput{padding-right:60px}
+.pw-eye{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-family:var(--mono);font-size:9px;color:var(--gold);cursor:pointer;letter-spacing:0.08em;text-transform:uppercase;background:none;border:none;padding:0}
+
+.add-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.btn-add{display:flex;align-items:center;gap:8px;padding:11px 24px;background:rgba(184,134,11,0.12);border:1.5px solid var(--gold);border-radius:3px;color:var(--gold);font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer;transition:all .2s}
+.btn-add:hover{background:rgba(184,134,11,0.22);box-shadow:0 0 18px rgba(184,134,11,0.2)}
+.btn-add:active{transform:scale(0.98)}
+.form-note{font-size:11px;color:var(--lgrey);font-style:italic}
+
+/* ── FORM STATUS ── */
+#form-msg{font-family:var(--mono);font-size:11px;letter-spacing:.05em;min-height:24px;display:flex;align-items:center;gap:7px}
+#form-msg.ok{color:#27AE60}#form-msg.er{color:#E74C3C}
+
+/* ── STRENGTH METER ── */
+.strength-row{display:flex;align-items:center;gap:8px;margin-top:6px}
+.str-bar{flex:1;height:4px;background:rgba(255,255,255,0.07);border-radius:2px;overflow:hidden}
+.str-fill{height:100%;border-radius:2px;transition:width .3s,background .3s}
+.str-label{font-family:var(--mono);font-size:10px;width:54px;text-align:right}
+
+/* ── USER TABLE ── */
+.tbl-box{background:rgba(13,31,53,0.7);border:1px solid var(--border);border-radius:4px;overflow:hidden}
+.tbl-header{display:grid;grid-template-columns:1fr 1.3fr 130px 80px;padding:11px 20px;background:rgba(27,53,87,0.6);border-bottom:1px solid var(--border);gap:12px}
+.tbl-header span{font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--lgrey);font-weight:600}
+.user-row{display:grid;grid-template-columns:1fr 1.3fr 130px 80px;padding:14px 20px;border-bottom:1px solid rgba(184,134,11,0.08);gap:12px;align-items:center;transition:background .15s}
+.user-row:hover{background:rgba(27,53,87,0.3)}
+.user-row:last-child{border-bottom:none}
+.u-name{font-size:13px;font-weight:600;color:var(--white)}
+.u-email{font-family:var(--mono);font-size:11px;color:var(--lgrey);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.u-date{font-family:var(--mono);font-size:10px;color:var(--grey)}
+.u-del{display:flex;align-items:center;justify-content:flex-end}
+.del-btn{background:none;border:1px solid rgba(192,57,43,0.3);border-radius:3px;color:rgba(231,76,60,0.6);font-size:13px;padding:5px 9px;cursor:pointer;transition:all .2s;line-height:1}
+.del-btn:hover{background:rgba(192,57,43,0.1);border-color:var(--red);color:#E74C3C}
+
+.empty-state{padding:48px 20px;text-align:center}
+.empty-state p{font-family:var(--mono);font-size:12px;color:var(--grey);line-height:1.8}
+
+/* ── COUNT BADGE ── */
+.count-badge{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:rgba(184,134,11,0.15);border:1px solid var(--border);border-radius:50%;font-family:var(--mono);font-size:11px;font-weight:700;color:var(--gold);margin-left:8px}
+
+/* ── INFO BOX ── */
+.info-box{background:rgba(27,53,87,0.4);border:1px solid rgba(184,134,11,0.15);border-radius:4px;padding:16px 20px;margin-bottom:32px;display:flex;gap:14px;align-items:flex-start}
+.info-icon{font-size:18px;flex-shrink:0;margin-top:1px}
+.info-box p{font-size:12px;color:var(--lgrey);line-height:1.7}
+.info-box strong{color:var(--white);font-weight:600}
+
+/* ── DIVIDER ── */
+.div{height:1px;background:linear-gradient(90deg,var(--gold),rgba(184,134,11,0.15),transparent);margin:28px 0}
+
+/* ── TOAST ── */
+#toast{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:8px}
+.toast-item{background:rgba(13,31,53,0.95);border:1px solid var(--border);border-radius:4px;padding:12px 18px;font-family:var(--mono);font-size:11px;letter-spacing:.05em;backdrop-filter:blur(10px);animation:tin .3s ease both;display:flex;align-items:center;gap:9px}
+@keyframes tin{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:none}}
+.toast-item.ok{border-color:rgba(39,174,96,0.5);color:#27AE60}
+.toast-item.er{border-color:rgba(192,57,43,0.5);color:#E74C3C}
+.toast-item.in{border-color:var(--border);color:var(--lgrey)}
+
+@media(max-width:560px){
+  .tbl-header,.user-row{grid-template-columns:1fr 100px;gap:8px}
+  .tbl-header span:nth-child(2),.tbl-header span:nth-child(3),
+  .u-email,.u-date{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ── ADMIN GATE ── -->
+<div id="gate">
+  <div class="gate-card">
+    <div class="gate-title">⚙ Admin Panel</div>
+    <div class="gate-sub">User Management — Tarbiyat Portal</div>
+    <div class="gate-warn">This page is for authorised administrators only. Do not share this URL.</div>
+    <div class="field" style="margin-bottom:16px;text-align:left">
+      <label class="flbl">Admin Password</label>
+      <div class="pw-wrap">
+        <input class="finput" type="password" id="gate-pw" placeholder="Enter admin password"/>
+        <button class="pw-eye" onclick="toggleGatePw()">SHOW</button>
+      </div>
+    </div>
+    <button class="btn-add" style="width:100%;justify-content:center" onclick="checkGate()">ENTER ADMIN PANEL</button>
+    <div id="gate-msg" style="margin-top:14px;font-family:var(--mono);font-size:11px;color:#E74C3C;min-height:20px;text-align:center"></div>
+  </div>
+</div>
+
+<!-- ── MAIN APP ── -->
+<div id="app" style="display:none">
+
+  <div class="topbar">
+    <div class="topbar-left">
+      <h1>User <span>Management</span></h1>
+      <p>TARBIYAT PORTAL · ADMIN PANEL · ALL CHANGES SAVE INSTANTLY</p>
+    </div>
+    <a href="index.html" class="back-btn">← Back to Login</a>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="info-box">
+    <div class="info-icon">💡</div>
+    <p>
+      <strong>How this works:</strong> Add a user below with their name, email, and password. They will appear in the table immediately. When they visit the login page and enter their credentials, they get access to the dashboard. To remove access, click the 🗑 delete button next to their name. <strong>All data is saved in the browser.</strong> If you move to a new server or clear your browser, you will need to re-add users here.
+    </p>
+  </div>
+
+  <!-- ADD USER -->
+  <div class="sec-lbl">Add New User</div>
+  <div class="add-box">
+    <div class="form-grid">
+      <div class="field">
+        <label class="flbl">Full Name</label>
+        <input class="finput" type="text" id="n-name" placeholder="e.g. Dr. Ahmed Al-Rashidi"/>
+      </div>
+      <div class="field">
+        <label class="flbl">Email Address</label>
+        <input class="finput" type="email" id="n-email" placeholder="e.g. ahmed@ministry.gov.om"/>
+      </div>
+      <div class="field">
+        <label class="flbl">Password</label>
+        <div class="pw-wrap">
+          <input class="finput" type="password" id="n-pass" placeholder="Create a strong password" oninput="checkStrength(this.value)"/>
+          <button class="pw-eye" onclick="toggleAddPw()">SHOW</button>
+        </div>
+        <div class="strength-row">
+          <div class="str-bar"><div class="str-fill" id="str-fill" style="width:0%;background:var(--red)"></div></div>
+          <span class="str-label" id="str-lbl" style="color:var(--grey)">—</span>
+        </div>
+      </div>
+      <div class="field">
+        <label class="flbl">Confirm Password</label>
+        <div class="pw-wrap">
+          <input class="finput" type="password" id="n-pass2" placeholder="Repeat the password"/>
+          <button class="pw-eye" onclick="toggleConfPw()">SHOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="add-row">
+      <button class="btn-add" onclick="addUser()">＋ ADD USER</button>
+      <div id="form-msg"></div>
+    </div>
+  </div>
+
+  <!-- USER LIST -->
+  <div style="display:flex;align-items:center;margin-bottom:14px">
+    <div class="sec-lbl" style="margin:0">Current Users</div>
+    <div class="count-badge" id="u-count">0</div>
+  </div>
+
+  <div class="tbl-box">
+    <div class="tbl-header">
+      <span>Name</span>
+      <span>Email</span>
+      <span>Added</span>
+      <span style="text-align:right">Action</span>
+    </div>
+    <div id="user-list"></div>
+  </div>
+
+  <div class="div"></div>
+
+  <!-- CHANGE ADMIN PASSWORD -->
+  <div class="sec-lbl">Change Admin Password</div>
+  <div class="add-box">
+    <div class="form-grid">
+      <div class="field">
+        <label class="flbl">New Admin Password</label>
+        <div class="pw-wrap">
+          <input class="finput" type="password" id="new-admin" placeholder="New password for this admin page"/>
+          <button class="pw-eye" onclick="toggleNewAdmin()">SHOW</button>
+        </div>
+      </div>
+      <div class="field">
+        <label class="flbl">Confirm New Password</label>
+        <input class="finput" type="password" id="new-admin2" placeholder="Confirm new password"/>
+      </div>
+    </div>
+    <div class="add-row">
+      <button class="btn-add" onclick="changeAdminPw()">🔑 UPDATE ADMIN PASSWORD</button>
+      <div id="admin-msg" style="font-family:var(--mono);font-size:11px;letter-spacing:.05em;min-height:24px;display:flex;align-items:center;gap:7px"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- TOAST CONTAINER -->
+<div id="toast"></div>
+
+<script>
+// ── ADMIN PASSWORD ──────────────────────────────────────────────
+const DEFAULT_ADMIN_PW = 'Admin@Portal2028';
+function getAdminPw(){ return localStorage.getItem('tarbiyat_admin_pw') || btoa(DEFAULT_ADMIN_PW); }
+
+function checkGate(){
+  const pw = document.getElementById('gate-pw').value;
+  if(!pw){ document.getElementById('gate-msg').textContent = 'Please enter the admin password.'; return; }
+  if(btoa(pw) === getAdminPw()){
+    document.getElementById('gate').classList.add('hide');
+    document.getElementById('app').style.display = 'block';
+    renderUsers();
+  } else {
+    document.getElementById('gate-msg').textContent = '✗ Incorrect password.';
+    document.getElementById('gate-pw').value = '';
+  }
+}
+document.addEventListener('keydown', e => {
+  if(e.key==='Enter' && !document.getElementById('gate').classList.contains('hide')){
+    if(document.activeElement.id==='gate-pw') checkGate();
+  }
+});
+function toggleGatePw(){ const i=document.getElementById('gate-pw'); i.type=i.type==='password'?'text':'password'; }
+
+// ── USERS ───────────────────────────────────────────────────────
+function getUsers(){ try{ return JSON.parse(localStorage.getItem('tarbiyat_users')||'[]'); }catch(e){ return []; } }
+function saveUsers(u){ localStorage.setItem('tarbiyat_users', JSON.stringify(u)); }
+
+// ── RENDER TABLE ────────────────────────────────────────────────
+function renderUsers(){
+  const users = getUsers();
+  const el = document.getElementById('user-list');
+  document.getElementById('u-count').textContent = users.length;
+
+  if(users.length === 0){
+    el.innerHTML = `<div class="empty-state"><p>No users added yet.<br>Add your first user above and they can log in immediately.</p></div>`;
+    return;
+  }
+
+  el.innerHTML = users.map((u,i) => `
+    <div class="user-row">
+      <div class="u-name">${esc(u.name)}</div>
+      <div class="u-email" title="${esc(u.email)}">${esc(u.email)}</div>
+      <div class="u-date">${fmtDate(u.created)}</div>
+      <div class="u-del">
+        <button class="del-btn" onclick="deleteUser(${i})" title="Remove this user">🗑</button>
+      </div>
+    </div>`).join('');
+}
+
+// ── ADD USER ────────────────────────────────────────────────────
+function addUser(){
+  const name  = document.getElementById('n-name').value.trim();
+  const email = document.getElementById('n-email').value.trim().toLowerCase();
+  const pass  = document.getElementById('n-pass').value;
+  const pass2 = document.getElementById('n-pass2').value;
+
+  if(!name)   { formMsg('Please enter a name.','er'); return; }
+  if(!email)  { formMsg('Please enter an email address.','er'); return; }
+  if(!isEmail(email)) { formMsg('Please enter a valid email address.','er'); return; }
+  if(!pass)   { formMsg('Please enter a password.','er'); return; }
+  if(pass.length < 6) { formMsg('Password must be at least 6 characters.','er'); return; }
+  if(pass !== pass2)  { formMsg('Passwords do not match.','er'); return; }
+
+  const users = getUsers();
+  if(users.find(u => u.email.toLowerCase() === email)){
+    formMsg('A user with this email already exists.','er'); return;
+  }
+
+  users.push({ email, passHash: btoa(pass), name, created: new Date().toISOString() });
+  saveUsers(users);
+  renderUsers();
+
+  // Clear form
+  ['n-name','n-email','n-pass','n-pass2'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('str-fill').style.width = '0%';
+  document.getElementById('str-lbl').textContent = '—';
+  document.getElementById('str-lbl').style.color = 'var(--grey)';
+
+  formMsg('✓ User added successfully!','ok');
+  toast(`${name} added — they can now log in.`,'ok');
+  setTimeout(()=>formMsg('',''),3000);
+}
+
+// ── DELETE USER ─────────────────────────────────────────────────
+function deleteUser(idx){
+  const users = getUsers();
+  const u = users[idx];
+  if(!u) return;
+  if(!confirm(`Remove access for ${u.name} (${u.email})?\n\nThey will no longer be able to log in.`)) return;
+  users.splice(idx, 1);
+  saveUsers(users);
+  renderUsers();
+  toast(`${u.name} removed.`,'in');
+}
+
+// ── CHANGE ADMIN PASSWORD ────────────────────────────────────────
+function changeAdminPw(){
+  const np  = document.getElementById('new-admin').value;
+  const np2 = document.getElementById('new-admin2').value;
+  const el  = document.getElementById('admin-msg');
+  if(!np){ el.className='er'; el.textContent='Enter a new password.'; return; }
+  if(np.length < 8){ el.className='er'; el.textContent='Admin password must be at least 8 characters.'; return; }
+  if(np !== np2){ el.className='er'; el.textContent='Passwords do not match.'; return; }
+  localStorage.setItem('tarbiyat_admin_pw', btoa(np));
+  document.getElementById('new-admin').value='';
+  document.getElementById('new-admin2').value='';
+  el.className='ok'; el.textContent='✓ Admin password updated.';
+  toast('Admin password changed.','ok');
+  setTimeout(()=>{ el.textContent=''; el.className=''; },4000);
+}
+
+// ── PASSWORD STRENGTH ────────────────────────────────────────────
+function checkStrength(pw){
+  let score = 0;
+  if(pw.length >= 6) score++;
+  if(pw.length >= 10) score++;
+  if(/[A-Z]/.test(pw)) score++;
+  if(/[0-9]/.test(pw)) score++;
+  if(/[^A-Za-z0-9]/.test(pw)) score++;
+
+  const fill = document.getElementById('str-fill');
+  const lbl  = document.getElementById('str-lbl');
+  const pct  = (score/5)*100;
+  fill.style.width = pct+'%';
+
+  if(score<=1){ fill.style.background='#E74C3C'; lbl.style.color='#E74C3C'; lbl.textContent='Weak'; }
+  else if(score<=2){ fill.style.background='#E67E22'; lbl.style.color='#E67E22'; lbl.textContent='Fair'; }
+  else if(score<=3){ fill.style.background='#F1C40F'; lbl.style.color='#F1C40F'; lbl.textContent='Good'; }
+  else if(score<=4){ fill.style.background='#27AE60'; lbl.style.color='#27AE60'; lbl.textContent='Strong'; }
+  else{ fill.style.background='#1ABC9C'; lbl.style.color='#1ABC9C'; lbl.textContent='Very Strong'; }
+
+  if(!pw){ fill.style.width='0'; lbl.textContent='—'; lbl.style.color='var(--grey)'; }
+}
+
+// ── TOGGLE PASSWORD VISIBILITY ────────────────────────────────────
+function toggleAddPw(){ const i=document.getElementById('n-pass'); i.type=i.type==='password'?'text':'password'; }
+function toggleConfPw(){ const i=document.getElementById('n-pass2'); i.type=i.type==='password'?'text':'password'; }
+function toggleNewAdmin(){ const i=document.getElementById('new-admin'); i.type=i.type==='password'?'text':'password'; }
+
+// ── HELPERS ───────────────────────────────────────────────────────
+function formMsg(t,c){ const el=document.getElementById('form-msg'); el.textContent=t; el.className=c; }
+function isEmail(e){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
+function esc(s){ const d=document.createElement('div');d.textContent=s;return d.innerHTML; }
+function fmtDate(iso){ if(!iso) return '—'; const d=new Date(iso); return d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+
+function toast(msg,type='in'){
+  const container=document.getElementById('toast');
+  const el=document.createElement('div');
+  el.className='toast-item '+type;
+  el.innerHTML=(type==='ok'?'✓ ':type==='er'?'✗ ':'ℹ ')+msg;
+  container.appendChild(el);
+  setTimeout(()=>{ el.style.opacity='0'; el.style.transition='opacity .4s'; setTimeout(()=>el.remove(),400); },3500);
+}
+
+// Enter key support on add form
+document.addEventListener('keydown', e=>{
+  if(e.key==='Enter' && document.getElementById('app').style.display!=='none'){
+    if(['n-name','n-email','n-pass','n-pass2'].includes(document.activeElement.id)) addUser();
+    else if(['new-admin','new-admin2'].includes(document.activeElement.id)) changeAdminPw();
+  }
+});
+</script>
+</body>
+</html>

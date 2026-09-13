@@ -1,0 +1,13 @@
+﻿# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+.~lock.*
+
+# Local secrets (none expected yet)
+.env
+*.pem
+
+# Optional local scratch
+_scratch/
