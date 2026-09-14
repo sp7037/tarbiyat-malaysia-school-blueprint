@@ -158,7 +158,7 @@ That differs from:
 - not exaggerated;
 - sufficiently specific to inspect or defend.
 
-**This ADR does not create the full capability taxonomy.** Domain maps and graph relationships remain `GAP-008` / `GAP-009` / proposed ADR-0011.
+**This ADR does not create the full capability taxonomy.** Domain maps drafted in ADR-0011 (`UNDER REVIEW` / `GAP-008`); graph relationships remain `GAP-009`.
 
 ---
 
@@ -584,7 +584,7 @@ Core does **not** promise unemployment reduction, official national adoption or 
 ### Follow-on work
 
 - Human review of this ADR; close GAP-010 only if APPROVED.
-- Competency Graph schema (`GAP-009`); Six Worlds maps (ADR-0011 / `GAP-008`).
+- Competency Graph schema (`GAP-009`); Six Worlds maps (ADR-0011 UNDER REVIEW / `GAP-008`).
 - Verification operating standard (`GAP-038`).
 - Student challenge process (`GAP-039`).
 - Presentation modes (`GAP-040`).

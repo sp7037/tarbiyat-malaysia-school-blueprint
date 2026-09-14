@@ -186,7 +186,7 @@ Indicators may include, without becoming a Competency Graph schema:
 2. **Choose** provisional concentration may lean toward one or more Worlds without exclusive lock-in.
 3. **Deepen / Produce** Major + Minor typically sit within one or more Worlds and may be interdisciplinary.
 4. Worlds are domains for exploration and concentration — **not** permanent career labels for children.
-5. Detailed World competency maps remain open (`GAP-008`).
+5. Detailed World competency maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
 
 ---
 
@@ -299,7 +299,7 @@ Indicators may include, without becoming a Competency Graph schema:
 
 1. Exact operational criteria and artefacts for readiness reviews (architecture vs later procedure).
 2. How country profiles should document coexistence when local systems require early subject election that is not Tarbiyat Major/Minor.
-3. Minimum Discover exposure package before Deepen Major/Minor entry (related `GAP-008`).
+3. Minimum Discover exposure package before Deepen Major/Minor entry (related `GAP-008` / `GAP-045`).
 4. Whether Produce is a distinct final programme phase or primarily an intensity overlay on late Deepen in some country structures.
 5. Cited developmental evidence pack confirming or adjusting window edges (`GAP-021`).
 6. Timetable proportions by stage (`GAP-016`) after this ADR’s windows are ratified.

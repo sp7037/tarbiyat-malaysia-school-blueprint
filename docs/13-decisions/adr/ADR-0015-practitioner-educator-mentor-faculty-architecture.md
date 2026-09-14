@@ -470,7 +470,7 @@ Faculty architecture must work across **all Six Worlds**. It must **not** become
 | Creative, Media & Human Communication | Artists, designers, media, writers, communication professionals |
 | Society, Leadership & Public Systems | Policy, legal, civic, social-science, public-system practitioners |
 
-Actual regulated professional practice remains subject to country law. World competency maps remain open (`GAP-008`).
+Actual regulated professional practice remains subject to country law. World competency maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
 
 ---
 

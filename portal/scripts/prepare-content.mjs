@@ -423,9 +423,9 @@ function buildWorkstreams(adrs) {
     {
       id: 'six-worlds',
       name: 'Six Worlds & Pathways',
-      status: 'OPEN',
-      detail: 'Named in Constitution; detailed competency maps not defined (GAP-008). Section is a DRAFT shell.',
-      evidence: 'GAP-008; docs/03 SECTION_README',
+      status: 'UNDER REVIEW',
+      detail: 'ADR-0011 proposes Six Worlds capability frames and progressive depth (UNDER REVIEW). GAP-008 proposed resolution — not closed. Graph schema remains GAP-009. docs/03 still a shell for detailed briefs.',
+      evidence: 'ADR-0011; GAP-008; GAP-045–047; docs/03 SECTION_README',
       href: '/areas/six-worlds'
     },
     {
@@ -542,7 +542,6 @@ function writeDataFiles(adrs, gaps, workstreams) {
           { id: 'ADR-0008', title: 'Residential/boarding model is country/project decision', status: 'PROPOSED' },
           { id: 'ADR-0009', title: 'Data-sovereignty architecture is country/project decision', status: 'PROPOSED' },
           { id: 'ADR-0010', title: 'Designate canonical Malaysia Concept Note file', status: 'PROPOSED' },
-          { id: 'ADR-0011', title: 'Six Worlds depth / competency maps', status: 'PROPOSED' },
           { id: 'ADR-0012', title: 'Oman materials as reference only (no auto-import)', status: 'PROPOSED' },
           { id: 'ADR-0013', title: 'Claims + Evidence registers for uniqueness/approval language', status: 'PROPOSED' }
         ]
@@ -596,7 +595,6 @@ From \`ADR_INDEX.md\` — listed for navigation awareness only:
 | ADR-0008 | Residential/boarding model is country/project decision | PROPOSED |
 | ADR-0009 | Data-sovereignty architecture is country/project decision | PROPOSED |
 | ADR-0010 | Designate canonical Malaysia Concept Note file | PROPOSED |
-| ADR-0011 | Six Worlds depth / competency maps | PROPOSED |
 | ADR-0012 | Oman materials as reference only (no auto-import) | PROPOSED |
 | ADR-0013 | Claims + Evidence registers for uniqueness/approval language | PROPOSED |
 

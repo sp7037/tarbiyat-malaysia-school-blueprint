@@ -5,7 +5,7 @@
 | Document ID | `FND-006` |
 | Version | `0.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-13` |
+| Last reviewed | `2026-09-14` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
@@ -19,8 +19,11 @@
 | **Mission-Based Learning** | Learning organised around sustained real or realistically scoped missions with outputs | CORE |
 | **Knowledge Studio** | Classroom redefined for briefing, seminar, critique and focused theory | CORE |
 | **Explore → Discover → Choose → Deepen → Produce** | Named progression stages (age bands TBD) | CORE |
-| **Six Worlds** | Six broad professional/learning domains listed in Concept Constitution | CORE |
-| **Major / Minor** | Pathway structure at suitable ages (timing TBD) | CORE |
+| **Six Worlds** | Six developmental learning/professional domains for exploration, Missions, Major+Minor and capability context — not career labels or subject lists (ADR-0011 UNDER REVIEW) | CORE |
+| **Major / Minor** | Pathway structure at suitable ages; may sit within or across Worlds (timing via ADR-0004/0005 UNDER REVIEW; World relationship ADR-0011 UNDER REVIEW) | CORE |
+| **Capability Depth Ladder** | Encounter → Inquire → Apply → Integrate → Advance → Contribute — domain depth distinct from whole-student stage (ADR-0011 UNDER REVIEW) | CORE |
+| **Cross-World Capability** | Competency that recurs across Worlds; later Graph shared-node candidate (ADR-0011 UNDER REVIEW; schema GAP-009) | CORE |
+| **Cross-World Mission** | Mission intentionally integrating capabilities from more than one World (ADR-0011 UNDER REVIEW) | CORE |
 | **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 UNDER REVIEW) | CORE |
 | **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 UNDER REVIEW) | CORE |
 | **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |

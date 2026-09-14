@@ -8,8 +8,8 @@
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0014–0016 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–8 ADR drafts (0004–0007, 0014–0016) |
+| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0016 |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–9 ADR drafts (0004–0007, 0011, 0014–0016) |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -22,8 +22,8 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-005 | Day school vs residential model for Malaysia | MY Concept Note assumes residential; Core non-mandate APPROVED | Malaysia/project implementation decision; evidence if claimed as legally required | High | Open (MY undecided; Core non-mandate closed by ADR-0001) |
 | GAP-006 | Data residency / “sovereign” IT for Malaysia | MY note uses sovereign-data language; Core non-mandate APPROVED | Malaysia/project decision; Core = lawful privacy-conscious governance only | High | Open (MY undecided; Core non-mandate closed by ADR-0001) |
 | GAP-007 | Ownership / governance model for Malaysia | Concept note proposes Government-owned; not approved fact | Stakeholder decision in MY profile | High | Open |
-| GAP-008 | Six worlds detailed competency maps | Worlds named in Constitution; depth undefined | Draft world briefs under `docs/03-worlds-and-pathways/` (future ADR-0011 candidate) | Medium | Open |
-| GAP-009 | Competency Graph specification | Required by dual assessment model (ADR-0003); distinct from PoC evidence (ADR-0016) | Core schema + evidence-link rules under `docs/05-assessment/`; keep compatible with ADR-0016 | Medium | Open |
+| GAP-008 | Six worlds detailed competency maps | Worlds named in Constitution; depth undefined | Human review of ADR-0011; close only after ADR-0011 APPROVED; section briefs under `docs/03-worlds-and-pathways/` after direction clear | Medium | Proposed resolution via ADR-0011 (`UNDER REVIEW`) — not closed |
+| GAP-009 | Competency Graph specification | Required by dual assessment model (ADR-0003); distinct from PoC evidence (ADR-0016); World semantics now drafted in ADR-0011 | Core schema + evidence-link rules under `docs/05-assessment/`; keep compatible with ADR-0011 semantics and ADR-0016 | Medium | Open |
 | GAP-010 | Proof of Capability Profile specification | Required by dual assessment model (ADR-0003) | Human review of ADR-0016; close only after ADR-0016 APPROVED; ops via GAP-038–044 | Medium | Proposed resolution via ADR-0016 (`UNDER REVIEW`) — not closed |
 | GAP-011 | Student IP / micro-venture legal feasibility in Malaysia | Enterprise pathway depends on law | Legal research; no invented IP rules | Medium | Open |
 | GAP-012 | Authoritative baseline among Oman versions | Internal Oman contradictions remain | Human designates reference hierarchy (not MY defaults) | Medium | Open |
@@ -59,6 +59,9 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-042 | Faculty evidence workload / significance thresholds | Mission evidence volume can create administrative hell | Research selective-evidence thresholds and reusable artefact patterns | High | Open (opened by ADR-0016) |
 | GAP-043 | External acceptance of Proof of Capability | Universities/employers/ministries may or may not value PoC; Core must not invent endorsements | Country/project acceptance research with citations; no fabricated recognition claims | Medium | Open (opened by ADR-0016) |
 | GAP-044 | PoC retention, privacy and sanitised-evidence operating rules | Lifelong records risk over-collection; confidential missions need sanitisation | Draft retention/privacy/sanitisation SOP; align with country data law (MY still GAP-006 where relevant) | Medium | Open (opened by ADR-0016) |
+| GAP-045 | Discover Six Worlds meaningful-exposure package | ADR-0011 requires substantive exposure across all six Worlds; token career-day risk remains | Draft operational criteria (rotations/Labs/comparative Missions/reflection) after ADR-0011 human review; no Core timetable % | High | Open (opened by ADR-0011) |
+| GAP-046 | Within-World / cross-World pathway design rules | Major/Minor need not equal entire Worlds; unconstrained sub-pathways risk hidden streaming | Draft pathway-naming principles and anti-streaming guards after ADR-0011 review; no full catalogue yet | Medium | Open (opened by ADR-0011) |
+| GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes | Medium | Open (opened by ADR-0011) |
 
 ## Closed (Core design conflicts only)
 

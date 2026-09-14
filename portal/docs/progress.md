@@ -61,7 +61,7 @@ Known work not yet completed (documentation evidence):
 
 | Area | Why pending | Related |
 |---|---|---|
-| Six Worlds competency maps | Worlds named; depth undefined | [GAP-008](/gaps#gap-008), proposed ADR-0011 |
+| Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; ops packages open | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
 | Proof of Capability Profile | Required by dual assessment model | [GAP-010](/gaps#gap-010) |
 | Exploration Floor operationalisation | Principle exists; package TBD | [GAP-019](/gaps#gap-019) |
@@ -69,7 +69,7 @@ Known work not yet completed (documentation evidence):
 | Pathway change bridging standards | Reversibility needs operational detail | [GAP-020](/gaps#gap-020) |
 | Weekly time-balance principles by stage | No fixed Core %; stage windows proposed | [GAP-016](/gaps#gap-016) |
 | Detailed section specs (01–09, 11) | `SECTION_README` shells only | [Master Index §C](/master-index) |
-| Proposed ADRs 0008–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
+| Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Competency Graph specification | Required by dual assessment; distinct from PoC | [GAP-009](/gaps#gap-009) |
 | Proof of Capability operating detail | Architecture drafted; verification/workload/acceptance open | [GAP-010](/gaps#gap-010), [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016) |
 | Faculty staffing ratios / country role mapping | Architecture drafted; evidence and mapping open | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015) |
@@ -97,8 +97,8 @@ Intentionally postponed or country-specific:
 
 Based on current repository state (not a new architectural decision):
 
-1. Human review of **ADR-0004** and **ADR-0005**
-2. After Core student-development ratification: Six Worlds depth, competency/assessment specs, mission standards
+1. Human review of **ADR-0004**, **ADR-0005** and **ADR-0011**
+2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), Discover exposure package (`GAP-045`), mission/assessment ops
 3. Parallel Malaysia research with citations (licensing, recognition mapping, canonical Concept Note)
 
 Continue in: [Roadmap](/roadmap) · [Gaps](/gaps) · [Changelog](/changelog)

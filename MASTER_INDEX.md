@@ -49,7 +49,7 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 |---|---|---|---|
 | 01 Learning architecture | `docs/01-learning-architecture/SECTION_README.md` | Lab-First, Mission-Based, Knowledge Studios | DRAFT |
 | 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce | DRAFT |
-| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six worlds; Major+Minor | DRAFT |
+| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds capability frames (ADR-0011 UNDER REVIEW); Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; production vs demo practicals | DRAFT |
@@ -89,6 +89,7 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | ADR-0005 | `docs/13-decisions/adr/ADR-0005-developmental-stage-boundaries-and-major-minor-entry.md` | UNDER REVIEW | Typical stage windows; readiness; Major+Minor entry at Deepen |
 | ADR-0006 | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` | UNDER REVIEW | Stage transition; Exploration Floor as protected dimensions; pathway bridging/mobility |
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | UNDER REVIEW | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 proposed resolution |
+| ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | UNDER REVIEW | Six Worlds capability / progressive depth; GAP-008 proposed resolution; GAP-045–047 opened |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
 | ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; GAP-032–037 opened |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |

@@ -208,7 +208,7 @@ Mission architecture must support **all Six Worlds**, not only engineering, AI o
 | Creative, Media & Human Communication | Produce communication, media or design work for a real audience under consent rules |
 | Society, Leadership & Public Systems | Analyse a civic/public-service problem and propose an evidence-based intervention |
 
-Detailed World competency maps remain open (`GAP-008`; proposed ADR-0011).
+Detailed World competency maps remain open (`GAP-008`; ADR-0011 `UNDER REVIEW` — proposed resolution, not closed).
 
 ---
 

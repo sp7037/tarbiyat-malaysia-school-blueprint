@@ -89,7 +89,7 @@ Tarbiyat supports interest → preference → concentration → Major/Minor **pr
 5. Creative, Media & Human Communication  
 6. Society, Leadership & Public Systems  
 
-**Operational meaning:** Rotations, comparative missions and guided reflection designed for **discovery through experience**, not career selection. World maps remain to be detailed (`GAP-008`).
+**Operational meaning:** Rotations, comparative missions and guided reflection designed for **discovery through experience**, not career selection. World maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
 
 **Not permitted:** Treating Discover as irreversible streaming into a single profession.
 
@@ -188,7 +188,7 @@ Major + Minor operates within the Six Worlds and under the Exploration Floor.
 
 - Discover requires structured exposure across all Six Worlds.
 - Deepen / Produce may concentrate within one or more Worlds via Major + Minor and interdisciplinary missions.
-- World competency maps and cross-world mission rules remain open (`GAP-008`).
+- World competency maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
 - Worlds are learning/professional domains for exploration and concentration—not permanent career labels for children.
 
 ---
@@ -251,7 +251,7 @@ Detailed thresholds, approval gates and stage mappings remain open (`GAP-018`).
 
 - Age/stage research ADR or study package (GAP-003).
 - Major/Minor timing decision (GAP-004; may be ADR-0005).
-- Six Worlds briefs (GAP-008).
+- Six Worlds briefs (ADR-0011 UNDER REVIEW / GAP-008).
 - Mission authenticity standards (GAP-018).
 - Malaysia mapping only after Core stage ratification: stage → MY Year → recognition requirements.
 
@@ -290,7 +290,7 @@ Do not invent Malaysian ages, Years or regulatory mappings in this ADR.
 3. Operationalisation of Exploration Floor without premature fixed percentages (`GAP-019`).
 4. Bridging standards when changing Major/Minor (`GAP-020`).
 5. Mission authenticity gates by stage (`GAP-018`).
-6. Six Worlds competency depth maps (`GAP-008`).
+6. Six Worlds competency depth maps (ADR-0011 UNDER REVIEW / `GAP-008`).
 7. How Choose-stage preferences are recorded in the longitudinal capability record without becoming permanent labels.
 
 ## Explicit Non-Claims

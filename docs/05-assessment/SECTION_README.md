@@ -24,5 +24,5 @@ Do not invent staffing numbers, country exam equivalence or software schemas her
 - Overview aligning to ADR-0016 (after human review direction)
 - Verification / moderation operating standard (GAP-038)
 - Profile presentation / sharing modes (GAP-040)
-- Competency Graph specification (GAP-009; World maps via proposed ADR-0011 / GAP-008)
+- Competency Graph specification (GAP-009; World semantics via ADR-0011 UNDER REVIEW / GAP-008)
 - Open questions linked to `GAP_REGISTER.md`

@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Iteration 9 — ADR-0011 Six Worlds Capability / Progressive Depth (2026-09-14)
+
+- Drafted ADR-0011 (`UNDER REVIEW`): Six Worlds as capability/mission domains (not career tracks, houses or subject lists); per-World capability frames; Capability Depth Ladder (Encounter→Inquire→Apply→Integrate→Advance→Contribute) distinct from developmental stages; Discover meaningful exposure across all Worlds; provisional concentration; Major+Minor within/across Worlds; Cross-World vs World-Specific capabilities; Cross-World Missions; faculty/PoC/Graph boundaries; no prestige hierarchy; future-proofing without seventh AI World.
+- ID pre-flight: used reserved ADR-0011 for GAP-008; no renumbering conflict.
+- Updated ADR_INDEX, MASTER_INDEX, GAP_REGISTER (GAP-008 proposed resolution via ADR-0011 — not closed; GAP-009 remains open; opened GAP-045–047), section 03 note, glossary, portal Six Worlds reader page.
+- Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0004–0007 / 0015 / 0016 as under-review context only. Did not treat under-review ADRs as approved. Did not alter APPROVED FND-003 or ADR-0001–0003. No curriculum catalogues, Graph schemas, Year maps, employment claims or commit.
+
 ### Portal milestone — full ADR rendering + static build (2026-09-14)
 
 - Completed VitePress portal milestone: all canonical ADR body files (ADR-0001–0007, ADR-0014–0016) generate full readable pages (not index-only summaries).
