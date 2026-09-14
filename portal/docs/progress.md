@@ -55,6 +55,8 @@ Only formally **APPROVED** governing work:
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | `UNDER REVIEW` | Creator Rights / IP / Micro-Venture |
 | [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | `UNDER REVIEW` | Practitioner–Educator–Mentor; professional teams |
 | [ADR-0016 — Proof of Capability](/decisions/adr-0016) | `UNDER REVIEW` | Capability claims, evidence, verification; GAP-010 |
+| [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | `UNDER REVIEW` | Meaningful Exposure Test; All-Six Entitlement; GAP-045 |
+| [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | `UNDER REVIEW` | Guided transition; Provisional Concentration Plan; GAP-046 |
 | [Malaysia Implementation Profile](/country/malaysia) | `DRAFT` skeleton | No invented regulations; research gaps open |
 | Most foundation companions (Charter, Vision, Glossary, …) | `DRAFT` | Skeletons / incomplete companions |
 | Repository indexes (Master Index, Gap Register, Changelog) | `DRAFT` | Operational documents |
@@ -69,7 +71,7 @@ Known work not yet completed (documentation evidence):
 
 | Area | Why pending | Related |
 |---|---|---|
-| Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; Discover exposure drafted in ADR-0017 | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [ADR-0017](/decisions/adr-0017), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
+| Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; Discover exposure drafted in ADR-0017; Discover→Choose preparation drafted in ADR-0018 | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [ADR-0017](/decisions/adr-0017), [ADR-0018](/decisions/adr-0018), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
 | Proof of Capability Profile | Required by dual assessment model | [GAP-010](/gaps#gap-010) |
 | Exploration Floor operationalisation | Principle exists; package TBD | [GAP-019](/gaps#gap-019) |
@@ -105,8 +107,8 @@ Intentionally postponed or country-specific:
 
 Based on current repository state (not a new architectural decision):
 
-1. Human review of **ADR-0004**, **ADR-0005**, **ADR-0011** and **ADR-0017**
-2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), pathway rules (`GAP-046`), Mission tagging (`GAP-047`), mission/assessment ops
+1. Human review of **ADR-0004**, **ADR-0005**, **ADR-0011**, **ADR-0017** and **ADR-0018**
+2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), Mission tagging (`GAP-047`), mission/assessment ops; close GAP-045/046 only when related ADRs are APPROVED
 3. Parallel Malaysia research with citations (licensing, recognition mapping, canonical Concept Note)
 
 Continue in: [Roadmap](/roadmap) · [Gaps](/gaps) · [Changelog](/changelog)

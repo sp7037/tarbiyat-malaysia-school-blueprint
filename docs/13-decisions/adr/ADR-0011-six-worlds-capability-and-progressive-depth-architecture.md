@@ -741,7 +741,7 @@ This supports ministry understanding of school → university → economy → pu
 
 - Human review of this ADR; close GAP-008 only if APPROVED.
 - Discover exposure package — ADR-0017 (`UNDER REVIEW`; proposed resolution of `GAP-045` — not closed).
-- Within/across-World pathway design rules (`GAP-046`).
+- Discover→Choose pathway preparation — ADR-0018 (`UNDER REVIEW`; proposed resolution of `GAP-046` — not closed).
 - Mission World-tagging significance thresholds (`GAP-047`).
 - Competency Graph specification (`GAP-009`) using this semantics.
 - PoC claim libraries aligned to Worlds after ADR-0016 direction.
@@ -772,7 +772,7 @@ Country / project profiles may later:
 ## Open Questions
 
 1. Exact operational criteria for Discover “meaningful exposure” across all six Worlds — proposed in ADR-0017 (`UNDER REVIEW`; `GAP-045` — not closed).
-2. How finely within-World pathways should be named before Deepen without recreating streaming (`GAP-046`).
+2. How finely within-World pathways should be named before Deepen without recreating streaming — pathway preparation proposed in ADR-0018 (`UNDER REVIEW`; `GAP-046` — not closed); fine catalogues remain deferred.
 3. Whether Produce is always a distinct stage or sometimes a late-Deepen overlay (inherited open question from ADR-0005 / EV-0001).
 4. Minimum Cross-World Capability set to seed `GAP-009`.
 5. How Exploration Floor breadth dimensions (ADR-0006) express World exposure without fixed Core percentages (`GAP-016`/`GAP-019`).
@@ -800,6 +800,7 @@ This ADR does **not**:
 - `FND-003` Concept Constitution §7
 - ADR-0002, ADR-0003 (APPROVED)
 - ADR-0004–0007, ADR-0014–0016 (`UNDER REVIEW` — context only)
-- `GAP_REGISTER.md` — GAP-008 proposed resolution; GAP-009 open; GAP-045 proposed via ADR-0017; GAP-046–047 open
+- `GAP_REGISTER.md` — GAP-008 proposed resolution; GAP-009 open; GAP-045 proposed via ADR-0017; GAP-046 proposed via ADR-0018; GAP-047 open
 - `docs/03-worlds-and-pathways/SECTION_README.md`
 - ADR-0017 (`UNDER REVIEW` — Discover Meaningful Exposure Package; proposed resolution of GAP-045)
+- ADR-0018 (`UNDER REVIEW` — Discover→Choose pathway preparation; proposed resolution of GAP-046)

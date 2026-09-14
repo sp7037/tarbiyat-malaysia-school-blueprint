@@ -58,14 +58,14 @@ Tarbiyat Core adopts a **Discover Meaningful Exposure Package** architecture so 
 9. Meaningful exposure normally goes beyond purely passive **Encounter** and includes inquiry/action — without turning the Capability Depth Ladder into scores or thresholds.
 10. Discover must not create early identity lock-in (“engineering student”, “not creative”, “future doctor”).
 11. Transition toward **Choose** supports **better-informed provisional concentration**, not permanent career selection and not a rigid pass/fail gate.
-12. Discover prepares learners to later consider concentration, combinations, interdisciplinary pathways and Major + Minor — detailed pathway rules remain `GAP-046`.
+12. Discover prepares learners to later consider concentration, combinations, interdisciplinary pathways and Major + Minor — pathway-preparation architecture proposed in ADR-0018 (`UNDER REVIEW`; `GAP-046` — not closed).
 13. **Discover Exposure Evidence** ≠ **Proof of Capability**. Traces show genuine participation; they are not automatic Capability Claims (ADR-0016 context).
 14. Competency Graph semantics may later reference exposure concepts; Graph technology remains `GAP-009`.
 15. Exposure interpretation is **human-governed**; AI/data may assist discovery but must not deterministically assign pathways.
 16. Equal architectural dignity applies to all Six Worlds; resource-constrained settings must still enable meaningful exposure.
 17. Existing Health, civic and ethical safeguards carry forward (no unlicensed clinical practice; no partisan indoctrination; age-appropriate safety/ethics).
 
-**Proposed resolution of GAP-045:** this ADR supplies Core definitions of meaningful exposure, the Discover Exposure Package, All-Six-Worlds entitlement, cross-World counting rules, depth relationship, agency/Choose boundary, evidence/PoC boundary and scenario tests. Operating schedules, counts and Graph schemas remain deferred. GAP-045 is **not closed** until this ADR is APPROVED. GAP-009, GAP-046 and GAP-047 remain open.
+**Proposed resolution of GAP-045:** this ADR supplies Core definitions of meaningful exposure, the Discover Exposure Package, All-Six-Worlds entitlement, cross-World counting rules, depth relationship, agency/Choose boundary, evidence/PoC boundary and scenario tests. Operating schedules, counts and Graph schemas remain deferred. GAP-045 is **not closed** until this ADR is APPROVED. GAP-009 and GAP-047 remain open. GAP-046 proposed resolution via ADR-0018 (`UNDER REVIEW`) — not closed.
 
 ---
 
@@ -280,7 +280,7 @@ Discover prepares learners to later consider:
 - Major + Minor structures;
 - changing or bridging pathways.
 
-This ADR does **not** design Major/Minor catalogues, entry ages or load rules. Detailed within/across-World pathway design remains **`GAP-046`**. Formal Major/Minor entry timing remains under ADR-0004/0005 context and related gaps.
+This ADR does **not** design Major/Minor catalogues, entry ages or load rules. Discover→Choose pathway-preparation architecture is proposed in **ADR-0018** (`UNDER REVIEW`; `GAP-046` — not closed). Formal Major/Minor entry timing remains under ADR-0004/0005 context and related gaps. Fine within-World pathway catalogues remain deferred.
 
 ---
 
@@ -386,7 +386,7 @@ This ADR does not expand into legal/regulatory implementation or country safegua
 | 10 | Same capability depth in every World? | No |
 | 11 | Can a learner remain undecided? | Yes — not failure |
 | 12 | Who governs pathway interpretation? | Accountable humans with learner participation; AI may assist but not determine |
-| 13 | What is deferred? | Ages, hours, counts, schedules, Graph schemas, Major/Minor catalogues, significance numerics (`GAP-047`), pathway catalogues (`GAP-046`), country mapping |
+| 13 | What is deferred? | Ages, hours, counts, schedules, Graph schemas, Major/Minor catalogues, significance numerics (`GAP-047`), pathway-preparation detail now drafted in ADR-0018 (`GAP-046` — not closed), country mapping |
 
 ---
 
@@ -424,7 +424,7 @@ This ADR does not expand into legal/regulatory implementation or country safegua
 ### Risks / costs
 
 - Without later significance thresholds (`GAP-047`), designers may still over-tag Missions.
-- Without pathway rules (`GAP-046`), Discover→Major/Minor translation may still drift.
+- Without pathway-preparation rules (`GAP-046`), Discover→Major/Minor translation may still drift — proposed architecture now drafted in ADR-0018 (`UNDER REVIEW`; not closed).
 - Human review load for interpreting exposure packages if schools over-document.
 - Dependency on still under-review ADR-0011 / 0004–0007 / 0015 / 0016 coherence.
 
@@ -432,7 +432,7 @@ This ADR does not expand into legal/regulatory implementation or country safegua
 
 - Human review of this ADR; close GAP-045 only if APPROVED.
 - Mission World-tagging significance thresholds (`GAP-047`).
-- Within/across-World pathway design rules (`GAP-046`).
+- Discover→Choose pathway preparation — ADR-0018 (`UNDER REVIEW`; proposed resolution of `GAP-046` — not closed).
 - Competency Graph specification (`GAP-009`) using exposure semantics carefully.
 - Optional later population of `docs/03-worlds-and-pathways/` and `docs/02-student-journey/` after review direction is clear.
 
@@ -459,7 +459,7 @@ Country / project profiles may later:
 
 1. Exact counts, hours or sequencing patterns for Discover experiences (not Core-fixed here).
 2. Mission World-tagging significance thresholds (`GAP-047`).
-3. Within/across-World pathway naming before Deepen (`GAP-046`).
+3. Within/across-World pathway naming before Deepen — pathway preparation proposed in ADR-0018 (`UNDER REVIEW`; `GAP-046` — not closed); fine catalogues remain deferred.
 4. How Discover exposure nodes relate inside the Competency Graph (`GAP-009`).
 5. How Exploration Floor breadth dimensions (ADR-0006 context) interact with end-of-Discover World coverage without fixed Core percentages (`GAP-016` / `GAP-019`).
 6. Discover duration and age/Year mapping (`GAP-003` and country profiles).
@@ -487,8 +487,9 @@ This ADR does **not**:
 - `FND-003` Concept Constitution §§4, 7, 10
 - ADR-0001, ADR-0002, ADR-0003 (APPROVED)
 - ADR-0011 (`UNDER REVIEW` — Six Worlds; Discover exposure obligation; opens GAP-045)
+- ADR-0018 (`UNDER REVIEW` — Discover→Choose pathway preparation; proposed resolution of GAP-046)
 - ADR-0004–0007, ADR-0015–0016 (`UNDER REVIEW` — context only)
-- `GAP_REGISTER.md` — GAP-045 proposed resolution via this ADR; GAP-009 / 046 / 047 remain open
+- `GAP_REGISTER.md` — GAP-045 proposed resolution via this ADR; GAP-046 proposed via ADR-0018; GAP-009 / 047 remain open
 - `docs/03-worlds-and-pathways/SECTION_README.md`
 - `docs/02-student-journey/SECTION_README.md`
 - `docs/05-assessment/SECTION_README.md` — exposure vs PoC boundary

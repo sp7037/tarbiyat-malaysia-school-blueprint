@@ -9,7 +9,7 @@ description: Human-readable summary of Six Worlds capability and progressive dep
 
 <div class="planned-banner">
   <strong>UNDER REVIEW — Six Worlds architecture drafted; not approved</strong><br/>
-  Worlds are named in the Concept Constitution. ADR-0011 proposes capability frames and progressive depth. ADR-0017 proposes the Discover meaningful-exposure package. GAP-008 and GAP-045 are proposed for resolution — not closed. Competency Graph schema remains open (GAP-009).
+  Worlds are named in the Concept Constitution. ADR-0011 proposes capability frames and progressive depth. ADR-0017 proposes the Discover meaningful-exposure package. ADR-0018 proposes Discover→Choose pathway preparation. GAP-008, GAP-045 and GAP-046 are proposed for resolution — not closed. Competency Graph schema remains open (GAP-009).
 </div>
 
 ::: tip Portal notice
@@ -106,6 +106,7 @@ Real problems often span Worlds. A pollution Mission might combine sensing (Engi
 |---|---|---|
 | Six Worlds Capability / Progressive Depth | UNDER REVIEW | [ADR-0011](/decisions/adr-0011) |
 | Discover Meaningful Exposure Package | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
+| Discover→Choose Pathway Preparation | UNDER REVIEW | [ADR-0018](/decisions/adr-0018) |
 | Six Worlds + Major/Minor anticipation | APPROVED (high level) | [Concept Constitution](/foundation/concept-constitution) |
 | Major+Minor in principle; Discover exposure | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
 | Formal Major+Minor entry at Deepen | UNDER REVIEW | [ADR-0005](/decisions/adr-0005) |
@@ -119,7 +120,7 @@ Real problems often span Worlds. A pollution Mission might combine sensing (Engi
 - [GAP-008](/gaps#gap-008) — Six Worlds maps (proposed resolution via ADR-0011 — not closed)
 - [GAP-009](/gaps#gap-009) — Competency Graph specification (remains open)
 - [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)
-- [GAP-046](/gaps#gap-046) — Within/cross-World pathway design rules
+- [GAP-046](/gaps#gap-046) — Discover→Choose pathway preparation (proposed resolution via ADR-0018 — not closed)
 - [GAP-047](/gaps#gap-047) — Mission World-tagging significance thresholds
 - [GAP-004](/gaps#gap-004) — Major + Minor introduction timing
 - [GAP-020](/gaps#gap-020) — Pathway change bridging

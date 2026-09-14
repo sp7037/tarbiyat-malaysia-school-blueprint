@@ -8,8 +8,8 @@
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0017 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–10 ADR drafts (0004–0007, 0011, 0014–0017) |
+| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0018 |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–11 ADR drafts (0004–0007, 0011, 0014–0018) |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -60,7 +60,7 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-043 | External acceptance of Proof of Capability | Universities/employers/ministries may or may not value PoC; Core must not invent endorsements | Country/project acceptance research with citations; no fabricated recognition claims | Medium | Open (opened by ADR-0016) |
 | GAP-044 | PoC retention, privacy and sanitised-evidence operating rules | Lifelong records risk over-collection; confidential missions need sanitisation | Draft retention/privacy/sanitisation SOP; align with country data law (MY still GAP-006 where relevant) | Medium | Open (opened by ADR-0016) |
 | GAP-045 | Discover Six Worlds meaningful-exposure package | ADR-0011 requires substantive exposure across all six Worlds; token career-day risk remains | Human review of ADR-0017; close only after ADR-0017 APPROVED; no Core timetable % | High | Proposed resolution via ADR-0017 (`UNDER REVIEW`) — not closed |
-| GAP-046 | Within-World / cross-World pathway design rules | Major/Minor need not equal entire Worlds; unconstrained sub-pathways risk hidden streaming | Draft pathway-naming principles and anti-streaming guards after ADR-0011 review; no full catalogue yet; Discover prepares for later pathways (ADR-0017 context) | Medium | Open (opened by ADR-0011) |
+| GAP-046 | Discover→Choose pathway preparation / anti-streaming transition | After Six Worlds exposure, Choose risks early streaming, forced single-World identity, score gates or unguided choice; detailed within-World catalogues remain deferred | Human review of ADR-0018; close only after ADR-0018 APPROVED; fine Major/Minor catalogues remain later design (GAP-004) | Medium | Proposed resolution via ADR-0018 (`UNDER REVIEW`) — not closed |
 | GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity; ADR-0017 Cross-World Rule requires substantive work per claimed World | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes; keep compatible with ADR-0017 | Medium | Open (opened by ADR-0011) |
 
 ## Closed (Core design conflicts only)

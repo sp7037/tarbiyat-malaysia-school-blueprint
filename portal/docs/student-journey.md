@@ -29,7 +29,7 @@ flowchart LR
 |---|---|
 | **Explore** | Broad foundational learning and guided exposure; Worlds used mainly as adult design tools, not permanent child labels |
 | **Discover** | Meaningful experience across domains so strengths and interests can surface through work, not career-day superficiality |
-| **Choose** | Provisional concentration — direction without irreversible lock-in |
+| **Choose** | Provisional concentration — direction without irreversible lock-in; guided preparation after Discover exposure |
 | **Deepen** | Formal Major + Minor pathway depth (architecture under review for entry timing) |
 | **Produce** | Advanced authentic contribution and production |
 
@@ -38,6 +38,10 @@ flowchart LR
 A learner’s place in the journey (Explore → Produce) is **not** the same as how deep they have gone in a particular World or capability.
 
 Someone in Choose may already work at advanced depth in one domain. Someone in Deepen may still be building foundations in another. Capability depth uses a separate ladder described under [Six Worlds](/six-worlds).
+
+## Discover → Choose (under review)
+
+After meaningful Six Worlds exposure, transition into Choose is a **guided developmental transition**, not a career pass/fail gate. Learners may remain undecided, hold cross-World interests, or begin provisional concentration. Interest is not the same as capability; exposure is not the same as pathway readiness. AI may organise evidence but must not assign pathways.
 
 ## What this page does not claim
 
@@ -57,5 +61,6 @@ Age bands, operational readiness packages and timetable proportions remain open 
 | [ADR-0005](/decisions/adr-0005) — stage boundaries / Major-Minor entry | UNDER REVIEW |
 | [ADR-0006](/decisions/adr-0006) — transition, exploration floor, mobility | UNDER REVIEW |
 | [ADR-0017](/decisions/adr-0017) — Discover meaningful exposure package | UNDER REVIEW |
+| [ADR-0018](/decisions/adr-0018) — Discover→Choose pathway preparation | UNDER REVIEW |
 
 Blueprint area landing: [Student Journey (architecture)](/areas/student-journey)

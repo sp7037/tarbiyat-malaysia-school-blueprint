@@ -424,8 +424,8 @@ function buildWorkstreams(adrs) {
       id: 'six-worlds',
       name: 'Six Worlds & Pathways',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0011 proposes Six Worlds capability frames and progressive depth (UNDER REVIEW). ADR-0017 proposes Discover meaningful-exposure package (UNDER REVIEW). GAP-008 and GAP-045 proposed resolution — not closed. Graph schema remains GAP-009. docs/03 still a shell for detailed briefs.',
-      evidence: 'ADR-0011; ADR-0017; GAP-008; GAP-045–047; docs/03 SECTION_README',
+      detail: 'ADR-0011 proposes Six Worlds capability frames and progressive depth (UNDER REVIEW). ADR-0017 proposes Discover meaningful-exposure package (UNDER REVIEW). ADR-0018 proposes Discover→Choose pathway preparation (UNDER REVIEW). GAP-008, GAP-045 and GAP-046 proposed resolution — not closed. Graph schema remains GAP-009. docs/03 still a shell for detailed briefs.',
+      evidence: 'ADR-0011; ADR-0017; ADR-0018; GAP-008; GAP-045–047; docs/03 SECTION_README',
       href: '/areas/six-worlds'
     },
     {
@@ -464,8 +464,8 @@ function buildWorkstreams(adrs) {
       id: 'journey',
       name: 'Student Journey',
       status: 'UNDER REVIEW',
-      detail: 'Stage architecture proposed in ADR-0004/0005. Discover exposure package proposed in ADR-0017. Dedicated journey specification not yet written.',
-      evidence: 'ADR-0004, ADR-0005; ADR-0017; docs/02 SECTION_README',
+      detail: 'Stage architecture proposed in ADR-0004/0005. Discover exposure package proposed in ADR-0017. Discover→Choose pathway preparation proposed in ADR-0018 (UNDER REVIEW; GAP-046 not closed). Dedicated journey specification not yet written.',
+      evidence: 'ADR-0004, ADR-0005; ADR-0017; ADR-0018; docs/02 SECTION_README',
       href: '/areas/student-journey'
     },
     {

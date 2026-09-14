@@ -110,7 +110,7 @@ Real problems often span Worlds. Missions may intentionally integrate more than 
 |---|---|
 | Explore | Worlds mainly as adult curriculum-design tools |
 | Discover | Meaningful exposure across all Six Worlds |
-| Choose | Provisional concentration without lock-in |
+| Choose | Provisional concentration without lock-in; guided pathway preparation after Discover |
 | Deepen | Major + Minor within or across Worlds |
 | Produce | Advanced authentic contribution, including Cross-World work |
 
@@ -120,6 +120,7 @@ Real problems often span Worlds. Missions may intentionally integrate more than 
 |---|---|---|
 | Six Worlds Capability / Progressive Depth | UNDER REVIEW | [ADR-0011](/decisions/adr-0011) |
 | Discover Meaningful Exposure Package | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
+| Discover→Choose Pathway Preparation | UNDER REVIEW | [ADR-0018](/decisions/adr-0018) |
 | Six Worlds named at Constitution level | APPROVED (high level) | [Concept Constitution](/foundation/concept-constitution) |
 | Discover exposure / Major+Minor principles | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
 

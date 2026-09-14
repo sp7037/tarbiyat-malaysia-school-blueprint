@@ -19,6 +19,14 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Iteration 11 — ADR-0018 Discover → Choose Pathway Preparation (2026-09-14)
+
+- Drafted ADR-0018 (`UNDER REVIEW`): guided developmental transition from Discover to Choose (not career pass/fail gate); provisional concentration without forced single World; multi-input human-governed guidance without one score; Interest ≠ Capability; Exposure ≠ pathway readiness; PoC may inform but is not a universal Choose prerequisite; Provisional Concentration Plan as revisable orientation artefact (not credential/ranking/PoC); reversibility; breadth continuity without equal-time mandate; equity, equal dignity and safety/ethics; scenario tests A–N.
+- ID pre-flight: no reserved Discover→Choose pathway-preparation ADR; ADR-0008–0010 / 0012–0013 remain proposed for other topics; assigned next free ID ADR-0018 without renumbering.
+- Updated ADR_INDEX, MASTER_INDEX, GAP_REGISTER (GAP-046 proposed resolution via ADR-0018 — not closed; GAP-009 / 045 / 047 remain open), section 02/03/05 notes, glossary, portal Student Journey / Six Worlds / progress / roadmap cross-links, and portal prepare-content area cards for ADR-0018.
+- Light cross-link on ADR-0017 Follow-on / Open Questions for GAP-046 → ADR-0018 without changing ADR-0017 status or decisions.
+- Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0017 / 0011 / 0004–0006 / 0015 / 0016 as under-review context only. Did not treat under-review ADRs as approved. Did not alter APPROVED FND-003 or ADR-0001–0003. No ages, scores, pathway catalogues, Graph schemas, algorithms or commit.
+
 ### Iteration 10 — ADR-0017 Discover Meaningful Exposure Package (2026-09-14)
 
 - Drafted ADR-0017 (`UNDER REVIEW`): Meaningful Exposure Test (Context; Active Engagement; World-Relevant Practice; Reflection; Trace); Discover Exposure Package as cumulative learner experience; All-Six-Worlds Entitlement without equal-time/six-course mandates; Cross-World counting only with substantive learner work per claimed World; stage ≠ capability depth; no early identity lock-in; Choose as provisional concentration; Exposure Evidence ≠ PoC Claims; Graph boundary at GAP-009; human guidance; equal dignity; resource-feasible designs; scenario tests A–N.

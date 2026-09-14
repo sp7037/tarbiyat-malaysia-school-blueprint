@@ -25,6 +25,9 @@
 | **Meaningful Exposure** | Discover-stage substantive World experience meeting Context, Active Engagement, World-Relevant Practice, Reflection and Trace (ADR-0017 UNDER REVIEW) | CORE |
 | **Discover Exposure Package** | Cumulative Discover experience satisfying All-Six-Worlds meaningful exposure — not a course catalogue or credential (ADR-0017 UNDER REVIEW) | CORE |
 | **Discover Exposure Evidence** | Lightweight participation traces from Discover experiences; not automatic Proof of Capability Claims (ADR-0017 UNDER REVIEW; PoC via ADR-0016) | CORE |
+| **Provisional Concentration** | Choose-stage increase of time/depth in one or more Worlds/directions without formal Major/Minor or permanent identity (ADR-0004/0005/0011/0018 UNDER REVIEW) | CORE |
+| **Provisional Concentration Plan** | Revisable Discover→Choose orientation artefact: exposure summary, interest/reflection, optional capability signals, provisional directions (incl. undecided/plural); not a credential or PoC (ADR-0018 UNDER REVIEW) | CORE |
+| **Pathway Preparation** | Guided process interpreting Discover experience toward provisional Choose next steps — not career selection (ADR-0018 UNDER REVIEW) | CORE |
 | **Cross-World Capability** | Competency that recurs across Worlds; later Graph shared-node candidate (ADR-0011 UNDER REVIEW; schema GAP-009) | CORE |
 | **Cross-World Mission** | Mission intentionally integrating capabilities from more than one World (ADR-0011 UNDER REVIEW) | CORE |
 | **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 UNDER REVIEW) | CORE |

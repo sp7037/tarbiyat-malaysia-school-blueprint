@@ -9,15 +9,15 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
-| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0016; ADR-0017 |
+| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0016; ADR-0017; ADR-0018 |
 
 ## Purpose
 
-Competency Graph (still open — `GAP-009`); Proof of Capability Profile architecture drafted in ADR-0016 (`UNDER REVIEW`); Discover Exposure Evidence distinct from PoC Claims (ADR-0017 `UNDER REVIEW`); portfolio / dual-layer relationship to Formal Recognition (ADR-0003 APPROVED).
+Competency Graph (still open — `GAP-009`); Proof of Capability Profile architecture drafted in ADR-0016 (`UNDER REVIEW`); Discover Exposure Evidence distinct from PoC Claims (ADR-0017 `UNDER REVIEW`); PoC may inform Discover→Choose guidance but is not a universal Choose prerequisite (ADR-0018 `UNDER REVIEW`); portfolio / dual-layer relationship to Formal Recognition (ADR-0003 APPROVED).
 
 ## Iteration note
 
-Do not invent staffing numbers, country exam equivalence or software schemas here. See ADR-0016 and GAP-010 / GAP-038–044. Discover participation traces are **not** automatic Capability Claims — see ADR-0017.
+Do not invent staffing numbers, country exam equivalence or software schemas here. See ADR-0016 and GAP-010 / GAP-038–044. Discover participation traces are **not** automatic Capability Claims — see ADR-0017. Pathway guidance must not collapse PoC into a Choose gate — see ADR-0018.
 
 ## Planned child documents (not yet created)
 

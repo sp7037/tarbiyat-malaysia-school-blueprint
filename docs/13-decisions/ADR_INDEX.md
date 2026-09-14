@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `DEC-001` |
-| Version | `1.9.0` |
+| Version | `1.10.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `DEC-TPL`; ADR body files under `docs/13-decisions/adr/` |
-| Source documents | Ratification (2026-09-13); Iteration 2–10 ADR drafts (0004–0007, 0011, 0014–0017) |
+| Source documents | Ratification (2026-09-13); Iteration 2–11 ADR drafts (0004–0007, 0011, 0014–0018) |
 
 ## Status key
 
@@ -44,6 +44,7 @@ Historical directions that must not be restored: `docs/12-evidence/SUPERSEDED_CO
 | ADR-0015 | Practitioner–Educator–Mentor Faculty Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` |
 | ADR-0016 | Proof of Capability and Capability Evidence Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` |
 | ADR-0017 | Discover Meaningful Exposure Package Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` |
+| ADR-0018 | Discover → Choose Pathway Preparation Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` |
 
 **ADR-0004** defines Explore→Discover→Choose→Deepen→Produce operationally; Exploration Floor; reversibility; Major+Minor in principle; pathway discovery process. Does **not** set age bands. **Not APPROVED.**
 
@@ -61,7 +62,9 @@ Historical directions that must not be restored: `docs/12-evidence/SUPERSEDED_CO
 
 **ADR-0016** proposes evidence-backed human-governed Proof of Capability Profile; Capability Claims; Proof ≠ Participation; Direct/Supporting/Context evidence; Contribution Records; independence context (descriptive); productive failure; multi-source verification; Capability Defence (proportional); AI disclosure without banning AI; provenance; Sanitised Verified Evidence; longitudinal growth without permanent deficit labels; no universal composite score; AI non-certification; Competency Graph kept distinct (`GAP-009`); Six Worlds evidence parity; workload practicality. Depends on ADR-0003 (APPROVED) and ADR-0007 / 0014 / 0015 (still `UNDER REVIEW`); ADR-0004–0006 portability context only. Does **not** claim legal qualification status, invent Graph schemas or blockchain. **Not APPROVED.** Proposed resolution of `GAP-010` — not closed. Opens `GAP-038`–`GAP-044`.
 
-**ADR-0017** proposes Discover Meaningful Exposure Package; five-part Meaningful Exposure Test (Context; Active Engagement; World-Relevant Practice; Reflection; Trace); All-Six-Worlds Entitlement without equal-time/six-course mandates; Cross-World counting only where learner work is substantively World-relevant; stage ≠ capability depth; no early identity lock-in; Choose as provisional concentration; Exposure Evidence ≠ PoC Claims; Graph boundary at `GAP-009`; human-governed guidance; equal dignity and resource-feasible designs. Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0011 / 0004–0007 / 0015 / 0016 as under-review context only. Does **not** invent hours, Year maps, Graph schemas, Major/Minor catalogues or pathway algorithms. **Not APPROVED.** Proposed resolution of `GAP-045` — not closed. Preserves `GAP-009`, `GAP-046`, `GAP-047` open.
+**ADR-0017** proposes Discover Meaningful Exposure Package; five-part Meaningful Exposure Test (Context; Active Engagement; World-Relevant Practice; Reflection; Trace); All-Six-Worlds Entitlement without equal-time/six-course mandates; Cross-World counting only where learner work is substantively World-relevant; stage ≠ capability depth; no early identity lock-in; Choose as provisional concentration; Exposure Evidence ≠ PoC Claims; Graph boundary at `GAP-009`; human-governed guidance; equal dignity and resource-feasible designs. Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0011 / 0004–0007 / 0015 / 0016 as under-review context only. Does **not** invent hours, Year maps, Graph schemas, Major/Minor catalogues or pathway algorithms. **Not APPROVED.** Proposed resolution of `GAP-045` — not closed. Preserves `GAP-009`, `GAP-046`, `GAP-047` open (GAP-046 now also addressed by ADR-0018 draft).
+
+**ADR-0018** proposes Discover→Choose Pathway Preparation Architecture; guided developmental transition (not career pass/fail gate); provisional concentration without forced single World; multi-input human-governed guidance without one score; Interest ≠ Capability; Exposure ≠ pathway readiness; PoC informs but is not a universal Choose prerequisite; Provisional Concentration Plan as revisable orientation artefact (not credential/PoC); reversibility; breadth continuity without equal-time mandate; equity, equal dignity and safety/ethics; scenario tests A–N. Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0017 / 0011 / 0004–0006 / 0015 / 0016 as under-review context only. Does **not** invent ages, scores, pathway catalogues, Graph schemas or algorithms. **Not APPROVED.** Proposed resolution of `GAP-046` — not closed. Preserves `GAP-009`, `GAP-045`, `GAP-047` open.
 
 ---
 
