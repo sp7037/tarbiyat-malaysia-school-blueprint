@@ -71,9 +71,11 @@ No manual HTML page is required.
 ## Update navigation
 
 - **New ADR:** automatic (see above).
-- **New Foundation / register document:** add an entry to the `includes` list in `portal/scripts/prepare-content.mjs` and, if needed, a sidebar item in `portal/docs/.vitepress/config.mts`.
+- **New Foundation / register / operational standard document:** add an entry to the `includes` list in `portal/scripts/prepare-content.mjs` and, if needed, a sidebar item in `portal/docs/.vitepress/config.mts`. Example: `MIS-001` → `/areas/mission-partner-governance`.
 - **New architecture area landing:** add a Markdown file under `portal/docs/areas/` and a Blueprint sidebar link in `config.mts`.
 - **New presentation page:** add Markdown under `portal/docs/` and update primary `nav` / presentation sidebar in `config.mts`.
+
+There is **no** separate Operational Standards index yet; Mission standards are discoverable from [Missions & Production](/areas/missions) and related Blueprint sidebar entries until a dedicated index is justified.
 
 ## Search
 

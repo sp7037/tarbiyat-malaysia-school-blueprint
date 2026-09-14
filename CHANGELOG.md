@@ -19,6 +19,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-022 — Mission Partner Governance standard (2026-09-14)
+
+- Added `MIS-001` (`docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md`, DRAFT): Core operational partner governance derived from ADR-0007 / ADR-0014 / ADR-0015 (UNDER REVIEW); scenario tests A–N; handoffs to GAP-023 / GAP-024.
+- Updated `SEC-06` section README, `MASTER_INDEX`, `GAP_REGISTER` (GAP-022 proposed resolution via MIS-001 — **not closed**).
+- Portal: prepare-content include → `/areas/mission-partner-governance`; Blueprint sidebar + Missions area / presentation / roadmap / governance discoverability. No new ADR; no GAP-023/024 closure; no commit in task scope.
+
 ### Productive institution architecture review — ADR-0007 / 0014 / 0015 hardening (2026-09-14)
 
 - ADR-0007 (`UNDER REVIEW` v0.1.1): Campus Live Workflow / educational production environments with Education-First guardrails; graded Deployment Boundary; Test Scenarios A–J (including previously referenced F/G).

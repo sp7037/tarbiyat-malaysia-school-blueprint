@@ -432,8 +432,8 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0007 proposes Mission Ecosystem / authenticity A–F / Institution-in-Residence (UNDER REVIEW). ADR-0014 proposes Student Creator Rights / IP / Micro-Venture (UNDER REVIEW). GAP-018 and GAP-025 proposed resolution — not closed. docs/06 still a shell.',
-      evidence: 'ADR-0002; ADR-0007; ADR-0014; docs/06 SECTION_README; GAP-018; GAP-025',
+      detail: 'ADR-0007 proposes Mission Ecosystem / authenticity A–F / Campus Live Workflow / Institution-in-Residence (UNDER REVIEW). ADR-0014 proposes Student Creator Rights (UNDER REVIEW). MIS-001 drafts Mission Partner Governance (GAP-022 proposed resolution — not closed). GAP-018 and GAP-025 proposed resolution — not closed. GAP-023 / GAP-024 remain open.',
+      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; docs/06; GAP-018; GAP-022–025',
       href: '/areas/missions'
     },
     {
@@ -692,6 +692,13 @@ const includes = [
     outRel: 'country/malaysia-section.md',
     title: 'Malaysia section guide',
     sourceRel: 'docs/10-malaysia/SECTION_README.md'
+  },
+  {
+    outRel: 'areas/mission-partner-governance.md',
+    title: 'Mission Partner Governance (MIS-001)',
+    sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
+    description:
+      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). Governing ADRs 0007 / 0014 / 0015 remain UNDER REVIEW.'
   }
 ]
 

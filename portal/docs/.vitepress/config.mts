@@ -56,6 +56,7 @@ const blueprintSidebar = [
       { text: 'Student Journey', link: '/areas/student-journey' },
       { text: 'Six Worlds & Pathways', link: '/areas/six-worlds' },
       { text: 'Missions & Production', link: '/areas/missions' },
+      { text: 'Mission Partner Governance (MIS-001)', link: '/areas/mission-partner-governance' },
       { text: 'People & Culture', link: '/areas/people-and-culture' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },

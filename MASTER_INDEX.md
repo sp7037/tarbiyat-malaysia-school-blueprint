@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.10.0` |
+| Version | `0.11.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `UNIVERSAL` |
@@ -43,7 +43,7 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Each section currently contains only `SECTION_README.md` (DRAFT shell). No detailed specifications yet.
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** adds partner governance (`MIS-001`).
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
@@ -52,10 +52,14 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011); Discover exposure (ADR-0017); Discover→Choose pathway preparation (ADR-0018) — all UNDER REVIEW; Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
-| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; production vs demo practicals | DRAFT |
+| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; production vs demo practicals; partner governance (`MIS-001`) | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence; IP; Mission-to-Market | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology (non-country); faculty architecture via ADR-0015 UNDER REVIEW | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Generic campus typology | DRAFT |
+
+| ID | Path | Status | Notes |
+|---|---|---|---|
+| MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 
 ---
 

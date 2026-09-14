@@ -11,7 +11,7 @@ description: Mission-based authentic learning in the Tarbiyat architecture
 </p>
 
 ::: tip Authority
-Lab-First / Mission-Based learning is **approved** (ADR-0002). Mission Ecosystem detail — authenticity progression, Institution-in-Residence, partner governance — is **under review** (ADR-0007) and is described here at a restrained level.
+Lab-First / Mission-Based learning is **approved** (ADR-0002). Mission Ecosystem detail — authenticity progression, Campus Live Workflow, Institution-in-Residence — is **under review** (ADR-0007). Partner operating rules are drafted as **MIS-001** (`DRAFT`) for GAP-022 — not closed.
 :::
 
 ## Why Missions matter
@@ -20,12 +20,30 @@ Tarbiyat treats sustained Missions as a primary organiser of learning effort. St
 
 Practical work should generally produce outcomes that can be inspected, discussed or demonstrated — **production over demonstration-only practicals**.
 
+## From partner need to learner work
+
+A Mission partner does **not** hand a commercial problem directly to students. “Real-world” does **not** mean commercial control.
+
+Where external authenticity is used, the intended chain is:
+
+Partner need / problem  
+→ Mission Intake  
+→ Educational Review  
+→ Safeguarding / risk screen  
+→ Age / scope suitability  
+→ IP / data classification  
+→ Approved Mission Brief  
+→ Learner participation  
+
+School authority may reshape, narrow, simulate, or reject unsafe or education-last proposals. Detail: [Mission Partner Governance (MIS-001)](/areas/mission-partner-governance).
+
 ## What a Mission can do
 
 - Cross more than one of the [Six Worlds](/six-worlds)
 - Draw on Knowledge Studios for theory and disciplined practice
-- Involve partners under education-first governance (detail under review)
+- Involve partners under **Education-First** governance ([MIS-001](/areas/mission-partner-governance); architecture under review)
 - Generate evidence that may support [Proof of Capability](/proof-of-capability) claims
+- Optionally reach deployment only under graded boundaries — not as the measure of educational success
 
 ## What this page does not invent
 
@@ -41,6 +59,8 @@ Those operational details belong to later design and country work, not presentat
 
 Architecture under review proposes that authenticity can progress — from carefully scaffolded realistic problems toward more consequential external work — without exploiting students or replacing education with unpaid labour. Exact authenticity gates remain open for human review.
 
+Industry-in-Residence means **sustained educational participation**, not an occasional guest visit. Presence patterns remain [GAP-023](/gaps#gap-023).
+
 ## Relationship to Labs and Studios
 
 Missions typically live in Lab / studio / field environments. Knowledge Studios support the theory, critique, language and mathematics practice Missions need. Intensity rises with developmental readiness; Core does not fix one percentage for every age.
@@ -53,5 +73,7 @@ Missions typically live in Lab / studio / field environments. Knowledge Studios 
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem / authenticity / Institution-in-Residence | UNDER REVIEW |
 | [ADR-0011](/decisions/adr-0011) — Worlds and Cross-World Missions | UNDER REVIEW |
 | [ADR-0014](/decisions/adr-0014) — Student Creator Rights / IP | UNDER REVIEW |
+| [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | UNDER REVIEW |
+| [MIS-001](/areas/mission-partner-governance) — Mission Partner Governance | DRAFT (proposed GAP-022 resolution — not closed) |
 
 Blueprint area: [Missions & Production](/areas/missions)
