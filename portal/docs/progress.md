@@ -16,6 +16,13 @@ Statuses are derived from `MASTER_INDEX.md`, ADR metadata, `ADR_INDEX.md`, `GAP_
 A section folder or `SECTION_README.md` skeleton does **not** mean the architecture area is complete or approved.
 :::
 
+## Workstream board
+
+Documentation evidence by architecture area (not a marketing dashboard):
+
+<WorkstreamBoard />
+
+
 <div class="progress-section progress-section--approved">
 
 ## Completed / Approved
@@ -44,6 +51,7 @@ Only formally **APPROVED** governing work:
 | [ADR-0005 — Stage Boundaries & Major-Minor Entry](/decisions/adr-0005) | `UNDER REVIEW` | Typical windows; formal Major+Minor at Deepen |
 | [ADR-0006 — Stage Transition / Exploration Floor / Mobility](/decisions/adr-0006) | `UNDER REVIEW` | Transition rule; protected breadth dimensions; bridging |
 | [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | `UNDER REVIEW` | Authenticity A–F; Institution-in-Residence; Educationalisation |
+| [ADR-0011 — Six Worlds Capability / Progressive Depth](/decisions/adr-0011) | `UNDER REVIEW` | World domains; depth ladder; GAP-008 proposed resolution — not closed |
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | `UNDER REVIEW` | Creator Rights / IP / Micro-Venture |
 | [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | `UNDER REVIEW` | Practitioner–Educator–Mentor; professional teams |
 | [ADR-0016 — Proof of Capability](/decisions/adr-0016) | `UNDER REVIEW` | Capability claims, evidence, verification; GAP-010 |

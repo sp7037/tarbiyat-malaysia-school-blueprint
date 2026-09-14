@@ -21,18 +21,107 @@ const adrItems = loadAdrNav().map((a) => ({
   link: a.link
 }))
 
+const blueprintSidebar = [
+  {
+    text: 'Blueprint',
+    items: [
+      { text: 'Blueprint hub', link: '/blueprint/' },
+      { text: 'Progress', link: '/progress' },
+      { text: 'Architecture roadmap', link: '/roadmap' },
+      { text: 'Gap register', link: '/gaps' }
+    ]
+  },
+  {
+    text: 'Foundation',
+    collapsed: false,
+    items: [
+      { text: 'Overview', link: '/foundation/' },
+      { text: 'Concept Constitution', link: '/foundation/concept-constitution' },
+      { text: 'Project Charter', link: '/foundation/project-charter' },
+      { text: 'Vision & Mission', link: '/foundation/vision-mission-objectives' },
+      { text: 'Core Differentiators', link: '/foundation/core-differentiators' },
+      { text: 'Design Principles', link: '/foundation/design-principles' },
+      { text: 'Glossary', link: '/foundation/glossary' }
+    ]
+  },
+  {
+    text: 'Architecture Decisions',
+    collapsed: false,
+    items: [{ text: 'ADR Index', link: '/decisions/' }, ...adrItems]
+  },
+  {
+    text: 'Architecture areas',
+    collapsed: true,
+    items: [
+      { text: 'Student Journey', link: '/areas/student-journey' },
+      { text: 'Six Worlds & Pathways', link: '/areas/six-worlds' },
+      { text: 'Missions & Production', link: '/areas/missions' },
+      { text: 'People & Culture', link: '/areas/people-and-culture' },
+      { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
+      { text: 'Formal Recognition', link: '/areas/formal-recognition' },
+      { text: 'Governance / Safety', link: '/areas/governance' },
+      { text: 'Technology', link: '/areas/technology' },
+      { text: 'Physical Campus', link: '/areas/campus' },
+      { text: 'Implementation', link: '/areas/implementation' }
+    ]
+  },
+  {
+    text: 'Country Profiles',
+    collapsed: true,
+    items: [
+      { text: 'Overview', link: '/country/' },
+      { text: 'Malaysia (profile)', link: '/country/malaysia' }
+    ]
+  },
+  {
+    text: 'Evidence & registers',
+    collapsed: true,
+    items: [
+      { text: 'Master Index', link: '/master-index' },
+      { text: 'Changelog', link: '/changelog' },
+      { text: 'Project Rules', link: '/project-rules' },
+      { text: 'Superseded Concepts', link: '/evidence/superseded-concepts' },
+      { text: 'Claims Register', link: '/evidence/claims-register' },
+      { text: 'Evidence Register', link: '/evidence/evidence-register' },
+      { text: 'Research Gaps', link: '/evidence/research-gaps' },
+      { text: 'EV-0001 Evidence Pack', link: '/evidence/ev-0001-developmental-stage-boundaries' }
+    ]
+  }
+]
+
+const presentationSidebar = [
+  {
+    text: 'The school',
+    items: [
+      { text: 'Home', link: '/' },
+      { text: 'The School Model', link: '/model' },
+      { text: 'Student Journey', link: '/student-journey' },
+      { text: 'Six Worlds', link: '/six-worlds' },
+      { text: 'Missions', link: '/missions' },
+      { text: 'Proof of Capability', link: '/proof-of-capability' },
+      { text: 'People & Learning', link: '/people-learning' },
+      { text: 'Malaysia', link: '/malaysia' }
+    ]
+  },
+  {
+    text: 'Deeper record',
+    items: [{ text: 'Blueprint', link: '/blueprint/' }]
+  }
+]
+
 export default withMermaid(
   defineConfig({
-    title: 'Tarbiyat Architecture',
+    title: 'Tarbiyat',
     description:
-      'Human-readable documentation portal for the Tarbiyat / World\'s New School architecture repository',
+      'Tarbiyat / World\'s New School — Lab-First, Mission-Based educational architecture and architecture Blueprint',
     lang: 'en-GB',
     cleanUrls: true,
     ignoreDeadLinks: [
       /^https?:\/\/localhost/,
-      // Proposed ADRs (0008–0013) have no body files yet
+      // Proposed ADRs without body files yet (0008–0010, 0012–0013)
       /\/decisions\/adr-000[89]/,
-      /\/decisions\/adr-001[0-3]/
+      /\/decisions\/adr-0010$/,
+      /\/decisions\/adr-001[23]$/
     ],
     // Generated pages live under docs/_generated and are rewrites to clean URLs
     rewrites: {
@@ -51,19 +140,23 @@ export default withMermaid(
       siteTitle: 'Tarbiyat',
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Foundation', link: '/foundation/' },
+        { text: 'The School Model', link: '/model' },
+        { text: 'Student Journey', link: '/student-journey' },
+        { text: 'Six Worlds', link: '/six-worlds' },
+        { text: 'Missions', link: '/missions' },
+        { text: 'Proof of Capability', link: '/proof-of-capability' },
+        { text: 'People & Learning', link: '/people-learning' },
+        { text: 'Malaysia', link: '/malaysia' },
         {
-          text: 'Decisions',
+          text: 'Blueprint',
           items: [
-            { text: 'ADR Index', link: '/decisions/' },
-            ...adrItems
-          ]
-        },
-        { text: 'Progress', link: '/progress' },
-        { text: 'Gaps', link: '/gaps' },
-        {
-          text: 'Repository',
-          items: [
+            { text: 'Blueprint hub', link: '/blueprint/' },
+            { text: 'Foundation', link: '/foundation/' },
+            { text: 'Decisions / ADRs', link: '/decisions/' },
+            { text: 'Gaps', link: '/gaps' },
+            { text: 'Progress', link: '/progress' },
+            { text: 'Roadmap', link: '/roadmap' },
+            { text: 'Evidence', link: '/evidence/evidence-register' },
             { text: 'Master Index', link: '/master-index' },
             { text: 'Changelog', link: '/changelog' },
             { text: 'Project Rules', link: '/project-rules' }
@@ -71,72 +164,26 @@ export default withMermaid(
         }
       ],
       sidebar: {
-        '/': [
-          {
-            text: 'Portal',
-            items: [
-              { text: 'Home', link: '/' },
-              { text: 'Architecture roadmap', link: '/roadmap' },
-              { text: 'Project progress', link: '/progress' },
-              { text: 'Gap register', link: '/gaps' }
-            ]
-          },
-          {
-            text: 'Foundation',
-            collapsed: false,
-            items: [
-              { text: 'Overview', link: '/foundation/' },
-              { text: 'Concept Constitution', link: '/foundation/concept-constitution' },
-              { text: 'Project Charter', link: '/foundation/project-charter' },
-              { text: 'Vision & Mission', link: '/foundation/vision-mission-objectives' },
-              { text: 'Core Differentiators', link: '/foundation/core-differentiators' },
-              { text: 'Design Principles', link: '/foundation/design-principles' },
-              { text: 'Glossary', link: '/foundation/glossary' }
-            ]
-          },
-          {
-            text: 'Architecture Decisions',
-            collapsed: false,
-            items: [{ text: 'ADR Index', link: '/decisions/' }, ...adrItems]
-          },
-          {
-            text: 'Architecture areas',
-            collapsed: false,
-            items: [
-              { text: 'Student Journey', link: '/areas/student-journey' },
-              { text: 'Six Worlds & Pathways', link: '/areas/six-worlds' },
-              { text: 'Missions & Production', link: '/areas/missions' },
-              { text: 'People & Culture', link: '/areas/people-and-culture' },
-              { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
-              { text: 'Formal Recognition', link: '/areas/formal-recognition' },
-              { text: 'Governance / Safety', link: '/areas/governance' },
-              { text: 'Technology', link: '/areas/technology' },
-              { text: 'Physical Campus', link: '/areas/campus' },
-              { text: 'Implementation', link: '/areas/implementation' }
-            ]
-          },
-          {
-            text: 'Country Profiles',
-            collapsed: false,
-            items: [
-              { text: 'Overview', link: '/country/' },
-              { text: 'Malaysia', link: '/country/malaysia' }
-            ]
-          },
-          {
-            text: 'Evidence & registers',
-            collapsed: true,
-            items: [
-              { text: 'Master Index', link: '/master-index' },
-              { text: 'Changelog', link: '/changelog' },
-              { text: 'Superseded Concepts', link: '/evidence/superseded-concepts' },
-              { text: 'Claims Register', link: '/evidence/claims-register' },
-              { text: 'Evidence Register', link: '/evidence/evidence-register' },
-              { text: 'Research Gaps', link: '/evidence/research-gaps' },
-              { text: 'EV-0001 Evidence Pack', link: '/evidence/ev-0001-developmental-stage-boundaries' }
-            ]
-          }
-        ]
+        '/blueprint': blueprintSidebar,
+        '/foundation': blueprintSidebar,
+        '/decisions': blueprintSidebar,
+        '/areas': blueprintSidebar,
+        '/country': blueprintSidebar,
+        '/evidence': blueprintSidebar,
+        '/progress': blueprintSidebar,
+        '/roadmap': blueprintSidebar,
+        '/gaps': blueprintSidebar,
+        '/master-index': blueprintSidebar,
+        '/changelog': blueprintSidebar,
+        '/project-rules': blueprintSidebar,
+        '/model': presentationSidebar,
+        '/student-journey': presentationSidebar,
+        '/six-worlds': presentationSidebar,
+        '/missions': presentationSidebar,
+        '/proof-of-capability': presentationSidebar,
+        '/people-learning': presentationSidebar,
+        '/malaysia': presentationSidebar,
+        '/': presentationSidebar
       },
       search: {
         provider: 'local'
@@ -147,8 +194,8 @@ export default withMermaid(
       socialLinks: [],
       footer: {
         message:
-          'Presentation layer only — Markdown repository remains authoritative. UNDER REVIEW content is not final.',
-        copyright: 'Tarbiyat / World\'s New School architecture documentation'
+          'Presentation summarises repository architecture. Source Markdown and approved decisions remain authoritative. UNDER REVIEW content is not final.',
+        copyright: 'Tarbiyat / World\'s New School'
       }
     },
     mermaid: {

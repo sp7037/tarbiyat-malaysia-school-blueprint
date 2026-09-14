@@ -5,6 +5,8 @@ description: Human-readable summary of Six Worlds capability and progressive dep
 
 # Six Worlds & Pathways
 
+<p class="present-more"><a href="/six-worlds">← Stakeholder presentation: Six Worlds</a></p>
+
 <div class="planned-banner">
   <strong>UNDER REVIEW — Six Worlds architecture drafted; not approved</strong><br/>
   Worlds are named in the Concept Constitution. ADR-0011 proposes capability frames and progressive depth. GAP-008 is proposed for resolution via ADR-0011 — not closed. Competency Graph schema remains open (GAP-009).

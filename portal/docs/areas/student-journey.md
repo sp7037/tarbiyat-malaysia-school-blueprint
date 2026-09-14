@@ -5,8 +5,11 @@ description: Planned architecture area — student journey
 
 # Student Journey
 
+<p class="present-more"><a href="/student-journey">← Stakeholder presentation: Student Journey</a></p>
+
 <div class="planned-banner">
-  <strong>PLANNED — architecture not yet fully defined</strong><br/>
+  <strong>Blueprint area — detailed stage architecture under review</strong><br/>
+  Constitution names Explore→Discover→Choose→Deepen→Produce. ADR-0004–0006 remain UNDER REVIEW.
   The dedicated section under <code>docs/02-student-journey/</code> is currently a DRAFT shell only.
 </div>
 

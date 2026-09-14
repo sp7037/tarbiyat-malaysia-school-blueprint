@@ -1,8 +1,19 @@
 # Tarbiyat Architecture Portal
 
-Human-readable documentation site for the Tarbiyat / World's New School architecture repository.
+Dual-purpose VitePress site for Tarbiyat / World's New School:
+
+1. **Presentation** — accessible explanation of the school model for external stakeholders  
+2. **Blueprint** — detailed architecture / governance documentation (ADRs, gaps, evidence, progress)
 
 **Authoritative source:** Markdown documents at the repository root and under `docs/`. This portal is a presentation and navigation layer only. It does not approve ADRs, close gaps, or change educational architecture.
+
+## Information architecture
+
+**Presentation routes:** `/`, `/model`, `/student-journey`, `/six-worlds`, `/missions`, `/proof-of-capability`, `/people-learning`, `/malaysia`
+
+**Blueprint entry:** `/blueprint/` → Foundation, Decisions, Gaps, Progress, Roadmap, Evidence, Master Index, Changelog, Project Rules
+
+Path separation supports a future public presentation-only publish without a second frontend.
 
 ## Run locally
 
@@ -41,6 +52,8 @@ On every `dev` / `build`, `npm run prepare:content` scans the repository and gen
 
 Do not edit `_generated/` by hand — it is overwritten.
 
+Presentation pages under `portal/docs/` (homepage, model, journey, etc.) are edited directly. They must summarise repository architecture without inventing claims.
+
 ## Add a new ADR
 
 1. Create the ADR Markdown file under `docs/13-decisions/adr/` using the repository template (e.g. `ADR-0006-....md`).
@@ -59,8 +72,8 @@ No manual HTML page is required.
 
 - **New ADR:** automatic (see above).
 - **New Foundation / register document:** add an entry to the `includes` list in `portal/scripts/prepare-content.mjs` and, if needed, a sidebar item in `portal/docs/.vitepress/config.mts`.
-- **New architecture area landing:** add a Markdown file under `portal/docs/areas/` (or similar) and a sidebar link in `config.mts`.
-- Presentation-only pages (`index.md`, `progress.md`, `roadmap.md`, planned landings) live under `portal/docs/` and may be edited directly — without copying ADR decision text.
+- **New architecture area landing:** add a Markdown file under `portal/docs/areas/` and a Blueprint sidebar link in `config.mts`.
+- **New presentation page:** add Markdown under `portal/docs/` and update primary `nav` / presentation sidebar in `config.mts`.
 
 ## Search
 
@@ -156,3 +169,7 @@ Place the static site behind Cloudflare Access (or equivalent IdP gate) so authe
 - No “enter password” forms implemented only in browser JavaScript
 - No embedding passwords in `index.html`, Vite env files committed to git, or public Gists
 - No committing `.htpasswd`, TLS private keys, or deploy tokens to this repository
+
+### Future public presentation-only build
+
+Presentation routes are path-separated from Blueprint routes (`/blueprint/`, `/foundation/`, `/decisions/`, `/gaps`, `/progress`, etc.). A later publish pipeline may include only presentation paths for a public site while keeping Blueprint private — still one VitePress codebase.

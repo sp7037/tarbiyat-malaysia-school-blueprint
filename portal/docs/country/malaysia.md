@@ -1,12 +1,14 @@
 ---
 title: Malaysia Implementation Profile
-description: Malaysia country profile — skeleton and open research gaps
+description: Malaysia country profile — skeleton and open research gaps (Blueprint)
 ---
 
-# Malaysia
+# Malaysia — Blueprint profile
 
 ::: tip Portal notice
-This portal is a human-readable view of the repository. The Malaysia profile skeleton must not invent regulations, approvals or partnerships.
+Stakeholder framing lives on the presentation page [Malaysia](/malaysia).
+This Blueprint page tracks documentation status and open research gaps only.
+Do not invent regulations, approvals or partnerships.
 :::
 
 ## Current documentation status

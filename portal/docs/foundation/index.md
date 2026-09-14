@@ -9,6 +9,8 @@ This portal is a human-readable view of the Tarbiyat architecture repository. So
 
 # Foundation
 
+<p class="present-more"><a href="/blueprint/">← Blueprint hub</a> · <a href="/">Presentation home</a></p>
+
 Governing intellectual documents for the **Tarbiyat Core Educational Model**. Malaysia-specific regulatory detail does not belong here ([ADR-0001](/decisions/adr-0001)).
 
 | Document | Portal status reading | Source |

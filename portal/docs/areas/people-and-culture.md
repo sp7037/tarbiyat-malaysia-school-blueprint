@@ -5,6 +5,8 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 
 # How Tarbiyat Staffs a Different Kind of School
 
+<p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
+
 <div class="planned-banner">
   <strong>UNDER REVIEW — Faculty architecture drafted; not approved</strong><br/>
   ADR-0015 proposes a Practitioner–Educator–Mentor model inside professional learning teams. Staffing ratios, country registration mapping and development programmes remain open gaps. Section <code>docs/08</code> is still a shell for detailed ops.

@@ -5,6 +5,8 @@ description: Mission Ecosystem architecture — ADR-0007 under review; docs/06 s
 
 # Missions & Production
 
+<p class="present-more"><a href="/missions">← Stakeholder presentation: Missions</a></p>
+
 <div class="planned-banner">
   <strong>UNDER REVIEW — Mission Ecosystem architecture drafted; detailed ops standards open</strong><br/>
   Lab-First / Mission-Based principles are APPROVED (ADR-0002). ADR-0007 proposes authenticity progression, Institution-in-Residence and partner governance. GAP-018 is proposed for resolution via ADR-0007 — not closed. Section <code>docs/06</code> remains a shell.

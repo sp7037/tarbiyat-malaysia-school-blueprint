@@ -5,6 +5,8 @@ description: Human-readable summary of Proof of Capability architecture (ADR-001
 
 # Proof of Capability
 
+<p class="present-more"><a href="/proof-of-capability">← Stakeholder presentation: Proof of Capability</a></p>
+
 <div class="planned-banner">
   <strong>UNDER REVIEW — Proof of Capability architecture drafted; not approved</strong><br/>
   Dual assessment is APPROVED in principle (ADR-0003). ADR-0016 proposes how capability evidence becomes trustworthy. GAP-010 is proposed for resolution via ADR-0016 — not closed. Competency Graph schema remains open (GAP-009).
