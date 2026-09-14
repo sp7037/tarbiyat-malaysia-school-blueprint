@@ -10,6 +10,7 @@ description: Planned architecture area — student journey
 <div class="planned-banner">
   <strong>Blueprint area — detailed stage architecture under review</strong><br/>
   Constitution names Explore→Discover→Choose→Deepen→Produce. ADR-0004–0006 remain UNDER REVIEW.
+  ADR-0017 proposes the Discover meaningful-exposure package (UNDER REVIEW; GAP-045 not closed).
   The dedicated section under <code>docs/02-student-journey/</code> is currently a DRAFT shell only.
 </div>
 
@@ -24,6 +25,7 @@ Source Markdown documents remain authoritative. This page does not invent journe
 | Explore→Discover→Choose→Deepen→Produce (Constitution) | APPROVED principle | [Concept Constitution](/foundation/concept-constitution) |
 | Stage architecture | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
 | Stage windows / Major-Minor entry | UNDER REVIEW | [ADR-0005](/decisions/adr-0005) |
+| Discover meaningful exposure | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
 | Section shell | DRAFT | Repository `docs/02-student-journey/SECTION_README.md` |
 
 ## Related gaps
@@ -32,3 +34,4 @@ Source Markdown documents remain authoritative. This page does not invent journe
 - [GAP-004](/gaps#gap-004) — Major + Minor introduction
 - [GAP-019](/gaps#gap-019) — Exploration Floor operationalisation
 - [GAP-020](/gaps#gap-020) — Pathway change bridging
+- [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)

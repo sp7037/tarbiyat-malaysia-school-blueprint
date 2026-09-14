@@ -69,7 +69,7 @@ Known work not yet completed (documentation evidence):
 
 | Area | Why pending | Related |
 |---|---|---|
-| Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; ops packages open | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
+| Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; Discover exposure drafted in ADR-0017 | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [ADR-0017](/decisions/adr-0017), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
 | Proof of Capability Profile | Required by dual assessment model | [GAP-010](/gaps#gap-010) |
 | Exploration Floor operationalisation | Principle exists; package TBD | [GAP-019](/gaps#gap-019) |
@@ -105,8 +105,8 @@ Intentionally postponed or country-specific:
 
 Based on current repository state (not a new architectural decision):
 
-1. Human review of **ADR-0004**, **ADR-0005** and **ADR-0011**
-2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), Discover exposure package (`GAP-045`), mission/assessment ops
+1. Human review of **ADR-0004**, **ADR-0005**, **ADR-0011** and **ADR-0017**
+2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), pathway rules (`GAP-046`), Mission tagging (`GAP-047`), mission/assessment ops
 3. Parallel Malaysia research with citations (licensing, recognition mapping, canonical Concept Note)
 
 Continue in: [Roadmap](/roadmap) · [Gaps](/gaps) · [Changelog](/changelog)

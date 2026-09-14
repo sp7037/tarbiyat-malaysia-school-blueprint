@@ -74,6 +74,7 @@ Fictional example for architecture communication only. No personal data.
 | Artefact | Status | Link |
 |---|---|---|
 | Proof of Capability / Capability Evidence | UNDER REVIEW | [ADR-0016](/decisions/adr-0016) |
+| Discover Exposure Evidence ≠ PoC Claims | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
 | Formal Recognition + parallel capability layer | APPROVED | [ADR-0003](/decisions/adr-0003) |
 | Faculty multi-stream assessment | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
 | Contribution Records / sanitised evidence | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
@@ -83,6 +84,7 @@ Fictional example for architecture communication only. No personal data.
 
 - [GAP-010](/gaps#gap-010) — Proof of Capability Profile (proposed resolution via ADR-0016 — not closed)
 - [GAP-009](/gaps#gap-009) — Competency Graph specification (remains open)
+- [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)
 - [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) — Verification, challenge, presentation, verifiability, workload, acceptance, privacy
 - [GAP-002](/gaps#gap-002) — Malaysia exam/recognition mapping
 

@@ -56,5 +56,6 @@ Age bands, operational readiness packages and timetable proportions remain open 
 | [ADR-0004](/decisions/adr-0004) — student development / progressive specialisation | UNDER REVIEW |
 | [ADR-0005](/decisions/adr-0005) — stage boundaries / Major-Minor entry | UNDER REVIEW |
 | [ADR-0006](/decisions/adr-0006) — transition, exploration floor, mobility | UNDER REVIEW |
+| [ADR-0017](/decisions/adr-0017) — Discover meaningful exposure package | UNDER REVIEW |
 
 Blueprint area landing: [Student Journey (architecture)](/areas/student-journey)

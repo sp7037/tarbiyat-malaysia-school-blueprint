@@ -3,24 +3,24 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-02` |
-| Version | `0.1.0` |
+| Version | `0.2.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-13` |
+| Last reviewed | `2026-09-14` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
-| Source documents | User brief (2026-09-13); references/ as applicable |
+| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md, ADR-0004–0006, ADR-0017 |
+| Source documents | User brief (2026-09-13); ADR-0017 (2026-09-14) |
 
 ## Purpose
 
-Explore→Discover→Choose→Deepen→Produce; safeguarding against premature labelling; longitudinal interest/capability discovery.
+Explore→Discover→Choose→Deepen→Produce; safeguarding against premature labelling; longitudinal interest/capability discovery; Discover meaningful exposure across Six Worlds.
 
-## Iteration 0 note
+## Iteration note
 
-Only the section shell exists. Do not populate detailed schedules, staffing numbers or country regulations here yet.
+Stage architecture remains under ADR-0004–0006 (`UNDER REVIEW`). Discover meaningful-exposure package drafted in **ADR-0017** (`UNDER REVIEW`; proposed resolution of `GAP-045` — not closed). Do not populate detailed schedules, staffing numbers or country regulations here yet.
 
 ## Planned child documents (not yet created)
 
-- Overview
+- Overview aligning to ADR-0004–0006 / ADR-0017 (after human review direction)
 - Detailed specification(s)
 - Open questions linked to `GAP_REGISTER.md`

@@ -19,6 +19,14 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Iteration 10 — ADR-0017 Discover Meaningful Exposure Package (2026-09-14)
+
+- Drafted ADR-0017 (`UNDER REVIEW`): Meaningful Exposure Test (Context; Active Engagement; World-Relevant Practice; Reflection; Trace); Discover Exposure Package as cumulative learner experience; All-Six-Worlds Entitlement without equal-time/six-course mandates; Cross-World counting only with substantive learner work per claimed World; stage ≠ capability depth; no early identity lock-in; Choose as provisional concentration; Exposure Evidence ≠ PoC Claims; Graph boundary at GAP-009; human guidance; equal dignity; resource-feasible designs; scenario tests A–N.
+- ID pre-flight: no reserved Discover-exposure ADR; ADR-0008–0010 / 0012–0013 remain proposed for other topics; assigned next free ID ADR-0017 without renumbering.
+- Updated ADR_INDEX, MASTER_INDEX, GAP_REGISTER (GAP-045 proposed resolution via ADR-0017 — not closed; GAP-009 / 046 / 047 remain open with cross-refs), section 02/03/05 notes, glossary, portal Six Worlds / Student Journey / progress / roadmap cross-links.
+- Light cross-link on ADR-0011 Follow-on / Open Questions for GAP-045 → ADR-0017 without changing ADR-0011 status or decisions.
+- Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0011 / 0004–0007 / 0015 / 0016 as under-review context only. Did not treat under-review ADRs as approved. Did not alter APPROVED FND-003 or ADR-0001–0003. No hours, Year maps, Graph schemas, Major/Minor catalogues, pathway algorithms or commit.
+
 ### Iteration 9 — ADR-0011 Six Worlds Capability / Progressive Depth (2026-09-14)
 
 - Drafted ADR-0011 (`UNDER REVIEW`): Six Worlds as capability/mission domains (not career tracks, houses or subject lists); per-World capability frames; Capability Depth Ladder (Encounter→Inquire→Apply→Integrate→Advance→Contribute) distinct from developmental stages; Discover meaningful exposure across all Worlds; provisional concentration; Major+Minor within/across Worlds; Cross-World vs World-Specific capabilities; Cross-World Missions; faculty/PoC/Graph boundaries; no prestige hierarchy; future-proofing without seventh AI World.

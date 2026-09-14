@@ -84,9 +84,10 @@ ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Con
 
 ## Open next design areas (from repository evidence)
 
-- Complete human review of [ADR-0004](/decisions/adr-0004)–[ADR-0007](/decisions/adr-0007), [ADR-0014](/decisions/adr-0014)–[ADR-0016](/decisions/adr-0016)
+- Complete human review of [ADR-0004](/decisions/adr-0004)–[ADR-0007](/decisions/adr-0007), [ADR-0011](/decisions/adr-0011), [ADR-0014](/decisions/adr-0014)–[ADR-0017](/decisions/adr-0017)
 - [GAP-008](/gaps#gap-008) Six Worlds competency maps (ADR-0011 UNDER REVIEW — proposed resolution, not closed)
-- [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) Worlds follow-on packages (opened by ADR-0011)
+- [GAP-045](/gaps#gap-045) Discover meaningful-exposure package (ADR-0017 UNDER REVIEW — proposed resolution, not closed)
+- [GAP-046](/gaps#gap-046)–[GAP-047](/gaps#gap-047) Worlds follow-on packages (remain open)
 - [GAP-009](/gaps#gap-009) Competency Graph schema (kept distinct from PoC)
 - [GAP-010](/gaps#gap-010) / [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) PoC operating follow-ons
 - [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) Faculty staffing evidence and country role mapping

@@ -469,7 +469,7 @@ This distinction prepares `GAP-009` and must not invent node schemas here.
 - Meaningful means experience-based discovery: rotations, comparative Missions, short Labs, practitioner exposure, guided reflection — **not** one assembly, one career talk or one worksheet.
 - Goal: informed preference formation through doing, not premature streaming.
 - Typical depth: Inquire; early Apply samples.
-- Operational package deferred (`GAP-045`).
+- Operational package: proposed in ADR-0017 (`UNDER REVIEW`; `GAP-045` — not closed).
 
 ### Choose
 
@@ -731,7 +731,7 @@ This supports ministry understanding of school → university → economy → pu
 
 ### Risks / costs
 
-- “Meaningful Discover exposure” needs operational criteria (`GAP-045`) or it drifts back to tokenism.
+- “Meaningful Discover exposure” needs operational criteria (`GAP-045`) or it drifts back to tokenism — proposed package now drafted in ADR-0017 (`UNDER REVIEW`; not closed).
 - Within-World pathways may proliferate into hidden streaming (`GAP-046`).
 - Without Graph work (`GAP-009`), claim wording may remain inconsistent.
 - Dependency on still under-review ADR-0004–0007 / 0015 / 0016 coherence.
@@ -740,7 +740,7 @@ This supports ministry understanding of school → university → economy → pu
 ### Follow-on work
 
 - Human review of this ADR; close GAP-008 only if APPROVED.
-- Discover exposure package (`GAP-045`).
+- Discover exposure package — ADR-0017 (`UNDER REVIEW`; proposed resolution of `GAP-045` — not closed).
 - Within/across-World pathway design rules (`GAP-046`).
 - Mission World-tagging significance thresholds (`GAP-047`).
 - Competency Graph specification (`GAP-009`) using this semantics.
@@ -771,7 +771,7 @@ Country / project profiles may later:
 
 ## Open Questions
 
-1. Exact operational criteria for Discover “meaningful exposure” across all six Worlds (`GAP-045`).
+1. Exact operational criteria for Discover “meaningful exposure” across all six Worlds — proposed in ADR-0017 (`UNDER REVIEW`; `GAP-045` — not closed).
 2. How finely within-World pathways should be named before Deepen without recreating streaming (`GAP-046`).
 3. Whether Produce is always a distinct stage or sometimes a late-Deepen overlay (inherited open question from ADR-0005 / EV-0001).
 4. Minimum Cross-World Capability set to seed `GAP-009`.
@@ -800,5 +800,6 @@ This ADR does **not**:
 - `FND-003` Concept Constitution §7
 - ADR-0002, ADR-0003 (APPROVED)
 - ADR-0004–0007, ADR-0014–0016 (`UNDER REVIEW` — context only)
-- `GAP_REGISTER.md` — GAP-008 proposed resolution; GAP-009 open; GAP-045–047 opened
+- `GAP_REGISTER.md` — GAP-008 proposed resolution; GAP-009 open; GAP-045 proposed via ADR-0017; GAP-046–047 open
 - `docs/03-worlds-and-pathways/SECTION_README.md`
+- ADR-0017 (`UNDER REVIEW` — Discover Meaningful Exposure Package; proposed resolution of GAP-045)

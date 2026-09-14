@@ -119,6 +119,7 @@ Real problems often span Worlds. Missions may intentionally integrate more than 
 | Artefact | Status | Link |
 |---|---|---|
 | Six Worlds Capability / Progressive Depth | UNDER REVIEW | [ADR-0011](/decisions/adr-0011) |
+| Discover Meaningful Exposure Package | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
 | Six Worlds named at Constitution level | APPROVED (high level) | [Concept Constitution](/foundation/concept-constitution) |
 | Discover exposure / Major+Minor principles | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
 

@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-GAP` |
-| Version | `1.0.0` |
+| Version | `1.1.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0016 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–9 ADR drafts (0004–0007, 0011, 0014–0016) |
+| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0017 |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–10 ADR drafts (0004–0007, 0011, 0014–0017) |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -59,9 +59,9 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-042 | Faculty evidence workload / significance thresholds | Mission evidence volume can create administrative hell | Research selective-evidence thresholds and reusable artefact patterns | High | Open (opened by ADR-0016) |
 | GAP-043 | External acceptance of Proof of Capability | Universities/employers/ministries may or may not value PoC; Core must not invent endorsements | Country/project acceptance research with citations; no fabricated recognition claims | Medium | Open (opened by ADR-0016) |
 | GAP-044 | PoC retention, privacy and sanitised-evidence operating rules | Lifelong records risk over-collection; confidential missions need sanitisation | Draft retention/privacy/sanitisation SOP; align with country data law (MY still GAP-006 where relevant) | Medium | Open (opened by ADR-0016) |
-| GAP-045 | Discover Six Worlds meaningful-exposure package | ADR-0011 requires substantive exposure across all six Worlds; token career-day risk remains | Draft operational criteria (rotations/Labs/comparative Missions/reflection) after ADR-0011 human review; no Core timetable % | High | Open (opened by ADR-0011) |
-| GAP-046 | Within-World / cross-World pathway design rules | Major/Minor need not equal entire Worlds; unconstrained sub-pathways risk hidden streaming | Draft pathway-naming principles and anti-streaming guards after ADR-0011 review; no full catalogue yet | Medium | Open (opened by ADR-0011) |
-| GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes | Medium | Open (opened by ADR-0011) |
+| GAP-045 | Discover Six Worlds meaningful-exposure package | ADR-0011 requires substantive exposure across all six Worlds; token career-day risk remains | Human review of ADR-0017; close only after ADR-0017 APPROVED; no Core timetable % | High | Proposed resolution via ADR-0017 (`UNDER REVIEW`) — not closed |
+| GAP-046 | Within-World / cross-World pathway design rules | Major/Minor need not equal entire Worlds; unconstrained sub-pathways risk hidden streaming | Draft pathway-naming principles and anti-streaming guards after ADR-0011 review; no full catalogue yet; Discover prepares for later pathways (ADR-0017 context) | Medium | Open (opened by ADR-0011) |
+| GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity; ADR-0017 Cross-World Rule requires substantive work per claimed World | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes; keep compatible with ADR-0017 | Medium | Open (opened by ADR-0011) |
 
 ## Closed (Core design conflicts only)
 

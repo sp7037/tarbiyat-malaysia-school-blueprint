@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.9.0` |
+| Version | `0.10.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–8 ADR drafts |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–10 ADR drafts |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
 
@@ -48,8 +48,8 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | Section | Path | Purpose | Status |
 |---|---|---|---|
 | 01 Learning architecture | `docs/01-learning-architecture/SECTION_README.md` | Lab-First, Mission-Based, Knowledge Studios | DRAFT |
-| 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce | DRAFT |
-| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds capability frames (ADR-0011 UNDER REVIEW); Major+Minor | DRAFT |
+| 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce; Discover exposure via ADR-0017 UNDER REVIEW | DRAFT |
+| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds capability frames (ADR-0011 UNDER REVIEW); Discover exposure package (ADR-0017 UNDER REVIEW); Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; production vs demo practicals | DRAFT |
@@ -93,6 +93,7 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
 | ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; GAP-032–037 opened |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |
+| ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
 
 ---
 
