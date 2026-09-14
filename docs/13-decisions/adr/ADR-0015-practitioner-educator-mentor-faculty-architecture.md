@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0015` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `UNDER REVIEW` |
 | Date | `2026-09-14` |
 | Deciders | Human lead (TBD) |
@@ -263,6 +263,15 @@ A substantial Mission may draw adults proportionally from:
 - External Experts remain governed visitors/partners, not automatic faculty (see Institution-in-Residence Boundary).
 
 Mission Teams implement ADR-0007 controls: educational purpose, scope, responsible adults, safeguarding, data/IP expectations, partner interaction limits and exit conditions (detailed ops still `GAP-022`–`024`).
+
+### Mission Lead (coordination function)
+
+A substantial Mission or Campus Live Workflow cycle may designate a **Mission Lead** — a **coordination function**, not a fourth faculty tier.
+
+- Typically held by an authorised **Educator** or **Practitioner** (sometimes both in co-lead) for the mission’s duration.
+- Coordinates lifecycle, briefing, reviews, evidence capture and adult coverage; does **not** monopolise assessment, pathway decisions or Creator Rights outcomes.
+- External partners and Institution-in-Residence personnel do **not** become Mission Lead by default.
+- One adult may be Mission Lead while another holds Mentor continuity for affected learners.
 
 ---
 

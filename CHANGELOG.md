@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Productive institution architecture review — ADR-0007 / 0014 / 0015 hardening (2026-09-14)
+
+- ADR-0007 (`UNDER REVIEW` v0.1.1): Campus Live Workflow / educational production environments with Education-First guardrails; graded Deployment Boundary; Test Scenarios A–J (including previously referenced F/G).
+- ADR-0015 (`UNDER REVIEW` v0.1.1): Mission Lead as coordination function within Mission Teams.
+- ADR-0014 (`UNDER REVIEW` v0.1.1): enterprise/production context distinctions (simulation vs campus unit vs learner venture vs partnership).
+- Review only — no ADR approvals or GAP closures.
+
 ### Iteration 11 — ADR-0018 Discover → Choose Pathway Preparation (2026-09-14)
 
 - Drafted ADR-0018 (`UNDER REVIEW`): guided developmental transition from Discover to Choose (not career pass/fail gate); provisional concentration without forced single World; multi-input human-governed guidance without one score; Interest ≠ Capability; Exposure ≠ pathway readiness; PoC may inform but is not a universal Choose prerequisite; Provisional Concentration Plan as revisable orientation artefact (not credential/ranking/PoC); reversibility; breadth continuity without equal-time mandate; equity, equal dignity and safety/ethics; scenario tests A–N.

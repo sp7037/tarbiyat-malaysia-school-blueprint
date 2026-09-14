@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0007` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `UNDER REVIEW` |
 | Date | `2026-09-14` |
 | Deciders | Human lead (TBD) |
@@ -156,6 +156,43 @@ Tarbiyat operates a multi-channel source ecosystem. Architecture describes the *
 | **Strategic institutions** | National laboratories; utilities; infrastructure providers; development agencies; approved national programmes |
 
 Sources supply problems, expertise, context and review. **Educational governance remains with Tarbiyat.**
+
+---
+
+## Campus Live Workflow and Educational Production Environments
+
+A Tarbiyat campus **may** operate supervised **Campus Live Workflow** environments — sometimes called educational production, research, service or innovation units — in which learners encounter **sustained real workflows**, not only one-off Missions.
+
+**Defining feature:** **real workflow** (specifications, stakeholders, quality standards, deadlines, documentation, practitioner supervision, inspectable outcomes). **Not** a requirement for commercial revenue or mandatory Core facilities.
+
+Illustrative forms (examples only; **not** Core-mandated units): fabrication/prototyping; software/digital production; media/design studio; research/service laboratory; sustainability/energy/water unit; enterprise/service studio; community systems lab.
+
+Campus Live Workflow environments:
+
+- source **internal** Missions and recurring production learning;
+- may serve campus, community or partner needs under **Mission Educationalisation** and Education-First rules;
+- remain **educational institutions**, not factories, outsourcing centres or disguised employment programmes.
+
+### Architectural guardrails
+
+Campus Live Workflow participation must respect:
+
+1. **Education-First** — learning and capability development precede commercial output.
+2. **Voluntary / developmentally appropriate participation** — learners may decline roles that are not appropriate; mixed-age and intensity rules apply.
+3. **Supervision** — Educator, Practitioner, Technical Professional and safeguarding oversight as proportionality requires (ADR-0015).
+4. **Safeguarding** — unchanged or increased with authenticity and risk.
+5. **Safety / licensing** — no unlicensed professional practice; regulated deployment stays bounded (Deployment Boundary below).
+6. **Workload / time protection** — production rhythm must not consume Formal Recognition obligations or rest (`GAP-016`).
+7. **Authorship / IP protection** — ADR-0014; no automatic appropriation.
+8. **Quality assurance** — professional standards apply as **learning standards**, not production quotas.
+9. **Customer / stakeholder boundary** — stakeholders inform usefulness; they do not control assessment, pathways or curriculum.
+10. **Commercial / revenue separation** — revenue, if any, is governed transparently; education is not profit-first schooling.
+11. **Learner exit / right to decline** — where lawful and operationally feasible.
+12. **No production target determining academic progression** — output volume or commercial success is not a graduation gate.
+
+**Rejected patterns:** child labour; disguised employment; production quotas; profit-first schooling; unsafe professional practice; forced commercial activity; uncompensated appropriation of learner work; repetitive commercial work because students are cheaper than staff (Scenario F).
+
+Detailed campus typology, equipment lists and unit operating procedures belong in `docs/06-missions-and-production/`, `docs/09-campus-blueprint/` and country profiles — not as Core law here.
 
 ---
 
@@ -407,19 +444,25 @@ Negligence, unsafe conduct, academic dishonesty or persistent non-engagement (FN
 
 ## Deployment Boundary
 
-Distinguish:
+Deployment is **graded**, not binary. Higher modes require stronger governance; lower modes remain first-class educational outcomes.
 
-| Mode | Meaning |
-|---|---|
-| **Student demonstration** | Inspectable outcome within educational safeguards |
-| **Real deployment** | Use in live operational, public, commercial or regulated environments |
+| Mode | Meaning | Typical governance |
+|---|---|---|
+| **Educational prototype** | Inspectable build for learning, critique and iteration within Mission safeguards | Mission Team; no external operational dependency |
+| **Validated prototype / output** | Tested outcome meeting defined educational quality criteria; may be suitable for limited next use | Documented test/critique; risk review as needed |
+| **Internal campus use** | Used inside Tarbiyat operations (e.g. campus tool, display, internal service pilot) under school governance | Safeguarding, data class, IP expectations clear |
+| **Supervised real-world use** | Used with real users/stakeholders under tight adult and legal bounds (not full public/commercial rollout) | Enhanced safeguarding, consent, professional supervision |
+| **Public deployment** | Broader non-commercial or community release where lawful and appropriate | Publication/consent; may exclude minors from unsupervised public roles |
+| **Commercial deployment** | Revenue, licensing or market use | Professional/legal authority; Creator Rights Review where relevant (ADR-0014); never automatic from Level F |
 
-Deployment into healthcare, infrastructure, public systems, financial systems, safety-critical environments or commercial environments may require professional and regulatory approval.
+Earlier modes do **not** require later deployment for educational validity.
+
+Deployment into healthcare, infrastructure, public systems, financial systems, safety-critical environments or commercial environments may require professional and regulatory approval beyond student status.
 
 - Students must **never** be represented as licensed professionals where they are not.
 - Tarbiyat work may support or prototype professional work.
 - Country law controls actual regulated deployment.
-- Level F does not automatically authorise live deployment.
+- Authenticity Level F does **not** automatically authorise live, public or commercial deployment.
 
 ---
 
@@ -612,6 +655,22 @@ Malaysia IP / micro-venture legal feasibility remains `GAP-011` and is not decid
 7. Minimum Discover World-exposure package before Deepen concentration (related `GAP-008`; ADR-0005/0006 open questions).
 8. Whether Produce remains a distinct dominant stage or late-Deepen overlay (ADR-0005 / EV-0001 open point) — authenticity Level F must remain coherent either way.
 9. How Exploration Floor protected dimensions are evidenced during intensive partner-connected Deepen/Produce missions (ADR-0006).
+10. Campus Live Workflow unit operating standards, staffing models and campus-space typology (`docs/06`, `docs/09`).
+
+## Test Scenarios
+
+| ID | Scenario | Architectural result |
+|---|---|---|
+| **A** | Teacher re-labels a worksheet as a “Mission” | Fails Mission Quality Standard; classify as Activity |
+| **B** | Year 7 team runs Level A designed-context engineering Mission | Valid Mission; no external partner required |
+| **C** | Company offers a live production line task to save labour costs | Rejected — Education-First; not outsourcing (Scenario F) |
+| **D** | NGO provides a real community problem; school educationalises before delivery | Valid Level C–D pathway with partner governance controls |
+| **E** | Advanced team seeks public deployment of a health-related tool | Requires Deployment Boundary escalation; no unlicensed clinical practice |
+| **F** | Partner proposes repetitive commercial assembly because students are cheaper | Architecturally rejected; Mission Educationalisation or refusal |
+| **G** | Partner offers identifiable patient records for a “real data” Mission | Highly Restricted — anonymise/redact or reject access |
+| **H** | Campus fabrication unit runs recurring internal jobs with rotating learner teams | Permitted as Campus Live Workflow if guardrails 1–12 hold; not mandatory |
+| **I** | Industry-in-Residence engineer visits twice per year only | Guest/Visiting Expert at best — not Institution-in-Residence |
+| **J** | Learner declines participation in a commercial-leaning production unit | Decline respected where lawful/feasible; no academic penalty for refusal |
 
 ## Explicit Non-Claims
 

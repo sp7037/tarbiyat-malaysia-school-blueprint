@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0014` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `UNDER REVIEW` |
 | Date | `2026-09-14` |
 | Deciders | Human lead (TBD) |
@@ -359,6 +359,17 @@ Core does **not** mandate a financial structure, endowment, corporate vehicle or
 ---
 
 ## Micro-Venture Pathway
+
+### Enterprise and production context (distinctions)
+
+| Context | Meaning | Creator / IP posture (architectural) |
+|---|---|---|
+| **Classroom or Mission simulation** | Learning exercise without external operational dependency | Ordinary Educational Work unless significance warrants escalation |
+| **Learning enterprise exercise** | Supervised practice of enterprise concepts (models, ethics, costing) without live commercial entity | Educational; typically no venture entity |
+| **Campus Live Workflow / educational production unit** | Sustained supervised real workflow on campus (ADR-0007); may serve internal or partner needs under Education-First guardrails | School-operated educational environment; learner participation voluntary where feasible; IP via Contribution Records — not automatic school/partner capture |
+| **Learner Micro-Venture** | Optional advanced pathway toward real enterprise learning | Voluntary; governed Micro-Venture standard (`GAP-028`) |
+| **Joint venture / spin-out** | Separate entity or licence pathway after Creator Rights Review | Lawful agreements; minors and conflicts explicitly handled |
+| **External company partnership** | Partner-sponsored Mission or I-in-R collaboration | Background/Mission/Joint IP distinguished; no hidden transfer |
 
 A **Micro-Venture** is an **optional, supervised educational pathway** through which suitable advanced student work can learn about:
 

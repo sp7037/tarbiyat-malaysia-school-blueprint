@@ -38,10 +38,10 @@ Historical directions that must not be restored: `docs/12-evidence/SUPERSEDED_CO
 | ADR-0004 | Student Development and Progressive Specialisation Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0004-student-development-progressive-specialisation.md` |
 | ADR-0005 | Developmental Stage Boundaries and Major-Minor Entry Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0005-developmental-stage-boundaries-and-major-minor-entry.md` |
 | ADR-0006 | Stage Transition, Exploration Floor and Pathway Mobility Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` |
-| ADR-0007 | Mission Ecosystem, Authenticity and Institution-in-Residence Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` |
+| ADR-0007 | Mission Ecosystem, Authenticity and Institution-in-Residence Architecture | `UNDER REVIEW` | `0.1.1` | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` |
 | ADR-0011 | Six Worlds Capability and Progressive Depth Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` |
-| ADR-0014 | Student Creator Rights, Intellectual Property, Innovation and Micro-Venture Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` |
-| ADR-0015 | Practitioner–Educator–Mentor Faculty Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` |
+| ADR-0014 | Student Creator Rights, Intellectual Property, Innovation and Micro-Venture Architecture | `UNDER REVIEW` | `0.1.1` | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` |
+| ADR-0015 | Practitioner–Educator–Mentor Faculty Architecture | `UNDER REVIEW` | `0.1.1` | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` |
 | ADR-0016 | Proof of Capability and Capability Evidence Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` |
 | ADR-0017 | Discover Meaningful Exposure Package Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` |
 | ADR-0018 | Discover → Choose Pathway Preparation Architecture | `UNDER REVIEW` | `0.1.0` | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` |
