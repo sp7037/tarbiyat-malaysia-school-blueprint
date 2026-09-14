@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.3.0` |
+| Version | `0.9.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-13` |
+| Last reviewed | `2026-09-14` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13) |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–8 ADR drafts |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
 
@@ -51,10 +51,10 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce | DRAFT |
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six worlds; Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
-| 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability; portfolio | DRAFT |
+| 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; production vs demo practicals | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence; IP; Mission-to-Market | DRAFT |
-| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology (non-country) | DRAFT |
+| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology (non-country); faculty architecture via ADR-0015 UNDER REVIEW | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Generic campus typology | DRAFT |
 
 ---
@@ -78,12 +78,20 @@ Each section currently contains only `SECTION_README.md` (DRAFT shell). No detai
 | EVD-002 | `docs/12-evidence/EVIDENCE_REGISTER.md` | DRAFT | Evidence inventory |
 | EVD-003 | `docs/12-evidence/RESEARCH_GAPS.md` | DRAFT | Research detail companion to GAP_REGISTER |
 | EVD-004 | `docs/12-evidence/SUPERSEDED_CONCEPTS.md` | APPROVED | Prevent restoration of superseded historical directions |
+| EV-0001 | `docs/12-evidence/EV-0001-developmental-stage-boundaries.md` | DRAFT | GAP-021 evidence pack for ADR-0005 windows (does not approve ADR) |
 | DEC-000 | `docs/13-decisions/SECTION_README.md` | DRAFT | ADR process |
 | DEC-001 | `docs/13-decisions/ADR_INDEX.md` | DRAFT | ADR index |
 | DEC-TPL | `docs/13-decisions/adr/ADR-TEMPLATE.md` | DRAFT | Template |
 | ADR-0001 | `docs/13-decisions/adr/ADR-0001-core-vs-country-implementation.md` | APPROVED | v1.0.0 — Core vs country separation |
 | ADR-0002 | `docs/13-decisions/adr/ADR-0002-lab-first-mission-based.md` | APPROVED | v1.0.0 — Lab-First / Mission-Based (not lab-only) |
 | ADR-0003 | `docs/13-decisions/adr/ADR-0003-formal-examination-recognition-safety-layer.md` | APPROVED | v1.0.0 — Recognition layer + parallel capability layer |
+| ADR-0004 | `docs/13-decisions/adr/ADR-0004-student-development-progressive-specialisation.md` | UNDER REVIEW | Student development stages; Exploration Floor; Major+Minor in principle |
+| ADR-0005 | `docs/13-decisions/adr/ADR-0005-developmental-stage-boundaries-and-major-minor-entry.md` | UNDER REVIEW | Typical stage windows; readiness; Major+Minor entry at Deepen |
+| ADR-0006 | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` | UNDER REVIEW | Stage transition; Exploration Floor as protected dimensions; pathway bridging/mobility |
+| ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | UNDER REVIEW | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 proposed resolution |
+| ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
+| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; GAP-032–037 opened |
+| ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |
 
 ---
 

@@ -13,14 +13,15 @@
 
 ## Purpose
 
-Role typology (coaches, mentors, academic staff); generic governance patterns; no country ministry mapping here.
+Role typology and governance patterns (non-country). Core faculty architecture is now drafted in ADR-0015 (`UNDER REVIEW`): Practitioner–Educator–Mentor functions, supporting Technical/Lab Professionals, Specialist Professional Services, and professional learning teams.
 
 ## Iteration 0 note
 
-Only the section shell exists. Do not populate detailed schedules, staffing numbers or country regulations here yet.
+Detailed schedules, staffing numbers, org charts and country regulations must not be invented here. See ADR-0015 and GAP-032–037.
 
 ## Planned child documents (not yet created)
 
-- Overview
-- Detailed specification(s)
-- Open questions linked to `GAP_REGISTER.md`
+- Overview aligning to ADR-0015 (after human review direction)
+- Faculty development / onboarding operating standards (GAP-033, GAP-036)
+- Safeguarding & residential house-staff operating standards (country/project where applicable)
+- Open questions linked to `GAP_REGISTER.md` (GAP-032–037)

@@ -28,10 +28,23 @@ Do not contaminate the Core with Malaysia-specific rules. Do not treat Oman mate
 
 Iteration 0 establishes repository structure, governance, indexing and skeletons only. It does **not** deliver the complete educational blueprint.
 
+## Documentation portal
+
+A browser-readable presentation layer lives in [`portal/`](portal/). Source Markdown remains authoritative.
+
+```bash
+cd portal
+npm install
+npm run dev
+```
+
+See [`portal/README.md`](portal/README.md) for build instructions and how new ADRs appear in the site.
+
 ## Quick navigation
 
 | Start here | Path |
 |---|---|
+| Documentation portal | [`portal/`](portal/) |
 | Agent / contributor rules | [`PROJECT_RULES.md`](PROJECT_RULES.md) |
 | Full document map | [`MASTER_INDEX.md`](MASTER_INDEX.md) |
 | Change history | [`CHANGELOG.md`](CHANGELOG.md) |

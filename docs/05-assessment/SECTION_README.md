@@ -13,14 +13,16 @@
 
 ## Purpose
 
-Competency Graph; Proof of Capability Profile; portfolio; relationship to exams; anti-gaming rules.
+Competency Graph (still open — `GAP-009`); Proof of Capability Profile architecture drafted in ADR-0016 (`UNDER REVIEW`); portfolio / dual-layer relationship to Formal Recognition (ADR-0003 APPROVED).
 
-## Iteration 0 note
+## Iteration note
 
-Only the section shell exists. Do not populate detailed schedules, staffing numbers or country regulations here yet.
+Do not invent staffing numbers, country exam equivalence or software schemas here. See ADR-0016 and GAP-010 / GAP-038–044.
 
 ## Planned child documents (not yet created)
 
-- Overview
-- Detailed specification(s)
+- Overview aligning to ADR-0016 (after human review direction)
+- Verification / moderation operating standard (GAP-038)
+- Profile presentation / sharing modes (GAP-040)
+- Competency Graph specification (GAP-009; World maps via proposed ADR-0011 / GAP-008)
 - Open questions linked to `GAP_REGISTER.md`

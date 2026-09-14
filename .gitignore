@@ -11,3 +11,10 @@ Desktop.ini
 
 # Optional local scratch
 _scratch/
+
+# Documentation portal (VitePress)
+portal/node_modules/
+portal/docs/.vitepress/dist/
+portal/docs/.vitepress/cache/
+portal/docs/_generated/
+portal/docs/.vitepress/data/

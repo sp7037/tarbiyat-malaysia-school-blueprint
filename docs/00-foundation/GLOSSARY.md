@@ -21,9 +21,15 @@
 | **Explore → Discover → Choose → Deepen → Produce** | Named progression stages (age bands TBD) | CORE |
 | **Six Worlds** | Six broad professional/learning domains listed in Concept Constitution | CORE |
 | **Major / Minor** | Pathway structure at suitable ages (timing TBD) | CORE |
-| **Competency Graph** | Longitudinal map of demonstrated competencies (schema TBD) | CORE |
-| **Proof of Capability Profile** | Evidence-backed profile of what a student can design, build and solve | CORE |
+| **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 UNDER REVIEW) | CORE |
+| **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 UNDER REVIEW) | CORE |
+| **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |
 | **Industry-in-Residence** | Structured presence of industry practitioners in campus learning | CORE |
+| **Educator (faculty function)** | Professional responsibility for teaching and learning design (ADR-0015 UNDER REVIEW) | CORE |
+| **Practitioner (faculty function)** | Current/recent authentic domain expertise in Mission Labs and critique (ADR-0015 UNDER REVIEW) | CORE |
+| **Mentor (faculty function)** | Longitudinal student development, reflection and pathway guidance — not clinical care by default (ADR-0015 UNDER REVIEW) | CORE |
+| **Technical / Lab Professional** | Supporting professional workforce for safe operation of labs/workshops/systems; not a fourth faculty function (ADR-0015 UNDER REVIEW) | CORE |
+| **Mission Educationalisation** | Transforming a real external problem into an educational Mission before student delivery (ADR-0007 UNDER REVIEW) | CORE |
 | **Mission-to-Market** | Supervised pathway from mission output toward commercial or public deployment | CORE |
 | **Core Educational Model** | Country-agnostic Tarbiyat architecture/IP | CORE |
 | **Implementation Profile** | Country-specific adaptation layer | COUNTRY |
