@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-001` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` |
@@ -356,22 +356,15 @@ The school may **pause or end** a partner relationship or Mission when:
 
 ---
 
-## 18. Handoff to GAP-023 (Institution-in-Residence)
+## 18. Relationship to Institution / Industry-in-Residence (`MIS-002`)
 
-This standard **does not** resolve Institution-in-Residence presence, recurrence, embedding, quality metrics or campus integration (`GAP-023`).
+Partner behaviour, eligibility, access, IP/data, conflicts, funding limits and exit rules in this standard (**MIS-001**) are **prerequisites** for Institution / Industry-in-Residence recognition.
 
-**Prerequisites** before an organisation becomes Institution / Industry-in-Residence:
+**Sustained embedding, presence/recurrence, practitioner continuity, space models, relationship review and I-in-R designation rules** are defined in:
 
-- passes eligibility (§4);
-- Mission Partner Governance literacy and signed expectations (implementation);
-- safeguarding and access rules (§7);
-- Education-First and commercial boundaries (§2, §11);
-- IP/data rules (§9–§10);
-- conflict disclosure (§15);
-- suspension/exit acceptance (§17);
-- at least one successfully governed Mission Partner engagement **or** equivalent onboarding review (implementation).
+`docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` (`MIS-002`, DRAFT) — proposed resolution of **GAP-023** (not closed).
 
-GAP-023 inherits these rules and adds **sustained operating pattern**.
+Typical path: successful Mission Partner engagement (or equivalent onboarding review) **before** I-in-R designation.
 
 ---
 

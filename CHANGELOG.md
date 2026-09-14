@@ -19,6 +19,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-023 — Institution / Industry-in-Residence operating standard (2026-09-14)
+
+- Added `MIS-002` (`docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md`, DRAFT): sustained embedding definition; participation ladder; MIS-001 prerequisites; presence/recurrence; practitioner continuity; Campus Live Workflow link; faculty boundary; access/space/portfolio/Six Worlds; review/exit; scenarios A–N; handoffs to GAP-024 / GAP-031.
+- Updated `MIS-001` §18 relationship to MIS-002; `SEC-06` / `SEC-07` READMEs; `MASTER_INDEX`; `GAP_REGISTER` (GAP-023 proposed resolution via MIS-002 — **not closed**); glossary I-in-R terms.
+- Portal: prepare-content include → `/areas/institution-in-residence`; Blueprint sidebar; Missions area / presentation / roadmap / governance. No new ADR; GAP-024 unchanged Open; no commit in task scope.
+
 ### GAP-022 — Mission Partner Governance standard (2026-09-14)
 
 - Added `MIS-001` (`docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md`, DRAFT): Core operational partner governance derived from ADR-0007 / ADR-0014 / ADR-0015 (UNDER REVIEW); scenario tests A–N; handoffs to GAP-023 / GAP-024.

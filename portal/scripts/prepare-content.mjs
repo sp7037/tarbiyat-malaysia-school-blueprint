@@ -432,8 +432,8 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0007 proposes Mission Ecosystem / authenticity A–F / Campus Live Workflow / Institution-in-Residence (UNDER REVIEW). ADR-0014 proposes Student Creator Rights (UNDER REVIEW). MIS-001 drafts Mission Partner Governance (GAP-022 proposed resolution — not closed). GAP-018 and GAP-025 proposed resolution — not closed. GAP-023 / GAP-024 remain open.',
-      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; docs/06; GAP-018; GAP-022–025',
+      detail: 'ADR-0007 proposes Mission Ecosystem / authenticity A–F / Campus Live Workflow / Institution-in-Residence (UNDER REVIEW). ADR-0014 proposes Student Creator Rights (UNDER REVIEW). MIS-001 drafts Mission Partner Governance (GAP-022). MIS-002 drafts Institution-in-Residence ops (GAP-023). Both proposed resolutions — not closed. GAP-018 and GAP-025 proposed resolution — not closed. GAP-024 remains open.',
+      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; docs/06; GAP-018; GAP-022–025',
       href: '/areas/missions'
     },
     {
@@ -699,6 +699,13 @@ const includes = [
     sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
     description:
       'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). Governing ADRs 0007 / 0014 / 0015 remain UNDER REVIEW.'
+  },
+  {
+    outRel: 'areas/institution-in-residence.md',
+    title: 'Institution / Industry-in-Residence (MIS-002)',
+    sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
+    description:
+      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. Governing ADRs 0007 / 0014 / 0015 remain UNDER REVIEW.'
   }
 ]
 

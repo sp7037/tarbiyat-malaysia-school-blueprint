@@ -33,7 +33,10 @@
 | **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 UNDER REVIEW) | CORE |
 | **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 UNDER REVIEW) | CORE |
 | **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |
-| **Industry-in-Residence** | Structured presence of industry practitioners in campus learning | CORE |
+| **Industry-in-Residence** | Constitution-named subtype of Institution-in-Residence for industry organisations — sustained Mission-ecosystem embedding, not sponsorship or guest visits (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
+| **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
+| **Mission Partner Governance (`MIS-001`)** | Core operational rules for external Mission partners — Education-First, educationalisation, access, IP/data, anti-exploitation (DRAFT; GAP-022) | CORE |
+| **Institution-in-Residence Operating Standard (`MIS-002`)** | Core operating rules for I-in-R designation, presence, practitioner continuity, review and exit (DRAFT; GAP-023) | CORE |
 | **Educator (faculty function)** | Professional responsibility for teaching and learning design (ADR-0015 UNDER REVIEW) | CORE |
 | **Practitioner (faculty function)** | Current/recent authentic domain expertise in Mission Labs and critique (ADR-0015 UNDER REVIEW) | CORE |
 | **Mentor (faculty function)** | Longitudinal student development, reflection and pathway guidance — not clinical care by default (ADR-0015 UNDER REVIEW) | CORE |

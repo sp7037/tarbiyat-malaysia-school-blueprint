@@ -85,7 +85,7 @@ ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Con
 ## Open next design areas (from repository evidence)
 
 - Complete human review of [ADR-0004](/decisions/adr-0004)–[ADR-0007](/decisions/adr-0007), [ADR-0011](/decisions/adr-0011), [ADR-0014](/decisions/adr-0014)–[ADR-0018](/decisions/adr-0018)
-- [GAP-022](/gaps#gap-022) Mission Partner Governance ([MIS-001](/areas/mission-partner-governance) DRAFT — proposed resolution, not closed) → [GAP-023](/gaps#gap-023) Institution-in-Residence ops → [GAP-024](/gaps#gap-024) Mission risk classification; Creator Rights templates [GAP-031](/gaps#gap-031)
+- [GAP-022](/gaps#gap-022) Mission Partner Governance ([MIS-001](/areas/mission-partner-governance) DRAFT — proposed resolution, not closed) → [GAP-023](/gaps#gap-023) Institution-in-Residence ([MIS-002](/areas/institution-in-residence) DRAFT — proposed resolution, not closed) → [GAP-024](/gaps#gap-024) Mission risk classification (open); Creator Rights templates [GAP-031](/gaps#gap-031)
 - [GAP-008](/gaps#gap-008) Six Worlds competency maps (ADR-0011 UNDER REVIEW — proposed resolution, not closed)
 - [GAP-045](/gaps#gap-045) Discover meaningful-exposure package (ADR-0017 UNDER REVIEW — proposed resolution, not closed)
 - [GAP-046](/gaps#gap-046) Discover→Choose pathway preparation (ADR-0018 UNDER REVIEW — proposed resolution, not closed)
