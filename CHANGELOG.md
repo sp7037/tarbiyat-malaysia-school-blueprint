@@ -19,6 +19,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-024 — Mission Risk / Safeguarding Classification (2026-09-14)
+
+- Added `MIS-003` (`docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md`, DRAFT): proportional R0–R4 classification; risk domains; authenticity≠risk; activity-level controls; stop-work; partner/I-in-R non-bypass; deployment re-review; scenarios A–P.
+- Updated `MIS-001` / `MIS-002` handoffs; `SEC-06`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-024 proposed resolution via MIS-003 — **not closed**); glossary.
+- Portal: `/areas/mission-risk-and-safeguarding`; Blueprint sidebar; Missions / roadmap / governance. No new ADR; GAP-031 unchanged Open; no commit in task scope.
+
 ### GAP-023 — Institution / Industry-in-Residence operating standard (2026-09-14)
 
 - Added `MIS-002` (`docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md`, DRAFT): sustained embedding definition; participation ladder; MIS-001 prerequisites; presence/recurrence; practitioner continuity; Campus Live Workflow link; faculty boundary; access/space/portfolio/Six Worlds; review/exit; scenarios A–N; handoffs to GAP-024 / GAP-031.

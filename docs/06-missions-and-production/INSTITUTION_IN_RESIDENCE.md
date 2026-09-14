@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-002` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` |
@@ -440,13 +440,15 @@ School may downgrade or terminate when:
 
 ---
 
-## 23. Handoff to GAP-024 (Mission risk)
+## 23. Relationship to Mission Risk / Safeguarding (`MIS-003`)
 
 I-in-R does **not** bypass Mission-level risk classification.
 
-Every Mission still receives appropriate risk / safeguarding review. Long-term partner trust ≠ blanket pre-approval.
+Every Mission / work package still requires appropriate risk and safeguarding review under:
 
-GAP-024 will operationalise risk dimensions (physical, chemical, digital, privacy, psychological, financial, legal, fieldwork, equipment, public deployment, etc.).
+`docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` (`MIS-003`, DRAFT) — proposed resolution of **GAP-024** (not closed).
+
+Long-term partner trust ≠ blanket pre-approval. Repeated good performance may streamline implementation checklists; it must not eliminate Core controls.
 
 ---
 
@@ -504,7 +506,7 @@ Do **not** invent country contract law here.
 - ADR-0014 Student Creator Rights (UNDER REVIEW)
 - ADR-0015 Faculty architecture / I-in-R ≠ faculty (UNDER REVIEW)
 - ADR-0016 Proof of Capability (UNDER REVIEW) — evidence boundaries
-- `GAP_REGISTER.md` — GAP-023; GAP-022; GAP-024; GAP-031; GAP-033
+- `GAP_REGISTER.md` — GAP-023; GAP-022; GAP-024 (`MIS-003`); GAP-031; GAP-033
 
 ---
 
@@ -514,7 +516,8 @@ This standard does **not**:
 
 - approve ADR-0007, ADR-0014 or ADR-0015;
 - close GAP-023 (proposed resolution only);
-- resolve GAP-024 or GAP-031;
+- close GAP-024 (proposed via MIS-003);
+- resolve GAP-031;
 - mandate permanent physical residency or weekly hour counts;
 - invent Malaysian (or other) labour / safeguarding statutes;
 - set partner quotas or sponsorship fee percentages;

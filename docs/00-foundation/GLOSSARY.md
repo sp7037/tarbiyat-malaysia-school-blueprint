@@ -37,6 +37,7 @@
 | **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
 | **Mission Partner Governance (`MIS-001`)** | Core operational rules for external Mission partners — Education-First, educationalisation, access, IP/data, anti-exploitation (DRAFT; GAP-022) | CORE |
 | **Institution-in-Residence Operating Standard (`MIS-002`)** | Core operating rules for I-in-R designation, presence, practitioner continuity, review and exit (DRAFT; GAP-023) | CORE |
+| **Mission Risk and Safeguarding Classification (`MIS-003`)** | Proportional R0–R4 Mission/activity risk domains, controls, stop-work and re-review (DRAFT; GAP-024) | CORE |
 | **Educator (faculty function)** | Professional responsibility for teaching and learning design (ADR-0015 UNDER REVIEW) | CORE |
 | **Practitioner (faculty function)** | Current/recent authentic domain expertise in Mission Labs and critique (ADR-0015 UNDER REVIEW) | CORE |
 | **Mentor (faculty function)** | Longitudinal student development, reflection and pathway guidance — not clinical care by default (ADR-0015 UNDER REVIEW) | CORE |

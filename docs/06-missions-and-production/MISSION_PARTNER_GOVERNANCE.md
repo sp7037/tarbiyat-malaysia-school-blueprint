@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-001` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-14` |
 | Country scope | `CORE` |
@@ -368,22 +368,15 @@ Typical path: successful Mission Partner engagement (or equivalent onboarding re
 
 ---
 
-## 19. Handoff to GAP-024 (Mission risk classification)
+## 19. Relationship to Mission Risk / Safeguarding (`MIS-003`)
 
-GAP-022 focuses on **partner behaviour and authority**. GAP-024 must operationalise **Mission risk dimensions**, including:
+Partner briefs must record a **risk-screen outcome** linking authenticity, data class and controls.
 
-- physical, biological, chemical;
-- digital / cyber;
-- privacy / data;
-- psychological;
-- financial;
-- legal / regulatory;
-- public / reputational;
-- fieldwork;
-- equipment;
-- public deployment.
+Detailed Mission risk domains, R0–R4 classification, stop-work authority, deployment re-review and scenario tests are defined in:
 
-Partner briefs must record **risk screen outcome** and link to future risk matrix; detailed matrix is **not** defined here.
+`docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` (`MIS-003`, DRAFT) — proposed resolution of **GAP-024** (not closed).
+
+Partner Missions **must not bypass** MIS-003. Partner urgency does not lower controls.
 
 ---
 
@@ -428,6 +421,7 @@ Do not treat this DRAFT as substitute for country legal review (`GAP-011`, `GAP-
 - ADR-0014 Student Creator Rights (UNDER REVIEW v0.1.1)
 - ADR-0015 Faculty architecture (UNDER REVIEW v0.1.1)
 - ADR-0016 Proof of Capability (UNDER REVIEW) — evidence boundaries
+- `MIS-002` Institution-in-Residence; `MIS-003` Mission Risk / Safeguarding
 - `GAP_REGISTER.md` — GAP-022, GAP-023, GAP-024, GAP-025–031
 
 ---
@@ -438,7 +432,7 @@ This standard does **not**:
 
 - approve ADR-0007, ADR-0014 or ADR-0015;
 - close GAP-022 (proposed resolution only until human review and governing ADR approval path);
-- resolve GAP-023 or GAP-024;
+- close GAP-023 or GAP-024 (proposed via MIS-002 / MIS-003);
 - provide legal contract templates (`GAP-031`);
 - invent Malaysian or other national law;
 - set staffing ratios (`GAP-032`);

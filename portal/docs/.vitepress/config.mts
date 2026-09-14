@@ -58,6 +58,7 @@ const blueprintSidebar = [
       { text: 'Missions & Production', link: '/areas/missions' },
       { text: 'Mission Partner Governance (MIS-001)', link: '/areas/mission-partner-governance' },
       { text: 'Institution-in-Residence (MIS-002)', link: '/areas/institution-in-residence' },
+      { text: 'Mission Risk / Safeguarding (MIS-003)', link: '/areas/mission-risk-and-safeguarding' },
       { text: 'People & Culture', link: '/areas/people-and-culture' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },
