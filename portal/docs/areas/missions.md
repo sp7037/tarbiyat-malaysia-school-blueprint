@@ -41,6 +41,7 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 | Institution / Industry-in-Residence (`MIS-002`) | DRAFT | [Portal](/areas/institution-in-residence) |
 | Mission Risk and Safeguarding (`MIS-003`) | DRAFT | [Portal](/areas/mission-risk-and-safeguarding) |
 | Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`) | DRAFT | [Portal](/areas/mission-operating-templates) |
+| Mission Team Loading / Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Section guide (`SEC-06`) | DRAFT | `docs/06-missions-and-production/SECTION_README.md` |
 
 ## Related gaps
@@ -51,4 +52,5 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 - [GAP-024](/gaps#gap-024) — Mission risk / safeguarding (proposed via MIS-003 — not closed)
 - [GAP-025](/gaps#gap-025) — Creator Rights (proposed via ADR-0014 — not closed)
 - [GAP-031](/gaps#gap-031) — Templates (proposed via MIS-TPL-001 / MIS-FRM-* — not closed)
+- [GAP-032](/gaps#gap-032) — Mission Team loading / capacity (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-033](/gaps#gap-033) — Practitioner authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)

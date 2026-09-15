@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-032 — Mission Team Loading and Staffing Capacity (2026-09-15)
+
+- Added `PEO-004` (`docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md`, DRAFT): capacity ≠ headcount; Mission capacity follows authorised/current/available competence; risk/function/concurrency/peak-load/resilience; capacity states; resource-poor school principle; scenarios A–O; Mentor detail handed to GAP-034.
+- Added `PEO-FRM-002` Mission Team Capacity Check under `docs/08-people-and-governance/templates/`.
+- Updated `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-032 proposed via PEO-004 — **not closed**; GAP-034 / 037 remain Open); glossary; light PEO-003 / MIS-TPL cross-links.
+- Portal: `/areas/mission-team-capacity`; FRM-002 via People page; People chain PEO-001↔002↔003 → PEO-004. No new ADR; no ADR approvals or GAP closures.
+
 ### Portal maintenance — status classification and proposed ADR links (2026-09-15)
 
 - Fixed portal GAP status classification so wording containing **not closed** is never treated as closed/resolved (GAP-021 badge).

@@ -43,6 +43,8 @@
 | **Practitioner Currency and Re-authorisation (`PEO-002`)** | Evidence that authorised practitioner functions remain current; renew ≠ expand (DRAFT; GAP-035) | CORE |
 | **Faculty and Practitioner Development (`PEO-003`)** | Deliberate, function-specific, practice-based adult development; development ≠ authorisation ≠ currency (DRAFT; GAP-036) | CORE |
 | **Faculty / Practitioner Development Plan (`PEO-FRM-001`)** | Lightweight people-development plan/record under PEO series — not a MIS form (DRAFT; GAP-036) | CORE |
+| **Mission Team Loading and Staffing Capacity (`PEO-004`)** | Mission capacity follows authorised/current/available competent adults — not headcount or universal ratios (DRAFT; GAP-032) | CORE |
+| **Mission Team Capacity Check (`PEO-FRM-002`)** | Pre-launch / change capacity check record — ADEQUATE…NOT OPERABLE states (DRAFT; GAP-032) | CORE |
 | **Educator (faculty function)** | Professional responsibility for teaching and learning design (ADR-0015 UNDER REVIEW) | CORE |
 | **Practitioner (faculty function)** | Current/recent authentic domain expertise in Mission Labs and critique (ADR-0015 UNDER REVIEW) | CORE |
 | **Mentor (faculty function)** | Longitudinal student development, reflection and pathway guidance — not clinical care by default (ADR-0015 UNDER REVIEW) | CORE |

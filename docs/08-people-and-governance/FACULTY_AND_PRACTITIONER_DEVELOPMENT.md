@@ -9,7 +9,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001` / `PEO-002` DRAFT; `MIS-001`–`MIS-003` DRAFT; `MIS-TPL-001` / `MIS-FRM-002` DRAFT |
-| Related gaps | GAP-036 (this document); GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-037 (country CPD / registration — handoff); GAP-032 / 034 (not resolved here) |
+| Related gaps | GAP-036 (this document); GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-037 (country CPD / registration — handoff); GAP-034 (Mentor caseload — handoff) |
 | Source documents | ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation principles; PEO-001 / PEO-002 handoffs; GAP-036 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** faculty and practitioner development principles implied by ADR-0015 and required by Tarbiyat operating model (Lab-First, Mission-Based, Six Worlds, Education-First). ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. Course hours, calendars, named trainers, LMS and certificates are **implementation** detail. Mandatory teacher CPD and registered-training rules are **country** detail (`GAP-037`).
@@ -33,7 +33,7 @@ Prevents:
 - STEM-only faculty development that ignores Creative, Society, Enterprise, Health and Earth Worlds;
 - corporate HR bureaucracy that does not transfer into practice.
 
-This document proposes resolution of **GAP-036**. It is **not** an authorisation standard (`PEO-001`), currency review standard (`PEO-002`), staffing-ratio standard (`GAP-032`), Mentor caseload standard (`GAP-034`), or country registration map (`GAP-037`).
+This document proposes resolution of **GAP-036**. It is **not** an authorisation standard (`PEO-001`), currency review standard (`PEO-002`), Mission Team loading / staffing capacity standard (`GAP-032` — see `PEO-004`), Mentor caseload standard (`GAP-034`), or country registration map (`GAP-037`).
 
 ---
 
@@ -550,8 +550,9 @@ Development programme quality may consider:
 |---|---|---|
 | `PEO-001` / GAP-033 | Builds capability that may support authorisation evidence | Permission bands, onboarding, FRM-007 |
 | `PEO-002` / GAP-035 | Provides routes that may generate currency evidence | Currency states, renew≠expand, FRM-008 |
+| `PEO-004` / GAP-032 | Protects development slack so schools are not 100% utilised | Mission Team loading / capacity checks |
 | GAP-037 | Notes country CPD/licence may apply | Teacher registration / statutory CPD mapping |
-| GAP-032 / 034 | — | Ratios and Mentor caseloads |
+| GAP-034 | — | Mentor caseloads |
 | `MIS-FRM-002` | Complements external orientation | Remains external onboarding acknowledgement |
 
 ---
@@ -579,5 +580,5 @@ This standard does **not**:
 - create a conventional teacher-training syllabus as Tarbiyat Core;
 - force STEM-only development;
 - create ranking scores or a certification franchise;
-- invent staffing ratios (`GAP-032`) or Mentor caseloads (`GAP-034`);
+- invent Mission Team capacity / ratio architecture (`PEO-004` / GAP-032) or Mentor caseloads (`GAP-034`);
 - replace `MIS-FRM-002` / `007` / `008`.

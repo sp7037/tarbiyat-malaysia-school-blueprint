@@ -54,7 +54,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
-| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001 authorisation; PEO-002 currency; PEO-003 development | DRAFT |
+| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–004 authorisation / currency / development / Mission capacity | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Generic campus typology | DRAFT |
 
 | ID | Path | Status | Notes |
@@ -74,7 +74,9 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 | PEO-001 | `docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` | DRAFT | Practitioner Authorisation and Onboarding Standard — proposed GAP-033 resolution (not closed) |
 | PEO-002 | `docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md` | DRAFT | Practitioner Currency and Re-authorisation Standard — proposed GAP-035 resolution (not closed) |
 | PEO-003 | `docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md` | DRAFT | Faculty and Practitioner Development Standard — proposed GAP-036 resolution (not closed) |
+| PEO-004 | `docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md` | DRAFT | Mission Team Loading and Staffing Capacity Standard — proposed GAP-032 resolution (not closed) |
 | PEO-FRM-001 | `docs/08-people-and-governance/templates/PEO-FRM-001-faculty-practitioner-development-plan.md` | DRAFT | Faculty / Practitioner Development Plan & Record (PEO-003 / GAP-036) |
+| PEO-FRM-002 | `docs/08-people-and-governance/templates/PEO-FRM-002-mission-team-capacity-check.md` | DRAFT | Mission Team Capacity Check (PEO-004 / GAP-032) |
 
 ---
 

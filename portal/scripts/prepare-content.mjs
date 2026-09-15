@@ -168,7 +168,9 @@ function rewriteRepoLinks(md) {
     [/docs\/08-people-and-governance\/PRACTITIONER_AUTHORISATION_AND_ONBOARDING\.md/g, '/areas/practitioner-authorisation'],
     [/docs\/08-people-and-governance\/PRACTITIONER_CURRENCY_AND_REAUTHORISATION\.md/g, '/areas/practitioner-currency'],
     [/docs\/08-people-and-governance\/FACULTY_AND_PRACTITIONER_DEVELOPMENT\.md/g, '/areas/faculty-practitioner-development'],
+    [/docs\/08-people-and-governance\/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY\.md/g, '/areas/mission-team-capacity'],
     [/docs\/08-people-and-governance\/templates\/PEO-FRM-001-faculty-practitioner-development-plan\.md/g, '/areas/peo-frm-001'],
+    [/docs\/08-people-and-governance\/templates\/PEO-FRM-002-mission-team-capacity-check\.md/g, '/areas/peo-frm-002'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
@@ -178,7 +180,8 @@ function rewriteRepoLinks(md) {
     [/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
     [/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007'],
     [/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
-    [/templates\/PEO-FRM-001-faculty-practitioner-development-plan\.md/g, '/areas/peo-frm-001']
+    [/templates\/PEO-FRM-001-faculty-practitioner-development-plan\.md/g, '/areas/peo-frm-001'],
+    [/templates\/PEO-FRM-002-mission-team-capacity-check\.md/g, '/areas/peo-frm-002']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -546,8 +549,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001 drafts Practitioner authorisation / onboarding (GAP-033 proposed — not closed). PEO-002 drafts Practitioner currency / re-authorisation (GAP-035 proposed — not closed). PEO-003 drafts Faculty and Practitioner Development (GAP-036 proposed — not closed). Staffing ratios and country role mapping open (GAP-032, 034, 037).',
-      evidence: 'ADR-0015; PEO-001; PEO-002; PEO-003; docs/08 SECTION_README; GAP-032–037',
+      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001–003 draft authorisation / currency / development. PEO-004 drafts Mission Team loading / capacity (GAP-032 proposed — not closed). Mentor caseloads and country role mapping open (GAP-034, 037).',
+      evidence: 'ADR-0015; PEO-001–PEO-004; docs/08 SECTION_README; GAP-032–037',
       href: '/areas/people-and-culture'
     },
     {
@@ -870,6 +873,19 @@ const includes = [
     title: 'PEO-FRM-001 Faculty / Practitioner Development Plan',
     sourceRel: 'docs/08-people-and-governance/templates/PEO-FRM-001-faculty-practitioner-development-plan.md',
     description: 'DRAFT lightweight development plan/record implementing PEO-003 / GAP-036 — not a MIS form.'
+  },
+  {
+    outRel: 'areas/mission-team-capacity.md',
+    title: 'Mission Team Loading and Staffing Capacity (PEO-004)',
+    sourceRel: 'docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md',
+    description:
+      'PEO-004 DRAFT — proposed operational resolution of GAP-032 (not closed). Staff count ≠ Mission capacity. ADR-0015 remains UNDER REVIEW.'
+  },
+  {
+    outRel: 'areas/peo-frm-002.md',
+    title: 'PEO-FRM-002 Mission Team Capacity Check',
+    sourceRel: 'docs/08-people-and-governance/templates/PEO-FRM-002-mission-team-capacity-check.md',
+    description: 'DRAFT Mission capacity check implementing PEO-004 / GAP-032 — not a statutory staffing return.'
   }
 ]
 

@@ -8,13 +8,15 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Faculty architecture drafted; authorisation + currency + development ops DRAFT</strong><br/>
+  <strong>UNDER REVIEW — Faculty architecture drafted; PEO ops DRAFT</strong><br/>
   ADR-0015 proposes Practitioner–Educator–Mentor functions.
-  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (who is authorised) ↔
-  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (remains current) ↔
-  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (how capability is developed).
-  These <strong>interact</strong> — they are not a one-way promotion ladder.
-  <strong>Training ≠ automatic authorisation or currency.</strong>
+  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation) ↔
+  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency) ↔
+  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development)
+  → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity).
+  These <strong>interact</strong> — they are not a promotion ladder.
+  <strong>Staff count ≠ Mission capacity.</strong>
+  A Mission may launch only when the right authorised/current functions are available.
 </div>
 
 ::: tip Portal notice
@@ -25,7 +27,7 @@ Source Markdown documents remain authoritative. This page explains the model in 
 
 Tarbiyat combines recognised academic learning, Mission Labs, mentoring and authentic external work. A conventional **teacher-only** workforce is unlikely to carry all of that well. Domain experts alone are also not enough — knowing a profession is not the same as teaching children safely and well.
 
-## Professional title ≠ Tarbiyat authorisation ≠ forever current ≠ developed by courses alone
+## Professional title ≠ authorisation ≠ currency ≠ development ≠ capacity
 
 | Layer | Meaning |
 |---|---|
@@ -34,8 +36,9 @@ Tarbiyat combines recognised academic learning, Mission Labs, mentoring and auth
 | Tarbiyat authorisation | Scoped school permission (`PEO-001` DRAFT) |
 | Currency | Recent evidence to **continue** (`PEO-002` DRAFT) |
 | Development | Deliberate capability-building (`PEO-003` DRAFT) |
+| Mission capacity | Enough of the right functions available now (`PEO-004` DRAFT) |
 
-**Organisation is I-in-R ≠ every employee is authorised, current or developed for Tarbiyat functions.** Use `MIS-FRM-002` / `007` / `008` and `PEO-FRM-001` as needed.
+**Organisation is I-in-R ≠ every employee is authorised, current, developed or available for a Mission.** Use `MIS-FRM-002` / `007` / `008` and `PEO-FRM-001` / `002` as needed.
 
 ## Three faculty functions (not ranks)
 
@@ -62,6 +65,8 @@ Educator + Practitioner + Mentor + Technical Professional + External Expert (whe
 
 Younger learners usually need more continuity with Educators and Mentors. Advanced Deepen/Produce work may involve denser specialist Practitioner support.
 
+**Mission capacity must follow available competent human capacity** — not the other way around. Resource-constrained schools may run fewer or lower-risk Missions rather than fake capacity.
+
 ## Hard boundaries (examples)
 
 - A brilliant engineer does **not** automatically replace a teacher.
@@ -70,6 +75,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - Mentors refer serious mental-health concerns; they do not impersonate clinicians.
 - External Institution-in-Residence people are **not** automatic faculty.
 - Completing a development course does **not** automatically grant authorisation or CURRENT status.
+- More adults do **not** make prohibited (R4) work acceptable.
+- An empty lab is **not** technical capacity without authorised/current supervisors.
 
 ## Full decision record
 
@@ -80,6 +87,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Practitioner Currency and Re-authorisation (`PEO-002`) | DRAFT | [Portal](/areas/practitioner-currency) |
 | Faculty and Practitioner Development (`PEO-003`) | DRAFT | [Portal](/areas/faculty-practitioner-development) |
 | Development Plan & Record (`PEO-FRM-001`) | DRAFT | [Portal](/areas/peo-frm-001) |
+| Mission Team Loading and Staffing Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
+| Mission Team Capacity Check (`PEO-FRM-002`) | DRAFT | [Portal](/areas/peo-frm-002) |
 | Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
@@ -88,9 +97,9 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 
 ## Related gaps
 
-- [GAP-032](/gaps#gap-032) — Staffing ratios / organisational loading
+- [GAP-032](/gaps#gap-032) — Staffing / Mission Team loading (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)
-- [GAP-034](/gaps#gap-034) — Mentor caseload principles
+- [GAP-034](/gaps#gap-034) — Mentor caseload principles (still open)
 - [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)
 - [GAP-037](/gaps#gap-037) — Country regulated-role mapping
