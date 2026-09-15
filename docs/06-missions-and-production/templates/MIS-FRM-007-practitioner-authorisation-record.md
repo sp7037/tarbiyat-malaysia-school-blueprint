@@ -3,14 +3,14 @@
 | Field | Value |
 |---|---|
 | Template ID | `MIS-FRM-007` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
 | Classification | **CONDITIONAL / CORE OPERATING RECORD** — required when a practitioner holds scoped permissions beyond one-off Guest/Speaker presence; use with `MIS-FRM-002` for regular/direct learner engagement |
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | School governance / Mission Lead / Technical safety function as relevant |
-| Implements | `PEO-001` Practitioner Authorisation and Onboarding Standard |
-| Related gaps | GAP-033; GAP-031 (template pack) |
+| Implements | `PEO-001` Practitioner Authorisation; currency lifecycle via `PEO-002` / `MIS-FRM-008` |
+| Related gaps | GAP-033; GAP-035; GAP-031 (template pack) |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > Professional title ≠ Tarbiyat authorisation. I-in-R organisation status ≠ every employee authorised.  
@@ -29,6 +29,8 @@
 | Record owner | |
 | Reviewer / authoriser | |
 | Status (Active / Restricted / Suspended / Expired / Revoked) | |
+| Currency state (CURRENT / CURRENT WITH RESTRICTIONS / REFRESH REQUIRED / SUPERVISED RETURN / SUSPENDED — `PEO-002`) | Not a prestige rank |
+| Last currency review (MIS-FRM-008 ID / date) | |
 | Next review / review triggers | |
 
 ---
@@ -110,12 +112,12 @@
 
 ## G. Review / change log
 
-| Date | Change | Reason | Reviewer |
-|---|---|---|---|
-| | | | |
+| Date | Change | Reason | Reviewer | Linked FRM-008 |
+|---|---|---|---|---|
+| | | | | |
 
 ---
 
 ## Explicit non-claims
 
-This record does **not** invent staffing ratios, country licences, equipment catalogues, or ownership of learner work.
+This record does **not** invent staffing ratios, country licences, equipment catalogues, or ownership of learner work. Currency reviews use `MIS-FRM-008` (`PEO-002`); renewal must not silently expand scopes recorded here.

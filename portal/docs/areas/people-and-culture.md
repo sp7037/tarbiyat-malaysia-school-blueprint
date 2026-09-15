@@ -8,10 +8,12 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Faculty architecture drafted; authorisation ops DRAFT</strong><br/>
+  <strong>UNDER REVIEW — Faculty architecture drafted; authorisation + currency ops DRAFT</strong><br/>
   ADR-0015 proposes Practitioner–Educator–Mentor functions.
-  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> drafts how school authorisation differs from professional title or I-in-R branding.
-  Staffing ratios, currency programmes, development curricula and country registration remain open gaps.
+  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (who is authorised) →
+  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (remains current) →
+  <a href="/gaps#gap-036">GAP-036</a> (how people are developed — still open).
+  <strong>Authorised once ≠ authorised forever.</strong>
 </div>
 
 ::: tip Portal notice
@@ -22,15 +24,16 @@ Source Markdown documents remain authoritative. This page explains the model in 
 
 Tarbiyat combines recognised academic learning, Mission Labs, mentoring and authentic external work. A conventional **teacher-only** workforce is unlikely to carry all of that well. Domain experts alone are also not enough — knowing a profession is not the same as teaching children safely and well.
 
-## Professional title ≠ Tarbiyat authorisation
+## Professional title ≠ Tarbiyat authorisation ≠ forever current
 
 | Layer | Meaning |
 |---|---|
 | Professional credential | Degree, licence, portfolio, employer title |
 | Safeguarding clearance | Suitability to work with minors |
 | Tarbiyat authorisation | Scoped school permission (`PEO-001` DRAFT) |
+| Currency | Recent evidence to **continue** (`PEO-002` DRAFT) |
 
-**Organisation is I-in-R ≠ every employee is authorised.** Each practitioner needs individual onboarding (`MIS-FRM-002`) and scoped authorisation (`MIS-FRM-007`) where permissions go beyond a one-off visit.
+**Organisation is I-in-R ≠ every employee is authorised or current.** Use `MIS-FRM-002` / `007` / `008` as needed.
 
 ## Three faculty functions (not ranks)
 
@@ -71,7 +74,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 |---|---|---|
 | Practitioner–Educator–Mentor Faculty Architecture | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
 | Practitioner Authorisation and Onboarding (`PEO-001`) | DRAFT | [Portal](/areas/practitioner-authorisation) |
-| Mission Operating Templates (incl. FRM-002 / FRM-007) | DRAFT | [Portal](/areas/mission-operating-templates) |
+| Practitioner Currency and Re-authorisation (`PEO-002`) | DRAFT | [Portal](/areas/practitioner-currency) |
+| Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
 | Lab-First / Mission-Based | APPROVED | [ADR-0002](/decisions/adr-0002) |
@@ -82,7 +86,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - [GAP-032](/gaps#gap-032) — Staffing ratios / organisational loading
 - [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)
 - [GAP-034](/gaps#gap-034) — Mentor caseload principles
-- [GAP-035](/gaps#gap-035) — Practitioner currency standard
+- [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes
 - [GAP-037](/gaps#gap-037) — Country regulated-role mapping
 - [GAP-023](/gaps#gap-023) — Institution-in-Residence operating standard

@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-035 — Practitioner Currency and Re-authorisation (2026-09-15)
+
+- Added `PEO-002` (`docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md`, DRAFT): currency ≠ initial authorisation; proportional evidence; risk-sensitive recency; inactivity/change/incident triggers; licence boundary; tool-specific currency; currency states; renew≠expand; scenarios A–N.
+- Added `MIS-FRM-008` Currency Review; pointer fields on `MIS-FRM-007`; linked from `MIS-TPL-001`.
+- Updated `PEO-001` / `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-035 proposed via PEO-002 — **not closed**); glossary.
+- Portal: `/areas/practitioner-currency`; FRM-008 via templates index; People & Culture chain PEO-001→PEO-002→GAP-036. No new ADR; no commit in task scope.
+
 ### GAP-033 — Practitioner Authorisation and Onboarding (2026-09-15)
 
 - Added `PEO-001` (`docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md`, DRAFT): function-specific authorisation; credential ≠ authority; PA-0–PA-4 bands as permission scope; permission dimensions; onboarding; safeguarding separation; MIS-003 risk ceilings; tool/lab principle; I-in-R non-inheritance; Mission Lead boundary; scenarios A–N.

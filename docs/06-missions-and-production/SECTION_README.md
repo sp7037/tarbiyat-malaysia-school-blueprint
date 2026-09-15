@@ -30,10 +30,11 @@ Mission taxonomy; production standards; stakeholder missions; quality, safety, e
 | MIS-FRM-005 | `templates/MIS-FRM-005-conditional-annexes.md` | DRAFT | Conditional annexes (IP / Data / Contribution / Conflict) |
 | MIS-FRM-006 | `templates/MIS-FRM-006-deployment-and-exit.md` | DRAFT | Deployment Review + Suspension / Exit |
 | MIS-FRM-007 | `templates/MIS-FRM-007-practitioner-authorisation-record.md` | DRAFT | Practitioner Authorisation Record (`PEO-001` / GAP-033) |
+| MIS-FRM-008 | `templates/MIS-FRM-008-practitioner-currency-review.md` | DRAFT | Practitioner Currency Review (`PEO-002` / GAP-035) |
 
 ## Architecture dependency
 
-ADR-0007 (UNDER REVIEW) → MIS-001 → MIS-002 → MIS-003 → MIS-TPL-001 / MIS-FRM-* . Practitioner authorisation architecture: ADR-0015 → `PEO-001` → MIS-FRM-002 / MIS-FRM-007.
+ADR-0007 (UNDER REVIEW) → MIS-001 → MIS-002 → MIS-003 → MIS-TPL-001 / MIS-FRM-* . Practitioner authorisation / currency: ADR-0015 → `PEO-001` → `PEO-002` → MIS-FRM-002 / 007 / 008.
 
 ## Planned child documents (not yet created)
 

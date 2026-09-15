@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-TPL-001` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `MIS-001`–`MIS-003` DRAFT; `ADR-0007` / `ADR-0014` / `ADR-0015` UNDER REVIEW; `FND-003` APPROVED |
-| Related gaps | GAP-031 (this pack); GAP-022–024; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-026 (country IP mapping remains open) |
+| Related gaps | GAP-031 (this pack); GAP-022–024; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-035 (`PEO-002` / `MIS-FRM-008`); GAP-026 (country IP mapping remains open) |
 | Source documents | MIS-001 / MIS-002 / MIS-003; ADR-0007 Deployment Boundary; ADR-0014 Creator Rights; Human-Readiness Review of Mission Operating System (2026-09) |
 
 > **Authority note:** These are **operational educational records / templates**. They implement architecture already stated in MIS-001–003 and related ADRs. Governing ADRs remain **`UNDER REVIEW`** and are **not** approved law. Templates are **not** legal contracts and do **not** replace country-required safeguarding, privacy, IP, labour, clinical, insurance or contracting documents.
@@ -82,8 +82,9 @@ Internal labels: **006-A** Deployment Review · **006-B** Suspension / Exit.
 | ID | Template | Classification | Path |
 |---|---|---|---|
 | **MIS-FRM-007** | Practitioner Authorisation Record | **CONDITIONAL / CORE OPERATING RECORD** — scoped permissions beyond one-off Guest presence; pairs with FRM-002 | [`templates/MIS-FRM-007-practitioner-authorisation-record.md`](templates/MIS-FRM-007-practitioner-authorisation-record.md) |
+| **MIS-FRM-008** | Practitioner Currency Review | **CONDITIONAL RECORD** — scheduled / change / inactivity / incident reviews (`PEO-002`) | [`templates/MIS-FRM-008-practitioner-currency-review.md`](templates/MIS-FRM-008-practitioner-currency-review.md) |
 
-Architecture: `PEO-001` (`docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md`).
+Architecture: `PEO-001` / `PEO-002` (`docs/08-people-and-governance/`).
 
 ### Country / implementation
 
@@ -107,6 +108,7 @@ Core templates leave space for these; they do **not** invent them.
 | Seeking I-in-R | FRM-004 (after MIS-001 compliance) |
 | Moving beyond educational prototype | FRM-006-A |
 | Practitioner scoped permissions / regular learner work | FRM-002 + FRM-007 (`PEO-001`) |
+| Currency / re-authorisation review | FRM-008 (`PEO-002`); renew ≠ expand |
 | Partner pause / downgrade / breach | FRM-006-B |
 
 ---

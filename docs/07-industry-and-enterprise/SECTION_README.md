@@ -22,6 +22,7 @@ Industry-in-Residence narrative; student IP principles; Mission-to-Market; super
 | Mission Partner Governance | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` (`MIS-001`) | GAP-022 proposed resolution — not closed |
 | Institution / Industry-in-Residence ops | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` (`MIS-002`) | GAP-023 proposed resolution — not closed |
 | Practitioner authorisation / onboarding | `docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` (`PEO-001`) | GAP-033 proposed resolution — not closed; I-in-R staff not automatically authorised |
+| Practitioner currency / re-authorisation | `docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md` (`PEO-002`) | GAP-035 proposed resolution — not closed; authorised once ≠ forever |
 | Creator Rights / Micro-Venture architecture | ADR-0014 (`UNDER REVIEW`) | Country/ops via GAP-011, GAP-025–031 |
 
 ## Iteration 0 note

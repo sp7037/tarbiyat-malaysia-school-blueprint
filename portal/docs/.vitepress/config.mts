@@ -62,6 +62,7 @@ const blueprintSidebar = [
       { text: 'Mission Operating Templates (DRAFT)', link: '/areas/mission-operating-templates' },
       { text: 'People & Culture', link: '/areas/people-and-culture' },
       { text: 'Practitioner Authorisation (PEO-001)', link: '/areas/practitioner-authorisation' },
+      { text: 'Practitioner Currency (PEO-002)', link: '/areas/practitioner-currency' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },
       { text: 'Governance / Safety', link: '/areas/governance' },

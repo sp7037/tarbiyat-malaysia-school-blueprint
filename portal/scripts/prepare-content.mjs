@@ -149,13 +149,16 @@ function rewriteRepoLinks(md) {
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007'],
     [/docs\/08-people-and-governance\/PRACTITIONER_AUTHORISATION_AND_ONBOARDING\.md/g, '/areas/practitioner-authorisation'],
+    [/docs\/08-people-and-governance\/PRACTITIONER_CURRENCY_AND_REAUTHORISATION\.md/g, '/areas/practitioner-currency'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
     [/templates\/MIS-FRM-004-iinr-designation-record\.md/g, '/areas/mis-frm-004'],
     [/templates\/MIS-FRM-005-conditional-annexes\.md/g, '/areas/mis-frm-005'],
     [/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
-    [/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007']
+    [/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007'],
+    [/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -491,8 +494,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001 drafts Practitioner authorisation / onboarding (GAP-033 proposed resolution — not closed). Staffing ratios and country role mapping open (GAP-032, 034–037).',
-      evidence: 'ADR-0015; PEO-001; docs/08 SECTION_README; GAP-032–037',
+      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001 drafts Practitioner authorisation / onboarding (GAP-033 proposed — not closed). PEO-002 drafts Practitioner currency / re-authorisation (GAP-035 proposed — not closed). Staffing ratios and country role mapping open (GAP-032, 034, 036–037).',
+      evidence: 'ADR-0015; PEO-001; PEO-002; docs/08 SECTION_README; GAP-032–037',
       href: '/areas/people-and-culture'
     },
     {
@@ -788,6 +791,19 @@ const includes = [
     sourceRel: 'docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md',
     description:
       'PEO-001 DRAFT — proposed operational resolution of GAP-033 (not closed). Professional title ≠ Tarbiyat authorisation. ADR-0015 remains UNDER REVIEW.'
+  },
+  {
+    outRel: 'areas/practitioner-currency.md',
+    title: 'Practitioner Currency and Re-authorisation (PEO-002)',
+    sourceRel: 'docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md',
+    description:
+      'PEO-002 DRAFT — proposed operational resolution of GAP-035 (not closed). Authorised once ≠ authorised forever. ADR-0015 remains UNDER REVIEW.'
+  },
+  {
+    outRel: 'areas/mis-frm-008.md',
+    title: 'MIS-FRM-008 Practitioner Currency Review',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-008-practitioner-currency-review.md',
+    description: 'DRAFT currency / re-authorisation review record implementing PEO-002 / GAP-035.'
   }
 ]
 
