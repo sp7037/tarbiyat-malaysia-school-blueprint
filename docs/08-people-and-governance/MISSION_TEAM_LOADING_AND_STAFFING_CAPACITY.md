@@ -9,10 +9,10 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001` / `PEO-002` / `PEO-003` DRAFT; `MIS-001`–`MIS-003` DRAFT; `MIS-TPL-001` DRAFT |
-| Related gaps | GAP-032 (this document); GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (Mentor caseload — handoff); GAP-037 (country ratios / registration — handoff) |
+| Related gaps | GAP-032 (this document); GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country ratios / registration — handoff) |
 | Source documents | ADR-0015 Mission Teams / loading principles; MIS-003 risk; PEO-001–003; GAP-032 resolution brief (2026-09-15) |
 
-> **Authority note:** This standard **operationalises** Mission Team loading and staffing-capacity principles implied by ADR-0015 and required by the Mission Operating System. ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. This standard does **not** invent universal numeric staff ratios, maximum class sizes, duty hours or teacher-registration law. Those remain **country / implementation** (`GAP-037`). Detailed Mentor caseload numbers remain **`GAP-034`**.
+> **Authority note:** This standard **operationalises** Mission Team loading and staffing-capacity principles implied by ADR-0015 and required by the Mission Operating System. ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. This standard does **not** invent universal numeric staff ratios, maximum class sizes, duty hours or teacher-registration law. Those remain **country / implementation** (`GAP-037`). Detailed Mentor caseload principles: **`PEO-005`** (`GAP-034` proposed — not closed).
 
 ---
 
@@ -34,7 +34,7 @@ Central principle:
 
 A school must not create more Missions than its people can safely and meaningfully support.
 
-This document proposes resolution of **GAP-032**. It is **not** a Mentor caseload standard (`GAP-034`), country registration / statutory ratio map (`GAP-037`), or authorisation / currency / development syllabus (`PEO-001`–`003`).
+This document proposes resolution of **GAP-032**. It is **not** a Mentor caseload standard (`GAP-034` — see `PEO-005`), country registration / statutory ratio map (`GAP-037`), or authorisation / currency / development syllabus (`PEO-001`–`003`).
 
 ---
 
@@ -53,7 +53,7 @@ Tarbiyat staffing capacity depends on factors such as:
 - learner independence;
 - practitioner authorisation (`PEO-001`);
 - practitioner currency (`PEO-002`);
-- Mentor demand (handoff `GAP-034`);
+- Mentor demand (detail → `PEO-005` / GAP-034);
 - partner / I-in-R support;
 - assessment / evidence workload;
 - safeguarding needs;
@@ -207,13 +207,13 @@ Technical capacity must consider facility opening, equipment preparation, safety
 
 ---
 
-## 14. Mentor capacity — handoff to GAP-034
+## 14. Mentor capacity — detailed in PEO-005
 
 Mission Team capacity must recognise that **Mentor availability is a real constraint**.
 
 No school should claim strong human pathway guidance if Mentors carry impossible caseloads.
 
-**Detailed Mentor intensity / caseload principles remain `GAP-034`.** This standard only requires that Mission / school capacity checks acknowledge Mentor demand where pathway guidance is claimed.
+**Detailed Mentor caseload / human-guidance capacity:** `PEO-005` (`GAP-034` proposed resolution — not closed). This standard requires that Mission / school capacity checks acknowledge Mentor demand where pathway guidance is claimed.
 
 ---
 
@@ -427,7 +427,7 @@ Track, lightly:
 - Mission Lead loading;
 - authorised / current practitioner pool by domain/risk;
 - lab / technical capacity;
-- Mentor availability signal (detail → `GAP-034`);
+- Mentor availability signal (detail → `PEO-005` / GAP-034);
 - high-risk work;
 - peak periods;
 - bottlenecks;
@@ -467,7 +467,7 @@ It must **not fake capacity it does not have**.
 | **C** | Four Missions share the same Mission Lead | **ADEQUATE WITH CONDITIONS** if all light R0/R1 and staggered; else **CAPACITY CONSTRAINED** | Lead load follows complexity + concurrency, not count alone |
 | **D** | I-in-R engineer normally supervises; absent two weeks | **CAPACITY CONSTRAINED** → substitute / reduce / pause elevated work | Resilience; partner capacity non-substitutive for school accountability |
 | **E** | Cross-World water Mission needs Engineering + Earth | **ADEQUATE WITH CONDITIONS** if both competencies covered (people or co-facilitation); else **CONSTRAINED** | Cross-World ≠ one adult by default |
-| **F** | Mentor supports 150 learners while also teaching full time | **CAPACITY CONSTRAINED** for pathway claims; handoff detail to `GAP-034` | Mentor availability is a real constraint; do not invent caseload number here |
+| **F** | Mentor supports 150 learners while also teaching full time | **CAPACITY CONSTRAINED** for pathway claims; see `PEO-005` / GAP-034 | Mentor availability is a real constraint; caseload detail in PEO-005 |
 | **G** | PA-3 practitioner becomes REFRESH REQUIRED mid-Mission | Re-check → often **CONSTRAINED** / pause affected scopes | Currency-driven capacity; launch not permanent |
 | **H** | Produce learners highly independent; preparing public deployment | **ADEQUATE WITH CONDITIONS** | Independence helps build/test; deployment still needs review / safeguarding / IP triggers |
 | **I** | Excellent labs; no authorised technical staff | **NOT SAFE / NOT OPERABLE** for elevated tool work | Room ≠ capacity |
@@ -496,7 +496,10 @@ It must **not fake capacity it does not have**.
 PEO-001 Authorisation  ↔  PEO-002 Currency  ↔  PEO-003 Development
                          ↓
               PEO-004 Mission Team Capacity
-         (Mission launch only if functions available)
+                         ↓
+              PEO-005 Mentor Human-Guidance Capacity
+         (Mission launch only if functions available;
+          mentoring claim only if relationship capacity real)
 ```
 
 These interact. They are **not** promotion ranks.
@@ -508,7 +511,7 @@ These interact. They are **not** promotion ranks.
 | Gap / doc | This standard does | Leaves to them |
 |---|---|---|
 | `PEO-001`–`003` | Consumes authorised / current / developed capacity | Permission, currency, development detail |
-| `GAP-034` | Notes Mentor availability as constraint | Mentor caseload principles / numbers |
+| `PEO-005` / GAP-034 | Notes Mentor availability as constraint | Mentor caseload / human-guidance principles |
 | `GAP-037` | Notes country ratios may apply | Statutory class sizes / registration |
 | `GAP-047` | Notes Cross-World competency need | World-tagging significance thresholds |
 | `MIS-003` | Risk-driven staffing / R4 non-conversion | Full risk matrix ops |
@@ -517,11 +520,11 @@ These interact. They are **not** promotion ranks.
 
 ## 36. Related documents
 
-- `PEO-001` / `PEO-002` / `PEO-003`
+- `PEO-001` / `PEO-002` / `PEO-003` / `PEO-005`
 - `PEO-FRM-002` Mission Team Capacity Check
 - ADR-0015 (UNDER REVIEW)
 - `MIS-001` / `MIS-002` / `MIS-003` / `MIS-TPL-001`
-- `GAP_REGISTER.md` — GAP-032; handoffs GAP-034 / 037
+- `GAP_REGISTER.md` — GAP-032; companion GAP-034 (`PEO-005`); handoff GAP-037
 
 ---
 
@@ -531,7 +534,7 @@ This standard does **not**:
 
 - approve ADR-0015 or close GAP-032;
 - invent a universal student∶teacher or Mission∶staff Core ratio;
-- resolve Mentor caseloads (`GAP-034`);
+- replace Mentor caseload architecture (`PEO-005` / GAP-034);
 - invent country class-size or duty-hour law (`GAP-037`);
 - allow more staff to legitimise R4 / prohibited work;
 - treat capacity states as school prestige rankings;

@@ -12,6 +12,7 @@ description: Planned architecture area — student journey
   Constitution names Explore→Discover→Choose→Deepen→Produce. ADR-0004–0006 remain UNDER REVIEW.
   ADR-0017 proposes the Discover meaningful-exposure package (UNDER REVIEW; GAP-045 not closed).
   ADR-0018 proposes Discover→Choose pathway preparation (UNDER REVIEW; GAP-046 not closed).
+  Human Mentor capacity for that dialogue: [PEO-005](/areas/mentor-caseload-capacity) (GAP-034 proposed — not closed).
   The dedicated section under <code>docs/02-student-journey/</code> is currently a DRAFT shell only.
 </div>
 
@@ -28,6 +29,7 @@ Source Markdown documents remain authoritative. This page does not invent journe
 | Stage windows / Major-Minor entry | UNDER REVIEW | [ADR-0005](/decisions/adr-0005) |
 | Discover meaningful exposure | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
 | Discover→Choose pathway preparation | UNDER REVIEW | [ADR-0018](/decisions/adr-0018) |
+| Mentor human-guidance capacity | DRAFT | [PEO-005](/areas/mentor-caseload-capacity) |
 | Section shell | DRAFT | Repository `docs/02-student-journey/SECTION_README.md` |
 
 ## Related gaps
@@ -38,3 +40,4 @@ Source Markdown documents remain authoritative. This page does not invent journe
 - [GAP-020](/gaps#gap-020) — Pathway change bridging
 - [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)
 - [GAP-046](/gaps#gap-046) — Discover→Choose pathway preparation (proposed resolution via ADR-0018 — not closed)
+- [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)

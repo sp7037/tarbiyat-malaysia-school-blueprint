@@ -10,13 +10,13 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead + relevant function leads / governance as needed |
 | Implements | `PEO-004` Mission Team Loading and Staffing Capacity Standard |
-| Related gaps | GAP-032; GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (Mentor detail — handoff) |
+| Related gaps | GAP-032; GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (`PEO-005` Mentor detail) |
 
 > **Operational educational / people-capacity record — not a statutory staffing return.**  
 > **Staff count ≠ Mission capacity.** Only authorised, current and available adults count for required functions.  
 > **More adults cannot convert R4 / prohibited work into acceptable work** (`MIS-003`).  
 > Capacity states are planning statuses — **not** school prestige ranks.  
-> Detailed Mentor caseload numbers remain `GAP-034`.
+> Detailed Mentor caseload: `PEO-005` / `PEO-FRM-003` (`GAP-034` proposed — not closed).
 
 ---
 
@@ -120,7 +120,7 @@
 This record does **not**:
 
 - set universal Core staff ratios or class sizes;
-- resolve Mentor caseload bands (`GAP-034`);
+- replace Mentor caseload review (`PEO-005` / `PEO-FRM-003` / GAP-034);
 - invent country labour or registration law (`GAP-037`);
 - grant or expand authorisation / currency;
 - rank schools;

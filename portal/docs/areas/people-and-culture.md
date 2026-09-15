@@ -13,10 +13,13 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
   <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation) ↔
   <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency) ↔
   <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development)
-  → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity).
+  → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity)
+  → <a href="/areas/mentor-caseload-capacity"><code>PEO-005</code></a> (Mentor human-guidance capacity).
   These <strong>interact</strong> — they are not a promotion ladder.
   <strong>Staff count ≠ Mission capacity.</strong>
+  <strong>Assigned learners ≠ meaningfully mentored learners.</strong>
   A Mission may launch only when the right authorised/current functions are available.
+  Mentoring claims require real available relationship time.
 </div>
 
 ::: tip Portal notice
@@ -37,8 +40,9 @@ Tarbiyat combines recognised academic learning, Mission Labs, mentoring and auth
 | Currency | Recent evidence to **continue** (`PEO-002` DRAFT) |
 | Development | Deliberate capability-building (`PEO-003` DRAFT) |
 | Mission capacity | Enough of the right functions available now (`PEO-004` DRAFT) |
+| Mentor guidance capacity | Relationship depth + available Mentor time (`PEO-005` DRAFT) |
 
-**Organisation is I-in-R ≠ every employee is authorised, current, developed or available for a Mission.** Use `MIS-FRM-002` / `007` / `008` and `PEO-FRM-001` / `002` as needed.
+**Organisation is I-in-R ≠ every employee is authorised, current, developed or available for a Mission.** Use `MIS-FRM-002` / `007` / `008` and `PEO-FRM-001` / `002` / `003` as needed.
 
 ## Three faculty functions (not ranks)
 
@@ -67,6 +71,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 
 **Mission capacity must follow available competent human capacity** — not the other way around. Resource-constrained schools may run fewer or lower-risk Missions rather than fake capacity.
 
+**Mentor caseload must reflect real available relationship time** — not roster labels. See [PEO-005](/areas/mentor-caseload-capacity). Discover→Choose pathway preparation ([ADR-0018](/decisions/adr-0018)) needs human Mentor dialogue; software cannot substitute.
+
 ## Hard boundaries (examples)
 
 - A brilliant engineer does **not** automatically replace a teacher.
@@ -77,6 +83,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - Completing a development course does **not** automatically grant authorisation or CURRENT status.
 - More adults do **not** make prohibited (R4) work acceptable.
 - An empty lab is **not** technical capacity without authorised/current supervisors.
+- A long Mentor roster is **not** mentoring capacity without available relationship time.
 
 ## Full decision record
 
@@ -89,6 +96,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Development Plan & Record (`PEO-FRM-001`) | DRAFT | [Portal](/areas/peo-frm-001) |
 | Mission Team Loading and Staffing Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Mission Team Capacity Check (`PEO-FRM-002`) | DRAFT | [Portal](/areas/peo-frm-002) |
+| Mentor Caseload and Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
+| Mentor Caseload Review (`PEO-FRM-003`) | DRAFT | [Portal](/areas/peo-frm-003) |
 | Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
@@ -99,7 +108,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 
 - [GAP-032](/gaps#gap-032) — Staffing / Mission Team loading (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)
-- [GAP-034](/gaps#gap-034) — Mentor caseload principles (still open)
+- [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
 - [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)
 - [GAP-037](/gaps#gap-037) — Country regulated-role mapping

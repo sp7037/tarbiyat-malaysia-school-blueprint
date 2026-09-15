@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-034 — Mentor Caseload and Human-Guidance Capacity (2026-09-15)
+
+- Added `PEO-005` (`docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md`, DRAFT): assigned learners ≠ meaningfully mentored; capacity = relationship depth + available Mentor time; stage/transition-sensitive; Mentor ≠ clinician/safeguarding lead/pathway decider; no universal Core ratio; caseload states; scenarios A–O; links to PEO-004 and ADR-0018.
+- Added `PEO-FRM-003` Mentor Caseload Review under `docs/08-people-and-governance/templates/`.
+- Updated `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-034 proposed via PEO-005 — **not closed**; GAP-037 remains Open); glossary; PEO-004 Mentor handoff.
+- Portal: `/areas/mentor-caseload-capacity`; FRM-003 via People page; People chain PEO-004 → PEO-005. No new ADR; no ADR approvals or GAP closures.
+
 ### GAP-032 — Mission Team Loading and Staffing Capacity (2026-09-15)
 
 - Added `PEO-004` (`docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md`, DRAFT): capacity ≠ headcount; Mission capacity follows authorised/current/available competence; risk/function/concurrency/peak-load/resilience; capacity states; resource-poor school principle; scenarios A–O; Mentor detail handed to GAP-034.

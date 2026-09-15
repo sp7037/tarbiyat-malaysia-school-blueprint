@@ -9,7 +9,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `ADR-0007` / `ADR-0014` / `ADR-0016` UNDER REVIEW; `MIS-001`–`MIS-003` DRAFT; `MIS-TPL-001` / `MIS-FRM-002` DRAFT |
-| Related gaps | GAP-033 (this document); GAP-023 (`MIS-002`); GAP-031 (templates); GAP-035 (`PEO-002` currency — companion); GAP-036 (`PEO-003` development — companion); GAP-032 (`PEO-004` capacity — companion); GAP-034 / 037 (adjacent; not resolved here) |
+| Related gaps | GAP-033 (this document); GAP-023 (`MIS-002`); GAP-031 (templates); GAP-035 (`PEO-002` currency — companion); GAP-036 (`PEO-003` development — companion); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (adjacent; not resolved here) |
 | Source documents | ADR-0015 Practitioner Onboarding / I-in-R boundary; MIS-002 §10–11; MIS-003 risk/stop-work; GAP-033 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** Practitioner authorisation and onboarding principles in ADR-0015 and the participation ladder in MIS-002. Those ADRs remain **`UNDER REVIEW`** and are **not** treated as approved law. Approved baseline: FND-003 and ADR-0001–0003. Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`).
@@ -425,7 +425,7 @@ Conceptual fields (not a database schema): practitioner; organisation; bands/fun
 This standard does **not**:
 
 - approve ADR-0015 or close GAP-033;
-- invent Mission Team capacity architecture (`GAP-032` — see `PEO-004`) or Mentor caseloads (`GAP-034`);
+- invent Mission Team capacity architecture (`GAP-032` — see `PEO-004`) or replace Mentor caseload architecture (`GAP-034` — see `PEO-005`);
 - invent practitioner currency programmes (`GAP-035` — see `PEO-002`) or replace faculty development architecture (`GAP-036` — see `PEO-003`);
 - invent Malaysian (or other) teacher registration or licence law (`GAP-037`);
 - create equipment catalogues or database schemas;

@@ -65,6 +65,7 @@ const blueprintSidebar = [
       { text: 'Practitioner Currency (PEO-002)', link: '/areas/practitioner-currency' },
       { text: 'Faculty Development (PEO-003)', link: '/areas/faculty-practitioner-development' },
       { text: 'Mission Team Capacity (PEO-004)', link: '/areas/mission-team-capacity' },
+      { text: 'Mentor Caseload Capacity (PEO-005)', link: '/areas/mentor-caseload-capacity' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },
       { text: 'Governance / Safety', link: '/areas/governance' },
