@@ -16,6 +16,19 @@ const DOCS_OUT = path.join(PORTAL_ROOT, 'docs')
 const GEN_DIR = path.join(DOCS_OUT, '_generated')
 const DATA_DIR = path.join(DOCS_OUT, '.vitepress', 'data')
 
+/** Populated at run start from ADR body files — used to avoid links to nonexistent routes. */
+let ADR_BODY_SLUGS = new Set()
+
+function setAdrBodySlugs(adrs) {
+  ADR_BODY_SLUGS = new Set(adrs.map((a) => String(a.slug || '').toLowerCase()))
+}
+
+function hasAdrBody(adrRef) {
+  const m = String(adrRef || '').match(/ADR-(\d{4})/i)
+  if (!m) return false
+  return ADR_BODY_SLUGS.has(`adr-${m[1]}`)
+}
+
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true })
 }
@@ -95,7 +108,11 @@ function toHtmlInlineLinks(text) {
   return String(text)
     .replace(/PROJECT_RULES\.md/g, '<a href="/project-rules">PROJECT_RULES.md</a>')
     .replace(/\b(FND-003)\b/g, '<a href="/foundation/concept-constitution">$1</a>')
-    .replace(/\b(ADR-(\d{4}))\b/g, '<a href="/decisions/adr-$2">$1</a>')
+    .replace(/\b(ADR-(\d{4}))\b/g, (_m, id, num) =>
+      ADR_BODY_SLUGS.has(`adr-${num}`)
+        ? `<a href="/decisions/adr-${num}">${id}</a>`
+        : `<span class="adr-reserved" title="Proposed / reserved — no ADR body file yet">${id}</span>`
+    )
     .replace(/\b(GAP-(\d{3}))\b/g, '<a href="/gaps#gap-$2">$1</a>')
 }
 
@@ -170,27 +187,39 @@ function rewriteRepoLinks(md) {
     (_m, id) => `/decisions/${String(id).toLowerCase()}`
   )
 
-  // Link bare ADR / GAP refs outside existing markdown links
-  out = out.replace(/(?<!\(|\/|\[)(ADR-(\d{4}))(?![\]\w/-])/g, '[$1](/decisions/adr-$2)')
+  // Link bare ADR / GAP refs outside existing markdown links — only when ADR body exists
+  out = out.replace(/(?<!\(|\/|\[)(ADR-(\d{4}))(?![\]\w/-])/g, (_m, id, num) =>
+    ADR_BODY_SLUGS.has(`adr-${num}`) ? `[${id}](/decisions/adr-${num})` : id
+  )
   out = out.replace(/(?<!\(|\/|\[|#)(GAP-(\d{3}))(?![\]\w/-])/g, '[$1](/gaps#gap-$2)')
 
   return restore(out)
 }
 
 function statusClass(status) {
-  const s = (status || '').toUpperCase()
-  if (s.includes('APPROVED')) return 'approved'
+  const raw = String(status || '')
+  const s = raw.toUpperCase()
+  // Order-aware: "not closed" must never classify as closed/resolved
+  const notClosed = /\bNOT\s+CLOSED\b/.test(s)
+
+  if (/\bAPPROVED\b/.test(s) && !/\bNOT\s+APPROVED\b/.test(s)) return 'approved'
   if (s.includes('UNDER REVIEW')) return 'under-review'
   if (s.includes('IN PROGRESS') || s.includes('DRAFT')) return 'in-progress'
   if (s.includes('PROPOSED') || s.includes('PLANNED')) return 'planned'
-  if (s.includes('OPEN')) return 'open'
+  if (/^OPEN\b/.test(s.trim()) || s.startsWith('OPEN (')) return 'open'
   if (s.includes('DEFERRED') || s.includes('SUPERSEDED') || s.includes('REJECTED')) return 'deferred'
-  if (s.includes('CLOSED') || s.includes('RESOLVED') || s.includes('ADDRESSED')) return 'resolved'
+  if (
+    !notClosed &&
+    (/\bCLOSED\b/.test(s) || /\bRESOLVED\b/.test(s) || /\bADDRESSED\b/.test(s))
+  ) {
+    return 'resolved'
+  }
+  if (notClosed || /EVIDENCE PACK COMPLETED/i.test(raw)) return 'evidence-awaiting-review'
   return 'unknown'
 }
 
-function statusBadge(status) {
-  const cls = statusClass(status)
+function statusBadge(status, classOverride) {
+  const cls = classOverride || statusClass(status)
   return `<span class="status-badge status-${cls}">${status}</span>`
 }
 
@@ -329,13 +358,25 @@ function parseGaps() {
 }
 
 function classifyGapStatus(status) {
-  const s = status.toLowerCase()
-  if (s.includes('proposed resolution') || s.includes('under review')) return 'proposed-resolution'
+  const s = String(status || '').toLowerCase()
+  // Order-aware: never treat "not closed" as closed/resolved
+  const notClosed = /\bnot\s+closed\b/.test(s)
+
+  if (s.includes('proposed resolution')) return 'proposed-resolution'
+  if (
+    s.includes('evidence pack completed') ||
+    (s.includes('requires human re-review') && notClosed)
+  ) {
+    return 'evidence-awaiting-review'
+  }
+  // "under review" alone (without proposed resolution) — keep as proposed-resolution when ADR-framed
+  if (s.includes('under review') && s.includes('adr-')) return 'proposed-resolution'
   if (s.includes('under research')) return 'under-research'
   if (s.startsWith('open')) return 'open'
   if (s.includes('deferred')) return 'deferred'
-  if (s.includes('closed') || s.includes('resolved')) return 'resolved'
-  if (s.includes('addressed')) return 'addressed'
+  if (!notClosed && (/\bclosed\b/.test(s) || /\bresolved\b/.test(s))) return 'resolved'
+  if (!notClosed && s.includes('addressed')) return 'addressed'
+  if (notClosed) return 'open'
   return 'open'
 }
 
@@ -343,11 +384,13 @@ function generateGapsPage(gapData) {
   const rows = gapData.gaps
     .map((g) => {
       const anchor = g.id.toLowerCase()
-      const adrLink =
-        g.relatedAdr && g.relatedAdr !== '—'
+      let adrLink = '—'
+      if (g.relatedAdr && g.relatedAdr !== '—') {
+        adrLink = hasAdrBody(g.relatedAdr)
           ? `[${g.relatedAdr}](/decisions/${g.relatedAdr.toLowerCase()})`
-          : '—'
-      return `| <a id="${anchor}"></a>[${g.id}](#${anchor}) | ${g.topic} | ${statusBadge(g.status)} | ${adrLink} | ${g.area} |`
+          : g.relatedAdr
+      }
+      return `| <a id="${anchor}"></a>[${g.id}](#${anchor}) | ${g.topic} | ${statusBadge(g.status, g.statusClass)} | ${adrLink} | ${g.area} |`
     })
     .join('\n')
 
@@ -358,7 +401,11 @@ function generateGapsPage(gapData) {
   const counts = {
     open: gapData.gaps.filter((g) => g.statusClass === 'open').length,
     proposed: gapData.gaps.filter((g) => g.statusClass === 'proposed-resolution').length,
-    other: gapData.gaps.filter((g) => !['open', 'proposed-resolution'].includes(g.statusClass)).length,
+    evidenceAwaiting: gapData.gaps.filter((g) => g.statusClass === 'evidence-awaiting-review')
+      .length,
+    other: gapData.gaps.filter(
+      (g) => !['open', 'proposed-resolution', 'evidence-awaiting-review'].includes(g.statusClass)
+    ).length,
     closedCore: gapData.closed.length
   }
 
@@ -381,6 +428,7 @@ Human-readable view of \`GAP_REGISTER.md\`. **No gaps are closed or altered by t
 |---|---|
 | Open (incl. MY undecided notes) | ${counts.open} |
 | Proposed resolution / ADR under review | ${counts.proposed} |
+| Evidence completed / awaiting review (not closed) | ${counts.evidenceAwaiting} |
 | Other active statuses | ${counts.other} |
 | Closed Core design conflicts | ${counts.closedCore} |
 
@@ -390,6 +438,7 @@ Human-readable view of \`GAP_REGISTER.md\`. **No gaps are closed or altered by t
 |---|---|
 | Open | Still needs research or a decision |
 | Proposed resolution via ADR (UNDER REVIEW) | A draft ADR addresses the question; gap is **not closed** until that ADR is APPROVED |
+| Evidence completed / awaiting review | Supporting evidence lodged; gap remains **not closed** pending human ADR review |
 | Closed (Core conflicts) | Historical Core design conflicts closed by APPROVED ADRs only |
 
 ## Active gaps
@@ -613,7 +662,7 @@ ${rows}
 
 ## Proposed ADRs (not yet drafted as body files)
 
-From \`ADR_INDEX.md\` — listed for navigation awareness only:
+From \`ADR_INDEX.md\` — reserved / proposed IDs only. **No body files exist; these are not clickable routes.**
 
 | ADR | Title | Status |
 |---|---|---|
@@ -636,6 +685,7 @@ ensureDir(GEN_DIR)
 ensureDir(DATA_DIR)
 
 const adrs = listAdrFiles()
+setAdrBodySlugs(adrs)
 const gaps = parseGaps()
 const workstreams = buildWorkstreams(adrs)
 

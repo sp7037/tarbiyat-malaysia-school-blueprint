@@ -19,50 +19,56 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Portal maintenance — status classification and proposed ADR links (2026-09-15)
+
+- Fixed portal GAP status classification so wording containing **not closed** is never treated as closed/resolved (GAP-021 badge).
+- Portal ADR link generation now checks for ADR body files; proposed/reserved IDs (0008–0010, 0012–0013) render as non-clickable text.
+- Corrected stale changelog phrasing “no commit in task scope” → “no ADR approvals or GAP closures”.
+
 ### GAP-036 — Faculty and Practitioner Development (2026-09-15)
 
 - Added `PEO-003` (`docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md`, DRAFT): deliberate adult development; development ≠ authorisation ≠ currency; function-specific pathways; common orientation; practice-based modes; Layers 1–5 architecture; Six Worlds parity; ethical/AI principles; scenarios A–N.
 - Added `PEO-FRM-001` development plan/record under `docs/08-people-and-governance/templates/` (not forced into MIS-FRM series).
 - Updated `PEO-001` / `PEO-002` / `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-036 proposed via PEO-003 — **not closed**); glossary.
-- Portal: `/areas/faculty-practitioner-development`; FRM-001 via People page; People & Culture chain PEO-001↔PEO-002↔PEO-003. No new ADR; no commit in task scope.
+- Portal: `/areas/faculty-practitioner-development`; FRM-001 via People page; People & Culture chain PEO-001↔PEO-002↔PEO-003. No new ADR; no ADR approvals or GAP closures.
 
 ### GAP-035 — Practitioner Currency and Re-authorisation (2026-09-15)
 
 - Added `PEO-002` (`docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md`, DRAFT): currency ≠ initial authorisation; proportional evidence; risk-sensitive recency; inactivity/change/incident triggers; licence boundary; tool-specific currency; currency states; renew≠expand; scenarios A–N.
 - Added `MIS-FRM-008` Currency Review; pointer fields on `MIS-FRM-007`; linked from `MIS-TPL-001`.
 - Updated `PEO-001` / `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-035 proposed via PEO-002 — **not closed**); glossary.
-- Portal: `/areas/practitioner-currency`; FRM-008 via templates index; People & Culture chain PEO-001→PEO-002→GAP-036. No new ADR; no commit in task scope.
+- Portal: `/areas/practitioner-currency`; FRM-008 via templates index; People & Culture chain PEO-001→PEO-002→GAP-036. No new ADR; no ADR approvals or GAP closures.
 
 ### GAP-033 — Practitioner Authorisation and Onboarding (2026-09-15)
 
 - Added `PEO-001` (`docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md`, DRAFT): function-specific authorisation; credential ≠ authority; PA-0–PA-4 bands as permission scope; permission dimensions; onboarding; safeguarding separation; MIS-003 risk ceilings; tool/lab principle; I-in-R non-inheritance; Mission Lead boundary; scenarios A–N.
 - Added `MIS-FRM-007` Practitioner Authorisation Record; linked from `MIS-TPL-001` and `MIS-FRM-002`.
 - Updated `SEC-08`, MIS-002 handoff, `MASTER_INDEX`, `GAP_REGISTER` (GAP-033 proposed via PEO-001 — **not closed**); glossary.
-- Portal: `/areas/practitioner-authorisation`; FRM-007 via templates index; People & Culture / Missions / roadmap / governance. No new ADR; no commit in task scope.
+- Portal: `/areas/practitioner-authorisation`; FRM-007 via templates index; People & Culture / Missions / roadmap / governance. No new ADR; no ADR approvals or GAP closures.
 
 ### GAP-031 — Mission Operating Templates (2026-09-15)
 
 - Added `MIS-TPL-001` (`docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md`, DRAFT) and consolidated `MIS-FRM-001`–`006` under `templates/`: Unified Partner Pack; Practitioner Onboarding; Expanded Risk; I-in-R Designation; conditional IP/Data/Contribution/Conflict annexes; Deployment + Suspension/Exit.
 - Corrected stale MIS-001 §7 `GAP-023` cross-reference → `MIS-002`; updated MIS-002 / MIS-003 template handoffs; `SEC-06`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-031 proposed resolution via template pack — **not closed**); glossary.
-- Portal: `/areas/mission-operating-templates` (+ generated FRM pages); Blueprint sidebar index only; Missions / roadmap / governance. No new ADR; 13 ADR count unchanged; no commit in task scope.
+- Portal: `/areas/mission-operating-templates` (+ generated FRM pages); Blueprint sidebar index only; Missions / roadmap / governance. No new ADR; 13 ADR count unchanged; no ADR approvals or GAP closures.
 
 ### GAP-024 — Mission Risk / Safeguarding Classification (2026-09-14)
 
 - Added `MIS-003` (`docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md`, DRAFT): proportional R0–R4 classification; risk domains; authenticity≠risk; activity-level controls; stop-work; partner/I-in-R non-bypass; deployment re-review; scenarios A–P.
 - Updated `MIS-001` / `MIS-002` handoffs; `SEC-06`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-024 proposed resolution via MIS-003 — **not closed**); glossary.
-- Portal: `/areas/mission-risk-and-safeguarding`; Blueprint sidebar; Missions / roadmap / governance. No new ADR; GAP-031 unchanged Open; no commit in task scope.
+- Portal: `/areas/mission-risk-and-safeguarding`; Blueprint sidebar; Missions / roadmap / governance. No new ADR; GAP-031 unchanged Open; no ADR approvals or GAP closures.
 
 ### GAP-023 — Institution / Industry-in-Residence operating standard (2026-09-14)
 
 - Added `MIS-002` (`docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md`, DRAFT): sustained embedding definition; participation ladder; MIS-001 prerequisites; presence/recurrence; practitioner continuity; Campus Live Workflow link; faculty boundary; access/space/portfolio/Six Worlds; review/exit; scenarios A–N; handoffs to GAP-024 / GAP-031.
 - Updated `MIS-001` §18 relationship to MIS-002; `SEC-06` / `SEC-07` READMEs; `MASTER_INDEX`; `GAP_REGISTER` (GAP-023 proposed resolution via MIS-002 — **not closed**); glossary I-in-R terms.
-- Portal: prepare-content include → `/areas/institution-in-residence`; Blueprint sidebar; Missions area / presentation / roadmap / governance. No new ADR; GAP-024 unchanged Open; no commit in task scope.
+- Portal: prepare-content include → `/areas/institution-in-residence`; Blueprint sidebar; Missions area / presentation / roadmap / governance. No new ADR; GAP-024 unchanged Open; no ADR approvals or GAP closures.
 
 ### GAP-022 — Mission Partner Governance standard (2026-09-14)
 
 - Added `MIS-001` (`docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md`, DRAFT): Core operational partner governance derived from ADR-0007 / ADR-0014 / ADR-0015 (UNDER REVIEW); scenario tests A–N; handoffs to GAP-023 / GAP-024.
 - Updated `SEC-06` section README, `MASTER_INDEX`, `GAP_REGISTER` (GAP-022 proposed resolution via MIS-001 — **not closed**).
-- Portal: prepare-content include → `/areas/mission-partner-governance`; Blueprint sidebar + Missions area / presentation / roadmap / governance discoverability. No new ADR; no GAP-023/024 closure; no commit in task scope.
+- Portal: prepare-content include → `/areas/mission-partner-governance`; Blueprint sidebar + Missions area / presentation / roadmap / governance discoverability. No new ADR; no GAP-023/024 closure; no ADR approvals or GAP closures.
 
 ### Productive institution architecture review — ADR-0007 / 0014 / 0015 hardening (2026-09-14)
 
