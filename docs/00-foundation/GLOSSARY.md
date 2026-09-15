@@ -41,6 +41,8 @@
 | **Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`)** | Minimum viable partner / risk / I-in-R / Creator Rights / practitioner-authorisation operational records (DRAFT; GAP-031 / GAP-033) | CORE |
 | **Practitioner Authorisation and Onboarding (`PEO-001`)** | Function-specific authorisation bands, permission dimensions, onboarding and risk-linked scopes for practitioners (DRAFT; GAP-033) | CORE |
 | **Practitioner Currency and Re-authorisation (`PEO-002`)** | Evidence that authorised practitioner functions remain current; renew ≠ expand (DRAFT; GAP-035) | CORE |
+| **Faculty and Practitioner Development (`PEO-003`)** | Deliberate, function-specific, practice-based adult development; development ≠ authorisation ≠ currency (DRAFT; GAP-036) | CORE |
+| **Faculty / Practitioner Development Plan (`PEO-FRM-001`)** | Lightweight people-development plan/record under PEO series — not a MIS form (DRAFT; GAP-036) | CORE |
 | **Educator (faculty function)** | Professional responsibility for teaching and learning design (ADR-0015 UNDER REVIEW) | CORE |
 | **Practitioner (faculty function)** | Current/recent authentic domain expertise in Mission Labs and critique (ADR-0015 UNDER REVIEW) | CORE |
 | **Mentor (faculty function)** | Longitudinal student development, reflection and pathway guidance — not clinical care by default (ADR-0015 UNDER REVIEW) | CORE |

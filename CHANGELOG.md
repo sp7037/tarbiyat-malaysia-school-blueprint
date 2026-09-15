@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-036 — Faculty and Practitioner Development (2026-09-15)
+
+- Added `PEO-003` (`docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md`, DRAFT): deliberate adult development; development ≠ authorisation ≠ currency; function-specific pathways; common orientation; practice-based modes; Layers 1–5 architecture; Six Worlds parity; ethical/AI principles; scenarios A–N.
+- Added `PEO-FRM-001` development plan/record under `docs/08-people-and-governance/templates/` (not forced into MIS-FRM series).
+- Updated `PEO-001` / `PEO-002` / `SEC-08`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-036 proposed via PEO-003 — **not closed**); glossary.
+- Portal: `/areas/faculty-practitioner-development`; FRM-001 via People page; People & Culture chain PEO-001↔PEO-002↔PEO-003. No new ADR; no commit in task scope.
+
 ### GAP-035 — Practitioner Currency and Re-authorisation (2026-09-15)
 
 - Added `PEO-002` (`docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md`, DRAFT): currency ≠ initial authorisation; proportional evidence; risk-sensitive recency; inactivity/change/incident triggers; licence boundary; tool-specific currency; currency states; renew≠expand; scenarios A–N.

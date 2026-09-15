@@ -84,7 +84,7 @@ Internal labels: **006-A** Deployment Review · **006-B** Suspension / Exit.
 | **MIS-FRM-007** | Practitioner Authorisation Record | **CONDITIONAL / CORE OPERATING RECORD** — scoped permissions beyond one-off Guest presence; pairs with FRM-002 | [`templates/MIS-FRM-007-practitioner-authorisation-record.md`](templates/MIS-FRM-007-practitioner-authorisation-record.md) |
 | **MIS-FRM-008** | Practitioner Currency Review | **CONDITIONAL RECORD** — scheduled / change / inactivity / incident reviews (`PEO-002`) | [`templates/MIS-FRM-008-practitioner-currency-review.md`](templates/MIS-FRM-008-practitioner-currency-review.md) |
 
-Architecture: `PEO-001` / `PEO-002` (`docs/08-people-and-governance/`).
+Architecture: `PEO-001` / `PEO-002` (`docs/08-people-and-governance/`). Faculty/practitioner **development** plans live under `PEO-003` / `PEO-FRM-001` (not MIS-FRM).
 
 ### Country / implementation
 

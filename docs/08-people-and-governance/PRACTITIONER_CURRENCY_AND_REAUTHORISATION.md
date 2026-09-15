@@ -9,7 +9,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001` DRAFT; `MIS-002` / `MIS-003` DRAFT; `MIS-FRM-007` DRAFT |
-| Related gaps | GAP-035 (this document); GAP-033 (`PEO-001`); GAP-036 (development programmes — handoff); GAP-037 (country licences — handoff); GAP-032 / 034 (not resolved here) |
+| Related gaps | GAP-035 (this document); GAP-033 (`PEO-001`); GAP-036 (`PEO-003` development — companion); GAP-037 (country licences — handoff); GAP-032 / 034 (not resolved here) |
 | Source documents | ADR-0015 Practitioner Currency principles; PEO-001 §§8, 10, 17; MIS-003 incident/re-review; GAP-035 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** Practitioner currency principles in ADR-0015 and the review/revocation hooks in `PEO-001`. ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. Exact review intervals, training hours and licence rules are **implementation / country** detail.
@@ -37,7 +37,7 @@ Prevents:
 
 Without creating unnecessary annual bureaucracy for every low-risk practitioner.
 
-This document proposes resolution of **GAP-035**. It is **not** a faculty development syllabus (`GAP-036`), country registration map (`GAP-037`), or staffing-ratio standard (`GAP-032`).
+This document proposes resolution of **GAP-035**. It is **not** a faculty development standard (`GAP-036` — see `PEO-003`), country registration map (`GAP-037`), or staffing-ratio standard (`GAP-032`).
 
 ---
 
@@ -311,7 +311,7 @@ Currency controls must match **actual permission and risk**.
 | Gap / doc | This standard does | Leaves to them |
 |---|---|---|
 | `PEO-001` / GAP-033 | Assumes initial authorisation architecture | Bands, dimensions, onboarding |
-| GAP-036 | Defines **what** currency requires | **How** Tarbiyat develops people (induction, CPD programmes, coaching, residencies) |
+| `PEO-003` / GAP-036 | Defines **what** currency requires; development may generate evidence | **How** Tarbiyat develops people (`PEO-003` / `PEO-FRM-001`); training ≠ auto-CURRENT |
 | GAP-037 | Notes licence expiry may restrict functions | Country teacher registration / professional licence mapping |
 | GAP-032 / 034 | — | Ratios and Mentor caseloads |
 
@@ -362,6 +362,7 @@ Currency reviews are recurring lifecycle events. They deserve a separate record 
 ## 23. Related documents
 
 - `PEO-001` Practitioner Authorisation and Onboarding
+- `PEO-003` Faculty and Practitioner Development
 - ADR-0015 Practitioner Currency (UNDER REVIEW)
 - `MIS-002` / `MIS-003`
 - `MIS-FRM-007` / `MIS-FRM-008`
@@ -376,7 +377,7 @@ This standard does **not**:
 - approve ADR-0015 or close GAP-035;
 - set universal Core expiry months or CPD hour quotas;
 - invent country licences or teacher registration (`GAP-037`);
-- design faculty development programmes (`GAP-036`);
+- replace faculty development architecture (`PEO-003` / GAP-036);
 - invent staffing ratios (`GAP-032`);
 - create equipment catalogues or database schemas;
 - treat currency states as prestige ranks;

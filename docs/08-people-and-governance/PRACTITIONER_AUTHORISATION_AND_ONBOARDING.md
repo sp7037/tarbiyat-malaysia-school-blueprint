@@ -9,7 +9,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `ADR-0007` / `ADR-0014` / `ADR-0016` UNDER REVIEW; `MIS-001`–`MIS-003` DRAFT; `MIS-TPL-001` / `MIS-FRM-002` DRAFT |
-| Related gaps | GAP-033 (this document); GAP-023 (`MIS-002`); GAP-031 (templates); GAP-035 (`PEO-002` currency — companion); GAP-032 / 034 / 036 / 037 (adjacent; not resolved here) |
+| Related gaps | GAP-033 (this document); GAP-023 (`MIS-002`); GAP-031 (templates); GAP-035 (`PEO-002` currency — companion); GAP-036 (`PEO-003` development — companion); GAP-032 / 034 / 037 (adjacent; not resolved here) |
 | Source documents | ADR-0015 Practitioner Onboarding / I-in-R boundary; MIS-002 §10–11; MIS-003 risk/stop-work; GAP-033 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** Practitioner authorisation and onboarding principles in ADR-0015 and the participation ladder in MIS-002. Those ADRs remain **`UNDER REVIEW`** and are **not** treated as approved law. Approved baseline: FND-003 and ADR-0001–0003. Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`).
@@ -26,7 +26,7 @@ Central question:
 
 **Professional seniority alone must not equal educational authority.**
 
-This document proposes resolution of **GAP-033**. It is **not** a staffing-ratio standard (`GAP-032`), currency programme (`GAP-035` — see `PEO-002`), faculty development syllabus (`GAP-036`), or country registration map (`GAP-037`).
+This document proposes resolution of **GAP-033**. It is **not** a staffing-ratio standard (`GAP-032`), currency programme (`GAP-035` — see `PEO-002`), faculty development standard (`GAP-036` — see `PEO-003`), or country registration map (`GAP-037`).
 
 ---
 
@@ -426,7 +426,7 @@ This standard does **not**:
 
 - approve ADR-0015 or close GAP-033;
 - set staffing ratios (`GAP-032`) or Mentor caseloads (`GAP-034`);
-- invent practitioner currency programmes (`GAP-035`) or full faculty development curricula (`GAP-036`);
+- invent practitioner currency programmes (`GAP-035` — see `PEO-002`) or replace faculty development architecture (`GAP-036` — see `PEO-003`);
 - invent Malaysian (or other) teacher registration or licence law (`GAP-037`);
 - create equipment catalogues or database schemas;
 - authorise clinical practice, offensive cyber against live systems, or learner exploitation;
