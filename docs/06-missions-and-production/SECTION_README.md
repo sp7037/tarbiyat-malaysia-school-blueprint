@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-06` |
-| Version | `0.5.0` |
+| Version | `0.5.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `PROJECT_RULES.md`, `MASTER_INDEX.md`, `FND-003`, ADR-0002 APPROVED; ADR-0007 / ADR-0014 / ADR-0015 UNDER REVIEW; `MIS-001`–`MIS-003`; `MIS-TPL-001` |
-| Source documents | User brief (2026-09-13); GAP-022 / GAP-023 / GAP-024 / GAP-031 resolutions (2026-09-14–15) |
+| Dependencies | `PROJECT_RULES.md`, `MASTER_INDEX.md`, `FND-003`, ADR-0002 APPROVED; ADR-0007 / ADR-0014 / ADR-0015 UNDER REVIEW; `MIS-001`–`MIS-003`; `MIS-TPL-001`; `PEO-001` |
+| Source documents | User brief (2026-09-13); GAP-022 / GAP-023 / GAP-024 / GAP-031 / GAP-033 resolutions (2026-09-14–15) |
 
 ## Purpose
 
@@ -29,10 +29,11 @@ Mission taxonomy; production standards; stakeholder missions; quality, safety, e
 | MIS-FRM-004 | `templates/MIS-FRM-004-iinr-designation-record.md` | DRAFT | I-in-R Designation Record |
 | MIS-FRM-005 | `templates/MIS-FRM-005-conditional-annexes.md` | DRAFT | Conditional annexes (IP / Data / Contribution / Conflict) |
 | MIS-FRM-006 | `templates/MIS-FRM-006-deployment-and-exit.md` | DRAFT | Deployment Review + Suspension / Exit |
+| MIS-FRM-007 | `templates/MIS-FRM-007-practitioner-authorisation-record.md` | DRAFT | Practitioner Authorisation Record (`PEO-001` / GAP-033) |
 
 ## Architecture dependency
 
-ADR-0007 (UNDER REVIEW) → MIS-001 (partner behaviour) → MIS-002 (sustained embedding) → MIS-003 (risk / safeguarding) → MIS-TPL-001 / MIS-FRM-* (operable records; GAP-031 proposed — not closed).
+ADR-0007 (UNDER REVIEW) → MIS-001 → MIS-002 → MIS-003 → MIS-TPL-001 / MIS-FRM-* . Practitioner authorisation architecture: ADR-0015 → `PEO-001` → MIS-FRM-002 / MIS-FRM-007.
 
 ## Planned child documents (not yet created)
 

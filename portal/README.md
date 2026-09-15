@@ -71,11 +71,11 @@ No manual HTML page is required.
 ## Update navigation
 
 - **New ADR:** automatic (see above).
-- **New Foundation / register / operational standard document:** add an entry to the `includes` list in `portal/scripts/prepare-content.mjs` and, if needed, a sidebar item in `portal/docs/.vitepress/config.mts`. Examples: `MIS-001` → `/areas/mission-partner-governance`; `MIS-002` → `/areas/institution-in-residence`; `MIS-003` → `/areas/mission-risk-and-safeguarding`; `MIS-TPL-001` → `/areas/mission-operating-templates` (individual `MIS-FRM-*` pages generated but kept off the main sidebar).
+- **New Foundation / register / operational standard document:** add an entry to the `includes` list in `portal/scripts/prepare-content.mjs` and, if needed, a sidebar item in `portal/docs/.vitepress/config.mts`. Examples: `MIS-001` → `/areas/mission-partner-governance`; `MIS-002` → `/areas/institution-in-residence`; `MIS-003` → `/areas/mission-risk-and-safeguarding`; `MIS-TPL-001` → `/areas/mission-operating-templates`; `PEO-001` → `/areas/practitioner-authorisation` (individual `MIS-FRM-*` pages generated but kept off the main sidebar except via the templates index).
 - **New architecture area landing:** add a Markdown file under `portal/docs/areas/` and a Blueprint sidebar link in `config.mts`.
 - **New presentation page:** add Markdown under `portal/docs/` and update primary `nav` / presentation sidebar in `config.mts`.
 
-Mission Operating Templates are indexed at [Mission Operating Templates](/areas/mission-operating-templates). Individual forms link from that index to avoid sidebar clutter.
+Mission Operating Templates are indexed at [Mission Operating Templates](/areas/mission-operating-templates). Practitioner authorisation architecture is at [PEO-001](/areas/practitioner-authorisation).
 
 ## Search
 

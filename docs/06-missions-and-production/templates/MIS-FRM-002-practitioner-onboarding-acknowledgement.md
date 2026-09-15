@@ -9,8 +9,8 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead / Safeguarding function (implementation) |
-| Implements | MIS-002 §11; MIS-001 §§2, 7–8, 12–15; ADR-0014 / ADR-0015 principles (UNDER REVIEW) |
-| Related gaps | GAP-031; GAP-033 (full Practitioner authorisation standard remains separate) |
+| Implements | MIS-002 §11; MIS-001 §§2, 7–8, 12–15; `PEO-001` onboarding requirements; ADR-0014 / ADR-0015 principles (UNDER REVIEW) |
+| Related gaps | GAP-031; GAP-033 (`PEO-001` / `MIS-FRM-007` for scoped authorisation) |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **Statutory vetting / background checks remain COUNTRY / IMPLEMENTATION requirements.** This acknowledgement does **not** replace them.
@@ -27,7 +27,7 @@
 | Date | |
 | School onboarding owner | |
 | Country / statutory check reference (if required) | |
-| Review / refresh date | |
+| Linked MIS-FRM-007 authorisation record (if scoped permissions issued) | |
 
 ---
 
@@ -77,4 +77,4 @@ Practitioner confirms awareness of (tick each):
 
 ## Explicit non-claims
 
-This template does **not** complete Practitioner authorisation levels (`GAP-033`), invent staffing ratios, or grant faculty status.
+This template records onboarding acknowledgement. Scoped authorisation bands/dimensions are recorded on `MIS-FRM-007` under `PEO-001`. It does **not** invent staffing ratios or grant faculty status.

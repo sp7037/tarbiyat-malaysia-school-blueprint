@@ -147,12 +147,15 @@ function rewriteRepoLinks(md) {
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-004-iinr-designation-record\.md/g, '/areas/mis-frm-004'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-005-conditional-annexes\.md/g, '/areas/mis-frm-005'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007'],
+    [/docs\/08-people-and-governance\/PRACTITIONER_AUTHORISATION_AND_ONBOARDING\.md/g, '/areas/practitioner-authorisation'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
     [/templates\/MIS-FRM-004-iinr-designation-record\.md/g, '/areas/mis-frm-004'],
     [/templates\/MIS-FRM-005-conditional-annexes\.md/g, '/areas/mis-frm-005'],
-    [/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006']
+    [/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
+    [/templates\/MIS-FRM-007-practitioner-authorisation-record\.md/g, '/areas/mis-frm-007']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -488,8 +491,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture and professional learning teams (UNDER REVIEW). Staffing ratios and country role mapping open (GAP-032–037). docs/08 still a shell for ops detail.',
-      evidence: 'ADR-0015; docs/08 SECTION_README; GAP-032–037',
+      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001 drafts Practitioner authorisation / onboarding (GAP-033 proposed resolution — not closed). Staffing ratios and country role mapping open (GAP-032, 034–037).',
+      evidence: 'ADR-0015; PEO-001; docs/08 SECTION_README; GAP-032–037',
       href: '/areas/people-and-culture'
     },
     {
@@ -772,6 +775,19 @@ const includes = [
     title: 'MIS-FRM-006 Escalation Records',
     sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-006-deployment-and-exit.md',
     description: 'DRAFT conditional Deployment Review and Suspension / Exit records.'
+  },
+  {
+    outRel: 'areas/mis-frm-007.md',
+    title: 'MIS-FRM-007 Practitioner Authorisation Record',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-007-practitioner-authorisation-record.md',
+    description: 'DRAFT scoped practitioner authorisation record implementing PEO-001 / GAP-033.'
+  },
+  {
+    outRel: 'areas/practitioner-authorisation.md',
+    title: 'Practitioner Authorisation and Onboarding (PEO-001)',
+    sourceRel: 'docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md',
+    description:
+      'PEO-001 DRAFT — proposed operational resolution of GAP-033 (not closed). Professional title ≠ Tarbiyat authorisation. ADR-0015 remains UNDER REVIEW.'
   }
 ]
 

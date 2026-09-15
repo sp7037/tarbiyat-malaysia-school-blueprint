@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-033 — Practitioner Authorisation and Onboarding (2026-09-15)
+
+- Added `PEO-001` (`docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md`, DRAFT): function-specific authorisation; credential ≠ authority; PA-0–PA-4 bands as permission scope; permission dimensions; onboarding; safeguarding separation; MIS-003 risk ceilings; tool/lab principle; I-in-R non-inheritance; Mission Lead boundary; scenarios A–N.
+- Added `MIS-FRM-007` Practitioner Authorisation Record; linked from `MIS-TPL-001` and `MIS-FRM-002`.
+- Updated `SEC-08`, MIS-002 handoff, `MASTER_INDEX`, `GAP_REGISTER` (GAP-033 proposed via PEO-001 — **not closed**); glossary.
+- Portal: `/areas/practitioner-authorisation`; FRM-007 via templates index; People & Culture / Missions / roadmap / governance. No new ADR; no commit in task scope.
+
 ### GAP-031 — Mission Operating Templates (2026-09-15)
 
 - Added `MIS-TPL-001` (`docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md`, DRAFT) and consolidated `MIS-FRM-001`–`006` under `templates/`: Unified Partner Pack; Practitioner Onboarding; Expanded Risk; I-in-R Designation; conditional IP/Data/Contribution/Conflict annexes; Deployment + Suspension/Exit.

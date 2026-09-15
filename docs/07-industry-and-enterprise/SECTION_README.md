@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-07` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0007 / ADR-0014 UNDER REVIEW; MIS-001 / MIS-002 DRAFT |
-| Source documents | User brief (2026-09-13); GAP-023 resolution (2026-09-14) |
+| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0007 / ADR-0014 / ADR-0015 UNDER REVIEW; MIS-001 / MIS-002 DRAFT; PEO-001 DRAFT |
+| Source documents | User brief (2026-09-13); GAP-023 / GAP-033 resolutions |
 
 ## Purpose
 
@@ -21,6 +21,7 @@ Industry-in-Residence narrative; student IP principles; Mission-to-Market; super
 |---|---|---|
 | Mission Partner Governance | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` (`MIS-001`) | GAP-022 proposed resolution — not closed |
 | Institution / Industry-in-Residence ops | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` (`MIS-002`) | GAP-023 proposed resolution — not closed |
+| Practitioner authorisation / onboarding | `docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` (`PEO-001`) | GAP-033 proposed resolution — not closed; I-in-R staff not automatically authorised |
 | Creator Rights / Micro-Venture architecture | ADR-0014 (`UNDER REVIEW`) | Country/ops via GAP-011, GAP-025–031 |
 
 ## Iteration 0 note

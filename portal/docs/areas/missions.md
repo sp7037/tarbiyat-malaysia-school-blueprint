@@ -51,3 +51,4 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 - [GAP-024](/gaps#gap-024) — Mission risk / safeguarding (proposed via MIS-003 — not closed)
 - [GAP-025](/gaps#gap-025) — Creator Rights (proposed via ADR-0014 — not closed)
 - [GAP-031](/gaps#gap-031) — Templates (proposed via MIS-TPL-001 / MIS-FRM-* — not closed)
+- [GAP-033](/gaps#gap-033) — Practitioner authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)

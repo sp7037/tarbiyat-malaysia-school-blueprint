@@ -232,7 +232,7 @@ Authority depends on **competence, onboarding, safeguarding, and defined functio
 - do not act as designated safeguarding leads unless separately authorised;
 - Mentor function remains school-governed longitudinal care.
 
-Detailed Practitioner authorisation levels: `GAP-033`.
+Detailed Practitioner authorisation levels: `PEO-001` (`docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md`, DRAFT) — proposed resolution of **GAP-033** (not closed). Record: `MIS-FRM-007`.
 
 ---
 
@@ -252,7 +252,7 @@ Participating practitioners should receive awareness of:
 - conflict disclosure;
 - reporting / escalation paths.
 
-Forms: `MIS-FRM-002` / `MIS-FRM-004` under `MIS-TPL-001` (`GAP-031` proposed resolution — not closed). Country vetting: country profiles (`GAP-037`).
+Forms: `MIS-FRM-002` (onboarding acknowledgement) and `MIS-FRM-007` (authorisation record) under `MIS-TPL-001`; architecture in `PEO-001` (`GAP-033` proposed resolution — not closed). Country vetting: country profiles (`GAP-037`).
 
 ---
 
@@ -508,7 +508,7 @@ These remain **educational records**, not country legal contracts.
 - ADR-0014 Student Creator Rights (UNDER REVIEW)
 - ADR-0015 Faculty architecture / I-in-R ≠ faculty (UNDER REVIEW)
 - ADR-0016 Proof of Capability (UNDER REVIEW) — evidence boundaries
-- `GAP_REGISTER.md` — GAP-023; GAP-022; GAP-024 (`MIS-003`); GAP-031; GAP-033
+- `GAP_REGISTER.md` — GAP-023; GAP-022; GAP-024 (`MIS-003`); GAP-031; GAP-033 (`PEO-001`)
 
 ---
 
@@ -520,6 +520,7 @@ This standard does **not**:
 - close GAP-023 (proposed resolution only);
 - close GAP-024 (proposed via MIS-003);
 - resolve GAP-031 as approved/closed (proposed via `MIS-TPL-001` only);
+- resolve GAP-033 as approved/closed (proposed via `PEO-001` / `MIS-FRM-007`);
 - mandate permanent physical residency or weekly hour counts;
 - invent Malaysian (or other) labour / safeguarding statutes;
 - set partner quotas or sponsorship fee percentages;

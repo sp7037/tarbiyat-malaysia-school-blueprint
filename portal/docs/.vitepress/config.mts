@@ -61,6 +61,7 @@ const blueprintSidebar = [
       { text: 'Mission Risk / Safeguarding (MIS-003)', link: '/areas/mission-risk-and-safeguarding' },
       { text: 'Mission Operating Templates (DRAFT)', link: '/areas/mission-operating-templates' },
       { text: 'People & Culture', link: '/areas/people-and-culture' },
+      { text: 'Practitioner Authorisation (PEO-001)', link: '/areas/practitioner-authorisation' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },
       { text: 'Governance / Safety', link: '/areas/governance' },

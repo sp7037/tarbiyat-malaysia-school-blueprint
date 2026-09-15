@@ -28,6 +28,6 @@ Source Markdown documents remain authoritative. This page does not invent govern
 
 - [GAP-007](/gaps#gap-007) — Ownership / governance model for Malaysia
 - [GAP-017](/gaps#gap-017) — Criteria for elevating country features into Core
-- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) — Faculty staffing / authorisation / country role mapping (opened by ADR-0015)
+- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) — Faculty staffing / authorisation / country role mapping (opened by ADR-0015); [GAP-033](/gaps#gap-033) proposed via [PEO-001](/areas/practitioner-authorisation) — not closed
 - [GAP-022](/gaps#gap-022) / [GAP-023](/gaps#gap-023) / [GAP-024](/gaps#gap-024) — [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) → [MIS-003](/areas/mission-risk-and-safeguarding) (proposed resolutions — not closed)
 - [GAP-031](/gaps#gap-031) — [Mission Operating Templates](/areas/mission-operating-templates) (DRAFT proposed resolution — not closed)
