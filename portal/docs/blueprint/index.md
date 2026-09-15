@@ -81,6 +81,7 @@ Deeper area pages (still presentation of repository state, not new decisions):
 - [Student Journey](/areas/student-journey)
 - [Six Worlds & Pathways](/areas/six-worlds)
 - [Missions & Production](/areas/missions)
+- [Learning-Time Architecture (LAR-001)](/areas/learning-time-architecture)
 - [People & Culture](/areas/people-and-culture)
 - [Competency & Assessment](/areas/competency-assessment)
 - [Formal Recognition](/areas/formal-recognition)

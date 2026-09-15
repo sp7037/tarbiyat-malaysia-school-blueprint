@@ -56,6 +56,7 @@ const blueprintSidebar = [
       { text: 'Student Journey', link: '/areas/student-journey' },
       { text: 'Six Worlds & Pathways', link: '/areas/six-worlds' },
       { text: 'Missions & Production', link: '/areas/missions' },
+      { text: 'Learning-Time Architecture (LAR-001)', link: '/areas/learning-time-architecture' },
       { text: 'Mission Partner Governance (MIS-001)', link: '/areas/mission-partner-governance' },
       { text: 'Institution-in-Residence (MIS-002)', link: '/areas/institution-in-residence' },
       { text: 'Mission Risk / Safeguarding (MIS-003)', link: '/areas/mission-risk-and-safeguarding' },

@@ -49,6 +49,12 @@ Classrooms, where retained, function primarily as **Knowledge Studios** for theo
 
 Intensity is **progressive and age-appropriate**. Core does not prescribe one fixed laboratory or mission percentage for every stage.
 
+## How the week is organised
+
+Learning time is organised as **Learning-Time Modes** inside a **single integrated programme** — not Mission work stacked on top of a full conventional timetable (anti-double-workload). Mission Mode is the primary organising logic of the Learning Engine over a meaningful window; Knowledge Studios remain essential for theory, deliberate practice and examination preparation; Formal Recognition may intensify in bounded **Recognition Seasons** without permanently abolishing Missions. Six Worlds are not six extra subjects. Campus clocks and numeric planning ranges remain deferred ([GAP-048](/gaps#gap-048)).
+
+Governing decision: [ADR-0019](/decisions/adr-0019) (`APPROVED`). Overview: [LAR-001](/areas/learning-time-architecture).
+
 ## Mission-Based learning
 
 Sustained missions with real or realistically scoped problems organise substantial learning effort. Practical work should generally produce inspectable, discussable outcomes of serious student work — production over demonstration-only practicals.
@@ -75,4 +81,5 @@ The human model proposes Educator, Practitioner and Mentor functions working in 
 | Six Worlds | [Six Worlds](/six-worlds) | [ADR-0011](/decisions/adr-0011) (under review) |
 | Missions | [Missions](/missions) | [ADR-0002](/decisions/adr-0002) approved; [ADR-0007](/decisions/adr-0007) under review |
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) under review |
+| Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |
 | Full record | [Blueprint](/blueprint/) | [Concept Constitution](/foundation/concept-constitution) |

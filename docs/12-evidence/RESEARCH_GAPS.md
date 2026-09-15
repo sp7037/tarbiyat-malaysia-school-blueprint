@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `EVD-003` |
-| Version | `0.2.0` |
+| Version | `0.3.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE + MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | ROOT-GAP |
@@ -28,6 +28,7 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Evidence for age bands for Explore→…→Produce.
 - Risks of early specialisation; Major/Minor timing options.
 - **Status (2026-09-14):** Core evidence pack lodged as `EV-0001` (`docs/12-evidence/EV-0001-developmental-stage-boundaries.md`) for `GAP-021`. Supports ADR-0005 approximate windows and Choose→Deepen Major/Minor entry pattern at synthesis level. Remaining: human re-review of ADR-0005; optional Produce distinct-stage clarification; Malaysia Year mapping still out of scope until Core ADRs approved.
+- **Status (2026-09-15):** Learning-time architecture APPROVED as ADR-0019 v1.0.0; `GAP-016` Closed. `GAP-048` remains Open for stage-package exemplars and evidence-dependent planning ranges after pilots. No Core hours or percentages invented.
 
 ### RP-C — Assessment systems
 

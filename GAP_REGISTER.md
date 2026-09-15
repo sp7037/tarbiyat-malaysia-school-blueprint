@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-GAP` |
-| Version | `1.1.0` |
+| Version | `1.3.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0018 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–11 ADR drafts (0004–0007, 0011, 0014–0018) |
+| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0019 |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–12 ADR drafts (0004–0007, 0011, 0014–0019) |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -30,10 +30,10 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-013 | Relationship of KIRA / Dehradun / Afghanistan artefacts | Related IP vs out-of-scope | Classify each as Core-relevant or archive-only | Low | Open |
 | GAP-014 | Malaysia Concept Note file variants | Downloads copy ≠ School_Project copy | Human confirms canonical Malaysia concept source | High | Open |
 | GAP-015 | Evidence for uniqueness claims | Multiple “world first” claims across sources | Claims Register + evidence or retire | High | Open |
-| GAP-016 | Weekly time balance: missions vs Knowledge Studios vs exam prep | ADR-0002 APPROVED without fixed percentages; ADR-0005 proposes stage windows; ADR-0006 requires protected breadth dimensions without a Core fixed Exploration Floor % | Timetable principles by stage expressing protected dimensions (not a single Core %) | High | Open |
+| GAP-016 | Weekly time balance: missions vs Knowledge Studios vs exam prep | ADR-0002 APPROVED without fixed percentages; presentation stress test confirmed cross-cutting blocker | Closed by APPROVED ADR-0019; campus clocks / numeric planning ranges remain GAP-048 | High | Closed — resolved by ADR-0019 (`APPROVED`) |
 | GAP-017 | Criteria for elevating a country/project feature into Core | ADR-0001 open question | Future governance ADR | Medium | Open |
 | GAP-018 | Mission authenticity threshold by stage | ADR-0004/0005 state progressive authenticity; ADR-0007 proposes levels A–F + stage relationship + governance | Human review of ADR-0007; close only after ADR-0007 APPROVED; operating detail via GAP-022–024 and `docs/06` | Medium | Proposed resolution via ADR-0007 (`UNDER REVIEW`) — not closed |
-| GAP-019 | Exploration Floor operationalisation | ADR-0004/0005 forbid zero breadth; ADR-0006 proposes protected breadth dimensions (no Core fixed %) | Human review of ADR-0006; close only after ADR-0006 APPROVED; stage/country timetable expression remains via GAP-016 | Medium | Proposed resolution via ADR-0006 (`UNDER REVIEW`) — not closed |
+| GAP-019 | Exploration Floor operationalisation | ADR-0004/0005 forbid zero breadth; ADR-0006 proposes protected breadth dimensions (no Core fixed %) | Human review of ADR-0006; close only after ADR-0006 APPROVED; stage/country timetable expression via APPROVED ADR-0019 constraints + GAP-048 exemplars/ranges | Medium | Proposed resolution via ADR-0006 (`UNDER REVIEW`) — not closed |
 | GAP-020 | Pathway change bridging / transition standards | Reversibility requires more than policy language; ADR-0006 proposes capability recognition → gap ID → targeted bridging → supported transition → review | Human review of ADR-0006; close only after ADR-0006 APPROVED; detailed bridging curricula remain out of scope until later design | Medium | Proposed resolution via ADR-0006 (`UNDER REVIEW`) — not closed |
 | GAP-021 | Cited evidence pack for ADR-0005 age/developmental windows | ADR-0005 windows needed lodged citations before approval | Evidence pack completed as `EV-0001`; ADR-0005 requires human re-review (no silent window changes); close only with/after ADR-0005 approval | Medium | Evidence pack completed — ADR-0005 requires human re-review (not closed) |
 | GAP-022 | Partner governance detailed operating standard | ADR-0007 states principles and required mission controls; contracts/checklists unset | Human review of `MIS-001` (`docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md`); close only after governing ADRs approved and implementation templates (`GAP-031`) where needed | Medium | Proposed resolution via MIS-001 (`DRAFT`) — not closed |
@@ -62,6 +62,7 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-045 | Discover Six Worlds meaningful-exposure package | ADR-0011 requires substantive exposure across all six Worlds; token career-day risk remains | Human review of ADR-0017; close only after ADR-0017 APPROVED; no Core timetable % | High | Proposed resolution via ADR-0017 (`UNDER REVIEW`) — not closed |
 | GAP-046 | Discover→Choose pathway preparation / anti-streaming transition | After Six Worlds exposure, Choose risks early streaming, forced single-World identity, score gates or unguided choice; detailed within-World catalogues remain deferred | Human review of ADR-0018; close only after ADR-0018 APPROVED; fine Major/Minor catalogues remain later design (GAP-004) | Medium | Proposed resolution via ADR-0018 (`UNDER REVIEW`) — not closed |
 | GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity; ADR-0017 Cross-World Rule requires substantive work per claimed World | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes; keep compatible with ADR-0017 | Medium | Open (opened by ADR-0011) |
+| GAP-048 | Stage learning-time package exemplars and evidence-dependent planning ranges | ADR-0019 (APPROVED) defines Core learning-time constraints without hours/%; campuses still need non-doctrinal exemplars and pilot-informed planning ranges | Draft stage-package exemplars under `docs/01-learning-architecture/`; collect pilot evidence for planning ranges; never elevate pilot numbers to Core fixed % without new ADR | Medium | Open (opened by ADR-0019) |
 
 ## Closed (Core design conflicts only)
 

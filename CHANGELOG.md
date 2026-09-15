@@ -19,6 +19,21 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### ADR-0019 APPROVED — Learning-Time Architecture (2026-09-15)
+
+- Human-approval hygiene checkpoint passed (Substitution Rule; Recognition Season Rule; Primary Organising Logic Test; Produce-stage preservation). No substantive architecture rewrite.
+- `ADR-0019` promoted `0.1.0` / `UNDER REVIEW` → `1.0.0` / `APPROVED`.
+- `GAP-016` Closed — resolved by APPROVED ADR-0019. `GAP-048` remains Open (exemplars / pilot planning ranges).
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, `LAR-001` / `SEC-01`, glossary, portal presentation/traceability; regenerated portal content.
+- No changes to ADR-0004–0007, 0011, 0014–0018 or PEO-001–005 statuses. No invented hours, percentages, ages or staffing ratios.
+
+### GAP-016 — Learning-Time Architecture (2026-09-15)
+
+- Added `ADR-0019` (`docs/13-decisions/adr/ADR-0019-learning-time-architecture.md`, initially `UNDER REVIEW`): Learning-Time Modes; Integrated Programme Principle (anti-double-workload); Primary Organising Logic Test; Recognition Season Rule; discipline integration vs focused instruction; Six Worlds scheduling without six subjects; stage postures without Core %; capacity-coupled intensity; non-normative day examples; scenarios A–O.
+- Added `LAR-001` overview companion under `docs/01-learning-architecture/`; updated `SEC-01`.
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER` (GAP-016 proposed via ADR-0019 — later Closed on approval; opened `GAP-048`); glossary.
+- Portal: progress/model/journey traceability; prepare-content workstream notes. No inventing of hours, percentages, age bands or staffing ratios.
+
 ### GAP-034 — Mentor Caseload and Human-Guidance Capacity (2026-09-15)
 
 - Added `PEO-005` (`docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md`, DRAFT): assigned learners ≠ meaningfully mentored; capacity = relationship depth + available Mentor time; stage/transition-sensitive; Mentor ≠ clinician/safeguarding lead/pathway decider; no universal Core ratio; caseload states; scenarios A–O; links to PEO-004 and ADR-0018.

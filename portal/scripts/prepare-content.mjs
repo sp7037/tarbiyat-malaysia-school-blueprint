@@ -174,6 +174,7 @@ function rewriteRepoLinks(md) {
     [/docs\/08-people-and-governance\/templates\/PEO-FRM-002-mission-team-capacity-check\.md/g, '/areas/peo-frm-002'],
     [/docs\/08-people-and-governance\/templates\/PEO-FRM-003-mentor-caseload-review\.md/g, '/areas/peo-frm-003'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
+    [/docs\/01-learning-architecture\/LEARNING_TIME_ARCHITECTURE\.md/g, '/areas/learning-time-architecture'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
@@ -488,8 +489,8 @@ function buildWorkstreams(adrs) {
       id: 'core',
       name: 'Core Architecture',
       status: approved ? 'APPROVED' : 'UNDER REVIEW',
-      detail: 'Founding dual-layer, Lab-First, and recognition-layer decisions APPROVED via FND-003 + ADR-0001–0003.',
-      evidence: 'ADR-0001, ADR-0002, ADR-0003',
+      detail: 'Founding dual-layer, Lab-First, and recognition-layer decisions APPROVED via FND-003 + ADR-0001–0003. Learning-time coexistence constraints APPROVED via ADR-0019 (GAP-016 Closed; GAP-048 open for exemplars/pilot ranges).',
+      evidence: 'ADR-0001, ADR-0002, ADR-0003; ADR-0019; LAR-001; GAP-016; GAP-048',
       href: '/decisions/'
     },
     {
@@ -536,16 +537,16 @@ function buildWorkstreams(adrs) {
       id: 'recognition',
       name: 'Formal Recognition',
       status: 'APPROVED',
-      detail: 'Recognition safety layer architecture APPROVED (ADR-0003). Country exam mapping remains open (GAP-002).',
-      evidence: 'ADR-0003; GAP-002',
+      detail: 'Recognition safety layer architecture APPROVED (ADR-0003). Learning-time coexistence / anti-exam-crowding constraints APPROVED (ADR-0019; GAP-016 Closed). Country exam mapping remains open (GAP-002).',
+      evidence: 'ADR-0003; ADR-0019; GAP-002; GAP-016',
       href: '/areas/formal-recognition'
     },
     {
       id: 'journey',
       name: 'Student Journey',
       status: 'UNDER REVIEW',
-      detail: 'Stage architecture proposed in ADR-0004/0005. Discover exposure package proposed in ADR-0017. Discover→Choose pathway preparation proposed in ADR-0018 (UNDER REVIEW; GAP-046 not closed). Dedicated journey specification not yet written.',
-      evidence: 'ADR-0004, ADR-0005; ADR-0017; ADR-0018; docs/02 SECTION_README',
+      detail: 'Stage architecture proposed in ADR-0004/0005. Discover exposure package proposed in ADR-0017. Discover→Choose pathway preparation proposed in ADR-0018 (UNDER REVIEW; GAP-046 not closed). Learning-time stage postures APPROVED in ADR-0019 (GAP-016 Closed; GAP-048 Open). Dedicated journey specification not yet written.',
+      evidence: 'ADR-0004, ADR-0005; ADR-0017; ADR-0018; ADR-0019; docs/02 SECTION_README',
       href: '/areas/student-journey'
     },
     {
@@ -561,7 +562,7 @@ function buildWorkstreams(adrs) {
       name: 'Safeguarding / Governance',
       status: 'STATUS NOT YET FORMALISED',
       detail: 'Required by Core principles; ADR-0015 states safeguarding/vetting principles without country law invention. No dedicated approved safeguarding architecture document yet.',
-      evidence: 'FND-003 principle 10; ADR-0015; docs/08 shell',
+      evidence: 'FND-003 principle 10; ADR-0015; docs/08 SEC-08',
       href: '/areas/governance'
     },
     {
@@ -902,6 +903,13 @@ const includes = [
     title: 'PEO-FRM-003 Mentor Caseload Review',
     sourceRel: 'docs/08-people-and-governance/templates/PEO-FRM-003-mentor-caseload-review.md',
     description: 'DRAFT Mentor caseload review implementing PEO-005 / GAP-034 — not a clinical learner file.'
+  },
+  {
+    outRel: 'areas/learning-time-architecture.md',
+    title: 'Learning-Time Architecture (LAR-001)',
+    sourceRel: 'docs/01-learning-architecture/LEARNING_TIME_ARCHITECTURE.md',
+    description:
+      'LAR-001 DRAFT overview — governing decision ADR-0019 APPROVED. GAP-016 Closed. GAP-048 Open for exemplars / pilot ranges. No Core hours or percentages.'
   }
 ]
 

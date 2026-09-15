@@ -49,8 +49,9 @@ After meaningful Six Worlds exposure, transition into Choose is a **guided devel
 - Fixed durations for stages
 - A settled Major/Minor catalogue
 - Automated pathway assignment (pathway decisions require human judgment and student participation)
+- Fixed weekly Mission/Studio percentages (Core forbids universal %; learning-time constraints are APPROVED in ADR-0019 without inventing clocks)
 
-Age bands, operational readiness packages and timetable proportions remain open research and design questions in the Blueprint.
+Age bands and operational readiness packages remain open. Learning-time **architecture** (modes, anti-double-workload, stage postures) is APPROVED in [ADR-0019](/decisions/adr-0019); campus clocks and numeric planning ranges remain deferred ([GAP-048](/gaps#gap-048); [GAP-016](/gaps#gap-016) Closed).
 
 ## Related architecture
 
@@ -62,5 +63,6 @@ Age bands, operational readiness packages and timetable proportions remain open 
 | [ADR-0006](/decisions/adr-0006) — transition, exploration floor, mobility | UNDER REVIEW |
 | [ADR-0017](/decisions/adr-0017) — Discover meaningful exposure package | UNDER REVIEW |
 | [ADR-0018](/decisions/adr-0018) — Discover→Choose pathway preparation | UNDER REVIEW |
+| [ADR-0019](/decisions/adr-0019) — learning-time architecture | APPROVED |
 
 Blueprint area landing: [Student Journey (architecture)](/areas/student-journey)

@@ -77,7 +77,7 @@ Known work not yet completed (documentation evidence):
 | Exploration Floor operationalisation | Principle exists; package TBD | [GAP-019](/gaps#gap-019) |
 | Mission authenticity thresholds | Principle exists; gates unset | [GAP-018](/gaps#gap-018) |
 | Pathway change bridging standards | Reversibility needs operational detail | [GAP-020](/gaps#gap-020) |
-| Weekly time-balance principles by stage | No fixed Core %; stage windows proposed | [GAP-016](/gaps#gap-016) |
+| Weekly time-balance / learning-time architecture | ADR-0019 APPROVED; GAP-016 Closed; campus exemplars / pilot ranges remain open | [ADR-0019](/decisions/adr-0019), [GAP-016](/gaps#gap-016), [GAP-048](/gaps#gap-048), [LAR-001](/areas/learning-time-architecture) |
 | Detailed section specs (01–09, 11) | `SECTION_README` shells only | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Competency Graph specification | Required by dual assessment; distinct from PoC | [GAP-009](/gaps#gap-009) |

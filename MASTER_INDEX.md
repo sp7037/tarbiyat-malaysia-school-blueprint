@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.16.0` |
+| Version | `0.18.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-15` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–10 ADR drafts |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–12 ADR drafts |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
 
@@ -43,11 +43,11 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`).
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`).
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
-| 01 Learning architecture | `docs/01-learning-architecture/SECTION_README.md` | Lab-First, Mission-Based, Knowledge Studios | DRAFT |
+| 01 Learning architecture | `docs/01-learning-architecture/SECTION_README.md` | Lab-First, Mission-Based, Knowledge Studios; LAR-001 learning-time overview (ADR-0019 APPROVED; GAP-016 Closed; GAP-048 Open) | DRAFT |
 | 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce; Discover exposure via ADR-0017; Discover→Choose preparation via ADR-0018 (both UNDER REVIEW) | DRAFT |
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011); Discover exposure (ADR-0017); Discover→Choose pathway preparation (ADR-0018) — all UNDER REVIEW; Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
@@ -59,6 +59,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 
 | ID | Path | Status | Notes |
 |---|---|---|---|
+| LAR-001 | `docs/01-learning-architecture/LEARNING_TIME_ARCHITECTURE.md` | DRAFT | Learning-time overview companion — governing decision ADR-0019 (`APPROVED`); GAP-016 Closed; GAP-048 Open |
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
@@ -114,10 +115,11 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | UNDER REVIEW | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 proposed resolution |
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | UNDER REVIEW | Six Worlds capability / progressive depth; GAP-008 proposed resolution; GAP-045–047 opened |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
-| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; GAP-032–037 opened |
+| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 Open |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | UNDER REVIEW | Discover→Choose pathway preparation; GAP-046 proposed resolution |
+| ADR-0019 | `docs/13-decisions/adr/ADR-0019-learning-time-architecture.md` | APPROVED | v1.0.0 — Learning-time architecture; closes GAP-016; GAP-048 remains Open |
 
 ---
 

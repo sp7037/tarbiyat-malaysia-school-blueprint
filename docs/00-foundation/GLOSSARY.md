@@ -5,11 +5,11 @@
 | Document ID | `FND-006` |
 | Version | `0.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
-| Source documents | User brief (2026-09-13); references/ as applicable |
+| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0019 terms |
 
 ## Terms (initial)
 
@@ -18,6 +18,11 @@
 | **Lab-First Learning** | Pedagogy and timetable in which laboratories/studios/workshops are primary learning environments | CORE |
 | **Mission-Based Learning** | Learning organised around sustained real or realistically scoped missions with outputs | CORE |
 | **Knowledge Studio** | Classroom redefined for briefing, seminar, critique and focused theory | CORE |
+| **Learning-Time Mode** | Way of organising learner effort (Mission, Knowledge Studio, Recognition Preparation, Mentoring, Reflection/Evidence, Formation, Independent/Collaborative Practice) — not automatically a separate subject (ADR-0019 APPROVED) | CORE |
+| **Integrated Programme Principle** | Single coherent learner programme; Mission work must not be stacked on a full unmodified conventional timetable (anti-double-workload) (ADR-0019 APPROVED) | CORE |
+| **Primary Organising Logic Test** | Authenticity test that Mission/production continuity organises the Learning Engine over a meaningful window — not a Core percentage (ADR-0019 APPROVED) | CORE |
+| **Recognition Season** | Bounded period of heightened Formal Recognition preparation that may temporarily narrow Mission Mode without permanently abolishing it (ADR-0019 APPROVED) | CORE |
+| **Learning-Time Architecture (`ADR-0019` / `LAR-001`)** | Core constraints for Missions vs Knowledge Studios vs exam prep coexistence without fixed Core % (ADR-0019 APPROVED; LAR-001 DRAFT overview; GAP-016 Closed; GAP-048 Open) | CORE |
 | **Explore → Discover → Choose → Deepen → Produce** | Named progression stages (age bands TBD) | CORE |
 | **Six Worlds** | Six developmental learning/professional domains for exploration, Missions, Major+Minor and capability context — not career labels or subject lists (ADR-0011 UNDER REVIEW) | CORE |
 | **Major / Minor** | Pathway structure at suitable ages; may sit within or across Worlds (timing via ADR-0004/0005 UNDER REVIEW; World relationship ADR-0011 UNDER REVIEW) | CORE |
