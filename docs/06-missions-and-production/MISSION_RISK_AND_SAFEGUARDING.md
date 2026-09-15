@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-003` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` v0.1.1 UNDER REVIEW; `ADR-0014` / `ADR-0015` / `ADR-0016` UNDER REVIEW; `MIS-001` / `MIS-002` DRAFT |
@@ -359,7 +359,7 @@ Minimum conceptual record for a Mission / work package:
 | Deployment boundary cap | §14 |
 | Incident / near-miss refs | If any |
 
-Schema/software deferred.
+Operational template: `MIS-FRM-003` (Expanded Mission Risk Record) under `MIS-TPL-001` — proposed GAP-031 resolution (not closed). Schema/software deferred.
 
 ---
 

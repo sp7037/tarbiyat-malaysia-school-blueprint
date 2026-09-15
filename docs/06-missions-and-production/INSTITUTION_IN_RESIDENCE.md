@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-002` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` v0.1.1 UNDER REVIEW; `ADR-0014` v0.1.1 UNDER REVIEW; `ADR-0015` v0.1.1 UNDER REVIEW; `MIS-001` DRAFT; contextual `ADR-0016`, `ADR-0011` UNDER REVIEW |
@@ -252,7 +252,7 @@ Participating practitioners should receive awareness of:
 - conflict disclosure;
 - reporting / escalation paths.
 
-Forms and checklists: implementation / `GAP-031`. Country vetting: country profiles (`GAP-037`).
+Forms: `MIS-FRM-002` / `MIS-FRM-004` under `MIS-TPL-001` (`GAP-031` proposed resolution — not closed). Country vetting: country profiles (`GAP-037`).
 
 ---
 
@@ -454,17 +454,19 @@ Long-term partner trust ≠ blanket pre-approval. Repeated good performance may 
 
 ## 24. Handoff to GAP-031 (templates)
 
-Future templates may include:
+Minimum viable operating templates are drafted in:
 
-- Institution-in-Residence agreement;
-- Practitioner onboarding acknowledgement;
-- Mission Partner Brief (shared with MIS-001);
-- IP expectations annex;
-- data / access annex;
-- conflict disclosure;
-- exit / suspension / downgrade terms.
+`docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` (`MIS-TPL-001`, DRAFT) — proposed resolution of **GAP-031** (not closed).
 
-Do **not** invent country contract law here.
+Relevant forms:
+
+- Unified Mission Partner Pack (`MIS-FRM-001`);
+- Practitioner onboarding acknowledgement (`MIS-FRM-002`);
+- I-in-R designation record (`MIS-FRM-004`);
+- IP / data / contribution / conflict annexes (`MIS-FRM-005`);
+- Suspension / exit / downgrade (`MIS-FRM-006-B`).
+
+These remain **educational records**, not country legal contracts.
 
 ---
 
@@ -517,7 +519,7 @@ This standard does **not**:
 - approve ADR-0007, ADR-0014 or ADR-0015;
 - close GAP-023 (proposed resolution only);
 - close GAP-024 (proposed via MIS-003);
-- resolve GAP-031;
+- resolve GAP-031 as approved/closed (proposed via `MIS-TPL-001` only);
 - mandate permanent physical residency or weekly hour counts;
 - invent Malaysian (or other) labour / safeguarding statutes;
 - set partner quotas or sponsorship fee percentages;

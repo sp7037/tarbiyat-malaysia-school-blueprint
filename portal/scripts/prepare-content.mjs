@@ -136,7 +136,23 @@ function rewriteRepoLinks(md) {
     [/docs\/12-evidence\/EVIDENCE_REGISTER\.md/g, '/evidence/evidence-register'],
     [/docs\/12-evidence\/RESEARCH_GAPS\.md/g, '/evidence/research-gaps'],
     [/docs\/10-malaysia\/MALAYSIA_IMPLEMENTATION_PROFILE\.md/g, '/country/malaysia'],
-    [/docs\/10-malaysia\/SECTION_README\.md/g, '/country/']
+    [/docs\/10-malaysia\/SECTION_README\.md/g, '/country/'],
+    [/docs\/06-missions-and-production\/MISSION_PARTNER_GOVERNANCE\.md/g, '/areas/mission-partner-governance'],
+    [/docs\/06-missions-and-production\/INSTITUTION_IN_RESIDENCE\.md/g, '/areas/institution-in-residence'],
+    [/docs\/06-missions-and-production\/MISSION_RISK_AND_SAFEGUARDING\.md/g, '/areas/mission-risk-and-safeguarding'],
+    [/docs\/06-missions-and-production\/MISSION_OPERATING_TEMPLATES\.md/g, '/areas/mission-operating-templates'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-004-iinr-designation-record\.md/g, '/areas/mis-frm-004'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-005-conditional-annexes\.md/g, '/areas/mis-frm-005'],
+    [/docs\/06-missions-and-production\/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006'],
+    [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
+    [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
+    [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
+    [/templates\/MIS-FRM-004-iinr-designation-record\.md/g, '/areas/mis-frm-004'],
+    [/templates\/MIS-FRM-005-conditional-annexes\.md/g, '/areas/mis-frm-005'],
+    [/templates\/MIS-FRM-006-deployment-and-exit\.md/g, '/areas/mis-frm-006']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -432,8 +448,8 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0007 proposes Mission Ecosystem (UNDER REVIEW). MIS-001 / MIS-002 / MIS-003 draft partner governance, Institution-in-Residence and Mission risk/safeguarding (GAP-022–024 proposed resolutions — not closed). GAP-018 and GAP-025 proposed resolution — not closed.',
-      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; docs/06; GAP-018; GAP-022–025',
+      detail: 'ADR-0007 proposes Mission Ecosystem (UNDER REVIEW). MIS-001 / MIS-002 / MIS-003 draft partner governance, Institution-in-Residence and Mission risk/safeguarding (GAP-022–024 proposed resolutions — not closed). MIS-TPL-001 / MIS-FRM-* draft Mission Operating Templates (GAP-031 proposed resolution — not closed). GAP-018 and GAP-025 proposed resolution — not closed.',
+      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–025; GAP-031',
       href: '/areas/missions'
     },
     {
@@ -713,6 +729,49 @@ const includes = [
     sourceRel: 'docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md',
     description:
       'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. Governing ADRs remain UNDER REVIEW.'
+  },
+  {
+    outRel: 'areas/mission-operating-templates.md',
+    title: 'Mission Operating Templates (MIS-TPL-001)',
+    sourceRel: 'docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md',
+    description:
+      'MIS-TPL-001 DRAFT — proposed resolution of GAP-031 (not closed). Minimum viable partner / risk / I-in-R / Creator Rights records. All templates DRAFT.'
+  },
+  {
+    outRel: 'areas/mis-frm-001.md',
+    title: 'MIS-FRM-001 Unified Mission Partner Pack',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md',
+    description: 'DRAFT operational educational record — not a legal contract.'
+  },
+  {
+    outRel: 'areas/mis-frm-002.md',
+    title: 'MIS-FRM-002 Practitioner Onboarding Acknowledgement',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md',
+    description: 'DRAFT operational educational record — does not replace country vetting.'
+  },
+  {
+    outRel: 'areas/mis-frm-003.md',
+    title: 'MIS-FRM-003 Expanded Mission Risk Record',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-003-expanded-mission-risk-record.md',
+    description: 'DRAFT conditional elevated-risk record aligning with MIS-003.'
+  },
+  {
+    outRel: 'areas/mis-frm-004.md',
+    title: 'MIS-FRM-004 I-in-R Designation Record',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-004-iinr-designation-record.md',
+    description: 'DRAFT conditional Institution / Industry-in-Residence designation record.'
+  },
+  {
+    outRel: 'areas/mis-frm-005.md',
+    title: 'MIS-FRM-005 Conditional Annex Pack',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-005-conditional-annexes.md',
+    description: 'DRAFT conditional IP / Data / Contribution / Conflict annexes.'
+  },
+  {
+    outRel: 'areas/mis-frm-006.md',
+    title: 'MIS-FRM-006 Escalation Records',
+    sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-006-deployment-and-exit.md',
+    description: 'DRAFT conditional Deployment Review and Suspension / Exit records.'
   }
 ]
 

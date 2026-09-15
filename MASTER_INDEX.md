@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.13.0` |
+| Version | `0.14.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
@@ -43,7 +43,7 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** adds `MIS-001`–`MIS-003`.
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`).
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
@@ -52,7 +52,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011); Discover exposure (ADR-0017); Discover→Choose pathway preparation (ADR-0018) — all UNDER REVIEW; Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
-| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding | DRAFT |
+| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology (non-country); faculty architecture via ADR-0015 UNDER REVIEW | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Generic campus typology | DRAFT |
@@ -62,6 +62,13 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **06** add
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
+| MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | DRAFT | Mission Operating Templates index — proposed GAP-031 resolution (not closed) |
+| MIS-FRM-001 | `docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md` | DRAFT | Unified Mission Partner Pack |
+| MIS-FRM-002 | `docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | DRAFT | Practitioner Onboarding Acknowledgement |
+| MIS-FRM-003 | `docs/06-missions-and-production/templates/MIS-FRM-003-expanded-mission-risk-record.md` | DRAFT | Expanded Mission Risk Record |
+| MIS-FRM-004 | `docs/06-missions-and-production/templates/MIS-FRM-004-iinr-designation-record.md` | DRAFT | I-in-R Designation Record |
+| MIS-FRM-005 | `docs/06-missions-and-production/templates/MIS-FRM-005-conditional-annexes.md` | DRAFT | Conditional annexes (IP / Data / Contribution / Conflict) |
+| MIS-FRM-006 | `docs/06-missions-and-production/templates/MIS-FRM-006-deployment-and-exit.md` | DRAFT | Deployment Review + Suspension / Exit |
 
 ---
 

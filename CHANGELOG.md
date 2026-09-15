@@ -19,6 +19,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-031 — Mission Operating Templates (2026-09-15)
+
+- Added `MIS-TPL-001` (`docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md`, DRAFT) and consolidated `MIS-FRM-001`–`006` under `templates/`: Unified Partner Pack; Practitioner Onboarding; Expanded Risk; I-in-R Designation; conditional IP/Data/Contribution/Conflict annexes; Deployment + Suspension/Exit.
+- Corrected stale MIS-001 §7 `GAP-023` cross-reference → `MIS-002`; updated MIS-002 / MIS-003 template handoffs; `SEC-06`; `MASTER_INDEX`; `GAP_REGISTER` (GAP-031 proposed resolution via template pack — **not closed**); glossary.
+- Portal: `/areas/mission-operating-templates` (+ generated FRM pages); Blueprint sidebar index only; Missions / roadmap / governance. No new ADR; 13 ADR count unchanged; no commit in task scope.
+
 ### GAP-024 — Mission Risk / Safeguarding Classification (2026-09-14)
 
 - Added `MIS-003` (`docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md`, DRAFT): proportional R0–R4 classification; risk domains; authenticity≠risk; activity-level controls; stop-work; partner/I-in-R non-bypass; deployment re-review; scenarios A–P.

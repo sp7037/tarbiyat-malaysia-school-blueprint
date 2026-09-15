@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-001` |
-| Version | `0.1.2` |
+| Version | `0.1.3` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` v0.1.1 UNDER REVIEW; `ADR-0014` v0.1.1 UNDER REVIEW; `ADR-0015` v0.1.1 UNDER REVIEW; contextual `ADR-0016`, `ADR-0011`, `ADR-0017`, `ADR-0018` UNDER REVIEW |
@@ -57,7 +57,7 @@ Roles describe **involvement in a Mission or programme**, not permanent status o
 | **Visiting Expert** | Scoped critique, masterclass or technical input on defined topics | Mission Partner for full lifecycle |
 | **Mission Contributor** | Supplies context, data (within classification), materials or one-off review without co-owning the Mission | Sustained pipeline partner |
 | **Mission Partner** | Supports one or more Missions under an approved Mission Partner Brief; problem framing, expertise, structured feedback | Curriculum author or assessor |
-| **Institution / Industry-in-Residence** | Sustained, governed presence or recurring professional involvement in the Mission Ecosystem (`GAP-023` defines presence patterns) | Guest visits twice per year |
+| **Institution / Industry-in-Residence** | Sustained, governed presence or recurring professional involvement in the Mission Ecosystem (`MIS-002` defines presence patterns) | Guest visits twice per year |
 | **Deployment / Implementation Partner** | Hosts or receives outputs for supervised real-world use or deployment (within Deployment Boundary — ADR-0007) | Automatic commercial deployer |
 | **Research / Innovation Partner** | University, lab or R&D organisation co-designing inquiry, publication or innovation pathways under research integrity rules | Owner of all Mission-created IP |
 
@@ -135,7 +135,7 @@ Mission Educationalisation (ADR-0007) is a **precondition** for Levels D–F and
 
 ## 6. Mission Partner Brief (minimum contents)
 
-Conceptual contents of an approved brief for **significant external missions** (not a legal contract template — `GAP-031`):
+Conceptual contents of an approved brief for **significant external missions** (operational record: `MIS-FRM-001`; not a legal contract — `GAP-031`):
 
 | Element | Required for significant external mission |
 |---|---|
@@ -185,7 +185,7 @@ External partners must **not** automatically receive:
 | Auditability | Schools should be able to account for scheduled partner contact (implementation SOP) |
 | Communication channels | School-authorised channels preferred; no informal social media by default |
 
-Institution-in-Residence **does not** imply unrestricted campus or learner access (`GAP-023`).
+Institution-in-Residence **does not** imply unrestricted campus or learner access (`MIS-002`).
 
 ---
 
@@ -225,7 +225,7 @@ Operationalise ADR-0014 **before significant learner work begins** where reasona
 - “Everything students make belongs to the sponsor.”
 - “Everything touched by a learner is learner-owned regardless of joint development or Background IP.”
 
-Surprise Innovation and Creator Rights Review apply per ADR-0014 (`GAP-031` for procedures).
+Surprise Innovation and Creator Rights Review apply per ADR-0014 (procedures/templates: `MIS-TPL-001` / `MIS-FRM-005` — `GAP-031` proposed resolution, not closed).
 
 ---
 
@@ -433,7 +433,7 @@ This standard does **not**:
 - approve ADR-0007, ADR-0014 or ADR-0015;
 - close GAP-022 (proposed resolution only until human review and governing ADR approval path);
 - close GAP-023 or GAP-024 (proposed via MIS-002 / MIS-003);
-- provide legal contract templates (`GAP-031`);
+- provide country legal contracts (Core templates under `MIS-TPL-001` / `MIS-FRM-*` remain educational records — `GAP-031`);
 - invent Malaysian or other national law;
 - set staffing ratios (`GAP-032`);
 - guarantee any partner relationship or economic outcome.

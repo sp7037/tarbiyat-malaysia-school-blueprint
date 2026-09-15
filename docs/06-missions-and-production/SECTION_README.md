@@ -3,17 +3,17 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-06` |
-| Version | `0.4.0` |
+| Version | `0.5.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `PROJECT_RULES.md`, `MASTER_INDEX.md`, `FND-003`, ADR-0002 APPROVED; ADR-0007 / ADR-0014 / ADR-0015 UNDER REVIEW; `MIS-001`–`MIS-003` |
-| Source documents | User brief (2026-09-13); GAP-022 / GAP-023 / GAP-024 resolutions (2026-09-14) |
+| Dependencies | `PROJECT_RULES.md`, `MASTER_INDEX.md`, `FND-003`, ADR-0002 APPROVED; ADR-0007 / ADR-0014 / ADR-0015 UNDER REVIEW; `MIS-001`–`MIS-003`; `MIS-TPL-001` |
+| Source documents | User brief (2026-09-13); GAP-022 / GAP-023 / GAP-024 / GAP-031 resolutions (2026-09-14–15) |
 
 ## Purpose
 
-Mission taxonomy; production standards; stakeholder missions; quality, safety, ethics; **external partner governance**; **Institution / Industry-in-Residence**; **Mission risk / safeguarding classification**.
+Mission taxonomy; production standards; stakeholder missions; quality, safety, ethics; **external partner governance**; **Institution / Industry-in-Residence**; **Mission risk / safeguarding classification**; **minimum viable operating templates**.
 
 ## Controlled documents
 
@@ -22,10 +22,17 @@ Mission taxonomy; production standards; stakeholder missions; quality, safety, e
 | MIS-001 | `MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence — proposed GAP-023 resolution (not closed) |
 | MIS-003 | `MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
+| MIS-TPL-001 | `MISSION_OPERATING_TEMPLATES.md` | DRAFT | Mission Operating Templates index — proposed GAP-031 resolution (not closed) |
+| MIS-FRM-001 | `templates/MIS-FRM-001-unified-mission-partner-pack.md` | DRAFT | Unified Mission Partner Pack |
+| MIS-FRM-002 | `templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | DRAFT | Practitioner Onboarding Acknowledgement |
+| MIS-FRM-003 | `templates/MIS-FRM-003-expanded-mission-risk-record.md` | DRAFT | Expanded Mission Risk Record |
+| MIS-FRM-004 | `templates/MIS-FRM-004-iinr-designation-record.md` | DRAFT | I-in-R Designation Record |
+| MIS-FRM-005 | `templates/MIS-FRM-005-conditional-annexes.md` | DRAFT | Conditional annexes (IP / Data / Contribution / Conflict) |
+| MIS-FRM-006 | `templates/MIS-FRM-006-deployment-and-exit.md` | DRAFT | Deployment Review + Suspension / Exit |
 
 ## Architecture dependency
 
-ADR-0007 (UNDER REVIEW) → MIS-001 (partner behaviour) → MIS-002 (sustained embedding) → MIS-003 (risk / safeguarding). Templates remain GAP-031.
+ADR-0007 (UNDER REVIEW) → MIS-001 (partner behaviour) → MIS-002 (sustained embedding) → MIS-003 (risk / safeguarding) → MIS-TPL-001 / MIS-FRM-* (operable records; GAP-031 proposed — not closed).
 
 ## Planned child documents (not yet created)
 

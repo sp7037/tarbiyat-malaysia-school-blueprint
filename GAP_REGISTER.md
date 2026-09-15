@@ -5,7 +5,7 @@
 | Document ID | `ROOT-GAP` |
 | Version | `1.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-14` |
+| Last reviewed | `2026-09-15` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0018 |
@@ -45,7 +45,7 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-028 | Micro-Venture operating standard | ADR-0014 defines optional educational pathway; workload, exit and supervision unset | Draft Micro-Venture ops standard (eligibility, safeguarding, stop/pivot criteria) | Medium | Open (opened by ADR-0014) |
 | GAP-029 | External investment acceptance safeguards | Advanced ventures may attract capital; minors/capacity/conflict rules unset | Draft investment-acceptance checklist and independent-advice triggers | Medium | Open (opened by ADR-0014) |
 | GAP-030 | Student Innovation & Mission Fund design | ADR-0014 allows architectural possibility only | Decide whether to establish fund; legal/fiscal design if yes (not Core-mandated) | Low | Open (opened by ADR-0014) |
-| GAP-031 | Creator Rights Review procedures and IP-sensitive mission agreement templates | Review triggers and pre-mission IP expectations need operable forms | Draft SOPs and templates; integrate with partner governance (GAP-022) | Medium | Open (opened by ADR-0014) |
+| GAP-031 | Creator Rights Review procedures and IP-sensitive mission agreement templates | Review triggers and pre-mission IP expectations need operable forms | Human review of `MIS-TPL-001` / `MIS-FRM-*` (`docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md`); close only after governing ADRs approved and pack validated | Medium | Proposed resolution via Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`, `DRAFT`) — not closed |
 | GAP-032 | Staffing ratios / organisational loading for Mission Teams | Mission-based model is staff-intensive; Core must not invent ratios without evidence | Research comparable models; draft stage/mission-intensity loading principles after ADR-0015 human review | High | Open (opened by ADR-0015) |
 | GAP-033 | Practitioner qualification / authorisation standard | Domain experts need clear school authorisation levels across Six Worlds | Draft Practitioner authorisation / onboarding standard; align with I-in-R statuses (GAP-023) | Medium | Open (opened by ADR-0015) |
 | GAP-034 | Mentor caseload principles | Longitudinal mentoring fails if caseloads are unbounded | Research caseload bands; draft principles without premature Core-fixed numbers | Medium | Open (opened by ADR-0015) |
