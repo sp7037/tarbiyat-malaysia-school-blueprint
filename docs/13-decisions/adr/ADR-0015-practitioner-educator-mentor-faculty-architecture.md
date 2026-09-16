@@ -3,15 +3,15 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0015` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `UNDER REVIEW` |
 | Date | `2026-09-14` |
 | Deciders | Human lead (TBD) |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0007` UNDER REVIEW (Mission Ecosystem / Educationalisation / Institution-in-Residence); `ADR-0014` UNDER REVIEW (Creator Rights / conflict of interest); developmental context `ADR-0004`–`ADR-0006` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-005, GAP-008, GAP-010, GAP-016, GAP-022, GAP-023; opens GAP-032–GAP-037 |
-| Source documents | `FND-003` §§4, 6–10; ADR-0002 staff-development consequence; ADR-0007 Mission Educationalisation and partner roles; Architecture Iteration 7 brief (2026-09-14) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0007` UNDER REVIEW (Mission Ecosystem / Educationalisation / Institution-in-Residence); `ADR-0014` UNDER REVIEW (Creator Rights / conflict of interest); developmental context `ADR-0004`–`ADR-0006` UNDER REVIEW (not treated as approved); operational companions `PEO-001`–`PEO-005` DRAFT (do not close gaps or approve this ADR) |
+| Related gaps / claims | GAP-005, GAP-008, GAP-010, GAP-016, GAP-022, GAP-023; opens GAP-032–GAP-037 (032–036 proposed via PEO-004 / 001 / 005 / 002 / 003 DRAFT — not closed; 037 Open) |
+| Source documents | `FND-003` §§4, 6–10; ADR-0002 staff-development consequence; ADR-0007 Mission Educationalisation and partner roles; Architecture Iteration 7 brief (2026-09-14); People Operating Architecture editorial alignment (2026-09-15) |
 
 ---
 
@@ -34,7 +34,7 @@ Approved Core architecture requires more than conventional classroom teaching:
 - **ADR-0014** (`UNDER REVIEW`) requires Creator Rights, contribution honesty and conflict-of-interest handling involving educators, practitioners and partners.
 - **ADR-0004–0006** (`UNDER REVIEW`) describe progressive stages, Exploration Floor and pathway mobility — implying adult roles that change intensity by stage, without defining those roles.
 
-`docs/08-people-and-governance/` remains a section shell. No Core staffing ADR exists. Historical proposals mention coaches, mentors and academic staff without an operable faculty architecture.
+Before this ADR, `docs/08-people-and-governance/` was a section shell and no Core staffing ADR existed. Historical proposals mentioned coaches, mentors and academic staff without an operable faculty architecture. **People operating standards** (`PEO-001`–`PEO-005`, DRAFT) now provisionally implement this ADR’s principles under `SEC-08`; they do **not** approve this ADR or close GAP-032–036 by existing.
 
 Without a Core faculty architecture:
 
@@ -47,9 +47,16 @@ Without a Core faculty architecture:
 - specialist services (safeguarding, counselling, SEN) may be wrongly absorbed into “Mentor”;
 - Six Worlds coverage may become tech-engineer-heavy.
 
-**Dependency note:** This ADR assumes ADR-0007’s Mission Educationalisation, Education-First and Institution-in-Residence boundary language, and ADR-0014’s Creator Rights / conflict principles where relevant. Those ADRs remain `UNDER REVIEW`. Developmental stage labels from ADR-0004–0006 are used as contextual architecture, **not** as approved law. This ADR does **not** silently treat ADR-0004–0007 or ADR-0014 as approved. If any dependency is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** This ADR assumes ADR-0007’s Mission Educationalisation, Education-First and Institution-in-Residence boundary language, and ADR-0014’s Creator Rights / conflict principles where relevant. Those ADRs remain `UNDER REVIEW` and are **not** treated as approved law. Developmental stage labels from ADR-0004–0006 are contextual architecture only. If any dependency is materially revised before approval of this ADR, this ADR must be re-checked. Human approval of ADR-0015 may be packaged with, or conditioned on coherence with, those dependencies — that is a review process choice, not silent elevation of UNDER REVIEW documents.
 
 This ADR remains Core / country-neutral. It does **not** invent Malaysian teacher-registration law, staffing ratios, salary bands, org charts as binding templates, or claim that hybrid professionals already exist at scale.
+
+**Reader reminders (architecture, not slogans):**
+
+- Professional expertise ≠ automatic educational authority
+- Authorised once ≠ authorised forever
+- Staff count ≠ Mission capacity
+- Assigned learners ≠ meaningfully mentored learners
 
 ## Decision
 
@@ -72,7 +79,7 @@ Tarbiyat Core adopts a **Practitioner–Educator–Mentor faculty architecture**
 7. **Mission Educationalisation** is a collaborative adult responsibility (educator + practitioner + safeguarding/technical as needed + mentor where developmental context matters). External organisations do not write Tarbiyat curriculum by default.
 8. **Assessment** uses multi-stream professional judgment; no single adult role monopolises final capability judgment. Proof of Capability architecture is drafted in ADR-0016 (`UNDER REVIEW`; proposed resolution of `GAP-010` — not closed).
 9. **Pathway decisions** remain human-governed and collective: no Educator, Practitioner, Mentor, parent or AI system independently assigns or prohibits a pathway (FND-003; consistent with ADR-0004–0006 constraints still under review).
-10. **Practitioner currency**, **Educator development**, **Practitioner onboarding** and **Mentor preparation** are Core architectural expectations — detailed programmes remain follow-on work.
+10. **Practitioner currency**, **Educator development**, **Practitioner onboarding** and **Mentor preparation** are Core architectural expectations — operationalised provisionally by `PEO-001`–`PEO-003` and `PEO-005` (DRAFT; proposed resolutions of GAP-033 / 035 / 036 / 034 — **not closed**). Mission Team loading / staffing capacity principles are operationalised provisionally by `PEO-004` (DRAFT; GAP-032 — **not closed**).
 11. Institution-in-Residence personnel are **not** automatic faculty; access escalates through defined statuses with increasing vetting and supervision.
 12. All adults interacting with children are governed by Core safeguarding/vetting principles; country law fills concrete requirements.
 13. Faculty intensity **scales with developmental stage**: earlier stages emphasise continuity of Educators and Mentors; later Deepen/Produce may intensify specialist Practitioner involvement.
@@ -238,7 +245,7 @@ Teams may be organised (non-exclusively) as:
 | **Mission Teams** | Active Missions (time-bounded) |
 | **Mentor Houses / advisory groups** | Longitudinal mentoring relationships |
 
-A professional may belong to more than one structure. This ADR does **not** prescribe a fixed org chart, reporting hierarchy or headcount. Detailed organisation remains implementation design after evidence (`GAP-032`).
+A professional may belong to more than one structure. This ADR does **not** prescribe a fixed org chart, reporting hierarchy or headcount. Mission / school capacity judgment principles are operationalised provisionally in `PEO-004` (DRAFT; GAP-032 — **not closed**). Numeric planning ranges remain implementation / pilot evidence, not Core fixed ratios.
 
 ---
 
@@ -336,7 +343,7 @@ Authentic professional knowledge must not become permanently stale.
 
 **Not required:** that every Practitioner hold a simultaneous full-time outside job.
 
-Exact currency standards, review cycles and evidence forms are follow-on work (`GAP-035`).
+Currency operating standard: `PEO-002` / `MIS-FRM-008` (DRAFT; proposed resolution of `GAP-035` — **not closed**). Exact review intervals and hours remain implementation / country detail.
 
 ---
 
@@ -356,7 +363,7 @@ Existing qualified educators are **not** declared inadequate. Tarbiyat requires 
 - capability evidence literacy;
 - Collaboration inside professional learning teams.
 
-Programme design is follow-on (`GAP-036`).
+Development architecture: `PEO-003` / `PEO-FRM-001` (DRAFT; proposed resolution of `GAP-036` — **not closed**). Course calendars and certificates remain implementation detail.
 
 ---
 
@@ -376,7 +383,7 @@ Until suitably prepared and authorised, Practitioners **work with Educators** ra
 - Creator Rights / conflict-of-interest awareness (ADR-0014 context);
 - school conduct and digital contact rules.
 
-Authorisation levels should align with Institution-in-Residence statuses where external practitioners are involved (`GAP-023`, `GAP-033`).
+Authorisation / onboarding operating standard: `PEO-001` with records `MIS-FRM-002` / `MIS-FRM-007` (DRAFT; proposed resolution of `GAP-033` — **not closed**). Alignment with Institution-in-Residence statuses remains (`GAP-023`; `MIS-002` DRAFT).
 
 ---
 
@@ -395,7 +402,19 @@ Mentors require defined preparation. Possible areas:
 
 Again: **Mentor ≠ therapist** unless separately qualified.
 
-Caseload standards remain open (`GAP-034`).
+Mentor preparation sits within `PEO-003` (DRAFT; GAP-036 — **not closed**). Caseload / human-guidance capacity: `PEO-005` / `PEO-FRM-003` (DRAFT; proposed resolution of `GAP-034` — **not closed**). No universal Core Mentor∶learner ratio is set.
+
+---
+
+## Authorisation model clarification (not new architecture)
+
+Tarbiyat does **not** invent a prestige hierarchy among adults.
+
+- **Practitioner PA bands** (`PEO-001`) are Tarbiyat **Core school permission scopes** — function-, domain- and risk-specific. They are **not** professional prestige ranks and do not replace country licences.
+- **Educators** do **not** require a parallel Core PA ladder merely for symmetry. Educational employment and statutory teacher registration remain **country / implementation** (`GAP-037`).
+- **Mentors** require appropriate function preparation, safeguarding orientation and real capacity under `PEO-005`. They do **not** require a fabricated Core PA ladder.
+
+Credential ≠ Tarbiyat authorisation. Authorised once ≠ authorised forever (`PEO-002`).
 
 ---
 
@@ -446,7 +465,7 @@ Mission-based schooling can become staff-intensive. Architecture must guard agai
 - Mentor caseload overload;
 - Educator burnout from acting as heroic sole expert.
 
-**Core does not set numeric staffing ratios or caseloads without evidence.** Those questions are opened as gaps (`GAP-032`, `GAP-034`).
+**Core does not set numeric staffing ratios or caseloads without evidence.** Capacity and Mentor-caseload **principles** are operationalised provisionally in `PEO-004` and `PEO-005` (DRAFT; GAP-032 / GAP-034 — **not closed**). Numeric planning ranges remain pilot / implementation evidence, not Core fixed ratios.
 
 Mitigation patterns (principles only): proportional Mission Teams; shared Educationalisation; protected planning time as an implementation expectation; refuse Education-First violations that turn schools into unpaid outsourcing centres.
 
@@ -559,23 +578,25 @@ Where residential implementation exists, residential mentors / house staff requi
 ### Risks / costs
 
 - Higher coordination cost than single-teacher classrooms.
-- Hybrid talent scarcity until pipelines mature (`GAP-036`).
-- Risk of documentation and meeting overload if teams are poorly designed (`GAP-032`).
-- Dependency on ADR-0007 / ADR-0014 remaining coherent through approval.
-- Country mapping still required before operational hiring (`GAP-037`).
+- Hybrid talent scarcity until pipelines mature (`GAP-036` / `PEO-003` DRAFT — not closed).
+- Risk of documentation and meeting overload if teams are poorly designed (`GAP-032` / `PEO-004` DRAFT — not closed).
+- Dependency on ADR-0007 / ADR-0014 remaining coherent through approval (still `UNDER REVIEW`).
+- Country mapping still required before operational hiring (`GAP-037` Open).
 
 ### Follow-on work
 
-- Human review of this ADR.
-- Staffing ratio / organisational research (`GAP-032`).
-- Practitioner qualification / authorisation standard (`GAP-033`).
-- Mentor caseload principles (`GAP-034`).
-- Practitioner currency standard (`GAP-035`).
-- Faculty development programmes (`GAP-036`).
-- Country regulated-role mapping (`GAP-037`).
-- Integrate with Institution-in-Residence ops (`GAP-023`) and partner governance (`GAP-022`).
-- Populate `docs/08-people-and-governance/` after approval direction is clear.
-- Proof of Capability multi-assessor rules (`GAP-010`).
+- Human review of this ADR (**status remains `UNDER REVIEW` until that review**).
+- Human review of DRAFT people operating standards; gaps stay open until ADR approval + PEO review:
+  - Mission Team loading / staffing capacity — `PEO-004` / `PEO-FRM-002` (`GAP-032` proposed — not closed);
+  - Practitioner authorisation / onboarding — `PEO-001` / `MIS-FRM-002` / `MIS-FRM-007` (`GAP-033` proposed — not closed);
+  - Mentor caseload / human-guidance capacity — `PEO-005` / `PEO-FRM-003` (`GAP-034` proposed — not closed);
+  - Practitioner currency — `PEO-002` / `MIS-FRM-008` (`GAP-035` proposed — not closed);
+  - Faculty / Practitioner development — `PEO-003` / `PEO-FRM-001` (`GAP-036` proposed — not closed).
+- Country regulated-role mapping (`GAP-037` — remains Open).
+- Integrate with Institution-in-Residence ops (`GAP-023` / `MIS-002`) and partner governance (`GAP-022` / `MIS-001`).
+- Safeguarding / residential house-staff operating standards where needed (country/project; see `SEC-08` planned children).
+- Proof of Capability multi-assessor rules (`GAP-010` / ADR-0016 context).
+- Pilot evidence for any later numeric planning ranges (not Core fixed ratios).
 
 ## Alternatives Considered
 
@@ -608,20 +629,26 @@ Country / project profiles may later define:
 - ADR-0007 (UNDER REVIEW — Mission Ecosystem; Educationalisation; Institution-in-Residence)
 - ADR-0014 (UNDER REVIEW — Creator Rights; conflict of interest)
 - ADR-0004, ADR-0005, ADR-0006 (UNDER REVIEW — stage/mobility context only; not treated as approved)
-- `docs/08-people-and-governance/SECTION_README.md` (shell)
-- `GAP_REGISTER.md` — GAP-032–037 (opened); related GAP-005, GAP-008, GAP-010, GAP-022, GAP-023
+- `docs/08-people-and-governance/SECTION_README.md` (`SEC-08` DRAFT) — people operating inventory
+- `PEO-001` Practitioner Authorisation and Onboarding (DRAFT; GAP-033 proposed — not closed)
+- `PEO-002` Practitioner Currency and Re-authorisation (DRAFT; GAP-035 proposed — not closed)
+- `PEO-003` Faculty and Practitioner Development (DRAFT; GAP-036 proposed — not closed)
+- `PEO-004` Mission Team Loading and Staffing Capacity (DRAFT; GAP-032 proposed — not closed)
+- `PEO-005` Mentor Caseload and Human-Guidance Capacity (DRAFT; GAP-034 proposed — not closed)
+- Forms: `PEO-FRM-001`–`003`; `MIS-FRM-002` / `007` / `008` (DRAFT)
+- `GAP_REGISTER.md` — GAP-032–036 proposed via PEO DRAFTs (not closed); GAP-037 Open; related GAP-005, 008, 010, 022, 023
 
 ## Open Questions
 
-1. Evidence-based staffing and caseload bands by stage and mission intensity (`GAP-032`, `GAP-034`).
-2. Practitioner authorisation standard and equivalence across Worlds (`GAP-033`).
-3. Practitioner currency evidence expectations without forcing dual full-time employment (`GAP-035`).
-4. Faculty development programme design for Educators, Practitioners and Mentors (`GAP-036`).
-5. Country-by-country regulated role mapping (`GAP-037`).
-6. How Mission Team composition interacts with mission risk classification once `GAP-024` is drafted.
+1. Evidence-based **numeric** staffing / Mentor planning ranges by stage and mission intensity — principles operationalised provisionally via `PEO-004` / `PEO-005`; numeric ranges still require pilot evidence (`GAP-032`, `GAP-034` — not closed).
+2. Practitioner authorisation standard and equivalence across Worlds — operationalised provisionally via `PEO-001` / `MIS-FRM-007`; pending human review / ADR approval (`GAP-033` — not closed).
+3. Practitioner currency evidence expectations without forcing dual full-time employment — operationalised provisionally via `PEO-002` / `MIS-FRM-008`; pending human review / ADR approval (`GAP-035` — not closed).
+4. Faculty development programme design for Educators, Practitioners and Mentors — operationalised provisionally via `PEO-003` / `PEO-FRM-001`; pending human review / ADR approval (`GAP-036` — not closed).
+5. Country-by-country regulated role mapping (`GAP-037` — remains Open).
+6. How Mission Team composition interacts with mission risk classification in live ops (`MIS-003` DRAFT / `GAP-024` proposed — not closed; capacity coupling via `PEO-004`).
 7. Whether residential Mentor House models should share Core patterns beyond “separate operating standard.”
-8. How multi-assessor streams formalise inside Proof of Capability (`GAP-010`).
-9. Re-check if ADR-0007 / ADR-0014 / ADR-0004–0006 change materially before approval.
+8. How multi-assessor streams formalise inside Proof of Capability (`GAP-010`; ADR-0016 UNDER REVIEW).
+9. Re-check if ADR-0007 / ADR-0014 / ADR-0004–0006 change materially before approval of this ADR.
 
 ## Test Scenarios
 
@@ -644,8 +671,10 @@ This ADR does **not**:
 
 - approve itself or close any GAP;
 - treat ADR-0004, ADR-0005, ADR-0006, ADR-0007 or ADR-0014 as APPROVED;
+- treat `PEO-001`–`PEO-005` as approved law or as closing GAP-032–036 merely by existing;
 - set numeric staffing ratios, caseloads, salaries or binding org charts;
 - invent Malaysian (or other country) teacher-registration, vetting or ratio law;
+- invent a Core Educator or Mentor PA ladder for symmetry with Practitioner bands;
 - declare existing qualified teachers inadequate;
 - claim Practitioners must hold simultaneous full-time outside jobs;
 - collapse Technical Professionals or Specialist Services into Mentor;

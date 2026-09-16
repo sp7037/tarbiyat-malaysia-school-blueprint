@@ -34,6 +34,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 - Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER` (GAP-016 proposed via ADR-0019 — later Closed on approval; opened `GAP-048`); glossary.
 - Portal: progress/model/journey traceability; prepare-content workstream notes. No inventing of hours, percentages, age bands or staffing ratios.
 
+### ADR-0015 editorial alignment with People Operating Architecture (2026-09-15)
+
+- ADR-0015 bumped to `0.1.2` (`UNDER REVIEW` unchanged): traceability to `PEO-001`–`PEO-005` DRAFT companions; Open Questions / Follow-on / Related Docs no longer treat `docs/08` as an empty shell; authorisation asymmetry clarified (Practitioner PA bands ≠ Educator/Mentor Core PA ladders); dependency wording for ADR-0007 / ADR-0014 kept accurate.
+- Stakeholder portal `people-learning` synced to the high-level function → authorisation → currency → development → Mission capacity → Mentor capacity model (detail remains on People & Culture).
+- No ADR approval; no GAP-032–036 closures; GAP-037 untouched; no ratios or country licensing invented.
+
 ### GAP-034 — Mentor Caseload and Human-Guidance Capacity (2026-09-15)
 
 - Added `PEO-005` (`docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md`, DRAFT): assigned learners ≠ meaningfully mentored; capacity = relationship depth + available Mentor time; stage/transition-sensitive; Mentor ≠ clinician/safeguarding lead/pathway decider; no universal Core ratio; caseload states; scenarios A–O; links to PEO-004 and ADR-0018.

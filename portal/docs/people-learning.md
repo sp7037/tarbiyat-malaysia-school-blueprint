@@ -1,6 +1,6 @@
 ---
 title: People & Learning
-description: High-level view of the human learning model — restrained where architecture is unsettled
+description: High-level view of Tarbiyat’s human learning model — faculty functions and how authority, currency, development and capacity fit together
 ---
 
 # People & Learning
@@ -11,22 +11,32 @@ description: High-level view of the human learning model — restrained where ar
 </p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — faculty architecture drafted; operational detail open</strong><br/>
+  <strong>UNDER REVIEW — faculty architecture drafted; people operating standards DRAFT</strong><br/>
   ADR-0015 proposes Practitioner–Educator–Mentor functions inside professional learning teams.
-  Staffing ratios, qualification requirements and country registration mapping are not settled.
+  Core now separates <strong>function</strong>, <strong>authorisation</strong>, <strong>currency</strong>, <strong>development</strong>, <strong>Mission capacity</strong> and <strong>Mentor capacity</strong>
+  (PEO-001–005 DRAFT — proposed resolutions, not closed).
+  Numeric staffing / Mentor ratios and country registration mapping remain unsettled.
 </div>
 
-## Why this page stays restrained
+## How to read the people model
 
-Much of the human operating model remains under review or deliberately open. This presentation states only the high-level idea supported by repository drafts. It does **not** invent:
+| Layer | In plain terms |
+|---|---|
+| **Function** | What adult responsibility is being performed (Educator / Practitioner / Mentor, plus supporting roles) |
+| **Authorisation** | Whether the school has scoped permission for that work |
+| **Currency** | Whether that permission is still current |
+| **Development** | How adults deliberately build Tarbiyat operating capability |
+| **Mission capacity** | Whether enough of the right adults are available for a Mission now |
+| **Mentor capacity** | Whether mentoring relationships are real — not just roster labels |
 
-- staffing ratios or class sizes
-- salary bands or organisational charts
-- country teacher-registration schemes
-- mandatory qualification checklists
-- mentor caseload numbers
+Remember:
 
-Those belong in later design and country mapping (see open gaps in the Blueprint).
+- Professional expertise ≠ automatic educational authority
+- Authorised once ≠ authorised forever
+- Staff count ≠ Mission capacity
+- Assigned learners ≠ meaningfully mentored learners
+
+Detailed standards live in the Blueprint: [People & Culture](/areas/people-and-culture).
 
 ## Three proposed faculty functions
 
@@ -40,7 +50,7 @@ These are proposed as **functions**, not ranks. One prepared person may hold mor
 
 ## Supporting people (not collapsed into “Mentor”)
 
-Architecture drafts also distinguish Technical / Lab Professionals and Specialist Professional Services (for example counselling and safeguarding leads). Exact structures remain open.
+Architecture also distinguishes Technical / Lab Professionals and Specialist Professional Services (for example counselling and safeguarding leads). Mentors observe and refer; they are not therapists by default.
 
 ## Education-first boundary
 
@@ -51,6 +61,7 @@ Partner commercial pressure does not override educational purpose. External Inst
 | Artefact | Status |
 |---|---|
 | [ADR-0015](/decisions/adr-0015) — Practitioner–Educator–Mentor faculty | UNDER REVIEW |
+| [People & Culture](/areas/people-and-culture) — PEO-001–005 overview | DRAFT companions |
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem / Institution-in-Residence | UNDER REVIEW |
 

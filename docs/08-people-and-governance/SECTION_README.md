@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-08` |
-| Version | `0.6.0` |
+| Version | `0.6.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
@@ -50,6 +50,6 @@ These interact; they are **not** a promotion ladder. **Staff count ≠ Mission c
 
 ## Planned child documents (not yet created)
 
-- Overview aligning to ADR-0015 (after human review direction)
+- Overview aligning to ADR-0015 (after human approval direction)
 - Safeguarding & residential house-staff operating standards (country/project where applicable)
-- Open questions linked to `GAP_REGISTER.md` (GAP-037; GAP-034 proposed via PEO-005 — not closed)
+- Country regulated-role mapping remains `GAP-037` (Open)
