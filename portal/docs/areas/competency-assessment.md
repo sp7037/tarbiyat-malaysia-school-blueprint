@@ -1,6 +1,6 @@
 ---
 title: Capability & Assessment — Proof of Capability
-description: Human-readable summary of Proof of Capability architecture (ADR-0016 under review)
+description: Human-readable summary of Proof of Capability architecture (ADR-0016 approved)
 ---
 
 # Proof of Capability
@@ -8,8 +8,10 @@ description: Human-readable summary of Proof of Capability architecture (ADR-001
 <p class="present-more"><a href="/proof-of-capability">← Stakeholder presentation: Proof of Capability</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Proof of Capability architecture drafted; not approved</strong><br/>
-  Dual assessment is APPROVED in principle (ADR-0003). ADR-0016 proposes how capability evidence becomes trustworthy. GAP-010 is proposed for resolution via ADR-0016 — not closed. Competency Graph schema remains open (GAP-009).
+  <strong>APPROVED Core architecture; operating pack remains DRAFT</strong><br/>
+  Dual assessment is APPROVED in principle (ADR-0003). ADR-0016 APPROVED defines how capability evidence becomes trustworthy (GAP-010 Closed).
+  Operating detail drafted as POC-001 / POC-FRM-* (DRAFT) for GAP-038–044 — proposed, not closed.
+  Competency Graph schema remains open (GAP-009).
 </div>
 
 ::: tip Portal notice
@@ -73,19 +75,21 @@ Fictional example for architecture communication only. No personal data.
 
 | Artefact | Status | Link |
 |---|---|---|
-| Proof of Capability / Capability Evidence | UNDER REVIEW | [ADR-0016](/decisions/adr-0016) |
+| Proof of Capability / Capability Evidence | APPROVED | [ADR-0016](/decisions/adr-0016) |
+| PoC Operating Standard | DRAFT | [POC-001](/areas/poc-operating-standard) |
+| PoC Operating Templates | DRAFT | [POC-TPL-001](/areas/poc-operating-templates) |
 | Discover Exposure Evidence ≠ PoC Claims | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
 | Formal Recognition + parallel capability layer | APPROVED | [ADR-0003](/decisions/adr-0003) |
 | Faculty multi-stream assessment | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
 | Contribution Records / sanitised evidence | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
-| Assessment section shell | DRAFT | `docs/05-assessment/SECTION_README.md` |
+| Assessment section | DRAFT | `docs/05-assessment/` |
 
 ## Related gaps
 
-- [GAP-010](/gaps#gap-010) — Proof of Capability Profile (proposed resolution via ADR-0016 — not closed)
+- [GAP-010](/gaps#gap-010) — Proof of Capability Profile (Closed — resolved by ADR-0016 APPROVED)
 - [GAP-009](/gaps#gap-009) — Competency Graph specification (remains open)
 - [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)
-- [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) — Verification, challenge, presentation, verifiability, workload, acceptance, privacy
+- [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) — PoC ops cluster (POC-001 DRAFT proposed — not closed; GAP-043 research Open)
 - [GAP-002](/gaps#gap-002) — Malaysia exam/recognition mapping
 
 See also: [Formal Recognition](/areas/formal-recognition)

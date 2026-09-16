@@ -112,7 +112,7 @@ Real problems often span Worlds. A pollution Mission might combine sensing (Engi
 | Formal Major+Minor entry at Deepen | UNDER REVIEW | [ADR-0005](/decisions/adr-0005) |
 | Pathway mobility / bridging principles | UNDER REVIEW | [ADR-0006](/decisions/adr-0006) |
 | Mission Ecosystem / authenticity | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
-| Proof of Capability (individual evidence) | UNDER REVIEW | [ADR-0016](/decisions/adr-0016) |
+| Proof of Capability (individual evidence) | APPROVED | [ADR-0016](/decisions/adr-0016) |
 | Section shell | DRAFT | `docs/03-worlds-and-pathways/SECTION_README.md` |
 
 ## Related gaps

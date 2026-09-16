@@ -35,7 +35,9 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 
 - Precedents for competency graphs / capability portfolios alongside high-stakes exams.
 - Integrity, privacy and verification design options (non-country first).
-- **Status (2026-09-14):** Core PoC architecture drafted as ADR-0016 (`UNDER REVIEW`; proposed resolution of `GAP-010` — not closed). Competency Graph schema remains `GAP-009`. Follow-ons: verification SOP (`GAP-038`), challenge process (`GAP-039`), presentation (`GAP-040`), verifiability (`GAP-041`), faculty workload (`GAP-042`), external acceptance (`GAP-043`), retention/privacy (`GAP-044`).
+- **Status (2026-09-14):** Core PoC architecture drafted as ADR-0016 (`UNDER REVIEW`; proposed resolution of `GAP-010` — not closed). Competency Graph schema remains `GAP-009`.
+- **Status (2026-09-16):** Operating cluster drafted as `POC-001` / `POC-FRM-001`–`005` (`DRAFT`). GAP-038–042 / 044 proposed via POC-001 — **not closed**. GAP-041 Partial (Core trust principles; mechanism evaluation open). GAP-043 remains Open (external acceptance research).
+- **Status (2026-09-16 approval):** ADR-0016 promoted to `APPROVED` v1.0.0. `GAP-010` Closed. `GAP-009` remains Open. GAP-038–044 remain Proposed / Partial / Open (POC-001 DRAFT not approved).
 
 ### RP-D — Oman lineage reconciliation
 

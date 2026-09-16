@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0016` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-16` |
+| Deciders | Human architectural review (approval hygiene checkpoint) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
+| Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW (multi-stream assessment); `ADR-0014` UNDER REVIEW (Contribution Records; sanitised evidence; AI disclosure); `ADR-0007` UNDER REVIEW (mission authenticity; stakeholder feedback ≠ Tarbiyat judgment); developmental portability context `ADR-0004`–`ADR-0006` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-002, GAP-008, GAP-009, GAP-010; related GAP-016, GAP-018; opens GAP-038–GAP-044 |
-| Source documents | `FND-003` §§5, 8, 10; ADR-0003 dual assessment; ADR-0002 productive failure; Architecture Iteration 8 brief (2026-09-14) |
+| Related gaps / claims | GAP-010 Closed by this ADR; GAP-009 remains Open; related GAP-002, GAP-008, GAP-016, GAP-018; opens GAP-038–GAP-044 (ops/research — not closed) |
+| Source documents | `FND-003` §§5, 8, 10; ADR-0003 dual assessment; ADR-0002 productive failure; Architecture Iteration 8 brief (2026-09-14); approval hygiene checkpoint (2026-09-16) |
 
 ---
 
@@ -21,7 +22,7 @@ Proof of Capability and Capability Evidence Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
 
 ## Context
 
@@ -77,7 +78,7 @@ Tarbiyat Core adopts an **evidence-backed, human-governed Proof of Capability (P
 27. Presentation is conceptual and audience-constrained; technology and UI remain open; **no blockchain requirement**.
 28. Workload practicality is a Core constraint: selective, significant, reusable evidence — not administrative hell.
 
-**Proposed resolution of GAP-010:** this ADR supplies Core PoC architecture and verification principles. Operating standards, digital systems and country acceptance remain follow-on. GAP-010 is **not closed** until this ADR is APPROVED. GAP-009 remains open.
+**Resolution of GAP-010:** this ADR supplies Core PoC architecture and verification principles. **GAP-010 is Closed** by this APPROVED ADR. Operating standards, digital systems and country acceptance remain follow-on (`GAP-038`–`GAP-044`). GAP-009 (Competency Graph) remains Open.
 
 ---
 
@@ -583,16 +584,12 @@ Core does **not** promise unemployment reduction, official national adoption or 
 
 ### Follow-on work
 
-- Human review of this ADR; close GAP-010 only if APPROVED.
+- GAP-010 Closed by this APPROVED ADR.
 - Competency Graph schema (`GAP-009`); Six Worlds maps (ADR-0011 UNDER REVIEW / `GAP-008`).
-- Verification operating standard (`GAP-038`).
-- Student challenge process (`GAP-039`).
-- Presentation modes (`GAP-040`).
-- Institutional verifiability approach (`GAP-041`).
-- Workload/usability research (`GAP-042`).
-- External acceptance research (`GAP-043`).
-- Retention/privacy operating rules (`GAP-044`).
-- Populate `docs/05-assessment/` after review direction is clear.
+- Verification / challenge / presentation / verifiability / workload / privacy operating detail remains `POC-001` / `POC-FRM-*` (`DRAFT` — GAP-038–044 proposed, not closed; not approved by this ADR).
+- External acceptance research (`GAP-043`) remains Open.
+- Country retention/consent overlays (`GAP-044` / `GAP-006`).
+- Re-check PoC ops if ADR-0007 / 0014 / 0015 (or related under-review context) change materially.
 
 ## Alternatives Considered
 
@@ -625,19 +622,21 @@ Country / project profiles may later define:
 - ADR-0004, ADR-0005, ADR-0006 (UNDER REVIEW — portability/Exploration Floor context)
 - Proposed ADR-0011 / `GAP-008` — World maps; `GAP-009` — Competency Graph
 - `docs/05-assessment/SECTION_README.md`
+- `docs/05-assessment/PROOF_OF_CAPABILITY_OPERATING_STANDARD.md` (`POC-001` DRAFT)
+- `docs/05-assessment/POC_OPERATING_TEMPLATES.md` (`POC-TPL-001` DRAFT)
 - `GAP_REGISTER.md` — GAP-010; GAP-038–044
 
 ## Open Questions
 
-1. Verification moderation SOP and independence-label refinement (`GAP-038`).
-2. Student challenge/appeals operating procedure (`GAP-039`).
-3. Audience presentation packs and consent UX (`GAP-040`).
-4. Signed-record / verification-link approach without blockchain mandate (`GAP-041`).
-5. Significance thresholds that keep faculty workload viable (`GAP-042`).
-6. Empirical external trust/acceptance studies (`GAP-043`).
-7. Retention periods and PoC privacy DPIA-style rules by country (`GAP-044`).
+1. Human acceptance of `POC-001` verification/moderation SOP and independence descriptors (`GAP-038`) — drafted, not closed.
+2. Human acceptance of student challenge/appeals operating procedure (`GAP-039` / `POC-FRM-005`) — drafted, not closed.
+3. Campus audience presentation packs under `POC-001` principles (`GAP-040`) — principles drafted; packs/UI open.
+4. Signed-record / verification-link product choice without blockchain mandate (`GAP-041`) — Core trust properties drafted; mechanism evaluation open.
+5. Pilot evidence for significance thresholds / faculty workload (`GAP-042`) — rules drafted; empirical load open.
+6. Empirical external trust/acceptance studies (`GAP-043`) — remains Open.
+7. Retention periods and PoC privacy DPIA-style rules by country (`GAP-044` / `GAP-006`).
 8. Exact Graph↔PoC node binding once `GAP-009` exists.
-9. Re-check if ADR-0006/0007/0014/0015 change materially before approval.
+9. Re-check PoC ops if ADR-0006/0007/0014/0015 change materially.
 
 ## Test Scenarios
 
@@ -660,7 +659,7 @@ Country / project profiles may later define:
 
 This ADR does **not**:
 
-- approve itself or close GAP-010 / GAP-009;
+- close GAP-009 (Competency Graph remains Open) or approve `POC-001` / `POC-FRM-*` / GAP-038–044;
 - treat ADR-0004–0007, ADR-0014 or ADR-0015 as APPROVED;
 - claim PoC is a legally recognised qualification or “dual credential”;
 - claim universities, employers or ministries already accept the Profile;

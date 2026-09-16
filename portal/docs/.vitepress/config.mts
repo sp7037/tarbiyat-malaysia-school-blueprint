@@ -68,6 +68,8 @@ const blueprintSidebar = [
       { text: 'Mission Team Capacity (PEO-004)', link: '/areas/mission-team-capacity' },
       { text: 'Mentor Caseload Capacity (PEO-005)', link: '/areas/mentor-caseload-capacity' },
       { text: 'Competency & Assessment', link: '/areas/competency-assessment' },
+      { text: 'POC-001 PoC operating standard', link: '/areas/poc-operating-standard' },
+      { text: 'POC templates / forms', link: '/areas/poc-operating-templates' },
       { text: 'Formal Recognition', link: '/areas/formal-recognition' },
       { text: 'Governance / Safety', link: '/areas/governance' },
       { text: 'Technology', link: '/areas/technology' },

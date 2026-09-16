@@ -119,7 +119,7 @@ sidebar: false
     Proof of Capability is not a universal score, not a badge farm, and not a replacement for
     legally recognised academic qualifications.
   </p>
-  <p class="present-status-note">Dual assessment principle is approved; Proof of Capability operating architecture is under review.</p>
+  <p class="present-status-note">Dual assessment and Proof of Capability Core architecture are approved; POC-001 operating pack remains DRAFT.</p>
   <p class="present-more"><a href="/proof-of-capability">Proof of Capability →</a></p>
 </section>
 

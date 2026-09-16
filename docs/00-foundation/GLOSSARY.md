@@ -39,8 +39,12 @@
 | **Pathway Preparation** | Guided process interpreting Discover experience toward provisional Choose next steps — not career selection (ADR-0018 UNDER REVIEW) | CORE |
 | **Cross-World Capability** | Competency that recurs across Worlds; later Graph shared-node candidate (ADR-0011 UNDER REVIEW; schema GAP-009) | CORE |
 | **Cross-World Mission** | Mission intentionally integrating capabilities from more than one World (ADR-0011 UNDER REVIEW) | CORE |
-| **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 UNDER REVIEW) | CORE |
-| **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 UNDER REVIEW) | CORE |
+| **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 APPROVED; POC-001 DRAFT ops) | CORE |
+| **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 APPROVED; POC-FRM-001) | CORE |
+| **Contribution Record (PoC)** | Honest attribution of learner / peer / adult / partner / AI contribution for collaborative work (ADR-0014 UNDER REVIEW; ADR-0016 APPROVED; POC-FRM-002) | CORE |
+| **Capability Defence** | Proportional explanation of ownership, reasoning and contribution for significant claims — not an exam or humiliation (ADR-0016 APPROVED; POC-FRM-004) | CORE |
+| **Sanitised Verified Evidence** | Capability evidence that preserves verification without exposing confidential partner/learner material (ADR-0014 UNDER REVIEW; ADR-0016 APPROVED; POC-001) | CORE |
+| **Proof of Capability Operating Standard (`POC-001`)** | Operating rules for claim lifecycle, verification, defence, challenge, privacy and workload (POC-001 DRAFT; GAP-038–044 proposed — not closed; ADR-0016 APPROVED / GAP-010 Closed) | CORE |
 | **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |
 | **Industry-in-Residence** | Constitution-named subtype of Institution-in-Residence for industry organisations — sustained Mission-ecosystem embedding, not sponsorship or guest visits (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
 | **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |

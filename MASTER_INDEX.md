@@ -43,7 +43,7 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`). Section **09** adds `CAM-001` campus/facilities overview.
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **05** adds `POC-001` PoC operating standard and `POC-FRM-*` forms. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`). Section **09** adds `CAM-001` campus/facilities overview.
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce; Discover exposure via ADR-0017; Discover→Choose preparation via ADR-0018 (both UNDER REVIEW) | DRAFT |
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011); Discover exposure (ADR-0017); Discover→Choose pathway preparation (ADR-0018) — all UNDER REVIEW; Major+Minor | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
-| 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph; Proof of Capability (ADR-0016 UNDER REVIEW); portfolio | DRAFT |
+| 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph (GAP-009 Open); Proof of Capability (ADR-0016 APPROVED; GAP-010 Closed); POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed) | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–005 authorisation / currency / development / Mission capacity / Mentor caseload | DRAFT |
@@ -61,6 +61,13 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 |---|---|---|---|
 | LAR-001 | `docs/01-learning-architecture/LEARNING_TIME_ARCHITECTURE.md` | DRAFT | Learning-time overview companion — governing decision ADR-0019 (`APPROVED`); GAP-016 Closed; GAP-048 Open |
 | CAM-001 | `docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md` | DRAFT | Campus/facilities overview companion — governing decision ADR-0020 (`APPROVED`); GAP-049 Closed; GAP-050 Open |
+| POC-001 | `docs/05-assessment/PROOF_OF_CAPABILITY_OPERATING_STANDARD.md` | DRAFT | PoC operating standard — proposed GAP-038–042 / 044 resolution (not closed); GAP-043 Open; ADR-0016 APPROVED / GAP-010 Closed |
+| POC-TPL-001 | `docs/05-assessment/POC_OPERATING_TEMPLATES.md` | DRAFT | PoC operating templates index |
+| POC-FRM-001 | `docs/05-assessment/templates/POC-FRM-001-capability-claim-record.md` | DRAFT | Capability Claim Record (evidence + provenance) |
+| POC-FRM-002 | `docs/05-assessment/templates/POC-FRM-002-contribution-record.md` | DRAFT | Contribution Record (PoC) |
+| POC-FRM-003 | `docs/05-assessment/templates/POC-FRM-003-verification-record.md` | DRAFT | Verification Record |
+| POC-FRM-004 | `docs/05-assessment/templates/POC-FRM-004-capability-defence-record.md` | DRAFT | Capability Defence Record (conditional) |
+| POC-FRM-005 | `docs/05-assessment/templates/POC-FRM-005-claim-challenge-correction-record.md` | DRAFT | Claim Challenge / Correction Record |
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
@@ -118,7 +125,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | UNDER REVIEW | Six Worlds capability / progressive depth; GAP-008 proposed resolution; GAP-045–047 opened |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
 | ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed |
-| ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |
+| ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | APPROVED | Proof of Capability / capability evidence; GAP-010 Closed; GAP-038–044 remain open/proposed; POC-001 DRAFT ops companions |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | UNDER REVIEW | Discover→Choose pathway preparation; GAP-046 proposed resolution |
 | ADR-0019 | `docs/13-decisions/adr/ADR-0019-learning-time-architecture.md` | APPROVED | v1.0.0 — Learning-time architecture; closes GAP-016; GAP-048 remains Open |

@@ -19,6 +19,21 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### ADR-0016 APPROVED — Proof of Capability & Capability Evidence (2026-09-16)
+
+- Human-approval hygiene checkpoint passed (dual recognition; no universal score; claim unit; Proof ≠ Participation; contribution; independence/support; verification; Capability Defence; AI attribution; privacy; challenge/correction; anti-inflation; workload; external-acceptance hygiene; software independence). No substantive architecture rewrite.
+- `ADR-0016` promoted `0.1.0` / `UNDER REVIEW` → `1.0.0` / `APPROVED`.
+- `GAP-010` Closed — resolved by APPROVED ADR-0016. `GAP-009` remains Open. `GAP-038`–`GAP-044` remain Proposed / Partial / Open (POC-001 DRAFT ops — not closed; GAP-043 research Open).
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, `SEC-05`, glossary, research notes, portal assessment/PoC/progress/roadmap/model traceability; regenerated portal content.
+- No approval of POC-001 / forms; no other ADR approvals; no invented scores, credentials, expiry periods or external endorsements.
+
+### Proof of Capability Operating Architecture — GAP-038–044 cluster (2026-09-16)
+
+- Added `POC-001` (`docs/05-assessment/PROOF_OF_CAPABILITY_OPERATING_STANDARD.md`, DRAFT): claim lifecycle; claim unit; evidence taxonomy; independence/support; contribution; verification; Capability Defence; proportionality; provenance; AI-assisted work; challenge/correction; anti-inflation; privacy; visibility; retention/currency; Formal Recognition coexistence; learning-time and capacity tests; edge cases A–O.
+- Added `POC-TPL-001` and forms `POC-FRM-001`–`005` (claim; contribution; verification; defence; challenge/correction).
+- Updated `SEC-05`, `GAP_REGISTER` (GAP-038–042 / 044 proposed via POC-001 — **not closed**; GAP-041 Partial on trust principles; GAP-043 remains Open research), `MASTER_INDEX`, glossary, research notes, portal assessment/PoC/progress/roadmap/model traceability.
+- ADR-0016 later APPROVED in same-day hygiene checkpoint (see above); at drafting time it remained `UNDER REVIEW`. GAP-009 unchanged. No universal scores, badge farms, blockchain mandate or invented external endorsements. No new ADR.
+
 ### ADR-0020 APPROVED — Campus & Facilities Functional Architecture (2026-09-16)
 
 - Human-approval hygiene checkpoint passed (external capability governance; existing-building adaptation conditions; resource-constrained levers without lowering standards; specialist external controls; MVC as functional architecture; country-law supremacy). No substantive architecture rewrite.

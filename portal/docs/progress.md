@@ -35,6 +35,7 @@ Only formally **APPROVED** governing work:
 | [ADR-0001 — Core vs Country Implementation](/decisions/adr-0001) | 1.0.0 | `APPROVED` |
 | [ADR-0002 — Lab-First / Mission-Based](/decisions/adr-0002) | 1.0.0 | `APPROVED` |
 | [ADR-0003 — Formal Recognition Safety Layer](/decisions/adr-0003) | 1.0.0 | `APPROVED` |
+| [ADR-0016 — Proof of Capability](/decisions/adr-0016) | 1.0.0 | `APPROVED` (GAP-010 Closed; GAP-038–044 Open/Proposed) |
 | [ADR-0019 — Learning-Time Architecture](/decisions/adr-0019) | 1.0.0 | `APPROVED` (GAP-016 Closed; GAP-048 Open) |
 | [ADR-0020 — Campus & Facilities Functional Architecture](/decisions/adr-0020) | 1.0.0 | `APPROVED` (GAP-049 Closed; GAP-050 Open) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
@@ -56,7 +57,6 @@ Only formally **APPROVED** governing work:
 | [ADR-0011 — Six Worlds Capability / Progressive Depth](/decisions/adr-0011) | `UNDER REVIEW` | World domains; depth ladder; GAP-008 proposed resolution — not closed |
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | `UNDER REVIEW` | Creator Rights / IP / Micro-Venture |
 | [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | `UNDER REVIEW` | Practitioner–Educator–Mentor; professional teams |
-| [ADR-0016 — Proof of Capability](/decisions/adr-0016) | `UNDER REVIEW` | Capability claims, evidence, verification; GAP-010 |
 | [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | `UNDER REVIEW` | Meaningful Exposure Test; All-Six Entitlement; GAP-045 |
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | `UNDER REVIEW` | Guided transition; Provisional Concentration Plan; GAP-046 |
 | [Malaysia Implementation Profile](/country/malaysia) | `DRAFT` skeleton | No invented regulations; research gaps open |
@@ -75,7 +75,7 @@ Known work not yet completed (documentation evidence):
 |---|---|---|
 | Six Worlds competency maps | Architecture drafted in ADR-0011; not approved; Discover exposure drafted in ADR-0017; Discover→Choose preparation drafted in ADR-0018 | [GAP-008](/gaps#gap-008), [ADR-0011](/decisions/adr-0011), [ADR-0017](/decisions/adr-0017), [ADR-0018](/decisions/adr-0018), [GAP-045](/gaps#gap-045)–[GAP-047](/gaps#gap-047) |
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
-| Proof of Capability Profile | Required by dual assessment model | [GAP-010](/gaps#gap-010) |
+| Proof of Capability operating detail | POC-001 / POC-FRM-* DRAFT; ADR-0016 APPROVED / GAP-010 Closed; GAP-038–044 proposed (not closed); GAP-043 research Open | [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016), [POC-001](/areas/poc-operating-standard) |
 | Exploration Floor operationalisation | Principle exists; package TBD | [GAP-019](/gaps#gap-019) |
 | Mission authenticity thresholds | Principle exists; gates unset | [GAP-018](/gaps#gap-018) |
 | Pathway change bridging standards | Reversibility needs operational detail | [GAP-020](/gaps#gap-020) |
@@ -83,8 +83,6 @@ Known work not yet completed (documentation evidence):
 | Campus & facilities functional architecture | ADR-0020 APPROVED; GAP-049 Closed; numeric inventories / phased programmes remain open | [ADR-0020](/decisions/adr-0020), [CAM-001](/areas/campus-facilities), [GAP-049](/gaps#gap-049), [GAP-050](/gaps#gap-050), [Physical Campus](/areas/campus) |
 | Detailed section specs (01–09, 11) | `SECTION_README` shells only | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
-| Competency Graph specification | Required by dual assessment; distinct from PoC | [GAP-009](/gaps#gap-009) |
-| Proof of Capability operating detail | Architecture drafted; verification/workload/acceptance open | [GAP-010](/gaps#gap-010), [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016) |
 | Faculty staffing / Mission capacity / Mentor caseload / country role mapping | Architecture + PEO-001–005 drafted; MY-002 Malaysia mapping DRAFT (GAP-037 proposed — not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
 | Malaysia licensing / exam / governance research | Must be cited, not invented | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), … |
 

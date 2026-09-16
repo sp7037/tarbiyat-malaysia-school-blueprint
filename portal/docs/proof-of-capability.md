@@ -11,9 +11,10 @@ description: Evidence-backed Capability Claims alongside recognised academic att
 </p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Proof of Capability architecture drafted; not approved</strong><br/>
-  Dual assessment is approved in principle (ADR-0003). ADR-0016 proposes how capability evidence becomes trustworthy.
-  GAP-010 is proposed for resolution via ADR-0016 — not closed.
+  <strong>APPROVED Core architecture; operating pack remains DRAFT</strong><br/>
+  Dual assessment is approved in principle (ADR-0003). ADR-0016 APPROVED defines how capability evidence becomes trustworthy (GAP-010 Closed).
+  Operating detail: POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed).
+  Competency Graph schema remains open (GAP-009).
 </div>
 
 ## Two complementary forms of attainment
@@ -84,7 +85,9 @@ Architecture communication only. No personal data.
 | Artefact | Status |
 |---|---|
 | [ADR-0003](/decisions/adr-0003) — Formal Recognition Safety Layer / dual assessment | APPROVED |
-| [ADR-0016](/decisions/adr-0016) — Proof of Capability / capability evidence | UNDER REVIEW |
+| [ADR-0016](/decisions/adr-0016) — Proof of Capability / capability evidence | APPROVED |
+| [POC-001](/areas/poc-operating-standard) — PoC operating standard | DRAFT |
+| [POC-TPL-001](/areas/poc-operating-templates) — claim / verification / defence / challenge forms | DRAFT |
 | Competency Graph specification | OPEN — [GAP-009](/gaps#gap-009) |
 
 Blueprint area: [Competency & Assessment](/areas/competency-assessment)

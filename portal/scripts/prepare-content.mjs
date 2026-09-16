@@ -178,6 +178,13 @@ function rewriteRepoLinks(md) {
     [/docs\/01-learning-architecture\/LEARNING_TIME_ARCHITECTURE\.md/g, '/areas/learning-time-architecture'],
     [/docs\/09-campus-blueprint\/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE\.md/g, '/areas/campus-facilities'],
     [/docs\/09-campus-blueprint\/SECTION_README\.md/g, '/areas/campus'],
+    [/docs\/05-assessment\/PROOF_OF_CAPABILITY_OPERATING_STANDARD\.md/g, '/areas/poc-operating-standard'],
+    [/docs\/05-assessment\/POC_OPERATING_TEMPLATES\.md/g, '/areas/poc-operating-templates'],
+    [/docs\/05-assessment\/templates\/POC-FRM-001-capability-claim-record\.md/g, '/areas/poc-frm-001'],
+    [/docs\/05-assessment\/templates\/POC-FRM-002-contribution-record\.md/g, '/areas/poc-frm-002'],
+    [/docs\/05-assessment\/templates\/POC-FRM-003-verification-record\.md/g, '/areas/poc-frm-003'],
+    [/docs\/05-assessment\/templates\/POC-FRM-004-capability-defence-record\.md/g, '/areas/poc-frm-004'],
+    [/docs\/05-assessment\/templates\/POC-FRM-005-claim-challenge-correction-record\.md/g, '/areas/poc-frm-005'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
@@ -188,7 +195,12 @@ function rewriteRepoLinks(md) {
     [/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
     [/templates\/PEO-FRM-001-faculty-practitioner-development-plan\.md/g, '/areas/peo-frm-001'],
     [/templates\/PEO-FRM-002-mission-team-capacity-check\.md/g, '/areas/peo-frm-002'],
-    [/templates\/PEO-FRM-003-mentor-caseload-review\.md/g, '/areas/peo-frm-003']
+    [/templates\/PEO-FRM-003-mentor-caseload-review\.md/g, '/areas/peo-frm-003'],
+    [/templates\/POC-FRM-001-capability-claim-record\.md/g, '/areas/poc-frm-001'],
+    [/templates\/POC-FRM-002-contribution-record\.md/g, '/areas/poc-frm-002'],
+    [/templates\/POC-FRM-003-verification-record\.md/g, '/areas/poc-frm-003'],
+    [/templates\/POC-FRM-004-capability-defence-record\.md/g, '/areas/poc-frm-004'],
+    [/templates\/POC-FRM-005-claim-challenge-correction-record\.md/g, '/areas/poc-frm-005']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -531,9 +543,9 @@ function buildWorkstreams(adrs) {
     {
       id: 'assessment',
       name: 'Assessment / Proof of Capability',
-      status: 'UNDER REVIEW',
-      detail: 'Parallel capability layer APPROVED in principle (ADR-0003). ADR-0016 proposes Proof of Capability architecture (UNDER REVIEW). GAP-010 proposed resolution — not closed. Ops gaps GAP-038–044 open.',
-      evidence: 'ADR-0003; ADR-0016; GAP-010; GAP-038–044',
+      status: 'APPROVED',
+      detail: 'Parallel capability layer APPROVED (ADR-0003). ADR-0016 APPROVED defines Proof of Capability architecture (GAP-010 Closed). POC-001 / POC-FRM-* DRAFT propose GAP-038–044 ops — not closed; GAP-043 research Open. GAP-009 Open.',
+      evidence: 'ADR-0003; ADR-0016; POC-001; GAP-010; GAP-038–044',
       href: '/areas/competency-assessment'
     },
     {
@@ -927,6 +939,49 @@ const includes = [
     sourceRel: 'docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md',
     description:
       'CAM-001 DRAFT overview — governing decision ADR-0020 APPROVED. GAP-049 Closed. GAP-050 Open. No m², room counts or costs.'
+  },
+  {
+    outRel: 'areas/poc-operating-standard.md',
+    title: 'Proof of Capability Operating Standard (POC-001)',
+    sourceRel: 'docs/05-assessment/PROOF_OF_CAPABILITY_OPERATING_STANDARD.md',
+    description:
+      'POC-001 DRAFT — proposed operational resolution of GAP-038–042 / 044 (not closed). GAP-043 Open. ADR-0016 APPROVED / GAP-010 Closed.'
+  },
+  {
+    outRel: 'areas/poc-operating-templates.md',
+    title: 'PoC Operating Templates (POC-TPL-001)',
+    sourceRel: 'docs/05-assessment/POC_OPERATING_TEMPLATES.md',
+    description: 'DRAFT PoC forms index — POC-FRM-001–005. Not credentials or software schemas.'
+  },
+  {
+    outRel: 'areas/poc-frm-001.md',
+    title: 'POC-FRM-001 Capability Claim Record',
+    sourceRel: 'docs/05-assessment/templates/POC-FRM-001-capability-claim-record.md',
+    description: 'DRAFT Capability Claim Record (evidence + provenance) implementing POC-001.'
+  },
+  {
+    outRel: 'areas/poc-frm-002.md',
+    title: 'POC-FRM-002 Contribution Record',
+    sourceRel: 'docs/05-assessment/templates/POC-FRM-002-contribution-record.md',
+    description: 'DRAFT PoC Contribution Record — not legal IP ownership.'
+  },
+  {
+    outRel: 'areas/poc-frm-003.md',
+    title: 'POC-FRM-003 Verification Record',
+    sourceRel: 'docs/05-assessment/templates/POC-FRM-003-verification-record.md',
+    description: 'DRAFT Verification Record implementing POC-001 / GAP-038.'
+  },
+  {
+    outRel: 'areas/poc-frm-004.md',
+    title: 'POC-FRM-004 Capability Defence Record',
+    sourceRel: 'docs/05-assessment/templates/POC-FRM-004-capability-defence-record.md',
+    description: 'DRAFT conditional Capability Defence Record — not an exam.'
+  },
+  {
+    outRel: 'areas/poc-frm-005.md',
+    title: 'POC-FRM-005 Claim Challenge / Correction',
+    sourceRel: 'docs/05-assessment/templates/POC-FRM-005-claim-challenge-correction-record.md',
+    description: 'DRAFT challenge/correction record implementing POC-001 / GAP-039.'
   }
 ]
 
