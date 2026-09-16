@@ -176,6 +176,8 @@ function rewriteRepoLinks(md) {
     [/docs\/08-people-and-governance\/templates\/PEO-FRM-003-mentor-caseload-review\.md/g, '/areas/peo-frm-003'],
     [/docs\/06-missions-and-production\/templates\/MIS-FRM-008-practitioner-currency-review\.md/g, '/areas/mis-frm-008'],
     [/docs\/01-learning-architecture\/LEARNING_TIME_ARCHITECTURE\.md/g, '/areas/learning-time-architecture'],
+    [/docs\/09-campus-blueprint\/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE\.md/g, '/areas/campus-facilities'],
+    [/docs\/09-campus-blueprint\/SECTION_README\.md/g, '/areas/campus'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
@@ -593,9 +595,9 @@ function buildWorkstreams(adrs) {
     {
       id: 'campus',
       name: 'Physical Campus',
-      status: 'PLANNED',
-      detail: 'Generic campus typology section is a DRAFT shell.',
-      evidence: 'docs/09 SECTION_README',
+      status: 'APPROVED',
+      detail: 'ADR-0020 Campus & Facilities Functional Architecture APPROVED (GAP-049 Closed). CAM-001 overview DRAFT. GAP-050 Open for numeric inventories. No m²/costs invented.',
+      evidence: 'ADR-0020; CAM-001; GAP-049 Closed; GAP-050; docs/09 SECTION_README',
       href: '/areas/campus'
     },
     {
@@ -918,6 +920,13 @@ const includes = [
     sourceRel: 'docs/01-learning-architecture/LEARNING_TIME_ARCHITECTURE.md',
     description:
       'LAR-001 DRAFT overview — governing decision ADR-0019 APPROVED. GAP-016 Closed. GAP-048 Open for exemplars / pilot ranges. No Core hours or percentages.'
+  },
+  {
+    outRel: 'areas/campus-facilities.md',
+    title: 'Campus and Facilities Functional Architecture (CAM-001)',
+    sourceRel: 'docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md',
+    description:
+      'CAM-001 DRAFT overview — governing decision ADR-0020 APPROVED. GAP-049 Closed. GAP-050 Open. No m², room counts or costs.'
   }
 ]
 

@@ -19,6 +19,22 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### ADR-0020 APPROVED — Campus & Facilities Functional Architecture (2026-09-16)
+
+- Human-approval hygiene checkpoint passed (external capability governance; existing-building adaptation conditions; resource-constrained levers without lowering standards; specialist external controls; MVC as functional architecture; country-law supremacy). No substantive architecture rewrite.
+- `ADR-0020` promoted `0.1.0` / `UNDER REVIEW` → `1.0.0` / `APPROVED`.
+- `GAP-049` Closed — resolved by APPROVED ADR-0020. `GAP-050` remains Open (inventories / phased programmes).
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, `CAM-001` / `SEC-09`, glossary, research notes, portal campus/progress/roadmap/model traceability; regenerated portal content.
+- No changes to ADR-0019 (remains APPROVED), GAP-005, GAP-032–037, GAP-048, or other UNDER REVIEW ADR / PEO / MIS statuses. No invented m², room counts, costs or Malaysian building codes. CAM-001 remains DRAFT companion.
+
+### Campus & Facilities Functional Architecture — ADR-0020 (2026-09-16)
+
+- Added `ADR-0020` (`docs/13-decisions/adr/ADR-0020-campus-and-facilities-functional-architecture.md`, initially `UNDER REVIEW`): functional campus model; facility families; Essential/Shared/External/Expandable/Country classification; Six Worlds without six labs; Mission risk implications; ADR-0019 spatial compatibility; capacity coupling; safeguarding/partner access; Explore→Produce progression; Minimum Viable Tarbiyat Campus; anti-theatre; resource-constrained/adaptive tests.
+- Added `CAM-001` overview under `docs/09-campus-blueprint/`; updated `SEC-09`.
+- Opened `GAP-049` (proposed via ADR-0020 — later Closed on approval) and `GAP-050` (Open — numeric inventories / phased programmes deferred).
+- Updated `GAP_REGISTER`, `MASTER_INDEX`, `ADR_INDEX`, glossary, research notes, portal campus/progress/roadmap traceability.
+- No invented m², room counts, costs, boarding mandates or Malaysian building codes. Residential remains `GAP-005`. Existing UNDER REVIEW ADRs and PEO/MIS statuses unchanged.
+
 ### GAP-037 — Malaysia Regulated People / Faculty Role Mapping (2026-09-16)
 
 - Added `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`, DRAFT): evidence-backed mapping of Tarbiyat Educator / Practitioner / Mentor / Mission Lead / technical authority / visiting & I-in-R roles to Malaysian Education Act teacher registration, employee registration, CYP employment/hazardous-work rules, Counsellors/AHP boundaries, OSHA competent-person logic, and foreign-teacher EP support-letter pathways.

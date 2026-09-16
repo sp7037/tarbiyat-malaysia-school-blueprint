@@ -35,6 +35,8 @@ Only formally **APPROVED** governing work:
 | [ADR-0001 — Core vs Country Implementation](/decisions/adr-0001) | 1.0.0 | `APPROVED` |
 | [ADR-0002 — Lab-First / Mission-Based](/decisions/adr-0002) | 1.0.0 | `APPROVED` |
 | [ADR-0003 — Formal Recognition Safety Layer](/decisions/adr-0003) | 1.0.0 | `APPROVED` |
+| [ADR-0019 — Learning-Time Architecture](/decisions/adr-0019) | 1.0.0 | `APPROVED` (GAP-016 Closed; GAP-048 Open) |
+| [ADR-0020 — Campus & Facilities Functional Architecture](/decisions/adr-0020) | 1.0.0 | `APPROVED` (GAP-049 Closed; GAP-050 Open) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
 
 **Closed Core design conflicts** (not Malaysia gaps): exam abolition as Core direction; Competency Graph replacing statutory exams; lab-only extremes; boarding as universal Core mandate; sovereign DC as automatic Core mandate — see [Gap Register — Closed](/gaps).
@@ -78,6 +80,7 @@ Known work not yet completed (documentation evidence):
 | Mission authenticity thresholds | Principle exists; gates unset | [GAP-018](/gaps#gap-018) |
 | Pathway change bridging standards | Reversibility needs operational detail | [GAP-020](/gaps#gap-020) |
 | Weekly time-balance / learning-time architecture | ADR-0019 APPROVED; GAP-016 Closed; campus exemplars / pilot ranges remain open | [ADR-0019](/decisions/adr-0019), [GAP-016](/gaps#gap-016), [GAP-048](/gaps#gap-048), [LAR-001](/areas/learning-time-architecture) |
+| Campus & facilities functional architecture | ADR-0020 APPROVED; GAP-049 Closed; numeric inventories / phased programmes remain open | [ADR-0020](/decisions/adr-0020), [CAM-001](/areas/campus-facilities), [GAP-049](/gaps#gap-049), [GAP-050](/gaps#gap-050), [Physical Campus](/areas/campus) |
 | Detailed section specs (01–09, 11) | `SECTION_README` shells only | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Competency Graph specification | Required by dual assessment; distinct from PoC | [GAP-009](/gaps#gap-009) |
@@ -95,7 +98,7 @@ Intentionally postponed or country-specific:
 
 | Item | Notes |
 |---|---|
-| Full blueprint chapters (lab schedules, financial models, partner MOUs, site plans) | Deferred until after foundation ratification — [Master Index §H](/master-index) |
+| Full blueprint chapters (lab schedules, financial models, partner MOUs, site plans) | Deferred until after foundation ratification — numeric facility inventories via [GAP-050](/gaps#gap-050); functional campus rules APPROVED in [ADR-0020](/decisions/adr-0020) — [Master Index §H](/master-index) |
 | Malaysian Year mapping of developmental stages | Explicitly out of scope for ADR-0005 until Core approval; then country profile |
 | Residential / boarding model for Malaysia | Core non-mandate APPROVED; MY choice still open ([GAP-005](/gaps#gap-005)) |
 | Data-sovereignty architecture for Malaysia | Core non-mandate APPROVED; MY choice still open ([GAP-006](/gaps#gap-006)) |

@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `DEC-001` |
-| Version | `1.12.0` |
+| Version | `1.14.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `DEC-TPL`; ADR body files under `docs/13-decisions/adr/` |
-| Source documents | Ratification (2026-09-13); Iteration 2–12 ADR drafts (0004–0007, 0011, 0014–0019) |
+| Source documents | Ratification (2026-09-13); Iteration 2–13 ADR drafts (0004–0007, 0011, 0014–0020); ADR-0020 APPROVED |
 
 ## Status key
 
@@ -25,6 +25,7 @@
 | ADR-0002 | Lab-First and Mission-Based Learning Architecture | `APPROVED` | `1.0.0` | `docs/13-decisions/adr/ADR-0002-lab-first-mission-based.md` |
 | ADR-0003 | Formal Examination and Recognition Safety Layer | `APPROVED` | `1.0.0` | `docs/13-decisions/adr/ADR-0003-formal-examination-recognition-safety-layer.md` |
 | ADR-0019 | Learning-Time Architecture | `APPROVED` | `1.0.0` | `docs/13-decisions/adr/ADR-0019-learning-time-architecture.md` |
+| ADR-0020 | Campus and Facilities Functional Architecture | `APPROVED` | `1.0.0` | `docs/13-decisions/adr/ADR-0020-campus-and-facilities-functional-architecture.md` |
 
 Companion approved foundation document: `docs/00-foundation/CONCEPT_CONSTITUTION.md` (`FND-003`, v1.0.0, `APPROVED`).
 
@@ -68,6 +69,8 @@ Historical directions that must not be restored: `docs/12-evidence/SUPERSEDED_CO
 **ADR-0018** proposes Discover→Choose Pathway Preparation Architecture; guided developmental transition (not career pass/fail gate); provisional concentration without forced single World; multi-input human-governed guidance without one score; Interest ≠ Capability; Exposure ≠ pathway readiness; PoC informs but is not a universal Choose prerequisite; Provisional Concentration Plan as revisable orientation artefact (not credential/PoC); reversibility; breadth continuity without equal-time mandate; equity, equal dignity and safety/ethics; scenario tests A–N. Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0017 / 0011 / 0004–0006 / 0015 / 0016 as under-review context only. Does **not** invent ages, scores, pathway catalogues, Graph schemas or algorithms. **Not APPROVED.** Proposed resolution of `GAP-046` — not closed. Preserves `GAP-009`, `GAP-045`, `GAP-047` open.
 
 **ADR-0019** (`APPROVED` v1.0.0) defines Learning-Time Architecture: Learning-Time Modes; Integrated Programme Principle (anti-double-workload); Primary Organising Logic Test (anti-project-day); Knowledge Studio / Recognition Season safeguards; discipline integration vs focused-instruction rules; Six Worlds scheduling without six subjects; stage learning-time postures without Core %; capacity-coupled intensity; non-normative day examples. Depends on FND-003 / ADR-0001–0003 (APPROVED); uses ADR-0004–0007 / 0011 / 0015–0018 and PEO-004/005 as under-review/DRAFT context only. Does **not** invent hours, percentages, age bands, staffing ratios or country timetables. **Closes `GAP-016`.** `GAP-048` remains Open for stage-package exemplars / pilot planning ranges.
+
+**ADR-0020** (`APPROVED` v1.0.0) defines Campus and Facilities Functional Architecture: campus as governed environment system (including external access); facility families; Essential/Shared/External/Expandable/Country classification; Six Worlds without six labs; Mission risk/authenticity facility implications; ADR-0019 spatial compatibility; capacity-coupled facilities; safeguarding/partner-access; Explore→Produce facility progression; Minimum Viable Tarbiyat Campus; anti-theatre rules; resource-constrained adaptation. Depends on FND-003 / ADR-0001–0003 / 0019 (APPROVED); uses ADR-0004–0007 / 0011 / 0015 / 0017 and MIS/PEO artefacts as under-review/DRAFT context only. Does **not** invent m², room counts, costs, boarding mandates or country building codes. **Closes `GAP-049`.** `GAP-050` remains Open for phased inventories / pilot schedules.
 
 ---
 

@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-GAP` |
-| Version | `1.4.0` |
+| Version | `1.6.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-16` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0019 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–12 ADR drafts (0004–0007, 0011, 0014–0019) |
+| Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0020 |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–13 ADR drafts (0004–0007, 0011, 0014–0020); ADR-0020 APPROVED / GAP-049 Closed |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -63,6 +63,8 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-046 | Discover→Choose pathway preparation / anti-streaming transition | After Six Worlds exposure, Choose risks early streaming, forced single-World identity, score gates or unguided choice; detailed within-World catalogues remain deferred | Human review of ADR-0018; close only after ADR-0018 APPROVED; fine Major/Minor catalogues remain later design (GAP-004) | Medium | Proposed resolution via ADR-0018 (`UNDER REVIEW`) — not closed |
 | GAP-047 | Mission World-tagging significance thresholds | Designers need practical World classification without tagging every brief activity; ADR-0017 Cross-World Rule requires substantive work per claimed World | Draft significance thresholds and primary/secondary World tagging rules for Missions/programmes; keep compatible with ADR-0017 | Medium | Open (opened by ADR-0011) |
 | GAP-048 | Stage learning-time package exemplars and evidence-dependent planning ranges | ADR-0019 (APPROVED) defines Core learning-time constraints without hours/%; campuses still need non-doctrinal exemplars and pilot-informed planning ranges | Draft stage-package exemplars under `docs/01-learning-architecture/`; collect pilot evidence for planning ranges; never elevate pilot numbers to Core fixed % without new ADR | Medium | Open (opened by ADR-0019) |
+| GAP-049 | Core Campus & Facilities Functional Architecture | Stress test Facilities RED; `docs/09` was shell-only; Lab-First misunderstood as six specialist labs / flagship capital | Closed by APPROVED ADR-0020; numeric inventories via GAP-050; residential remains GAP-005; country building/lab rules stay country-cited | High | Closed — resolved by ADR-0020 (`APPROVED`) |
+| GAP-050 | Campus facility inventories, phased capital programmes and pilot schedules | ADR-0020 defines functional MVC without m²/room counts; campuses still need evidence-dependent inventories after pilots | Draft inventory/phasing method under `docs/09-campus-blueprint/`; collect pilot evidence; never elevate pilot numbers to Core mandates without new ADR; country codes via country profiles | Medium | Open (opened by ADR-0020) |
 
 ## Closed (Core design conflicts only)
 

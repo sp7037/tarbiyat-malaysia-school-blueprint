@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `EVD-003` |
-| Version | `0.4.0` |
+| Version | `0.5.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-16` |
 | Country scope | `CORE + MALAYSIA` |
@@ -53,3 +53,9 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Practitioner currency and hybrid onboarding precedents — supports `GAP-033`, `GAP-035`, `GAP-036`.
 - Country regulated-role mapping method (Core functions → legal categories) — supports `GAP-037`.
 - **Status (2026-09-16):** Malaysia mapping lodged as `MY-002` DRAFT; `GAP-037` proposed via MY-002 — **not closed**. ADR-0015 / PEO-001–005 remain unapproved; GAP-032–036 unchanged.
+
+### RP-G — Campus & facilities architecture (opened with ADR-0020)
+
+- Functional campus model distinguishing essential / shared / external / expandable / country-dependent environments — supports `GAP-049`.
+- Pilot facility inventories and phased capital programmes without inventing Core m² or costs — supports `GAP-050`.
+- **Status (2026-09-16):** Core architecture APPROVED as ADR-0020 (`APPROVED` v1.0.0); CAM-001 DRAFT companion. GAP-049 Closed. No building schedules invented. Numeric inventories remain `GAP-050` (Open). Residential still `GAP-005`.

@@ -5,11 +5,11 @@
 | Document ID | `FND-006` |
 | Version | `0.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
-| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0019 terms |
+| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0019 / ADR-0020 terms |
 
 ## Terms (initial)
 
@@ -23,6 +23,10 @@
 | **Primary Organising Logic Test** | Authenticity test that Mission/production continuity organises the Learning Engine over a meaningful window — not a Core percentage (ADR-0019 APPROVED) | CORE |
 | **Recognition Season** | Bounded period of heightened Formal Recognition preparation that may temporarily narrow Mission Mode without permanently abolishing it (ADR-0019 APPROVED) | CORE |
 | **Learning-Time Architecture (`ADR-0019` / `LAR-001`)** | Core constraints for Missions vs Knowledge Studios vs exam prep coexistence without fixed Core % (ADR-0019 APPROVED; LAR-001 DRAFT overview; GAP-016 Closed; GAP-048 Open) | CORE |
+| **Campus (Tarbiyat)** | Governed system of physical, hybrid and external learning environments — not a requirement to own every professional facility (ADR-0020 APPROVED) | CORE |
+| **Facility Family** | Functional group of environments (Knowledge; Mission; People/development; Production/support; Safeguarding/control; Formation/wellbeing; External learning) (ADR-0020 APPROVED) | CORE |
+| **Minimum Viable Tarbiyat Campus (MVC)** | Functional launch set: flexible Knowledge/Mission environments + safe specialist access + mentoring/critique + basic support/safeguarding + formation access + governed external network — without Core room counts or costs (ADR-0020 APPROVED; CAM-001 DRAFT) | CORE |
+| **Campus and Facilities Functional Architecture (`ADR-0020` / `CAM-001`)** | Core rules for essential/shared/external/phased facility functions, anti-theatre and capacity-coupled spaces (ADR-0020 APPROVED; CAM-001 DRAFT overview; GAP-049 Closed; GAP-050 Open) | CORE |
 | **Explore → Discover → Choose → Deepen → Produce** | Named progression stages (age bands TBD) | CORE |
 | **Six Worlds** | Six developmental learning/professional domains for exploration, Missions, Major+Minor and capability context — not career labels or subject lists (ADR-0011 UNDER REVIEW) | CORE |
 | **Major / Minor** | Pathway structure at suitable ages; may sit within or across Worlds (timing via ADR-0004/0005 UNDER REVIEW; World relationship ADR-0011 UNDER REVIEW) | CORE |

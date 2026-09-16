@@ -72,6 +72,7 @@ const blueprintSidebar = [
       { text: 'Governance / Safety', link: '/areas/governance' },
       { text: 'Technology', link: '/areas/technology' },
       { text: 'Physical Campus', link: '/areas/campus' },
+      { text: 'CAM-001 facilities overview', link: '/areas/campus-facilities' },
       { text: 'Implementation', link: '/areas/implementation' }
     ]
   },

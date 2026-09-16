@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.19.0` |
+| Version | `0.20.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-16` |
 | Country scope | `UNIVERSAL` |
@@ -43,7 +43,7 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`).
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`). Section **09** adds `CAM-001` campus/facilities overview.
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
@@ -55,11 +55,12 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–005 authorisation / currency / development / Mission capacity / Mentor caseload | DRAFT |
-| 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Generic campus typology | DRAFT |
+| 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Functional campus/facilities architecture; CAM-001 overview (ADR-0020 APPROVED; GAP-049 Closed; GAP-050 Open) | DRAFT |
 
 | ID | Path | Status | Notes |
 |---|---|---|---|
 | LAR-001 | `docs/01-learning-architecture/LEARNING_TIME_ARCHITECTURE.md` | DRAFT | Learning-time overview companion — governing decision ADR-0019 (`APPROVED`); GAP-016 Closed; GAP-048 Open |
+| CAM-001 | `docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md` | DRAFT | Campus/facilities overview companion — governing decision ADR-0020 (`APPROVED`); GAP-049 Closed; GAP-050 Open |
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
@@ -121,6 +122,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | UNDER REVIEW | Discover→Choose pathway preparation; GAP-046 proposed resolution |
 | ADR-0019 | `docs/13-decisions/adr/ADR-0019-learning-time-architecture.md` | APPROVED | v1.0.0 — Learning-time architecture; closes GAP-016; GAP-048 remains Open |
+| ADR-0020 | `docs/13-decisions/adr/ADR-0020-campus-and-facilities-functional-architecture.md` | APPROVED | v1.0.0 — Campus & facilities functional architecture; closes GAP-049; GAP-050 remains Open |
 
 ---
 
@@ -154,4 +156,4 @@ See `references/README.md` for file-level inventory.
 
 ## H. Documents intentionally not yet created
 
-Full blueprint chapters (detailed pedagogy, lab schedules, Malaysia legal memoranda, financial models, partner MOUs, site plans) are deferred until after foundation ratification.
+Full blueprint chapters (detailed pedagogy, Malaysia legal memoranda, financial models, partner MOUs, site plans, numeric lab schedules) are deferred until after foundation ratification. Functional campus architecture is APPROVED in ADR-0020; numeric inventories remain `GAP-050`.
