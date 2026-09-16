@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.18.0` |
+| Version | `0.19.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
@@ -88,7 +88,8 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ID | Path | Status | Notes |
 |---|---|---|---|
 | MY-000 | `docs/10-malaysia/SECTION_README.md` | DRAFT | Profile boundary rules |
-| MY-001 | `docs/10-malaysia/MALAYSIA_IMPLEMENTATION_PROFILE.md` | DRAFT | Skeleton only — no invented regulations |
+| MY-001 | `docs/10-malaysia/MALAYSIA_IMPLEMENTATION_PROFILE.md` | DRAFT | Skeleton profile |
+| MY-002 | `docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md` | DRAFT | GAP-037 Malaysia regulated people/faculty mapping — proposed, not closed; not legal advice |
 
 ---
 
@@ -115,7 +116,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | UNDER REVIEW | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 proposed resolution |
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | UNDER REVIEW | Six Worlds capability / progressive depth; GAP-008 proposed resolution; GAP-045–047 opened |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
-| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 Open |
+| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | UNDER REVIEW | Proof of Capability / capability evidence; GAP-010 proposed resolution; GAP-038–044 opened |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | UNDER REVIEW | Discover→Choose pathway preparation; GAP-046 proposed resolution |

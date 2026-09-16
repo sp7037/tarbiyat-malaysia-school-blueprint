@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-08` |
-| Version | `0.6.1` |
+| Version | `0.6.2` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0015 UNDER REVIEW; `PEO-001`–`PEO-005` DRAFT |
@@ -46,10 +46,13 @@ PEO-001 Authorisation  ↔  PEO-002 Currency  ↔  PEO-003 Development
               PEO-005 Mentor Human-Guidance Capacity
 ```
 
-These interact; they are **not** a promotion ladder. **Staff count ≠ Mission capacity.** **Assigned learners ≠ meaningfully mentored learners.** Country registration / statutory ratios remain `GAP-037`.
+These interact; they are **not** a promotion ladder. **Staff count ≠ Mission capacity.** **Assigned learners ≠ meaningfully mentored learners.** Country registration / statutory ratios remain `GAP-037` (Malaysia mapping proposed in `MY-002` — not closed).
 
 ## Planned child documents (not yet created)
 
 - Overview aligning to ADR-0015 (after human approval direction)
 - Safeguarding & residential house-staff operating standards (country/project where applicable)
-- Country regulated-role mapping remains `GAP-037` (Open)
+
+## Country handoff (Malaysia)
+
+- `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`) — DRAFT proposed resolution of `GAP-037` (**not closed**; not legal advice)

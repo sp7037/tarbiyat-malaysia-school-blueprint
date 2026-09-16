@@ -111,5 +111,5 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
 - [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)
-- [GAP-037](/gaps#gap-037) — Country regulated-role mapping
+- [GAP-037](/gaps#gap-037) — Country regulated-role mapping — proposed via [MY-002](/country/malaysia-regulated-people) (**not closed**)
 - [GAP-023](/gaps#gap-023) — Institution-in-Residence operating standard

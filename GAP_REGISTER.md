@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-GAP` |
-| Version | `1.3.0` |
+| Version | `1.4.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0019 |
@@ -51,7 +51,7 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-034 | Mentor caseload principles | Longitudinal mentoring fails if caseloads are unbounded | Human review of `PEO-005` (`docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md`); close only after ADR-0015 APPROVED; record via PEO-FRM-003; no universal Core ratio; country pastoral → GAP-037 | Medium | Proposed resolution via PEO-005 (`DRAFT`) — not closed |
 | GAP-035 | Practitioner currency standard | Authenticity depends on non-stale professional knowledge; dual full-time jobs not required | Human review of `PEO-002` (`docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md`); close only after ADR-0015 APPROVED; record via MIS-FRM-008 | Medium | Proposed resolution via PEO-002 (`DRAFT`) — not closed |
 | GAP-036 | Faculty development programme (Educator / Practitioner / Mentor) | Tarbiyat requires additional operating capabilities beyond conventional roles | Human review of `PEO-003` (`docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md`); close only after ADR-0015 APPROVED; record via PEO-FRM-001 | Medium | Proposed resolution via PEO-003 (`DRAFT`) — not closed |
-| GAP-037 | Country regulated-role mapping for Core faculty architecture | Core functions cannot override statutory teacher registration, ratios or leadership quals | Map Core Role Architecture → legally recognised categories → required qualifications in country profiles | High | Open (opened by ADR-0015) |
+| GAP-037 | Country regulated-role mapping for Core faculty architecture | Core functions cannot override statutory teacher registration, ratios or leadership quals | Human legal review of `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`); close only after counsel/human acceptance and campus-category clarity (`GAP-001`); ratios remain GAP-032 | High | Proposed resolution via MY-002 (`DRAFT`) — not closed |
 | GAP-038 | PoC verification / moderation operating standard | ADR-0016 states multi-source verification principles; independence labels and moderation SOP unset | Draft verification SOP after ADR-0016 human review | High | Open (opened by ADR-0016) |
 | GAP-039 | Student PoC challenge / correction process | Learners need proportional challenge rights without self-certification | Draft challenge/appeals procedure for claims, contribution and verification | Medium | Open (opened by ADR-0016) |
 | GAP-040 | PoC Profile presentation modes by audience | Learner/parent/university/employer/public need different views under consent | Draft presentation packs and sharing constraints (no UI invention as Core law) | Medium | Open (opened by ADR-0016) |

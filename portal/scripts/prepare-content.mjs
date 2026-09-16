@@ -152,6 +152,7 @@ function rewriteRepoLinks(md) {
     [/docs\/12-evidence\/CLAIMS_REGISTER\.md/g, '/evidence/claims-register'],
     [/docs\/12-evidence\/EVIDENCE_REGISTER\.md/g, '/evidence/evidence-register'],
     [/docs\/12-evidence\/RESEARCH_GAPS\.md/g, '/evidence/research-gaps'],
+    [/docs\/10-malaysia\/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING\.md/g, '/country/malaysia-regulated-people'],
     [/docs\/10-malaysia\/MALAYSIA_IMPLEMENTATION_PROFILE\.md/g, '/country/malaysia'],
     [/docs\/10-malaysia\/SECTION_README\.md/g, '/country/'],
     [/docs\/06-missions-and-production\/MISSION_PARTNER_GOVERNANCE\.md/g, '/areas/mission-partner-governance'],
@@ -553,8 +554,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'UNDER REVIEW',
-      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001–003 draft authorisation / currency / development. PEO-004 drafts Mission Team loading / capacity (GAP-032 proposed — not closed). PEO-005 drafts Mentor caseload / human-guidance capacity (GAP-034 proposed — not closed). Country role mapping open (GAP-037).',
-      evidence: 'ADR-0015; PEO-001–PEO-005; docs/08 SECTION_README; GAP-032–037',
+      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001–005 draft authorisation / currency / development / capacity. Malaysia regulated people mapping drafted as MY-002 (GAP-037 proposed — not closed).',
+      evidence: 'ADR-0015; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037',
       href: '/areas/people-and-culture'
     },
     {
@@ -585,8 +586,8 @@ function buildWorkstreams(adrs) {
       id: 'malaysia',
       name: 'Malaysia Profile',
       status: 'IN PROGRESS',
-      detail: 'Skeleton profile only — no invented regulations. Multiple MY gaps remain Open.',
-      evidence: 'MY-001 DRAFT; GAP-001/002/005/006/007/014',
+      detail: 'Skeleton profile plus MY-002 regulated people/faculty mapping DRAFT (GAP-037 proposed — not closed). Establishment / exam / residential gaps remain Open.',
+      evidence: 'MY-001; MY-002 DRAFT; GAP-001/002/005/006/007/014/037',
       href: '/country/malaysia'
     },
     {
@@ -774,6 +775,13 @@ const includes = [
     outRel: 'country/malaysia-section.md',
     title: 'Malaysia section guide',
     sourceRel: 'docs/10-malaysia/SECTION_README.md'
+  },
+  {
+    outRel: 'country/malaysia-regulated-people.md',
+    title: 'Malaysia Regulated People / Faculty Role Mapping (MY-002)',
+    sourceRel: 'docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md',
+    description:
+      'MY-002 DRAFT — proposed regulatory mapping for GAP-037 (not closed). Not legal advice; does not approve ADR-0015 or PEO-001–005.'
   },
   {
     outRel: 'areas/mission-partner-governance.md',

@@ -18,7 +18,7 @@ Per [ADR-0001](/decisions/adr-0001), Tarbiyat maintains:
 
 | Country | Status | Link |
 |---|---|---|
-| Malaysia | `IN PROGRESS` — DRAFT skeleton only; no invented regulations | Presentation: [/malaysia](/malaysia) · Blueprint: [/country/malaysia](/country/malaysia) |
+| Malaysia | `IN PROGRESS` — skeleton + MY-002 people mapping DRAFT (GAP-037 proposed, not closed) | Presentation: [/malaysia](/malaysia) · Blueprint: [/country/malaysia](/country/malaysia) · [MY-002](/country/malaysia-regulated-people) |
 | Other countries | Not started | — |
 
 Oman and other historical materials under `references/` are **reference only**, not automatic defaults for Malaysia or Core.

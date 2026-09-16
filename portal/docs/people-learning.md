@@ -15,7 +15,8 @@ description: High-level view of Tarbiyat’s human learning model — faculty fu
   ADR-0015 proposes Practitioner–Educator–Mentor functions inside professional learning teams.
   Core now separates <strong>function</strong>, <strong>authorisation</strong>, <strong>currency</strong>, <strong>development</strong>, <strong>Mission capacity</strong> and <strong>Mentor capacity</strong>
   (PEO-001–005 DRAFT — proposed resolutions, not closed).
-  Numeric staffing / Mentor ratios and country registration mapping remain unsettled.
+  Numeric staffing / Mentor ratios remain unsettled.
+  Malaysia regulated-role mapping is drafted as <a href="/country/malaysia-regulated-people">MY-002</a> (GAP-037 proposed — not closed).
 </div>
 
 ## How to read the people model

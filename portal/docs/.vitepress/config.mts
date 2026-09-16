@@ -80,7 +80,8 @@ const blueprintSidebar = [
     collapsed: true,
     items: [
       { text: 'Overview', link: '/country/' },
-      { text: 'Malaysia (profile)', link: '/country/malaysia' }
+      { text: 'Malaysia (profile)', link: '/country/malaysia' },
+      { text: 'MY-002 people mapping', link: '/country/malaysia-regulated-people' }
     ]
   },
   {

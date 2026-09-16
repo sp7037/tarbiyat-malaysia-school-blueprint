@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### GAP-037 — Malaysia Regulated People / Faculty Role Mapping (2026-09-16)
+
+- Added `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`, DRAFT): evidence-backed mapping of Tarbiyat Educator / Practitioner / Mentor / Mission Lead / technical authority / visiting & I-in-R roles to Malaysian Education Act teacher registration, employee registration, CYP employment/hazardous-work rules, Counsellors/AHP boundaries, OSHA competent-person logic, and foreign-teacher EP support-letter pathways.
+- Explicitly marks campus category, demonstration-vs-teach bright line, ratios and several procedural items **UNRESOLVED**.
+- Updated `MY-000` / `MY-001`; `GAP_REGISTER` (GAP-037 proposed via MY-002 — **not closed**); `MASTER_INDEX`; evidence/research indexes; portal Malaysia/people traceability.
+- No ADR-0015 or PEO-001–005 approvals; GAP-032–036 unchanged; GAP-016 remains Closed; ADR-0019 remains APPROVED. Not legal advice; no invented permissions.
+
 ### ADR-0019 APPROVED — Learning-Time Architecture (2026-09-15)
 
 - Human-approval hygiene checkpoint passed (Substitution Rule; Recognition Season Rule; Primary Organising Logic Test; Produce-stage preservation). No substantive architecture rewrite.

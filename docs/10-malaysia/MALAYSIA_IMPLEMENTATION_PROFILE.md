@@ -5,10 +5,10 @@
 | Document ID | `MY-001` |
 | Version | `0.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-13` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | MY-000, FND-003 |
+| Dependencies | MY-000, FND-003, MY-002 (people mapping DRAFT) |
 | Source documents | references/malaysia/Tarbiyat_Malaysia_Concept_Note.docx (proposal; not approved fact) |
 
 ## 1. Status of source material
@@ -21,6 +21,7 @@ The Malaysia Concept Note is a **proposal document**, not an approved government
 |---|---|---|
 | Legal establishment pathway | Unknown / research required | No invention |
 | Curriculum & exam board mapping | Unknown | Must preserve Core exam-compatibility principle |
+| Regulated people / faculty role mapping | DRAFT mapping in `MY-002` (GAP-037 proposed — not closed) | Human legal review required; campus category still GAP-001 |
 | Residential vs day model | Concept note proposes residential/24h culture | Requires ADR; not Core default |
 | Data / security architecture | Concept note uses sovereign-data language | Requires ADR; not auto-adopted from Oman |
 | Ownership / governance | Concept note proposes Government-owned | Proposal only |

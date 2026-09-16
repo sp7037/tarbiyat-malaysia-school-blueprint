@@ -10,7 +10,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0007` UNDER REVIEW (Mission Ecosystem / Educationalisation / Institution-in-Residence); `ADR-0014` UNDER REVIEW (Creator Rights / conflict of interest); developmental context `ADR-0004`–`ADR-0006` UNDER REVIEW (not treated as approved); operational companions `PEO-001`–`PEO-005` DRAFT (do not close gaps or approve this ADR) |
-| Related gaps / claims | GAP-005, GAP-008, GAP-010, GAP-016, GAP-022, GAP-023; opens GAP-032–GAP-037 (032–036 proposed via PEO-004 / 001 / 005 / 002 / 003 DRAFT — not closed; 037 Open) |
+| Related gaps / claims | GAP-005, GAP-008, GAP-010, GAP-016, GAP-022, GAP-023; opens GAP-032–GAP-037 (032–036 proposed via PEO-004 / 001 / 005 / 002 / 003 DRAFT — not closed; 037 proposed via MY-002 DRAFT — not closed) |
 | Source documents | `FND-003` §§4, 6–10; ADR-0002 staff-development consequence; ADR-0007 Mission Educationalisation and partner roles; Architecture Iteration 7 brief (2026-09-14); People Operating Architecture editorial alignment (2026-09-15) |
 
 ---

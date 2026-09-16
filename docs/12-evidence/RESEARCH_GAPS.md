@@ -3,9 +3,9 @@
 | Field | Value |
 |---|---|
 | Document ID | `EVD-003` |
-| Version | `0.3.0` |
+| Version | `0.4.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-16` |
 | Country scope | `CORE + MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | ROOT-GAP |
@@ -22,6 +22,7 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Which school categories and approval authorities apply (cite statutes/guidance only).
 - Which examination/curriculum frameworks are candidate safety layers.
 - Constraints on alternative pedagogy within recognised schools.
+- **Status (2026-09-16):** People/faculty regulated-role mapping drafted as `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`) for `GAP-037` — **proposed, not closed**. Evidence catalogue `EV-MY-037-01`–`10` lodged in `EVIDENCE_REGISTER`. Remaining: human legal review; campus category (`GAP-001`); demonstration-vs-teach bright line; ratios (also `GAP-032`); foreign short-visit matrix; leadership circulars.
 
 ### RP-B — Pedagogy & pathway timing
 
@@ -50,4 +51,5 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Comparable staffing models for mission/lab-based secondary schooling (ratios and team loading) — supports `GAP-032`.
 - Mentor caseload evidence bands — supports `GAP-034`.
 - Practitioner currency and hybrid onboarding precedents — supports `GAP-033`, `GAP-035`, `GAP-036`.
-- Country regulated-role mapping method (Core functions → legal categories) — supports `GAP-037`; Malaysia detail deferred until instructed.
+- Country regulated-role mapping method (Core functions → legal categories) — supports `GAP-037`.
+- **Status (2026-09-16):** Malaysia mapping lodged as `MY-002` DRAFT; `GAP-037` proposed via MY-002 — **not closed**. ADR-0015 / PEO-001–005 remain unapproved; GAP-032–036 unchanged.

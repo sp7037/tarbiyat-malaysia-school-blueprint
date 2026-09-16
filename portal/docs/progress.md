@@ -82,7 +82,7 @@ Known work not yet completed (documentation evidence):
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Competency Graph specification | Required by dual assessment; distinct from PoC | [GAP-009](/gaps#gap-009) |
 | Proof of Capability operating detail | Architecture drafted; verification/workload/acceptance open | [GAP-010](/gaps#gap-010), [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016) |
-| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | Architecture + PEO-001–005 drafted; country mapping open | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity) |
+| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | Architecture + PEO-001–005 drafted; MY-002 Malaysia mapping DRAFT (GAP-037 proposed — not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
 | Malaysia licensing / exam / governance research | Must be cited, not invented | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), … |
 
 </div>
