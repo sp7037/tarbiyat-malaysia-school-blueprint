@@ -19,6 +19,15 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Pilot Commissioning & Readiness Architecture — GAP-051 (2026-09-16)
+
+- Added `IMP-001` (`docs/11-implementation/PILOT_COMMISSIONING_AND_READINESS_ARCHITECTURE.md`, DRAFT): commissioning principle (capabilities ≠ facilities); readiness gates A–L; country/legal classes; Learning-Time / people / safeguarding / MVC / Mission / partner / Formal Recognition / PoC / records / family readiness; dry-run; contingency; Hard/Conditional/Pilot-learning/Post-launch blockers; Go/Conditional Go/No-Go; pilot scope control; authenticity test; evaluation domains; leadership decision domains; no-sunk-cost implementation rule; Core vs Country vs Campus vs Pilot vs Software matrix.
+- Added `IMP-FRM-001` Pilot Readiness Record; updated `SEC-11`.
+- Opened `GAP-051` (proposed via IMP-001 — **not closed**). Related gaps GAP-001/002/007/037/038–044/048/050 unchanged (not closed).
+- Human-review hygiene (same day): IMP-001/IMP-FRM-001 → `0.1.1` DRAFT — Hard Blockers never Conditional; Dry Run mandatory before Go/Conditional Go; no-sunk-cost kept as implementation governance; portal clarifies working baseline / no Malaysian pilot-approval claim. **GAP-051 remains Proposed / not closed.**
+- Updated `GAP_REGISTER`, `MASTER_INDEX`, glossary, research notes, portal implementation/progress/roadmap/model traceability.
+- No new Core ADR; no approvals of UNDER REVIEW ADRs or DRAFT PEO/MIS/POC packs; no invented enrolments, ratios, m², fees, dates or Malaysian legal facts.
+
 ### ADR-0016 APPROVED — Proof of Capability & Capability Evidence (2026-09-16)
 
 - Human-approval hygiene checkpoint passed (dual recognition; no universal score; claim unit; Proof ≠ Participation; contribution; independence/support; verification; Capability Defence; AI attribution; privacy; challenge/correction; anti-inflation; workload; external-acceptance hygiene; software independence). No substantive architecture rewrite.

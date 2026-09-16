@@ -61,3 +61,10 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Functional campus model distinguishing essential / shared / external / expandable / country-dependent environments — supports `GAP-049`.
 - Pilot facility inventories and phased capital programmes without inventing Core m² or costs — supports `GAP-050`.
 - **Status (2026-09-16):** Core architecture APPROVED as ADR-0020 (`APPROVED` v1.0.0); CAM-001 DRAFT companion. GAP-049 Closed. No building schedules invented. Numeric inventories remain `GAP-050` (Open). Residential still `GAP-005`.
+
+### RP-H — Pilot commissioning & readiness (opened with IMP-001)
+
+- Institutional readiness gates before first learners — supports `GAP-051`.
+- Relationship of country legal blockers (`GAP-001`/`002`/`007`/`037`) to launch decisions without inventing approvals.
+- Pilot evaluation evidence feeding `GAP-042`, `GAP-048`, `GAP-050` and PEO capacity ranges.
+- **Status (2026-09-16):** `IMP-001` / `IMP-FRM-001` DRAFT lodged; `GAP-051` proposed — **not closed**. No new Core ADR. No invented enrolments, ratios, m², fees or launch dates.

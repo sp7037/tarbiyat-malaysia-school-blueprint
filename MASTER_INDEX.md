@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.20.0` |
+| Version | `0.21.0` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-16` |
 | Country scope | `UNIVERSAL` |
@@ -43,7 +43,7 @@ This is the single map of controlled documents. Update when adding, approving or
 
 ## C. Core architecture sections (skeletons)
 
-Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **05** adds `POC-001` PoC operating standard and `POC-FRM-*` forms. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`). Section **09** adds `CAM-001` campus/facilities overview.
+Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** adds `LAR-001` learning-time overview. Section **05** adds `POC-001` PoC operating standard and `POC-FRM-*` forms. Section **06** adds `MIS-001`–`MIS-003` and Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`). Section **09** adds `CAM-001` campus/facilities overview. Section **11** adds `IMP-001` pilot commissioning architecture and `IMP-FRM-001`.
 
 | Section | Path | Purpose | Status |
 |---|---|---|---|
@@ -56,6 +56,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–005 authorisation / currency / development / Mission capacity / Mentor caseload | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Functional campus/facilities architecture; CAM-001 overview (ADR-0020 APPROVED; GAP-049 Closed; GAP-050 Open) | DRAFT |
+| 11 Implementation | `docs/11-implementation/SECTION_README.md` | Pilot commissioning / readiness (IMP-001 DRAFT; GAP-051 proposed — not closed) | DRAFT |
 
 | ID | Path | Status | Notes |
 |---|---|---|---|
@@ -105,7 +106,9 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 
 | ID | Path | Status | Notes |
 |---|---|---|---|
-| IMP-000 | `docs/11-implementation/SECTION_README.md` | DRAFT | Phasing / commissioning shells |
+| IMP-000 | `docs/11-implementation/SECTION_README.md` | DRAFT | Implementation section guide |
+| IMP-001 | `docs/11-implementation/PILOT_COMMISSIONING_AND_READINESS_ARCHITECTURE.md` | DRAFT | First-pilot commissioning / readiness gates (`0.1.1` working baseline) — proposed GAP-051 (not closed) |
+| IMP-FRM-001 | `docs/11-implementation/templates/IMP-FRM-001-pilot-readiness-record.md` | DRAFT | Pilot Readiness Record (`0.1.1`) |
 | EVD-000 | `docs/12-evidence/SECTION_README.md` | DRAFT | Evidence discipline |
 | EVD-001 | `docs/12-evidence/CLAIMS_REGISTER.md` | DRAFT | Claims inventory |
 | EVD-002 | `docs/12-evidence/EVIDENCE_REGISTER.md` | DRAFT | Evidence inventory |

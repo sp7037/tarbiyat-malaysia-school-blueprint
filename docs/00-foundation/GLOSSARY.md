@@ -45,6 +45,9 @@
 | **Capability Defence** | Proportional explanation of ownership, reasoning and contribution for significant claims — not an exam or humiliation (ADR-0016 APPROVED; POC-FRM-004) | CORE |
 | **Sanitised Verified Evidence** | Capability evidence that preserves verification without exposing confidential partner/learner material (ADR-0014 UNDER REVIEW; ADR-0016 APPROVED; POC-001) | CORE |
 | **Proof of Capability Operating Standard (`POC-001`)** | Operating rules for claim lifecycle, verification, defence, challenge, privacy and workload (POC-001 DRAFT; GAP-038–044 proposed — not closed; ADR-0016 APPROVED / GAP-010 Closed) | CORE |
+| **Pilot Commissioning / Readiness Architecture (`IMP-001`)** | Implementation architecture for first-pilot readiness gates, blockers and Go/Conditional Go/No-Go — launches capabilities, not merely facilities (IMP-001 DRAFT; GAP-051 proposed — not closed) | CORE |
+| **Pilot Readiness Record (`IMP-FRM-001`)** | Single commissioning record of gates, evidence, owners, blocker class and launch decision (DRAFT) | CORE |
+| **Hard Blocker (pilot)** | Readiness item that must be resolved before lawful/safe/authentic launch (IMP-001) | CORE |
 | **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |
 | **Industry-in-Residence** | Constitution-named subtype of Institution-in-Residence for industry organisations — sustained Mission-ecosystem embedding, not sponsorship or guest visits (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
 | **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |

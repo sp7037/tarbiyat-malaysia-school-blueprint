@@ -83,4 +83,5 @@ The human model proposes Educator, Practitioner and Mentor functions working in 
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) approved; [POC-001](/areas/poc-operating-standard) DRAFT |
 | Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |
 | Campus / facilities | [CAM-001](/areas/campus-facilities) | [ADR-0020](/decisions/adr-0020) approved |
+| Pilot commissioning | [IMP-001](/areas/pilot-commissioning) | DRAFT readiness gates; [GAP-051](/gaps#gap-051) proposed |
 | Full record | [Blueprint](/blueprint/) | [Concept Constitution](/foundation/concept-constitution) |

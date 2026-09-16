@@ -9,7 +9,7 @@
 | Country scope | `CORE` + `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `MASTER_INDEX.md`, `docs/12-evidence/RESEARCH_GAPS.md`, `FND-003`, ADR-0001–0007, ADR-0011, ADR-0014–0020 |
-| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–13 ADR drafts (0004–0007, 0011, 0014–0020); ADR-0020 APPROVED / GAP-049 Closed; ADR-0016 APPROVED / GAP-010 Closed; POC-001 DRAFT (GAP-038–044 proposed) |
+| Source documents | Pre-flight; Iteration 1 ratification; Iteration 2–13 ADR drafts (0004–0007, 0011, 0014–0020); ADR-0020 APPROVED / GAP-049 Closed; ADR-0016 APPROVED / GAP-010 Closed; POC-001 DRAFT (GAP-038–044 proposed); IMP-001 DRAFT (GAP-051 proposed) |
 
 This register tracks information that still needs research or decisions. Detailed research notes belong in `docs/12-evidence/RESEARCH_GAPS.md`.
 
@@ -65,6 +65,7 @@ This register tracks information that still needs research or decisions. Detaile
 | GAP-048 | Stage learning-time package exemplars and evidence-dependent planning ranges | ADR-0019 (APPROVED) defines Core learning-time constraints without hours/%; campuses still need non-doctrinal exemplars and pilot-informed planning ranges | Draft stage-package exemplars under `docs/01-learning-architecture/`; collect pilot evidence for planning ranges; never elevate pilot numbers to Core fixed % without new ADR | Medium | Open (opened by ADR-0019) |
 | GAP-049 | Core Campus & Facilities Functional Architecture | Stress test Facilities RED; `docs/09` was shell-only; Lab-First misunderstood as six specialist labs / flagship capital | Closed by APPROVED ADR-0020; numeric inventories via GAP-050; residential remains GAP-005; country building/lab rules stay country-cited | High | Closed — resolved by ADR-0020 (`APPROVED`) |
 | GAP-050 | Campus facility inventories, phased capital programmes and pilot schedules | ADR-0020 defines functional MVC without m²/room counts; campuses still need evidence-dependent inventories after pilots | Draft inventory/phasing method under `docs/09-campus-blueprint/`; collect pilot evidence; never elevate pilot numbers to Core mandates without new ADR; country codes via country profiles | Medium | Open (opened by ADR-0020) |
+| GAP-051 | First-pilot commissioning and readiness architecture | Buildings/hiring/marketing must not equal “ready”; coordinated institutional gates needed before first learners | Human review hygiene applied to `IMP-001` / `IMP-FRM-001` (`0.1.1` DRAFT working baseline); close only after pack formally accepted; country legal overlays remain GAP-001/002/007/037; inventories remain GAP-050 | High | Proposed resolution via IMP-001 (`DRAFT`) — not closed |
 
 ## Closed (Core design conflicts only)
 

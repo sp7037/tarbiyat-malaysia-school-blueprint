@@ -185,6 +185,9 @@ function rewriteRepoLinks(md) {
     [/docs\/05-assessment\/templates\/POC-FRM-003-verification-record\.md/g, '/areas/poc-frm-003'],
     [/docs\/05-assessment\/templates\/POC-FRM-004-capability-defence-record\.md/g, '/areas/poc-frm-004'],
     [/docs\/05-assessment\/templates\/POC-FRM-005-claim-challenge-correction-record\.md/g, '/areas/poc-frm-005'],
+    [/docs\/11-implementation\/PILOT_COMMISSIONING_AND_READINESS_ARCHITECTURE\.md/g, '/areas/pilot-commissioning'],
+    [/docs\/11-implementation\/templates\/IMP-FRM-001-pilot-readiness-record\.md/g, '/areas/imp-frm-001'],
+    [/docs\/11-implementation\/SECTION_README\.md/g, '/areas/implementation'],
     [/templates\/MIS-FRM-001-unified-mission-partner-pack\.md/g, '/areas/mis-frm-001'],
     [/templates\/MIS-FRM-002-practitioner-onboarding-acknowledgement\.md/g, '/areas/mis-frm-002'],
     [/templates\/MIS-FRM-003-expanded-mission-risk-record\.md/g, '/areas/mis-frm-003'],
@@ -200,7 +203,8 @@ function rewriteRepoLinks(md) {
     [/templates\/POC-FRM-002-contribution-record\.md/g, '/areas/poc-frm-002'],
     [/templates\/POC-FRM-003-verification-record\.md/g, '/areas/poc-frm-003'],
     [/templates\/POC-FRM-004-capability-defence-record\.md/g, '/areas/poc-frm-004'],
-    [/templates\/POC-FRM-005-claim-challenge-correction-record\.md/g, '/areas/poc-frm-005']
+    [/templates\/POC-FRM-005-claim-challenge-correction-record\.md/g, '/areas/poc-frm-005'],
+    [/templates\/IMP-FRM-001-pilot-readiness-record\.md/g, '/areas/imp-frm-001']
   ]
   for (const [re, to] of map) out = out.replace(re, to)
 
@@ -615,9 +619,9 @@ function buildWorkstreams(adrs) {
     {
       id: 'implementation',
       name: 'Implementation Blueprint',
-      status: 'PLANNED',
-      detail: 'Implementation section is a DRAFT shell. Detailed blueprint deferred until after foundation ratification (ongoing).',
-      evidence: 'docs/11 SECTION_README; MASTER_INDEX §H',
+      status: 'DRAFT',
+      detail: 'IMP-001 DRAFT working commissioning baseline (GAP-051 proposed — not closed). Capabilities ≠ facilities; Hard Blockers cannot be waived; Dry Run before Go. No invented enrolments, ratios, m², fees, launch dates or Malaysian pilot approval claims.',
+      evidence: 'IMP-001; IMP-FRM-001; GAP-051; docs/11 SECTION_README; MASTER_INDEX §H',
       href: '/areas/implementation'
     }
   ]
@@ -982,6 +986,19 @@ const includes = [
     title: 'POC-FRM-005 Claim Challenge / Correction',
     sourceRel: 'docs/05-assessment/templates/POC-FRM-005-claim-challenge-correction-record.md',
     description: 'DRAFT challenge/correction record implementing POC-001 / GAP-039.'
+  },
+  {
+    outRel: 'areas/pilot-commissioning.md',
+    title: 'Pilot Commissioning and Readiness Architecture (IMP-001)',
+    sourceRel: 'docs/11-implementation/PILOT_COMMISSIONING_AND_READINESS_ARCHITECTURE.md',
+    description:
+      'IMP-001 DRAFT working commissioning baseline — proposed GAP-051 (not closed). Capabilities ≠ facilities; Hard Blockers cannot be waived. No invented enrolments, ratios, m², fees, launch dates or Malaysian pilot approval claims.'
+  },
+  {
+    outRel: 'areas/imp-frm-001.md',
+    title: 'IMP-FRM-001 Pilot Readiness Record',
+    sourceRel: 'docs/11-implementation/templates/IMP-FRM-001-pilot-readiness-record.md',
+    description: 'DRAFT Pilot Readiness Record implementing IMP-001 / GAP-051 — not a launch approval by itself.'
   }
 ]
 

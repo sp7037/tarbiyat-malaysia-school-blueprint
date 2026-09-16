@@ -75,7 +75,9 @@ const blueprintSidebar = [
       { text: 'Technology', link: '/areas/technology' },
       { text: 'Physical Campus', link: '/areas/campus' },
       { text: 'CAM-001 facilities overview', link: '/areas/campus-facilities' },
-      { text: 'Implementation', link: '/areas/implementation' }
+      { text: 'Implementation', link: '/areas/implementation' },
+      { text: 'IMP-001 pilot commissioning', link: '/areas/pilot-commissioning' },
+      { text: 'IMP-FRM-001 readiness record', link: '/areas/imp-frm-001' }
     ]
   },
   {

@@ -81,7 +81,8 @@ Known work not yet completed (documentation evidence):
 | Pathway change bridging standards | Reversibility needs operational detail | [GAP-020](/gaps#gap-020) |
 | Weekly time-balance / learning-time architecture | ADR-0019 APPROVED; GAP-016 Closed; campus exemplars / pilot ranges remain open | [ADR-0019](/decisions/adr-0019), [GAP-016](/gaps#gap-016), [GAP-048](/gaps#gap-048), [LAR-001](/areas/learning-time-architecture) |
 | Campus & facilities functional architecture | ADR-0020 APPROVED; GAP-049 Closed; numeric inventories / phased programmes remain open | [ADR-0020](/decisions/adr-0020), [CAM-001](/areas/campus-facilities), [GAP-049](/gaps#gap-049), [GAP-050](/gaps#gap-050), [Physical Campus](/areas/campus) |
-| Detailed section specs (01–09, 11) | `SECTION_README` shells only | [Master Index §C](/master-index) |
+| First-pilot commissioning / readiness | IMP-001 / IMP-FRM-001 DRAFT; GAP-051 proposed — not closed | [IMP-001](/areas/pilot-commissioning), [GAP-051](/gaps#gap-051), [Implementation](/areas/implementation) |
+| Detailed section specs (01–09) | Many still `SECTION_README` shells; §05/06/08/09/11 have operating companions | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Faculty staffing / Mission capacity / Mentor caseload / country role mapping | Architecture + PEO-001–005 drafted; MY-002 Malaysia mapping DRAFT (GAP-037 proposed — not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
 | Malaysia licensing / exam / governance research | Must be cited, not invented | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), … |
@@ -109,7 +110,7 @@ Intentionally postponed or country-specific:
 Based on current repository state (not a new architectural decision):
 
 1. Human review of **ADR-0004**, **ADR-0005**, **ADR-0011**, **ADR-0017** and **ADR-0018**
-2. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), Mission tagging (`GAP-047`), mission/assessment ops; close GAP-045/046 only when related ADRs are APPROVED
-3. Parallel Malaysia research with citations (licensing, recognition mapping, canonical Concept Note)
+2. Human review of **IMP-001** pilot commissioning pack (`GAP-051`) and parallel Malaysia research with citations (licensing, recognition mapping)
+3. After Core student-development / Worlds ratification: Competency Graph (`GAP-009`), Mission tagging (`GAP-047`), mission/assessment ops; close GAP-045/046 only when related ADRs are APPROVED
 
 Continue in: [Roadmap](/roadmap) · [Gaps](/gaps) · [Changelog](/changelog)
