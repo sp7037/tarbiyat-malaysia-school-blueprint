@@ -152,6 +152,7 @@ function rewriteRepoLinks(md) {
     [/docs\/12-evidence\/CLAIMS_REGISTER\.md/g, '/evidence/claims-register'],
     [/docs\/12-evidence\/EVIDENCE_REGISTER\.md/g, '/evidence/evidence-register'],
     [/docs\/12-evidence\/RESEARCH_GAPS\.md/g, '/evidence/research-gaps'],
+    [/docs\/10-malaysia\/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH\.md/g, '/country/malaysia-school-path'],
     [/docs\/10-malaysia\/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING\.md/g, '/country/malaysia-regulated-people'],
     [/docs\/10-malaysia\/MALAYSIA_IMPLEMENTATION_PROFILE\.md/g, '/country/malaysia'],
     [/docs\/10-malaysia\/SECTION_README\.md/g, '/country/'],
@@ -604,8 +605,8 @@ function buildWorkstreams(adrs) {
       id: 'malaysia',
       name: 'Malaysia Profile',
       status: 'IN PROGRESS',
-      detail: 'Skeleton profile plus MY-002 regulated people/faculty mapping DRAFT (GAP-037 proposed — not closed). Establishment / exam / residential gaps remain Open.',
-      evidence: 'MY-001; MY-002 DRAFT; GAP-001/002/005/006/007/014/037',
+      detail: 'MY-003 Country Path DRAFT maps Act 550 / MOE IPS / GP A3 options (GAP-001/002/007 Partial — category not selected). MY-002 people mapping DRAFT (GAP-037 proposed — not closed). Residential/data gaps remain Open. No MOE approval claimed.',
+      evidence: 'MY-001; MY-002 DRAFT; MY-003 DRAFT; GAP-001/002/005/006/007/014/037',
       href: '/country/malaysia'
     },
     {
@@ -800,6 +801,13 @@ const includes = [
     sourceRel: 'docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md',
     description:
       'MY-002 DRAFT — proposed regulatory mapping for GAP-037 (not closed). Not legal advice; does not approve ADR-0015 or PEO-001–005.'
+  },
+  {
+    outRel: 'country/malaysia-school-path.md',
+    title: 'Malaysia School Establishment, Recognition & Governance Path (MY-003)',
+    sourceRel: 'docs/10-malaysia/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH.md',
+    description:
+      'MY-003 DRAFT — Country Path research for GAP-001 / 002 / 007 (Partial, not closed). Option matrix only; no preferred path; not MOE approval or legal advice.'
   },
   {
     outRel: 'areas/mission-partner-governance.md',

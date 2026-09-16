@@ -29,6 +29,8 @@ Core already treats boarding/residential format and sovereign data-centre archit
 Documentation work for Malaysia currently includes:
 
 - a DRAFT section guide and implementation-profile skeleton
+- DRAFT Country Path research (`MY-003`) mapping plausible Act 550 / MOE school categories — **no path selected**; not a licence
+- DRAFT regulated-people mapping (`MY-002`) — **not closed**
 - open research gaps that must be answered with citations, not invention
 - clear separation so Malaysian detail does not silently rewrite Core architecture
 
@@ -36,23 +38,26 @@ Documentation work for Malaysia currently includes:
 
 - Ministry or agency endorsement
 - Completed licensing or establishment approval
+- Selected school category (private / international / government / other)
 - Settled national/board examination mapping
-- Decided ownership or governance model
+- Decided ownership or governance model (Concept Note “government-owned” remains a **proposal**)
 - Decided day-school vs residential model
 - Invented partnerships or MOUs
 
 ## Open Malaysia-related research (Blueprint)
 
-- [GAP-001](/gaps#gap-001) — Licensing / establishment pathway
-- [GAP-002](/gaps#gap-002) — National/board exam mapping
+- [GAP-001](/gaps#gap-001) — Licensing / establishment pathway (**Partial** — [MY-003](/country/malaysia-school-path))
+- [GAP-002](/gaps#gap-002) — National/board exam mapping (**Partial** — [MY-003](/country/malaysia-school-path))
 - [GAP-005](/gaps#gap-005) — Day school vs residential
 - [GAP-006](/gaps#gap-006) — Data residency / “sovereign” IT
-- [GAP-007](/gaps#gap-007) — Ownership / governance model
+- [GAP-007](/gaps#gap-007) — Ownership / governance model (**Partial** — [MY-003](/country/malaysia-school-path))
 - [GAP-011](/gaps#gap-011) — Student IP / micro-venture feasibility
 - [GAP-014](/gaps#gap-014) — Canonical Concept Note file
+- [GAP-037](/gaps#gap-037) — Country regulated-role mapping (**proposed** — [MY-002](/country/malaysia-regulated-people))
 
 ## Continue
 
 - Country profile (documentation): [Malaysia profile hub](/country/malaysia)
+- Country Path research: [MY-003](/country/malaysia-school-path)
 - Core separation decision: [ADR-0001](/decisions/adr-0001) (APPROVED)
 - Architecture record: [Blueprint](/blueprint/)

@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Malaysia Country Path — GAP-001 / 002 / 007 (+ GAP-037 re-check) (2026-09-16)
+
+- Added `MY-003` (`docs/10-malaysia/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH.md`, DRAFT): Act 550 / MOE IPS / GP A3 option matrix; Formal Recognition posture by category; ownership/governance role separation; IMP-001 Hard-Blocker map; Ministry-meeting answers; legal-review pack. **No preferred path selected.** Concept Note “government-owned” kept as **proposal only**.
+- Updated `MY-000` / `MY-001` / `MY-002` (`0.1.1` category overlays). `GAP-001` / `GAP-002` / `GAP-007` → **Partial** (research lodged; category / board package / ownership model **not** decided; **not closed**). `GAP-037` remains Proposed / not closed.
+- Lodged `EV-MY-001-01`–`07` in Evidence Register; updated Claims Register (CLM-004), Research Gaps RP-A/H, Master Index, portal Malaysia pages / prepare-content.
+- IMP-001 Gate B dependency note cites MY-003 as DRAFT research input for Country Path Brief — **no** IMP-001 architecture rewrite; **no** new Core ADR; **no** invented Malaysian approvals.
+
 ### Pilot Commissioning & Readiness Architecture — GAP-051 (2026-09-16)
 
 - Added `IMP-001` (`docs/11-implementation/PILOT_COMMISSIONING_AND_READINESS_ARCHITECTURE.md`, DRAFT): commissioning principle (capabilities ≠ facilities); readiness gates A–L; country/legal classes; Learning-Time / people / safeguarding / MVC / Mission / partner / Formal Recognition / PoC / records / family readiness; dry-run; contingency; Hard/Conditional/Pilot-learning/Post-launch blockers; Go/Conditional Go/No-Go; pilot scope control; authenticity test; evaluation domains; leadership decision domains; no-sunk-cost implementation rule; Core vs Country vs Campus vs Pilot vs Software matrix.

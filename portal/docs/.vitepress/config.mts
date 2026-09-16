@@ -86,6 +86,7 @@ const blueprintSidebar = [
     items: [
       { text: 'Overview', link: '/country/' },
       { text: 'Malaysia (profile)', link: '/country/malaysia' },
+      { text: 'MY-003 Country Path', link: '/country/malaysia-school-path' },
       { text: 'MY-002 people mapping', link: '/country/malaysia-regulated-people' }
     ]
   },

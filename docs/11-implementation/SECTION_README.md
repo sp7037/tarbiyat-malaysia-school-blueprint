@@ -24,7 +24,7 @@ Phasing, commissioning, training and partner onboarding as a **Core implementati
 
 ## Iteration note
 
-Do not invent enrolment numbers, ratios, m², fees, launch dates or Malaysian approvals. Do not approve UNDER REVIEW ADRs or close GAP-038–044 / GAP-048 / GAP-050 via this section. Malaysia regulatory detail remains `GAP-001` / `GAP-002` / `GAP-007` / `GAP-037`.
+Do not invent enrolment numbers, ratios, m², fees, launch dates or Malaysian approvals. Do not approve UNDER REVIEW ADRs or close GAP-038–044 / GAP-048 / GAP-050 via this section. Malaysia regulatory detail remains `GAP-001` / `GAP-002` / `GAP-007` / `GAP-037` (`MY-003` / `MY-002` DRAFT research — Partial / Proposed, not closed).
 
 ## Still planned
 

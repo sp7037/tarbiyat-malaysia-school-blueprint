@@ -3,14 +3,14 @@
 | Field | Value |
 |---|---|
 | Document ID | `MY-002` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-16` |
 | Access date for sources | `2026-09-16` |
 | Country scope | `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001`–`PEO-005` DRAFT; `MIS-001`–`003` DRAFT; `MY-000` / `MY-001` |
-| Related gaps | `GAP-037` (primary); related `GAP-001`, `GAP-032`–`036`, safeguarding ops |
+| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001`–`PEO-005` DRAFT; `MIS-001`–`003` DRAFT; `MY-000` / `MY-001`; Country Path research `MY-003` DRAFT |
+| Related gaps | `GAP-037` (primary); related `GAP-001`, `GAP-002`, `GAP-007`, `GAP-032`–`036`, safeguarding ops |
 | Source documents | See Evidence Catalogue (§18) |
 
 > **Authority note:** This is a **Malaysia Country Profile regulatory mapping**, not Core architecture and **not** a legal opinion. It does **not** approve ADR-0015 or PEO-001–005, and does **not** close GAP-032–036. It proposes resolution of **GAP-037** and remains **DRAFT** until human legal review. Where evidence is incomplete, findings are marked **UNRESOLVED**. Do not invent Malaysian law from silence.
@@ -30,15 +30,25 @@ Map Tarbiyat Core people functions (ADR-0015 / PEO context) to Malaysian legal a
 
 ## 2. School-category assumption (critical limitation)
 
-Tarbiyat’s Malaysia campus category is **not yet decided** (`GAP-001`, `GAP-007`). This mapping therefore states **general Education Act 1996 rules** that apply to registered educational institutions under that Act, and notes where government vs private pathways differ.
+Tarbiyat’s Malaysia campus category is **not yet decided** (`GAP-001`, `GAP-007`). `MY-003` (DRAFT) maps plausible Act 550 / MOE paths (government; government-aided; private NC IPS; international school under GP A3; expatriate **UNRESOLVED**; bespoke pilot/PPP only by Government decision). **No path is selected.**
+
+This mapping therefore states **general Education Act 1996 rules** that apply to registered educational institutions under that Act, and notes where government vs private pathways differ.
 
 | Assumption | Status |
 |---|---|
-| Campus will be a registered educational institution under Education Act 1996 (Act 550), or otherwise subject to MOE educational-institution registration | **Working assumption — UNRESOLVED pending GAP-001** |
-| Exact private / international / government / specialised category | **UNRESOLVED** |
-| Whether any special statutory exemption will apply | **UNRESOLVED — do not assume** |
+| Campus will be a registered educational institution under Education Act 1996 (Act 550), or otherwise subject to MOE educational-institution registration | **Working assumption — UNRESOLVED pending GAP-001 category choice** |
+| Exact private / international / government / specialised category | **UNRESOLVED** — see `MY-003` option matrix |
+| Whether any special statutory exemption / bespoke pilot Act will apply | **UNRESOLVED — do not assume** |
 
-**If the eventual campus category differs**, this mapping must be re-checked before hiring or Mission Partner deployment.
+### Category overlays to apply after choice (do not invent now)
+
+| If category becomes… | Additional people overlays (from `MY-003` / GP A3 / Act 550) |
+|---|---|
+| Private NC IPS | Standard teacher registration / permits; governor/employee registration; MOE IPS staffing lists at registration |
+| International (GP A3) | All teachers need teaching permits; foreign teachers need EP support letters + GP A3 qualification/salary bands; Islamic Education teachers need State Religious Authority approval where applicable; Board of Governors composition/screening rules in GP A3; principal constraints |
+| Government / government-aided | Education Service / public-service appointment rules may apply — **UNRESOLVED detail** until category confirmed; do not use private IPS assumptions blindly |
+
+**If the eventual campus category differs**, this mapping must be re-checked before hiring or Mission Partner deployment. **GAP-037 remains open** pending category choice + human legal review.
 
 ---
 
@@ -319,3 +329,4 @@ This document does **not**:
 | Version | Date | Notes |
 |---|---|---|
 | 0.1.0 | 2026-09-16 | Initial DRAFT mapping for GAP-037; proposed resolution — not closed |
+| 0.1.1 | 2026-09-16 | Category overlays after MY-003; GAP-037 remains open |

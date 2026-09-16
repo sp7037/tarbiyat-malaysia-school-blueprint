@@ -97,8 +97,9 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ID | Path | Status | Notes |
 |---|---|---|---|
 | MY-000 | `docs/10-malaysia/SECTION_README.md` | DRAFT | Profile boundary rules |
-| MY-001 | `docs/10-malaysia/MALAYSIA_IMPLEMENTATION_PROFILE.md` | DRAFT | Skeleton profile |
-| MY-002 | `docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md` | DRAFT | GAP-037 Malaysia regulated people/faculty mapping — proposed, not closed; not legal advice |
+| MY-001 | `docs/10-malaysia/MALAYSIA_IMPLEMENTATION_PROFILE.md` | DRAFT | Skeleton profile — points to MY-003 Country Path |
+| MY-002 | `docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md` | DRAFT | GAP-037 Malaysia regulated people/faculty mapping — proposed, not closed; category overlays after MY-003; not legal advice |
+| MY-003 | `docs/10-malaysia/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH.md` | DRAFT | GAP-001 / 002 / 007 Country Path research — Partial; category **not** selected; not legal advice / not MOE approval |
 
 ---
 

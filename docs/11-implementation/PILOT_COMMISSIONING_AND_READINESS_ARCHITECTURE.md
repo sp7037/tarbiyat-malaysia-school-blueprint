@@ -120,9 +120,9 @@ For every gate: **purpose · minimum evidence · decision owner · launch blocke
 | **Minimum evidence** | Country Path Brief covering: school establishment/licensing pathway; curriculum/recognition route for pilot learners; teaching/employment authority; safeguarding duties; facilities/building obligations applicable to chosen category; data/privacy duties; foreign-staff permissions if used; professional regulation boundaries; child-work / Mission-production boundaries |
 | **Decision owner** | Operator with competent legal/education-policy advice (citations required) |
 | **Blocks launch** | Unresolved **must-resolve** items for the chosen school category (see §6) |
-| **Provisional OK** | Long-term expansion category undecided if pilot category is clear; MY-002 used as DRAFT mapping aid only |
+| **Provisional OK** | Long-term expansion category undecided if pilot category is clear; MY-002 / MY-003 used as DRAFT mapping aids only — do not treat as licence or category selection |
 | **Defer** | Non-pilot pathways; optional boarding if not used (`GAP-005`); sovereign-DC preference language (`GAP-006`) if lawful privacy-conscious alternative documented |
-| **Dependencies** | `GAP-001`, `GAP-002`, `GAP-007`, `GAP-037` / `MY-002` DRAFT; country building rules |
+| **Dependencies** | `GAP-001`, `GAP-002`, `GAP-007`, `GAP-037` / `MY-002` DRAFT; `MY-003` DRAFT Country Path research (option matrix — **category not selected**); country building rules |
 | **Records** | Country Path Brief; unresolved legal register |
 | **Stop/go** | Unresolved Class A / Hard Blocker legal items → **No-Go**. Conditional Go **cannot** waive Hard Blockers. Residual Conditional items may only be Class B/C items that remain lawful under an interim cited basis, with owner, mitigation and review date |
 
