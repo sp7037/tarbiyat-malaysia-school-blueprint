@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0007` |
-| Version | `0.1.1` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Mission Authenticity / GAP-018 review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004` UNDER REVIEW; `ADR-0005` UNDER REVIEW; `ADR-0006` UNDER REVIEW |
-| Related gaps / claims | GAP-008, GAP-010, GAP-011, GAP-016, GAP-018, GAP-019, GAP-020, GAP-021; GAP-022–GAP-025; GAP-026–GAP-031 (via ADR-0014) |
-| Source documents | `FND-003` §§2–4, 9, 10; ADR-0002; ADR-0004 mission-authenticity principle; Architecture Iteration 5 brief (2026-09-14) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0011` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; creator-rights context `ADR-0014` UNDER REVIEW; faculty context `ADR-0015` UNDER REVIEW (not treated as approved) |
+| Related gaps / claims | GAP-018 (Closed by this ADR); related GAP-022–GAP-024 (ops DRAFT via MIS-001–003 — not closed); GAP-025 (via ADR-0014 UNDER REVIEW); GAP-011; GAP-026–GAP-031 (via ADR-0014) |
+| Source documents | `FND-003` §§2–4, 9, 10; ADR-0002; ADR-0004 mission-authenticity principle; Architecture Iteration 5 brief (2026-09-14); Integrated Mission Authenticity human review (2026-09-17) |
 
 ---
 
@@ -21,13 +22,21 @@ Mission Ecosystem, Authenticity and Institution-in-Residence Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft |
+| 0.1.1 | 2026-09-14 | Editorial iteration (Campus Live Workflow; Deployment Boundary; Scenario F/H/I/J) |
+| 1.0.0 | 2026-09-17 | APPROVED after Mission Authenticity / GAP-018 human review; closes GAP-018; dependency hygiene for APPROVED ADR-0004–0006 / 0011 / 0016 / 0019 / 0020; ADR-0014 / 0015 remain UNDER REVIEW; MIS-001–003 remain DRAFT |
 
 ## Context
 
 ADR-0002 (APPROVED) establishes Lab-First, Mission-Based learning with progressive intensity, a production cycle, productive failure, and a broad family of labs. FND-003 (APPROVED) requires real-world connection under law and safeguarding, and names Industry-in-Residence as a Core-enabled feature without specifying how authenticity scales or how partners are governed.
 
-ADR-0004 (UNDER REVIEW) states that mission authenticity should generally increase with developmental maturity, but leaves thresholds, gates and operational architecture open (`GAP-018`). ADR-0005 and ADR-0006 (both UNDER REVIEW) supply stage windows, readiness, Exploration Floor as protected dimensions, and pathway mobility — but do not define how Tarbiyat sources, educationalises, governs and delivers missions across stages.
+ADR-0004 (APPROVED) states that mission authenticity should generally increase with developmental maturity, and left thresholds, gates and operational architecture open (`GAP-018`). ADR-0005 and ADR-0006 (APPROVED) supply stage windows, readiness, Exploration Floor as protected dimensions, and pathway mobility — but do not alone define how Tarbiyat sources, educationalises, governs and delivers missions across stages.
 
 Without a Core mission-ecosystem architecture:
 
@@ -38,7 +47,7 @@ Without a Core mission-ecosystem architecture:
 - “Industry-in-Residence” may become marketing language without sustained operating meaning;
 - national/strategic capability ambitions may either be absent or hard-coded as Malaysia-specific Core rules.
 
-**Dependency note:** This ADR assumes ADR-0004’s stage meanings and progressive-authenticity principle, ADR-0005’s readiness and windows, and ADR-0006’s Exploration Floor / mobility constraints. Those ADRs remain `UNDER REVIEW`. If any is materially revised before approval, this ADR must be re-checked. This ADR does **not** silently treat ADR-0004–0006 as approved.
+**Dependency note:** This ADR assumes ADR-0004’s stage meanings and progressive-authenticity principle, ADR-0005’s readiness and windows, and ADR-0006’s Exploration Floor / mobility constraints (all now APPROVED). It uses ADR-0014 and ADR-0015 only as **under-review context**. Those ADRs remain `UNDER REVIEW` and are **not** treated as approved.
 
 This ADR remains Core / country-neutral. It does not invent Malaysian partnerships, ministry agreements, strategic-sector lists as Core law, IP ownership rules, venture equity, Proof of Capability schemas, software workflows, timetable percentages or Malaysian Year mappings.
 
@@ -60,7 +69,7 @@ Tarbiyat Core adopts a **governed Mission Ecosystem** as the continuous architec
 12. External stakeholder review informs usefulness feedback; it does **not** replace Tarbiyat educational capability judgment.
 13. Productive mission failure remains educationally valid; commercial deployment is not the primary success metric.
 14. Real deployment into regulated, safety-critical or licensed domains requires professional/legal authority beyond student status.
-15. Mission evidence may feed future Proof of Capability architecture (`GAP-010`); schemas are not defined here.
+15. Mission evidence may feed Proof of Capability architecture (**ADR-0016** APPROVED; `GAP-010` Closed); operating PoC detail remains `GAP-038`–`GAP-044`.
 16. IP / creator rights / micro-venture rules are addressed in ADR-0014 (`UNDER REVIEW`); no automatic transfer of student work to school or partner.
 17. Mission work coexists with Formal Recognition Layer obligations (ADR-0003); partners cannot displace mandatory curriculum or recognition requirements.
 18. Learners should hold a **balanced mission portfolio**; no learner’s mission time should be dominated by external corporate priorities. Core does not set portfolio percentages.
@@ -73,6 +82,7 @@ A **Mission** is a bounded educational challenge that:
 
 - pursues a **meaningful purpose** (inquiry, improvement, creation, service, investigation or strategic capability development);
 - operates under **defined constraints** (time, scope, safety, data, resources, ethics);
+- requires **meaningful learner agency** appropriate to developmental stage (not mere execution of adult instructions);
 - requires **disciplinary and/or interdisciplinary substance**;
 - generates **inspectable evidence of capability**;
 - includes **critique, iteration and reflection**;
@@ -116,7 +126,7 @@ Levels are **not** birthday gates. Readiness, safeguarding classification, missi
 
 **Not every Mission is commercial or external.** Levels A–C remain first-class architecture, not “lesser” placeholders.
 
-**Proposed resolution of GAP-018:** this progression, stage relationship and governance controls constitute the Core authenticity architecture. Detailed operating standards, risk matrices and campus procedures remain follow-on work. GAP-018 is **not closed** until this ADR is APPROVED.
+**Resolution of GAP-018:** this progression, stage relationship and governance controls constitute the Core authenticity architecture. Detailed operating standards, risk matrices and campus procedures remain follow-on work under `GAP-022`–`GAP-024` (MIS DRAFT companions — not closed by this ADR).
 
 ---
 
@@ -124,7 +134,7 @@ Levels are **not** birthday gates. Readiness, safeguarding classification, missi
 
 Mapping is **conceptual and progressive**, not a rigid one-to-one lock.
 
-| Dominant stage (ADR-0004; UNDER REVIEW) | Typical authenticity emphasis |
+| Dominant stage (ADR-0004 APPROVED) | Typical authenticity emphasis |
 |---|---|
 | **Explore** | Mostly Levels A–B; carefully educationalised Level C (e.g. school-site problems) |
 | **Discover** | Levels B–C across Six Worlds; early safeguarded Level D where readiness supports comparative experience |
@@ -179,11 +189,11 @@ Campus Live Workflow participation must respect:
 
 1. **Education-First** — learning and capability development precede commercial output.
 2. **Voluntary / developmentally appropriate participation** — learners may decline roles that are not appropriate; mixed-age and intensity rules apply.
-3. **Supervision** — Educator, Practitioner, Technical Professional and safeguarding oversight as proportionality requires (ADR-0015).
+3. **Supervision** — Educator, Practitioner, Technical Professional and safeguarding oversight as proportionality requires (ADR-0015 UNDER REVIEW context — not approved by this ADR).
 4. **Safeguarding** — unchanged or increased with authenticity and risk.
 5. **Safety / licensing** — no unlicensed professional practice; regulated deployment stays bounded (Deployment Boundary below).
-6. **Workload / time protection** — production rhythm must not consume Formal Recognition obligations or rest (`GAP-016`).
-7. **Authorship / IP protection** — ADR-0014; no automatic appropriation.
+6. **Workload / time protection** — production rhythm must not consume Formal Recognition obligations or rest (ADR-0019 APPROVED; campus clocks via `GAP-048`).
+7. **Authorship / IP protection** — ADR-0014 context (UNDER REVIEW); no automatic appropriation.
 8. **Quality assurance** — professional standards apply as **learning standards**, not production quotas.
 9. **Customer / stakeholder boundary** — stakeholders inform usefulness; they do not control assessment, pathways or curriculum.
 10. **Commercial / revenue separation** — revenue, if any, is governed transparently; education is not profit-first schooling.
@@ -192,7 +202,7 @@ Campus Live Workflow participation must respect:
 
 **Rejected patterns:** child labour; disguised employment; production quotas; profit-first schooling; unsafe professional practice; forced commercial activity; uncompensated appropriation of learner work; repetitive commercial work because students are cheaper than staff (Scenario F).
 
-Detailed campus typology, equipment lists and unit operating procedures belong in `docs/06-missions-and-production/`, `docs/09-campus-blueprint/` and country profiles — not as Core law here.
+Detailed campus typology, equipment lists and unit operating procedures belong in `docs/06-missions-and-production/`, `docs/09-campus-blueprint/` (ADR-0020 APPROVED functional campus rules) and country profiles — not as Core law here.
 
 ---
 
@@ -245,7 +255,7 @@ Mission architecture must support **all Six Worlds**, not only engineering, AI o
 | Creative, Media & Human Communication | Produce communication, media or design work for a real audience under consent rules |
 | Society, Leadership & Public Systems | Analyse a civic/public-service problem and propose an evidence-based intervention |
 
-Detailed World competency maps remain open (`GAP-008`; ADR-0011 `UNDER REVIEW` — proposed resolution, not closed).
+Detailed World competency maps are APPROVED in ADR-0011 (`GAP-008` Closed). Mission World-tagging significance thresholds remain follow-on (`GAP-047`).
 
 ---
 
@@ -505,7 +515,7 @@ This ADR does not define security software architecture.
 
 Missions generate evidence such as artefacts, prototypes, research, designs, code, presentations, observations, testing results, stakeholder feedback, mentor evaluation and reflective analysis.
 
-Mission evidence **may feed** the future Proof of Capability architecture (`GAP-010`). This ADR does **not** design the Proof of Capability schema, verification rules or database.
+Mission evidence **may feed** Proof of Capability (**ADR-0016** APPROVED). This ADR does **not** design PoC operating procedures (`GAP-038`–`GAP-044`). **Proof ≠ Participation:** Mission participation alone does not create a Capability Claim; artefacts alone do not prove capability; contribution must be attributable under ADR-0016.
 
 ---
 
@@ -515,8 +525,8 @@ Mission work must coexist with recognised academic requirements (ADR-0003).
 
 - External partners cannot displace mandatory curriculum or recognition obligations.
 - Mission design should integrate academic concepts where educationally appropriate.
-- Examination preparation and Knowledge Studio learning remain legitimate (ADR-0002).
-- Timetable balance remains open (`GAP-016`).
+- Examination preparation and Knowledge Studio learning remain legitimate (ADR-0002; ADR-0019 Learning-Time Architecture APPROVED).
+- Campus clocks / numeric planning ranges remain open (`GAP-048`).
 
 ---
 
@@ -541,13 +551,14 @@ A meaningful Mission should have **most or all** of:
 1. Genuine purpose  
 2. Defined outcome or question  
 3. Developmental appropriateness  
-4. Disciplinary (or interdisciplinary) substance  
-5. Capability challenge  
-6. Ethical / safety boundaries  
-7. Evidence-generation opportunity  
-8. Critique and iteration  
-9. Reflection  
-10. Appropriate audience or stakeholder (internal or external)
+4. Meaningful learner agency appropriate to stage  
+5. Disciplinary (or interdisciplinary) substance  
+6. Capability challenge  
+7. Ethical / safety boundaries  
+8. Evidence-generation opportunity  
+9. Critique and iteration  
+10. Reflection  
+11. Appropriate audience or stakeholder (internal or external)
 
 Work missing most of these should be classified as Activity or Project, not Mission.
 
@@ -595,19 +606,18 @@ Core does **not** set portfolio percentages. Balance is a governance expectation
 - Partner governance requires real operating capacity; under-specified practice until `GAP-022`/`GAP-023`/`GAP-024` are addressed.
 - Authenticity levels may be misused as marketing labels without educationalisation.
 - External pressure may still attempt to override Education-First without strong campus enforcement.
-- Timetable tension with Knowledge Studios and exam prep remains (`GAP-016`).
-- Dependency on UNDER REVIEW ADR-0004–0006: material changes there require re-check of this ADR.
+- Timetable tension with Knowledge Studios and exam prep is constrained by ADR-0019; campus exemplars remain `GAP-048`.
+- Partner / I-in-R / risk operating detail remains DRAFT until `GAP-022`/`GAP-023`/`GAP-024` are closed.
 
 ### Follow-on work
 
-- Human review of this ADR; close GAP-018 only if APPROVED.
-- Partner governance detailed standard (`GAP-022`).
-- Institution-in-Residence operating standard (`GAP-023`).
-- Mission risk classification (`GAP-024`).
-- Student Creator Rights / IP / Micro-Venture ADR-0014 (`UNDER REVIEW`; `GAP-025` proposed resolution — not closed; MY feasibility `GAP-011`; downstream `GAP-026`–`GAP-031`).
-- Proof of Capability schema (`GAP-010`) consuming mission evidence.
-- Missions section population under `docs/06-missions-and-production/`.
-- Six Worlds depth maps (`GAP-008`).
+- Partner governance detailed standard (`GAP-022`; MIS-001 DRAFT — not closed).
+- Institution-in-Residence operating standard (`GAP-023`; MIS-002 DRAFT — not closed).
+- Mission risk classification (`GAP-024`; MIS-003 DRAFT — not closed).
+- Student Creator Rights / IP / Micro-Venture ADR-0014 (`UNDER REVIEW`; `GAP-025` — not closed; MY feasibility `GAP-011`; downstream `GAP-026`–`GAP-031`).
+- Faculty / Mission Team capacity ADR-0015 (`UNDER REVIEW`; PEO DRAFT companions — not closed).
+- Proof of Capability operating detail (`GAP-038`–`GAP-044`; POC-001 DRAFT — not closed).
+- Mission World-tagging significance (`GAP-047`).
 - Country profiles: priority mission classes, localisation framing, deployment law, local safeguarding.
 
 ## Alternatives Considered
@@ -639,10 +649,10 @@ Malaysia IP / micro-venture legal feasibility remains `GAP-011` and is not decid
 ## Related Documents
 
 - `docs/00-foundation/CONCEPT_CONSTITUTION.md` (APPROVED) — especially §§2–4, 9, 10
-- ADR-0001, ADR-0002, ADR-0003 (APPROVED)
-- ADR-0004, ADR-0005, ADR-0006 (UNDER REVIEW — not treated as approved)
-- Future: `docs/06-missions-and-production/`; Proof of Capability (`GAP-010`); ADR-0014 Student Creator Rights (`UNDER REVIEW`; `GAP-025`)
-- `GAP_REGISTER.md`
+- ADR-0001, ADR-0002, ADR-0003, ADR-0004–0006, ADR-0011, ADR-0016, ADR-0019, ADR-0020 (APPROVED)
+- ADR-0014, ADR-0015 (`UNDER REVIEW` — context only; not approved by this ADR)
+- `docs/06-missions-and-production/` — MIS-001 / MIS-002 / MIS-003 / MIS-TPL-* (`DRAFT`; GAP-022–024 / 031 — not closed)
+- `GAP_REGISTER.md` — GAP-018 Closed by this ADR
 
 ## Open Questions
 
@@ -650,12 +660,12 @@ Malaysia IP / micro-venture legal feasibility remains `GAP-011` and is not decid
 2. Institution-in-Residence staffing, presence patterns and quality expectations (`GAP-023`).
 3. Mission risk classification matrix linking authenticity level, safeguarding and data class (`GAP-024`).
 4. Student Creator Rights / IP / Micro-Venture — ADR-0014 (`UNDER REVIEW`; `GAP-025` not closed; MY `GAP-011`; `GAP-026`–`GAP-031`).
-5. How mission evidence maps into Proof of Capability verification (`GAP-010`).
-6. Stage/country timetable expression of mission intensity vs Knowledge Studios / exam prep (`GAP-016`).
-7. Minimum Discover World-exposure package before Deepen concentration (related `GAP-008`; ADR-0005/0006 open questions).
-8. Whether Produce remains a distinct dominant stage or late-Deepen overlay (ADR-0005 / EV-0001 open point) — authenticity Level F must remain coherent either way.
-9. How Exploration Floor protected dimensions are evidenced during intensive partner-connected Deepen/Produce missions (ADR-0006).
-10. Campus Live Workflow unit operating standards, staffing models and campus-space typology (`docs/06`, `docs/09`).
+5. How mission evidence maps into PoC operating verification (`GAP-038`–`GAP-044`; ADR-0016 APPROVED).
+6. Campus clocks / stage-package exemplars for Mission intensity (`GAP-048`; ADR-0019 APPROVED constraints).
+7. Mission World-tagging significance thresholds (`GAP-047`).
+8. Faculty / Mission Team capacity ratios and Mentor caseload (ADR-0015 UNDER REVIEW; GAP-032–036).
+9. Campus Live Workflow unit operating standards beyond ADR-0020 functional campus rules.
+10. Country-profile Strategic Capability Mission catalogues and deployment law.
 
 ## Test Scenarios
 
@@ -676,13 +686,12 @@ Malaysia IP / micro-venture legal feasibility remains `GAP-011` and is not decid
 
 This ADR does **not**:
 
-- approve itself or close GAP-018;
-- treat ADR-0004, ADR-0005 or ADR-0006 as APPROVED;
+- approve ADR-0014, ADR-0015, MIS-001–003, PEO standards or POC-001;
 - invent Malaysian government, university or industry partnerships or claim any have agreed;
 - define Malaysia’s strategic sectors as Core law;
 - adopt “import substitution” as the universal Core term;
 - decide IP ownership, licensing splits or venture equity;
-- build Proof of Capability database schemas or software mission workflows;
+- build Proof of Capability operating schemas or software mission workflows;
 - set timetable or portfolio percentages;
 - map Malaysian school Years or licensing claims;
 - create procurement promises or claim commercial/national savings;

@@ -8,17 +8,17 @@ description: Mission Ecosystem — MIS-001 / MIS-002 / MIS-003 + Mission Operati
 <p class="present-more"><a href="/missions">← Stakeholder presentation: Missions</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW architecture + DRAFT operating standards (MIS-001–003) + DRAFT templates (MIS-TPL-001)</strong><br/>
-  ADR-0007 (UNDER REVIEW) proposes authenticity, Campus Live Workflow and Institution-in-Residence.
+  <strong>APPROVED Core Mission Ecosystem + DRAFT operating standards (MIS-001–003)</strong><br/>
+  ADR-0007 APPROVED (GAP-018 Closed). Operating companions:
   <a href="/areas/mission-partner-governance"><code>MIS-001</code></a> →
   <a href="/areas/institution-in-residence"><code>MIS-002</code></a> →
   <a href="/areas/mission-risk-and-safeguarding"><code>MIS-003</code></a> →
-  <a href="/areas/mission-operating-templates"><code>MIS-TPL-001</code></a>.
-  GAP-022 / 023 / 024 / 031 are proposed resolutions — <strong>not closed</strong>.
+  <a href="/areas/mission-operating-templates"><code>MIS-TPL-001</code></a>
+  remain DRAFT. GAP-022 / 023 / 024 / 031 — <strong>not closed</strong>.
 </div>
 
 ::: tip Portal notice
-Source Markdown documents remain authoritative. Governing ADRs remain UNDER REVIEW. All Mission Operating Templates are **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk.
+Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. MIS operating packs and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0014 / ADR-0015 remain UNDER REVIEW.
 :::
 
 ## Architectural chain
@@ -34,7 +34,7 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 | Artefact | Status | Link |
 |---|---|---|
 | Lab-First / Mission-Based architecture | APPROVED | [ADR-0002](/decisions/adr-0002) |
-| Mission Ecosystem / authenticity / Campus Live Workflow / I-in-R | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
+| Mission Ecosystem / authenticity / Campus Live Workflow / I-in-R | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights / IP | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
 | Practitioner–Educator–Mentor / Mission Teams | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
 | Mission Partner Governance (`MIS-001`) | DRAFT | [Portal](/areas/mission-partner-governance) |

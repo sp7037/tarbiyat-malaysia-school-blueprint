@@ -532,8 +532,8 @@ function buildWorkstreams(adrs) {
     {
       id: 'missions',
       name: 'Missions & Production',
-      status: 'UNDER REVIEW',
-      detail: 'ADR-0007 proposes Mission Ecosystem (UNDER REVIEW). MIS-001 / MIS-002 / MIS-003 draft partner governance, Institution-in-Residence and Mission risk/safeguarding (GAP-022–024 proposed resolutions — not closed). MIS-TPL-001 / MIS-FRM-* draft Mission Operating Templates (GAP-031 proposed resolution — not closed). GAP-018 and GAP-025 proposed resolution — not closed.',
+      status: 'APPROVED',
+      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. MIS-001 / MIS-002 / MIS-003 remain DRAFT (GAP-022–024 not closed). MIS-TPL-001 / MIS-FRM-* DRAFT (GAP-031 not closed). ADR-0014 Creator Rights remains UNDER REVIEW (GAP-025).',
       evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–025; GAP-031',
       href: '/areas/missions'
     },
@@ -814,21 +814,21 @@ const includes = [
     title: 'Mission Partner Governance (MIS-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
     description:
-      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). Governing ADRs 0007 / 0014 / 0015 remain UNDER REVIEW.'
+      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 APPROVED; ADR-0014 / 0015 remain UNDER REVIEW.'
   },
   {
     outRel: 'areas/institution-in-residence.md',
     title: 'Institution / Industry-in-Residence (MIS-002)',
     sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
     description:
-      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. Governing ADRs 0007 / 0014 / 0015 remain UNDER REVIEW.'
+      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 APPROVED; ADR-0014 / 0015 remain UNDER REVIEW.'
   },
   {
     outRel: 'areas/mission-risk-and-safeguarding.md',
     title: 'Mission Risk and Safeguarding (MIS-003)',
     sourceRel: 'docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md',
     description:
-      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. Governing ADRs remain UNDER REVIEW.'
+      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 APPROVED; faculty ADRs remain UNDER REVIEW where relevant.'
   },
   {
     outRel: 'areas/mission-operating-templates.md',

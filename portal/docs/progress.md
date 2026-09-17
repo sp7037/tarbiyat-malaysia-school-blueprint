@@ -44,6 +44,7 @@ Only formally **APPROVED** governing work:
 | [ADR-0011 — Six Worlds Capability / Progressive Depth](/decisions/adr-0011) | 1.0.0 | `APPROVED` (GAP-008 Closed; GAP-047 Open) |
 | [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | 1.0.0 | `APPROVED` (GAP-045 Closed) |
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | 1.0.0 | `APPROVED` (GAP-046 Closed) |
+| [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Open) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
 
 **Closed Core design conflicts** (not Malaysia gaps): exam abolition as Core direction; Competency Graph replacing statutory exams; lab-only extremes; boarding as universal Core mandate; sovereign DC as automatic Core mandate — see [Gap Register — Closed](/gaps).
@@ -56,7 +57,6 @@ Only formally **APPROVED** governing work:
 
 | Item | Status | Notes |
 |---|---|---|
-| [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | `UNDER REVIEW` | Authenticity A–F; Institution-in-Residence; Educationalisation |
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | `UNDER REVIEW` | Creator Rights / IP / Micro-Venture |
 | [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | `UNDER REVIEW` | Practitioner–Educator–Mentor; professional teams |
 | [Malaysia Implementation Profile](/country/malaysia) | `DRAFT` skeleton | No invented regulations; research gaps open |
@@ -77,7 +77,7 @@ Known work not yet completed (documentation evidence):
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
 | Proof of Capability operating detail | POC-001 / POC-FRM-* DRAFT; ADR-0016 APPROVED / GAP-010 Closed; GAP-038–044 proposed (not closed); GAP-043 research Open | [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016), [POC-001](/areas/poc-operating-standard) |
 | Exploration Floor operationalisation | APPROVED as protected breadth dimensions (ADR-0006); timetable expression via ADR-0019 + GAP-048 | [GAP-019](/gaps#gap-019), [ADR-0006](/decisions/adr-0006) |
-| Mission authenticity thresholds | Principle exists; gates unset | [GAP-018](/gaps#gap-018) |
+| Mission authenticity thresholds | APPROVED Core authenticity A–F + stage relationship (ADR-0007); ops via GAP-022–024 | [GAP-018](/gaps#gap-018), [ADR-0007](/decisions/adr-0007) |
 | Pathway change bridging standards | Core bridging architecture APPROVED (ADR-0006); detailed curricula deferred | [GAP-020](/gaps#gap-020), [ADR-0006](/decisions/adr-0006) |
 | Weekly time-balance / learning-time architecture | ADR-0019 APPROVED; GAP-016 Closed; campus exemplars / pilot ranges remain open | [ADR-0019](/decisions/adr-0019), [GAP-016](/gaps#gap-016), [GAP-048](/gaps#gap-048), [LAR-001](/areas/learning-time-architecture) |
 | Campus & facilities functional architecture | ADR-0020 APPROVED; GAP-049 Closed; numeric inventories / phased programmes remain open | [ADR-0020](/decisions/adr-0020), [CAM-001](/areas/campus-facilities), [GAP-049](/gaps#gap-049), [GAP-050](/gaps#gap-050), [Physical Campus](/areas/campus) |

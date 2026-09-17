@@ -267,7 +267,7 @@ The following remain open and must not be filled by invention in this Constituti
 3. Detailed Competency Graph schema (`GAP-009`)
 4. ~~Proof of Capability Profile format and verification rules (`GAP-010`)~~ — **Resolved** by ADR-0016 (ops remain GAP-038–044)
 5. ~~Timetable proportions between mission work, Knowledge Studios and examination preparation (`GAP-016`)~~ — **Resolved** by ADR-0019 (campus clocks / ranges remain GAP-048)
-6. Which mission authenticity threshold is required at each stage (`GAP-018`)
+6. ~~Which mission authenticity threshold is required at each stage (`GAP-018`)~~ — **Resolved** by ADR-0007 (levels A–F + stage relationship + governance; ops remain GAP-022–024)
 7. Malaysia-specific regulatory, curriculum-board, residential and data decisions (`GAP-001`, `GAP-002`, `GAP-005`, `GAP-006`, and related)
 8. Ownership/governance model for any particular national campus (`GAP-007`)
 9. ~~Six-world competency maps and cross-world mission rules (`GAP-008`)~~ — **Resolved** by ADR-0011 (Graph/schemas GAP-009; Mission tagging GAP-047; curricula catalogues deferred)
@@ -287,6 +287,7 @@ Related resolved developmental companions (not Constitution open questions): Exp
 | `ADR-0004` | Student Development and Progressive Specialisation | `APPROVED` |
 | `ADR-0005` | Developmental Stage Boundaries and Major-Minor Entry | `APPROVED` |
 | `ADR-0006` | Stage Transition, Exploration Floor and Pathway Mobility | `APPROVED` |
+| `ADR-0007` | Mission Ecosystem, Authenticity and Institution-in-Residence | `APPROVED` |
 | `ADR-0011` | Six Worlds Capability and Progressive Depth | `APPROVED` |
 | `ADR-0016` | Proof of Capability and Capability Evidence | `APPROVED` |
 | `ADR-0017` | Discover Meaningful Exposure Package | `APPROVED` |

@@ -19,7 +19,15 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
-### Integrated Developmental Architecture APPROVED — Student Development + Six Worlds + Pathway (2026-09-17)
+### ADR-0007 APPROVED — Mission Ecosystem / Authenticity / Institution-in-Residence (2026-09-17)
+
+- Human Mission Authenticity review passed (Mission vs Activity/Project; A–F authenticity ladder; Education-First; Educationalisation; lifecycle; partner governance; I-in-R; safeguarding ≠ authenticity; PoC / learning-time / campus / Six Worlds / developmental compatibility; hostile scenarios; anti-theatre). Classification: READY WITH EDITORIAL HYGIENE ONLY.
+- `ADR-0007` promoted `0.1.1` / `UNDER REVIEW` → `1.0.0` / `APPROVED` (2026-09-17). Editorial hygiene: dependency alignment to APPROVED ADR-0004–0006 / 0011 / 0016 / 0019 / 0020; learner-agency clarity in Mission definition / Quality Standard; PoC Proof≠Participation cross-ref; stale GAP-008/010/016 open-question cleanup.
+- `GAP-018` Closed — resolved by APPROVED ADR-0007. `GAP-022`–`024` / MIS-001–003 remain DRAFT / not closed. ADR-0014 / ADR-0015 remain UNDER REVIEW. No MIS/PEO/POC approvals. No invented Mission counts, ratios, partners or budgets.
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, FND-003 §13 / related-decisions, portal missions / progress / roadmap / model, prepare-content workstream.
+- No commit in this review iteration unless separately requested.
+
+### Integrated Developmental Architecture APPROVED — Student Development and Six Worlds architecture (2026-09-17)
 
 - Human Integrated Review of learner-development cluster passed (Explore→Produce coherence; Explore/Discover/Choose/Deepen/Produce tests; Six Worlds purpose; Meaningful Exposure; overload vs ADR-0019; pathway discovery; undecided learner; reversibility; Exploration Floor; Formal Recognition; PoC; Mentor context; equity; campus vs ADR-0020; scenarios A–J; stakeholder answers). No new Core ADR created. No invented hours, fixed pathways, aptitude scores or universal timetables.
 - Promoted to `1.0.0` / `APPROVED` (2026-09-17):

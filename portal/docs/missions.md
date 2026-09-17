@@ -6,38 +6,38 @@ description: Mission-based authentic learning in the Tarbiyat architecture
 # Missions
 
 <p class="present-lede">
-  Missions organise substantial learning around real or realistically scoped problems —
-  producing authentic work and evidence, not only classroom demonstrations.
+  A Mission is purpose + real constraints + serious learner work +
+  critique and iteration + evidence and reflection — under school governance.
 </p>
 
 ::: tip Authority
-Lab-First / Mission-Based learning is **approved** (ADR-0002). Mission Ecosystem detail is **under review** (ADR-0007). Operating drafts: **MIS-001** (partners), **MIS-002** (I-in-R), **MIS-003** (risk/safeguarding) — GAP-022–024 proposed resolutions, **not closed**.
+Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Partner / I-in-R / risk operating packs **MIS-001–003** remain **DRAFT** (GAP-022–024 — not closed).
 :::
 
-## Why Missions matter
+## What makes a Mission
 
-Tarbiyat treats sustained Missions as a primary organiser of learning effort. Students investigate, design, make, test, communicate and improve against problems that matter beyond a worksheet.
+A Tarbiyat Mission is not a worksheet, themed day, guest talk or decorative “project” label. It needs meaningful purpose, defined constraints, learner agency appropriate to stage, disciplinary substance, inspectable evidence, critique, iteration and reflection. It may connect to a genuine external need — but need not be commercial or industry-led.
 
-Practical work should generally produce outcomes that can be inspected, discussed or demonstrated — **production over demonstration-only practicals**.
+## Authenticity grows — safeguarding never falls
+
+Authenticity levels A–F guide progression from designed context to advanced contribution. Levels A–C remain first-class education. External partners are not required for every Mission. High authenticity is not a prestige score and never overrides safeguarding.
+
+## Education-First
+
+Learners are not cheap labour, unpaid commercial workforce or promotional assets. Partners may contribute problems, expertise and critique. They do not buy curriculum control, assessment, unsupervised access, automatic IP or exclusive recruitment.
 
 ## From partner need to learner work
 
-A Mission partner does **not** hand a commercial problem directly to students. “Real-world” does **not** mean commercial control or unmanaged risk.
-
 Partner need / problem  
-→ Mission Intake  
-→ Educational Review  
-→ **Risk / safeguarding screen** ([MIS-003](/areas/mission-risk-and-safeguarding))  
-→ Age / scope suitability  
-→ IP / data classification  
-→ Approved Mission Brief  
-→ Learner participation  
+→ Screen  
+→ **Educationalise** (convert into age-appropriate learning)  
+→ Risk / safeguarding / data / IP review  
+→ Mission Brief  
+→ Learner work with critique and iteration  
+→ Evidence and reflection  
+→ optional deployment / IP / venture (never required for educational validity)
 
-Partner rules: [MIS-001](/areas/mission-partner-governance). Sustained embedding: [MIS-002](/areas/institution-in-residence).
-
-## Authenticity ≠ unmanaged risk
-
-High authenticity does not automatically mean high risk. High risk does not mean better learning. Safe simulation or controlled alternatives may produce valid capability evidence. Stopping unsafe work is not learner failure.
+Operating companions: [MIS-001](/areas/mission-partner-governance), [MIS-002](/areas/institution-in-residence), [MIS-003](/areas/mission-risk-and-safeguarding).
 
 ## Guest ≠ Partner ≠ In Residence
 
@@ -45,27 +45,14 @@ High authenticity does not automatically mean high risk. High risk does not mean
 |---|---|
 | Guest / Speaker | Occasional visit |
 | Mission Partner | Scoped Mission support under Education-First rules |
-| Institution / Industry-in-Residence | Sustained educational embedding — not sponsorship or tenancy alone |
-
-## What a Mission can do
-
-- Cross more than one of the [Six Worlds](/six-worlds)
-- Draw on Knowledge Studios for theory and disciplined practice
-- Involve partners under Education-First and proportional risk controls
-- Generate evidence that may support [Proof of Capability](/proof-of-capability) claims without requiring unsafe deployment
-
-## What this page does not invent
-
-- Mandatory Mission counts, fixed durations or Core risk hour quotas
-- Named Malaysian partners or sector lists as Core law
-- Employment or market-success guarantees
+| Institution / Industry-in-Residence | Sustained educational embedding — not sponsorship or logo placement alone |
 
 ## Related architecture
 
 | Artefact | Status |
 |---|---|
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
-| [ADR-0007](/decisions/adr-0007) — Mission Ecosystem | UNDER REVIEW |
+| [ADR-0007](/decisions/adr-0007) — Mission Ecosystem | APPROVED |
 | [ADR-0014](/decisions/adr-0014) — Creator Rights | UNDER REVIEW |
 | [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | UNDER REVIEW |
 | [MIS-001](/areas/mission-partner-governance) | DRAFT (GAP-022 — not closed) |
