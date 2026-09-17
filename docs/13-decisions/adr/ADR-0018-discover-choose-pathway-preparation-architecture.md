@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0018` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Integrated Developmental Architecture review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; Discover exposure context `ADR-0017` UNDER REVIEW; Worlds context `ADR-0011` UNDER REVIEW; developmental/pathway context `ADR-0004`–`ADR-0006` UNDER REVIEW; PoC context `ADR-0016` UNDER REVIEW; faculty context `ADR-0015` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-046 (primary); related GAP-009, GAP-045, GAP-047; developmental context GAP-003, GAP-004, GAP-019, GAP-020 |
-| Source documents | `FND-003` §§4, 7, 10; ADR-0017 Choose boundary; ADR-0011 provisional concentration; ADR-0004 pathway discovery; Architecture brief for GAP-046 (2026-09-14) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0017` APPROVED; `ADR-0011` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0016` APPROVED; faculty context `ADR-0015` UNDER REVIEW (not treated as approved) |
+| Related gaps / claims | GAP-046 (Closed by this ADR); related GAP-009 Open, GAP-045 Closed by ADR-0017, GAP-047 Open; developmental GAP-003 / 004 / 019 / 020 Closed |
+| Source documents | `FND-003` §§4, 7, 10; ADR-0017 Choose boundary; ADR-0011 provisional concentration; ADR-0004 pathway discovery; Architecture brief for GAP-046 (2026-09-14); Integrated Human Review (2026-09-17) |
 
 ---
 
@@ -21,13 +22,20 @@ Discover → Choose Pathway Preparation Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft |
+| 1.0.0 | 2026-09-17 | APPROVED after Integrated Developmental Architecture human review; closes GAP-046; companion approvals ADR-0004–0006 / 0011 / 0017; fine within-World / Major-Minor catalogues remain deferred |
 
 ## Context
 
 The Concept Constitution (`FND-003`, APPROVED) requires exploration before strong specialisation, longitudinal pathway discovery under human oversight, and forbids premature permanent career labelling of young children. No automated system may independently assign, restrict or permanently determine a learner’s educational pathway.
 
-ADR-0017 (`UNDER REVIEW`) defines the Discover Meaningful Exposure Package and All-Six-Worlds Entitlement, and states that transition toward **Choose** supports better-informed **provisional concentration** — not permanent career selection and not a rigid pass/fail gate. Detailed pathway-preparation rules were left to **`GAP-046`**.
+ADR-0017 (`APPROVED`) defines the Discover Meaningful Exposure Package and All-Six-Worlds Entitlement, and states that transition toward **Choose** supports better-informed **provisional concentration** — not permanent career selection and not a rigid pass/fail gate. Detailed pathway-preparation rules were left to **`GAP-046`**.
 
 Without Core Discover→Choose pathway-preparation architecture:
 
@@ -42,7 +50,7 @@ Without Core Discover→Choose pathway-preparation architecture:
 
 **ID pre-flight:** `ADR_INDEX.md` reserves ADR-0008–0010 and ADR-0012–0013 for other topics. ADR-0011 / 0014–0017 already have bodies. **No reserved ADR ID exists for Discover→Choose pathway preparation.** **No renumbering conflict.** This body uses the next free ID **ADR-0018**.
 
-**Dependency note:** This ADR treats FND-003 and ADR-0001–0003 as approved law. It uses ADR-0017’s Discover Exposure Package / Choose boundary, ADR-0011’s Six Worlds and provisional concentration language, ADR-0004–0006 stage/mobility language, ADR-0016 PoC language and ADR-0015 faculty language only as **under-review context**. Those ADRs remain `UNDER REVIEW` and are **not** treated as approved. If any is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** This ADR treats FND-003, ADR-0001–0006, ADR-0011, ADR-0016 and ADR-0017 as approved law. It uses ADR-0015 faculty language only as **under-review context**. ADR-0015 remains `UNDER REVIEW` and is **not** treated as approved.
 
 This ADR remains Core / country-neutral. It does **not** define ages, grades/years, Discover duration, experience counts, percentages, interest or readiness scores, algorithmic weighting, psychometrics, pathway catalogues, Major/Minor load rules, scheduling, staffing ratios, infrastructure specifications, Competency Graph schemas, Mission-tag significance numerics, national curriculum equivalence, Malaysian accreditation mapping, admissions criteria or funding models.
 
@@ -72,9 +80,9 @@ Tarbiyat Core adopts a **Discover → Choose Pathway Preparation Architecture** 
 14. **Safety / ethics.** Pathway preparation must not permit unsafe or unlicensed professional practice.
 15. Transition produces a conceptual **Provisional Concentration Plan** (see below) — not a credential, ranking, admission certificate, permanent profile label, psychometric classification or second Proof of Capability.
 16. Entering Choose is a **guided developmental transition**, not a career pass/fail gate.
-17. Competency Graph technology remains **`GAP-009`**. Mission tagging significance remains **`GAP-047`**. Discover exposure detail remains **`GAP-045` / ADR-0017**.
+17. Competency Graph technology remains **`GAP-009`**. Mission tagging significance remains **`GAP-047`**. Discover exposure detail is **`GAP-045` / ADR-0017** (Closed / APPROVED).
 
-**Proposed resolution of GAP-046:** this ADR supplies Core Discover→Choose pathway-preparation architecture, readiness meaning, multi-input guidance rules, agency/governance, reversibility, breadth continuity, equity/dignity/safety, scenario tests and Core vs implementation boundary. Fine pathway catalogues and Major/Minor programme design remain deferred. GAP-046 is **not closed** until this ADR is APPROVED.
+**Resolution of GAP-046:** this ADR supplies Core Discover→Choose pathway-preparation architecture, readiness meaning, multi-input guidance rules, agency/governance, reversibility, breadth continuity, equity/dignity/safety, scenario tests and Core vs implementation boundary. Fine pathway catalogues and Major/Minor programme design remain deferred.
 
 ---
 
@@ -498,26 +506,22 @@ Country / project profiles may later:
 
 This ADR does **not**:
 
-- approve itself;
-- close GAP-046 before human approval;
-- close GAP-009, GAP-045, GAP-047 or unrelated gaps;
+- close GAP-009 or GAP-047;
 - define ages, grade/year mappings or Discover duration;
 - prescribe experience counts, percentages, interest scores or readiness scores;
 - create pathway catalogues or Major/Minor implementation rules;
 - design Competency Graph schemas or software;
 - claim Malaysian curriculum equivalence, accreditation or admissions treatment;
 - authorise AI or any single adult to determine a learner’s pathway;
-- treat under-review ADRs as approved;
+- treat ADR-0015 as approved;
 - establish a prestige hierarchy among Worlds;
 - convert the Provisional Concentration Plan into a credential or second PoC.
 
 ## Related documents
 
 - `FND-003` Concept Constitution §§4, 7, 10
-- ADR-0001, ADR-0002, ADR-0003 (APPROVED)
-- ADR-0017 (`UNDER REVIEW` — Discover Meaningful Exposure Package; Choose boundary)
-- ADR-0011 (`UNDER REVIEW` — Six Worlds; provisional concentration)
-- ADR-0004–0006, ADR-0015–0016 (`UNDER REVIEW` — context only)
-- `GAP_REGISTER.md` — GAP-046 proposed resolution via this ADR; GAP-009 / 045 / 047 remain open as applicable
+- ADR-0001, ADR-0002, ADR-0003, ADR-0004–0006, ADR-0011, ADR-0016, ADR-0017 (APPROVED)
+- ADR-0015 (`UNDER REVIEW` — faculty context only)
+- `GAP_REGISTER.md` — GAP-046 Closed; GAP-009 / 047 remain open; GAP-045 Closed via ADR-0017
 - `docs/02-student-journey/SECTION_README.md`
 - `docs/03-worlds-and-pathways/SECTION_README.md`

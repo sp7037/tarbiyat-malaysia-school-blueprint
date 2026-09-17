@@ -5,11 +5,11 @@
 | Document ID | `FND-003` |
 | Version | `1.0.0` |
 | Status | `APPROVED` |
-| Last reviewed | `2026-09-13` |
+| Last reviewed | `2026-09-17` |
 | Approved | `2026-09-13` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `PROJECT_RULES.md`; `ADR-0001`; `ADR-0002`; `ADR-0003`; `FND-005`; `FND-006` |
+| Dependencies | `PROJECT_RULES.md`; `ADR-0001`; `ADR-0002`; `ADR-0003`; `ADR-0004`; `ADR-0005`; `ADR-0006`; `ADR-0011`; `ADR-0016`; `ADR-0017`; `ADR-0018`; `ADR-0019`; `ADR-0020`; `FND-005`; `FND-006` |
 | Source documents | Architecture brief (2026-09-13); founding principles in `PROJECT_RULES.md`; historical references under `references/` (source only); human architectural ratification (2026-09-13) |
 
 > **Document status:** `APPROVED` Core constitution (v1.0.0). Material change requires an ADR and human approval.
@@ -146,16 +146,18 @@ Student development follows the working progression:
 
 **Explore → Discover → Choose → Deepen → Produce**
 
-Age bands for each stage, and the age at which Major and Minor pathways begin, are **not yet decided** (see Open Questions and `GAP_REGISTER.md`).
+Typical developmental windows and Major + Minor entry timing are decided in **ADR-0005** (approximate overlapping windows + readiness; not birthday cut-offs). Malaysian Year mappings remain country-profile work.
 
-Until decided otherwise:
+Core developmental architecture (APPROVED):
 
 - young children must not receive premature permanent career labels;
 - early years emphasise breadth across learning worlds rather than irreversible tracking;
 - pathway discovery uses longitudinal evidence: student preference, repeated voluntary engagement, persistence, demonstrated aptitude, mentor observation, portfolio evidence, and parent/student dialogue;
-- **No automated or algorithmic system may independently assign, restrict or permanently determine a student's educational pathway. Such systems may provide evidence or recommendations only; accountable human judgment and student participation remain mandatory.** The Core does not require that AI or algorithmic systems be used.
+- **No automated or algorithmic system may independently assign, restrict or permanently determine a student's educational pathway. Such systems may provide evidence or recommendations only; accountable human judgment and student participation remain mandatory.** The Core does not require that AI or algorithmic systems be used;
+- Exploration Floor (protected breadth dimensions) continues at all stages (**ADR-0006**);
+- pathway commitment is progressively stronger but reasonably reversible with designed bridging (**ADR-0006**).
 
-At suitable ages (TBD), students may pursue **Major + Minor** pathways within six broad professional/learning worlds:
+At suitable developmental stages (ADR-0005), students may pursue **Major + Minor** pathways within six broad professional/learning worlds:
 
 1. Engineering & Intelligent Systems  
 2. Health & Life Sciences  
@@ -164,7 +166,7 @@ At suitable ages (TBD), students may pursue **Major + Minor** pathways within si
 5. Creative, Media & Human Communication  
 6. Society, Leadership & Public Systems  
 
-World definitions and competency maps remain to be detailed under `docs/03-worlds-and-pathways/`.
+World capability frames and progressive depth are defined in **ADR-0011**. Discover meaningful exposure is defined in **ADR-0017**. Discover→Choose pathway preparation is defined in **ADR-0018**.
 
 ---
 
@@ -186,7 +188,7 @@ At major completion or exit stages, a Tarbiyat student should possess **both**:
 - ethical / responsibility evidence  
 - industry / community exposure  
 
-The Competency Graph, portfolio and Proof of Capability Profile constitute the **Tarbiyat capability layer**. They complement applicable statutory or recognised assessment and credentialing requirements; they do not replace them and are not claimed to be legally equivalent. Detailed schemas remain open (`GAP-009`, `GAP-010`).
+The Competency Graph, portfolio and Proof of Capability Profile constitute the **Tarbiyat capability layer**. They complement applicable statutory or recognised assessment and credentialing requirements; they do not replace them and are not claimed to be legally equivalent. Proof of Capability Core architecture is APPROVED in **ADR-0016** (`GAP-010` Closed). Detailed Competency Graph schemas remain open (`GAP-009`). Operating PoC detail remains in `GAP-038`–`GAP-044`.
 
 ---
 
@@ -260,16 +262,18 @@ Material change to any of the following requires an Architecture Decision Record
 
 The following remain open and must not be filled by invention in this Constitution:
 
-1. Age bands for Explore → Discover → Choose → Deepen → Produce (`GAP-003`)  
-2. Age and rules for introducing Major + Minor (`GAP-004`)  
-3. Detailed Competency Graph schema (`GAP-009`)  
-4. Proof of Capability Profile format and verification rules (`GAP-010`)  
-5. Timetable proportions between mission work, Knowledge Studios and examination preparation (`GAP-016`)  
-6. Which mission authenticity threshold is required at each stage (`GAP-018`)  
-7. Malaysia-specific regulatory, curriculum-board, residential and data decisions (`GAP-001`, `GAP-002`, `GAP-005`, `GAP-006`, and related)  
-8. Ownership/governance model for any particular national campus (`GAP-007`)  
-9. Six-world competency maps and cross-world mission rules (`GAP-008`)  
+1. ~~Age bands for Explore → Discover → Choose → Deepen → Produce (`GAP-003`)~~ — **Resolved** by ADR-0005 (typical windows + readiness; MY Years still country work)
+2. ~~Age and rules for introducing Major + Minor (`GAP-004`)~~ — **Resolved** by ADR-0005 (formal at Deepen; provisional concentration in Choose)
+3. Detailed Competency Graph schema (`GAP-009`)
+4. ~~Proof of Capability Profile format and verification rules (`GAP-010`)~~ — **Resolved** by ADR-0016 (ops remain GAP-038–044)
+5. ~~Timetable proportions between mission work, Knowledge Studios and examination preparation (`GAP-016`)~~ — **Resolved** by ADR-0019 (campus clocks / ranges remain GAP-048)
+6. Which mission authenticity threshold is required at each stage (`GAP-018`)
+7. Malaysia-specific regulatory, curriculum-board, residential and data decisions (`GAP-001`, `GAP-002`, `GAP-005`, `GAP-006`, and related)
+8. Ownership/governance model for any particular national campus (`GAP-007`)
+9. ~~Six-world competency maps and cross-world mission rules (`GAP-008`)~~ — **Resolved** by ADR-0011 (Graph/schemas GAP-009; Mission tagging GAP-047; curricula catalogues deferred)
 10. Legal design of student IP and micro-ventures in any given jurisdiction (`GAP-011`)
+
+Related resolved developmental companions (not Constitution open questions): Exploration Floor (`GAP-019` / ADR-0006); pathway bridging (`GAP-020` / ADR-0006); Discover exposure (`GAP-045` / ADR-0017); Discover→Choose preparation (`GAP-046` / ADR-0018).
 
 ---
 
@@ -280,6 +284,15 @@ The following remain open and must not be filled by invention in this Constituti
 | `ADR-0001` | Core Educational Model vs Country Implementation | `APPROVED` |
 | `ADR-0002` | Lab-First and Mission-Based Learning Architecture | `APPROVED` |
 | `ADR-0003` | Formal Examination and Recognition Safety Layer | `APPROVED` |
+| `ADR-0004` | Student Development and Progressive Specialisation | `APPROVED` |
+| `ADR-0005` | Developmental Stage Boundaries and Major-Minor Entry | `APPROVED` |
+| `ADR-0006` | Stage Transition, Exploration Floor and Pathway Mobility | `APPROVED` |
+| `ADR-0011` | Six Worlds Capability and Progressive Depth | `APPROVED` |
+| `ADR-0016` | Proof of Capability and Capability Evidence | `APPROVED` |
+| `ADR-0017` | Discover Meaningful Exposure Package | `APPROVED` |
+| `ADR-0018` | Discover → Choose Pathway Preparation | `APPROVED` |
+| `ADR-0019` | Learning-Time Architecture | `APPROVED` |
+| `ADR-0020` | Campus and Facilities Functional Architecture | `APPROVED` |
 
 ## Explicit non-claims
 

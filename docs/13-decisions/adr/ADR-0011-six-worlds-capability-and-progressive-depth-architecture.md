@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0011` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Integrated Developmental Architecture review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; developmental/pathway context `ADR-0004`–`ADR-0006` UNDER REVIEW; mission context `ADR-0007` UNDER REVIEW; faculty context `ADR-0015` UNDER REVIEW; PoC context `ADR-0016` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-008 (primary); GAP-009, GAP-010, GAP-016, GAP-019, GAP-020; related GAP-018, GAP-032–037; PoC ops GAP-038–044; opens GAP-045–GAP-047 |
-| Source documents | `FND-003` §7; ADR-0004–0007, ADR-0015–0016 (under-review context); Architecture Iteration brief for Six Worlds / GAP-008 (2026-09-14) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0016` APPROVED; mission context `ADR-0007` UNDER REVIEW; faculty context `ADR-0015` UNDER REVIEW (not treated as approved) |
+| Related gaps / claims | GAP-008 (Closed by this ADR); GAP-009 Open; GAP-010 Closed by ADR-0016; GAP-016 Closed by ADR-0019; GAP-019 Closed by ADR-0006; GAP-020 Closed by ADR-0006; related GAP-018, GAP-032–037; PoC ops GAP-038–044; GAP-045 Closed by ADR-0017; GAP-046 Closed by ADR-0018; GAP-047 Open |
+| Source documents | `FND-003` §7; ADR-0004–0006 APPROVED; ADR-0016 APPROVED; ADR-0007 / 0015 under-review context; Architecture Iteration brief for Six Worlds / GAP-008 (2026-09-14); Integrated Human Review (2026-09-17) |
 
 ---
 
@@ -21,7 +22,14 @@ Six Worlds Capability and Progressive Depth Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft; opens GAP-045–047 |
+| 1.0.0 | 2026-09-17 | APPROVED after Integrated Developmental Architecture human review; closes GAP-008; companion approvals ADR-0004–0006 / 0017 / 0018; GAP-009 and GAP-047 remain Open |
 
 ## Context
 
@@ -34,13 +42,13 @@ Without Core Six Worlds architecture:
 - Engineering/technology may quietly become the prestige World;
 - creative, civic, enterprise and earth/health domains may be treated as soft extras;
 - Missions and faculty may lack a shared vocabulary for capability depth;
-- Proof of Capability claims (ADR-0016 under review) may lack domain meaning;
+- Proof of Capability claims (ADR-0016 APPROVED) may lack domain meaning;
 - Competency Graph work (`GAP-009`) may invent taxonomy without educational semantics;
 - country profiles may invent incompatible World systems.
 
 **ID pre-flight:** `ADR_INDEX.md` already reserves **ADR-0011** for **Six Worlds depth / competency maps** (`GAP-008`). No conflicting body file exists. **No renumbering.** This body uses the reserved ID **ADR-0011**.
 
-**Dependency note:** This ADR treats FND-003 and ADR-0001–0003 as approved law. It uses ADR-0004–0007, ADR-0015 and ADR-0016 only as **under-review context**. Those ADRs remain `UNDER REVIEW` and are **not** treated as approved. If any is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** This ADR treats FND-003, ADR-0001–0006 and ADR-0016 as approved law. It uses ADR-0007 and ADR-0015 only as **under-review context**. Those ADRs remain `UNDER REVIEW` and are **not** treated as approved.
 
 This ADR remains Core / country-neutral. It does **not** define detailed curriculum, map Malaysian Years or CBSE/IB subjects, invent Competency Graph schemas, set timetable percentages, create Major/Minor catalogues, occupation lists for children, employment guarantees or regulatory recognition claims.
 
@@ -71,7 +79,7 @@ Tarbiyat Core adopts a **Six Worlds Capability and Progressive Depth Architectur
 21. Country profiles may adapt terminology, priority subdomains and examples — but must not silently remove whole Worlds without a formal architectural decision.
 22. Designers use **significance thresholds**: classify significant Missions/programmes by World; do not tag every five-minute classroom activity.
 
-**Proposed resolution of GAP-008:** this ADR supplies Core World meanings, capability frames, shared depth architecture, stage relationships, Major/Minor World relationship, Cross-World Mission model and reference matrix. Detailed curricula, within-World pathway catalogues, Discover exposure packages and Graph schemas remain follow-on. GAP-008 is **not closed** until this ADR is APPROVED. GAP-009 remains open.
+**Resolution of GAP-008:** this ADR supplies Core World meanings, capability frames, shared depth architecture, stage relationships, Major/Minor World relationship, Cross-World Mission model and reference matrix. Detailed curricula, within-World pathway catalogues and Graph schemas remain follow-on. Discover exposure and Discover→Choose preparation are resolved by companion APPROVED ADR-0017 / ADR-0018. GAP-009 and GAP-047 remain open.
 
 ---
 
@@ -469,7 +477,7 @@ This distinction prepares `GAP-009` and must not invent node schemas here.
 - Meaningful means experience-based discovery: rotations, comparative Missions, short Labs, practitioner exposure, guided reflection — **not** one assembly, one career talk or one worksheet.
 - Goal: informed preference formation through doing, not premature streaming.
 - Typical depth: Inquire; early Apply samples.
-- Operational package: proposed in ADR-0017 (`UNDER REVIEW`; `GAP-045` — not closed).
+- Operational package: ADR-0017 (`APPROVED`; `GAP-045` Closed).
 
 ### Choose
 
@@ -480,7 +488,7 @@ This distinction prepares `GAP-009` and must not invent node schemas here.
 
 ### Deepen
 
-- Formal **Major + Minor** (ADR-0004/0005 context — under review).
+- Formal **Major + Minor** (ADR-0004/0005 APPROVED).
 - Sustained technical/conceptual depth; authentic standards rise.
 - Typical depth: Integrate → Advance.
 
@@ -590,7 +598,7 @@ Core **rejects** six isolated faculty departments as the required organising for
 | Architecture | Answers |
 |---|---|
 | **World Capability Architecture** (this ADR) | What domains/capabilities mean; what depth looks like conceptually |
-| **Individual Proof of Capability** (ADR-0016 under review) | What *this learner* has demonstrated with evidence |
+| **Individual Proof of Capability** (ADR-0016 APPROVED) | What *this learner* has demonstrated with evidence |
 
 This ADR does **not** create individual scores, profiles or claim templates. Creative/civic/enterprise/earth/health evidence must be eligible for rigorous PoC treatment equal to engineering evidence.
 
@@ -782,8 +790,6 @@ Country / project profiles may later:
 
 This ADR does **not**:
 
-- approve itself;
-- close GAP-008 before human approval;
 - close GAP-009 or design the Competency Graph;
 - define detailed curriculum or lesson plans;
 - map Malaysian Years or CBSE/IB subject grids;
@@ -792,15 +798,15 @@ This ADR does **not**:
 - create occupation lists for children;
 - claim regulatory recognition or employment outcomes;
 - invent individual student scores;
-- treat under-review ADRs as approved;
+- treat ADR-0007 or ADR-0015 as approved;
 - establish a prestige hierarchy among Worlds.
 
 ## Related documents
 
 - `FND-003` Concept Constitution §7
-- ADR-0002, ADR-0003 (APPROVED)
-- ADR-0004–0007, ADR-0014–0016 (`UNDER REVIEW` — context only)
-- `GAP_REGISTER.md` — GAP-008 proposed resolution; GAP-009 open; GAP-045 proposed via ADR-0017; GAP-046 proposed via ADR-0018; GAP-047 open
+- ADR-0002, ADR-0003, ADR-0004–0006, ADR-0016 (APPROVED)
+- ADR-0007, ADR-0014–0015 (`UNDER REVIEW` — context only)
+- `GAP_REGISTER.md` — GAP-008 Closed; GAP-009 open; GAP-045 Closed via ADR-0017; GAP-046 Closed via ADR-0018; GAP-047 open
 - `docs/03-worlds-and-pathways/SECTION_README.md`
-- ADR-0017 (`UNDER REVIEW` — Discover Meaningful Exposure Package; proposed resolution of GAP-045)
-- ADR-0018 (`UNDER REVIEW` — Discover→Choose pathway preparation; proposed resolution of GAP-046)
+- ADR-0017 (`APPROVED` — Discover Meaningful Exposure Package; GAP-045 Closed)
+- ADR-0018 (`APPROVED` — Discover→Choose pathway preparation; GAP-046 Closed)

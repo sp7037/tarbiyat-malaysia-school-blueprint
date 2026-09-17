@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0005` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Integrated Developmental Architecture review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004` UNDER REVIEW (stage meanings, Exploration Floor, Major+Minor in principle, human pathway governance) |
-| Related gaps / claims | GAP-003, GAP-004, GAP-008, GAP-016, GAP-018, GAP-019, GAP-020, GAP-021 |
-| Source documents | `FND-003` §§4, 7; ADR-0004; Architecture Iteration 3 brief (2026-09-14); developmental reasoning informed by comparative education / adolescent-development literature (see Rationale; verification pack `GAP-021`) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004` APPROVED; evidence pack `EV-0001` (supports windows; does not itself approve) |
+| Related gaps / claims | GAP-003 (Closed by this ADR); GAP-004 (Closed by this ADR); GAP-021 (Closed with/after this ADR + EV-0001); related GAP-008, GAP-016 (Closed by ADR-0019), GAP-018, GAP-019, GAP-020 |
+| Source documents | `FND-003` §§4, 7; ADR-0004; Architecture Iteration 3 brief (2026-09-14); `EV-0001`; Integrated Human Review (2026-09-17) |
 
 ---
 
@@ -21,11 +22,18 @@ Developmental Stage Boundaries and Major-Minor Entry Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft |
+| 1.0.0 | 2026-09-17 | APPROVED after Integrated Developmental Architecture human review with EV-0001 evidence re-check; closes GAP-003, GAP-004, GAP-021; windows remain approximate + readiness (not birthday gates); Produce as distinct phase vs late-Deepen overlay remains an acknowledged open implementation question |
 
 ## Context
 
-ADR-0004 (UNDER REVIEW) defines the five stages **Explore → Discover → Choose → Deepen → Produce** conceptually, establishes the Exploration Floor, progressive reversibility, Six Worlds discovery exposure, and Major + Minor as the preferred later-stage pathway architecture **in principle**. It deliberately left open:
+ADR-0004 (APPROVED) defines the five stages **Explore → Discover → Choose → Deepen → Produce** conceptually, establishes the Exploration Floor, progressive reversibility, Six Worlds discovery exposure, and Major + Minor as the preferred later-stage pathway architecture **in principle**. It deliberately left open:
 
 - typical developmental windows for each stage (`GAP-003`);
 - when formal Major + Minor becomes appropriate (`GAP-004`).
@@ -43,7 +51,7 @@ This ADR answers the Core developmental question:
 
 It does **not** map stages to Malaysian Years, invent Malaysian regulations, set timetable percentages, define Competency Graph schemas, or draft Six Worlds competency maps.
 
-**Dependency note:** This ADR assumes ADR-0004’s stage meanings and constraints. If ADR-0004 is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** This ADR assumes ADR-0004’s stage meanings and constraints (now APPROVED).
 
 ## Decision
 
@@ -74,7 +82,7 @@ Tarbiyat Core adopts the following developmental-boundary and Major-Minor entry 
 
 ## Developmental architecture table
 
-Ages are **approximate typical windows**, not birthday gates. Transition may begin earlier or later according to readiness, country structure and safeguarding. Claims about precise normative ages remain subject to evidence verification (`GAP-021`).
+Ages are **approximate typical windows**, not birthday gates. Transition may begin earlier or later according to readiness, country structure and safeguarding. Evidence pack `EV-0001` supports the windows; they are not claimed as universal biological laws.
 
 | Stage | Typical developmental window | Dominant purpose | Specialisation level | Pathway status | Typical mission authenticity |
 |---|---|---|---|---|---|
@@ -308,7 +316,6 @@ Indicators may include, without becoming a Competency Graph schema:
 
 This ADR does not:
 
-- approve itself (remains `UNDER REVIEW`);
 - set Malaysian ages, school Years, boards or regulatory pathways;
 - invent Malaysian legal requirements;
 - set Exploration Floor or weekly timetable percentages;
@@ -319,5 +326,5 @@ This ADR does not:
 - claim OECD or other comparative patterns are binding statutes;
 - authorise AI or any single adult to determine pathway;
 - treat Major/Minor as a permanent career assignment;
-- alter APPROVED FND-003 or ADR-0001–0003;
-- rewrite ADR-0004 (still `UNDER REVIEW`).
+- alter APPROVED FND-003 founding principles or ADR-0001–0003;
+- rewrite ADR-0004 (APPROVED companion).

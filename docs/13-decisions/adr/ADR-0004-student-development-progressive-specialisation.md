@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0004` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-13` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Integrated Developmental Architecture review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
+| Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED |
-| Related gaps / claims | GAP-003, GAP-004, GAP-008, GAP-016, GAP-018, GAP-019, GAP-020 |
-| Source documents | `FND-003` §§4, 7; Architecture Iteration 2 brief (2026-09-13) |
+| Related gaps / claims | GAP-003, GAP-004, GAP-008, GAP-016 (Closed by ADR-0019), GAP-018, GAP-019, GAP-020 |
+| Source documents | `FND-003` §§4, 7; Architecture Iteration 2 brief (2026-09-13); Integrated Human Review (2026-09-17) |
 
 ---
 
@@ -21,7 +22,14 @@ Student Development and Progressive Specialisation Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-13 | Initial UNDER REVIEW draft |
+| 1.0.0 | 2026-09-17 | APPROVED after Integrated Developmental Architecture human review; companion approvals ADR-0005 / 0006 / 0011 / 0017 / 0018 |
 
 ## Context
 
@@ -89,7 +97,7 @@ Tarbiyat supports interest → preference → concentration → Major/Minor **pr
 5. Creative, Media & Human Communication  
 6. Society, Leadership & Public Systems  
 
-**Operational meaning:** Rotations, comparative missions and guided reflection designed for **discovery through experience**, not career selection. World maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
+**Operational meaning:** Rotations, comparative missions and guided reflection designed for **discovery through experience**, not career selection. World maps APPROVED in ADR-0011 (`GAP-008` Closed).
 
 **Not permitted:** Treating Discover as irreversible streaming into a single profession.
 
@@ -188,7 +196,7 @@ Major + Minor operates within the Six Worlds and under the Exploration Floor.
 
 - Discover requires structured exposure across all Six Worlds.
 - Deepen / Produce may concentrate within one or more Worlds via Major + Minor and interdisciplinary missions.
-- World competency maps drafted in ADR-0011 (`UNDER REVIEW`; `GAP-008` proposed resolution — not closed).
+- World competency maps APPROVED in ADR-0011 (`GAP-008` Closed).
 - Worlds are learning/professional domains for exploration and concentration—not permanent career labels for children.
 
 ---
@@ -290,7 +298,7 @@ Do not invent Malaysian ages, Years or regulatory mappings in this ADR.
 3. Operationalisation of Exploration Floor without premature fixed percentages (`GAP-019`).
 4. Bridging standards when changing Major/Minor (`GAP-020`).
 5. Mission authenticity gates by stage (`GAP-018`).
-6. Six Worlds competency depth maps (ADR-0011 UNDER REVIEW / `GAP-008`).
+6. Six Worlds competency depth maps (ADR-0011 APPROVED / `GAP-008` Closed).
 7. How Choose-stage preferences are recorded in the longitudinal capability record without becoming permanent labels.
 
 ## Explicit Non-Claims

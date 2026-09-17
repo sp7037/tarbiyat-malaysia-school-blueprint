@@ -5,11 +5,11 @@
 | Document ID | `FND-006` |
 | Version | `0.1.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-16` |
+| Last reviewed | `2026-09-17` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | PROJECT_RULES.md, MASTER_INDEX.md |
-| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0019 / ADR-0020 terms |
+| Source documents | User brief (2026-09-13); references/ as applicable; ADR-0004–0006 / 0011 / 0017 / 0018 / 0019 / 0020 terms |
 
 ## Terms (initial)
 
@@ -27,17 +27,18 @@
 | **Facility Family** | Functional group of environments (Knowledge; Mission; People/development; Production/support; Safeguarding/control; Formation/wellbeing; External learning) (ADR-0020 APPROVED) | CORE |
 | **Minimum Viable Tarbiyat Campus (MVC)** | Functional launch set: flexible Knowledge/Mission environments + safe specialist access + mentoring/critique + basic support/safeguarding + formation access + governed external network — without Core room counts or costs (ADR-0020 APPROVED; CAM-001 DRAFT) | CORE |
 | **Campus and Facilities Functional Architecture (`ADR-0020` / `CAM-001`)** | Core rules for essential/shared/external/phased facility functions, anti-theatre and capacity-coupled spaces (ADR-0020 APPROVED; CAM-001 DRAFT overview; GAP-049 Closed; GAP-050 Open) | CORE |
-| **Explore → Discover → Choose → Deepen → Produce** | Named progression stages (age bands TBD) | CORE |
-| **Six Worlds** | Six developmental learning/professional domains for exploration, Missions, Major+Minor and capability context — not career labels or subject lists (ADR-0011 UNDER REVIEW) | CORE |
-| **Major / Minor** | Pathway structure at suitable ages; may sit within or across Worlds (timing via ADR-0004/0005 UNDER REVIEW; World relationship ADR-0011 UNDER REVIEW) | CORE |
-| **Capability Depth Ladder** | Encounter → Inquire → Apply → Integrate → Advance → Contribute — domain depth distinct from whole-student stage (ADR-0011 UNDER REVIEW) | CORE |
-| **Meaningful Exposure** | Discover-stage substantive World experience meeting Context, Active Engagement, World-Relevant Practice, Reflection and Trace (ADR-0017 UNDER REVIEW) | CORE |
-| **Discover Exposure Package** | Cumulative Discover experience satisfying All-Six-Worlds meaningful exposure — not a course catalogue or credential (ADR-0017 UNDER REVIEW) | CORE |
-| **Discover Exposure Evidence** | Lightweight participation traces from Discover experiences; not automatic Proof of Capability Claims (ADR-0017 UNDER REVIEW; PoC via ADR-0016) | CORE |
-| **Provisional Concentration** | Choose-stage increase of time/depth in one or more Worlds/directions without formal Major/Minor or permanent identity (ADR-0004/0005/0011/0018 UNDER REVIEW) | CORE |
-| **Provisional Concentration Plan** | Revisable Discover→Choose orientation artefact: exposure summary, interest/reflection, optional capability signals, provisional directions (incl. undecided/plural); not a credential or PoC (ADR-0018 UNDER REVIEW) | CORE |
-| **Pathway Preparation** | Guided process interpreting Discover experience toward provisional Choose next steps — not career selection (ADR-0018 UNDER REVIEW) | CORE |
-| **Cross-World Capability** | Competency that recurs across Worlds; later Graph shared-node candidate (ADR-0011 UNDER REVIEW; schema GAP-009) | CORE |
+| **Explore → Discover → Choose → Deepen → Produce** | Named progression stages; typical windows + readiness in ADR-0005 APPROVED (not birthday gates; MY Years country work) | CORE |
+| **Six Worlds** | Six developmental learning/professional domains for exploration, Missions, Major+Minor and capability context — not career labels or subject lists (ADR-0011 APPROVED) | CORE |
+| **Major / Minor** | Pathway structure at suitable stages; may sit within or across Worlds (formal entry at Deepen via ADR-0005 APPROVED; World relationship ADR-0011 APPROVED) | CORE |
+| **Capability Depth Ladder** | Encounter → Inquire → Apply → Integrate → Advance → Contribute — domain depth distinct from whole-student stage (ADR-0011 APPROVED) | CORE |
+| **Meaningful Exposure** | Discover-stage substantive World experience meeting Context, Active Engagement, World-Relevant Practice, Reflection and Trace (ADR-0017 APPROVED) | CORE |
+| **Discover Exposure Package** | Cumulative Discover experience satisfying All-Six-Worlds meaningful exposure — not a course catalogue or credential (ADR-0017 APPROVED) | CORE |
+| **Discover Exposure Evidence** | Lightweight participation traces from Discover experiences; not automatic Proof of Capability Claims (ADR-0017 APPROVED; PoC via ADR-0016 APPROVED) | CORE |
+| **Provisional Concentration** | Choose-stage increase of time/depth in one or more Worlds/directions without formal Major/Minor or permanent identity (ADR-0004/0005/0011/0018 APPROVED) | CORE |
+| **Provisional Concentration Plan** | Revisable Discover→Choose orientation artefact: exposure summary, interest/reflection, optional capability signals, provisional directions (incl. undecided/plural); not a credential or PoC (ADR-0018 APPROVED) | CORE |
+| **Pathway Preparation** | Guided process interpreting Discover experience toward provisional Choose next steps — not career selection (ADR-0018 APPROVED) | CORE |
+| **Cross-World Capability** | Competency that recurs across Worlds; later Graph shared-node candidate (ADR-0011 APPROVED; schema GAP-009) | CORE |
+| **Exploration Floor** | Protected breadth dimensions that continue at every stage; specialisation may increase but breadth never becomes zero; no Core fixed % (ADR-0006 APPROVED) | CORE |
 | **Cross-World Mission** | Mission intentionally integrating capabilities from more than one World (ADR-0011 UNDER REVIEW) | CORE |
 | **Proof of Capability Profile** | Structured longitudinal record of evidence-backed Capability Claims (ADR-0016 APPROVED; POC-001 DRAFT ops) | CORE |
 | **Capability Claim** | Scoped, inspectable statement of what a learner can demonstrate, backed by evidence (ADR-0016 APPROVED; POC-FRM-001) | CORE |

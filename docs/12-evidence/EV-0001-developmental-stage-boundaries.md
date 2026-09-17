@@ -8,8 +8,8 @@
 | Date | `2026-09-14` |
 | Country scope | `CORE` (comparative education used as evidence, not as Core mandates) |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Related ADRs | ADR-0004 (`UNDER REVIEW`); ADR-0005 (`UNDER REVIEW`) |
-| Related gaps | `GAP-021` (primary); also informs GAP-003, GAP-004, GAP-018, GAP-020 |
+| Related ADRs | ADR-0004 (`APPROVED`); ADR-0005 (`APPROVED`) |
+| Related gaps | `GAP-021` (Closed with ADR-0005); also informs GAP-003, GAP-004 (Closed), GAP-018, GAP-020 (Closed) |
 | Access date for URLs | `2026-09-14` |
 | Source documents | Architecture Iteration 3 research brief; sources listed in Bibliography |
 

@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0006` |
-| Version | `0.1.0` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-17` |
+| Deciders | Human architectural review (Integrated Developmental Architecture review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004` UNDER REVIEW; `ADR-0005` UNDER REVIEW; evidence context `EV-0001` (does not approve this ADR) |
-| Related gaps / claims | GAP-008, GAP-016, GAP-018, GAP-019, GAP-020, GAP-021 |
-| Source documents | `FND-003` §§4, 7, 10; ADR-0004; ADR-0005; Architecture Iteration 4 brief (2026-09-14) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004` APPROVED; `ADR-0005` APPROVED; evidence context `EV-0001` (does not itself approve) |
+| Related gaps / claims | GAP-019 (Closed by this ADR); GAP-020 (Closed by this ADR); related GAP-008, GAP-016 (Closed by ADR-0019), GAP-018, GAP-021 |
+| Source documents | `FND-003` §§4, 7, 10; ADR-0004; ADR-0005; Architecture Iteration 4 brief (2026-09-14); Integrated Human Review (2026-09-17) |
 
 ---
 
@@ -21,13 +22,20 @@ Stage Transition, Exploration Floor and Pathway Mobility Architecture
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft |
+| 1.0.0 | 2026-09-17 | APPROVED after Integrated Developmental Architecture human review; closes GAP-019 and GAP-020; Exploration Floor = protected breadth dimensions (no Core fixed %); bridging = designed pathway mobility |
 
 ## Context
 
-ADR-0004 (UNDER REVIEW) establishes Explore → Discover → Choose → Deepen → Produce, the Exploration Floor principle, progressive reversibility, Major + Minor in principle, and human-governed pathway discovery.
+ADR-0004 (APPROVED) establishes Explore → Discover → Choose → Deepen → Produce, the Exploration Floor principle, progressive reversibility, Major + Minor in principle, and human-governed pathway discovery.
 
-ADR-0005 (UNDER REVIEW) proposes typical overlapping developmental windows, readiness rather than birthday cut-offs, provisional concentration during Choose, and formal Major + Minor potentially beginning during Deepen. EV-0001 supplies the developmental evidence base for those windows; it does not approve ADR-0004, ADR-0005, or this ADR.
+ADR-0005 (APPROVED) adopts typical overlapping developmental windows, readiness rather than birthday cut-offs, provisional concentration during Choose, and formal Major + Minor potentially beginning during Deepen. EV-0001 supplies the developmental evidence base for those windows; it does not itself approve ADRs.
 
 Those decisions leave three operational Core questions open:
 
@@ -42,7 +50,7 @@ Without answers:
 - pathway change may either restart education wholesale or ignore prerequisites and recognition obligations;
 - AI or single-adult gating may re-enter under “efficiency” language.
 
-**Dependency note:** This ADR assumes ADR-0004’s stage meanings, Exploration Floor principle, Major + Minor preference, and human pathway governance, and ADR-0005’s windows, readiness principle, provisional concentration, and Deepen Major/Minor entry. Both remain `UNDER REVIEW`. If either is materially revised before approval, this ADR must be re-checked. This ADR does **not** silently treat ADR-0004 or ADR-0005 as approved.
+**Dependency note:** This ADR assumes ADR-0004’s stage meanings, Exploration Floor principle, Major + Minor preference, and human pathway governance, and ADR-0005’s windows, readiness principle, provisional concentration, and Deepen Major/Minor entry (both now APPROVED).
 
 This ADR remains Core / country-neutral. It does not map Malaysian Years, invent Malaysian recognition subjects, set timetable percentages, define Competency Graph schemas, or draft Six Worlds competency maps.
 
@@ -147,7 +155,7 @@ Readiness is **multi-source judgment**, not a single metric.
 
 ## Exploration Floor
 
-### Decision (proposed resolution of GAP-019)
+### Decision (resolution of GAP-019)
 
 The Exploration Floor is operationalised as **protected breadth dimensions** that must continue for every learner at every stage.
 
@@ -228,7 +236,7 @@ Reversibility means the architecture must provide a **designed bridge**, not per
 
 ## Bridging Architecture
 
-### Decision (proposed resolution of GAP-020)
+### Decision (resolution of GAP-020)
 
 Pathway change uses:
 
@@ -485,8 +493,6 @@ Do not invent Malaysian ages, Years, boards or statutory subject lists in this A
 
 This ADR does not:
 
-- approve itself (remains `UNDER REVIEW`);
-- treat ADR-0004 or ADR-0005 as approved;
 - set Malaysian ages, school Years, boards or regulatory pathways;
 - invent Malaysian recognition subjects or catch-up curricula;
 - set Exploration Floor or weekly timetable percentages;
@@ -496,5 +502,5 @@ This ADR does not:
 - design software workflows or AI scoring models;
 - claim bridging always makes every late change feasible within remaining school time;
 - authorise AI or any single adult to determine stage or pathway;
-- alter APPROVED FND-003 or ADR-0001–0003;
-- rewrite ADR-0004 or ADR-0005 bodies.
+- alter APPROVED FND-003 or ADR-0001–0005;
+- rewrite ADR-0004 or ADR-0005 bodies beyond dependency hygiene.

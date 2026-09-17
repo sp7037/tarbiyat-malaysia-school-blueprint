@@ -48,8 +48,8 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | Section | Path | Purpose | Status |
 |---|---|---|---|
 | 01 Learning architecture | `docs/01-learning-architecture/SECTION_README.md` | Lab-First, Mission-Based, Knowledge Studios; LAR-001 learning-time overview (ADR-0019 APPROVED; GAP-016 Closed; GAP-048 Open) | DRAFT |
-| 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce; Discover exposure via ADR-0017; Discover→Choose preparation via ADR-0018 (both UNDER REVIEW) | DRAFT |
-| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011); Discover exposure (ADR-0017); Discover→Choose pathway preparation (ADR-0018) — all UNDER REVIEW; Major+Minor | DRAFT |
+| 02 Student journey | `docs/02-student-journey/SECTION_README.md` | Explore→Discover→Choose→Deepen→Produce (ADR-0004–0006 APPROVED); Discover exposure via ADR-0017; Discover→Choose preparation via ADR-0018 | DRAFT |
+| 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011 APPROVED); Discover exposure (ADR-0017 APPROVED); Discover→Choose pathway preparation (ADR-0018 APPROVED); Major+Minor; GAP-009/047 remain | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph (GAP-009 Open); Proof of Capability (ADR-0016 APPROVED; GAP-010 Closed); POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed) | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
@@ -115,23 +115,23 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | EVD-002 | `docs/12-evidence/EVIDENCE_REGISTER.md` | DRAFT | Evidence inventory |
 | EVD-003 | `docs/12-evidence/RESEARCH_GAPS.md` | DRAFT | Research detail companion to GAP_REGISTER |
 | EVD-004 | `docs/12-evidence/SUPERSEDED_CONCEPTS.md` | APPROVED | Prevent restoration of superseded historical directions |
-| EV-0001 | `docs/12-evidence/EV-0001-developmental-stage-boundaries.md` | DRAFT | GAP-021 evidence pack for ADR-0005 windows (does not approve ADR) |
+| EV-0001 | `docs/12-evidence/EV-0001-developmental-stage-boundaries.md` | DRAFT | GAP-021 evidence pack for ADR-0005 windows (ADR-0005 APPROVED; GAP-021 Closed) |
 | DEC-000 | `docs/13-decisions/SECTION_README.md` | DRAFT | ADR process |
 | DEC-001 | `docs/13-decisions/ADR_INDEX.md` | DRAFT | ADR index |
 | DEC-TPL | `docs/13-decisions/adr/ADR-TEMPLATE.md` | DRAFT | Template |
 | ADR-0001 | `docs/13-decisions/adr/ADR-0001-core-vs-country-implementation.md` | APPROVED | v1.0.0 — Core vs country separation |
 | ADR-0002 | `docs/13-decisions/adr/ADR-0002-lab-first-mission-based.md` | APPROVED | v1.0.0 — Lab-First / Mission-Based (not lab-only) |
 | ADR-0003 | `docs/13-decisions/adr/ADR-0003-formal-examination-recognition-safety-layer.md` | APPROVED | v1.0.0 — Recognition layer + parallel capability layer |
-| ADR-0004 | `docs/13-decisions/adr/ADR-0004-student-development-progressive-specialisation.md` | UNDER REVIEW | Student development stages; Exploration Floor; Major+Minor in principle |
-| ADR-0005 | `docs/13-decisions/adr/ADR-0005-developmental-stage-boundaries-and-major-minor-entry.md` | UNDER REVIEW | Typical stage windows; readiness; Major+Minor entry at Deepen |
-| ADR-0006 | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` | UNDER REVIEW | Stage transition; Exploration Floor as protected dimensions; pathway bridging/mobility |
+| ADR-0004 | `docs/13-decisions/adr/ADR-0004-student-development-progressive-specialisation.md` | APPROVED | Student development stages; Exploration Floor; Major+Minor in principle |
+| ADR-0005 | `docs/13-decisions/adr/ADR-0005-developmental-stage-boundaries-and-major-minor-entry.md` | APPROVED | Typical stage windows; readiness; Major+Minor entry at Deepen; GAP-003/004/021 Closed |
+| ADR-0006 | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` | APPROVED | Stage transition; Exploration Floor as protected dimensions; pathway bridging; GAP-019/020 Closed |
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | UNDER REVIEW | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 proposed resolution |
-| ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | UNDER REVIEW | Six Worlds capability / progressive depth; GAP-008 proposed resolution; GAP-045–047 opened |
+| ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | APPROVED | Six Worlds capability / progressive depth; GAP-008 Closed; GAP-047 Open |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
 | ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | UNDER REVIEW | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | APPROVED | Proof of Capability / capability evidence; GAP-010 Closed; GAP-038–044 remain open/proposed; POC-001 DRAFT ops companions |
-| ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | UNDER REVIEW | Discover meaningful exposure package; GAP-045 proposed resolution |
-| ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | UNDER REVIEW | Discover→Choose pathway preparation; GAP-046 proposed resolution |
+| ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | APPROVED | Discover meaningful exposure package; GAP-045 Closed |
+| ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | APPROVED | Discover→Choose pathway preparation; GAP-046 Closed |
 | ADR-0019 | `docs/13-decisions/adr/ADR-0019-learning-time-architecture.md` | APPROVED | v1.0.0 — Learning-time architecture; closes GAP-016; GAP-048 remains Open |
 | ADR-0020 | `docs/13-decisions/adr/ADR-0020-campus-and-facilities-functional-architecture.md` | APPROVED | v1.0.0 — Campus & facilities functional architecture; closes GAP-049; GAP-050 remains Open |
 

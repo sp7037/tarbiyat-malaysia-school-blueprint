@@ -1,6 +1,6 @@
 ---
 title: Six Worlds & Pathways
-description: Human-readable summary of Six Worlds capability and progressive depth architecture (ADR-0011 under review)
+description: Human-readable summary of Six Worlds capability and progressive depth architecture (ADR-0011 APPROVED)
 ---
 
 # Six Worlds & Pathways
@@ -8,8 +8,8 @@ description: Human-readable summary of Six Worlds capability and progressive dep
 <p class="present-more"><a href="/six-worlds">← Stakeholder presentation: Six Worlds</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Six Worlds architecture drafted; not approved</strong><br/>
-  Worlds are named in the Concept Constitution. ADR-0011 proposes capability frames and progressive depth. ADR-0017 proposes the Discover meaningful-exposure package. ADR-0018 proposes Discover→Choose pathway preparation. GAP-008, GAP-045 and GAP-046 are proposed for resolution — not closed. Competency Graph schema remains open (GAP-009).
+  <strong>APPROVED Core — Six Worlds architecture</strong><br/>
+  Worlds are named in the Concept Constitution. ADR-0011 capability frames and progressive depth are APPROVED (GAP-008 Closed). ADR-0017 Discover meaningful-exposure package APPROVED (GAP-045 Closed). ADR-0018 Discover→Choose pathway preparation APPROVED (GAP-046 Closed). Competency Graph schema remains open (GAP-009). Mission World-tagging significance remains open (GAP-047).
 </div>
 
 ::: tip Portal notice
@@ -104,23 +104,23 @@ Real problems often span Worlds. A pollution Mission might combine sensing (Engi
 
 | Artefact | Status | Link |
 |---|---|---|
-| Six Worlds Capability / Progressive Depth | UNDER REVIEW | [ADR-0011](/decisions/adr-0011) |
-| Discover Meaningful Exposure Package | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
-| Discover→Choose Pathway Preparation | UNDER REVIEW | [ADR-0018](/decisions/adr-0018) |
+| Six Worlds Capability / Progressive Depth | APPROVED | [ADR-0011](/decisions/adr-0011) |
+| Discover Meaningful Exposure Package | APPROVED | [ADR-0017](/decisions/adr-0017) |
+| Discover→Choose Pathway Preparation | APPROVED | [ADR-0018](/decisions/adr-0018) |
 | Six Worlds + Major/Minor anticipation | APPROVED (high level) | [Concept Constitution](/foundation/concept-constitution) |
-| Major+Minor in principle; Discover exposure | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
-| Formal Major+Minor entry at Deepen | UNDER REVIEW | [ADR-0005](/decisions/adr-0005) |
-| Pathway mobility / bridging principles | UNDER REVIEW | [ADR-0006](/decisions/adr-0006) |
+| Student development / progressive specialisation | APPROVED | [ADR-0004](/decisions/adr-0004) |
+| Formal Major+Minor entry at Deepen | APPROVED | [ADR-0005](/decisions/adr-0005) |
+| Pathway mobility / bridging principles | APPROVED | [ADR-0006](/decisions/adr-0006) |
 | Mission Ecosystem / authenticity | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
 | Proof of Capability (individual evidence) | APPROVED | [ADR-0016](/decisions/adr-0016) |
 | Section shell | DRAFT | `docs/03-worlds-and-pathways/SECTION_README.md` |
 
 ## Related gaps
 
-- [GAP-008](/gaps#gap-008) — Six Worlds maps (proposed resolution via ADR-0011 — not closed)
+- [GAP-008](/gaps#gap-008) — Six Worlds maps (**Closed** via ADR-0011)
 - [GAP-009](/gaps#gap-009) — Competency Graph specification (remains open)
-- [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (proposed resolution via ADR-0017 — not closed)
-- [GAP-046](/gaps#gap-046) — Discover→Choose pathway preparation (proposed resolution via ADR-0018 — not closed)
+- [GAP-045](/gaps#gap-045) — Discover meaningful-exposure package (**Closed** via ADR-0017)
+- [GAP-046](/gaps#gap-046) — Discover→Choose pathway preparation (**Closed** via ADR-0018)
 - [GAP-047](/gaps#gap-047) — Mission World-tagging significance thresholds
-- [GAP-004](/gaps#gap-004) — Major + Minor introduction timing
-- [GAP-020](/gaps#gap-020) — Pathway change bridging
+- [GAP-004](/gaps#gap-004) — Major + Minor introduction timing (**Closed** via ADR-0005)
+- [GAP-020](/gaps#gap-020) — Pathway change bridging (**Closed** via ADR-0006)

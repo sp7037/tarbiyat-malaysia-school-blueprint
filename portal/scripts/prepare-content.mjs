@@ -516,16 +516,16 @@ function buildWorkstreams(adrs) {
     {
       id: 'student-dev',
       name: 'Student Development',
-      status: 'UNDER REVIEW',
-      detail: 'ADR-0004 and ADR-0005 drafted; not APPROVED.',
-      evidence: 'ADR-0004, ADR-0005',
+      status: 'APPROVED',
+      detail: 'ADR-0004–0006 APPROVED: stage architecture, typical windows + readiness, Exploration Floor as protected dimensions, pathway bridging. GAP-003/004/019/020/021 Closed. Fine Major/Minor catalogues deferred.',
+      evidence: 'ADR-0004, ADR-0005, ADR-0006',
       href: '/decisions/adr-0004'
     },
     {
       id: 'six-worlds',
       name: 'Six Worlds & Pathways',
-      status: 'UNDER REVIEW',
-      detail: 'ADR-0011 proposes Six Worlds capability frames and progressive depth (UNDER REVIEW). ADR-0017 proposes Discover meaningful-exposure package (UNDER REVIEW). ADR-0018 proposes Discover→Choose pathway preparation (UNDER REVIEW). GAP-008, GAP-045 and GAP-046 proposed resolution — not closed. Graph schema remains GAP-009. docs/03 still a shell for detailed briefs.',
+      status: 'APPROVED',
+      detail: 'ADR-0011 APPROVED (GAP-008 Closed). ADR-0017 Discover meaningful-exposure package APPROVED (GAP-045 Closed). ADR-0018 Discover→Choose pathway preparation APPROVED (GAP-046 Closed). Graph schema remains GAP-009; Mission tagging GAP-047 Open. docs/03 still a shell for detailed briefs.',
       evidence: 'ADR-0011; ADR-0017; ADR-0018; GAP-008; GAP-045–047; docs/03 SECTION_README',
       href: '/areas/six-worlds'
     },
@@ -564,9 +564,9 @@ function buildWorkstreams(adrs) {
     {
       id: 'journey',
       name: 'Student Journey',
-      status: 'UNDER REVIEW',
-      detail: 'Stage architecture proposed in ADR-0004/0005. Discover exposure package proposed in ADR-0017. Discover→Choose pathway preparation proposed in ADR-0018 (UNDER REVIEW; GAP-046 not closed). Learning-time stage postures APPROVED in ADR-0019 (GAP-016 Closed; GAP-048 Open). Dedicated journey specification not yet written.',
-      evidence: 'ADR-0004, ADR-0005; ADR-0017; ADR-0018; ADR-0019; docs/02 SECTION_README',
+      status: 'APPROVED',
+      detail: 'Stage architecture APPROVED in ADR-0004–0006. Discover exposure APPROVED in ADR-0017. Discover→Choose pathway preparation APPROVED in ADR-0018. Learning-time stage postures APPROVED in ADR-0019 (GAP-016 Closed; GAP-048 Open). Dedicated journey specification chapter not yet written.',
+      evidence: 'ADR-0004–0006; ADR-0017; ADR-0018; ADR-0019; docs/02 SECTION_README',
       href: '/areas/student-journey'
     },
     {

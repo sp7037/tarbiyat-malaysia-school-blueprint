@@ -63,11 +63,11 @@ Disciplines increasingly serve as knowledge tools for mission accomplishment, wh
 
 ## Progressive specialisation
 
-Broad exploration precedes strong pathway commitment. Later concentration uses Major + Minor structures at suitable developmental points — exact ages and operational packages remain under review and are not presented here as settled.
+Broad exploration precedes strong pathway commitment. Learners move Explore → Discover → Choose → Deepen → Produce. Choose permits provisional concentration; formal Major + Minor begins at Deepen. Pathways remain reasonably reversible with designed bridging. Undecided after meaningful exploration is acceptable. Exact Malaysian Year mappings remain country-profile work.
 
 ## Six Worlds
 
-Six developmental professional domains organise exploration, missions and later concentration. They are not career labels, school houses or replacements for academic subjects. Capability depth within a World is distinct from whole-student developmental stage.
+Six developmental professional domains organise exploration, missions and later concentration. They are not career labels, school houses, prestige ranks or six extra timetable subjects. Capability depth within a World is distinct from whole-student developmental stage. Discover requires meaningful exposure across all six Worlds.
 
 ## People who teach and guide
 
@@ -77,8 +77,8 @@ The human model proposes Educator, Practitioner and Mentor functions working in 
 
 | Topic | Presentation | Architecture record |
 |---|---|---|
-| Student stages | [Student Journey](/student-journey) | [ADR-0004](/decisions/adr-0004) (under review) |
-| Six Worlds | [Six Worlds](/six-worlds) | [ADR-0011](/decisions/adr-0011) (under review) |
+| Student stages | [Student Journey](/student-journey) | [ADR-0004](/decisions/adr-0004)–[ADR-0006](/decisions/adr-0006) approved; [ADR-0017](/decisions/adr-0017)–[ADR-0018](/decisions/adr-0018) approved |
+| Six Worlds | [Six Worlds](/six-worlds) | [ADR-0011](/decisions/adr-0011) approved |
 | Missions | [Missions](/missions) | [ADR-0002](/decisions/adr-0002) approved; [ADR-0007](/decisions/adr-0007) under review |
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) approved; [POC-001](/areas/poc-operating-standard) DRAFT |
 | Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |

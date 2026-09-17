@@ -20,15 +20,18 @@ flowchart TD
   A1["ADR-0001<br/>Core vs Country Implementation<br/>APPROVED"]
   A2["ADR-0002<br/>Lab-First / Mission-Based<br/>APPROVED"]
   A3["ADR-0003<br/>Formal Recognition Safety Layer<br/>APPROVED"]
-  A4["ADR-0004<br/>Student Development / Progressive Specialisation<br/>UNDER REVIEW"]
-  A5["ADR-0005<br/>Stage Boundaries / Major-Minor Entry<br/>UNDER REVIEW"]
-  A6["ADR-0006<br/>Transition / Exploration Floor / Mobility<br/>UNDER REVIEW"]
+  A4["ADR-0004<br/>Student Development / Progressive Specialisation<br/>APPROVED"]
+  A5["ADR-0005<br/>Stage Boundaries / Major-Minor Entry<br/>APPROVED"]
+  A6["ADR-0006<br/>Transition / Exploration Floor / Mobility<br/>APPROVED"]
   A7["ADR-0007<br/>Mission Ecosystem / Institution-in-Residence<br/>UNDER REVIEW"]
+  A11["ADR-0011<br/>Six Worlds Capability / Progressive Depth<br/>APPROVED"]
   A14["ADR-0014<br/>Student Creator Rights<br/>UNDER REVIEW"]
   A15["ADR-0015<br/>Practitioner–Educator–Mentor Faculty<br/>UNDER REVIEW"]
   A16["ADR-0016<br/>Proof of Capability / Evidence<br/>APPROVED"]
+  A17["ADR-0017<br/>Discover Meaningful Exposure<br/>APPROVED"]
+  A18["ADR-0018<br/>Discover→Choose Pathway Preparation<br/>APPROVED"]
 
-  FUT["Future architecture work<br/>Competency Graph · Discover exposure ·<br/>MY mapping · …"]
+  FUT["Future architecture work<br/>Competency Graph · Mission authenticity ·<br/>Faculty · Creator Rights · MY mapping · …"]
 
   CC --> A1
   CC --> A2
@@ -36,9 +39,12 @@ flowchart TD
   A1 --> A4
   A2 --> A4
   A3 --> A4
-  A4 -.->|assumes stage meanings<br/>and constraints| A5
-  A4 -.-> A6
-  A5 -.-> A6
+  A4 --> A5
+  A4 --> A6
+  A5 --> A6
+  A4 --> A11
+  A11 --> A17
+  A17 --> A18
   A2 --> A7
   A4 -.-> A7
   A5 -.-> A7
@@ -54,16 +60,15 @@ flowchart TD
   A1 --> FUT
   A2 --> FUT
   A3 --> FUT
-  A4 --> FUT
-  A5 --> FUT
+  A11 --> FUT
   A15 --> FUT
   A16 --> FUT
 
   classDef approved fill:#e5f4eb,stroke:#1b6b45,color:#143
   classDef review fill:#f8ecda,stroke:#8a5a12,color:#432
   classDef future fill:#eceff3,stroke:#5a6270,color:#333
-  class CC,A1,A2,A3,A16 approved
-  class A4,A5,A6,A7,A14,A15 review
+  class CC,A1,A2,A3,A4,A5,A6,A11,A16,A17,A18 approved
+  class A7,A14,A15 review
   class FUT future
 ```
 
@@ -72,23 +77,23 @@ flowchart TD
 | Link | Meaning |
 |---|---|
 | Solid arrows into ADR-0001–0003 | Founding ADRs depend on the Concept Constitution and ratify Core architecture |
-| Solid arrows into ADR-0004 | Student-development architecture depends on APPROVED FND-003 and ADR-0001–0003 |
+| Solid arrows into ADR-0004–0006 / 0011 / 0017 / 0018 | Developmental / Worlds / pathway cluster APPROVED after Integrated Human Review (2026-09-17) |
 | Solid arrow ADR-0003 → ADR-0016 | Proof of Capability elaborates the APPROVED parallel capability layer |
-| Dashed arrows among UNDER REVIEW ADRs | Later drafts assume earlier under-review constraints; if a dependency changes before approval, dependents must be re-checked |
+| Dashed arrows into UNDER REVIEW ADRs | Later drafts assume earlier constraints; if a dependency changes before approval, dependents must be re-checked |
 | Future work | Not yet decided as ADRs; includes proposed ADR-0008–0013 and open GAPs |
 
 ## Chronology vs dependency
 
-Ratification order was roughly: Constitution + ADR-0001/0002/0003 → ADR-0004…0007 / 0014 / 0015 / 0016 drafts.  
+Ratification order was roughly: Constitution + ADR-0001/0002/0003 → developmental/Worlds drafts → PoC / learning-time / campus approvals → Integrated Developmental Architecture approvals (2026-09-17).  
 ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Constitution, not a strict 0001→0002→0003 dependency chain.
 
 ## Open next design areas (from repository evidence)
 
-- Complete human review of [ADR-0004](/decisions/adr-0004)–[ADR-0007](/decisions/adr-0007), [ADR-0011](/decisions/adr-0011), [ADR-0014](/decisions/adr-0014)–[ADR-0015](/decisions/adr-0015), [ADR-0017](/decisions/adr-0017)–[ADR-0018](/decisions/adr-0018)
+- Complete human review of [ADR-0007](/decisions/adr-0007), [ADR-0014](/decisions/adr-0014)–[ADR-0015](/decisions/adr-0015)
 - [GAP-022](/gaps#gap-022) → [GAP-023](/gaps#gap-023) → [GAP-024](/gaps#gap-024): [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) → [MIS-003](/areas/mission-risk-and-safeguarding) (all DRAFT proposed resolutions — not closed); [Mission Operating Templates](/areas/mission-operating-templates) propose [GAP-031](/gaps#gap-031) resolution — not closed
-- [GAP-008](/gaps#gap-008) Six Worlds competency maps (ADR-0011 UNDER REVIEW — proposed resolution, not closed)
-- [GAP-045](/gaps#gap-045) Discover meaningful-exposure package (ADR-0017 UNDER REVIEW — proposed resolution, not closed)
-- [GAP-046](/gaps#gap-046) Discover→Choose pathway preparation (ADR-0018 UNDER REVIEW — proposed resolution, not closed)
+- [GAP-008](/gaps#gap-008) Closed by [ADR-0011](/decisions/adr-0011) APPROVED; curricula / Graph follow-ons remain
+- [GAP-045](/gaps#gap-045) Closed by [ADR-0017](/decisions/adr-0017) APPROVED
+- [GAP-046](/gaps#gap-046) Closed by [ADR-0018](/decisions/adr-0018) APPROVED
 - [GAP-047](/gaps#gap-047) Mission World-tagging significance thresholds (remain open)
 - [GAP-009](/gaps#gap-009) Competency Graph schema (kept distinct from PoC)
 - [GAP-010](/gaps#gap-010) Closed by [ADR-0016](/decisions/adr-0016) APPROVED; [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) PoC operating follow-ons ([POC-001](/areas/poc-operating-standard) DRAFT — proposed, not closed; [GAP-043](/gaps#gap-043) research remains Open)

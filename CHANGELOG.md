@@ -19,6 +19,21 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Integrated Developmental Architecture APPROVED — Student Development + Six Worlds + Pathway (2026-09-17)
+
+- Human Integrated Review of learner-development cluster passed (Explore→Produce coherence; Explore/Discover/Choose/Deepen/Produce tests; Six Worlds purpose; Meaningful Exposure; overload vs ADR-0019; pathway discovery; undecided learner; reversibility; Exploration Floor; Formal Recognition; PoC; Mentor context; equity; campus vs ADR-0020; scenarios A–J; stakeholder answers). No new Core ADR created. No invented hours, fixed pathways, aptitude scores or universal timetables.
+- Promoted to `1.0.0` / `APPROVED` (2026-09-17):
+  - `ADR-0004` Student Development and Progressive Specialisation
+  - `ADR-0005` Developmental Stage Boundaries and Major-Minor Entry
+  - `ADR-0006` Stage Transition, Exploration Floor and Pathway Mobility
+  - `ADR-0011` Six Worlds Capability and Progressive Depth
+  - `ADR-0017` Discover Meaningful Exposure Package
+  - `ADR-0018` Discover → Choose Pathway Preparation
+- Closed gaps: `GAP-003`, `GAP-004`, `GAP-008`, `GAP-019`, `GAP-020`, `GAP-021`, `GAP-045`, `GAP-046`.
+- Kept open: `GAP-009`, `GAP-018`, `GAP-047`, `GAP-048`, Malaysia gaps, faculty/Mission/creator UNDER REVIEW ADRs (`ADR-0007`, `ADR-0014`, `ADR-0015`).
+- Updated `FND-003` §7 / §13 / related-decisions table; `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, glossary, SEC-02/03, portal student-journey / Six Worlds / progress / roadmap / model; regenerated portal content.
+- No approval of ADR-0007 / 0014 / 0015; no POC/PEO/MIS/IMP approvals; no commit.
+
 ### Malaysia Country Path — GAP-001 / 002 / 007 (+ GAP-037 re-check) (2026-09-16)
 
 - Added `MY-003` (`docs/10-malaysia/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH.md`, DRAFT): Act 550 / MOE IPS / GP A3 option matrix; Formal Recognition posture by category; ownership/governance role separation; IMP-001 Hard-Blocker map; Ministry-meeting answers; legal-review pack. **No preferred path selected.** Concept Note “government-owned” kept as **proposal only**.

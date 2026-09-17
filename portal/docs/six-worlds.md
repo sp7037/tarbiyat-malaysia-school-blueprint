@@ -7,14 +7,12 @@ description: Six developmental professional domains and progressive capability d
 
 <p class="present-lede">
   Six Worlds organise exploration, missions and later concentration.
-  They are domains of equal dignity — not career labels, school houses or subject lists.
+  They are domains of equal dignity — not career labels, school houses or six timetable subjects.
 </p>
 
-<div class="planned-banner">
-  <strong>UNDER REVIEW — architecture drafted; not approved</strong><br/>
-  Worlds are named in the Concept Constitution. Capability frames and progressive depth are proposed in ADR-0011.
-  GAP-008 is proposed for resolution via ADR-0011 — not closed.
-</div>
+::: tip Authority
+Worlds are named in the Concept Constitution. Capability frames, progressive depth, Discover meaningful exposure and Discover→Choose pathway preparation are **APPROVED** Core architecture.
+:::
 
 ## What a World is
 
@@ -30,6 +28,7 @@ Worlds organise **capability and mission context**. Academic subjects may suppor
 - Legal professions students are licensed to practise
 - Rigid substitutes for recognised academic disciplines
 - A prestige hierarchy (no World is architecturally “above” another)
+- Six extra compulsory subjects on the timetable
 
 ## The Six Worlds
 
@@ -100,13 +99,17 @@ Shared across Worlds, independent of whole-student developmental stage:
 
 **Stage ≠ capability depth.** This ladder is not a universal scoring system, grade conversion table or badge sequence.
 
+## Meaningful exposure (Discover)
+
+Every learner is entitled to **meaningful exposure** across all Six Worlds during Discover. Exposure is not equal clock time and not six subjects. Talks, videos or tours alone normally do not count. Learners investigate, make, analyse, design, communicate, test, perform, solve and reflect — with a lightweight participation trace.
+
 ## Cross-World Missions
 
 Real problems often span Worlds. Missions may intentionally integrate more than one World. Not every Mission must touch all six.
 
 ## Progressive relationship to stages
 
-| Stage | World relationship (proposed) |
+| Stage | World relationship |
 |---|---|
 | Explore | Worlds mainly as adult curriculum-design tools |
 | Discover | Meaningful exposure across all Six Worlds |
@@ -118,10 +121,10 @@ Real problems often span Worlds. Missions may intentionally integrate more than 
 
 | Artefact | Status | Link |
 |---|---|---|
-| Six Worlds Capability / Progressive Depth | UNDER REVIEW | [ADR-0011](/decisions/adr-0011) |
-| Discover Meaningful Exposure Package | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
-| Discover→Choose Pathway Preparation | UNDER REVIEW | [ADR-0018](/decisions/adr-0018) |
+| Six Worlds Capability / Progressive Depth | APPROVED | [ADR-0011](/decisions/adr-0011) |
+| Discover Meaningful Exposure Package | APPROVED | [ADR-0017](/decisions/adr-0017) |
+| Discover→Choose Pathway Preparation | APPROVED | [ADR-0018](/decisions/adr-0018) |
 | Six Worlds named at Constitution level | APPROVED (high level) | [Concept Constitution](/foundation/concept-constitution) |
-| Discover exposure / Major+Minor principles | UNDER REVIEW | [ADR-0004](/decisions/adr-0004) |
+| Student development / progressive specialisation | APPROVED | [ADR-0004](/decisions/adr-0004) |
 
 Blueprint area: [Six Worlds & Pathways](/areas/six-worlds)
