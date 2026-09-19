@@ -9,8 +9,8 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead + competent safety / safeguarding functions (MIS-003 §26) |
-| Implements | MIS-003 §§3–27 risk register concept |
-| Related gaps | GAP-031; GAP-024 |
+| Implements | MIS-003 §§4–35 risk register concept (`APPROVED`) |
+| Related gaps | GAP-031; GAP-024 Closed by MIS-003 |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **R-level classifies the activity / work package — not the learner.** It is **not** a prestige score (MIS-003 §2).  

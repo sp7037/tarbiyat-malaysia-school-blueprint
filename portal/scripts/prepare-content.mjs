@@ -533,8 +533,8 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'APPROVED',
-      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. ADR-0014 APPROVED (GAP-025 Closed): Creator Rights / no automatic IP transfer. MIS-001 / MIS-002 / MIS-003 remain DRAFT (GAP-022–024 not closed). MIS-TPL-001 / MIS-FRM-* DRAFT (GAP-031 not closed). GAP-011 / 026–030 remain open.',
-      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–024; GAP-025; GAP-011; GAP-026–031',
+      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. ADR-0014 APPROVED (GAP-025 Closed): Creator Rights / no automatic IP transfer. MIS-003 APPROVED (GAP-024 Closed): Mission risk R0–R4 / stop-work / safeguarding operating method. MIS-001 / MIS-002 remain DRAFT (GAP-022–023 not closed). MIS-TPL-001 / MIS-FRM-* DRAFT (GAP-031 not closed). GAP-011 / 026–030 remain open.',
+      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–025; GAP-011; GAP-026–031',
       href: '/areas/missions'
     },
     {
@@ -814,28 +814,28 @@ const includes = [
     title: 'Mission Partner Governance (MIS-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
     description:
-      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 / ADR-0014 / ADR-0015 APPROVED.'
+      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 / ADR-0014 / ADR-0015 APPROVED; MIS-003 APPROVED.'
   },
   {
     outRel: 'areas/institution-in-residence.md',
     title: 'Institution / Industry-in-Residence (MIS-002)',
     sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
     description:
-      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 / ADR-0014 / ADR-0015 APPROVED.'
+      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 / ADR-0014 / ADR-0015 APPROVED; MIS-003 APPROVED.'
   },
   {
     outRel: 'areas/mission-risk-and-safeguarding.md',
     title: 'Mission Risk and Safeguarding (MIS-003)',
     sourceRel: 'docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md',
     description:
-      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 / ADR-0014 / ADR-0015 APPROVED where relevant.'
+      'MIS-003 APPROVED — Core Mission risk / safeguarding / stop-work operating standard (GAP-024 Closed). Country overlays remain; templates remain DRAFT (GAP-031).'
   },
   {
     outRel: 'areas/mission-operating-templates.md',
     title: 'Mission Operating Templates (MIS-TPL-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md',
     description:
-      'MIS-TPL-001 DRAFT — proposed resolution of GAP-031 (not closed). Minimum viable partner / risk / I-in-R / Creator Rights records. ADR-0014 APPROVED; templates remain DRAFT.'
+      'MIS-TPL-001 DRAFT — proposed resolution of GAP-031 (not closed). Minimum viable partner / risk / I-in-R / Creator Rights / stop-work records. MIS-003 APPROVED; templates remain DRAFT.'
   },
   {
     outRel: 'areas/mis-frm-001.md',

@@ -87,14 +87,15 @@ ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Con
 
 ## Open next design areas (from repository evidence)
 
-- Core Architecture Phase 1 substantially complete: 15 decision ADRs approved. Remaining programme work is operating standards, country/legal, pilot evidence, templates, software and business model — not further UNDER REVIEW Core ADRs.
-- [GAP-025](/gaps#gap-025) Closed by [ADR-0014](/decisions/adr-0014) APPROVED; [GAP-011](/gaps#gap-011) / [GAP-026](/gaps#gap-026)–[GAP-031](/gaps#gap-031) Creator Rights country/ops remain open
-- ADR-0015 APPROVED — PEO-001–005 / GAP-032–037 remain open
-- [GAP-022](/gaps#gap-022) → [GAP-023](/gaps#gap-023) → [GAP-024](/gaps#gap-024): [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) → [MIS-003](/areas/mission-risk-and-safeguarding) (all DRAFT proposed resolutions — not closed); [Mission Operating Templates](/areas/mission-operating-templates) propose [GAP-031](/gaps#gap-031) resolution — not closed
+- [GAP-022](/gaps#gap-022) → [GAP-023](/gaps#gap-023): [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) (DRAFT — not closed); [MIS-003](/areas/mission-risk-and-safeguarding) APPROVED / [GAP-024](/gaps#gap-024) Closed; [Mission Operating Templates](/areas/mission-operating-templates) propose [GAP-031](/gaps#gap-031) resolution — not closed
 - [GAP-008](/gaps#gap-008) Closed by [ADR-0011](/decisions/adr-0011) APPROVED; curricula / Graph follow-ons remain
 - [GAP-045](/gaps#gap-045) Closed by [ADR-0017](/decisions/adr-0017) APPROVED
 - [GAP-046](/gaps#gap-046) Closed by [ADR-0018](/decisions/adr-0018) APPROVED
 - [GAP-018](/gaps#gap-018) Closed by [ADR-0007](/decisions/adr-0007) APPROVED
+- [GAP-024](/gaps#gap-024) Closed by [MIS-003](/areas/mission-risk-and-safeguarding) APPROVED
+- [GAP-025](/gaps#gap-025) Closed by [ADR-0014](/decisions/adr-0014) APPROVED; [GAP-011](/gaps#gap-011) / [GAP-026](/gaps#gap-026)–[GAP-031](/gaps#gap-031) Creator Rights country/ops remain open
+- ADR-0015 APPROVED — PEO-001–005 / GAP-032–037 remain open
+- Core Architecture Phase 1 substantially complete: 15 decision ADRs approved. Remaining programme work is operating standards, country/legal, pilot evidence, templates, software and business model — not further UNDER REVIEW Core ADRs.
 - [GAP-047](/gaps#gap-047) Mission World-tagging significance thresholds (remain open)
 - [GAP-009](/gaps#gap-009) Competency Graph schema (kept distinct from PoC)
 - [GAP-010](/gaps#gap-010) Closed by [ADR-0016](/decisions/adr-0016) APPROVED; [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) PoC operating follow-ons ([POC-001](/areas/poc-operating-standard) DRAFT — proposed, not closed; [GAP-043](/gaps#gap-043) research remains Open)

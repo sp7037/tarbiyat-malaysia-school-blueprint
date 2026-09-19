@@ -3,18 +3,20 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.22.0` |
+| Version | `0.22.1` |
 | Status | `DRAFT` |
 | Last reviewed | `2026-09-19` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–13 ADR drafts; Core Architecture Phase 1 complete (2026-09-19) |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–13 ADR drafts; Core Architecture Phase 1 complete (2026-09-19); MIS-003 first APPROVED operating standard (2026-09-19) |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
 
 > **Core Architecture Phase 1 substantially complete: 15 decision ADRs approved.**  
 > Remaining programme work: operating standards, country/legal implementation, pilot/evidence, templates/records, software/Tarbiyat OS, and business/economic model — not further UNDER REVIEW Core decision ADRs.
+>
+> **Operating-standard precedent:** Substantive operating standards (e.g. `MIS-003`) use the existing `PROJECT_RULES` lifecycle (DRAFT → UNDER REVIEW → APPROVED) and require human review. Approval of one operating standard does **not** approve companion MIS/PEO/POC/MY/IMP packs, templates, or country law.
 
 ---
 
@@ -55,7 +57,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011 APPROVED); Discover exposure (ADR-0017 APPROVED); Discover→Choose pathway preparation (ADR-0018 APPROVED); Major+Minor; GAP-009/047 remain | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph (GAP-009 Open); Proof of Capability (ADR-0016 APPROVED; GAP-010 Closed); POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed) | DRAFT |
-| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding; MIS-TPL-001 / MIS-FRM-* templates | DRAFT |
+| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding APPROVED (GAP-024 Closed); MIS-TPL-001 / MIS-FRM-* templates DRAFT | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–005 authorisation / currency / development / Mission capacity / Mentor caseload | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Functional campus/facilities architecture; CAM-001 overview (ADR-0020 APPROVED; GAP-049 Closed; GAP-050 Open) | DRAFT |
@@ -74,7 +76,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | POC-FRM-005 | `docs/05-assessment/templates/POC-FRM-005-claim-challenge-correction-record.md` | DRAFT | Claim Challenge / Correction Record |
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
-| MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | DRAFT | Mission Risk and Safeguarding Classification — proposed GAP-024 resolution (not closed) |
+| MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | APPROVED | Mission Risk and Safeguarding Classification — GAP-024 Closed; country overlays / templates remain open |
 | MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | DRAFT | Mission Operating Templates index — proposed GAP-031 resolution (not closed) |
 | MIS-FRM-001 | `docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md` | DRAFT | Unified Mission Partner Pack |
 | MIS-FRM-002 | `docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | DRAFT | Practitioner Onboarding Acknowledgement |

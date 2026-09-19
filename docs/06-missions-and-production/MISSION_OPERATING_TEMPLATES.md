@@ -8,11 +8,11 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `MIS-001`–`MIS-003` DRAFT; `ADR-0007` / `ADR-0014` / `ADR-0015` UNDER REVIEW; `FND-003` APPROVED |
+| Dependencies | `MIS-001`–`MIS-002` DRAFT; `MIS-003` APPROVED; `ADR-0007` / `ADR-0014` / `ADR-0015` APPROVED; `FND-003` APPROVED |
 | Related gaps | GAP-031 (this pack); GAP-022–024; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-035 (`PEO-002` / `MIS-FRM-008`); GAP-026 (country IP mapping remains open) |
 | Source documents | MIS-001 / MIS-002 / MIS-003; ADR-0007 Deployment Boundary; ADR-0014 Creator Rights; Human-Readiness Review of Mission Operating System (2026-09) |
 
-> **Authority note:** These are **operational educational records / templates**. They implement architecture already stated in MIS-001–003 and related ADRs. Governing ADRs remain **`UNDER REVIEW`** and are **not** approved law. Templates are **not** legal contracts and do **not** replace country-required safeguarding, privacy, IP, labour, clinical, insurance or contracting documents.
+> **Authority note:** These are **operational educational records / templates**. They implement architecture already stated in MIS-001–003 and related ADRs. `MIS-003` is **APPROVED**; `MIS-001` / `MIS-002` remain **DRAFT**. Templates are **not** legal contracts and do **not** replace country-required safeguarding, privacy, IP, labour, clinical, insurance or contracting documents.
 
 ---
 
@@ -73,9 +73,9 @@ Internal annex labels: **005-A** IP / Creator Rights · **005-B** Data / Access 
 
 | ID | Template | Classification | Path |
 |---|---|---|---|
-| **MIS-FRM-006** | Escalation Records — Deployment Review + Suspension / Exit | **CONDITIONAL RECORD** | [`templates/MIS-FRM-006-deployment-and-exit.md`](templates/MIS-FRM-006-deployment-and-exit.md) |
+| **MIS-FRM-006** | Escalation Records — Deployment Review + Suspension / Exit + Stop-Work / Incident / Restart | **CONDITIONAL RECORD** | [`templates/MIS-FRM-006-deployment-and-exit.md`](templates/MIS-FRM-006-deployment-and-exit.md) |
 
-Internal labels: **006-A** Deployment Review · **006-B** Suspension / Exit.
+Internal labels: **006-A** Deployment Review · **006-B** Suspension / Exit · **006-C** Stop-Work / Incident / Restart.
 
 ### Practitioner authorisation (GAP-033)
 
@@ -110,6 +110,7 @@ Core templates leave space for these; they do **not** invent them.
 | Practitioner scoped permissions / regular learner work | FRM-002 + FRM-007 (`PEO-001`) |
 | Currency / re-authorisation review | FRM-008 (`PEO-002`); renew ≠ expand |
 | Partner pause / downgrade / breach | FRM-006-B |
+| Stop-work / incident / near miss / restart | FRM-006-C |
 
 ---
 

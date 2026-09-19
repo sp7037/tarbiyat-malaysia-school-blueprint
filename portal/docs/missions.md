@@ -11,7 +11,7 @@ description: Mission-based authentic learning in the Tarbiyat architecture
 </p>
 
 ::: tip Authority
-Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Creator Rights architecture is **APPROVED** (ADR-0014; GAP-025 Closed). Partner / I-in-R / risk operating packs **MIS-001–003** remain **DRAFT** (GAP-022–024 — not closed).
+Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Creator Rights architecture is **APPROVED** (ADR-0014; GAP-025 Closed). Mission Risk / Safeguarding operating standard is **APPROVED** (MIS-003; GAP-024 Closed). Partner / I-in-R packs **MIS-001–002** and templates remain **DRAFT** (GAP-022–023 / 031 — not closed).
 :::
 
 ## What makes a Mission
@@ -61,8 +61,9 @@ Operating companions: [MIS-001](/areas/mission-partner-governance), [MIS-002](/a
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem | APPROVED |
 | [ADR-0014](/decisions/adr-0014) — Creator Rights | APPROVED |
 | [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | APPROVED |
+| [MIS-003](/areas/mission-risk-and-safeguarding) — Mission Risk / Safeguarding | APPROVED (GAP-024 Closed; FRM templates DRAFT) |
 | [MIS-001](/areas/mission-partner-governance) | DRAFT (GAP-022 — not closed) |
 | [MIS-002](/areas/institution-in-residence) | DRAFT (GAP-023 — not closed) |
-| [MIS-003](/areas/mission-risk-and-safeguarding) | DRAFT (GAP-024 — not closed) |
+| [Mission Operating Templates](/areas/mission-operating-templates) | DRAFT (GAP-031 — not closed) |
 
 Blueprint area: [Missions & Production](/areas/missions)

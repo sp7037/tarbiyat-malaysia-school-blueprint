@@ -19,6 +19,15 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### MIS-003 APPROVED — Mission Risk and Safeguarding Classification (2026-09-19) — Phase 2 start
+
+- Phase 2 operating-standard human review of `MIS-003` passed (Core/operating boundary; R0–R4 qualitative domains; authenticity≠risk; pre-Mission proportionality; authority map; stop-work usable without sponsor approval; restart rules; capacity coupling; external-adult / off-site governance; data/PoC/Creator Rights compatibility; AI non-authority; incident/near-miss; partner failure; hostile scenarios; anti-paperwork; pilot Gate E requirements; Malaysia Country-Legal Dependency List without invented statutes). Classification: READY WITH EDITORIAL/OPERATING HYGIENE ONLY.
+- Lifecycle recording: `PROJECT_RULES` §6 is DRAFT → UNDER REVIEW → APPROVED. `MIS-003` was committed `0.1.1` / `DRAFT`; the Phase 2 human-review session itself constituted the `UNDER REVIEW` stage and human decision marked `1.0.0` / `APPROVED` in one commit (no separate intermediate UNDER REVIEW commit required when review proceeds immediately to decision). This does **not** invent a new convention; it records how the existing lifecycle was satisfied.
+- Precedent: first APPROVED Core **operating standard**. Does **not** casually approve MIS-001/002, templates, PEO, POC, MY or IMP; each still requires its own human review under the same lifecycle. Country safeguarding law remains Country Profile work.
+- `GAP-024` Closed. `GAP-022` / `GAP-023` / `GAP-031` remain Proposed / not closed (`MIS-001` / `MIS-002` / templates DRAFT). No invented ratios, risk scores, age thresholds or Malaysian safeguarding law.
+- Operating hygiene included: restart-after-stop; safeguarding disclosure; capacity coupling; pre-Mission review table; external-adult access limits; partner premises ≠ automatic safe; `MIS-FRM-006-C` Stop-Work / Incident / Restart record (templates remain DRAFT).
+- Updated `MASTER_INDEX`, `GAP_REGISTER`, SEC-06, portal missions / progress / roadmap, prepare-content.
+
 ### ADR-0014 APPROVED — Student Creator Rights / IP / Micro-Venture Architecture (2026-09-19)
 
 - Human Creator Rights review passed (creator recognition distinctions; no automatic IP transfer; Core vs country law; Contribution Records / ADR-0016; school & partner use; commercially valuable work; optional entrepreneurship; educational vs legal enterprise; minors/power imbalance; safeguarding/privacy; confidentiality; AI-assisted work; open release; mixed contribution; PoC separation; Mission / Formal Recognition compatibility; equity; dispute architecture; hostile scenarios A–O; anti-exploitation). Classification: READY WITH EDITORIAL HYGIENE ONLY.
