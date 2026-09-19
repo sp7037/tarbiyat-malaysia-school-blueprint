@@ -12,7 +12,7 @@ description: Architecture area — student journey (APPROVED Core stage architec
   Constitution names Explore→Discover→Choose→Deepen→Produce. ADR-0004–0006 are APPROVED.
   ADR-0017 Discover meaningful-exposure package APPROVED (GAP-045 Closed).
   ADR-0018 Discover→Choose pathway preparation APPROVED (GAP-046 Closed).
-  Human Mentor capacity for pathway dialogue: [PEO-005](/areas/mentor-caseload-capacity) (GAP-034 proposed — not closed; ADR-0015 still UNDER REVIEW).
+  Human Mentor capacity for pathway dialogue: [PEO-005](/areas/mentor-caseload-capacity) (GAP-034 proposed — not closed; ADR-0015 APPROVED; PEO-005 remains DRAFT).
   The dedicated section under <code>docs/02-student-journey/</code> remains a DRAFT shell for detailed specs.
 </div>
 

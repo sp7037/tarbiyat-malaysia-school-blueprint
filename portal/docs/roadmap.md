@@ -26,7 +26,7 @@ flowchart TD
   A7["ADR-0007<br/>Mission Ecosystem / Institution-in-Residence<br/>APPROVED"]
   A11["ADR-0011<br/>Six Worlds Capability / Progressive Depth<br/>APPROVED"]
   A14["ADR-0014<br/>Student Creator Rights<br/>UNDER REVIEW"]
-  A15["ADR-0015<br/>Practitioner–Educator–Mentor Faculty<br/>UNDER REVIEW"]
+  A15["ADR-0015<br/>Practitioner–Educator–Mentor Faculty<br/>APPROVED"]
   A16["ADR-0016<br/>Proof of Capability / Evidence<br/>APPROVED"]
   A17["ADR-0017<br/>Discover Meaningful Exposure<br/>APPROVED"]
   A18["ADR-0018<br/>Discover→Choose Pathway Preparation<br/>APPROVED"]
@@ -84,12 +84,12 @@ flowchart TD
 
 ## Chronology vs dependency
 
-Ratification order was roughly: Constitution + ADR-0001/0002/0003 → developmental/Worlds drafts → PoC / learning-time / campus approvals → Integrated Developmental Architecture approvals → ADR-0007 Mission Ecosystem approval (2026-09-17).  
+Ratification order was roughly: Constitution + ADR-0001/0002/0003 → developmental/Worlds drafts → PoC / learning-time / campus approvals → Integrated Developmental Architecture approvals → ADR-0007 Mission Ecosystem approval (2026-09-17) → ADR-0015 Faculty Architecture approval (2026-09-19).  
 ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Constitution, not a strict 0001→0002→0003 dependency chain.
 
 ## Open next design areas (from repository evidence)
 
-- Complete human review of [ADR-0014](/decisions/adr-0014)–[ADR-0015](/decisions/adr-0015)
+- Complete human review of [ADR-0014](/decisions/adr-0014) (Creator Rights); ADR-0015 APPROVED — PEO-001–005 / GAP-032–037 remain open
 - [GAP-022](/gaps#gap-022) → [GAP-023](/gaps#gap-023) → [GAP-024](/gaps#gap-024): [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) → [MIS-003](/areas/mission-risk-and-safeguarding) (all DRAFT proposed resolutions — not closed); [Mission Operating Templates](/areas/mission-operating-templates) propose [GAP-031](/gaps#gap-031) resolution — not closed
 - [GAP-008](/gaps#gap-008) Closed by [ADR-0011](/decisions/adr-0011) APPROVED; curricula / Graph follow-ons remain
 - [GAP-045](/gaps#gap-045) Closed by [ADR-0017](/decisions/adr-0017) APPROVED
@@ -98,7 +98,7 @@ ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Con
 - [GAP-047](/gaps#gap-047) Mission World-tagging significance thresholds (remain open)
 - [GAP-009](/gaps#gap-009) Competency Graph schema (kept distinct from PoC)
 - [GAP-010](/gaps#gap-010) Closed by [ADR-0016](/decisions/adr-0016) APPROVED; [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) PoC operating follow-ons ([POC-001](/areas/poc-operating-standard) DRAFT — proposed, not closed; [GAP-043](/gaps#gap-043) research remains Open)
-- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) Faculty staffing evidence and country role mapping; [GAP-032](/gaps#gap-032) via [PEO-004](/areas/mission-team-capacity); [GAP-033](/gaps#gap-033) via [PEO-001](/areas/practitioner-authorisation); [GAP-034](/gaps#gap-034) via [PEO-005](/areas/mentor-caseload-capacity); [GAP-035](/gaps#gap-035) via [PEO-002](/areas/practitioner-currency); [GAP-036](/gaps#gap-036) via [PEO-003](/areas/faculty-practitioner-development) — proposed, not closed; [GAP-037](/gaps#gap-037) proposed via [MY-002](/country/malaysia-regulated-people) — not closed
+- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) Faculty ops / country mapping (governing ADR-0015 APPROVED; gaps not closed); [GAP-032](/gaps#gap-032) via [PEO-004](/areas/mission-team-capacity); [GAP-033](/gaps#gap-033) via [PEO-001](/areas/practitioner-authorisation); [GAP-034](/gaps#gap-034) via [PEO-005](/areas/mentor-caseload-capacity); [GAP-035](/gaps#gap-035) via [PEO-002](/areas/practitioner-currency); [GAP-036](/gaps#gap-036) via [PEO-003](/areas/faculty-practitioner-development) — proposed, not closed; [GAP-037](/gaps#gap-037) proposed via [MY-002](/country/malaysia-regulated-people) — not closed
 - [GAP-049](/gaps#gap-049) Campus & facilities functional architecture ([ADR-0020](/decisions/adr-0020) APPROVED — Closed); [GAP-050](/gaps#gap-050) facility inventories / phased programmes remain Open; overview [CAM-001](/areas/campus-facilities)
 - [GAP-051](/gaps#gap-051) First-pilot commissioning / readiness ([IMP-001](/areas/pilot-commissioning) DRAFT — proposed, not closed)
 - [GAP-002](/gaps#gap-002) Malaysia recognition/exam mapping — **Partial** via [MY-003](/country/malaysia-school-path) (package not selected)

@@ -54,7 +54,7 @@ Operating companions: [MIS-001](/areas/mission-partner-governance), [MIS-002](/a
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem | APPROVED |
 | [ADR-0014](/decisions/adr-0014) — Creator Rights | UNDER REVIEW |
-| [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | UNDER REVIEW |
+| [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | APPROVED |
 | [MIS-001](/areas/mission-partner-governance) | DRAFT (GAP-022 — not closed) |
 | [MIS-002](/areas/institution-in-residence) | DRAFT (GAP-023 — not closed) |
 | [MIS-003](/areas/mission-risk-and-safeguarding) | DRAFT (GAP-024 — not closed) |

@@ -18,7 +18,7 @@ description: Mission Ecosystem — MIS-001 / MIS-002 / MIS-003 + Mission Operati
 </div>
 
 ::: tip Portal notice
-Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. MIS operating packs and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0014 / ADR-0015 remain UNDER REVIEW.
+Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. MIS operating packs and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0014 remains UNDER REVIEW. ADR-0015 Faculty Architecture is APPROVED (PEO ops remain DRAFT).
 :::
 
 ## Architectural chain
@@ -36,7 +36,7 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 | Lab-First / Mission-Based architecture | APPROVED | [ADR-0002](/decisions/adr-0002) |
 | Mission Ecosystem / authenticity / Campus Live Workflow / I-in-R | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights / IP | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
-| Practitioner–Educator–Mentor / Mission Teams | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
+| Practitioner–Educator–Mentor / Mission Teams | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Mission Partner Governance (`MIS-001`) | DRAFT | [Portal](/areas/mission-partner-governance) |
 | Institution / Industry-in-Residence (`MIS-002`) | DRAFT | [Portal](/areas/institution-in-residence) |
 | Mission Risk and Safeguarding (`MIS-003`) | DRAFT | [Portal](/areas/mission-risk-and-safeguarding) |

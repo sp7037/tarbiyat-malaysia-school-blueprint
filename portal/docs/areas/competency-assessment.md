@@ -78,9 +78,9 @@ Fictional example for architecture communication only. No personal data.
 | Proof of Capability / Capability Evidence | APPROVED | [ADR-0016](/decisions/adr-0016) |
 | PoC Operating Standard | DRAFT | [POC-001](/areas/poc-operating-standard) |
 | PoC Operating Templates | DRAFT | [POC-TPL-001](/areas/poc-operating-templates) |
-| Discover Exposure Evidence ≠ PoC Claims | UNDER REVIEW | [ADR-0017](/decisions/adr-0017) |
+| Discover Exposure Evidence ≠ PoC Claims | APPROVED | [ADR-0017](/decisions/adr-0017) |
 | Formal Recognition + parallel capability layer | APPROVED | [ADR-0003](/decisions/adr-0003) |
-| Faculty multi-stream assessment | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
+| Faculty multi-stream assessment | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Contribution Records / sanitised evidence | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
 | Assessment section | DRAFT | `docs/05-assessment/` |
 

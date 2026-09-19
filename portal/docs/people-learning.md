@@ -11,12 +11,12 @@ description: High-level view of Tarbiyat’s human learning model — faculty fu
 </p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — faculty architecture drafted; people operating standards DRAFT</strong><br/>
-  ADR-0015 proposes Practitioner–Educator–Mentor functions inside professional learning teams.
-  Core now separates <strong>function</strong>, <strong>authorisation</strong>, <strong>currency</strong>, <strong>development</strong>, <strong>Mission capacity</strong> and <strong>Mentor capacity</strong>
-  (PEO-001–005 DRAFT — proposed resolutions, not closed).
-  Numeric staffing / Mentor ratios remain unsettled.
-  Malaysia regulated-role mapping is drafted as <a href="/country/malaysia-regulated-people">MY-002</a> (GAP-037 proposed — not closed).
+  <strong>APPROVED Core — Educator + Practitioner + Mentor</strong><br/>
+  ADR-0015 defines peer faculty functions inside professional learning teams:
+  lawful teaching authority, scoped Practitioner expertise, meaningful Mentor relationship, and honest capacity.
+  Operating detail remains in PEO-001–005 (<strong>DRAFT</strong> — GAP-032–036 not closed).
+  No universal Core staffing / Mentor ratios.
+  Malaysia regulated-role mapping remains <a href="/country/malaysia-regulated-people">MY-002</a> DRAFT (GAP-037 — not closed).
 </div>
 
 ## How to read the people model
@@ -39,7 +39,7 @@ Remember:
 
 Detailed standards live in the Blueprint: [People & Culture](/areas/people-and-culture).
 
-## Three proposed faculty functions
+## Three faculty functions
 
 | Function | In plain terms |
 |---|---|
@@ -47,7 +47,7 @@ Detailed standards live in the Blueprint: [People & Culture](/areas/people-and-c
 | **Practitioner** | Brings current or recent professional expertise into labs and missions across **all Six Worlds** |
 | **Mentor** | Holds a serious longitudinal relationship — reflection, pathway dialogue, wellbeing observation and referral |
 
-These are proposed as **functions**, not ranks. One prepared person may hold more than one. Nobody is architecturally “Tier-1” above anyone else.
+These are **functions**, not ranks. One prepared person may hold more than one. Nobody is architecturally “Tier-1” above anyone else.
 
 ## Supporting people (not collapsed into “Mentor”)
 
@@ -61,9 +61,9 @@ Partner commercial pressure does not override educational purpose. External Inst
 
 | Artefact | Status |
 |---|---|
-| [ADR-0015](/decisions/adr-0015) — Practitioner–Educator–Mentor faculty | UNDER REVIEW |
+| [ADR-0015](/decisions/adr-0015) — Practitioner–Educator–Mentor faculty | APPROVED |
 | [People & Culture](/areas/people-and-culture) — PEO-001–005 overview | DRAFT companions |
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
-| [ADR-0007](/decisions/adr-0007) — Mission Ecosystem / Institution-in-Residence | UNDER REVIEW |
+| [ADR-0007](/decisions/adr-0007) — Mission Ecosystem / Institution-in-Residence | APPROVED |
 
 Blueprint area: [People & Culture](/areas/people-and-culture)

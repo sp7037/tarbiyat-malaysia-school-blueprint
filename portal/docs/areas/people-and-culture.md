@@ -1,6 +1,6 @@
 ---
 title: People & Culture — How Tarbiyat Staffs a Different Kind of School
-description: Human-readable summary of the Practitioner–Educator–Mentor faculty architecture (ADR-0015 under review)
+description: Human-readable summary of the Practitioner–Educator–Mentor faculty architecture (ADR-0015 APPROVED)
 ---
 
 # How Tarbiyat Staffs a Different Kind of School
@@ -8,8 +8,9 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>UNDER REVIEW — Faculty architecture drafted; PEO ops DRAFT</strong><br/>
-  ADR-0015 proposes Practitioner–Educator–Mentor functions.
+  <strong>APPROVED Core faculty architecture; PEO ops remain DRAFT</strong><br/>
+  ADR-0015 defines Educator + Practitioner + Mentor as peer functions —
+  with lawful authority, scoped expertise, meaningful relationship and honest capacity.
   <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation) ↔
   <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency) ↔
   <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development)
@@ -89,7 +90,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 
 | Artefact | Status | Link |
 |---|---|---|
-| Practitioner–Educator–Mentor Faculty Architecture | UNDER REVIEW | [ADR-0015](/decisions/adr-0015) |
+| Practitioner–Educator–Mentor Faculty Architecture | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Practitioner Authorisation and Onboarding (`PEO-001`) | DRAFT | [Portal](/areas/practitioner-authorisation) |
 | Practitioner Currency and Re-authorisation (`PEO-002`) | DRAFT | [Portal](/areas/practitioner-currency) |
 | Faculty and Practitioner Development (`PEO-003`) | DRAFT | [Portal](/areas/faculty-practitioner-development) |
@@ -99,7 +100,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Mentor Caseload and Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
 | Mentor Caseload Review (`PEO-FRM-003`) | DRAFT | [Portal](/areas/peo-frm-003) |
 | Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
-| Mission Ecosystem / Educationalisation / Institution-in-Residence | UNDER REVIEW | [ADR-0007](/decisions/adr-0007) |
+| Mission Ecosystem / Educationalisation / Institution-in-Residence | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
 | Lab-First / Mission-Based | APPROVED | [ADR-0002](/decisions/adr-0002) |
 | People & governance section | DRAFT | `docs/08-people-and-governance/SECTION_README.md` |

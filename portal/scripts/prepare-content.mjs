@@ -572,8 +572,8 @@ function buildWorkstreams(adrs) {
     {
       id: 'operating',
       name: 'School Operating Model',
-      status: 'UNDER REVIEW',
-      detail: 'ADR-0015 proposes Practitioner–Educator–Mentor faculty architecture (UNDER REVIEW). PEO-001–005 draft authorisation / currency / development / capacity. Malaysia regulated people mapping drafted as MY-002 (GAP-037 proposed — not closed).',
+      status: 'APPROVED',
+      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001–005 remain DRAFT (GAP-032–036 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights remains UNDER REVIEW.',
       evidence: 'ADR-0015; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037',
       href: '/areas/people-and-culture'
     },
@@ -814,21 +814,21 @@ const includes = [
     title: 'Mission Partner Governance (MIS-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
     description:
-      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 APPROVED; ADR-0014 / 0015 remain UNDER REVIEW.'
+      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW.'
   },
   {
     outRel: 'areas/institution-in-residence.md',
     title: 'Institution / Industry-in-Residence (MIS-002)',
     sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
     description:
-      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 APPROVED; ADR-0014 / 0015 remain UNDER REVIEW.'
+      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW.'
   },
   {
     outRel: 'areas/mission-risk-and-safeguarding.md',
     title: 'Mission Risk and Safeguarding (MIS-003)',
     sourceRel: 'docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md',
     description:
-      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 APPROVED; faculty ADRs remain UNDER REVIEW where relevant.'
+      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW where relevant.'
   },
   {
     outRel: 'areas/mission-operating-templates.md',
@@ -884,14 +884,14 @@ const includes = [
     title: 'Practitioner Authorisation and Onboarding (PEO-001)',
     sourceRel: 'docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md',
     description:
-      'PEO-001 DRAFT — proposed operational resolution of GAP-033 (not closed). Professional title ≠ Tarbiyat authorisation. ADR-0015 remains UNDER REVIEW.'
+      'PEO-001 DRAFT — proposed operational resolution of GAP-033 (not closed). Professional title ≠ Tarbiyat authorisation. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
   },
   {
     outRel: 'areas/practitioner-currency.md',
     title: 'Practitioner Currency and Re-authorisation (PEO-002)',
     sourceRel: 'docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md',
     description:
-      'PEO-002 DRAFT — proposed operational resolution of GAP-035 (not closed). Authorised once ≠ authorised forever. ADR-0015 remains UNDER REVIEW.'
+      'PEO-002 DRAFT — proposed operational resolution of GAP-035 (not closed). Authorised once ≠ authorised forever. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
   },
   {
     outRel: 'areas/mis-frm-008.md',
@@ -904,7 +904,7 @@ const includes = [
     title: 'Faculty and Practitioner Development (PEO-003)',
     sourceRel: 'docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md',
     description:
-      'PEO-003 DRAFT — proposed operational resolution of GAP-036 (not closed). Development ≠ authorisation ≠ currency. ADR-0015 remains UNDER REVIEW.'
+      'PEO-003 DRAFT — proposed operational resolution of GAP-036 (not closed). Development ≠ authorisation ≠ currency. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
   },
   {
     outRel: 'areas/peo-frm-001.md',
@@ -917,7 +917,7 @@ const includes = [
     title: 'Mission Team Loading and Staffing Capacity (PEO-004)',
     sourceRel: 'docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md',
     description:
-      'PEO-004 DRAFT — proposed operational resolution of GAP-032 (not closed). Staff count ≠ Mission capacity. ADR-0015 remains UNDER REVIEW.'
+      'PEO-004 DRAFT — proposed operational resolution of GAP-032 (not closed). Staff count ≠ Mission capacity. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
   },
   {
     outRel: 'areas/peo-frm-002.md',
@@ -930,7 +930,7 @@ const includes = [
     title: 'Mentor Caseload and Human-Guidance Capacity (PEO-005)',
     sourceRel: 'docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md',
     description:
-      'PEO-005 DRAFT — proposed operational resolution of GAP-034 (not closed). Assigned learners ≠ meaningfully mentored. ADR-0015 remains UNDER REVIEW.'
+      'PEO-005 DRAFT — proposed operational resolution of GAP-034 (not closed). Assigned learners ≠ meaningfully mentored. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
   },
   {
     outRel: 'areas/peo-frm-003.md',

@@ -71,7 +71,7 @@ Six developmental professional domains organise exploration, missions and later 
 
 ## People who teach and guide
 
-The human model proposes Educator, Practitioner and Mentor functions working in professional teams — drafted under review, with staffing ratios and country registration mapping still open. See [People & Learning](/people-learning).
+The human model uses Educator, Practitioner and Mentor as peer functions in professional teams (ADR-0015 APPROVED). Operating ratios and country registration mapping remain open (PEO / MY DRAFT). See [People & Learning](/people-learning).
 
 ## Where to go deeper
 
@@ -83,5 +83,6 @@ The human model proposes Educator, Practitioner and Mentor functions working in 
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) approved; [POC-001](/areas/poc-operating-standard) DRAFT |
 | Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |
 | Campus / facilities | [CAM-001](/areas/campus-facilities) | [ADR-0020](/decisions/adr-0020) approved |
+| People / faculty | [People & Learning](/people-learning) | [ADR-0015](/decisions/adr-0015) approved; PEO-001–005 DRAFT |
 | Pilot commissioning | [IMP-001](/areas/pilot-commissioning) | DRAFT readiness gates; [GAP-051](/gaps#gap-051) proposed |
 | Full record | [Blueprint](/blueprint/) | [Concept Constitution](/foundation/concept-constitution) |

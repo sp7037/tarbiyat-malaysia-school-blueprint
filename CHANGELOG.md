@@ -19,6 +19,14 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### ADR-0015 APPROVED — Practitioner–Educator–Mentor Faculty Architecture (2026-09-19)
+
+- Human Faculty Capacity review passed (three-function peer model; Educator lawful authority; scoped Practitioner authorisation; longitudinal Mentor; Mission/PoC/pathway compatibility; safeguarding; capacity coupling; currency; scalability; Malaysia/MY-002 compatibility; pilot readiness; AI boundary; role-collision / anti-theatre tests; authorisation asymmetry; Core vs PEO separation). Classification: READY WITH EDITORIAL HYGIENE ONLY.
+- `ADR-0015` promoted `0.1.2` / `UNDER REVIEW` → `1.0.0` / `APPROVED` (2026-09-19). Editorial hygiene: dependency alignment to APPROVED ADR-0004–0007 / 0011 / 0016 / 0019 / 0020; ADR-0014 remains UNDER REVIEW context only; PEO-001–005 remain DRAFT.
+- `GAP-032`–`037` remain Proposed / not closed (ops via PEO / MY-002). No PEO / MY / POC / MIS / IMP approvals. No invented staffing ratios, Mentor ratios, salaries or headcounts.
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, FND-003 related-decisions, portal people / progress / roadmap / model / governance, prepare-content workstream.
+- No commit in this review iteration unless separately requested.
+
 ### ADR-0007 APPROVED — Mission Ecosystem / Authenticity / Institution-in-Residence (2026-09-17)
 
 - Human Mission Authenticity review passed (Mission vs Activity/Project; A–F authenticity ladder; Education-First; Educationalisation; lifecycle; partner governance; I-in-R; safeguarding ≠ authenticity; PoC / learning-time / campus / Six Worlds / developmental compatibility; hostile scenarios; anti-theatre). Classification: READY WITH EDITORIAL HYGIENE ONLY.

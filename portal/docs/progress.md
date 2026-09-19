@@ -45,6 +45,7 @@ Only formally **APPROVED** governing work:
 | [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | 1.0.0 | `APPROVED` (GAP-045 Closed) |
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | 1.0.0 | `APPROVED` (GAP-046 Closed) |
 | [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Open) |
+| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.0 | `APPROVED` (GAP-032–037 remain Proposed / not closed) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
 
 **Closed Core design conflicts** (not Malaysia gaps): exam abolition as Core direction; Competency Graph replacing statutory exams; lab-only extremes; boarding as universal Core mandate; sovereign DC as automatic Core mandate — see [Gap Register — Closed](/gaps).
@@ -58,7 +59,6 @@ Only formally **APPROVED** governing work:
 | Item | Status | Notes |
 |---|---|---|
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | `UNDER REVIEW` | Creator Rights / IP / Micro-Venture |
-| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | `UNDER REVIEW` | Practitioner–Educator–Mentor; professional teams |
 | [Malaysia Implementation Profile](/country/malaysia) | `DRAFT` skeleton | No invented regulations; research gaps open |
 | Most foundation companions (Charter, Vision, Glossary, …) | `DRAFT` | Skeletons / incomplete companions |
 | Repository indexes (Master Index, Gap Register, Changelog) | `DRAFT` | Operational documents |
@@ -84,7 +84,7 @@ Known work not yet completed (documentation evidence):
 | First-pilot commissioning / readiness | IMP-001 / IMP-FRM-001 DRAFT; GAP-051 proposed — not closed | [IMP-001](/areas/pilot-commissioning), [GAP-051](/gaps#gap-051), [Implementation](/areas/implementation) |
 | Detailed section specs (01–09) | Many still `SECTION_README` shells; §05/06/08/09/11 have operating companions | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
-| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | Architecture + PEO-001–005 drafted; MY-002 Malaysia mapping DRAFT (GAP-037 proposed — not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
+| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | ADR-0015 APPROVED; PEO-001–005 / MY-002 remain DRAFT (GAP-032–037 not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
 | Malaysia licensing / exam / governance research | MY-003 DRAFT option matrix lodged; GAP-001/002/007 **Partial** (category / package / ownership **not** decided); not MOE approval | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), [MY-003](/country/malaysia-school-path) |
 
 </div>
