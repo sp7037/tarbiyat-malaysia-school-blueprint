@@ -8,15 +8,16 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>APPROVED Core faculty architecture; PEO ops remain DRAFT</strong><br/>
+  <strong>APPROVED Core faculty architecture; PEO-001 APPROVED; remaining PEO ops DRAFT</strong><br/>
   ADR-0015 defines Educator + Practitioner + Mentor as peer functions —
   with lawful authority, scoped expertise, meaningful relationship and honest capacity.
-  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation) ↔
-  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency) ↔
-  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development)
-  → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity)
-  → <a href="/areas/mentor-caseload-capacity"><code>PEO-005</code></a> (Mentor human-guidance capacity).
+  <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation — <strong>APPROVED</strong>; GAP-033 Closed) ↔
+  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency — DRAFT) ↔
+  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development — DRAFT)
+  → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity — DRAFT)
+  → <a href="/areas/mentor-caseload-capacity"><code>PEO-005</code></a> (Mentor human-guidance capacity — DRAFT).
   These <strong>interact</strong> — they are not a promotion ladder.
+  <strong>Organisation approval ≠ individual practitioner authorisation.</strong>
   <strong>Staff count ≠ Mission capacity.</strong>
   <strong>Assigned learners ≠ meaningfully mentored learners.</strong>
   A Mission may launch only when the right authorised/current functions are available.
@@ -99,7 +100,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Mission Team Capacity Check (`PEO-FRM-002`) | DRAFT | [Portal](/areas/peo-frm-002) |
 | Mentor Caseload and Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
 | Mentor Caseload Review (`PEO-FRM-003`) | DRAFT | [Portal](/areas/peo-frm-003) |
-| Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
+| Mission Operating Templates (`MIS-TPL-001` / FRM-001–007 APPROVED; FRM-008 DRAFT) | APPROVED pack | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | APPROVED | [ADR-0014](/decisions/adr-0014) |
 | Lab-First / Mission-Based | APPROVED | [ADR-0002](/decisions/adr-0002) |

@@ -1,6 +1,6 @@
 ---
 title: Missions & Production
-description: Mission Ecosystem — MIS-001–003 + operating pack APPROVED; PEO forms DRAFT
+description: Mission Ecosystem — MIS-001–003 + operating pack APPROVED; PEO-001 / FRM-007 APPROVED; currency DRAFT
 ---
 
 # Missions & Production
@@ -15,7 +15,7 @@ description: Mission Ecosystem — MIS-001–003 + operating pack APPROVED; PEO 
 </div>
 
 ::: tip Portal notice
-Source Markdown documents remain authoritative. Mission governance standards and Core Mission operating records are APPROVED. Practitioner scoped-authorisation forms remain **DRAFT** with People standards. Educational records are not legal contracts. I-in-R means sustained educational embedding — not sponsorship or logo walls. Partners may contribute expertise, context, facilities and critique — not curriculum, assessment, learner access, data, IP or recruitment control.
+Source Markdown documents remain authoritative. Mission governance standards, Core Mission operating records, and Practitioner Authorisation (`PEO-001` / `MIS-FRM-007`) are APPROVED (GAP-033 Closed). Practitioner currency (`MIS-FRM-008` / `PEO-002`) remains **DRAFT**. Educational records are not legal contracts. I-in-R means sustained educational embedding — not sponsorship or logo walls. Partners may contribute expertise, context, facilities and critique — not curriculum, assessment, learner access, data, IP or recruitment control. Organisation approval does not equal individual practitioner authorisation.
 :::
 
 ## Architectural chain
