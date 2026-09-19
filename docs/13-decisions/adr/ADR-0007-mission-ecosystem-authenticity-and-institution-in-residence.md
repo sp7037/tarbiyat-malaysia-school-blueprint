@@ -11,7 +11,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0011` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; creator-rights context `ADR-0014` UNDER REVIEW; faculty context `ADR-0015` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-018 (Closed by this ADR); related GAP-022–GAP-024 (ops DRAFT via MIS-001–003 — not closed); GAP-025 (via ADR-0014 UNDER REVIEW); GAP-011; GAP-026–GAP-031 (via ADR-0014) |
+| Related gaps / claims | GAP-018 (Closed by this ADR); GAP-022 Closed by MIS-001 APPROVED; GAP-023 Closed by MIS-002 APPROVED; GAP-024 Closed by MIS-003 APPROVED; GAP-025 Closed by ADR-0014; GAP-011; GAP-026–GAP-031 |
 | Source documents | `FND-003` §§2–4, 9, 10; ADR-0002; ADR-0004 mission-authenticity principle; Architecture Iteration 5 brief (2026-09-14); Integrated Mission Authenticity human review (2026-09-17) |
 
 ---
@@ -126,7 +126,7 @@ Levels are **not** birthday gates. Readiness, safeguarding classification, missi
 
 **Not every Mission is commercial or external.** Levels A–C remain first-class architecture, not “lesser” placeholders.
 
-**Resolution of GAP-018:** this progression, stage relationship and governance controls constitute the Core authenticity architecture. Detailed operating standards, risk matrices and campus procedures remain follow-on work under `GAP-022`–`GAP-024` (MIS DRAFT companions — not closed by this ADR).
+**Resolution of GAP-018:** this progression, stage relationship and governance controls constitute the Core authenticity architecture. Detailed operating standards and campus procedures remain follow-on work under `GAP-023` / `GAP-031` where still open; partner governance and Mission risk method are now APPROVED via MIS-001 / MIS-003.
 
 ---
 
@@ -280,7 +280,7 @@ Core adopts **Institution-in-Residence** as the sustained external-contributor m
 
 Not every campus must host every subtype. Presence is implementation-dependent.
 
-Operating standards for Institution-in-Residence remain follow-on work (`GAP-023`).
+Operating standards for Institution-in-Residence: `MIS-002` APPROVED (`GAP-023` Closed).
 
 ---
 
@@ -603,22 +603,23 @@ Core does **not** set portfolio percentages. Balance is a governance expectation
 
 ### Risks / costs
 
-- Partner governance requires real operating capacity; under-specified practice until `GAP-022`/`GAP-023`/`GAP-024` are addressed.
+- Partner governance requires real operating capacity; under-specified practice until campus enforces APPROVED MIS-001 / MIS-003 and closes remaining I-in-R / template gaps.
 - Authenticity levels may be misused as marketing labels without educationalisation.
 - External pressure may still attempt to override Education-First without strong campus enforcement.
 - Timetable tension with Knowledge Studios and exam prep is constrained by ADR-0019; campus exemplars remain `GAP-048`.
-- Partner / I-in-R / risk operating detail remains DRAFT until `GAP-022`/`GAP-023`/`GAP-024` are closed.
+- I-in-R / template operating detail: I-in-R now APPROVED via MIS-002; templates remain DRAFT until `GAP-031` closed.
 
 ### Follow-on work
 
-- Partner governance detailed standard (`GAP-022`; MIS-001 DRAFT — not closed).
-- Institution-in-Residence operating standard (`GAP-023`; MIS-002 DRAFT — not closed).
-- Mission risk classification (`GAP-024`; MIS-003 DRAFT — not closed).
-- Student Creator Rights / IP / Micro-Venture ADR-0014 (`UNDER REVIEW`; `GAP-025` — not closed; MY feasibility `GAP-011`; downstream `GAP-026`–`GAP-031`).
-- Faculty / Mission Team capacity ADR-0015 (`UNDER REVIEW`; PEO DRAFT companions — not closed).
+- Partner governance detailed standard (`GAP-022`; MIS-001 APPROVED — Closed).
+- Institution-in-Residence operating standard (`GAP-023`; MIS-002 APPROVED — Closed).
+- Mission risk classification (`GAP-024`; MIS-003 APPROVED — Closed).
+- Student Creator Rights / IP / Micro-Venture ADR-0014 (`APPROVED`; `GAP-025` Closed; MY feasibility `GAP-011`; downstream `GAP-026`–`GAP-031`).
+- Faculty / Mission Team capacity ADR-0015 (`APPROVED`; PEO DRAFT companions — not closed).
 - Proof of Capability operating detail (`GAP-038`–`GAP-044`; POC-001 DRAFT — not closed).
 - Mission World-tagging significance (`GAP-047`).
 - Country profiles: priority mission classes, localisation framing, deployment law, local safeguarding.
+- Mission Operating Templates (`GAP-031`; MIS-TPL-001 / MIS-FRM-* DRAFT — not closed).
 
 ## Alternatives Considered
 
@@ -651,13 +652,13 @@ Malaysia IP / micro-venture legal feasibility remains `GAP-011` and is not decid
 - `docs/00-foundation/CONCEPT_CONSTITUTION.md` (APPROVED) — especially §§2–4, 9, 10
 - ADR-0001, ADR-0002, ADR-0003, ADR-0004–0006, ADR-0011, ADR-0016, ADR-0019, ADR-0020 (APPROVED)
 - ADR-0014, ADR-0015 (`UNDER REVIEW` — context only; not approved by this ADR)
-- `docs/06-missions-and-production/` — MIS-001 / MIS-002 / MIS-003 / MIS-TPL-* (`DRAFT`; GAP-022–024 / 031 — not closed)
+- `docs/06-missions-and-production/` — MIS-001 / MIS-002 / MIS-003 (`APPROVED`; GAP-022 / 023 / 024 Closed); MIS-TPL-* (`DRAFT`; GAP-031 — not closed)
 - `GAP_REGISTER.md` — GAP-018 Closed by this ADR
 
 ## Open Questions
 
 1. Detailed partner-governance operating standard and agreement templates (`GAP-022`).
-2. Institution-in-Residence staffing, presence patterns and quality expectations (`GAP-023`).
+2. Institution-in-Residence staffing, presence patterns and quality expectations (`GAP-023` Closed by MIS-002 APPROVED; PEO individual authorisation remains GAP-033).
 3. Mission risk classification matrix linking authenticity level, safeguarding and data class (`GAP-024`).
 4. Student Creator Rights / IP / Micro-Venture — ADR-0014 (`UNDER REVIEW`; `GAP-025` not closed; MY `GAP-011`; `GAP-026`–`GAP-031`).
 5. How mission evidence maps into PoC operating verification (`GAP-038`–`GAP-044`; ADR-0016 APPROVED).

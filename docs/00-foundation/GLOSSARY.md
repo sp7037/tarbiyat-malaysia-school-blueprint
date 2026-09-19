@@ -50,12 +50,12 @@
 | **Pilot Readiness Record (`IMP-FRM-001`)** | Single commissioning record of gates, evidence, owners, blocker class and launch decision (DRAFT) | CORE |
 | **Hard Blocker (pilot)** | Readiness item that must be resolved before lawful/safe/authentic launch (IMP-001) | CORE |
 | **Competency Graph** | Longitudinal map of demonstrated competencies / capability relationships (schema TBD — GAP-009) | CORE |
-| **Industry-in-Residence** | Constitution-named subtype of Institution-in-Residence for industry organisations — sustained Mission-ecosystem embedding, not sponsorship or guest visits (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
-| **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 UNDER REVIEW; MIS-002 DRAFT) | CORE |
-| **Mission Partner Governance (`MIS-001`)** | Core operational rules for external Mission partners — Education-First, educationalisation, access, IP/data, anti-exploitation (DRAFT; GAP-022) | CORE |
-| **Institution-in-Residence Operating Standard (`MIS-002`)** | Core operating rules for I-in-R designation, presence, practitioner continuity, review and exit (DRAFT; GAP-023) | CORE |
+| **Industry-in-Residence** | Constitution-named subtype of Institution-in-Residence for industry organisations — sustained Mission-ecosystem embedding, not sponsorship or guest visits (ADR-0007 APPROVED; MIS-002 APPROVED) | CORE |
+| **Institution-in-Residence** | Sustained, governed institutional relationship embedded in the Mission ecosystem across Mission cycles; physical, hybrid or digital (ADR-0007 APPROVED; MIS-002 APPROVED) | CORE |
+| **Mission Partner Governance (`MIS-001`)** | Core operational rules for external Mission partners — Education-First, educationalisation, access, IP/data, anti-exploitation (APPROVED; GAP-022 Closed) | CORE |
+| **Institution-in-Residence Operating Standard (`MIS-002`)** | Core operating rules for I-in-R designation, presence, practitioner continuity, review and exit (APPROVED; GAP-023 Closed) | CORE |
 | **Mission Risk and Safeguarding Classification (`MIS-003`)** | Proportional R0–R4 Mission/activity risk domains, controls, stop-work and re-review (DRAFT; GAP-024) | CORE |
-| **Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`)** | Minimum viable partner / risk / I-in-R / Creator Rights / practitioner-authorisation operational records (DRAFT; GAP-031 / GAP-033) | CORE |
+| **Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`)** | Minimum viable partner / risk / I-in-R / Creator Rights / exit / completion operating records (MIS-TPL-001 + FRM-001–006 APPROVED / GAP-031 Closed; FRM-007/008 DRAFT with PEO / GAP-033–035) | CORE |
 | **Practitioner Authorisation and Onboarding (`PEO-001`)** | Function-specific authorisation bands, permission dimensions, onboarding and risk-linked scopes for practitioners (DRAFT; GAP-033) | CORE |
 | **Practitioner Currency and Re-authorisation (`PEO-002`)** | Evidence that authorised practitioner functions remain current; renew ≠ expand (DRAFT; GAP-035) | CORE |
 | **Faculty and Practitioner Development (`PEO-003`)** | Deliberate, function-specific, practice-based adult development; development ≠ authorisation ≠ currency (DRAFT; GAP-036) | CORE |

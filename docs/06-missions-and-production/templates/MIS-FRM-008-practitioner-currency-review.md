@@ -3,18 +3,20 @@
 | Field | Value |
 |---|---|
 | Template ID | `MIS-FRM-008` |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Status | `DRAFT` |
-| Classification | **CONDITIONAL RECORD** — use for scheduled, change-triggered, inactivity or incident-triggered currency / re-authorisation reviews |
-| Last reviewed | `2026-09-15` |
+| Classification | **CONDITIONAL RECORD (DRAFT)** — use for scheduled, change-triggered, inactivity or incident-triggered currency / re-authorisation reviews. **Not approved** — implements DRAFT `PEO-002`. |
+| Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | School governance / Technical safety / Safeguarding as relevant |
-| Implements | `PEO-002` Practitioner Currency and Re-authorisation Standard |
-| Related gaps | GAP-035; GAP-033 (`PEO-001` / `MIS-FRM-007`) |
+| Implements | `PEO-002` Practitioner Currency and Re-authorisation Standard (**DRAFT**) |
+| Related gaps | GAP-035; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-031 Closed for Mission pack FRM-001–006 only |
 
+> **DRAFT — not approved by the Mission Operating Pack approval.**  
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **Authorised once ≠ authorised forever.** Currency is evidence of recent suitability for specific functions — **not** a prestige rank.  
-> **Renewal must not silently expand** the linked `MIS-FRM-007` scope.
+> **Renewal must not silently expand** the linked `MIS-FRM-007` scope.  
+> Until `PEO-002` is human-reviewed, treat this as a working draft instrument — do not cite it as APPROVED Core policy.
 
 ---
 

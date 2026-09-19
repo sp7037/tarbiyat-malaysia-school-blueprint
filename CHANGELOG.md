@@ -19,6 +19,33 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### MIS-TPL-001 / MIS-FRM-001–006 APPROVED — Mission Operating Pack (2026-09-19) — Phase 2
+
+- Phase 2 human review of Mission Operating Templates / Forms passed after **substantive operating corrections** (classification C then corrected): end-to-end workflow map; change control (FRM-001 K); Mission completion/closure (FRM-006-D); anti-theatre / educational-value screens; media/branding/recruitment screens; facilities screens; Partner≠Practitioner clarity; progressive disclosure. Forms do not weaken APPROVED MIS-001/002/003.
+- Lifecycle: `PROJECT_RULES` §6 DRAFT → UNDER REVIEW → APPROVED. Pack entered review from `0.1.x` DRAFT; human review constituted UNDER REVIEW; approved `1.0.0` (2026-09-19).
+- **APPROVED:** `MIS-TPL-001`, `MIS-FRM-001`–`006`. **Remain DRAFT:** `MIS-FRM-007` / `MIS-FRM-008` (implement DRAFT PEO-001/002; GAP-033/035 not closed). No new forms created beyond 006-D annex inside existing FRM-006.
+- `GAP-031` Closed for Core Mission operating / Creator Rights expectation records. Country IP (`GAP-026`), PEO (`GAP-033`/`035`), PoC ops, MY remain open. No Core ADR. No invented Malaysian law. No automatic IP/recruitment/data/media rights.
+- Prior dirty MIS-001 / MIS-002 approval working-tree changes preserved and not reverted.
+- Updated `MASTER_INDEX`, `GAP_REGISTER`, SEC-06, glossary, MIS-001/002/003 handoffs where needed, portal missions / progress / roadmap, prepare-content.
+
+### MIS-002 APPROVED — Institution / Industry-in-Residence Operating Standard (2026-09-19) — Phase 2
+
+- Phase 2 operating-standard human review of `MIS-002` passed (I-in-R definition vs partner/sponsor/vendor/tenant/Practitioner/recruiter; MIS-001 inheritance without weakening; educational-value / anti-prestige; embedding depth; curriculum/Mission authority; People≠Institution; MIS-003 stop-work non-bypass; facilities/campus presence; data/PoC/Creator Rights; branding/recruitment; funding≠control; continuity/exit; anti-theatre; proportionality; accountability; hostile scenarios 1–20). Classification: READY WITH EDITORIAL/OPERATING HYGIENE ONLY.
+- Lifecycle recording: `PROJECT_RULES` §6 DRAFT → UNDER REVIEW → APPROVED. `MIS-002` was `0.1.2` / `DRAFT`; Phase 2 human-review session constituted `UNDER REVIEW`; human decision marked `1.0.0` / `APPROVED` (2026-09-19) — same precedent as MIS-001 / MIS-003.
+- Third APPROVED Core **operating standard** (MIS-001, MIS-002, MIS-003). Does **not** approve templates, PEO, POC, MY or IMP. Country tenancy / employment / privacy / IP law remains Country Profile work.
+- `GAP-023` Closed. `GAP-031` remains Proposed / not closed (templates DRAFT). No invented hour quotas, partner counts, Malaysian partnership law, or prestige-for-designation shortcuts. I-in-R = deeper educational integration, not control purchase.
+- Operating hygiene: definition distinctions; MIS-001 inheritance table; facilities checklist; continuity triggers; stop-work refusal = exit grounds; communications/branding; proportionality; anti-theatre; school-side accountability; scenarios remapped to review set 1–20; `MIS-FRM-004` remains DRAFT support form.
+- Updated `MASTER_INDEX`, `GAP_REGISTER`, SEC-06, glossary, MIS-001/003/TPL cross-refs, ADR_INDEX / ADR-0007 follow-ons, portal missions / progress / roadmap / governance, prepare-content.
+
+### MIS-001 APPROVED — Mission Partner Governance Standard (2026-09-19) — Phase 2
+
+- Phase 2 operating-standard human review of `MIS-001` passed (partner vs guest/vendor/sponsor/Practitioner/I-in-R; value test; Education-First; authority and sponsorship boundaries; proportional due diligence; relationship-depth burden; Partner Brief; communications; facilities; continuity/exit; Creator Rights / data / PoC / People handoffs; MIS-003 non-bypass; anti-theatre; hostile scenarios A–P; small-campus partner diversity; political neutrality). Classification: READY WITH EDITORIAL/OPERATING HYGIENE ONLY.
+- Lifecycle recording: `PROJECT_RULES` §6 is DRAFT → UNDER REVIEW → APPROVED. `MIS-001` was `0.1.3` / `DRAFT`; the Phase 2 human-review session itself constituted the `UNDER REVIEW` stage and human decision marked `1.0.0` / `APPROVED` (2026-09-19) in one working change-set (same precedent as MIS-003).
+- Second APPROVED Core **operating standard** (after MIS-003). Does **not** approve MIS-002, templates, PEO, POC, MY or IMP; each still requires its own human review. Country partnership / privacy / employment / IP law remains Country Profile work.
+- `GAP-022` Closed. `GAP-023` / `GAP-031` remain Proposed / not closed (`MIS-002` / templates DRAFT). No invented partner quotas, financial thresholds, Malaysian partnership law, or requirement that every Mission have an industry partner. Sponsorship ≠ educational control.
+- Operating hygiene included: partner definition clarity; value test; authority map; sponsorship boundary; proportional diligence / depth; communications; external facilities; continuity; People / PoC / Creator Rights boundaries; hostile scenarios remapped to review set A–P; stakeholder Q&A; pilot Gate G contribution list.
+- Updated `MASTER_INDEX`, `GAP_REGISTER`, SEC-06, glossary, MIS-003 cross-refs, portal missions / progress / roadmap / areas, prepare-content.
+
 ### MIS-003 APPROVED — Mission Risk and Safeguarding Classification (2026-09-19) — Phase 2 start
 
 - Phase 2 operating-standard human review of `MIS-003` passed (Core/operating boundary; R0–R4 qualitative domains; authenticity≠risk; pre-Mission proportionality; authority map; stop-work usable without sponsor approval; restart rules; capacity coupling; external-adult / off-site governance; data/PoC/Creator Rights compatibility; AI non-authority; incident/near-miss; partner failure; hostile scenarios; anti-paperwork; pilot Gate E requirements; Malaysia Country-Legal Dependency List without invented statutes). Classification: READY WITH EDITORIAL/OPERATING HYGIENE ONLY.

@@ -10,7 +10,7 @@
 | Deciders | Human architectural review (Creator Rights / Attribution / IP & Learner Venture / ADR-0014 review) |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; operating companions `MIS-001`–`003` / `MIS-TPL-001` / `POC-001` DRAFT (do not close GAP-022–024 / 031 / 038–044); country overlays `MY-002` / `MY-003` DRAFT (`GAP-011` / `GAP-026` remain open) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; operating companions `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `POC-001` DRAFT (do not close GAP-031 / 038–044); country overlays `MY-002` / `MY-003` DRAFT (`GAP-011` / `GAP-026` remain open) |
 | Related gaps / claims | Closes GAP-025; related GAP-010 Closed (ADR-0016); opens / preserves GAP-011, GAP-026–GAP-031; related GAP-022–024 |
 | Source documents | `FND-003` §§6, 9, 10; ADR-0002 production cycle; ADR-0007 Education-First and IP dependency; Architecture Iteration 6 brief (2026-09-14); Creator Rights human review (2026-09-19) |
 
@@ -733,7 +733,7 @@ Malaysia legal feasibility remains `GAP-011`. Cross-country mapping process: `GA
 - ADR-0004, ADR-0005, ADR-0006 (APPROVED — stage/mobility context)
 - ADR-0011, ADR-0015, ADR-0016, ADR-0019, ADR-0020 (APPROVED)
 - `POC-001` / `POC-FRM-*` (DRAFT — PoC ops; GAP-038–044 not closed)
-- `MIS-001`–`003` / `MIS-TPL-001` (DRAFT — Mission ops / Creator Rights templates; GAP-022–024 / 031 not closed)
+- `MIS-001`–`MIS-003` (APPROVED — partner / I-in-R / risk ops; GAP-022 / 023 / 024 Closed); `MIS-TPL-001` (DRAFT — templates; GAP-031 not closed)
 - `GAP_REGISTER.md` — GAP-025 Closed by this ADR; GAP-011; GAP-026–031
 
 ## Open Questions

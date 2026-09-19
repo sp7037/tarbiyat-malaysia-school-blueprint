@@ -3,17 +3,25 @@
 | Field | Value |
 |---|---|
 | Template ID | `MIS-FRM-005` |
-| Version | `0.1.0` |
-| Status | `DRAFT` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
+| Approved | `2026-09-19` |
 | Classification | **CONDITIONAL RECORD** — complete **only** triggered annexes |
-| Last reviewed | `2026-09-15` |
+| Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead / Creator Rights Review participants as relevant |
-| Implements | MIS-001 §§9–10, 15; ADR-0014 Background / Mission / Contribution / Conflict (UNDER REVIEW) |
-| Related gaps | GAP-031; GAP-025; GAP-026 (country IP law remains open) |
+| Implements | APPROVED MIS-001; APPROVED ADR-0014 Background / Mission / Contribution / Conflict principles |
+| Related gaps | GAP-031 Closed (pack); GAP-025 Closed by ADR-0014; GAP-026 (country IP law remains open) |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > Do **not** invent legal ownership outcomes or fixed revenue percentages. Final legal treatment depends on applicable law and Creator Rights Review where needed (ADR-0014).
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-15 | Initial DRAFT |
+| 1.0.0 | 2026-09-19 | APPROVED after Phase 2 pack review; ADR-0014 dependency hygiene |
 
 ---
 
@@ -31,7 +39,7 @@
 
 ## 005-A — IP / Creator Rights Expectations Annex
 
-**Trigger when any apply:** partner Background IP exists; learner-created IP reasonably foreseeable; collaborative invention/design likely; confidentiality applies; licensing/commercialisation may occur.
+**Trigger when any apply:** partner Background IP exists; learner-created IP reasonably foreseeable; collaborative invention/design likely; confidentiality applies; licensing/commercialisation may occur; broad assignment proposed.
 
 | Field | Entry |
 |---|---|
@@ -44,6 +52,8 @@
 | Publication / portfolio expectations (incl. sanitised capability evidence) | |
 | Attribution expectations | |
 | Permitted partner use (licence vs ownership claim — **expectation only**) | |
+| Broad assignment / exclusive licence proposed? | ☐ No · ☐ Escalation / Creator Rights Review / Country |
+| Funding/equipment treated as automatic ownership? | ☐ Rejected |
 | Creator Rights Review trigger? (yes/no) | Significant / protectable / conflicted / surprise value |
 | Contribution Record trigger? (yes/no) | If yes → 005-C |
 | Commercial interest disclosed? (yes/no) | |
@@ -51,28 +61,30 @@
 
 **Forbidden defaults (must remain rejected):** automatic transfer of all student work to partner or school without transparent protective governance.
 
-**Legal note:** This annex records **expectations**. It does **not** decide inventorship, title, equity % or enforceable contract terms.
+**Legal note:** This annex records **expectations**. It does **not** decide inventorship, title, equity % or enforceable contract terms. Country IP mapping: `GAP-026`.
 
 ---
 
 ## 005-B — Data / Access Annex
 
-**Trigger when any apply:** restricted partner data; learner-sensitive data; external systems; direct learner access to partner systems; confidential datasets; system credentials; research data.
+**Trigger when any apply:** restricted partner data; learner-sensitive data; external systems; direct learner access to partner systems; confidential datasets; system credentials; research data; photography/media of learners; contact-detail requests.
 
 | Field | Entry |
 |---|---|
 | Data class (Open / Educational Internal / Partner Restricted / Highly Restricted) | |
 | Source | |
-| Allowed users | |
-| Partner access | |
+| Allowed users | Prefer role / Mission ID references over duplicated personal datasets |
+| Partner access | Minimum necessary |
 | Learner access | |
 | Storage location (implementation) | |
 | Minimisation / anonymisation | |
 | Retention / deletion requirement | |
 | External contact permissions | |
+| Photography / media / testimonials | Consent governance; designation ≠ permission |
 | System account requirement | Purpose-based, time-bounded, revocable |
 | Special restrictions | |
 | Highly Restricted raw access refused or reduced? | ☐ N/A · ☐ Reduced · ☐ Refused |
+| Full profiles / family / safeguarding / health / bulk PoC refused? | ☐ Confirmed |
 
 Does **not** define national privacy law. Country notices / DPIAs remain **COUNTRY / IMPLEMENTATION**.
 
@@ -96,7 +108,7 @@ Keep lightweight. Purpose: fair attribution and later Creator Rights Review supp
 
 ## 005-D — Conflict Disclosure
 
-**Trigger examples:** parent-owned company; staff-owned company; partner investment; procurement interest; venture interest; licensing interest; assessor conflict; mentor/practitioner equity in learner venture.
+**Trigger examples:** parent-owned company; staff-owned company; partner investment; procurement interest; venture interest; licensing interest; assessor conflict; mentor/practitioner equity in learner venture; funding tied to curriculum favours.
 
 | Field | Entry |
 |---|---|

@@ -3,18 +3,20 @@
 | Field | Value |
 |---|---|
 | Template ID | `MIS-FRM-007` |
-| Version | `0.1.1` |
+| Version | `0.1.2` |
 | Status | `DRAFT` |
-| Classification | **CONDITIONAL / CORE OPERATING RECORD** — required when a practitioner holds scoped permissions beyond one-off Guest/Speaker presence; use with `MIS-FRM-002` for regular/direct learner engagement |
-| Last reviewed | `2026-09-15` |
+| Classification | **CONDITIONAL / CORE OPERATING RECORD (DRAFT)** — required when a practitioner holds scoped permissions beyond one-off Guest/Speaker presence; use with `MIS-FRM-002` for regular/direct learner engagement. **Not approved** — implements DRAFT `PEO-001`. |
+| Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | School governance / Mission Lead / Technical safety function as relevant |
-| Implements | `PEO-001` Practitioner Authorisation; currency lifecycle via `PEO-002` / `MIS-FRM-008` |
-| Related gaps | GAP-033; GAP-035; GAP-031 (template pack) |
+| Implements | `PEO-001` Practitioner Authorisation (**DRAFT**); currency lifecycle via `PEO-002` / `MIS-FRM-008` (**DRAFT**) |
+| Related gaps | GAP-033; GAP-035; GAP-031 Closed for Mission pack FRM-001–006 only — this record remains open with PEO |
 
+> **DRAFT — not approved by the Mission Operating Pack approval.**  
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > Professional title ≠ Tarbiyat authorisation. I-in-R organisation status ≠ every employee authorised.  
-> Completing this record cannot waive MIS-003 R4 prohibitions or country licensing rules.
+> Completing this record cannot waive MIS-003 R4 prohibitions or country licensing rules.  
+> Until `PEO-001` is human-reviewed, treat this as a working draft instrument — do not cite it as APPROVED Core policy.
 
 ---
 

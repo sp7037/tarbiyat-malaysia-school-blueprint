@@ -49,10 +49,13 @@ Only formally **APPROVED** governing work:
 | [ADR-0011 — Six Worlds Capability / Progressive Depth](/decisions/adr-0011) | 1.0.0 | `APPROVED` (GAP-008 Closed; GAP-047 Open) |
 | [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | 1.0.0 | `APPROVED` (GAP-045 Closed) |
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | 1.0.0 | `APPROVED` (GAP-046 Closed) |
-| [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Open) |
+| [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Closed by MIS-001–003) |
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | 1.0.0 | `APPROVED` (GAP-025 Closed; GAP-011 / 026–031 remain open) |
 | [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.0 | `APPROVED` (GAP-032–037 remain Proposed / not closed) |
-| [MIS-003 — Mission Risk / Safeguarding](/areas/mission-risk-and-safeguarding) | 1.0.0 | `APPROVED` (GAP-024 Closed; country overlays / MIS-001–002 / templates remain open) |
+| [MIS-001 — Mission Partner Governance](/areas/mission-partner-governance) | 1.0.0 | `APPROVED` (GAP-022 Closed; templates remain open) |
+| [MIS-002 — Institution-in-Residence](/areas/institution-in-residence) | 1.0.0 | `APPROVED` (GAP-023 Closed; templates / PEO remain open) |
+| [MIS-003 — Mission Risk / Safeguarding](/areas/mission-risk-and-safeguarding) | 1.0.0 | `APPROVED` (GAP-024 Closed; country overlays remain) |
+| [MIS-TPL-001 — Mission Operating Pack](/areas/mission-operating-templates) | 1.0.0 | `APPROVED` (GAP-031 Closed; FRM-001–006 APPROVED; FRM-007/008 DRAFT with PEO) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
 
 **Closed Core design conflicts** (not Malaysia gaps): exam abolition as Core direction; Competency Graph replacing statutory exams; lab-only extremes; boarding as universal Core mandate; sovereign DC as automatic Core mandate — see [Gap Register — Closed](/gaps).
@@ -83,7 +86,8 @@ Known work not yet completed (documentation evidence):
 | Competency Graph specification | Required by dual assessment model | [GAP-009](/gaps#gap-009) |
 | Proof of Capability operating detail | POC-001 / POC-FRM-* DRAFT; ADR-0016 APPROVED / GAP-010 Closed; GAP-038–044 proposed (not closed); GAP-043 research Open | [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044), [ADR-0016](/decisions/adr-0016), [POC-001](/areas/poc-operating-standard) |
 | Exploration Floor operationalisation | APPROVED as protected breadth dimensions (ADR-0006); timetable expression via ADR-0019 + GAP-048 | [GAP-019](/gaps#gap-019), [ADR-0006](/decisions/adr-0006) |
-| Mission authenticity thresholds | APPROVED Core authenticity A–F + stage relationship (ADR-0007); MIS-003 risk method APPROVED; partner/I-in-R ops via GAP-022–023 | [GAP-018](/gaps#gap-018), [ADR-0007](/decisions/adr-0007), [MIS-003](/areas/mission-risk-and-safeguarding), [GAP-022](/gaps#gap-022)–[GAP-023](/gaps#gap-023) |
+| Mission authenticity thresholds | APPROVED Core authenticity A–F (ADR-0007); MIS-001–003 + Mission Operating Pack APPROVED | [GAP-018](/gaps#gap-018), [ADR-0007](/decisions/adr-0007), [MIS-001](/areas/mission-partner-governance)–[MIS-003](/areas/mission-risk-and-safeguarding), [MIS-TPL-001](/areas/mission-operating-templates) |
+| Creator Rights country / ops follow-ons | ADR-0014 APPROVED / GAP-025 Closed; Mission Creator Rights annex APPROVED (GAP-031 Closed); MY IP feasibility and benefit-sharing / venture remain open | [GAP-011](/gaps#gap-011), [GAP-026](/gaps#gap-026)–[GAP-030](/gaps#gap-030), [ADR-0014](/decisions/adr-0014) |
 | Pathway change bridging standards | Core bridging architecture APPROVED (ADR-0006); detailed curricula deferred | [GAP-020](/gaps#gap-020), [ADR-0006](/decisions/adr-0006) |
 | Weekly time-balance / learning-time architecture | ADR-0019 APPROVED; GAP-016 Closed; campus exemplars / pilot ranges remain open | [ADR-0019](/decisions/adr-0019), [GAP-016](/gaps#gap-016), [GAP-048](/gaps#gap-048), [LAR-001](/areas/learning-time-architecture) |
 | Campus & facilities functional architecture | ADR-0020 APPROVED; GAP-049 Closed; numeric inventories / phased programmes remain open | [ADR-0020](/decisions/adr-0020), [CAM-001](/areas/campus-facilities), [GAP-049](/gaps#gap-049), [GAP-050](/gaps#gap-050), [Physical Campus](/areas/campus) |
@@ -91,7 +95,6 @@ Known work not yet completed (documentation evidence):
 | Detailed section specs (01–09) | Many still `SECTION_README` shells; §05/06/08/09/11 have operating companions | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
 | Faculty staffing / Mission capacity / Mentor caseload / country role mapping | ADR-0015 APPROVED; PEO-001–005 / MY-002 remain DRAFT (GAP-032–037 not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
-| Creator Rights country / ops follow-ons | ADR-0014 APPROVED / GAP-025 Closed; MY IP feasibility and benefit-sharing / venture / templates remain open | [GAP-011](/gaps#gap-011), [GAP-026](/gaps#gap-026)–[GAP-031](/gaps#gap-031), [ADR-0014](/decisions/adr-0014) |
 | Malaysia licensing / exam / governance research | MY-003 DRAFT option matrix lodged; GAP-001/002/007 **Partial** (category / package / ownership **not** decided); not MOE approval | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), [MY-003](/country/malaysia-school-path) |
 
 </div>

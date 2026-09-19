@@ -57,7 +57,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 03 Worlds and pathways | `docs/03-worlds-and-pathways/SECTION_README.md` | Six Worlds (ADR-0011 APPROVED); Discover exposure (ADR-0017 APPROVED); Discover→Choose pathway preparation (ADR-0018 APPROVED); Major+Minor; GAP-009/047 remain | DRAFT |
 | 04 Curriculum and recognition | `docs/04-curriculum-and-recognition/SECTION_README.md` | Theory-as-tool; exam compatibility (Core) | DRAFT |
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph (GAP-009 Open); Proof of Capability (ADR-0016 APPROVED; GAP-010 Closed); POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed) | DRAFT |
-| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001 partner governance; MIS-002 I-in-R; MIS-003 risk/safeguarding APPROVED (GAP-024 Closed); MIS-TPL-001 / MIS-FRM-* templates DRAFT | DRAFT |
+| 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001–003 APPROVED (GAP-022–024 Closed); MIS-TPL-001 / MIS-FRM-001–006 APPROVED (GAP-031 Closed); MIS-FRM-007/008 DRAFT with PEO | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
 | 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001–005 authorisation / currency / development / Mission capacity / Mentor caseload | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Functional campus/facilities architecture; CAM-001 overview (ADR-0020 APPROVED; GAP-049 Closed; GAP-050 Open) | DRAFT |
@@ -74,16 +74,16 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | POC-FRM-003 | `docs/05-assessment/templates/POC-FRM-003-verification-record.md` | DRAFT | Verification Record |
 | POC-FRM-004 | `docs/05-assessment/templates/POC-FRM-004-capability-defence-record.md` | DRAFT | Capability Defence Record (conditional) |
 | POC-FRM-005 | `docs/05-assessment/templates/POC-FRM-005-claim-challenge-correction-record.md` | DRAFT | Claim Challenge / Correction Record |
-| MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | DRAFT | Mission Partner Governance Standard — proposed GAP-022 resolution (not closed) |
-| MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | DRAFT | Institution / Industry-in-Residence Operating Standard — proposed GAP-023 resolution (not closed) |
+| MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | APPROVED | Mission Partner Governance Standard — GAP-022 Closed; templates / I-in-R remain open |
+| MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | APPROVED | Institution / Industry-in-Residence Operating Standard — GAP-023 Closed; templates / PEO remain open |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | APPROVED | Mission Risk and Safeguarding Classification — GAP-024 Closed; country overlays / templates remain open |
-| MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | DRAFT | Mission Operating Templates index — proposed GAP-031 resolution (not closed) |
-| MIS-FRM-001 | `docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md` | DRAFT | Unified Mission Partner Pack |
-| MIS-FRM-002 | `docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | DRAFT | Practitioner Onboarding Acknowledgement |
-| MIS-FRM-003 | `docs/06-missions-and-production/templates/MIS-FRM-003-expanded-mission-risk-record.md` | DRAFT | Expanded Mission Risk Record |
-| MIS-FRM-004 | `docs/06-missions-and-production/templates/MIS-FRM-004-iinr-designation-record.md` | DRAFT | I-in-R Designation Record |
-| MIS-FRM-005 | `docs/06-missions-and-production/templates/MIS-FRM-005-conditional-annexes.md` | DRAFT | Conditional annexes (IP / Data / Contribution / Conflict) |
-| MIS-FRM-006 | `docs/06-missions-and-production/templates/MIS-FRM-006-deployment-and-exit.md` | DRAFT | Deployment Review + Suspension / Exit |
+| MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | APPROVED | Mission Operating Templates index — GAP-031 Closed; FRM-007/008 remain DRAFT |
+| MIS-FRM-001 | `docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md` | APPROVED | Unified Mission Partner Pack |
+| MIS-FRM-002 | `docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | APPROVED | Practitioner Onboarding Acknowledgement |
+| MIS-FRM-003 | `docs/06-missions-and-production/templates/MIS-FRM-003-expanded-mission-risk-record.md` | APPROVED | Expanded Mission Risk Record |
+| MIS-FRM-004 | `docs/06-missions-and-production/templates/MIS-FRM-004-iinr-designation-record.md` | APPROVED | I-in-R Designation Record |
+| MIS-FRM-005 | `docs/06-missions-and-production/templates/MIS-FRM-005-conditional-annexes.md` | APPROVED | Conditional annexes (IP / Data / Contribution / Conflict) |
+| MIS-FRM-006 | `docs/06-missions-and-production/templates/MIS-FRM-006-deployment-and-exit.md` | APPROVED | Deployment + Exit + Stop-Work + Completion |
 | MIS-FRM-007 | `docs/06-missions-and-production/templates/MIS-FRM-007-practitioner-authorisation-record.md` | DRAFT | Practitioner Authorisation Record (PEO-001 / GAP-033) |
 | MIS-FRM-008 | `docs/06-missions-and-production/templates/MIS-FRM-008-practitioner-currency-review.md` | DRAFT | Practitioner Currency Review (PEO-002 / GAP-035) |
 | PEO-001 | `docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` | DRAFT | Practitioner Authorisation and Onboarding Standard — proposed GAP-033 resolution (not closed) |

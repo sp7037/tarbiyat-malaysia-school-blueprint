@@ -1,6 +1,6 @@
 ---
 title: Missions & Production
-description: Mission Ecosystem — MIS-001 / MIS-002 / MIS-003 + Mission Operating Templates (DRAFT)
+description: Mission Ecosystem — MIS-001–003 + operating pack APPROVED; PEO forms DRAFT
 ---
 
 # Missions & Production
@@ -8,17 +8,14 @@ description: Mission Ecosystem — MIS-001 / MIS-002 / MIS-003 + Mission Operati
 <p class="present-more"><a href="/missions">← Stakeholder presentation: Missions</a></p>
 
 <div class="planned-banner">
-  <strong>APPROVED Core Mission Ecosystem + APPROVED MIS-003 risk method + DRAFT partner/I-in-R packs</strong><br/>
-  ADR-0007 APPROVED (GAP-018 Closed). MIS-003 APPROVED (GAP-024 Closed). Operating companions:
-  <a href="/areas/mission-partner-governance"><code>MIS-001</code></a> →
-  <a href="/areas/institution-in-residence"><code>MIS-002</code></a> remain DRAFT;
-  <a href="/areas/mission-risk-and-safeguarding"><code>MIS-003</code></a> APPROVED;
-  <a href="/areas/mission-operating-templates"><code>MIS-TPL-001</code></a>
-  remains DRAFT. GAP-022 / 023 / 031 — <strong>not closed</strong>.
+  <strong>APPROVED Core Mission Ecosystem + APPROVED MIS-001 / MIS-002 / MIS-003 + APPROVED Mission Operating Pack</strong><br/>
+  ADR-0007 APPROVED (GAP-018 Closed). MIS-001–003 APPROVED (GAP-022–024 Closed).
+  <a href="/areas/mission-operating-templates"><code>MIS-TPL-001</code></a> / <code>MIS-FRM-001</code>–<code>006</code> APPROVED (GAP-031 Closed).
+  <code>MIS-FRM-007</code>/<code>008</code> remain DRAFT with PEO (GAP-033/035). Country overlays remain Country Profile work.
 </div>
 
 ::: tip Portal notice
-Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. ADR-0014 Creator Rights is APPROVED. MIS-003 Mission Risk / Safeguarding is APPROVED (GAP-024 Closed; country overlays remain). MIS-001 / MIS-002 and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0015 Faculty Architecture is APPROVED (PEO ops remain DRAFT).
+Source Markdown documents remain authoritative. Mission governance standards and Core Mission operating records are APPROVED. Practitioner scoped-authorisation forms remain **DRAFT** with People standards. Educational records are not legal contracts. I-in-R means sustained educational embedding — not sponsorship or logo walls. Partners may contribute expertise, context, facilities and critique — not curriculum, assessment, learner access, data, IP or recruitment control.
 :::
 
 ## Architectural chain
@@ -37,10 +34,11 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 | Mission Ecosystem / authenticity / Campus Live Workflow / I-in-R | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights / IP | APPROVED | [ADR-0014](/decisions/adr-0014) |
 | Practitioner–Educator–Mentor / Mission Teams | APPROVED | [ADR-0015](/decisions/adr-0015) |
+| Mission Partner Governance (`MIS-001`) | APPROVED | [Portal](/areas/mission-partner-governance) |
+| Institution / Industry-in-Residence (`MIS-002`) | APPROVED | [Portal](/areas/institution-in-residence) |
 | Mission Risk and Safeguarding (`MIS-003`) | APPROVED | [Portal](/areas/mission-risk-and-safeguarding) |
-| Mission Partner Governance (`MIS-001`) | DRAFT | [Portal](/areas/mission-partner-governance) |
-| Institution / Industry-in-Residence (`MIS-002`) | DRAFT | [Portal](/areas/institution-in-residence) |
-| Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`) | DRAFT | [Portal](/areas/mission-operating-templates) |
+| Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-001`–`006`) | APPROVED | [Portal](/areas/mission-operating-templates) |
+| Practitioner authorisation / currency forms (`MIS-FRM-007`/`008`) | DRAFT (PEO) | via templates index |
 | Mission Team Loading / Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Mentor Caseload / Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
 | Section guide (`SEC-06`) | DRAFT | `docs/06-missions-and-production/SECTION_README.md` |
@@ -48,11 +46,9 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 ## Related gaps
 
 - [GAP-018](/gaps#gap-018) — Mission authenticity (Closed by ADR-0007)
-- [GAP-022](/gaps#gap-022) — Partner governance (proposed via MIS-001 — not closed)
-- [GAP-023](/gaps#gap-023) — Institution-in-Residence (proposed via MIS-002 — not closed)
-- [GAP-024](/gaps#gap-024) — Mission risk / safeguarding (Closed by MIS-003)
+- [GAP-022](/gaps#gap-022)–[GAP-024](/gaps#gap-024) — Partner / I-in-R / risk (Closed by MIS-001–003)
 - [GAP-025](/gaps#gap-025) — Creator Rights (Closed by ADR-0014)
-- [GAP-031](/gaps#gap-031) — Templates (proposed via MIS-TPL-001 / MIS-FRM-* — not closed)
+- [GAP-031](/gaps#gap-031) — Mission operating templates (Closed by MIS-TPL pack; FRM-007/008 remain DRAFT with PEO)
 - [GAP-032](/gaps#gap-032) — Mission Team loading / capacity (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
 - [GAP-033](/gaps#gap-033) — Practitioner authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)

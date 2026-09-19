@@ -10,8 +10,8 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion packs `MIS-001` / `MIS-002` / `MIS-TPL-001` DRAFT (do not close GAP-022 / 023 / 031); `PEO-001`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
-| Related gaps | Closes GAP-024; related GAP-022 (`MIS-001` DRAFT); GAP-023 (`MIS-002` DRAFT); GAP-031 (templates DRAFT); country legal overlays remain Country Profile work |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-002` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; `MIS-FRM-007`/`008` DRAFT; `PEO-001`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Related gaps | Closes GAP-024; related GAP-022 Closed by MIS-001; GAP-023 Closed by MIS-002; GAP-031 Closed by MIS-TPL pack; country legal overlays remain Country Profile work |
 | Source documents | ADR-0007 safeguarding, data classes, Deployment Boundary; MIS-001 partner non-bypass; MIS-002 I-in-R non-bypass; GAP-024 resolution brief (2026-09-14); Phase 2 Mission Risk / Safeguarding human review (2026-09-19) |
 
 > **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Mission risk, safeguarding, stop-work and proportional controls implied by APPROVED ADR-0007 (and related APPROVED ADRs). It does **not** redefine Core architecture, invent Malaysian safeguarding statutes, set universal ratios/scores/age thresholds, or approve companion MIS/PEO/POC/MY/IMP documents. Country profiles supply statutory safety, clinical, privacy, screening and incident-reporting rules.
@@ -330,10 +330,10 @@ Partner-sourced Missions **must not bypass** this classification.
 
 - Partner expertise informs technical risk; it does **not** replace school governance.
 - Partner urgency does **not** lower controls.
-- Partner briefs must record risk-screen outcome (MIS-001 DRAFT).
+- Partner briefs must record risk-screen outcome (MIS-001 APPROVED).
 - Partner premises are **not** automatically safe learning environments (§19).
 
-Detailed partner operating standard remains `MIS-001` DRAFT (`GAP-022` — not closed).
+Detailed partner operating standard: `MIS-001` APPROVED (`GAP-022` Closed).
 
 ---
 
@@ -341,7 +341,7 @@ Detailed partner operating standard remains `MIS-001` DRAFT (`GAP-022` — not c
 
 Trusted I-in-R status does **not** grant blanket approval. Each Mission / work package still requires appropriate risk review. Repeated good performance may streamline **implementation** checklists; it must **not** eliminate Core controls.
 
-Detailed I-in-R operating standard remains `MIS-002` DRAFT (`GAP-023` — not closed).
+Detailed I-in-R operating standard: `MIS-002` APPROVED (`GAP-023` Closed).
 
 ---
 
@@ -360,7 +360,7 @@ Expertise / fame / funding does **not** automatically permit:
 - data collection;
 - off-site contact outside approved Mission scope.
 
-Connects to People / partner standards (`PEO-001`, `MIS-001`, `MIS-FRM-002` / `007`) without approving those DRAFT documents.
+Connects to People / partner standards (`PEO-001` DRAFT, `MIS-001` APPROVED, `MIS-FRM-002` / `007` DRAFT) without approving DRAFT PEO/template documents.
 
 ---
 
@@ -600,11 +600,11 @@ Minimum conceptual record for a Mission / work package:
 | Deployment boundary cap | §22 |
 | Incident / near-miss / restart refs | If any |
 
-Operational templates under `MIS-TPL-001` DRAFT (`GAP-031` — not closed):
+Operational templates under `MIS-TPL-001` APPROVED (`GAP-031` Closed):
 
 - `MIS-FRM-001` — basic partner / risk screen hooks  
 - `MIS-FRM-003` — Expanded Mission Risk Record (typically R2+)  
-- `MIS-FRM-006` — Deployment / Suspension / Exit / Stop-Work–Incident–Restart  
+- `MIS-FRM-006` — Deployment / Suspension / Exit / Stop-Work / Completion  
 
 Schema/software deferred.
 
@@ -697,8 +697,8 @@ High-authenticity / high-risk Mission classes may be excluded from the pilot env
 - ADR-0015 (APPROVED) — Faculty / Technical safety authority; safeguarding functions; capacity coupling  
 - ADR-0016 (APPROVED) — PoC; unsafe evidence prohibition  
 - ADR-0020 (APPROVED) — Campus / external facilities remain governed  
-- MIS-001 / MIS-002 (DRAFT) — partner / I-in-R ops (`GAP-022` / `023` — not closed)  
-- MIS-TPL-001 / MIS-FRM-* (DRAFT) — templates (`GAP-031` — not closed)  
+- MIS-001 / MIS-002 (APPROVED) — partner / I-in-R ops (`GAP-022` / `023` Closed)  
+- MIS-TPL-001 / MIS-FRM-001–006 (APPROVED) — Mission operating pack (`GAP-031` Closed); MIS-FRM-007/008 DRAFT with PEO  
 - IMP-001 (DRAFT) — pilot commissioning (`GAP-051` — not closed)  
 - `GAP_REGISTER.md` — GAP-024 Closed by this standard  
 
@@ -709,11 +709,10 @@ High-authenticity / high-risk Mission classes may be excluded from the pilot env
 This standard does **not**:
 
 - redefine APPROVED Core ADRs or FND-003;
-- approve `MIS-001`, `MIS-002`, `MIS-TPL-001`, `PEO-*`, `POC-*`, `MY-*` or `IMP-001`;
+- approve `PEO-*`, `POC-*`, `MY-*` or `IMP-001` (MIS-001 / MIS-002 / MIS-TPL pack approved separately);
 - invent Malaysian (or other) safety / safeguarding / privacy statutes;
 - set universal numeric age, hour, ratio, emergency-time or risk-score tables;
 - provide offensive cyber methods;
 - require unsafe deployment for educational validity;
 - authorise learners as licensed professionals;
-- design risk-register software;
-- close GAP-022, GAP-023 or GAP-031.
+- design risk-register software.
