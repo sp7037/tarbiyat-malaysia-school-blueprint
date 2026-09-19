@@ -8,11 +8,11 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001` DRAFT; `MIS-002` / `MIS-003` DRAFT; `MIS-FRM-007` DRAFT |
-| Related gaps | GAP-035 (this document); GAP-033 (`PEO-001`); GAP-036 (`PEO-003` development — companion); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country licences — handoff) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED; `MIS-002` / `MIS-003` APPROVED; `MIS-FRM-007` APPROVED |
+| Related gaps | GAP-035 (this document); GAP-033 Closed (`PEO-001`); GAP-036 (`PEO-003` development — companion); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country licences — handoff) |
 | Source documents | ADR-0015 Practitioner Currency principles; PEO-001 §§8, 10, 17; MIS-003 incident/re-review; GAP-035 resolution brief (2026-09-15) |
 
-> **Authority note:** This standard **operationalises** Practitioner currency principles in ADR-0015 and the review/revocation hooks in `PEO-001`. ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. Exact review intervals, training hours and licence rules are **implementation / country** detail.
+> **Authority note:** This standard **operationalises** Practitioner currency principles in ADR-0015 and the review/revocation hooks in APPROVED `PEO-001`. Exact review intervals, training hours and licence rules are **implementation / country** detail. This document remains **DRAFT** (GAP-035 not closed).
 
 ---
 

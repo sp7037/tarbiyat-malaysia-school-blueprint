@@ -10,7 +10,7 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-003` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; `MIS-FRM-007`/`008` DRAFT; `PEO-001`–`005` DRAFT (do not close GAP-032–037); `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-003` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` DRAFT; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002`–`005` DRAFT (do not close GAP-032 / 034–037); `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
 | Related gaps | Closes GAP-023; GAP-022 Closed by MIS-001; GAP-024 Closed by MIS-003; GAP-031 Closed by MIS-TPL pack; GAP-032–037 (PEO / MY people mapping DRAFT) |
 | Source documents | ADR-0007 Institution-in-Residence; ADR-0015 I-in-R ≠ automatic faculty; MIS-001 prerequisites; GAP-023 resolution brief (2026-09-14); Phase 2 Institution-in-Residence human review (2026-09-19) |
 
@@ -339,7 +339,7 @@ Authority depends on **competence, onboarding, safeguarding, and defined functio
 - do not act as designated safeguarding leads unless separately authorised;
 - Mentor function remains school-governed longitudinal care.
 
-Detailed Practitioner authorisation levels: `PEO-001` (`DRAFT` — **GAP-033 not closed**). Record: `MIS-FRM-007` (`DRAFT`). This approval of MIS-002 does **not** approve PEO standards.
+Detailed Practitioner authorisation levels: `PEO-001` (`APPROVED` — **GAP-033 Closed**). Record: `MIS-FRM-007` (`APPROVED`). This approval of MIS-002 does **not** approve PEO-002–005.
 
 ---
 
@@ -359,7 +359,7 @@ Participating practitioners should receive awareness of:
 - conflict disclosure;
 - reporting / escalation / stop-work paths.
 
-Forms: `MIS-FRM-002` (**APPROVED**); scoped authorisation `MIS-FRM-007` under DRAFT `PEO-001` (**GAP-033** — not closed). Country vetting: country profiles (`GAP-037`).
+Forms: `MIS-FRM-002` (**APPROVED**); scoped authorisation `MIS-FRM-007` under APPROVED `PEO-001` (**GAP-033** Closed). Country vetting: country profiles (`GAP-037`).
 
 ---
 
@@ -687,7 +687,7 @@ Relevant forms:
 - I-in-R designation record (`MIS-FRM-004` APPROVED);
 - IP / data / contribution / conflict annexes (`MIS-FRM-005` APPROVED);
 - Suspension / exit / stop-work / completion (`MIS-FRM-006` APPROVED);
-- Practitioner authorisation / currency (`MIS-FRM-007` / `008` **DRAFT** with PEO).
+- Practitioner authorisation (`MIS-FRM-007` **APPROVED** with PEO-001); currency (`MIS-FRM-008` **DRAFT** with PEO-002).
 
 These remain **educational records**, not country legal contracts.
 
@@ -755,8 +755,8 @@ APPROVED MIS-002 supplies IMP-001 (still **DRAFT**) with:
 - ADR-0016 Proof of Capability (**APPROVED**)
 - ADR-0019 Learning-Time (**APPROVED**); ADR-0020 Campus (**APPROVED**)
 - `MIS-003` Mission Risk / Safeguarding (**APPROVED**)
-- `MIS-TPL-001` / `MIS-FRM-001`–`006` (**APPROVED** — GAP-031 Closed); `MIS-FRM-007`/`008` (**DRAFT** — PEO)
-- `PEO-001`–`005` (**DRAFT** — GAP-032–037)
+- `MIS-TPL-001` / `MIS-FRM-001`–`006` (**APPROVED** — GAP-031 Closed); `MIS-FRM-007` (**APPROVED** — PEO-001 / GAP-033 Closed); `MIS-FRM-008` (**DRAFT** — PEO-002)
+- `PEO-001` (**APPROVED** — GAP-033 Closed); `PEO-002`–`005` (**DRAFT** — GAP-032 / 034–037)
 - `GAP_REGISTER.md` — GAP-023 Closed by this standard; GAP-031 Closed by MIS-TPL pack
 
 ---

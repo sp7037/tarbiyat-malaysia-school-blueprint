@@ -11,11 +11,11 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead / Safeguarding function (implementation) |
 | Implements | APPROVED MIS-001 / MIS-002 / MIS-003 external-adult boundaries; APPROVED ADR-0014 / ADR-0015 principles |
-| Related gaps | GAP-031 Closed (pack); scoped authorisation bands remain GAP-033 (`PEO-001` / `MIS-FRM-007` **DRAFT**) |
+| Related gaps | GAP-031 Closed (pack); scoped authorisation via APPROVED `PEO-001` / `MIS-FRM-007` (GAP-033 Closed); currency remains GAP-035 (`MIS-FRM-008` DRAFT) |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **Statutory vetting / background checks remain COUNTRY / IMPLEMENTATION.** This acknowledgement does **not** replace them.  
-> **Organisation / I-in-R approval does not authorise this individual.** Scoped PA bands use `MIS-FRM-007` (**DRAFT** / PEO-001) — not approved policy by this form.
+> **Organisation / I-in-R approval does not authorise this individual.** Scoped PA bands use `MIS-FRM-007` (**APPROVED** / PEO-001).
 
 ## Revision history
 
@@ -36,7 +36,7 @@
 | Date | |
 | School onboarding owner | |
 | Country / statutory check reference (if required) | |
-| Linked MIS-FRM-007 authorisation record (if scoped permissions issued — **DRAFT**/PEO) | |
+| Linked MIS-FRM-007 authorisation record (if scoped permissions issued — **APPROVED**/PEO-001) | |
 
 ---
 
@@ -88,4 +88,4 @@ Practitioner confirms awareness of (tick each):
 
 ## Explicit non-claims
 
-This template records onboarding acknowledgement. Scoped authorisation bands/dimensions are recorded on `MIS-FRM-007` under DRAFT `PEO-001` and are **not** approved by this form. It does **not** invent staffing ratios or grant faculty status.
+This template records onboarding acknowledgement. Scoped authorisation bands/dimensions are recorded on `MIS-FRM-007` under APPROVED `PEO-001`. It does **not** invent staffing ratios or grant faculty status.

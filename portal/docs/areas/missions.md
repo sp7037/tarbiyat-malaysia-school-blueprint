@@ -11,7 +11,7 @@ description: Mission Ecosystem — MIS-001–003 + operating pack APPROVED; PEO 
   <strong>APPROVED Core Mission Ecosystem + APPROVED MIS-001 / MIS-002 / MIS-003 + APPROVED Mission Operating Pack</strong><br/>
   ADR-0007 APPROVED (GAP-018 Closed). MIS-001–003 APPROVED (GAP-022–024 Closed).
   <a href="/areas/mission-operating-templates"><code>MIS-TPL-001</code></a> / <code>MIS-FRM-001</code>–<code>006</code> APPROVED (GAP-031 Closed).
-  <code>MIS-FRM-007</code>/<code>008</code> remain DRAFT with PEO (GAP-033/035). Country overlays remain Country Profile work.
+  <code>MIS-FRM-007</code> APPROVED with PEO-001 (GAP-033 Closed); <code>MIS-FRM-008</code> remains DRAFT (GAP-035). Country overlays remain Country Profile work.
 </div>
 
 ::: tip Portal notice
@@ -38,7 +38,8 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 | Institution / Industry-in-Residence (`MIS-002`) | APPROVED | [Portal](/areas/institution-in-residence) |
 | Mission Risk and Safeguarding (`MIS-003`) | APPROVED | [Portal](/areas/mission-risk-and-safeguarding) |
 | Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-001`–`006`) | APPROVED | [Portal](/areas/mission-operating-templates) |
-| Practitioner authorisation / currency forms (`MIS-FRM-007`/`008`) | DRAFT (PEO) | via templates index |
+| Practitioner authorisation (`MIS-FRM-007`) | APPROVED (PEO-001) | via templates index |
+| Practitioner currency (`MIS-FRM-008`) | DRAFT (PEO-002) | via templates index |
 | Mission Team Loading / Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Mentor Caseload / Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
 | Section guide (`SEC-06`) | DRAFT | `docs/06-missions-and-production/SECTION_README.md` |
@@ -48,7 +49,7 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 - [GAP-018](/gaps#gap-018) — Mission authenticity (Closed by ADR-0007)
 - [GAP-022](/gaps#gap-022)–[GAP-024](/gaps#gap-024) — Partner / I-in-R / risk (Closed by MIS-001–003)
 - [GAP-025](/gaps#gap-025) — Creator Rights (Closed by ADR-0014)
-- [GAP-031](/gaps#gap-031) — Mission operating templates (Closed by MIS-TPL pack; FRM-007/008 remain DRAFT with PEO)
+- [GAP-031](/gaps#gap-031) — Mission operating templates (Closed by MIS-TPL pack; FRM-007 APPROVED with PEO-001; FRM-008 remains DRAFT)
 - [GAP-032](/gaps#gap-032) — Mission Team loading / capacity (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
-- [GAP-033](/gaps#gap-033) — Practitioner authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)
+- [GAP-033](/gaps#gap-033) — Practitioner authorisation (Closed by [PEO-001](/areas/practitioner-authorisation) / MIS-FRM-007)

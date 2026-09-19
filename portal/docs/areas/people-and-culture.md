@@ -37,7 +37,7 @@ Tarbiyat combines recognised academic learning, Mission Labs, mentoring and auth
 |---|---|
 | Professional credential | Degree, licence, portfolio, employer title |
 | Safeguarding clearance | Suitability to work with minors |
-| Tarbiyat authorisation | Scoped school permission (`PEO-001` DRAFT) |
+| Tarbiyat authorisation | Scoped school permission (`PEO-001` APPROVED) |
 | Currency | Recent evidence to **continue** (`PEO-002` DRAFT) |
 | Development | Deliberate capability-building (`PEO-003` DRAFT) |
 | Mission capacity | Enough of the right functions available now (`PEO-004` DRAFT) |
@@ -91,7 +91,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Artefact | Status | Link |
 |---|---|---|
 | Practitioner–Educator–Mentor Faculty Architecture | APPROVED | [ADR-0015](/decisions/adr-0015) |
-| Practitioner Authorisation and Onboarding (`PEO-001`) | DRAFT | [Portal](/areas/practitioner-authorisation) |
+| Practitioner Authorisation and Onboarding (`PEO-001`) | APPROVED | [Portal](/areas/practitioner-authorisation) |
 | Practitioner Currency and Re-authorisation (`PEO-002`) | DRAFT | [Portal](/areas/practitioner-currency) |
 | Faculty and Practitioner Development (`PEO-003`) | DRAFT | [Portal](/areas/faculty-practitioner-development) |
 | Development Plan & Record (`PEO-FRM-001`) | DRAFT | [Portal](/areas/peo-frm-001) |
@@ -108,7 +108,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 ## Related gaps
 
 - [GAP-032](/gaps#gap-032) — Staffing / Mission Team loading (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
-- [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (proposed via [PEO-001](/areas/practitioner-authorisation) — not closed)
+- [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (Closed by [PEO-001](/areas/practitioner-authorisation) / MIS-FRM-007)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
 - [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)

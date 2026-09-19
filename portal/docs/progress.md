@@ -50,12 +50,13 @@ Only formally **APPROVED** governing work:
 | [ADR-0017 — Discover Meaningful Exposure](/decisions/adr-0017) | 1.0.0 | `APPROVED` (GAP-045 Closed) |
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | 1.0.0 | `APPROVED` (GAP-046 Closed) |
 | [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Closed by MIS-001–003) |
-| [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | 1.0.0 | `APPROVED` (GAP-025 Closed; GAP-011 / 026–031 remain open) |
-| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.0 | `APPROVED` (GAP-032–037 remain Proposed / not closed) |
-| [MIS-001 — Mission Partner Governance](/areas/mission-partner-governance) | 1.0.0 | `APPROVED` (GAP-022 Closed; templates remain open) |
-| [MIS-002 — Institution-in-Residence](/areas/institution-in-residence) | 1.0.0 | `APPROVED` (GAP-023 Closed; templates / PEO remain open) |
+| [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | 1.0.0 | `APPROVED` (GAP-025 Closed; GAP-011 / 026–030 remain open; GAP-031 Closed) |
+| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.0 | `APPROVED` (GAP-033 Closed by PEO-001; GAP-032 / 034–037 remain Proposed / not closed) |
+| [MIS-001 — Mission Partner Governance](/areas/mission-partner-governance) | 1.0.0 | `APPROVED` (GAP-022 Closed) |
+| [MIS-002 — Institution-in-Residence](/areas/institution-in-residence) | 1.0.0 | `APPROVED` (GAP-023 Closed) |
 | [MIS-003 — Mission Risk / Safeguarding](/areas/mission-risk-and-safeguarding) | 1.0.0 | `APPROVED` (GAP-024 Closed; country overlays remain) |
-| [MIS-TPL-001 — Mission Operating Pack](/areas/mission-operating-templates) | 1.0.0 | `APPROVED` (GAP-031 Closed; FRM-001–006 APPROVED; FRM-007/008 DRAFT with PEO) |
+| [MIS-TPL-001 — Mission Operating Pack](/areas/mission-operating-templates) | 1.0.1 | `APPROVED` (GAP-031 Closed; FRM-001–007 APPROVED; FRM-008 DRAFT) |
+| [PEO-001 — Practitioner Authorisation](/areas/practitioner-authorisation) | 1.0.0 | `APPROVED` (GAP-033 Closed; FRM-007 APPROVED; GAP-035 open) |
 | [Superseded Concepts register](/evidence/superseded-concepts) | — | `APPROVED` (prevents restoration of superseded directions) |
 
 **Closed Core design conflicts** (not Malaysia gaps): exam abolition as Core direction; Competency Graph replacing statutory exams; lab-only extremes; boarding as universal Core mandate; sovereign DC as automatic Core mandate — see [Gap Register — Closed](/gaps).
@@ -94,7 +95,7 @@ Known work not yet completed (documentation evidence):
 | First-pilot commissioning / readiness | IMP-001 / IMP-FRM-001 DRAFT; GAP-051 proposed — not closed | [IMP-001](/areas/pilot-commissioning), [GAP-051](/gaps#gap-051), [Implementation](/areas/implementation) |
 | Detailed section specs (01–09) | Many still `SECTION_README` shells; §05/06/08/09/11 have operating companions | [Master Index §C](/master-index) |
 | Proposed ADRs 0008–0010, 0012–0013 | Indexed; body files not drafted | [ADR Index](/decisions/) |
-| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | ADR-0015 APPROVED; PEO-001–005 / MY-002 remain DRAFT (GAP-032–037 not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
+| Faculty staffing / Mission capacity / Mentor caseload / country role mapping | ADR-0015 APPROVED; PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 / MY-002 remain DRAFT (GAP-032 / 034–037 not closed) | [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037), [ADR-0015](/decisions/adr-0015), [PEO-001](/areas/practitioner-authorisation)–[PEO-005](/areas/mentor-caseload-capacity), [MY-002](/country/malaysia-regulated-people) |
 | Malaysia licensing / exam / governance research | MY-003 DRAFT option matrix lodged; GAP-001/002/007 **Partial** (category / package / ownership **not** decided); not MOE approval | [GAP-001](/gaps#gap-001), [GAP-002](/gaps#gap-002), [GAP-007](/gaps#gap-007), [MY-003](/country/malaysia-school-path) |
 
 </div>

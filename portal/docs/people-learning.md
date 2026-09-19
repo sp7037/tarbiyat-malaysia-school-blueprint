@@ -14,7 +14,7 @@ description: High-level view of Tarbiyat’s human learning model — faculty fu
   <strong>APPROVED Core — Educator + Practitioner + Mentor</strong><br/>
   ADR-0015 defines peer faculty functions inside professional learning teams:
   lawful teaching authority, scoped Practitioner expertise, meaningful Mentor relationship, and honest capacity.
-  Operating detail remains in PEO-001–005 (<strong>DRAFT</strong> — GAP-032–036 not closed).
+  Operating detail: PEO-001 (<strong>APPROVED</strong> — GAP-033 Closed); PEO-002–005 (<strong>DRAFT</strong> — GAP-032 / 034–036 not closed).
   No universal Core staffing / Mentor ratios.
   Malaysia regulated-role mapping remains <a href="/country/malaysia-regulated-people">MY-002</a> DRAFT (GAP-037 — not closed).
 </div>
@@ -62,7 +62,7 @@ Partner commercial pressure does not override educational purpose. External Inst
 | Artefact | Status |
 |---|---|
 | [ADR-0015](/decisions/adr-0015) — Practitioner–Educator–Mentor faculty | APPROVED |
-| [People & Culture](/areas/people-and-culture) — PEO-001–005 overview | DRAFT companions |
+| [People & Culture](/areas/people-and-culture) — PEO-001 APPROVED; PEO-002–005 overview | Mixed |
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem / Institution-in-Residence | APPROVED |
 

@@ -533,7 +533,7 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'APPROVED',
-      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. ADR-0014 APPROVED (GAP-025 Closed): Creator Rights / no automatic IP transfer. MIS-001 / MIS-002 / MIS-003 APPROVED (GAP-022–024 Closed). MIS-TPL-001 / MIS-FRM-001–006 APPROVED (GAP-031 Closed). MIS-FRM-007/008 DRAFT with PEO. GAP-011 / 026–030 remain open.',
+      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. ADR-0014 APPROVED (GAP-025 Closed): Creator Rights / no automatic IP transfer. MIS-001 / MIS-002 / MIS-003 APPROVED (GAP-022–024 Closed). MIS-TPL-001 / MIS-FRM-001–006 APPROVED (GAP-031 Closed). MIS-FRM-007 / PEO-001 APPROVED (GAP-033 Closed). MIS-FRM-008 DRAFT (GAP-035). GAP-011 / 026–030 remain open.',
       evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–025; GAP-011; GAP-026–031',
       href: '/areas/missions'
     },
@@ -573,8 +573,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'APPROVED',
-      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001–005 remain DRAFT (GAP-032–036 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights APPROVED (GAP-025 Closed).',
-      evidence: 'ADR-0015; ADR-0014; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037; GAP-025',
+      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001 APPROVED (GAP-033 Closed). PEO-002–005 remain DRAFT (GAP-032 / 034–036 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights APPROVED (GAP-025 Closed).',
+      evidence: 'ADR-0015; ADR-0014; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037; GAP-025; GAP-033 Closed',
       href: '/areas/people-and-culture'
     },
     {
@@ -821,7 +821,7 @@ const includes = [
     title: 'Institution / Industry-in-Residence (MIS-002)',
     sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
     description:
-      'MIS-002 APPROVED — Core Institution / Industry-in-Residence operating standard (GAP-023 Closed). Sustained educational embedding — not sponsorship, logo walls or automatic practitioner status. FRM-007/008 remain DRAFT with PEO.'
+      'MIS-002 APPROVED — Core Institution / Industry-in-Residence operating standard (GAP-023 Closed). Sustained educational embedding — not sponsorship, logo walls or automatic practitioner status. FRM-007 APPROVED with PEO-001; FRM-008 remains DRAFT with PEO-002.'
   },
   {
     outRel: 'areas/mission-risk-and-safeguarding.md',
@@ -835,7 +835,7 @@ const includes = [
     title: 'Mission Operating Templates (MIS-TPL-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md',
     description:
-      'MIS-TPL-001 APPROVED — Mission Operating Pack index (GAP-031 Closed). FRM-001–006 APPROVED educational records; FRM-007/008 remain DRAFT with PEO. Not legal contracts.'
+      'MIS-TPL-001 APPROVED — Mission Operating Pack index (GAP-031 Closed). FRM-001–006 APPROVED educational records; FRM-007 APPROVED with PEO-001 (GAP-033 Closed); FRM-008 remains DRAFT with PEO-002. Not legal contracts.'
   },
   {
     outRel: 'areas/mis-frm-001.md',
@@ -877,14 +877,14 @@ const includes = [
     outRel: 'areas/mis-frm-007.md',
     title: 'MIS-FRM-007 Practitioner Authorisation Record',
     sourceRel: 'docs/06-missions-and-production/templates/MIS-FRM-007-practitioner-authorisation-record.md',
-    description: 'DRAFT scoped practitioner authorisation record implementing PEO-001 / GAP-033.'
+    description: 'APPROVED scoped practitioner authorisation record implementing PEO-001 (GAP-033 Closed).'
   },
   {
     outRel: 'areas/practitioner-authorisation.md',
     title: 'Practitioner Authorisation and Onboarding (PEO-001)',
     sourceRel: 'docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md',
     description:
-      'PEO-001 DRAFT — proposed operational resolution of GAP-033 (not closed). Professional title ≠ Tarbiyat authorisation. ADR-0015 APPROVED; this PEO remains DRAFT / gap not closed.'
+      'PEO-001 APPROVED — operational resolution of GAP-033 (Closed). Professional title ≠ Tarbiyat authorisation; organisation approval ≠ individual authorisation. ADR-0015 APPROVED; MIS-FRM-007 APPROVED with this standard; FRM-008 / PEO-002 remain DRAFT.'
   },
   {
     outRel: 'areas/practitioner-currency.md',

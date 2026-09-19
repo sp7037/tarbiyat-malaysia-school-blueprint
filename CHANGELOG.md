@@ -19,12 +19,20 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### PEO-001 APPROVED — Practitioner Authorisation and Onboarding (2026-09-19) — Phase 2
+
+- Phase 2 human review of `PEO-001` passed (classification B — approve with hygiene): function-specific PA-0–PA-4 bands; org≠person; credential≠authority; guest proportionality; safeguarding separation; MIS-003 risk ceilings; tool/facility scopes; stop-work; suspension/revocation; multi-domain/multi-Mission; unverifiable credentials; private-comms prohibition; remote paths. Hostile scenarios A–T.
+- Lifecycle: DRAFT → UNDER REVIEW (human-review session) → `1.0.0` / `APPROVED` (2026-09-19).
+- `MIS-FRM-007` promoted to `1.0.0` / `APPROVED` with PEO-001. `MIS-FRM-008` / `PEO-002` remain **DRAFT** (GAP-035 not closed). No PEO-003–005 / MY / POC / IMP approvals. No invented Malaysian employment or background-check law.
+- `GAP-033` Closed. Organisation Mission Partner approval remains distinct from individual practitioner authorisation.
+- Prior MIS-001/002/TPL milestone already committed separately (`a68d92d`); this review left uncommitted until decision complete per workflow.
+
 ### MIS-TPL-001 / MIS-FRM-001–006 APPROVED — Mission Operating Pack (2026-09-19) — Phase 2
 
 - Phase 2 human review of Mission Operating Templates / Forms passed after **substantive operating corrections** (classification C then corrected): end-to-end workflow map; change control (FRM-001 K); Mission completion/closure (FRM-006-D); anti-theatre / educational-value screens; media/branding/recruitment screens; facilities screens; Partner≠Practitioner clarity; progressive disclosure. Forms do not weaken APPROVED MIS-001/002/003.
 - Lifecycle: `PROJECT_RULES` §6 DRAFT → UNDER REVIEW → APPROVED. Pack entered review from `0.1.x` DRAFT; human review constituted UNDER REVIEW; approved `1.0.0` (2026-09-19).
-- **APPROVED:** `MIS-TPL-001`, `MIS-FRM-001`–`006`. **Remain DRAFT:** `MIS-FRM-007` / `MIS-FRM-008` (implement DRAFT PEO-001/002; GAP-033/035 not closed). No new forms created beyond 006-D annex inside existing FRM-006.
-- `GAP-031` Closed for Core Mission operating / Creator Rights expectation records. Country IP (`GAP-026`), PEO (`GAP-033`/`035`), PoC ops, MY remain open. No Core ADR. No invented Malaysian law. No automatic IP/recruitment/data/media rights.
+- **APPROVED:** `MIS-TPL-001`, `MIS-FRM-001`–`006`. **Later same-day:** `MIS-FRM-007` / `PEO-001` APPROVED (GAP-033 Closed). **Remain DRAFT:** `MIS-FRM-008` (implements DRAFT PEO-002; GAP-035 not closed). No new forms created beyond 006-D annex inside existing FRM-006.
+- `GAP-031` Closed for Core Mission operating / Creator Rights expectation records. Country IP (`GAP-026`), currency (`GAP-035`), PoC ops, MY remain open. No Core ADR. No invented Malaysian law. No automatic IP/recruitment/data/media rights.
 - Prior dirty MIS-001 / MIS-002 approval working-tree changes preserved and not reverted.
 - Updated `MASTER_INDEX`, `GAP_REGISTER`, SEC-06, glossary, MIS-001/002/003 handoffs where needed, portal missions / progress / roadmap, prepare-content.
 

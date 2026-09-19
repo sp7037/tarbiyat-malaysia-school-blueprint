@@ -10,7 +10,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | School governance / Technical safety / Safeguarding as relevant |
 | Implements | `PEO-002` Practitioner Currency and Re-authorisation Standard (**DRAFT**) |
-| Related gaps | GAP-035; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-031 Closed for Mission pack FRM-001–006 only |
+| Related gaps | GAP-035; GAP-033 Closed (`PEO-001` / `MIS-FRM-007` APPROVED); GAP-031 Closed for Mission pack FRM-001–006 |
 
 > **DRAFT — not approved by the Mission Operating Pack approval.**  
 > **Operational educational record — not a substitute for country-required legal documentation.**  
