@@ -3,14 +3,14 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0020` |
-| Version | `1.0.0` |
+| Version | `1.0.1` |
 | Status | `APPROVED` |
 | Date | `2026-09-16` |
 | Approved | `2026-09-16` |
 | Deciders | Human architectural review (approval hygiene checkpoint) |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0019` APPROVED; developmental/pathway context `ADR-0004`–`0006` UNDER REVIEW; mission/authenticity context `ADR-0007` UNDER REVIEW; Worlds/exposure context `ADR-0011` / `ADR-0017` UNDER REVIEW; faculty/capacity context `ADR-0015` UNDER REVIEW with `PEO-001`–`PEO-005` DRAFT; risk context `MIS-003` DRAFT; partner/I-in-R context `MIS-001` / `MIS-002` DRAFT (not treated as approved) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0019` APPROVED; developmental/pathway context `ADR-0004`–`0006` APPROVED; mission/authenticity context `ADR-0007` APPROVED; Worlds/exposure context `ADR-0011` / `ADR-0017` APPROVED; faculty/capacity context `ADR-0015` APPROVED with `PEO-001` APPROVED (GAP-033 Closed) and `PEO-002`–`PEO-005` DRAFT; risk context `MIS-003` APPROVED; partner/I-in-R context `MIS-001` / `MIS-002` APPROVED |
 | Related gaps / claims | GAP-049 (primary); related GAP-005 (residential), GAP-016 (Closed), GAP-032 / GAP-034 (capacity), GAP-048 (learning-time exemplars); opens GAP-050 |
 | Source documents | `FND-003` §§4–6, 10; ADR-0002 lab-family definition; ADR-0019 Learning-Time Modes; Government + Investor Presentation Readiness Stress Test (2026-09-15) identifying Facilities as RED |
 
@@ -453,7 +453,7 @@ This ADR does **not**:
 - `docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md` (`CAM-001`)
 - ADR-0001, ADR-0002, ADR-0003, ADR-0019 (APPROVED)
 - ADR-0007, ADR-0011, ADR-0015, ADR-0017 (UNDER REVIEW — context)
-- MIS-001 / MIS-002 / MIS-003; PEO-001–005 (DRAFT — context)
+- MIS-001 / MIS-002 / MIS-003 (APPROVED); PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 (DRAFT — context)
 - `GAP_REGISTER.md` — GAP-049, GAP-050
 
 ## Revision history
@@ -462,3 +462,4 @@ This ADR does **not**:
 |---|---|---|
 | 0.1.0 | 2026-09-16 | Initial UNDER REVIEW draft; proposes GAP-049; opens GAP-050 |
 | 1.0.0 | 2026-09-16 | APPROVED after human-approval hygiene checks (external capability governance; existing-building adaptation conditions; resource-constrained levers; specialist external controls; MVC as functional not cheap-campus; country-law supremacy); closes GAP-049; GAP-050 remains Open |
+| 1.0.1 | 2026-09-19 | Status/dependency hygiene only: align Dependencies / related docs to APPROVED MIS / ADR / PEO-001 (GAP-033 Closed); PEO-002–005 remain DRAFT; no substantive facilities-architecture change |

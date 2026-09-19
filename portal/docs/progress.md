@@ -51,7 +51,7 @@ Only formally **APPROVED** governing work:
 | [ADR-0018 — Discover→Choose Pathway Preparation](/decisions/adr-0018) | 1.0.0 | `APPROVED` (GAP-046 Closed) |
 | [ADR-0007 — Mission Ecosystem](/decisions/adr-0007) | 1.0.0 | `APPROVED` (GAP-018 Closed; GAP-022–024 Closed by MIS-001–003) |
 | [ADR-0014 — Student Creator Rights](/decisions/adr-0014) | 1.0.0 | `APPROVED` (GAP-025 Closed; GAP-011 / 026–030 remain open; GAP-031 Closed) |
-| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.0 | `APPROVED` (GAP-033 Closed by PEO-001; GAP-032 / 034–037 remain Proposed / not closed) |
+| [ADR-0015 — Faculty Architecture](/decisions/adr-0015) | 1.0.1 | `APPROVED` (GAP-033 Closed by PEO-001; GAP-032 / 034–037 remain Proposed / not closed) |
 | [MIS-001 — Mission Partner Governance](/areas/mission-partner-governance) | 1.0.0 | `APPROVED` (GAP-022 Closed) |
 | [MIS-002 — Institution-in-Residence](/areas/institution-in-residence) | 1.0.0 | `APPROVED` (GAP-023 Closed) |
 | [MIS-003 — Mission Risk / Safeguarding](/areas/mission-risk-and-safeguarding) | 1.0.0 | `APPROVED` (GAP-024 Closed; country overlays remain) |

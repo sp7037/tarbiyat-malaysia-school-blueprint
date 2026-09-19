@@ -77,7 +77,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | MIS-001 | `docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md` | APPROVED | Mission Partner Governance Standard — GAP-022 Closed; templates / I-in-R remain open |
 | MIS-002 | `docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md` | APPROVED | Institution / Industry-in-Residence Operating Standard — GAP-023 Closed; templates / PEO remain open |
 | MIS-003 | `docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md` | APPROVED | Mission Risk and Safeguarding Classification — GAP-024 Closed; country overlays / templates remain open |
-| MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | APPROVED | Mission Operating Templates index — GAP-031 Closed; FRM-007/008 remain DRAFT |
+| MIS-TPL-001 | `docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md` | APPROVED | Mission Operating Templates index — GAP-031 Closed; FRM-007 APPROVED with PEO-001; FRM-008 DRAFT (PEO-002) |
 | MIS-FRM-001 | `docs/06-missions-and-production/templates/MIS-FRM-001-unified-mission-partner-pack.md` | APPROVED | Unified Mission Partner Pack |
 | MIS-FRM-002 | `docs/06-missions-and-production/templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | APPROVED | Practitioner Onboarding Acknowledgement |
 | MIS-FRM-003 | `docs/06-missions-and-production/templates/MIS-FRM-003-expanded-mission-risk-record.md` | APPROVED | Expanded Mission Risk Record |
@@ -133,7 +133,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | APPROVED | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 Closed |
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | APPROVED | Six Worlds capability / progressive depth; GAP-008 Closed; GAP-047 Open |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | APPROVED | Student Creator Rights / IP / Micro-Venture; GAP-025 Closed |
-| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | APPROVED | Practitioner–Educator–Mentor faculty functions; teams; PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 DRAFT; GAP-032 / 034–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed |
+| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | APPROVED | Practitioner–Educator–Mentor faculty functions; teams; PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 DRAFT; GAP-032 / 034–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed (`1.0.1` status hygiene) |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | APPROVED | Proof of Capability / capability evidence; GAP-010 Closed; GAP-038–044 remain open/proposed; POC-001 DRAFT ops companions |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | APPROVED | Discover meaningful exposure package; GAP-045 Closed |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | APPROVED | Discover→Choose pathway preparation; GAP-046 Closed |

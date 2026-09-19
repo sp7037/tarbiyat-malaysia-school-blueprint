@@ -361,10 +361,10 @@ Currency reviews are recurring lifecycle events. They deserve a separate record 
 
 ## 23. Related documents
 
-- `PEO-001` Practitioner Authorisation and Onboarding
+- `PEO-001` Practitioner Authorisation and Onboarding (APPROVED; GAP-033 Closed)
 - `PEO-003` Faculty and Practitioner Development
 - `PEO-004` Mission Team Loading and Staffing Capacity
-- ADR-0015 Practitioner Currency (UNDER REVIEW)
+- ADR-0015 Practitioner Currency principles (APPROVED)
 - `MIS-002` / `MIS-003`
 - `MIS-FRM-007` / `MIS-FRM-008`
 - `GAP_REGISTER.md` — GAP-035; handoffs GAP-036 / 037 / 032 / 034

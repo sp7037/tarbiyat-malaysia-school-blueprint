@@ -15,7 +15,7 @@
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **Sponsorship value is not a qualification field.** Designation is not for sale (MIS-002).  
-> **I-in-R organisation status does not authorise every employee** — use FRM-002 (+ FRM-007 DRAFT/PEO if scoped).
+> **I-in-R organisation status does not authorise every employee** — use FRM-002 (+ FRM-007 APPROVED/`PEO-001` if scoped).
 
 ## Revision history
 

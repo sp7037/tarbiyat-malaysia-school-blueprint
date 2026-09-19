@@ -22,7 +22,7 @@ Mission taxonomy; production standards; stakeholder missions; quality, safety, e
 | MIS-001 | `MISSION_PARTNER_GOVERNANCE.md` | APPROVED | Mission Partner Governance — GAP-022 Closed; templates / I-in-R remain open |
 | MIS-002 | `INSTITUTION_IN_RESIDENCE.md` | APPROVED | Institution / Industry-in-Residence — GAP-023 Closed; templates / PEO remain open |
 | MIS-003 | `MISSION_RISK_AND_SAFEGUARDING.md` | APPROVED | Mission Risk and Safeguarding Classification — GAP-024 Closed; country overlays / templates remain open |
-| MIS-TPL-001 | `MISSION_OPERATING_TEMPLATES.md` | APPROVED | Mission Operating Templates index — GAP-031 Closed; FRM-007/008 DRAFT with PEO |
+| MIS-TPL-001 | `MISSION_OPERATING_TEMPLATES.md` | APPROVED | Mission Operating Templates index — GAP-031 Closed; FRM-007 APPROVED with PEO-001; FRM-008 DRAFT (PEO-002) |
 | MIS-FRM-001 | `templates/MIS-FRM-001-unified-mission-partner-pack.md` | APPROVED | Unified Mission Partner Pack |
 | MIS-FRM-002 | `templates/MIS-FRM-002-practitioner-onboarding-acknowledgement.md` | APPROVED | Practitioner Onboarding Acknowledgement |
 | MIS-FRM-003 | `templates/MIS-FRM-003-expanded-mission-risk-record.md` | APPROVED | Expanded Mission Risk Record |

@@ -9,7 +9,7 @@
 | Access date for sources | `2026-09-16` |
 | Country scope | `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001`–`PEO-005` DRAFT; `MIS-001`–`003` DRAFT; `MY-000` / `MY-001`; Country Path research `MY-003` DRAFT |
+| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002`–`PEO-005` DRAFT; `MIS-001`–`003` APPROVED; `MY-000` / `MY-001`; Country Path research `MY-003` DRAFT |
 | Related gaps | `GAP-037` (primary); related `GAP-001`, `GAP-002`, `GAP-007`, `GAP-032`–`036`, safeguarding ops |
 | Source documents | See Evidence Catalogue (§18) |
 

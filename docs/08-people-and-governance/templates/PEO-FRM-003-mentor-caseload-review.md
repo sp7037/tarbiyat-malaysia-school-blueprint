@@ -10,7 +10,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Mentor Lead / People governance as designated locally |
 | Implements | `PEO-005` Mentor Caseload and Human-Guidance Capacity Standard |
-| Related gaps | GAP-034; GAP-032 (`PEO-004`); GAP-033 / 035 / 036 (`PEO-001`–`003`); GAP-037 (country pastoral — handoff) |
+| Related gaps | GAP-034; GAP-032 (`PEO-004`); GAP-033 Closed / GAP-035 / 036 (`PEO-001` APPROVED; `PEO-002`–`003` DRAFT); GAP-037 (country pastoral — handoff) |
 
 > **Operational people-capacity record — not a learner clinical file.**  
 > **Assigned learners ≠ meaningfully mentored learners.**  

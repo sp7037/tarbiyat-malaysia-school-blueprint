@@ -8,11 +8,11 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` UNDER REVIEW; `PEO-001` / `PEO-002` DRAFT; `MIS-001`–`MIS-003` DRAFT; `MIS-TPL-001` / `MIS-FRM-002` DRAFT |
-| Related gaps | GAP-036 (this document); GAP-033 (`PEO-001`); GAP-035 (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country CPD / registration — handoff) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` DRAFT; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` DRAFT |
+| Related gaps | GAP-036 (this document); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country CPD / registration — handoff) |
 | Source documents | ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation principles; PEO-001 / PEO-002 handoffs; GAP-036 resolution brief (2026-09-15) |
 
-> **Authority note:** This standard **operationalises** faculty and practitioner development principles implied by ADR-0015 and required by Tarbiyat operating model (Lab-First, Mission-Based, Six Worlds, Education-First). ADR-0015 remains **`UNDER REVIEW`** and is **not** approved law. Approved baseline: FND-003 and ADR-0001–0003. Course hours, calendars, named trainers, LMS and certificates are **implementation** detail. Mandatory teacher CPD and registered-training rules are **country** detail (`GAP-037`).
+> **Authority note:** This standard **operationalises** faculty and practitioner development principles implied by APPROVED ADR-0015 and required by Tarbiyat operating model (Lab-First, Mission-Based, Six Worlds, Education-First). This document remains **DRAFT** (GAP-036 not closed). Authorisation itself is governed by APPROVED `PEO-001` (GAP-033 Closed). Course hours, calendars, named trainers, LMS and certificates are **implementation** detail. Mandatory teacher CPD and registered-training rules are **country** detail (`GAP-037`).
 
 ---
 

@@ -19,6 +19,11 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### Status/dependency hygiene — PEO-001 milestone alignment (2026-09-19)
+
+- Recording-only pass: corrected stale DRAFT / Open / Proposed wording for APPROVED `PEO-001` / `MIS-FRM-007` and Closed `GAP-033` across ADR-0015 (to `1.0.1`), ADR-0020 deps (to `1.0.1`), ADR_INDEX, MIS-FRM-001/004 pointers, SEC-06/07, PEO-002–005 / PEO-FRM companions, POC-001 / IMP-001 / MY-002 dependency lines, RESEARCH_GAPS status, and MASTER_INDEX.
+- Historical CHANGELOG / ADR revision-history statements preserved. No substantive PEO-001 / MIS / PA-band / facilities policy change. `PEO-002`–`005`, `MIS-FRM-008`, GAP-035 / 037 unchanged (remain open/DRAFT).
+
 ### PEO-001 APPROVED — Practitioner Authorisation and Onboarding (2026-09-19) — Phase 2
 
 - Phase 2 human review of `PEO-001` passed (classification B — approve with hygiene): function-specific PA-0–PA-4 bands; org≠person; credential≠authority; guest proportionality; safeguarding separation; MIS-003 risk ceilings; tool/facility scopes; stop-work; suspension/revocation; multi-domain/multi-Mission; unverifiable credentials; private-comms prohibition; remote paths. Hostile scenarios A–T.

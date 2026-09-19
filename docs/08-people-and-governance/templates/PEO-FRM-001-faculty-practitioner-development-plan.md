@@ -10,7 +10,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | People / faculty development lead (TBD) with relevant function leads |
 | Implements | `PEO-003` Faculty and Practitioner Development Standard |
-| Related gaps | GAP-036; GAP-033 (`PEO-001` / `MIS-FRM-007`); GAP-035 (`PEO-002` / `MIS-FRM-008`) |
+| Related gaps | GAP-036; GAP-033 Closed (`PEO-001` / `MIS-FRM-007` APPROVED); GAP-035 (`PEO-002` / `MIS-FRM-008`) |
 
 > **Operational educational / people-development record — not a performance ranking scorecard.**  
 > **Development ≠ authorisation ≠ currency.** Completing planned development does **not** automatically grant permission (`PEO-001`) or CURRENT status (`PEO-002`).  

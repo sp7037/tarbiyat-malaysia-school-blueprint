@@ -99,7 +99,7 @@
 
 | Field | Entry |
 |---|---|
-| Practitioner contribution expected | Named adults still need FRM-002 (+ FRM-007 DRAFT/PEO if scoped) |
+| Practitioner contribution expected | Named adults still need FRM-002 (+ FRM-007 APPROVED/PEO-001 if scoped) |
 | Technical / professional review expected | |
 | Which learners; where; under what supervision | No vague “partner access” |
 | Permitted learner interaction (supervised / scoped) | Unsupervised access **not** default |
