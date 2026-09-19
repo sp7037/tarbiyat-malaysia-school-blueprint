@@ -3,15 +3,18 @@
 | Field | Value |
 |---|---|
 | Document ID | `ROOT-INDEX` |
-| Version | `0.21.0` |
+| Version | `0.22.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-16` |
+| Last reviewed | `2026-09-19` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | Entire repository tree |
-| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–12 ADR drafts |
+| Source documents | Pre-flight; Iteration 1; ratification (2026-09-13); Iteration 2–13 ADR drafts; Core Architecture Phase 1 complete (2026-09-19) |
 
 This is the single map of controlled documents. Update when adding, approving or superseding substantive files.
+
+> **Core Architecture Phase 1 substantially complete: 15 decision ADRs approved.**  
+> Remaining programme work: operating standards, country/legal implementation, pilot/evidence, templates/records, software/Tarbiyat OS, and business/economic model — not further UNDER REVIEW Core decision ADRs.
 
 ---
 
@@ -127,7 +130,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0006 | `docs/13-decisions/adr/ADR-0006-stage-transition-exploration-floor-and-pathway-mobility.md` | APPROVED | Stage transition; Exploration Floor as protected dimensions; pathway bridging; GAP-019/020 Closed |
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | APPROVED | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 Closed |
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | APPROVED | Six Worlds capability / progressive depth; GAP-008 Closed; GAP-047 Open |
-| ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | UNDER REVIEW | Student Creator Rights / IP / Micro-Venture; GAP-025 proposed resolution |
+| ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | APPROVED | Student Creator Rights / IP / Micro-Venture; GAP-025 Closed |
 | ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | APPROVED | Practitioner–Educator–Mentor faculty functions; teams; PEO-001–005 DRAFT companions; GAP-032–036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | APPROVED | Proof of Capability / capability evidence; GAP-010 Closed; GAP-038–044 remain open/proposed; POC-001 DRAFT ops companions |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | APPROVED | Discover meaningful exposure package; GAP-045 Closed |

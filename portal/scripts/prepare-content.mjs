@@ -509,8 +509,8 @@ function buildWorkstreams(adrs) {
       id: 'core',
       name: 'Core Architecture',
       status: approved ? 'APPROVED' : 'UNDER REVIEW',
-      detail: 'Founding dual-layer, Lab-First, and recognition-layer decisions APPROVED via FND-003 + ADR-0001–0003. Learning-time coexistence constraints APPROVED via ADR-0019 (GAP-016 Closed; GAP-048 open for exemplars/pilot ranges).',
-      evidence: 'ADR-0001, ADR-0002, ADR-0003; ADR-0019; LAR-001; GAP-016; GAP-048',
+      detail: 'Core Architecture Phase 1 substantially complete: 15 decision ADRs approved (ADR-0001–0007 / 0011 / 0014–0020). Founding dual-layer, Lab-First, recognition layer, learning-time, campus, missions, faculty, Creator Rights and PoC Core decisions APPROVED. Remaining work is operating standards, country/legal, pilot evidence, templates, software and business model — not further UNDER REVIEW Core ADRs.',
+      evidence: 'ADR-0001–0007; ADR-0011; ADR-0014–0020; FND-003; GAP closed Core design conflicts',
       href: '/decisions/'
     },
     {
@@ -533,8 +533,8 @@ function buildWorkstreams(adrs) {
       id: 'missions',
       name: 'Missions & Production',
       status: 'APPROVED',
-      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. MIS-001 / MIS-002 / MIS-003 remain DRAFT (GAP-022–024 not closed). MIS-TPL-001 / MIS-FRM-* DRAFT (GAP-031 not closed). ADR-0014 Creator Rights remains UNDER REVIEW (GAP-025).',
-      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–025; GAP-031',
+      detail: 'ADR-0007 APPROVED (GAP-018 Closed): Mission Ecosystem; authenticity A–F; Education-First; Educationalisation; lifecycle; Institution-in-Residence. ADR-0014 APPROVED (GAP-025 Closed): Creator Rights / no automatic IP transfer. MIS-001 / MIS-002 / MIS-003 remain DRAFT (GAP-022–024 not closed). MIS-TPL-001 / MIS-FRM-* DRAFT (GAP-031 not closed). GAP-011 / 026–030 remain open.',
+      evidence: 'ADR-0002; ADR-0007; ADR-0014; MIS-001; MIS-002; MIS-003; MIS-TPL-001; docs/06; GAP-018; GAP-022–024; GAP-025; GAP-011; GAP-026–031',
       href: '/areas/missions'
     },
     {
@@ -573,8 +573,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'APPROVED',
-      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001–005 remain DRAFT (GAP-032–036 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights remains UNDER REVIEW.',
-      evidence: 'ADR-0015; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037',
+      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001–005 remain DRAFT (GAP-032–036 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights APPROVED (GAP-025 Closed).',
+      evidence: 'ADR-0015; ADR-0014; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037; GAP-025',
       href: '/areas/people-and-culture'
     },
     {
@@ -814,28 +814,28 @@ const includes = [
     title: 'Mission Partner Governance (MIS-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_PARTNER_GOVERNANCE.md',
     description:
-      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW.'
+      'MIS-001 DRAFT — proposed operational resolution of GAP-022 (not closed). ADR-0007 / ADR-0014 / ADR-0015 APPROVED.'
   },
   {
     outRel: 'areas/institution-in-residence.md',
     title: 'Institution / Industry-in-Residence (MIS-002)',
     sourceRel: 'docs/06-missions-and-production/INSTITUTION_IN_RESIDENCE.md',
     description:
-      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW.'
+      'MIS-002 DRAFT — proposed operational resolution of GAP-023 (not closed). Inherits MIS-001. ADR-0007 / ADR-0014 / ADR-0015 APPROVED.'
   },
   {
     outRel: 'areas/mission-risk-and-safeguarding.md',
     title: 'Mission Risk and Safeguarding (MIS-003)',
     sourceRel: 'docs/06-missions-and-production/MISSION_RISK_AND_SAFEGUARDING.md',
     description:
-      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 / ADR-0015 APPROVED; ADR-0014 remains UNDER REVIEW where relevant.'
+      'MIS-003 DRAFT — proposed operational resolution of GAP-024 (not closed). Proportional R0–R4 classification. ADR-0007 / ADR-0014 / ADR-0015 APPROVED where relevant.'
   },
   {
     outRel: 'areas/mission-operating-templates.md',
     title: 'Mission Operating Templates (MIS-TPL-001)',
     sourceRel: 'docs/06-missions-and-production/MISSION_OPERATING_TEMPLATES.md',
     description:
-      'MIS-TPL-001 DRAFT — proposed resolution of GAP-031 (not closed). Minimum viable partner / risk / I-in-R / Creator Rights records. All templates DRAFT.'
+      'MIS-TPL-001 DRAFT — proposed resolution of GAP-031 (not closed). Minimum viable partner / risk / I-in-R / Creator Rights records. ADR-0014 APPROVED; templates remain DRAFT.'
   },
   {
     outRel: 'areas/mis-frm-001.md',

@@ -18,7 +18,7 @@ description: Mission Ecosystem — MIS-001 / MIS-002 / MIS-003 + Mission Operati
 </div>
 
 ::: tip Portal notice
-Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. MIS operating packs and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0014 remains UNDER REVIEW. ADR-0015 Faculty Architecture is APPROVED (PEO ops remain DRAFT).
+Source Markdown documents remain authoritative. ADR-0007 is APPROVED Core. ADR-0014 Creator Rights is APPROVED (GAP-025 Closed; GAP-011 / 026–031 remain open). MIS operating packs and templates remain **DRAFT** educational records — not legal contracts. Authenticity ≠ permission to ignore risk. ADR-0015 Faculty Architecture is APPROVED (PEO ops remain DRAFT).
 :::
 
 ## Architectural chain
@@ -35,7 +35,7 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 |---|---|---|
 | Lab-First / Mission-Based architecture | APPROVED | [ADR-0002](/decisions/adr-0002) |
 | Mission Ecosystem / authenticity / Campus Live Workflow / I-in-R | APPROVED | [ADR-0007](/decisions/adr-0007) |
-| Student Creator Rights / IP | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
+| Student Creator Rights / IP | APPROVED | [ADR-0014](/decisions/adr-0014) |
 | Practitioner–Educator–Mentor / Mission Teams | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Mission Partner Governance (`MIS-001`) | DRAFT | [Portal](/areas/mission-partner-governance) |
 | Institution / Industry-in-Residence (`MIS-002`) | DRAFT | [Portal](/areas/institution-in-residence) |
@@ -47,11 +47,11 @@ Safe simulation or controlled alternatives may produce valid capability evidence
 
 ## Related gaps
 
-- [GAP-018](/gaps#gap-018) — Mission authenticity (proposed via ADR-0007 — not closed)
+- [GAP-018](/gaps#gap-018) — Mission authenticity (Closed by ADR-0007)
 - [GAP-022](/gaps#gap-022) — Partner governance (proposed via MIS-001 — not closed)
 - [GAP-023](/gaps#gap-023) — Institution-in-Residence (proposed via MIS-002 — not closed)
 - [GAP-024](/gaps#gap-024) — Mission risk / safeguarding (proposed via MIS-003 — not closed)
-- [GAP-025](/gaps#gap-025) — Creator Rights (proposed via ADR-0014 — not closed)
+- [GAP-025](/gaps#gap-025) — Creator Rights (Closed by ADR-0014)
 - [GAP-031](/gaps#gap-031) — Templates (proposed via MIS-TPL-001 / MIS-FRM-* — not closed)
 - [GAP-032](/gaps#gap-032) — Mission Team loading / capacity (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)

@@ -11,7 +11,7 @@ description: Mission-based authentic learning in the Tarbiyat architecture
 </p>
 
 ::: tip Authority
-Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Partner / I-in-R / risk operating packs **MIS-001–003** remain **DRAFT** (GAP-022–024 — not closed).
+Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Creator Rights architecture is **APPROVED** (ADR-0014; GAP-025 Closed). Partner / I-in-R / risk operating packs **MIS-001–003** remain **DRAFT** (GAP-022–024 — not closed).
 :::
 
 ## What makes a Mission
@@ -25,6 +25,12 @@ Authenticity levels A–F guide progression from designed context to advanced co
 ## Education-First
 
 Learners are not cheap labour, unpaid commercial workforce or promotional assets. Partners may contribute problems, expertise and critique. They do not buy curriculum control, assessment, unsupervised access, automatic IP or exclusive recruitment.
+
+## Creator Rights (plain)
+
+Create → Attribute → Protect → Agree before transfer/use → Commercialise only if appropriate.
+
+Learner contribution is recognised. Mission participation does **not** automatically transfer IP. Commercialisation is optional. Capability evidence and legal ownership remain separate. Country law governs enforceable ownership — this portal is not a legal guarantee.
 
 ## From partner need to learner work
 
@@ -53,7 +59,7 @@ Operating companions: [MIS-001](/areas/mission-partner-governance), [MIS-002](/a
 |---|---|
 | [ADR-0002](/decisions/adr-0002) — Lab-First / Mission-Based | APPROVED |
 | [ADR-0007](/decisions/adr-0007) — Mission Ecosystem | APPROVED |
-| [ADR-0014](/decisions/adr-0014) — Creator Rights | UNDER REVIEW |
+| [ADR-0014](/decisions/adr-0014) — Creator Rights | APPROVED |
 | [ADR-0015](/decisions/adr-0015) — Faculty / Mission Teams | APPROVED |
 | [MIS-001](/areas/mission-partner-governance) | DRAFT (GAP-022 — not closed) |
 | [MIS-002](/areas/institution-in-residence) | DRAFT (GAP-023 — not closed) |

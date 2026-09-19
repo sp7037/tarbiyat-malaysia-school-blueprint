@@ -3,15 +3,16 @@
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0014` |
-| Version | `0.1.1` |
-| Status | `UNDER REVIEW` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
 | Date | `2026-09-14` |
-| Deciders | Human lead (TBD) |
+| Approved | `2026-09-19` |
+| Deciders | Human architectural review (Creator Rights / Attribution / IP & Learner Venture / ADR-0014 review) |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0007` UNDER REVIEW (Mission Ecosystem / Education-First / no automatic IP transfer); developmental context `ADR-0004`–`ADR-0006` UNDER REVIEW (not treated as approved) |
-| Related gaps / claims | GAP-010, GAP-011, GAP-025; opens GAP-026–GAP-031; related GAP-022–024 |
-| Source documents | `FND-003` §§6, 9, 10; ADR-0002 production cycle; ADR-0007 Education-First and IP dependency; Architecture Iteration 6 brief (2026-09-14) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0004`–`ADR-0006` APPROVED; `ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; operating companions `MIS-001`–`003` / `MIS-TPL-001` / `POC-001` DRAFT (do not close GAP-022–024 / 031 / 038–044); country overlays `MY-002` / `MY-003` DRAFT (`GAP-011` / `GAP-026` remain open) |
+| Related gaps / claims | Closes GAP-025; related GAP-010 Closed (ADR-0016); opens / preserves GAP-011, GAP-026–GAP-031; related GAP-022–024 |
+| Source documents | `FND-003` §§6, 9, 10; ADR-0002 production cycle; ADR-0007 Education-First and IP dependency; Architecture Iteration 6 brief (2026-09-14); Creator Rights human review (2026-09-19) |
 
 ---
 
@@ -21,13 +22,21 @@ Student Creator Rights, Intellectual Property, Innovation and Micro-Venture Arch
 
 ## Status
 
-`UNDER REVIEW` — not APPROVED.
+`APPROVED`
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-14 | Initial UNDER REVIEW draft |
+| 0.1.1 | 2026-09-14 | Editorial alignment with Mission / PoC companion language |
+| 1.0.0 | 2026-09-19 | APPROVED after Creator Rights human review; closes GAP-025; dependency hygiene for APPROVED ADR-0004–0007 / 0011 / 0015 / 0016 / 0019 / 0020; GAP-011 / 026–031 and MIS/POC DRAFT companions remain open |
 
 ## Context
 
 ADR-0002 (APPROVED) includes a production cycle that may culminate in deploy, IP protection, venture, licensing, technology transfer or social implementation. FND-003 (APPROVED) permits Mission-to-Market and supervised micro-venture possibilities while stating that legal ownership, IP assignment, child-employment rules and commercialisation constraints are **country/project implementation matters**.
 
-ADR-0007 (UNDER REVIEW) establishes a governed Mission Ecosystem, Education-First / no student exploitation, Mission Educationalisation, and an explicit rule that **no student work automatically becomes school or partner property**. It deferred Creator Rights, IP and micro-venture architecture to this ADR (`GAP-025`; Malaysia legal feasibility `GAP-011`).
+ADR-0007 (APPROVED) establishes a governed Mission Ecosystem, Education-First / no student exploitation, Mission Educationalisation, and an explicit rule that **no student work automatically becomes school or partner property**. It deferred Creator Rights, IP and micro-venture architecture to this ADR (`GAP-025`; Malaysia legal feasibility `GAP-011`).
 
 Without Core Creator Rights architecture:
 
@@ -39,7 +48,7 @@ Without Core Creator Rights architecture:
 - Proof of Capability may confuse commercial success with educational capability;
 - public-good and creative outputs may be treated as second-class relative to patents.
 
-**Dependency note:** This ADR assumes ADR-0007’s Education-First rule, Mission Educationalisation, partner non-control of education/assessment/safeguarding, productive failure, and progressive authenticity constraints. ADR-0007 remains `UNDER REVIEW`. Developmental stage meanings in ADR-0004–0006 remain `UNDER REVIEW` and are used only as contextual stage labels, not as approved law. This ADR does **not** silently treat ADR-0004–0007 as approved. If ADR-0007 is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** This ADR assumes ADR-0007’s Education-First rule, Mission Educationalisation, partner non-control of education/assessment/safeguarding, productive failure, and progressive authenticity constraints (APPROVED). Developmental stage architecture from ADR-0004–0006 is APPROVED context. Proof of Capability architecture is defined in ADR-0016 (`APPROVED`; `GAP-010` Closed; ops remain GAP-038–044). Faculty conflict / adult role context is consistent with ADR-0015 (`APPROVED`). Operating templates and country IP overlays remain DRAFT and do **not** close GAP-011 / 022–024 / 026–031 / 038–044 by existing.
 
 This ADR remains Core / country-neutral. It does **not** invent Malaysian or Indian IP law, set ownership percentages, draft contracts, promise patents or investment, design Proof of Capability schemas, or build software.
 
@@ -64,7 +73,7 @@ Tarbiyat Core adopts a **Student Creator Rights** architecture for recognising c
 13. A future **Student Innovation & Mission Fund** is an architectural possibility, not a mandated financial structure.
 14. Leaving school must not permanently hold a learner hostage to institutional control of their creator recognition and lawful continuing interests.
 15. Country law governs contracts, minors’ capacity, IP species, employment, companies, tax and securities. Core establishes governance values and architecture, not universal legal conclusions.
-16. Creator contribution records may feed future Proof of Capability (`GAP-010`), but **creator attribution ≠ competency assessment** and **commercial value ≠ educational capability**.
+16. Creator contribution records may feed Proof of Capability (ADR-0016 `APPROVED`; `GAP-010` Closed; ops GAP-038–044), but **creator attribution ≠ competency assessment** and **commercial value ≠ educational capability**.
 
 ---
 
@@ -99,11 +108,17 @@ Core **must distinguish**:
 |---|---|
 | **Educational recognition of creators** | Tarbiyat’s institutional acknowledgement of who created or materially contributed to work; used for credit, portfolios, Contribution Records and Proof of Capability linkage |
 | **Legal authorship** | Who the applicable legal system treats as author/inventor/designer (or equivalent), which may differ by IP species and jurisdiction |
+| **Contribution** | Material work done by a person or tool (including AI); recorded educationally; not automatically equal to ownership |
 | **Legal ownership** | Who holds enforceable proprietary rights; may be authors, assignees, employers, joint owners, or others under law and contract |
-| **Licence** | Permission to use work under defined terms without necessarily transferring ownership |
+| **Possession** | Physical or digital custody of an artefact (e.g. school-held file, lab prototype); custody is **not** ownership and does not erase creator recognition |
+| **Licence / use permission** | Permission to use work under defined terms without necessarily transferring ownership |
+| **Publication** | Making work visible beyond the original learning context (portfolio, website, exhibition, journal, social media); requires proportionate permission, attribution, privacy and safeguarding |
+| **Commercial rights** | Rights to license, sell, assign, incorporate or otherwise exploit work for value; never automatic from Mission participation |
 | **Team-created work** | Multiple contributors with possibly unequal material contributions; not automatic equal ownership |
 | **Pre-existing / Background IP** | Rights and materials that existed before the mission and remain with their prior holders unless lawfully licensed |
 | **Country-specific law** | The binding rules of copyright, patent, design, trade secret, contract, minors, employment, company and related law |
+
+**Material contribution must not disappear** merely because the school supplied equipment, a partner funded the Mission, a Practitioner advised, a teacher supervised, or the school hosted the work.
 
 ### Core principle (refined)
 
@@ -160,7 +175,7 @@ Possible contributors include: individual students; student teams; educators; pr
 - Do **not** award creator evidence for work the learner did not meaningfully create.
 - Contribution Records support educational credit and later lawful review; they are **not** themselves a Competency Graph score or automatic ownership percentage.
 
-**Schema deferred** — database design is out of scope (`GAP-010` / later ops).
+**Schema deferred** — database design is out of scope (ADR-0016 APPROVED; PoC ops `GAP-038`–`044` / `POC-FRM-002` DRAFT).
 
 ---
 
@@ -173,7 +188,7 @@ Significant Tarbiyat outputs may involve one student, multiple students (includi
 1. **Acknowledgement** — all material contributors are recorded; non-material presence is not inflated.
 2. **Attribution** — public and educational credit tracks Contribution Records, not marketing convenience.
 3. **Disagreement** — team disagreement about commercialisation, publication or pathway does not authorise one party to erase others’ recognised contribution.
-4. **Continuing use** — continuing educational use of team work (portfolio evidence, teaching examples with consent/sanitisation) should respect creator recognition and confidentiality constraints.
+4. **Continuing use** — continuing educational use of team work (portfolio evidence, teaching examples with consent/sanitisation) should respect creator recognition and confidentiality constraints. **Enrolment alone is not unlimited promotional consent** for website, social-media or marketing use; display, archiving, learning examples, publication and marketing require proportionate permission, attribution, privacy, safeguarding and country-law compliance.
 5. **Departure** — a team member leaving school or the mission does not erase their recorded contribution; ongoing commercial or research use requires lawful handling of continuing interests (country/agreement detail later).
 6. **Later commercial opportunity** — later value does not rewrite history; Surprise Innovation and Creator Rights Review apply.
 
@@ -442,9 +457,9 @@ Country implementation handles corporate and securities law (`GAP-029`).
 
 ## Age / Guardian / Student Voice
 
-Student participation in IP/commercial decisions must be **age-appropriate**. Core does **not** set rigid birthday thresholds; country law defines contractual/legal capacity.
+Student participation in IP/commercial decisions must be **age-appropriate**. Core does **not** set rigid birthday thresholds; country law defines contractual/legal capacity. A learner’s signature alone must **not** be treated as automatically meaningful legal consent where capacity, guardianship or power imbalance requires more.
 
-| Stage context (labels from ADR-0004; still UNDER REVIEW) | Architectural expectation |
+| Stage context (labels from ADR-0004 APPROVED) | Architectural expectation |
 |---|---|
 | **Earlier stages** (Explore / Discover and early Choose) | Creator recognition and protection; adults carry most legal/governance responsibilities |
 | **Choose / Deepen** | Increasing learner understanding and participation in pathway choices |
@@ -532,7 +547,7 @@ Missions should, wherever practical, allow a learner to retain a **sanitised cap
 
 Example: a learner may not reveal secret source code but can retain verified evidence that they performed specified capability work under defined constraints.
 
-This supports Proof of Capability portability (`GAP-010`) without breaching lawful confidentiality.
+This supports Proof of Capability portability (ADR-0016 `APPROVED`; ops GAP-038–044) without breaching lawful confidentiality.
 
 ---
 
@@ -556,7 +571,7 @@ At architectural level, significant long-running creator interests require appro
 
 ## Relationship to Mission Ecosystem
 
-This ADR preserves and depends on ADR-0007 (UNDER REVIEW):
+This ADR preserves and depends on ADR-0007 (`APPROVED`):
 
 - Mission Educationalisation;
 - Education-First;
@@ -565,22 +580,23 @@ This ADR preserves and depends on ADR-0007 (UNDER REVIEW):
 - productive failure;
 - stage-appropriate authenticity.
 
-Commercial attractiveness must **not** weaken those protections. Partner IP terms are part of mission governance, not a parallel capture system.
+Commercial attractiveness must **not** weaken those protections. Partner IP terms are part of mission governance, not a parallel capture system. Foreseeable IP, confidentiality, publication, data and partner-use conditions should be identified **before** substantial learner work begins.
 
 ---
 
 ## Relationship to Proof of Capability
 
-Contribution Records and sanitised capability evidence should feed future Proof of Capability architecture (`GAP-010`).
+Contribution Records and sanitised capability evidence align with Proof of Capability architecture (ADR-0016 `APPROVED`; `GAP-010` Closed; ops via `POC-001` / `POC-FRM-*` DRAFT — GAP-038–044 not closed).
 
 But:
 
 - **creator attribution ≠ competency assessment**;
-- **commercial value ≠ educational capability**.
+- **commercial value ≠ educational capability**;
+- **capability evidence ≠ legal ownership evidence**.
 
-A commercially unsuccessful invention can demonstrate outstanding capability. A financially successful product does not automatically prove every claimed competency.
+A learner may prove capability using an artefact they do not exclusively own. Owning an artefact does not prove capability. A commercially unsuccessful invention can demonstrate outstanding capability. A financially successful product does not automatically prove every claimed competency.
 
-PoC schema is **not** designed here.
+PoC operating schemas remain in ADR-0016 / POC DRAFT companions — not redesigned here.
 
 ---
 
@@ -667,11 +683,10 @@ Core terminology therefore uses **Creator Rights**, with **IP as one component**
 - Contribution Records require adult discipline; poor records create later disputes.
 - Conflicted schools may still pressure commercialisation without strong enforcement.
 - Country-law mapping remains essential; Core principles alone do not create enforceable title (`GAP-011`, `GAP-026`).
-- Dependency on ADR-0007 remaining coherent through approval.
+- Operating templates and country overlays must still be human-reviewed (MIS / POC / MY DRAFT).
 
 ### Follow-on work
 
-- Human review of this ADR; close GAP-025 only if APPROVED.
 - Country IP/creator-rights legal mapping (`GAP-026`; MY detail `GAP-011`).
 - Benefit-sharing policy (`GAP-027`).
 - Micro-Venture operating standard (`GAP-028`).
@@ -679,7 +694,7 @@ Core terminology therefore uses **Creator Rights**, with **IP as one component**
 - Student Innovation & Mission Fund design (`GAP-030`).
 - Creator Rights Review procedures and agreement templates (`GAP-031`).
 - Partner governance / I-in-R / mission risk standards (`GAP-022`–`024`) incorporating Creator Rights controls.
-- Proof of Capability linkage (`GAP-010`).
+- Proof of Capability operating linkage (`GAP-038`–`044` / POC-001 DRAFT; ADR-0016 APPROVED).
 
 ## Alternatives Considered
 
@@ -714,10 +729,12 @@ Malaysia legal feasibility remains `GAP-011`. Cross-country mapping process: `GA
 
 - `docs/00-foundation/CONCEPT_CONSTITUTION.md` (APPROVED) — especially §§6, 9, 10
 - ADR-0001, ADR-0002, ADR-0003 (APPROVED)
-- ADR-0007 (UNDER REVIEW — Mission Ecosystem; Education-First; no automatic IP transfer)
-- ADR-0004, ADR-0005, ADR-0006 (UNDER REVIEW — stage labels contextual only; not treated as approved)
-- Future: Proof of Capability (`GAP-010`); `docs/06-missions-and-production/` partner/creator operating standards
-- `GAP_REGISTER.md` — GAP-025; GAP-011; GAP-026–031
+- ADR-0007 (APPROVED — Mission Ecosystem; Education-First; no automatic IP transfer)
+- ADR-0004, ADR-0005, ADR-0006 (APPROVED — stage/mobility context)
+- ADR-0011, ADR-0015, ADR-0016, ADR-0019, ADR-0020 (APPROVED)
+- `POC-001` / `POC-FRM-*` (DRAFT — PoC ops; GAP-038–044 not closed)
+- `MIS-001`–`003` / `MIS-TPL-001` (DRAFT — Mission ops / Creator Rights templates; GAP-022–024 / 031 not closed)
+- `GAP_REGISTER.md` — GAP-025 Closed by this ADR; GAP-011; GAP-026–031
 
 ## Open Questions
 
@@ -727,9 +744,8 @@ Malaysia legal feasibility remains `GAP-011`. Cross-country mapping process: `GA
 4. External investment acceptance checklist and independent-advice triggers (`GAP-029`).
 5. Whether/when to establish a Student Innovation & Mission Fund and its governance (`GAP-030`).
 6. Creator Rights Review SOP and mission IP expectation templates (`GAP-031`).
-7. How Contribution Records and sanitised capability evidence map into Proof of Capability verification (`GAP-010`).
+7. How Contribution Records and sanitised capability evidence operate inside Proof of Capability verification (`GAP-038`–`044`; ADR-0016 APPROVED; POC-001 DRAFT).
 8. Integration of Creator Rights controls into partner governance and mission risk classification (`GAP-022`, `GAP-024`).
-9. How Produce-stage venture intensity interacts with Exploration Floor / Formal Recognition obligations if ADR-0004–0006 change before approval.
 
 ## Test Scenarios
 
@@ -752,8 +768,8 @@ Malaysia legal feasibility remains `GAP-011`. Cross-country mapping process: `GA
 
 This ADR does **not**:
 
-- approve itself or close GAP-025;
-- treat ADR-0004, ADR-0005, ADR-0006 or ADR-0007 as APPROVED;
+- close GAP-011 or GAP-026–031 (country / ops remain open);
+- approve `MIS-001`–`003`, `MIS-TPL-001`, `POC-001` or MY documents;
 - promise students patents, startups, investment or GDP/employment outcomes;
 - guarantee ownership percentages or invent universal revenue shares;
 - invent Malaysian or Indian IP, contract, employment or securities law;

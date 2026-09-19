@@ -81,7 +81,7 @@ Fictional example for architecture communication only. No personal data.
 | Discover Exposure Evidence ≠ PoC Claims | APPROVED | [ADR-0017](/decisions/adr-0017) |
 | Formal Recognition + parallel capability layer | APPROVED | [ADR-0003](/decisions/adr-0003) |
 | Faculty multi-stream assessment | APPROVED | [ADR-0015](/decisions/adr-0015) |
-| Contribution Records / sanitised evidence | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
+| Contribution Records / sanitised evidence | APPROVED (Core) | [ADR-0014](/decisions/adr-0014); ops via [POC-FRM-002](/areas/poc-frm-002) DRAFT |
 | Assessment section | DRAFT | `docs/05-assessment/` |
 
 ## Related gaps

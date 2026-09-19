@@ -73,6 +73,12 @@ Six developmental professional domains organise exploration, missions and later 
 
 The human model uses Educator, Practitioner and Mentor as peer functions in professional teams (ADR-0015 APPROVED). Operating ratios and country registration mapping remain open (PEO / MY DRAFT). See [People & Learning](/people-learning).
 
+## Creator Rights
+
+Create → Attribute → Protect → Agree before transfer/use → Commercialise only if appropriate.
+
+Learners receive truthful creator recognition. Mission participation does not automatically transfer IP. Commercialisation is optional. Capability evidence and legal ownership are separate. Country law governs actual ownership — this is architecture, not a legal guarantee. See [ADR-0014](/decisions/adr-0014) (`APPROVED`; GAP-025 Closed).
+
 ## Where to go deeper
 
 | Topic | Presentation | Architecture record |
@@ -80,6 +86,7 @@ The human model uses Educator, Practitioner and Mentor as peer functions in prof
 | Student stages | [Student Journey](/student-journey) | [ADR-0004](/decisions/adr-0004)–[ADR-0006](/decisions/adr-0006) approved; [ADR-0017](/decisions/adr-0017)–[ADR-0018](/decisions/adr-0018) approved |
 | Six Worlds | [Six Worlds](/six-worlds) | [ADR-0011](/decisions/adr-0011) approved |
 | Missions | [Missions](/missions) | [ADR-0002](/decisions/adr-0002) approved; [ADR-0007](/decisions/adr-0007) approved |
+| Creator Rights | [Missions](/missions)#creator-rights-plain | [ADR-0014](/decisions/adr-0014) approved (GAP-025 Closed; GAP-011 / 026–031 open) |
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) approved; [POC-001](/areas/poc-operating-standard) DRAFT |
 | Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |
 | Campus / facilities | [CAM-001](/areas/campus-facilities) | [ADR-0020](/decisions/adr-0020) approved |

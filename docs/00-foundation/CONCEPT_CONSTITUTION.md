@@ -289,6 +289,7 @@ Related resolved developmental companions (not Constitution open questions): Exp
 | `ADR-0006` | Stage Transition, Exploration Floor and Pathway Mobility | `APPROVED` |
 | `ADR-0007` | Mission Ecosystem, Authenticity and Institution-in-Residence | `APPROVED` |
 | `ADR-0011` | Six Worlds Capability and Progressive Depth | `APPROVED` |
+| `ADR-0014` | Student Creator Rights, IP, Innovation and Micro-Venture | `APPROVED` |
 | `ADR-0015` | Practitioner–Educator–Mentor Faculty Architecture | `APPROVED` |
 | `ADR-0016` | Proof of Capability and Capability Evidence | `APPROVED` |
 | `ADR-0017` | Discover Meaningful Exposure Package | `APPROVED` |

@@ -101,7 +101,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Mentor Caseload Review (`PEO-FRM-003`) | DRAFT | [Portal](/areas/peo-frm-003) |
 | Mission Operating Templates (incl. FRM-002 / 007 / 008) | DRAFT | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | APPROVED | [ADR-0007](/decisions/adr-0007) |
-| Student Creator Rights (conflict / IP adults) | UNDER REVIEW | [ADR-0014](/decisions/adr-0014) |
+| Student Creator Rights (conflict / IP adults) | APPROVED | [ADR-0014](/decisions/adr-0014) |
 | Lab-First / Mission-Based | APPROVED | [ADR-0002](/decisions/adr-0002) |
 | People & governance section | DRAFT | `docs/08-people-and-governance/SECTION_README.md` |
 

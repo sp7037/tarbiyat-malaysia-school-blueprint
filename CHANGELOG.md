@@ -19,6 +19,15 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### ADR-0014 APPROVED — Student Creator Rights / IP / Micro-Venture Architecture (2026-09-19)
+
+- Human Creator Rights review passed (creator recognition distinctions; no automatic IP transfer; Core vs country law; Contribution Records / ADR-0016; school & partner use; commercially valuable work; optional entrepreneurship; educational vs legal enterprise; minors/power imbalance; safeguarding/privacy; confidentiality; AI-assisted work; open release; mixed contribution; PoC separation; Mission / Formal Recognition compatibility; equity; dispute architecture; hostile scenarios A–O; anti-exploitation). Classification: READY WITH EDITORIAL HYGIENE ONLY.
+- `ADR-0014` promoted `0.1.1` / `UNDER REVIEW` → `1.0.0` / `APPROVED` (2026-09-19). Editorial hygiene: dependency alignment to APPROVED ADR-0004–0007 / 0011 / 0015 / 0016 / 0019 / 0020; possession/publication/commercial-rights clarity; enrolment ≠ promotional consent; signature ≠ automatic legal consent; capability evidence ≠ ownership.
+- `GAP-025` Closed — resolved by APPROVED ADR-0014. `GAP-011` / `GAP-026`–`031` remain Open / Proposed (country / ops). No MIS / POC / PEO / MY / IMP approvals. No invented ownership percentages, Malaysian IP conclusions or universal contracts.
+- Decision ADRs now **15 APPROVED / 0 UNDER REVIEW** — **Core Architecture Phase 1 substantially complete: 15 decision ADRs approved.** Remaining work is operating standards, country/legal, pilot evidence, templates, software and business model — not project/pilot/Malaysia-legal/ops/software completion.
+- Updated `ADR_INDEX`, `MASTER_INDEX`, `GAP_REGISTER`, FND-003 related-decisions, portal missions / model / progress / roadmap, prepare-content workstream.
+- No commit in this review iteration unless separately requested.
+
 ### ADR-0015 APPROVED — Practitioner–Educator–Mentor Faculty Architecture (2026-09-19)
 
 - Human Faculty Capacity review passed (three-function peer model; Educator lawful authority; scoped Practitioner authorisation; longitudinal Mentor; Mission/PoC/pathway compatibility; safeguarding; capacity coupling; currency; scalability; Malaysia/MY-002 compatibility; pilot readiness; AI boundary; role-collision / anti-theatre tests; authorisation asymmetry; Core vs PEO separation). Classification: READY WITH EDITORIAL HYGIENE ONLY.

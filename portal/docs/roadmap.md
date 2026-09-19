@@ -25,13 +25,13 @@ flowchart TD
   A6["ADR-0006<br/>Transition / Exploration Floor / Mobility<br/>APPROVED"]
   A7["ADR-0007<br/>Mission Ecosystem / Institution-in-Residence<br/>APPROVED"]
   A11["ADR-0011<br/>Six Worlds Capability / Progressive Depth<br/>APPROVED"]
-  A14["ADR-0014<br/>Student Creator Rights<br/>UNDER REVIEW"]
+  A14["ADR-0014<br/>Student Creator Rights<br/>APPROVED"]
   A15["ADR-0015<br/>Practitioner–Educator–Mentor Faculty<br/>APPROVED"]
   A16["ADR-0016<br/>Proof of Capability / Evidence<br/>APPROVED"]
   A17["ADR-0017<br/>Discover Meaningful Exposure<br/>APPROVED"]
   A18["ADR-0018<br/>Discover→Choose Pathway Preparation<br/>APPROVED"]
 
-  FUT["Future architecture work<br/>Competency Graph · Faculty · Creator Rights ·<br/>MY mapping · …"]
+  FUT["Future work<br/>Competency Graph · PEO/MIS/POC ops ·<br/>MY mapping · Pilot evidence · …"]
 
   CC --> A1
   CC --> A2
@@ -49,26 +49,25 @@ flowchart TD
   A4 --> A7
   A5 --> A7
   A6 --> A7
-  A7 -.-> A14
+  A7 --> A14
   A2 --> A15
-  A7 -.-> A15
-  A14 -.-> A15
+  A7 --> A15
+  A14 --> A15
   A3 --> A16
-  A7 -.-> A16
-  A14 -.-> A16
-  A15 -.-> A16
+  A7 --> A16
+  A14 --> A16
+  A15 --> A16
   A1 --> FUT
   A2 --> FUT
   A3 --> FUT
   A11 --> FUT
+  A14 --> FUT
   A15 --> FUT
   A16 --> FUT
 
   classDef approved fill:#e5f4eb,stroke:#1b6b45,color:#143
-  classDef review fill:#f8ecda,stroke:#8a5a12,color:#432
   classDef future fill:#eceff3,stroke:#5a6270,color:#333
-  class CC,A1,A2,A3,A4,A5,A6,A7,A11,A16,A17,A18 approved
-  class A14,A15 review
+  class CC,A1,A2,A3,A4,A5,A6,A7,A11,A14,A15,A16,A17,A18 approved
   class FUT future
 ```
 
@@ -77,19 +76,20 @@ flowchart TD
 | Link | Meaning |
 |---|---|
 | Solid arrows into ADR-0001–0003 | Founding ADRs depend on the Concept Constitution and ratify Core architecture |
-| Solid arrows into ADR-0004–0007 / 0011 / 0017 / 0018 | Developmental / Worlds / pathway / Mission cluster APPROVED |
+| Solid arrows into ADR-0004–0007 / 0011 / 0014 / 0015 / 0017 / 0018 | Developmental / Worlds / pathway / Mission / Creator Rights / Faculty cluster APPROVED |
 | Solid arrow ADR-0003 → ADR-0016 | Proof of Capability elaborates the APPROVED parallel capability layer |
-| Dashed arrows into UNDER REVIEW ADRs | Later drafts assume earlier constraints; if a dependency changes before approval, dependents must be re-checked |
-| Future work | Not yet decided as ADRs; includes proposed ADR-0008–0013 and open GAPs |
+| Future work | Operating standards, country/legal mapping, pilot evidence, templates, software — not Core ADR under-review backlog |
 
 ## Chronology vs dependency
 
-Ratification order was roughly: Constitution + ADR-0001/0002/0003 → developmental/Worlds drafts → PoC / learning-time / campus approvals → Integrated Developmental Architecture approvals → ADR-0007 Mission Ecosystem approval (2026-09-17) → ADR-0015 Faculty Architecture approval (2026-09-19).  
+Ratification order was roughly: Constitution + ADR-0001/0002/0003 → developmental/Worlds drafts → PoC / learning-time / campus approvals → Integrated Developmental Architecture approvals → ADR-0007 Mission Ecosystem approval (2026-09-17) → ADR-0015 Faculty Architecture approval (2026-09-19) → ADR-0014 Creator Rights approval (2026-09-19).  
 ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Constitution, not a strict 0001→0002→0003 dependency chain.
 
 ## Open next design areas (from repository evidence)
 
-- Complete human review of [ADR-0014](/decisions/adr-0014) (Creator Rights); ADR-0015 APPROVED — PEO-001–005 / GAP-032–037 remain open
+- Core Architecture Phase 1 substantially complete: 15 decision ADRs approved. Remaining programme work is operating standards, country/legal, pilot evidence, templates, software and business model — not further UNDER REVIEW Core ADRs.
+- [GAP-025](/gaps#gap-025) Closed by [ADR-0014](/decisions/adr-0014) APPROVED; [GAP-011](/gaps#gap-011) / [GAP-026](/gaps#gap-026)–[GAP-031](/gaps#gap-031) Creator Rights country/ops remain open
+- ADR-0015 APPROVED — PEO-001–005 / GAP-032–037 remain open
 - [GAP-022](/gaps#gap-022) → [GAP-023](/gaps#gap-023) → [GAP-024](/gaps#gap-024): [MIS-001](/areas/mission-partner-governance) → [MIS-002](/areas/institution-in-residence) → [MIS-003](/areas/mission-risk-and-safeguarding) (all DRAFT proposed resolutions — not closed); [Mission Operating Templates](/areas/mission-operating-templates) propose [GAP-031](/gaps#gap-031) resolution — not closed
 - [GAP-008](/gaps#gap-008) Closed by [ADR-0011](/decisions/adr-0011) APPROVED; curricula / Graph follow-ons remain
 - [GAP-045](/gaps#gap-045) Closed by [ADR-0017](/decisions/adr-0017) APPROVED
