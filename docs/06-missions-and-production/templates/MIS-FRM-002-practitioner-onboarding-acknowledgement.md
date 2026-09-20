@@ -11,7 +11,7 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Mission Lead / Safeguarding function (implementation) |
 | Implements | APPROVED MIS-001 / MIS-002 / MIS-003 external-adult boundaries; APPROVED ADR-0014 / ADR-0015 principles |
-| Related gaps | GAP-031 Closed (pack); scoped authorisation via APPROVED `PEO-001` / `MIS-FRM-007` (GAP-033 Closed); currency remains GAP-035 (`MIS-FRM-008` DRAFT) |
+| Related gaps | GAP-031 Closed (pack); scoped authorisation via APPROVED `PEO-001` / `MIS-FRM-007` (GAP-033 Closed); currency remains GAP-035 (`MIS-FRM-008` APPROVED) |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > **Statutory vetting / background checks remain COUNTRY / IMPLEMENTATION.** This acknowledgement does **not** replace them.  

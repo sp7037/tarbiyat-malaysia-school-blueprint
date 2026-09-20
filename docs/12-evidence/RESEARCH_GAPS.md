@@ -56,7 +56,7 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Mentor caseload evidence bands — supports `GAP-034`.
 - Practitioner currency and hybrid onboarding precedents — supports `GAP-033`, `GAP-035`, `GAP-036`.
 - Country regulated-role mapping method (Core functions → legal categories) — supports `GAP-037`.
-- **Status (2026-09-19):** Malaysia mapping lodged as `MY-002` DRAFT (`v0.1.1` category overlays after `MY-003`); `GAP-037` proposed via MY-002 — **not closed**. ADR-0015 APPROVED; `PEO-001` / `MIS-FRM-007` APPROVED (`GAP-033` Closed); `PEO-002`–`005` remain DRAFT; GAP-032 / 034–036 unchanged; campus category still unset.
+- **Status (2026-09-19):** Malaysia mapping lodged as `MY-002` DRAFT (`v0.1.1` category overlays after `MY-003`); `GAP-037` proposed via MY-002 — **not closed**. ADR-0015 APPROVED; `PEO-001` / `MIS-FRM-007` APPROVED (`GAP-033` Closed); `PEO-002` / `MIS-FRM-008` APPROVED (`GAP-035` Closed); `PEO-003`–`005` remain DRAFT; GAP-032 / 034 / 036 unchanged; campus category still unset.
 
 ### RP-G — Campus & facilities architecture (opened with ADR-0020)
 

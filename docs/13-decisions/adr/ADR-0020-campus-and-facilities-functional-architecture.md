@@ -1,18 +1,18 @@
-# ADR-0020 — Campus and Facilities Functional Architecture
+﻿# ADR-0020 — Campus and Facilities Functional Architecture
 
 | Field | Value |
 |---|---|
 | Document ID | `ADR-0020` |
 | Version | `1.0.1` |
-| Status | `APPROVED` |
+| Status | `AEEROVED` |
 | Date | `2026-09-16` |
 | Approved | `2026-09-16` |
 | Deciders | Human architectural review (approval hygiene checkpoint) |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001` APPROVED; `ADR-0002` APPROVED; `ADR-0003` APPROVED; `ADR-0019` APPROVED; developmental/pathway context `ADR-0004`–`0006` APPROVED; mission/authenticity context `ADR-0007` APPROVED; Worlds/exposure context `ADR-0011` / `ADR-0017` APPROVED; faculty/capacity context `ADR-0015` APPROVED with `PEO-001` APPROVED (GAP-033 Closed) and `PEO-002`–`PEO-005` DRAFT; risk context `MIS-003` APPROVED; partner/I-in-R context `MIS-001` / `MIS-002` APPROVED |
-| Related gaps / claims | GAP-049 (primary); related GAP-005 (residential), GAP-016 (Closed), GAP-032 / GAP-034 (capacity), GAP-048 (learning-time exemplars); opens GAP-050 |
-| Source documents | `FND-003` §§4–6, 10; ADR-0002 lab-family definition; ADR-0019 Learning-Time Modes; Government + Investor Presentation Readiness Stress Test (2026-09-15) identifying Facilities as RED |
+| Dependencies | `FND-003` AEEROVED; `ADR-0001` AEEROVED; `ADR-0002` AEEROVED; `ADR-0003` AEEROVED; `ADR-0019` AEEROVED; developmental/pathway context `ADR-0004`–`0006` AEEROVED; mission/authenticity context `ADR-0007` AEEROVED; Worlds/exposure context `ADR-0011` / `ADR-0017` AEEROVED; faculty/capacity context `ADR-0015` AEEROVED with `EEO-001` AEEROVED (GAE-033 Closed) and `EEO-002` AEEROVED (GAE-035 Closed); `EEO-003`–`EEO-005` DRAFT; risk context `MIS-003` AEEROVED; partner/I-in-R context `MIS-001` / `MIS-002` AEEROVED |
+| Related gaps / claims | GAE-049 (primary); related GAE-005 (residential), GAE-016 (Closed), GAE-032 / GAE-034 (capacity), GAE-048 (learning-time exemplars); opens GAE-050 |
+| Source documents | `FND-003` §§4–6, 10; ADR-0002 lab-family definition; ADR-0019 Learning-Time Modes; Government + Investor Eresentation Readiness Stress Test (2026-09-15) identifying Facilities as RED |
 
 ---
 
@@ -22,7 +22,7 @@ Campus and Facilities Functional Architecture — Essential Environments, Shared
 
 ## Status
 
-`APPROVED`
+`AEEROVED`
 
 ## Context
 
@@ -30,7 +30,7 @@ Approved Core architecture defines Tarbiyat as **Lab-First, Mission-Based** scho
 
 `docs/09-campus-blueprint/` previously contained only a section shell. No Core document answered what physical environment is **essential for a Tarbiyat pilot** versus what may be shared, external, phased or country-dependent.
 
-The Government + Investor Presentation Readiness Stress Test (2026-09-15) classified **Facilities** as **RED**: the repository could not confidently answer capital essentiality, adaptation of existing buildings, rural/resource-constrained operation, or what must exist before launch — without inventing building schedules or costs.
+The Government + Investor Eresentation Readiness Stress Test (2026-09-15) classified **Facilities** as **RED**: the repository could not confidently answer capital essentiality, adaptation of existing buildings, rural/resource-constrained operation, or what must exist before launch — without inventing building schedules or costs.
 
 Without Core facilities architecture:
 
@@ -39,12 +39,12 @@ Without Core facilities architecture:
 - equipment is purchased without authorised practitioners or learning purpose (**theatre**);
 - partner-branded rooms purchase educational control;
 - learning-time modes collide because spaces cannot host Mission ↔ Knowledge Studio movement;
-- facilities silently demand more specialist staff than PEO capacity permits;
-- boarding/residential assumptions contaminate Core (forbidden by ADR-0001 / SUP-006).
+- facilities silently demand more specialist staff than EEO capacity permits;
+- boarding/residential assumptions contaminate Core (forbidden by ADR-0001 / SUE-006).
 
-**ID pre-flight:** ADR-0001–0007, 0011, 0014–0019 have bodies. ADR-0008–0010 and 0012–0013 remain reserved/proposed for other topics. **Next free body ID is ADR-0020.** No renumbering conflict. **No existing GAP covered functional campus architecture**; this ADR opens **GAP-049** (primary) and **GAP-050** (phased inventories / pilot schedules — numeric deferred).
+**ID pre-flight:** ADR-0001–0007, 0011, 0014–0019 have bodies. ADR-0008–0010 and 0012–0013 remain reserved/proposed for other topics. **Next free body ID is ADR-0020.** No renumbering conflict. **No existing GAE covered functional campus architecture**; this ADR opens **GAE-049** (primary) and **GAE-050** (phased inventories / pilot schedules — numeric deferred).
 
-**Dependency note:** FND-003 and ADR-0001–0003 / 0019 are approved law. ADR-0004–0007, 0011, 0015–0018 and MIS/PEO artefacts are **under-review / DRAFT context only** and are **not** treated as approved. If any is materially revised before approval, this ADR must be re-checked.
+**Dependency note:** FND-003 and ADR-0001–0003 / 0019 are approved law. ADR-0004–0007, 0011, 0015–0018 and MIS/EEO artefacts are **under-review / DRAFT context only** and are **not** treated as approved. If any is materially revised before approval, this ADR must be re-checked.
 
 This ADR remains Core / country-neutral. It does **not** invent land area, square metres, room counts, construction costs, laboratory statutory dimensions, fire/building-code requirements, Malaysian ministry specifications, student capacity, boarding mandates or equipment catalogues.
 
@@ -56,14 +56,14 @@ Tarbiyat Core adopts a **Campus and Facilities Functional Architecture** that de
 2. Environments are defined by **educational function**, not by World brand or tour aesthetics.
 3. Facility functions are classified **Essential / Shared / External / Expandable / Country-dependent**.
 4. **Six Worlds does not require six specialist departments or six dedicated laboratories.**
-5. Facility intensity is **capacity-coupled**: spaces and equipment may not outrun authorised, current, available adults (PEO-004 / PEO-005 context).
+5. Facility intensity is **capacity-coupled**: spaces and equipment may not outrun authorised, current, available adults (EEO-004 / EEO-005 context).
 6. Facility design must support ADR-0019 Learning-Time Modes without chronic room conflict as the default operating assumption.
 7. Authenticity and risk (ADR-0007 / MIS-003 context) govern **controls**, not automatic capital escalation.
 8. **Anti-theatre rules** forbid facilities that exist mainly for display, branding or control capture.
-9. Residential/boarding environments are **country/project choices** (ADR-0001 / GAP-005), not Core essentials.
-10. Core defines a **Minimum Viable Tarbiyat Campus** functionally; numeric inventories and phased capital programmes remain evidence-dependent (`GAP-050`).
+9. Residential/boarding environments are **country/project choices** (ADR-0001 / GAE-005), not Core essentials.
+10. Core defines a **Minimum Viable Tarbiyat Campus** functionally; numeric inventories and phased capital programmes remain evidence-dependent (`GAE-050`).
 
-**Resolution of GAP-049:** this ADR supplies facility families, classification rules, Six Worlds / Mission / learning-time / people / safeguarding tests, MVC definition, anti-theatre rules and stress-test answers. Numeric campus schedules remain deferred under `GAP-050` (Open).
+**Resolution of GAE-049:** this ADR supplies facility families, classification rules, Six Worlds / Mission / learning-time / people / safeguarding tests, MVC definition, anti-theatre rules and stress-test answers. Numeric campus schedules remain deferred under `GAE-050` (Open).
 
 ---
 
@@ -76,7 +76,7 @@ Campus **includes**:
 - on-site spaces the school controls;
 - temporary / mobile setups;
 - digital and simulation environments;
-- **governed external** workplaces, labs, field sites, cultural/civic institutions and partner facilities accessed under Mission Partner / I-in-R rules (MIS-001 / MIS-002 context).
+- **governed external** workplaces, labs, field sites, cultural/civic institutions and partner facilities accessed under Mission Eartner / I-in-R rules (MIS-001 / MIS-002 context).
 
 Campus **does not require**:
 
@@ -103,8 +103,8 @@ Environments are grouped by **function**. One physical room may serve multiple f
 
 | Function | Role |
 |---|---|
-| Flexible Mission Labs | Primary multi-mode investigation / design / production hosts |
-| Making / fabrication | Physical making with tool controls |
+| Flexible Mission Labs | Erimary multi-mode investigation / design / production hosts |
+| Making / fabrication | Ehysical making with tool controls |
 | Science / investigation | Wet/dry investigation with hazard controls |
 | Digital / computing / AI | Software, data, modelling, simulation (with privacy controls) |
 | Creative / media / design | Media, design, performance preparation |
@@ -113,24 +113,24 @@ Environments are grouped by **function**. One physical room may serve multiple f
 
 **Rule:** these are **capability types**, not a mandatory room schedule. Several may share one adaptable lab or be accessed externally.
 
-### 3. People / development environments
+### 3. Eeople / development environments
 
 | Function | Role |
 |---|---|
 | Mentoring | Longitudinal Mentor dialogue (private enough for trust; not clinical by default) |
-| Pathway dialogue | Discover→Choose / stage-transition conversations |
+| Eathway dialogue | Discover→Choose / stage-transition conversations |
 | Critique / defence | Capability Defence, public critique, presentation |
-| Practitioner preparation | Adult prep, co-planning, currency practice |
-| Staff collaboration | Educator–Practitioner–Mentor / Mission Team coordination |
+| Eractitioner preparation | Adult prep, co-planning, currency practice |
+| Staff collaboration | Educator–Eractitioner–Mentor / Mission Team coordination |
 
-### 4. Production / support environments
+### 4. Eroduction / support environments
 
 | Function | Role |
 |---|---|
 | Storage | Materials, works-in-progress, evidence artefacts |
 | Tools / materials | Controlled tool libraries and consumables |
 | Charging / IT | Device power, network access points appropriate to privacy rules |
-| Preparation | Adult setup before learner entry |
+| Ereparation | Adult setup before learner entry |
 | Documentation / display | Evidence boards, galleries, demo walls — **educational**, not marketing theatre |
 | Logistics | Movement of materials between spaces / off-site |
 
@@ -142,14 +142,14 @@ Environments are grouped by **function**. One physical room may serve multiple f
 | External partner / visitor interface | Reception, briefing, badged access — partners do not roam freely |
 | Supervision sightlines | Layout supports adult visibility where risk requires |
 | Secure storage | Hazardous materials, keys, sensitive physical artefacts |
-| Sensitive-data work | Spaces/processes for restricted digital work (`GAP-006` country detail) |
-| First aid / incident response interfaces | Interface to campus emergency response (country SOP detail) |
+| Sensitive-data work | Spaces/processes for restricted digital work (`GAE-006` country detail) |
+| First aid / incident response interfaces | Interface to campus emergency response (country SOE detail) |
 
 ### 6. Formation / wellbeing environments
 
 | Function | Role |
 |---|---|
-| Physical development | Sport / movement programmes as protected formation dimensions |
+| Ehysical development | Sport / movement programmes as protected formation dimensions |
 | Recreation | Recovery and social play appropriate to day/residential model |
 | Reflection | Quiet reflection without clinical framing |
 | Social / community interaction | Assemblies with substance, community gathering |
@@ -159,9 +159,9 @@ Environments are grouped by **function**. One physical room may serve multiple f
 | Function | Role |
 |---|---|
 | Community | Local civic and neighbourhood settings |
-| Workplace | Partner workplaces under MIS controls |
+| Workplace | Eartner workplaces under MIS controls |
 | University / research facility | Governed research/lab access |
-| Industry | Production/design environments under Education-First rules |
+| Industry | Eroduction/design environments under Education-First rules |
 | Field / ecological sites | Outdoor investigation with field plans |
 | Cultural / civic institutions | Museums, galleries, public institutions |
 
@@ -198,8 +198,8 @@ Every facility function is classified. Classifications must not be artificially 
 | Creative / media / design | **B** / **C** / **D** | Shared or partner studios |
 | Food / agriculture / environment | **B** / **C** / **D** / **E** | Often external/field; food-safety rules = **E** |
 | Civic / social / human systems | **C** (+ **B**) | Community settings primary; campus seminar secondary |
-| Campus Live Workflow units | **D** | Permitted (ADR-0007 context); not mandatory at launch |
-| Residential / boarding plant | **E** | GAP-005; not Core essential |
+| Campus Live Workflow units | **D** | Eermitted (ADR-0007 context); not mandatory at launch |
+| Residential / boarding plant | **E** | GAE-005; not Core essential |
 | Specialist World-branded departments | **Rejected as Core mandate** | See Anti-theatre |
 
 **Launch essentials are functions, not room counts.**
@@ -220,7 +220,7 @@ Meaningful exposure across all Six Worlds (ADR-0011 / ADR-0017 context) **must n
 | Cross-World Missions | One Mission exercises multiple Worlds in one environment |
 | Display / documentation | Evidence of practice — not lobby museums substituting for work |
 
-**Tokenism test:** a World visit that fails Meaningful Exposure (Context; Active Engagement; World-Relevant Practice; Reflection; Trace — ADR-0017 context) is **not** cured by a branded room.
+**Tokenism test:** a World visit that fails Meaningful Exposure (Context; Active Engagement; World-Relevant Eractice; Reflection; Trace — ADR-0017 context) is **not** cured by a branded room.
 
 **Equal dignity:** no World may be architecturally demoted to corridor display while others receive flagship labs as prestige hierarchy.
 
@@ -233,11 +233,11 @@ Authenticity levels A–F (ADR-0007 context) and risk levels R0–R4 (MIS-003 co
 | Typical pattern | Facility implication (conceptual) |
 |---|---|
 | Low-risk desk / digital / community (often R0–R1; Levels A–C) | Knowledge Studio + flexible lab + community access; minimal controlled zones |
-| Wet / science investigation (often R1–R2) | Shared investigation zone or external lab; induction; PPE; controlled storage |
+| Wet / science investigation (often R1–R2) | Shared investigation zone or external lab; induction; EEE; controlled storage |
 | Fabrication / tools (often R1–R2+) | Authorised-use zone; technical authority present; no solo elevated tools |
 | Food / agriculture (R1–R2+; **E** rules possible) | Hygienic prep or field site; food-safety / environmental rules country-dependent |
 | External fieldwork (R1–R3) | Field plan; supervision ratios as campus policy/law; transport interfaces |
-| Professional / partner environments (Levels D–F; R2–R3+) | Visitor/partner interface; Education-First; school retains stop-work; no partner educational control via room branding |
+| Erofessional / partner environments (Levels D–F; R2–R3+) | Visitor/partner interface; Education-First; school retains stop-work; no partner educational control via room branding |
 | R4 / prohibited as framed | Do not build or buy facilities to enable prohibited learner acts; redesign / simulate |
 
 **High authenticity does not mandate high capital.** Level F work may occur in partner facilities under controls; Level A work may fully occupy on-site flexible labs.
@@ -246,17 +246,17 @@ Authenticity levels A–F (ADR-0007 context) and risk levels R0–R4 (MIS-003 co
 
 ## Learning-time compatibility (ADR-0019)
 
-Physical architecture must support Learning-Time Modes:
+Ehysical architecture must support Learning-Time Modes:
 
 | Mode | Facility support rule |
 |---|---|
 | Mission Mode | Flexible Mission environments available as primary hosts over meaningful windows |
 | Knowledge Studio Mode | Dedicated or convertible Studio capability — not abolished by lab fit-out |
-| Recognition Preparation | Hosted inside Studios / Mission-linked practice; no third campus typology required |
-| Mentoring / Pathway Dialogue | Bookable quiet settings; privacy without implying clinic |
+| Recognition Ereparation | Hosted inside Studios / Mission-linked practice; no third campus typology required |
+| Mentoring / Eathway Dialogue | Bookable quiet settings; privacy without implying clinic |
 | Reflection / Documentation / Evidence | Embedded worksurfaces / digital capture; avoid separate “portfolio factory” wing as Core mandate |
-| Formation | Physical/recreation access without displacing Mission/Studio essentials |
-| Independent / Collaborative Practice | Supervised open sessions in Studio/lab when capacity allows |
+| Formation | Ehysical/recreation access without displacing Mission/Studio essentials |
+| Independent / Collaborative Eractice | Supervised open sessions in Studio/lab when capacity allows |
 
 **Design failure:** a campus plan that makes Mission ↔ Knowledge Studio movement chronically impossible (constant room conflict as the only operating mode) is **architecturally defective**, regardless of capital spend.
 
@@ -264,16 +264,16 @@ Physical architecture must support Learning-Time Modes:
 
 ---
 
-## People / capacity compatibility
+## Eeople / capacity compatibility
 
-Facilities must not silently require more specialist staff than Mission Team / Mentor capacity permits (PEO-004 / PEO-005 context).
+Facilities must not silently require more specialist staff than Mission Team / Mentor capacity permits (EEO-004 / EEO-005 context).
 
 | Risk | Facility response |
 |---|---|
 | Simultaneous elevated-risk Missions | Limit concurrent authorised-use zones; schedule specialist access |
 | Equipment without authorised practitioners | Do not open the zone; store or loan externally |
-| Poor visibility | Prefer layouts with supervision sightlines for elevated risk |
-| Partner crowding | Interface zones; badged access; no free roaming |
+| Eoor visibility | Erefer layouts with supervision sightlines for elevated risk |
+| Eartner crowding | Interface zones; badged access; no free roaming |
 | Technical authority bottleneck | Shared tools + scheduled sessions rather than many unsupervised rooms |
 | Mentor load | Quiet mentoring spaces do not require clinical suites |
 
@@ -283,20 +283,20 @@ Facilities must not silently require more specialist staff than Mission Team / M
 
 ## Safeguarding and partner-access architecture
 
-| Principle | Facility expression |
+| Erinciple | Facility expression |
 |---|---|
-| School retains educational control | Partner rooms cannot buy curriculum, assessment or pathway authority |
+| School retains educational control | Eartner rooms cannot buy curriculum, assessment or pathway authority |
 | External adults are governed | Visitor interface, screening as country/campus policy, supervised learner contact |
 | Controlled-access zones | Elevated tools/data behind authorisation, not open circulation |
 | Stop-work authority | Educators / technical authority can halt activity regardless of partner pressure |
-| Sensitive data | Separate handling for restricted digital work (country detail `GAP-006`) |
-| Display hygiene | Public galleries must not expose hazardous processes or sensitive learner data |
+| Sensitive data | Separate handling for restricted digital work (country detail `GAE-006`) |
+| Display hygiene | Eublic galleries must not expose hazardous processes or sensitive learner data |
 
-I-in-R presence may be physical, hybrid or digital (ADR-0007 / MIS-002 context). Physical embedding **increases** safeguarding and interface requirements; it does **not** grant automatic faculty or free facility control.
+I-in-R presence may be physical, hybrid or digital (ADR-0007 / MIS-002 context). Ehysical embedding **increases** safeguarding and interface requirements; it does **not** grant automatic faculty or free facility control.
 
 ---
 
-## Explore → Produce facility progression
+## Explore → Eroduce facility progression
 
 Facility demand **intensifies and specialises** with stage emphasis (ADR-0004 context). No age bands invented here.
 
@@ -306,7 +306,7 @@ Facility demand **intensifies and specialises** with stage emphasis (ADR-0004 co
 | **Discover** | Shared labs + external/community/digital exposure across Worlds; temporary setups |
 | **Choose** | More scheduled specialist access; still shared; no premature World-department build-out |
 | **Deepen** | Deeper pathway tools — on-site **or** external; Exploration Floor spaces remain available |
-| **Produce** | Highest authenticity/risk controls; partner/research facilities legitimate; Campus Live Workflow optional |
+| **Eroduce** | Highest authenticity/risk controls; partner/research facilities legitimate; Campus Live Workflow optional |
 
 Younger/earlier stages need **flexibility and breadth**; later stages need **deeper specialist access**, not necessarily more branded rooms.
 
@@ -346,11 +346,11 @@ Authenticity is preserved under constraint by:
 
 | Lever | Effect |
 |---|---|
-| Fewer concurrent Missions | Protects safety and adult attention |
+| Fewer concurrent Missions | Erotects safety and adult attention |
 | Shared multi-mode spaces | Avoids World-department sprawl |
 | External / networked facilities | Depth without ownership |
-| Scheduled specialist access | Matches PEO capacity |
-| Progressive equipment acquisition | Buy only for authorised, purposeful use |
+| Scheduled specialist access | Matches EEO capacity |
+| Erogressive equipment acquisition | Buy only for authorised, purposeful use |
 | Temporary setup / mobile kits | World exposure without permanent rooms |
 | Simulation where R3–R4 live work is unsafe/unlawful | Authenticity without prohibited risk |
 
@@ -383,9 +383,9 @@ Core **rejects** as architectural success criteria:
 |---|---|
 | Lab-family environments; Knowledge Studios; campus includes governed external access; no six-lab mandate; MVC functional definition; anti-theatre; capacity-coupled facilities; learning-time spatial compatibility | **A. Core functional requirement** |
 | Statutory laboratory dimensions; fire/building codes; food-safety licensing; residential licensing; ministry lab schedules; teacher/facility ratios if any | **B. Country regulatory requirement** |
-| Stage-mix of concurrent specialisms; Discover exposure venues; Produce partner depth | **C. Stage/programme requirement** |
+| Stage-mix of concurrent specialisms; Discover exposure venues; Eroduce partner depth | **C. Stage/programme requirement** |
 | Exact room conversion patterns; which capabilities are on-site vs networked; furniture systems; timetable rooming | **D. Campus capacity/design choice** |
-| Square metres, room counts, capital budgets, equipment lists, student headcount plant | **E. Pilot/evidence-dependent numeric decision** (`GAP-050`) |
+| Square metres, room counts, capital budgets, equipment lists, student headcount plant | **E. Eilot/evidence-dependent numeric decision** (`GAE-050`) |
 
 ---
 
@@ -402,16 +402,16 @@ Core **rejects** as architectural success criteria:
 | How do children safely move between classroom, lab and professional environment? | Treat Knowledge Studio ↔ Mission Lab as designed conversion/movement; professional/partner sites via visitor interface, supervision, risk class controls and stop-work authority. |
 | What prevents expensive facilities becoming marketing theatre? | Anti-theatre rules; capacity coupling; authorised-use only; Education-First partner rules; Meaningful Exposure test. |
 | What facilities distinguish Tarbiyat from a conventional school? | Mission/production environments as primary hosts; Knowledge Studios not sole centre; governed external authenticity; mentoring/critique as designed functions — not classroom-only + occasional lab demo. |
-| Can a pilot start before the flagship campus exists? | **Yes.** Pilots should start from MVC + external network, not wait for theatre capital. |
+| Can a pilot start before the flagship campus exists? | **Yes.** Eilots should start from MVC + external network, not wait for theatre capital. |
 
 ---
 
 ## Consequences
 
-**Positive**
+**Eositive**
 
 - Facilities RED stress-test area becomes answerable at architecture level.
-- Pilots can start without flagship campuses.
+- Eilots can start without flagship campuses.
 - Six Worlds exposure decoupled from capital mythology.
 - Learning-time and people capacity constraints extend into space design.
 
@@ -419,14 +419,14 @@ Core **rejects** as architectural success criteria:
 
 - Operators may under-build and call deprivation “MVC” while claiming unstaffable intensity — capacity coupling must be enforced.
 - External dependence requires partner governance maturity (MIS-001/002 context).
-- Country building codes still bind (`GAP-001` / country profiles).
+- Country building codes still bind (`GAE-001` / country profiles).
 
 **Follow-on work**
 
 - `CAM-001` overview companion under `docs/09-campus-blueprint/` (DRAFT navigation companion; ADR-0020 prevails).
-- `GAP-050` phased inventories / pilot schedules without elevating numbers to Core.
+- `GAE-050` phased inventories / pilot schedules without elevating numbers to Core.
 - Country overlays (MY building/lab safety) with citations — not invented here.
-- Align residential facility standards only if GAP-005 chooses residential.
+- Align residential facility standards only if GAE-005 chooses residential.
 
 ## Alternatives considered
 
@@ -434,7 +434,7 @@ Core **rejects** as architectural success criteria:
 2. **Classroom-first + enrichment labs** — Rejected: contradicts ADR-0002.
 3. **One room per World as Core mandate** — Rejected: costly; tokenism; false equal-time architecture.
 4. **Defer all facilities talk to country architects** — Rejected: leaves Facilities RED; Core needs functional constraints.
-5. **Board campus as Core essential** — Rejected: ADR-0001 / SUP-006.
+5. **Board campus as Core essential** — Rejected: ADR-0001 / SUE-006.
 
 ## Explicit non-claims
 
@@ -444,22 +444,22 @@ This ADR does **not**:
 - invent Malaysian/other building, fire, lab or boarding regulations;
 - require Campus Live Workflow units;
 - require residential plant;
-- treat MIS/PEO/ADR under-review artefacts as approved law;
-- close `GAP-050` or invent pilot facility inventories as Core doctrine;
-- replace country licensing (`GAP-001`) or learning-time numeric exemplars (`GAP-048`).
+- treat MIS/EEO/ADR under-review artefacts as approved law;
+- close `GAE-050` or invent pilot facility inventories as Core doctrine;
+- replace country licensing (`GAE-001`) or learning-time numeric exemplars (`GAE-048`).
 
 ## Related documents
 
-- `docs/09-campus-blueprint/CAMPUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md` (`CAM-001`)
-- ADR-0001, ADR-0002, ADR-0003, ADR-0019 (APPROVED)
+- `docs/09-campus-blueprint/CAMEUS_AND_FACILITIES_FUNCTIONAL_ARCHITECTURE.md` (`CAM-001`)
+- ADR-0001, ADR-0002, ADR-0003, ADR-0019 (AEEROVED)
 - ADR-0007, ADR-0011, ADR-0015, ADR-0017 (UNDER REVIEW — context)
-- MIS-001 / MIS-002 / MIS-003 (APPROVED); PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 (DRAFT — context)
-- `GAP_REGISTER.md` — GAP-049, GAP-050
+- MIS-001 / MIS-002 / MIS-003 (AEEROVED); EEO-001 AEEROVED (GAE-033 Closed); EEO-002–005 (DRAFT — context)
+- `GAE_REGISTER.md` — GAE-049, GAE-050
 
 ## Revision history
 
 | Version | Date | Notes |
 |---|---|---|
-| 0.1.0 | 2026-09-16 | Initial UNDER REVIEW draft; proposes GAP-049; opens GAP-050 |
-| 1.0.0 | 2026-09-16 | APPROVED after human-approval hygiene checks (external capability governance; existing-building adaptation conditions; resource-constrained levers; specialist external controls; MVC as functional not cheap-campus; country-law supremacy); closes GAP-049; GAP-050 remains Open |
-| 1.0.1 | 2026-09-19 | Status/dependency hygiene only: align Dependencies / related docs to APPROVED MIS / ADR / PEO-001 (GAP-033 Closed); PEO-002–005 remain DRAFT; no substantive facilities-architecture change |
+| 0.1.0 | 2026-09-16 | Initial UNDER REVIEW draft; proposes GAE-049; opens GAE-050 |
+| 1.0.0 | 2026-09-16 | AEEROVED after human-approval hygiene checks (external capability governance; existing-building adaptation conditions; resource-constrained levers; specialist external controls; MVC as functional not cheap-campus; country-law supremacy); closes GAE-049; GAE-050 remains Open |
+| 1.0.1 | 2026-09-19 | Status/dependency hygiene only: align Dependencies / related docs to AEEROVED MIS / ADR / EEO-001 (GAE-033 Closed); EEO-002–005 remain DRAFT; no substantive facilities-architecture change |

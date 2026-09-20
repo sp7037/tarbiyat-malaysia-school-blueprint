@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-16` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0003` APPROVED; `ADR-0019` APPROVED; governing architecture `ADR-0016` APPROVED; contribution/sanitised-evidence context `ADR-0014` APPROVED; faculty multi-stream context `ADR-0015` APPROVED with `PEO-001` APPROVED (GAP-033 Closed) and `PEO-002`–`PEO-005` DRAFT; mission authenticity context `ADR-0007` APPROVED; `MIS-001`–`MIS-003` APPROVED |
+| Dependencies | `FND-003` APPROVED; `ADR-0003` APPROVED; `ADR-0019` APPROVED; governing architecture `ADR-0016` APPROVED; contribution/sanitised-evidence context `ADR-0014` APPROVED; faculty multi-stream context `ADR-0015` APPROVED with `PEO-001` APPROVED (GAP-033 Closed) and `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`PEO-005` DRAFT; mission authenticity context `ADR-0007` APPROVED; `MIS-001`–`MIS-003` APPROVED |
 | Related gaps | GAP-038–044 (this pack — proposed, not closed); GAP-010 Closed by ADR-0016; GAP-009 (Competency Graph remains Open); GAP-006 (MY data where relevant) |
 | Source documents | ADR-0016; ADR-0003; Architecture brief GAP-038–044 cluster (2026-09-16) |
 

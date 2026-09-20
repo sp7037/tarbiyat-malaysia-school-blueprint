@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` / `PEO-003` DRAFT; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` APPROVED |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` DRAFT; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` APPROVED |
 | Related gaps | GAP-032 (this document); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country ratios / registration — handoff) |
 | Source documents | ADR-0015 Mission Teams / loading principles; MIS-003 risk; PEO-001–003; GAP-032 resolution brief (2026-09-15) |
 

@@ -87,19 +87,19 @@ ADR-0001, ADR-0002 and ADR-0003 are **sibling founding decisions** under the Con
 
 ## Open next design areas (from repository evidence)
 
-- [GAP-022](/gaps#gap-022) / [GAP-023](/gaps#gap-023) / [GAP-024](/gaps#gap-024) Closed by [MIS-001](/areas/mission-partner-governance) / [MIS-002](/areas/institution-in-residence) / [MIS-003](/areas/mission-risk-and-safeguarding) APPROVED; [GAP-031](/gaps#gap-031) Closed by [Mission Operating Templates](/areas/mission-operating-templates) APPROVED (FRM-007 APPROVED with PEO-001; FRM-008 remains DRAFT)
+- [GAP-022](/gaps#gap-022) / [GAP-023](/gaps#gap-023) / [GAP-024](/gaps#gap-024) Closed by [MIS-001](/areas/mission-partner-governance) / [MIS-002](/areas/institution-in-residence) / [MIS-003](/areas/mission-risk-and-safeguarding) APPROVED; [GAP-031](/gaps#gap-031) Closed by [Mission Operating Templates](/areas/mission-operating-templates) APPROVED (FRM-007 / FRM-008 APPROVED)
 - [GAP-008](/gaps#gap-008) Closed by [ADR-0011](/decisions/adr-0011) APPROVED; curricula / Graph follow-ons remain
 - [GAP-045](/gaps#gap-045) Closed by [ADR-0017](/decisions/adr-0017) APPROVED
 - [GAP-046](/gaps#gap-046) Closed by [ADR-0018](/decisions/adr-0018) APPROVED
 - [GAP-018](/gaps#gap-018) Closed by [ADR-0007](/decisions/adr-0007) APPROVED
 - [GAP-024](/gaps#gap-024) Closed by [MIS-003](/areas/mission-risk-and-safeguarding) APPROVED
 - [GAP-025](/gaps#gap-025) Closed by [ADR-0014](/decisions/adr-0014) APPROVED; [GAP-011](/gaps#gap-011) / [GAP-026](/gaps#gap-026)–[GAP-030](/gaps#gap-030) Creator Rights country/ops remain open; [GAP-031](/gaps#gap-031) Closed by Mission Operating Pack
-- ADR-0015 APPROVED — PEO-001 APPROVED (GAP-033 Closed); PEO-002–005 / GAP-032 / 034–037 remain open
+- ADR-0015 APPROVED — PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003–005 / GAP-032 / 034 / 036–037 remain open
 - Core Architecture Phase 1 substantially complete: 15 decision ADRs approved. Remaining programme work is operating standards, country/legal, pilot evidence, templates, software and business model — not further UNDER REVIEW Core ADRs.
 - [GAP-047](/gaps#gap-047) Mission World-tagging significance thresholds (remain open)
 - [GAP-009](/gaps#gap-009) Competency Graph schema (kept distinct from PoC)
 - [GAP-010](/gaps#gap-010) Closed by [ADR-0016](/decisions/adr-0016) APPROVED; [GAP-038](/gaps#gap-038)–[GAP-044](/gaps#gap-044) PoC operating follow-ons ([POC-001](/areas/poc-operating-standard) DRAFT — proposed, not closed; [GAP-043](/gaps#gap-043) research remains Open)
-- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) Faculty ops / country mapping (governing ADR-0015 APPROVED; GAP-033 Closed); [GAP-032](/gaps#gap-032) via [PEO-004](/areas/mission-team-capacity); [GAP-033](/gaps#gap-033) Closed by [PEO-001](/areas/practitioner-authorisation); [GAP-034](/gaps#gap-034) via [PEO-005](/areas/mentor-caseload-capacity); [GAP-035](/gaps#gap-035) via [PEO-002](/areas/practitioner-currency); [GAP-036](/gaps#gap-036) via [PEO-003](/areas/faculty-practitioner-development) — proposed, not closed; [GAP-037](/gaps#gap-037) proposed via [MY-002](/country/malaysia-regulated-people) — not closed
+- [GAP-032](/gaps#gap-032)–[GAP-037](/gaps#gap-037) Faculty ops / country mapping (governing ADR-0015 APPROVED; GAP-033 / 035 Closed); [GAP-032](/gaps#gap-032) via [PEO-004](/areas/mission-team-capacity); [GAP-033](/gaps#gap-033) Closed by [PEO-001](/areas/practitioner-authorisation); [GAP-034](/gaps#gap-034) via [PEO-005](/areas/mentor-caseload-capacity); [GAP-035](/gaps#gap-035) Closed by [PEO-002](/areas/practitioner-currency); [GAP-036](/gaps#gap-036) via [PEO-003](/areas/faculty-practitioner-development) — proposed, not closed; [GAP-037](/gaps#gap-037) proposed via [MY-002](/country/malaysia-regulated-people) — not closed
 - [GAP-049](/gaps#gap-049) Campus & facilities functional architecture ([ADR-0020](/decisions/adr-0020) APPROVED — Closed); [GAP-050](/gaps#gap-050) facility inventories / phased programmes remain Open; overview [CAM-001](/areas/campus-facilities)
 - [GAP-051](/gaps#gap-051) First-pilot commissioning / readiness ([IMP-001](/areas/pilot-commissioning) DRAFT — proposed, not closed)
 - [GAP-002](/gaps#gap-002) Malaysia recognition/exam mapping — **Partial** via [MY-003](/country/malaysia-school-path) (package not selected)

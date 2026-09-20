@@ -11,7 +11,7 @@ description: Mission-based authentic learning in the Tarbiyat architecture
 </p>
 
 ::: tip Authority
-Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Creator Rights architecture is **APPROVED** (ADR-0014; GAP-025 Closed). Mission Partner Governance is **APPROVED** (MIS-001; GAP-022 Closed). Institution-in-Residence is **APPROVED** (MIS-002; GAP-023 Closed). Mission Risk / Safeguarding is **APPROVED** (MIS-003; GAP-024 Closed). Mission Operating Pack is **APPROVED** (MIS-TPL-001 / MIS-FRM-001–006; GAP-031 Closed). Practitioner Authorisation is **APPROVED** (PEO-001 / MIS-FRM-007; GAP-033 Closed). Currency form remains **DRAFT** (MIS-FRM-008 / PEO-002; GAP-035).
+Lab-First / Mission-Based learning is **APPROVED** (ADR-0002). Mission Ecosystem architecture is **APPROVED** (ADR-0007; GAP-018 Closed). Creator Rights architecture is **APPROVED** (ADR-0014; GAP-025 Closed). Mission Partner Governance is **APPROVED** (MIS-001; GAP-022 Closed). Institution-in-Residence is **APPROVED** (MIS-002; GAP-023 Closed). Mission Risk / Safeguarding is **APPROVED** (MIS-003; GAP-024 Closed). Mission Operating Pack is **APPROVED** (MIS-TPL-001 / MIS-FRM-001–006; GAP-031 Closed). Practitioner Authorisation is **APPROVED** (PEO-001 / MIS-FRM-007; GAP-033 Closed). Practitioner Currency is **APPROVED** (MIS-FRM-008 / PEO-002; GAP-035 Closed).
 :::
 
 ## What makes a Mission
@@ -64,6 +64,6 @@ Operating companions: [MIS-001](/areas/mission-partner-governance), [MIS-002](/a
 | [MIS-003](/areas/mission-risk-and-safeguarding) — Mission Risk / Safeguarding | APPROVED (GAP-024 Closed; FRM templates DRAFT) |
 | [MIS-001](/areas/mission-partner-governance) — Mission Partner Governance | APPROVED (GAP-022 Closed) |
 | [MIS-002](/areas/institution-in-residence) — Institution-in-Residence | APPROVED (GAP-023 Closed) |
-| [Mission Operating Templates](/areas/mission-operating-templates) | APPROVED pack (GAP-031 Closed; FRM-007 APPROVED; FRM-008 DRAFT) |
+| [Mission Operating Templates](/areas/mission-operating-templates) | APPROVED pack (GAP-031 Closed; FRM-007 APPROVED; FRM-008 APPROVED) |
 
 Blueprint area: [Missions & Production](/areas/missions)

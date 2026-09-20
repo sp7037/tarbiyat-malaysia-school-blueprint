@@ -3,18 +3,18 @@
 | Field | Value |
 |---|---|
 | Document ID | `MIS-TPL-001` |
-| Version | `1.0.1` |
+| Version | `1.0.3` |
 | Status | `APPROVED` |
 | Date | `2026-09-15` |
 | Approved | `2026-09-19` |
-| Last reviewed | `2026-09-19` |
+| Last reviewed | `2026-09-20` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `MIS-001` APPROVED; `MIS-002` APPROVED; `MIS-003` APPROVED; `ADR-0007` / `ADR-0014` / `ADR-0015` / `ADR-0016` APPROVED; `FND-003` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` DRAFT (do not close GAP-035); `POC-001` DRAFT; country overlays DRAFT (`GAP-026` / MY) |
-| Related gaps | Closes GAP-031 for Core Mission operating records; GAP-033 Closed by PEO-001 / MIS-FRM-007; GAP-035 remains open (`MIS-FRM-008` DRAFT); GAP-026 country IP mapping remains open |
+| Dependencies | `MIS-001` APPROVED; `MIS-002` APPROVED; `MIS-003` APPROVED; `ADR-0007` / `ADR-0014` / `ADR-0015` / `ADR-0016` APPROVED; `FND-003` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `POC-001` DRAFT; country overlays DRAFT (`GAP-026` / MY) |
+| Related gaps | Closes GAP-031 for Core Mission operating records; GAP-033 Closed by PEO-001 / MIS-FRM-007; GAP-035 Closed by PEO-002 / MIS-FRM-008 APPROVED; GAP-026 country IP mapping remains open |
 | Source documents | MIS-001 / MIS-002 / MIS-003; ADR-0007 Deployment Boundary; ADR-0014 Creator Rights; Phase 2 Mission Operating Templates human review (2026-09-19) |
 
-> **Authority note:** This is an **APPROVED Core operating-tool index**. Forms `MIS-FRM-001`–`006` are APPROVED educational operating records implementing APPROVED MIS-001 / MIS-002 / MIS-003. Form `MIS-FRM-007` is APPROVED with `PEO-001` (GAP-033 Closed). Form `MIS-FRM-008` remains **DRAFT** (`PEO-002` / GAP-035). Templates are **not** legal contracts and do **not** replace country-required safeguarding, privacy, IP, labour, clinical, insurance or contracting documents. Completing a form cannot waive R4 prohibitions, create partner Practitioner status, grant PoC certification authority, or transfer learner IP.
+> **Authority note:** This is an **APPROVED Core operating-tool index**. Forms `MIS-FRM-001`–`006` are APPROVED educational operating records implementing APPROVED MIS-001 / MIS-002 / MIS-003. Form `MIS-FRM-007` is APPROVED with `PEO-001` (GAP-033 Closed). Form `MIS-FRM-008` is **APPROVED** with `PEO-002` (GAP-035 Closed). Templates are **not** legal contracts and do **not** replace country-required safeguarding, privacy, IP, labour, clinical, insurance or contracting documents. Completing a form cannot waive R4 prohibitions, create partner Practitioner status, grant PoC certification authority, or transfer learner IP.
 
 ## Revision history
 
@@ -24,6 +24,8 @@
 | 0.1.2 | 2026-09-19 | Entered Phase 2 human review (constitutes `UNDER REVIEW` under `PROJECT_RULES` §6) |
 | 1.0.0 | 2026-09-19 | APPROVED after Phase 2 human review; closes GAP-031 for Core Mission records; substantive operating corrections (workflow map, change control, completion/closure, anti-theatre / media / recruitment / facilities screens); FRM-007/008 remained DRAFT with PEO at that checkpoint |
 | 1.0.1 | 2026-09-19 | Hygiene: `MIS-FRM-007` / `PEO-001` APPROVED (GAP-033 Closed); `MIS-FRM-008` remains DRAFT (GAP-035) |
+| 1.0.2 | 2026-09-20 | Status hygiene only: `MIS-FRM-008` / `PEO-002` UNDER REVIEW (GAP-035 still open); no Mission-pack policy change |
+| 1.0.3 | 2026-09-20 | Status hygiene: `MIS-FRM-008` / `PEO-002` APPROVED (GAP-035 Closed); no Mission-pack policy change |
 
 ---
 
@@ -85,13 +87,13 @@ Internal annexes: **005-A** IP · **005-B** Data · **005-C** Contribution · **
 |---|---|---|---|
 | **MIS-FRM-007** | Practitioner Authorisation Record | **APPROVED** with `PEO-001` (GAP-033 Closed); required for scoped permissions beyond one-off Guest/Speaker (PA-0) | [`templates/MIS-FRM-007-practitioner-authorisation-record.md`](templates/MIS-FRM-007-practitioner-authorisation-record.md) |
 
-### DRAFT People-linked currency record (not approved by this pack)
+### APPROVED People-linked currency record
 
 | ID | Template | Classification | Path |
 |---|---|---|---|
-| **MIS-FRM-008** | Practitioner Currency Review | **DRAFT** — implements DRAFT `PEO-002` (GAP-035) | [`templates/MIS-FRM-008-practitioner-currency-review.md`](templates/MIS-FRM-008-practitioner-currency-review.md) |
+| **MIS-FRM-008** | Practitioner Currency Review | **APPROVED** with `PEO-002` (GAP-035 Closed) | [`templates/MIS-FRM-008-practitioner-currency-review.md`](templates/MIS-FRM-008-practitioner-currency-review.md) |
 
-**Organisation approval ≠ individual adult authorisation.** Use FRM-002 for educational onboarding acknowledgement; FRM-007 for scoped PA bands. Currency remains PEO-002 / FRM-008 DRAFT — do not treat FRM-008 as approved policy.
+**Organisation approval ≠ individual adult authorisation.** Use FRM-002 for educational onboarding acknowledgement; FRM-007 for scoped PA bands. Currency: PEO-002 / FRM-008 **APPROVED** (GAP-035 Closed).
 
 ### Country / implementation
 
@@ -139,7 +141,7 @@ Statutory background checks; privacy notices; contracts; insurance; clinical lic
 | Partner pause / downgrade / breach | FRM-006-B |
 | Successful completion / formal closure | FRM-006-D |
 | Practitioner scoped permissions (beyond Guest) | FRM-002 + FRM-007 (**APPROVED** / `PEO-001`) |
-| Currency / re-authorisation | FRM-008 (**DRAFT** / `PEO-002`) |
+| Currency / re-authorisation | FRM-008 (**APPROVED** / `PEO-002`) |
 
 ---
 
@@ -166,7 +168,7 @@ FRM-001 · risk screen/FRM-003 · FRM-005-B · FRM-005-A where Creator Rights ma
 | Organisation / partner / I-in-R | FRM-001 / FRM-004 | APPROVED |
 | Individual educational onboarding | FRM-002 | APPROVED |
 | Scoped Practitioner authorisation bands | FRM-007 | **APPROVED** (PEO-001; GAP-033 Closed) |
-| Currency / re-authorisation | FRM-008 | **DRAFT** (PEO-002) |
+| Currency / re-authorisation | FRM-008 | **APPROVED** (PEO-002; GAP-035 Closed) |
 
 Approved I-in-R does **not** authorise all employees. Unapproved employees sent by an approved organisation must not receive learner access until onboarded / authorised.
 
@@ -176,8 +178,8 @@ Approved I-in-R does **not** authorise all employees. Unapproved employees sent 
 
 - `MIS-001` / `MIS-002` / `MIS-003` (APPROVED)
 - ADR-0007, ADR-0014, ADR-0015, ADR-0016 (APPROVED)
-- `PEO-001` (APPROVED — GAP-033 Closed) / `PEO-002` (DRAFT — GAP-035)
-- `GAP_REGISTER.md` — GAP-031 Closed by this pack for Core Mission records; GAP-033 Closed by PEO-001 / FRM-007; GAP-035 / 026 remain open
+- `PEO-001` (APPROVED — GAP-033 Closed) / `PEO-002` (APPROVED — GAP-035 Closed)
+- `GAP_REGISTER.md` — GAP-031 Closed by this pack for Core Mission records; GAP-033 Closed by PEO-001 / FRM-007; GAP-035 Closed; GAP-026 remains open
 
 ---
 
@@ -186,7 +188,7 @@ Approved I-in-R does **not** authorise all employees. Unapproved employees sent 
 This pack does **not**:
 
 - rewrite APPROVED MIS-001 / MIS-002 / MIS-003;
-- approve `PEO-002`–`005`, `POC-*`, `MY-*` or `IMP-001` (PEO-001 / FRM-007 approved separately);
+- approve `PEO-003`–`005`, `POC-*`, `MY-*` or `IMP-001` (PEO-001 / FRM-007 / PEO-002 / FRM-008 approved separately);
 - close GAP-035 / 026;
 - substitute for country legal contracts;
 - invent ownership outcomes, fixed revenue shares or new risk classes;

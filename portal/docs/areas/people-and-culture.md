@@ -8,11 +8,11 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>APPROVED Core faculty architecture; PEO-001 APPROVED; remaining PEO ops DRAFT</strong><br/>
+  <strong>APPROVED Core faculty architecture; PEO-001 / PEO-002 APPROVED; remaining PEO ops DRAFT</strong><br/>
   ADR-0015 defines Educator + Practitioner + Mentor as peer functions —
   with lawful authority, scoped expertise, meaningful relationship and honest capacity.
   <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation — <strong>APPROVED</strong>; GAP-033 Closed) ↔
-  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency — DRAFT) ↔
+  <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency — APPROVED) ↔
   <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development — DRAFT)
   → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity — DRAFT)
   → <a href="/areas/mentor-caseload-capacity"><code>PEO-005</code></a> (Mentor human-guidance capacity — DRAFT).
@@ -39,7 +39,7 @@ Tarbiyat combines recognised academic learning, Mission Labs, mentoring and auth
 | Professional credential | Degree, licence, portfolio, employer title |
 | Safeguarding clearance | Suitability to work with minors |
 | Tarbiyat authorisation | Scoped school permission (`PEO-001` APPROVED) |
-| Currency | Recent evidence to **continue** (`PEO-002` DRAFT) |
+| Currency | Recent evidence to **continue** (`PEO-002` APPROVED (GAP-035 Closed)) |
 | Development | Deliberate capability-building (`PEO-003` DRAFT) |
 | Mission capacity | Enough of the right functions available now (`PEO-004` DRAFT) |
 | Mentor guidance capacity | Relationship depth + available Mentor time (`PEO-005` DRAFT) |
@@ -93,14 +93,14 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 |---|---|---|
 | Practitioner–Educator–Mentor Faculty Architecture | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Practitioner Authorisation and Onboarding (`PEO-001`) | APPROVED | [Portal](/areas/practitioner-authorisation) |
-| Practitioner Currency and Re-authorisation (`PEO-002`) | DRAFT | [Portal](/areas/practitioner-currency) |
+| Practitioner Currency and Re-authorisation (`PEO-002`) | APPROVED | [Portal](/areas/practitioner-currency) |
 | Faculty and Practitioner Development (`PEO-003`) | DRAFT | [Portal](/areas/faculty-practitioner-development) |
 | Development Plan & Record (`PEO-FRM-001`) | DRAFT | [Portal](/areas/peo-frm-001) |
 | Mission Team Loading and Staffing Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Mission Team Capacity Check (`PEO-FRM-002`) | DRAFT | [Portal](/areas/peo-frm-002) |
 | Mentor Caseload and Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
 | Mentor Caseload Review (`PEO-FRM-003`) | DRAFT | [Portal](/areas/peo-frm-003) |
-| Mission Operating Templates (`MIS-TPL-001` / FRM-001–007 APPROVED; FRM-008 DRAFT) | APPROVED pack | [Portal](/areas/mission-operating-templates) |
+| Mission Operating Templates (`MIS-TPL-001` / FRM-001–007 APPROVED; FRM-008 APPROVED) | APPROVED pack | [Portal](/areas/mission-operating-templates) |
 | Mission Ecosystem / Educationalisation / Institution-in-Residence | APPROVED | [ADR-0007](/decisions/adr-0007) |
 | Student Creator Rights (conflict / IP adults) | APPROVED | [ADR-0014](/decisions/adr-0014) |
 | Lab-First / Mission-Based | APPROVED | [ADR-0002](/decisions/adr-0002) |
@@ -111,7 +111,7 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - [GAP-032](/gaps#gap-032) — Staffing / Mission Team loading (proposed via [PEO-004](/areas/mission-team-capacity) — not closed)
 - [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (Closed by [PEO-001](/areas/practitioner-authorisation) / MIS-FRM-007)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
-- [GAP-035](/gaps#gap-035) — Practitioner currency (proposed via [PEO-002](/areas/practitioner-currency) — not closed)
+- [GAP-035](/gaps#gap-035) — Practitioner currency (Closed by [PEO-002](/areas/practitioner-currency) / MIS-FRM-008)
 - [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)
 - [GAP-037](/gaps#gap-037) — Country regulated-role mapping — proposed via [MY-002](/country/malaysia-regulated-people) (**not closed**)
 - [GAP-023](/gaps#gap-023) — Institution-in-Residence operating standard

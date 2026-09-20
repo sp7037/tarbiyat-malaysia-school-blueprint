@@ -55,9 +55,9 @@
 | **Mission Partner Governance (`MIS-001`)** | Core operational rules for external Mission partners — Education-First, educationalisation, access, IP/data, anti-exploitation (APPROVED; GAP-022 Closed) | CORE |
 | **Institution-in-Residence Operating Standard (`MIS-002`)** | Core operating rules for I-in-R designation, presence, practitioner continuity, review and exit (APPROVED; GAP-023 Closed) | CORE |
 | **Mission Risk and Safeguarding Classification (`MIS-003`)** | Proportional R0–R4 Mission/activity risk domains, controls, stop-work and re-review (DRAFT; GAP-024) | CORE |
-| **Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`)** | Minimum viable partner / risk / I-in-R / Creator Rights / exit / completion operating records (MIS-TPL-001 + FRM-001–006 APPROVED / GAP-031 Closed; FRM-007 APPROVED with PEO-001 / GAP-033 Closed; FRM-008 DRAFT / GAP-035) | CORE |
+| **Mission Operating Templates (`MIS-TPL-001` / `MIS-FRM-*`)** | Minimum viable partner / risk / I-in-R / Creator Rights / exit / completion operating records (MIS-TPL-001 + FRM-001–006 APPROVED / GAP-031 Closed; FRM-007 APPROVED with PEO-001 / GAP-033 Closed; FRM-008 APPROVED / GAP-035 Closed) | CORE |
 | **Practitioner Authorisation and Onboarding (`PEO-001`)** | Function-specific authorisation bands, permission dimensions, onboarding and risk-linked scopes for practitioners (APPROVED; GAP-033 Closed) | CORE |
-| **Practitioner Currency and Re-authorisation (`PEO-002`)** | Evidence that authorised practitioner functions remain current; renew ≠ expand (DRAFT; GAP-035) | CORE |
+| **Practitioner Currency and Re-authorisation (`PEO-002`)** | Evidence that authorised practitioner functions remain current; renew ≠ expand (APPROVED; GAP-035 Closed) | CORE |
 | **Faculty and Practitioner Development (`PEO-003`)** | Deliberate, function-specific, practice-based adult development; development ≠ authorisation ≠ currency (DRAFT; GAP-036) | CORE |
 | **Faculty / Practitioner Development Plan (`PEO-FRM-001`)** | Lightweight people-development plan/record under PEO series — not a MIS form (DRAFT; GAP-036) | CORE |
 | **Mission Team Loading and Staffing Capacity (`PEO-004`)** | Mission capacity follows authorised/current/available competent adults — not headcount or universal ratios (DRAFT; GAP-032) | CORE |

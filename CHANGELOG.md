@@ -19,6 +19,12 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### PEO-002 APPROVED — Practitioner Currency and Re-authorisation (2026-09-20) — Phase 2
+
+- Phase 2 human review of `PEO-002` / `MIS-FRM-008` passed (approve with final minor corrections): no Core numeric cadence **and** no indefinite unreviewed CURRENT for PA-1–PA-4; documented review basis; FRM-008 required for all formal PA-1–PA-4 currency decisions (lightweight renew OK); FRM-007 currency-state pointer; licence/standing verifier wording; reviewer authority; REFRESH stop rules; cross-Mission propagation; elevated-risk evidence categories; PA-0 visitor exemption; scenarios A–X.
+- `PEO-002` promoted `0.2.0` / `UNDER REVIEW` → `1.0.0` / `APPROVED`. `MIS-FRM-008` promoted `0.2.0` / `UNDER REVIEW` → `1.0.0` / `APPROVED`. **GAP-035 Closed**.
+- Does **not** approve PEO-003–005; GAP-032 / 034 / 036 / 037 remain open. No PA-band / org≠person reopen.
+
 ### Status/dependency hygiene — PEO-001 milestone alignment (2026-09-19)
 
 - Recording-only pass: corrected stale DRAFT / Open / Proposed wording for APPROVED `PEO-001` / `MIS-FRM-007` and Closed `GAP-033` across ADR-0015 (to `1.0.1`), ADR-0020 deps (to `1.0.1`), ADR_INDEX, MIS-FRM-001/004 pointers, SEC-06/07, PEO-002–005 / PEO-FRM companions, POC-001 / IMP-001 / MY-002 dependency lines, RESEARCH_GAPS status, and MASTER_INDEX.

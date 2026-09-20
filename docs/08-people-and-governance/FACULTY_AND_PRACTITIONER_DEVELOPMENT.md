@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` DRAFT; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` DRAFT |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED |
 | Related gaps | GAP-036 (this document); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country CPD / registration — handoff) |
 | Source documents | ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation principles; PEO-001 / PEO-002 handoffs; GAP-036 resolution brief (2026-09-15) |
 

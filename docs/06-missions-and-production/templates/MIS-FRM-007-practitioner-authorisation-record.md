@@ -3,15 +3,15 @@
 | Field | Value |
 |---|---|
 | Template ID | `MIS-FRM-007` |
-| Version | `1.0.0` |
+| Version | `1.0.1` |
 | Status | `APPROVED` |
 | Approved | `2026-09-19` |
 | Classification | **CONDITIONAL / CORE OPERATING RECORD** — required when a practitioner holds scoped permissions beyond one-off Guest/Speaker (PA-0) presence; use with `MIS-FRM-002` for regular/direct learner engagement |
-| Last reviewed | `2026-09-19` |
+| Last reviewed | `2026-09-20` |
 | Country scope | `CORE` |
 | Owner / reviewer | School governance / Mission Lead / Technical safety function as relevant |
-| Implements | APPROVED `PEO-001` Practitioner Authorisation; currency lifecycle via DRAFT `PEO-002` / `MIS-FRM-008` |
-| Related gaps | GAP-033 Closed by PEO-001; GAP-035 remains open (`MIS-FRM-008` DRAFT) |
+| Implements | APPROVED `PEO-001` Practitioner Authorisation; currency lifecycle via APPROVED `PEO-002` / `MIS-FRM-008` |
+| Related gaps | GAP-033 Closed by PEO-001; GAP-035 Closed by PEO-002 / MIS-FRM-008 |
 
 > **Operational educational record — not a substitute for country-required legal documentation.**  
 > Professional title ≠ Tarbiyat authorisation. I-in-R / Mission Partner organisation status ≠ every employee authorised.  
@@ -25,6 +25,7 @@
 | 0.1.0–0.1.2 | 2026-09-15–19 | DRAFT with PEO-001; pack hygiene |
 | 0.1.2 | 2026-09-19 | Phase 2 human review with PEO-001 (`UNDER REVIEW`) |
 | 1.0.0 | 2026-09-19 | APPROVED with PEO-001; communication / remote / multi-Mission / unverifiable-credential fields |
+| 1.0.1 | 2026-09-20 | Status/pointer hygiene: PEO-002 / MIS-FRM-008 APPROVED (GAP-035 Closed); currency-state pointer fields clarified; no PA-band change |
 
 ---
 
@@ -40,9 +41,10 @@
 | Record owner | |
 | Reviewer / authoriser | |
 | Status (Active / Restricted / Suspended / Expired / Revoked) | |
-| Currency state (CURRENT / CURRENT WITH RESTRICTIONS / REFRESH REQUIRED / SUPERVISED RETURN / SUSPENDED — `PEO-002` DRAFT) | Not a prestige rank |
-| Last currency review (MIS-FRM-008 ID / date) | FRM-008 remains DRAFT |
-| Next review / review triggers | |
+| Currency state (CURRENT / CURRENT WITH RESTRICTIONS / REFRESH REQUIRED / SUPERVISED RETURN / SUSPENDED — `PEO-002`) | Not a prestige rank; must match latest FRM-008 |
+| Latest MIS-FRM-008 ID | Lifecycle review reference — required after any PA-1–PA-4 formal currency decision |
+| Latest currency decision / review date | From FRM-008 |
+| Next review basis / date / trigger | Documented basis required for active PA-1–PA-4 (`PEO-002` §4); not a Core universal cadence |
 
 ---
 
@@ -136,4 +138,4 @@
 
 ## Explicit non-claims
 
-This record does **not** invent staffing ratios, country licences, equipment catalogues, or ownership of learner work. Currency reviews use `MIS-FRM-008` (`PEO-002` DRAFT); renewal must not silently expand scopes recorded here.
+This record does **not** invent staffing ratios, country licences, equipment catalogues, or ownership of learner work. Currency reviews use `MIS-FRM-008` (`PEO-002` APPROVED); renewal must not silently expand scopes recorded here.

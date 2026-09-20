@@ -10,7 +10,7 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-003` APPROVED; companion `MIS-002` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` DRAFT; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-003` APPROVED; companion `MIS-002` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
 | Related gaps | Closes GAP-022; related GAP-023 Closed by MIS-002; GAP-031 Closed by MIS-TPL pack; GAP-024 Closed by MIS-003; Creator Rights country/ops GAP-011 / 026–030 remain open where relevant |
 | Source documents | ADR-0007 Mission Ecosystem / Partner Governance / Mission Educationalisation; ADR-0014 partner-sponsored missions; ADR-0015 Mission Teams / I-in-R boundary; ADR-0016 PoC; ADR-0020 external facilities; MIS-003 external-adult / off-site; GAP-022 resolution brief (2026-09-14); Phase 2 Mission Partner Governance human review (2026-09-19) |
 

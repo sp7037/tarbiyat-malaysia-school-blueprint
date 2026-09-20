@@ -10,11 +10,11 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; companion `MIS-FRM-002` APPROVED; companion `MIS-FRM-007` APPROVED with this standard; companion `MIS-FRM-008` / `PEO-002` DRAFT (do not close GAP-035); `PEO-003`–`005` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
-| Related gaps | Closes GAP-033; related GAP-035 (`PEO-002` / FRM-008 DRAFT); GAP-036 (`PEO-003`); GAP-032 (`PEO-004`); GAP-034 (`PEO-005`); GAP-037 (country registration — not resolved here) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; companion `MIS-FRM-002` APPROVED; companion `MIS-FRM-007` APPROVED with this standard; companion `MIS-FRM-008` / `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Related gaps | Closes GAP-033; related GAP-035 Closed (`PEO-002` / FRM-008 APPROVED); GAP-036 (`PEO-003`); GAP-032 (`PEO-004`); GAP-034 (`PEO-005`); GAP-037 (country registration — not resolved here) |
 | Source documents | ADR-0015 Practitioner Onboarding / I-in-R boundary; MIS-001 / MIS-002 Partner≠Practitioner; MIS-003 risk/stop-work; GAP-033 resolution brief (2026-09-15); Phase 2 Practitioner Authorisation human review (2026-09-19) |
 
-> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner authorisation and onboarding principles in APPROVED ADR-0015 and the participation ladder in APPROVED MIS-002. **Mission Partner / I-in-R organisation approval does not equal individual practitioner authorisation.** Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`). This approval does **not** approve `PEO-002`–`005`, invent Malaysian employment/safeguarding law, or set staffing ratios.
+> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner authorisation and onboarding principles in APPROVED ADR-0015 and the participation ladder in APPROVED MIS-002. **Mission Partner / I-in-R organisation approval does not equal individual practitioner authorisation.** Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`). This approval does **not** approve `PEO-003`–`005`, invent Malaysian employment/safeguarding law, or set staffing ratios.
 
 ## Revision history
 
@@ -94,7 +94,7 @@ Country law may **additionally** control regulated practice (clinical, engineeri
 |---|---|
 | Regular / direct learner engagement onboarding | `MIS-FRM-002` (**APPROVED**) |
 | Scoped permissions beyond Guest / one-off visit | `MIS-FRM-007` (**APPROVED** with this standard) |
-| Currency / re-authorisation over time | `MIS-FRM-008` (**DRAFT** — `PEO-002` / GAP-035) |
+| Currency / re-authorisation over time | `MIS-FRM-008` (**APPROVED** — `PEO-002` / GAP-035 Closed) |
 
 Organisation-approved but person-not-approved → **no learner access / no facility credentials** until individual onboarding/authorisation completes (Scenario H).
 
@@ -216,7 +216,7 @@ The school must satisfy itself that competence is appropriate for the authorised
 
 Domain competence is **World- and activity-specific**. Six Worlds parity applies (ADR-0011 / ADR-0015).
 
-Detailed **currency** maintenance: `PEO-002` (`GAP-035` — **not closed**). Record: `MIS-FRM-008` (**DRAFT**).
+Detailed **currency** maintenance: `PEO-002` (`GAP-035` Closed). Record: `MIS-FRM-008` (**APPROVED**).
 
 ---
 
@@ -347,7 +347,7 @@ Authorisation is **scoped, reviewable, revocable**, and may be time-bounded.
 - private-communication or data-boundary breach;
 - additional Missions beyond original scope (may reuse FRM-007 with updated Mission list — do not silently expand dimensions).
 
-No universal Core annual expiry is mandated. Detailed currency evidence and states: **`PEO-002`** (`GAP-035` — not closed). Record: `MIS-FRM-008` (**DRAFT**).
+No universal Core annual expiry is mandated. Detailed currency evidence and states: **`PEO-002`** (`GAP-035` Closed). Record: `MIS-FRM-008` (**APPROVED**).
 
 ### Downgrade / suspension / revocation options
 
@@ -400,7 +400,7 @@ Core authorisation principles apply to external practitioners, Practitioners-in-
 
 **`MIS-FRM-002` — Practitioner Onboarding Acknowledgement** (APPROVED)
 
-**`MIS-FRM-008` — Practitioner Currency Review** (DRAFT — `PEO-002`)
+**`MIS-FRM-008` — Practitioner Currency Review** (APPROVED — `PEO-002`)
 
 Conceptual fields: practitioner; organisation; bands/functions; domain competence; learner-access scope; Mission role scope; risk ceiling; tool/facility permissions; communication channels; remote participation; assessment contribution; deployment-review role; onboarding completion; safeguarding/country-check reference; currency state pointer; restrictions; reviewer; review triggers/date; status.
 
@@ -424,7 +424,7 @@ Conceptual fields: practitioner; organisation; bands/functions; domain competenc
 | **L** | Changed role or new Mission raising risk | **Re-review / update FRM-007** | §18 / §19 |
 | **M** | Safeguarding concern | **Suspend** learner access pending review | §10 / §18 |
 | **N** | Suspension / revocation after breach | Restrict → suspend → revoke credentials | §18; MIS-FRM-006 if Mission impact |
-| **O** | Re-authorisation after refresh | Via PEO-002 / FRM-008 (**DRAFT**) process when available; school review meantime | GAP-035 open |
+| **O** | Re-authorisation after refresh | Via PEO-002 / FRM-008 (**APPROVED**) process | GAP-035 Closed |
 | **P** | Organisation-approved, person-not-approved | **No learner/facility access** | §4 |
 | **Q** | Practitioner across multiple Missions | One FRM-007 if scopes hold; expand triggers re-review | §19 |
 | **R** | Credentials claimed but unverifiable | Restrict to supervised low band or refuse elevated scopes | §3 |
@@ -448,8 +448,8 @@ Conceptual fields: practitioner; organisation; bands/functions; domain competenc
 - ADR-0015 Faculty architecture (**APPROVED**)
 - ADR-0007 / ADR-0014 / ADR-0016 (**APPROVED**)
 - `MIS-001` / `MIS-002` / `MIS-003` (**APPROVED**)
-- `MIS-TPL-001`; `MIS-FRM-002` / `MIS-FRM-007` (**APPROVED**); `MIS-FRM-008` (**DRAFT**)
-- `PEO-002` (**DRAFT** — GAP-035)
+- `MIS-TPL-001`; `MIS-FRM-002` / `MIS-FRM-007` (**APPROVED**); `MIS-FRM-008` (**APPROVED**)
+- `PEO-002` (**APPROVED** — GAP-035 Closed)
 - `GAP_REGISTER.md` — GAP-033 Closed by this standard
 
 ---
@@ -459,7 +459,7 @@ Conceptual fields: practitioner; organisation; bands/functions; domain competenc
 This standard does **not**:
 
 - rewrite APPROVED Core ADRs;
-- approve `PEO-002`–`005` or close GAP-032 / 034 / 035 / 036 / 037;
+- approve `PEO-003`–`005` or close GAP-032 / 034 / 036 / 037;
 - invent Malaysian (or other) teacher registration, employment or licence law;
 - create equipment catalogues or database schemas;
 - authorise clinical practice, offensive cyber against live systems, or learner exploitation;
