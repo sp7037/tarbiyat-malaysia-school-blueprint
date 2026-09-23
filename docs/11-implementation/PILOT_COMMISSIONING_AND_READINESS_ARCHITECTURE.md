@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-16` |
 | Country scope | `CORE` (country overlays via Country Profile; Malaysia first focus) |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`0003` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; developmental/Mission/Worlds/faculty/creator context `ADR-0004`–`0007` / `0011` / `0014`–`0015` / `0017`–`0018` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT; `MIS-001`–`003` APPROVED; Mission templates APPROVED including `MIS-FRM-008`; `POC-001` / `POC-FRM-*` DRAFT; `CAM-001` DRAFT companion; `MY-001` / `MY-002` DRAFT |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`0003` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; developmental/Mission/Worlds/faculty/creator context `ADR-0004`–`0007` / `0011` / `0014`–`0015` / `0017`–`0018` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004`–`005` DRAFT; `MIS-001`–`003` APPROVED; Mission templates APPROVED including `MIS-FRM-008`; `POC-001` / `POC-FRM-*` DRAFT; `CAM-001` DRAFT companion; `MY-001` / `MY-002` DRAFT |
 | Related gaps | GAP-051 (this pack — proposed, not closed); related GAP-001 / 002 / 005 / 006 / 007 / 037; GAP-022–024 / 031–036; GAP-038–044; GAP-048; GAP-050 |
 | Source documents | Approved Core ADRs above; Government + Investor Presentation Readiness Stress Test pattern (2026-09-15/16); Architecture brief — Pilot Commissioning (2026-09-16) |
 

@@ -10,8 +10,8 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-003` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT (do not close GAP-032 / 034–037); `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
-| Related gaps | Closes GAP-023; GAP-022 Closed by MIS-001; GAP-024 Closed by MIS-003; GAP-031 Closed by MIS-TPL pack; GAP-032–037 (PEO / MY people mapping DRAFT) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-003` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004`–`005` DRAFT (do not close GAP-032 / 034 / 037); `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Related gaps | Closes GAP-023; GAP-022 Closed by MIS-001; GAP-024 Closed by MIS-003; GAP-031 Closed by MIS-TPL pack; GAP-033 / 035 / 036 Closed (PEO); GAP-032 / 034 / 037 (PEO-004 / PEO-005 / MY people mapping DRAFT) |
 | Source documents | ADR-0007 Institution-in-Residence; ADR-0015 I-in-R ≠ automatic faculty; MIS-001 prerequisites; GAP-023 resolution brief (2026-09-14); Phase 2 Institution-in-Residence human review (2026-09-19) |
 
 > **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Institution / Industry-in-Residence architecture in APPROVED ADR-0007 and the faculty boundary in APPROVED ADR-0015. It **inherits** all Mission Partner Governance rules in `MIS-001` (**APPROVED**). Where this standard and MIS-001 address the same control, **MIS-001 prevails** unless a later formal governance decision amends Core. This document does **not** invent Malaysian partnership / tenancy / employment / privacy law, approve templates / PEO / POC / MY / IMP, set universal hour quotas or partner counts, or allow prestige, funding or branding to purchase educational control.
@@ -756,7 +756,7 @@ APPROVED MIS-002 supplies IMP-001 (still **DRAFT**) with:
 - ADR-0019 Learning-Time (**APPROVED**); ADR-0020 Campus (**APPROVED**)
 - `MIS-003` Mission Risk / Safeguarding (**APPROVED**)
 - `MIS-TPL-001` / `MIS-FRM-001`–`006` (**APPROVED** — GAP-031 Closed); `MIS-FRM-007` (**APPROVED** — PEO-001 / GAP-033 Closed); `MIS-FRM-008` (**APPROVED** — PEO-002; GAP-035 Closed)
-- `PEO-001` (**APPROVED** — GAP-033 Closed); `PEO-002` (**APPROVED** — GAP-035 Closed); `PEO-003`–`005` (**DRAFT** — GAP-032 / 034 / 036–037)
+- `PEO-001` (**APPROVED** — GAP-033 Closed); `PEO-002` (**APPROVED** — GAP-035 Closed); `PEO-003` (**APPROVED** — GAP-036 Closed); `PEO-004`–`005` (**DRAFT** — GAP-032 / 034); GAP-037 via MY-002
 - `GAP_REGISTER.md` — GAP-023 Closed by this standard; GAP-031 Closed by MIS-TPL pack
 
 ---

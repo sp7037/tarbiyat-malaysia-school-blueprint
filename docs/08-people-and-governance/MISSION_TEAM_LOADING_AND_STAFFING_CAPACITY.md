@@ -8,8 +8,8 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` DRAFT; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` APPROVED |
-| Related gaps | GAP-032 (this document); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country ratios / registration — handoff) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` APPROVED |
+| Related gaps | GAP-032 (this document); GAP-033 Closed (`PEO-001`); GAP-035 Closed (`PEO-002`); GAP-036 Closed (`PEO-003`); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country ratios / registration — handoff) |
 | Source documents | ADR-0015 Mission Teams / loading principles; MIS-003 risk; PEO-001–003; GAP-032 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** Mission Team loading and staffing-capacity principles implied by APPROVED ADR-0015 and required by the Mission Operating System. This document remains **DRAFT** (GAP-032 not closed). This standard does **not** invent universal numeric staff ratios, maximum class sizes, duty hours or teacher-registration law. Those remain **country / implementation** (`GAP-037`). Detailed Mentor caseload principles: **`PEO-005`** (`GAP-034` proposed — not closed).

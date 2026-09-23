@@ -3,17 +3,17 @@
 | Field | Value |
 |---|---|
 | Document ID | `SEC-08` |
-| Version | `0.6.3` |
+| Version | `0.6.4` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-19` |
+| Last reviewed | `2026-09-23` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0015 APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`PEO-005` DRAFT |
-| Source documents | User brief (2026-09-13); GAP-032 / 033 / 034 / 035 / 036 resolutions (2026-09-15); PEO-001 APPROVED / GAP-033 Closed (2026-09-19); PEO-002 APPROVED / GAP-035 Closed (2026-09-20) |
+| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0015 APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004`–`PEO-005` DRAFT |
+| Source documents | User brief (2026-09-13); GAP-032 / 033 / 034 / 035 / 036 resolutions (2026-09-15); PEO-001 APPROVED / GAP-033 Closed (2026-09-19); PEO-002 APPROVED / GAP-035 Closed (2026-09-20); PEO-003 APPROVED / GAP-036 Closed (2026-09-23) |
 
 ## Purpose
 
-Role typology and governance patterns (non-country). Core faculty architecture is in ADR-0015 (`APPROVED`). **Practitioner authorisation** is in `PEO-001` (`APPROVED` — GAP-033 Closed). **Currency** is in `PEO-002` (`APPROVED` — GAP-035 Closed). **Development** is in `PEO-003` (DRAFT). **Mission Team loading / staffing capacity** is in `PEO-004` (DRAFT). **Mentor caseload / human-guidance capacity** is in `PEO-005` (DRAFT).
+Role typology and governance patterns (non-country). Core faculty architecture is in ADR-0015 (`APPROVED`). **Practitioner authorisation** is in `PEO-001` (`APPROVED` — GAP-033 Closed). **Currency** is in `PEO-002` (`APPROVED` — GAP-035 Closed). **Development** is in `PEO-003` (`APPROVED` — GAP-036 Closed). **Mission Team loading / staffing capacity** is in `PEO-004` (DRAFT). **Mentor caseload / human-guidance capacity** is in `PEO-005` (DRAFT).
 
 ## Controlled documents
 
@@ -21,10 +21,10 @@ Role typology and governance patterns (non-country). Core faculty architecture i
 |---|---|---|---|
 | PEO-001 | `PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` | APPROVED | Practitioner Authorisation and Onboarding — GAP-033 Closed |
 | PEO-002 | `PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md` | APPROVED | Practitioner Currency and Re-authorisation — GAP-035 Closed |
-| PEO-003 | `FACULTY_AND_PRACTITIONER_DEVELOPMENT.md` | DRAFT | Faculty and Practitioner Development — proposed GAP-036 resolution (not closed) |
+| PEO-003 | `FACULTY_AND_PRACTITIONER_DEVELOPMENT.md` | APPROVED | Faculty and Practitioner Development — GAP-036 Closed |
 | PEO-004 | `MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md` | DRAFT | Mission Team Loading and Staffing Capacity — proposed GAP-032 resolution (not closed) |
 | PEO-005 | `MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md` | DRAFT | Mentor Caseload and Human-Guidance Capacity — proposed GAP-034 resolution (not closed) |
-| PEO-FRM-001 | `templates/PEO-FRM-001-faculty-practitioner-development-plan.md` | DRAFT | Lightweight development plan / record |
+| PEO-FRM-001 | `templates/PEO-FRM-001-faculty-practitioner-development-plan.md` | APPROVED | Development plan / record (with PEO-003) |
 | PEO-FRM-002 | `templates/PEO-FRM-002-mission-team-capacity-check.md` | DRAFT | Mission Team Capacity Check |
 | PEO-FRM-003 | `templates/PEO-FRM-003-mentor-caseload-review.md` | DRAFT | Mentor Caseload Review |
 

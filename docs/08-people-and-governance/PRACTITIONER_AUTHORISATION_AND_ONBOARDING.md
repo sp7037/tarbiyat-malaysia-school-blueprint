@@ -10,11 +10,11 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; companion `MIS-FRM-002` APPROVED; companion `MIS-FRM-007` APPROVED with this standard; companion `MIS-FRM-008` / `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
-| Related gaps | Closes GAP-033; related GAP-035 Closed (`PEO-002` / FRM-008 APPROVED); GAP-036 (`PEO-003`); GAP-032 (`PEO-004`); GAP-034 (`PEO-005`); GAP-037 (country registration — not resolved here) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0007` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`006` APPROVED; companion `MIS-FRM-002` APPROVED; companion `MIS-FRM-007` APPROVED with this standard; companion `MIS-FRM-008` / `PEO-002` APPROVED (GAP-035 Closed); companion `PEO-003` / `PEO-FRM-001` APPROVED (GAP-036 Closed); `PEO-004`–`005` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Related gaps | Closes GAP-033; related GAP-035 Closed (`PEO-002` / FRM-008 APPROVED); GAP-036 Closed (`PEO-003` / PEO-FRM-001 APPROVED); GAP-032 (`PEO-004`); GAP-034 (`PEO-005`); GAP-037 (country registration — not resolved here) |
 | Source documents | ADR-0015 Practitioner Onboarding / I-in-R boundary; MIS-001 / MIS-002 Partner≠Practitioner; MIS-003 risk/stop-work; GAP-033 resolution brief (2026-09-15); Phase 2 Practitioner Authorisation human review (2026-09-19) |
 
-> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner authorisation and onboarding principles in APPROVED ADR-0015 and the participation ladder in APPROVED MIS-002. **Mission Partner / I-in-R organisation approval does not equal individual practitioner authorisation.** Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`). This approval does **not** approve `PEO-003`–`005`, invent Malaysian employment/safeguarding law, or set staffing ratios.
+> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner authorisation and onboarding principles in APPROVED ADR-0015 and the participation ladder in APPROVED MIS-002. **Mission Partner / I-in-R organisation approval does not equal individual practitioner authorisation.** Country profiles supply teacher registration, professional licences, background checks and regulated-sector rules (`GAP-037`). This approval does **not** approve `PEO-004`–`005`, invent Malaysian employment/safeguarding law, or set staffing ratios. (`PEO-003` / GAP-036 Closed separately.)
 
 ## Revision history
 
@@ -37,7 +37,7 @@ Central question:
 **Professional seniority alone must not equal educational authority.**  
 **Organisation approval alone must not equal individual authorisation.**
 
-This document resolves **GAP-033**. It is **not** a Mission Team loading standard (`GAP-032` / `PEO-004`), currency programme (`GAP-035` / `PEO-002`), faculty development standard (`GAP-036` / `PEO-003`), or country registration map (`GAP-037`).
+This document resolves **GAP-033**. Currency is APPROVED `PEO-002` (GAP-035 Closed). Faculty development is APPROVED `PEO-003` (GAP-036 Closed). It is **not** a Mission Team loading standard (`GAP-032` / `PEO-004`) or country registration map (`GAP-037`).
 
 ---
 
@@ -459,7 +459,7 @@ Conceptual fields: practitioner; organisation; bands/functions; domain competenc
 This standard does **not**:
 
 - rewrite APPROVED Core ADRs;
-- approve `PEO-003`–`005` or close GAP-032 / 034 / 036 / 037;
+- approve `PEO-004`–`005` or close GAP-032 / 034 / 037;
 - invent Malaysian (or other) teacher registration, employment or licence law;
 - create equipment catalogues or database schemas;
 - authorise clinical practice, offensive cyber against live systems, or learner exploitation;

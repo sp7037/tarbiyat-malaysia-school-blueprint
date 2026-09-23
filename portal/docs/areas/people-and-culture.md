@@ -8,12 +8,12 @@ description: Human-readable summary of the Practitioner–Educator–Mentor facu
 <p class="present-more"><a href="/people-learning">← Stakeholder presentation: People &amp; Learning</a></p>
 
 <div class="planned-banner">
-  <strong>APPROVED Core faculty architecture; PEO-001 / PEO-002 APPROVED; remaining PEO ops DRAFT</strong><br/>
+  <strong>APPROVED Core faculty architecture; PEO-001 / PEO-002 / PEO-003 APPROVED; PEO-004–005 DRAFT</strong><br/>
   ADR-0015 defines Educator + Practitioner + Mentor as peer functions —
   with lawful authority, scoped expertise, meaningful relationship and honest capacity.
   <a href="/areas/practitioner-authorisation"><code>PEO-001</code></a> (authorisation — <strong>APPROVED</strong>; GAP-033 Closed) ↔
   <a href="/areas/practitioner-currency"><code>PEO-002</code></a> (currency — APPROVED) ↔
-  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development — DRAFT)
+  <a href="/areas/faculty-practitioner-development"><code>PEO-003</code></a> (development — <strong>APPROVED</strong>; GAP-036 Closed)
   → <a href="/areas/mission-team-capacity"><code>PEO-004</code></a> (Mission Team capacity — DRAFT)
   → <a href="/areas/mentor-caseload-capacity"><code>PEO-005</code></a> (Mentor human-guidance capacity — DRAFT).
   These <strong>interact</strong> — they are not a promotion ladder.
@@ -40,7 +40,7 @@ Tarbiyat combines recognised academic learning, Mission Labs, mentoring and auth
 | Safeguarding clearance | Suitability to work with minors |
 | Tarbiyat authorisation | Scoped school permission (`PEO-001` APPROVED) |
 | Currency | Recent evidence to **continue** (`PEO-002` APPROVED (GAP-035 Closed)) |
-| Development | Deliberate capability-building (`PEO-003` DRAFT) |
+| Development | Deliberate capability-building (`PEO-003` APPROVED; GAP-036 Closed) |
 | Mission capacity | Enough of the right functions available now (`PEO-004` DRAFT) |
 | Mentor guidance capacity | Relationship depth + available Mentor time (`PEO-005` DRAFT) |
 
@@ -94,8 +94,8 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 | Practitioner–Educator–Mentor Faculty Architecture | APPROVED | [ADR-0015](/decisions/adr-0015) |
 | Practitioner Authorisation and Onboarding (`PEO-001`) | APPROVED | [Portal](/areas/practitioner-authorisation) |
 | Practitioner Currency and Re-authorisation (`PEO-002`) | APPROVED | [Portal](/areas/practitioner-currency) |
-| Faculty and Practitioner Development (`PEO-003`) | DRAFT | [Portal](/areas/faculty-practitioner-development) |
-| Development Plan & Record (`PEO-FRM-001`) | DRAFT | [Portal](/areas/peo-frm-001) |
+| Faculty and Practitioner Development (`PEO-003`) | APPROVED | [Portal](/areas/faculty-practitioner-development) |
+| Development Plan & Record (`PEO-FRM-001`) | APPROVED | [Portal](/areas/peo-frm-001) |
 | Mission Team Loading and Staffing Capacity (`PEO-004`) | DRAFT | [Portal](/areas/mission-team-capacity) |
 | Mission Team Capacity Check (`PEO-FRM-002`) | DRAFT | [Portal](/areas/peo-frm-002) |
 | Mentor Caseload and Human-Guidance Capacity (`PEO-005`) | DRAFT | [Portal](/areas/mentor-caseload-capacity) |
@@ -112,6 +112,6 @@ Younger learners usually need more continuity with Educators and Mentors. Advanc
 - [GAP-033](/gaps#gap-033) — Practitioner qualification / authorisation (Closed by [PEO-001](/areas/practitioner-authorisation) / MIS-FRM-007)
 - [GAP-034](/gaps#gap-034) — Mentor caseload / human-guidance capacity (proposed via [PEO-005](/areas/mentor-caseload-capacity) — not closed)
 - [GAP-035](/gaps#gap-035) — Practitioner currency (Closed by [PEO-002](/areas/practitioner-currency) / MIS-FRM-008)
-- [GAP-036](/gaps#gap-036) — Faculty development programmes (proposed via [PEO-003](/areas/faculty-practitioner-development) — not closed)
+- [GAP-036](/gaps#gap-036) — Faculty development programmes (Closed by [PEO-003](/areas/faculty-practitioner-development) + [PEO-FRM-001](/areas/peo-frm-001))
 - [GAP-037](/gaps#gap-037) — Country regulated-role mapping — proposed via [MY-002](/country/malaysia-regulated-people) (**not closed**)
 - [GAP-023](/gaps#gap-023) — Institution-in-Residence operating standard

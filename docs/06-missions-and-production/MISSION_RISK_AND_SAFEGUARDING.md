@@ -10,7 +10,7 @@
 | Last reviewed | `2026-09-19` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-002` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0004`–`ADR-0007` APPROVED; `ADR-0011` APPROVED; `ADR-0014` APPROVED; `ADR-0015` APPROVED; `ADR-0016` APPROVED; `ADR-0019` APPROVED; `ADR-0020` APPROVED; companion `MIS-001` APPROVED; companion `MIS-002` APPROVED; companion `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004`–`005` DRAFT; `POC-001` DRAFT; `IMP-001` DRAFT; country overlays `MY-002` / `MY-003` DRAFT |
 | Related gaps | Closes GAP-024; related GAP-022 Closed by MIS-001; GAP-023 Closed by MIS-002; GAP-031 Closed by MIS-TPL pack; country legal overlays remain Country Profile work |
 | Source documents | ADR-0007 safeguarding, data classes, Deployment Boundary; MIS-001 partner non-bypass; MIS-002 I-in-R non-bypass; GAP-024 resolution brief (2026-09-14); Phase 2 Mission Risk / Safeguarding human review (2026-09-19) |
 

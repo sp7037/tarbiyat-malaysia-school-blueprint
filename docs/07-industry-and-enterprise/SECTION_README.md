@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0007 / ADR-0014 / ADR-0015 APPROVED; MIS-001 / MIS-002 APPROVED; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003–005 DRAFT |
+| Dependencies | PROJECT_RULES.md, MASTER_INDEX.md; ADR-0007 / ADR-0014 / ADR-0015 APPROVED; MIS-001 / MIS-002 APPROVED; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003 APPROVED (GAP-036 Closed); PEO-004–005 DRAFT |
 | Source documents | User brief (2026-09-13); GAP-023 / GAP-033 resolutions |
 
 ## Purpose

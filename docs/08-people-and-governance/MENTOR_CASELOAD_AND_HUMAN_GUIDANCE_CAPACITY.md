@@ -8,8 +8,8 @@
 | Last reviewed | `2026-09-15` |
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `ADR-0004` / `ADR-0011` / `ADR-0016` / `ADR-0017` / `ADR-0018` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003`–`PEO-004` DRAFT; `MIS-003` APPROVED |
-| Related gaps | GAP-034 (this document); GAP-032 (`PEO-004`); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-036 (`PEO-003`); GAP-037 (country pastoral / ratios — handoff); GAP-046 (`ADR-0018` pathway preparation — related) |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `ADR-0004` / `ADR-0011` / `ADR-0016` / `ADR-0017` / `ADR-0018` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004` DRAFT; `MIS-003` APPROVED |
+| Related gaps | GAP-034 (this document); GAP-032 (`PEO-004`); GAP-033 Closed (`PEO-001`); GAP-035 Closed (`PEO-002`); GAP-036 Closed (`PEO-003`); GAP-037 (country pastoral / ratios — handoff); GAP-046 (`ADR-0018` pathway preparation — related) |
 | Source documents | ADR-0015 Mentor function; ADR-0018 Discover→Choose human-governed preparation; PEO-004 Mentor-capacity handoff; GAP-034 resolution brief (2026-09-15) |
 
 > **Authority note:** This standard **operationalises** Mentor caseload and human-guidance capacity principles implied by APPROVED ADR-0015 and required wherever Tarbiyat claims meaningful longitudinal mentoring. This document remains **DRAFT** (GAP-034 not closed). This standard does **not** invent a universal Mentor∶learner Core ratio, counselling licence law, or statutory pastoral ratios. Those remain **country / implementation** (`GAP-037`).

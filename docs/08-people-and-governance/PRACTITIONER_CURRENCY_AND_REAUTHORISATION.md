@@ -11,10 +11,10 @@
 | Country scope | `CORE` |
 | Owner / reviewer | Documentation Architect / Human lead |
 | Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED; `MIS-002` / `MIS-003` APPROVED; `MIS-FRM-007` APPROVED; companion `MIS-FRM-008` APPROVED with this standard |
-| Related gaps | Closes GAP-035; GAP-033 Closed (`PEO-001`); GAP-036 (`PEO-003` development — companion); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country licences — handoff) |
+| Related gaps | Closes GAP-035; GAP-033 Closed (`PEO-001`); GAP-036 Closed (`PEO-003` development — companion APPROVED); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country licences — handoff) |
 | Source documents | ADR-0015 Practitioner Currency principles; PEO-001 §§8, 10, 18; MIS-003 incident/re-review; GAP-035 resolution brief (2026-09-15); Phase 2 Practitioner Currency human review (2026-09-20) |
 
-> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner currency principles in APPROVED ADR-0015 and the review/revocation hooks in APPROVED `PEO-001`. Exact review intervals, training hours and licence rules are **implementation / country** detail. It does **not** reopen PA bands, org≠person, permission dimensions or initial-authorisation architecture in APPROVED `PEO-001`. Companion `MIS-FRM-008` is APPROVED with this standard. This approval does **not** approve `PEO-003`–`005` or close GAP-032 / 034 / 036 / 037.
+> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises Practitioner currency principles in APPROVED ADR-0015 and the review/revocation hooks in APPROVED `PEO-001`. Exact review intervals, training hours and licence rules are **implementation / country** detail. It does **not** reopen PA bands, org≠person, permission dimensions or initial-authorisation architecture in APPROVED `PEO-001`. Companion `MIS-FRM-008` is APPROVED with this standard. This approval does **not** approve `PEO-004`–`005` or close GAP-032 / 034 / 037. (`PEO-003` / GAP-036 Closed separately.)
 
 ## Revision history
 
@@ -47,7 +47,7 @@ Prevents:
 
 Without creating unnecessary recurring bureaucracy for every low-risk or episodic contributor.
 
-This document resolves **GAP-035**. It is **not** a faculty development standard (`GAP-036` — see `PEO-003`), Mission Team loading / staffing capacity standard (`GAP-032` — see `PEO-004`), Mentor caseload standard (`GAP-034` — see `PEO-005`), or country registration map (`GAP-037`).
+This document resolves **GAP-035**. Faculty development is governed by APPROVED `PEO-003` (`GAP-036` Closed). It is **not** a Mission Team loading / staffing capacity standard (`GAP-032` — see `PEO-004`), Mentor caseload standard (`GAP-034` — see `PEO-005`), or country registration map (`GAP-037`).
 
 ---
 
@@ -513,12 +513,12 @@ This standard and `MIS-FRM-008` form **one operating-control milestone** resolvi
 ## 27. Related documents
 
 - `PEO-001` Practitioner Authorisation and Onboarding (APPROVED; GAP-033 Closed)
-- `PEO-003` Faculty and Practitioner Development (DRAFT)
+- `PEO-003` Faculty and Practitioner Development (APPROVED; GAP-036 Closed)
 - `PEO-004` Mission Team Loading and Staffing Capacity (DRAFT)
 - ADR-0015 Practitioner Currency principles (APPROVED)
 - `MIS-002` / `MIS-003` (APPROVED)
 - `MIS-FRM-007` (APPROVED) / `MIS-FRM-008` (APPROVED with this standard)
-- `GAP_REGISTER.md` — GAP-035 Closed; handoffs GAP-036 / 037 / 032 / 034
+- `GAP_REGISTER.md` — GAP-035 Closed; GAP-036 Closed; handoffs GAP-037 / 032 / 034
 
 ---
 
@@ -530,11 +530,11 @@ This standard does **not**:
 - set universal Core expiry months, CPD hour quotas or practice-hour thresholds;
 - permit indefinite unreviewed CURRENT status for active PA-1–PA-4 authorisations;
 - invent country licences or teacher registration (`GAP-037`);
-- replace faculty development architecture (`PEO-003` / GAP-036);
+- replace faculty development architecture (`PEO-003` / GAP-036 Closed);
 - invent Mission Team capacity architecture (`PEO-004` / GAP-032);
 - create equipment catalogues or database schemas;
 - treat currency states as prestige ranks;
 - allow renewal to silently expand authorisation scope;
 - allow a practitioner to be sole approver of their own currency;
 - allow REFRESH REQUIRED to become an informal workaround for expired or unsafe competence;
-- approve `PEO-003`–`005` or close GAP-032 / 034 / 036 / 037.
+- approve `PEO-004`–`005` or close GAP-032 / 034 / 037.

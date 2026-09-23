@@ -90,6 +90,6 @@ Learners receive truthful creator recognition. Mission participation does not au
 | Capability evidence | [Proof of Capability](/proof-of-capability) | [ADR-0003](/decisions/adr-0003) approved; [ADR-0016](/decisions/adr-0016) approved; [POC-001](/areas/poc-operating-standard) DRAFT |
 | Learning time | [LAR-001](/areas/learning-time-architecture) | [ADR-0019](/decisions/adr-0019) approved |
 | Campus / facilities | [CAM-001](/areas/campus-facilities) | [ADR-0020](/decisions/adr-0020) approved |
-| People / faculty | [People & Learning](/people-learning) | [ADR-0015](/decisions/adr-0015) approved; PEO-001 APPROVED; PEO-002 APPROVED (GAP-035 Closed); PEO-003–005 DRAFT |
+| People / faculty | [People & Learning](/people-learning) | [ADR-0015](/decisions/adr-0015) approved; PEO-001 / PEO-002 / PEO-003 APPROVED (GAP-033 / 035 / 036 Closed); PEO-004–005 DRAFT |
 | Pilot commissioning | [IMP-001](/areas/pilot-commissioning) | DRAFT readiness gates; [GAP-051](/gaps#gap-051) proposed |
 | Full record | [Blueprint](/blueprint/) | [Concept Constitution](/foundation/concept-constitution) |

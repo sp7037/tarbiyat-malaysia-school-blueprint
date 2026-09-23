@@ -3,16 +3,25 @@
 | Field | Value |
 |---|---|
 | Document ID | `PEO-003` |
-| Version | `0.1.0` |
-| Status | `DRAFT` |
-| Last reviewed | `2026-09-15` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
+| Date | `2026-09-15` |
+| Approved | `2026-09-23` |
+| Last reviewed | `2026-09-23` |
 | Country scope | `CORE` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`007` APPROVED; `MIS-FRM-008` APPROVED |
-| Related gaps | GAP-036 (this document); GAP-033 Closed (`PEO-001`); GAP-035 (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country CPD / registration — handoff) |
-| Source documents | ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation principles; PEO-001 / PEO-002 handoffs; GAP-036 resolution brief (2026-09-15) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `FND-003` APPROVED; `ADR-0001`–`ADR-0003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `MIS-001`–`MIS-003` APPROVED; `MIS-TPL-001` / `MIS-FRM-001`–`008` APPROVED; companion `PEO-FRM-001` APPROVED with this standard; `PEO-004` / `PEO-005` DRAFT (do not close GAP-032 / 034); country overlays `MY-002` / `MY-003` DRAFT |
+| Related gaps | Closes GAP-036; GAP-033 Closed (`PEO-001`); GAP-035 Closed (`PEO-002`); GAP-032 (`PEO-004` capacity — companion); GAP-034 (`PEO-005` Mentor caseload — companion); GAP-037 (country CPD / registration — handoff) |
+| Source documents | ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation principles; PEO-001 / PEO-002 handoffs; GAP-036 resolution brief (2026-09-15); Phase 2 Faculty and Practitioner Development human review (2026-09-23) |
 
-> **Authority note:** This standard **operationalises** faculty and practitioner development principles implied by APPROVED ADR-0015 and required by Tarbiyat operating model (Lab-First, Mission-Based, Six Worlds, Education-First). This document remains **DRAFT** (GAP-036 not closed). Authorisation itself is governed by APPROVED `PEO-001` (GAP-033 Closed). Course hours, calendars, named trainers, LMS and certificates are **implementation** detail. Mandatory teacher CPD and registered-training rules are **country** detail (`GAP-037`).
+> **Authority note:** This is an **APPROVED Core operating standard**. It operationalises faculty and practitioner development principles in APPROVED ADR-0015 for Tarbiyat’s Lab-First, Mission-Based, Six Worlds, Education-First model. **Development ≠ authorisation ≠ currency.** Permission / PA scope is governed solely by APPROVED `PEO-001`. Currency state is governed solely by APPROVED `PEO-002`. Companion `PEO-FRM-001` is APPROVED with this standard. Course hours, calendars, named trainers, LMS and certificates are **implementation** detail. Mandatory teacher CPD and registered-training rules are **country** detail (`GAP-037`). This approval does **not** approve `PEO-004`–`005` or close GAP-032 / 034 / 037.
+
+## Revision history
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.1.0 | 2026-09-15 | Initial DRAFT — proposed GAP-036 resolution |
+| 1.0.0 | 2026-09-23 | APPROVED after Phase 2 human review with `PEO-FRM-001`; three-system boundary locked; FRM-001 mandatory threshold; Layer 5 ≠ currency; incident sequencing; ownership / non-self-certification; facilitator boundary; practice-evidence minimum; desired-function safeguard; closes GAP-036 |
 
 ---
 
@@ -31,9 +40,12 @@ Prevents:
 - collapsing development into a conventional teacher-training syllabus;
 - treating course attendance as automatic authorisation or currency;
 - STEM-only faculty development that ignores Creative, Society, Enterprise, Health and Earth Worlds;
-- corporate HR bureaucracy that does not transfer into practice.
+- corporate HR bureaucracy that does not transfer into practice;
+- development plans becoming prestige rankings or silent permission expansions.
 
-This document proposes resolution of **GAP-036**. It is **not** an authorisation standard (`PEO-001`), currency review standard (`PEO-002`), Mission Team loading / staffing capacity standard (`GAP-032` — see `PEO-004`), Mentor caseload standard (`GAP-034` — see `PEO-005`), or country registration map (`GAP-037`).
+This document resolves **GAP-036**. It is **not** an authorisation standard (`PEO-001`), currency review standard (`PEO-002`), Mission Team loading / staffing capacity standard (`GAP-032` — see `PEO-004`), Mentor caseload standard (`GAP-034` — see `PEO-005`), or country registration map (`GAP-037`).
+
+**Scope note:** The title is **Faculty and Practitioner Development**. Core development architecture covers recurring Tarbiyat operating functions (including Educators, Practitioners, Mentors, Mission Leads, Technical/Lab functions, PA-4 responsibilities and relevant I-in-R participation). This does **not** merge those people into one employment class or authorisation category.
 
 ---
 
@@ -78,16 +90,26 @@ Development should be:
 
 | Concept | Question | Primary vehicle |
 |---|---|---|
-| **Development** | How does this person build Tarbiyat operating capability? | This standard + `PEO-FRM-001` (where used) |
+| **Development** | How does this person build Tarbiyat operating capability? | This standard + `PEO-FRM-001` (where required) |
 | **Authorisation** | What may they be permitted to do? | `PEO-001` + `MIS-FRM-007` (+ `MIS-FRM-002` where required) |
 | **Currency** | Is there recent evidence they should continue now? | `PEO-002` + `MIS-FRM-008` |
 
-Hard rules:
+**Hard lock — three systems:**
 
-- Training completion must **not** automatically grant authorisation.
-- Course attendance must **not** automatically establish competence.
-- Development evidence may **support** authorisation or currency decisions — it does not replace them.
-- Currency review remains a separate human decision (`PEO-002`).
+- `PEO-003` develops operating capability.
+- `PEO-001` **alone** governs permission / PA scope.
+- `PEO-002` **alone** governs currency state and return-to-current decisions.
+
+No training, development layer, certificate, facilitator sign-off, LMS completion, development plan or observed practice may **by itself**:
+
+- create or expand a PA scope;
+- amend `MIS-FRM-007` authorised scope;
+- assign CURRENT;
+- renew CURRENT;
+- restore CURRENT after restriction / suspension;
+- bypass `MIS-FRM-008` where `PEO-002` requires it.
+
+`PEO-FRM-001` may contain **pointers / handoffs only** — never authoritative permission or currency state.
 
 These three interact; they are **not** a one-way promotion ladder.
 
@@ -114,6 +136,8 @@ Development needs are defined for **functions**. One person may develop across m
 | **H** | Safeguarding / governance functions | Where relevant: proportional safeguarding literacy, escalation, professional boundaries |
 
 Do not invent teacher-licensing requirements here (`GAP-037`).
+
+**Mentor preparation / development** is in this standard. **Mentor workload / caseload / relationship capacity** remains `PEO-005` (`GAP-034` — not closed).
 
 ---
 
@@ -166,7 +190,7 @@ Practitioners may need development in:
 - critique without taking over learner work;
 - supervising authentic production;
 - observing capability evidence without fabricating claims;
-- Creator Rights boundaries (ADR-0014 context);
+- Creator Rights boundaries (ADR-0014);
 - commercial / recruitment neutrality boundaries (`MIS-001`).
 
 **A good engineer, doctor or designer is not automatically a good educational practitioner.**
@@ -182,7 +206,7 @@ Mentors should understand:
 - provisional concentration;
 - equal dignity across Six Worlds;
 - avoiding premature career locking;
-- wellbeing observation and referral boundaries (Mentor ≠ therapist);
+- wellbeing observation and referral boundaries (Mentor ≠ therapist; Mentor preparation ≠ counselling / regulated-profession licence);
 - family dialogue where appropriate;
 - human interpretation of AI/software suggestions;
 - ethical formation consistent with Tarbiyat (non-sectarian).
@@ -207,7 +231,9 @@ Mission Leads should develop competence in:
 - Creator Rights triggers;
 - resolving role conflicts without prestige behaviour.
 
-**Mission Lead need not be the top technical expert.** Technical currency may sit with Practitioners / Lab Professionals while Lead currency emphasises coordination and risk literacy (`PEO-002` §12).
+**Mission Lead need not be the top technical expert.** Technical currency may sit with Practitioners / Lab Professionals while Lead currency emphasises coordination and risk literacy (`PEO-002`).
+
+Mission Leads **must not** solely self-certify their own elevated-function development completion (§24).
 
 ---
 
@@ -239,7 +265,7 @@ PA-4 / Faculty Practitioner should bridge professional and educational practice.
 - PoC / capability evidence awareness;
 - collaboration inside professional learning teams.
 
-Do **not** invent teacher-licensing requirements as Core law (`GAP-037`).
+Do **not** invent teacher-licensing requirements as Core law (`GAP-037`). I-in-R organisation training does **not** mass-convert employees into Faculty Practitioners — each person needs individual authorisation (`PEO-001`) and currency (`PEO-002`) as applicable.
 
 ---
 
@@ -260,6 +286,8 @@ Include, proportionally to contact and risk:
 - escalation paths.
 
 **Avoid requiring a full internal faculty programme** unless their authorised functions require it. Use `MIS-FRM-002` for external-practitioner onboarding acknowledgement where applicable; do not duplicate that form as a development syllabus.
+
+If a guest or I-in-R participant becomes **recurring** or begins carrying **material educational responsibility**, reassess `PEO-FRM-001` under §25.
 
 ---
 
@@ -295,7 +323,7 @@ Hard boundary: **training progression ≠ permission.** Independent performance 
 
 ---
 
-## 15. Development evidence
+## 15. Development evidence (including elevated-function minimum)
 
 Legitimate evidence may include:
 
@@ -310,9 +338,29 @@ Legitimate evidence may include:
 - CPD completion;
 - professional practice evidence.
 
-**Attendance certificate alone should not always suffice**, especially for elevated learner-contact, tool or risk functions.
+### 15.1 Elevated / practice-sensitive functions — practice-evidence minimum
 
-Development evidence may later feed currency evidence pools (`PEO-002` §4) when recent and relevant — it does not auto-set CURRENT status.
+For elevated or practice-sensitive functions, development completion must **not** rely solely on:
+
+- attendance;
+- certificate;
+- LMS completion;
+- reflection alone;
+- quiz score;
+- AI/automated module completion.
+
+There must be appropriate **direct / practice evidence**, such as one or more of:
+
+- observed practice;
+- supervised practice;
+- co-facilitation;
+- demonstrated performance;
+- authentic Mission / lab practice;
+- equivalent direct evidence appropriate to the function.
+
+Exact amount is **contextual and risk-proportionate**. Core sets **no** universal hours or counts.
+
+Development evidence may later feed currency evidence pools (`PEO-002`) when recent and relevant — it does **not** auto-set CURRENT, renew CURRENT, or restore CURRENT. It does **not** create or expand PA scope.
 
 ---
 
@@ -342,7 +390,19 @@ Allow development from one function toward another, for example:
 | Mentor | Mentor + pathway advisor depth |
 | Technical / Lab Professional | Practitioner function where competent |
 
-**No automatic promotions.** Pathway intent informs development planning; authorisation remains a separate decision.
+**No automatic promotions.** Pathway intent informs development planning; authorisation remains a separate `PEO-001` decision.
+
+### 17.1 Desired-function / future-responsibility safeguard
+
+A “desired function”, “future responsibility”, “development goal” or similar field on `PEO-FRM-001` (or related plans) is **developmental intent only**.
+
+It **MUST NOT** be interpreted as:
+
+- authorised PA scope;
+- `MIS-FRM-007` amendment;
+- permission to independently perform the function.
+
+Broader responsibility becomes authorised **only** after `PEO-001` completes the relevant permission decision.
 
 ---
 
@@ -350,7 +410,7 @@ Allow development from one function toward another, for example:
 
 Development planning should consider:
 
-- current and desired functions;
+- current and desired functions (intent only — §17.1);
 - current authorisation (`MIS-FRM-007`);
 - currency review outcomes (`MIS-FRM-008`);
 - Mission needs;
@@ -360,36 +420,36 @@ Development planning should consider:
 - learner needs;
 - school strategic capacity.
 
-**Do not create ranking scores or forced performance ladders.**
+**Do not create ranking scores, points systems, certificate walls or forced performance ladders.**
+
+Repeated weak performance must **not** be hidden indefinitely behind “more development” when a `PEO-002` trigger or material competence / safety concern exists (§20).
 
 ---
 
 ## 19. Relationship to PEO-002
 
-`PEO-002` defines **what** evidence can maintain currency.
+`PEO-002` is the **sole Core currency system**. It defines currency states, triggers, review ownership and return-to-current rules.
 
-This standard provides **development routes** that may generate such evidence (supervised practice, refreshers, observed competence, CPD, Mission participation).
+This standard provides **development routes** that may generate evidence useful to currency reviews (supervised practice, refreshers, observed competence, CPD, Mission participation).
 
 But:
 
-- training completion ≠ automatic CURRENT status;
-- currency review remains a separate human decision;
-- remediation development after a review outcome is support, not a rubber stamp.
+- training / Layer completion ≠ automatic CURRENT status;
+- currency review remains a separate human decision under `PEO-002` / `MIS-FRM-008`;
+- remediation development after a review outcome is support, not a rubber stamp;
+- Layer 5 does **not** define currency, renew currency, assign CURRENT or establish review cadence (§26).
 
 ---
 
-## 20. Development after incident
+## 20. Weak performance / incident sequencing
 
-An incident or near miss may indicate need for:
+| Case | First / parallel response | Development role | Restoration / expansion |
+|---|---|---|---|
+| **A. Immediate safety, safeguarding, competence or elevated-risk concern** | Containment / investigation / restriction under applicable `PEO-001`, `PEO-002` and `MIS-003` | May support remediation **afterwards or in parallel** — **must not delay** necessary restriction, suspension, investigation or safeguarding action | Completion of development **does not** restore CURRENT or expand PA scope |
+| **B. Non-safety developmental weakness within existing authorised scope** | Development / coaching / observed practice may be the first proportionate response | Primary vehicle | If evidence later crosses a `PEO-002` trigger or creates material competence / safety concern → route to currency / restriction process |
+| **C. Preparation for broader responsibility** | `PEO-003` may prepare the individual | Capability building only | No broader responsibility becomes authorised until `PEO-001` completes the permission decision |
 
-- coaching;
-- refresher;
-- supervised practice;
-- technical retraining;
-- safeguarding retraining;
-- temporary role restriction.
-
-**Development is not a substitute for investigation or accountability** (`MIS-003`, `PEO-001` §17, `PEO-002` §9).
+**Development is not a substitute for investigation or accountability.**
 
 ---
 
@@ -418,9 +478,9 @@ Staff should understand responsible AI/software use appropriate to their functio
 - bias awareness;
 - evidence integrity (no fabricated capability claims);
 - no autonomous pathway assignment;
-- no autonomous risk / authorisation decision.
+- no autonomous risk / authorisation / currency / development-completion decision.
 
-Do **not** create a technical AI certification scheme here.
+AI or LMS completion must **not** auto-prove practice competence for elevated functions (§15.1). Do **not** create a technical AI certification scheme here.
 
 ---
 
@@ -428,47 +488,64 @@ Do **not** create a technical AI certification scheme here.
 
 Development architecture must support **all Six Worlds**.
 
-Faculty development must **not** become synonymous with STEM / lab training. Creative, Society, Enterprise, Health and Earth practitioners need equally legitimate development pathways (e.g. media/IP/safeguarding for Creative; neutrality and public-purpose ethics for Society).
+Faculty development must **not** become synonymous with STEM / lab training. Creative, Society, Enterprise, Health and Earth practitioners need equally legitimate development pathways and access to development resources (e.g. media/IP/safeguarding for Creative; neutrality and public-purpose ethics for Society).
 
 ---
 
-## 24. Development record — `PEO-FRM-001`
+## 24. Development ownership and reviewer independence
+
+A designated **People / capability governance owner** is accountable for the development system and for ensuring required plans exist.
+
+A relevant function-competent reviewer / coach / Mission Lead / technical lead may help:
+
+- identify development needs;
+- provide coaching;
+- observe practice;
+- contribute evidence;
+- review development progress.
+
+**No individual may be the sole approver of their own elevated-function development evidence or completion.** Mission Leads must not simply self-certify themselves.
+
+Where local organisational titles differ, implementation may assign equivalent competent roles. Do not invent unnecessary new organisational bureaucracy beyond this Core rule.
+
+---
+
+## 25. Development record — `PEO-FRM-001` (mandatory threshold)
 
 People-development records belong under the **PEO** series, not forced into Mission Operating System forms (`MIS-FRM-*`).
 
 **`PEO-FRM-001` — Faculty / Practitioner Development Plan & Record**  
 `docs/08-people-and-governance/templates/PEO-FRM-001-faculty-practitioner-development-plan.md`
 
-Possible contents:
+### 25.1 When `PEO-FRM-001` is required
 
-- person and functions;
-- current authorisation pointer (`MIS-FRM-007`);
-- development needs;
-- planned development;
-- evidence expected;
-- completed development;
-- observed practice / reflection;
-- next development priority.
+A documented development plan is **mandatory** for:
 
-No performance score required.
+- recurring **PA-2, PA-3 and PA-4** role-holders where Tarbiyat operating capability must be developed or maintained;
+- recurring **Mentors, Mission Leads and Technical / Lab** responsibility holders where development needs exist;
+- any person placed on a formal **remediation**, **supervised-return** or structured capability-development pathway;
+- any person preparing for **broader responsibility** where development must be evidenced before a later `PEO-001` authorisation decision.
 
-**Who should have one (principle):** lightweight plan for long-term faculty members and regular practitioners where proportional. **External guest speakers and one-off contributors typically do not.**
+### 25.2 PA-1 / low-risk recurring roles — proportionality
 
----
+- Lightweight `PEO-FRM-001` is acceptable.
+- Mandatory when there is a defined development need, remediation, repeated responsibility or intended future scope expansion.
+- Do **not** create pointless bureaucracy for stable low-risk participation.
+- Do **not** create a universal annual form requirement merely for paperwork.
 
-## 25. Individual development plan (lightweight)
+### 25.3 PA-0 / one-off visitors / guests
 
-For long-term adults, a lightweight plan may track:
+`PEO-FRM-001` is normally **not** required.
 
-**Current functions → desired functions → development need → practice opportunity → evidence → review**
+If a guest or I-in-R participant becomes recurring or begins carrying material educational responsibility, reassess under §25.1–25.2.
 
-Avoid corporate HR bureaucracy. Plans exist to improve Tarbiyat operating capability and learner safety — not to manufacture rankings.
+No performance score required on the form.
 
 ---
 
 ## 26. Programme architecture (not a syllabus)
 
-Define architecture only; do **not** prescribe course hours yet.
+Define architecture only; do **not** prescribe course hours.
 
 | Layer | Purpose |
 |---|---|
@@ -476,24 +553,34 @@ Define architecture only; do **not** prescribe course hours yet.
 | **2 — Function Development** | Educator / Practitioner / Mentor / Lead / Lab / PA-4 modules as needed |
 | **3 — Mission Practice** | Supervised / co-facilitated real Mission work |
 | **4 — Advanced / Specialist** | Elevated tools, Worlds, governance, facilitation of adults |
-| **5 — Ongoing currency / professional learning** | Continuous practice, refreshers, CPD that may feed `PEO-002` |
+| **5 — Ongoing Professional Learning and Capability Development** | Continuous practice, refreshers and CPD that may **generate evidence useful to** `PEO-002` |
+
+**Layer 5 is not a second currency system.** It does **not** define currency, renew currency, assign CURRENT or establish review cadence. `PEO-002` remains the sole Core currency system. Core sets **no** universal CPD-hour requirements.
 
 Detailed syllabi, calendars and certificates = implementation.
 
 ---
 
-## 27. Train-the-trainer / scale
+## 27. Facilitator / train-the-trainer boundary
 
 As Tarbiyat scales, it will need people capable of developing other adults.
 
-Principles:
+A development facilitator may be selected / approved for delivery because of appropriate subject competence, Tarbiyat model knowledge and suitability for the development activity.
 
-- facilitators of adult development should themselves be prepared and approved for that function;
-- facilitator development may be supervised before independent delivery;
-- quality consistency matters across campuses / cohorts;
-- **no uncontrolled “certification franchise.”**
+**“Approved facilitator” must NOT become:**
 
-Do **not** build a franchise or licensing business model in Core now.
+- a new PA band;
+- a professional licence;
+- a Tarbiyat certification franchise;
+- automatic authority over staff;
+- authority to assign PA scope;
+- authority to assign CURRENT.
+
+If the facilitator performs an activity that itself requires PA authorisation or CURRENT status, the facilitator must separately satisfy `PEO-001` / `PEO-002`.
+
+External experts may contribute without becoming “Tarbiyat-certified trainers.” They may teach / coach within governed boundaries but **cannot** create Tarbiyat permissions or currency decisions merely by issuing a course certificate.
+
+Facilitator delivery of elevated programmes should itself be prepared and may be supervised before independent delivery; quality consistency matters across campuses / cohorts. **No uncontrolled certification franchise.**
 
 ---
 
@@ -507,9 +594,10 @@ Development programme quality may consider:
 - peer observation;
 - practitioner confidence (supporting, not sole);
 - learner feedback where appropriate;
-- reduction of recurring errors / near misses.
+- reduction of recurring errors / near misses;
+- equal Six Worlds development access (not STEM-only).
 
-**Do not rely only on satisfaction surveys.**
+**Do not rely only on satisfaction surveys.** Do not turn quality review into staff prestige ranking.
 
 ---
 
@@ -517,20 +605,28 @@ Development programme quality may consider:
 
 | ID | Scenario | Appropriate development path |
 |---|---|---|
-| **A** | Experienced school teacher joins; never facilitated Missions | Layer 1 orientation + Educator Layer 2 (Mission/production design) + Layer 3 shadow → co-facilitate Missions; **not** automatic Practitioner or Mission Lead authorisation |
-| **B** | Robotics engineer becomes Practitioner-in-Residence | Proportional I-in-R orientation (`MIS-001`/`002`/`003`) + `MIS-FRM-002`; Practitioner Layer 2 (educationalisation, minors, critique-without-takeover); authorisation via `PEO-001` separately |
-| **C** | Mentor strong on wellbeing; weak on Six Worlds / pathways | Mentor Layer 2 focused on Worlds dignity, Discover→Choose, anti-locking; keep referral boundaries; not a therapy programme |
-| **D** | Technical Lab Professional wants Mission Lead | Layer 2 Mission Lead (lifecycle, escalation, coordination) + Layer 3 co-lead practice; Lead ≠ top technical expert; authorisation separate |
-| **E** | Practitioner wants PA-4 Faculty Practitioner | Layer 2–4 bridge: educational planning, assessment literacy, safeguarding depth, Mission design + observed practice; **not** automatic from seniority |
-| **F** | Educator struggles with production-oriented learning | Targeted Layer 2 production design + co-teaching with Practitioner; peer observation; avoid exam-only default |
-| **G** | Excellent Practitioner repeatedly takes over learner work | Coaching + observed critique practice + supervised return to facilitation norms; may restrict independent facilitation until evidence improves; development ≠ skip accountability if harm occurred |
-| **H** | Mission Lead coordinates well; weak risk escalation | Targeted MIS-003 literacy + case/incident review + supervised escalations; coordination skill retained |
-| **I** | Staff completes online course; never demonstrated skill | CPD counts as partial evidence only; require observed practice / demonstration before treating as competence for elevated functions |
-| **J** | Practitioner returns after currency review requiring refresh | Layer 5 refresher / supervised practice aligned to `MIS-FRM-008` outcome; completion supports re-review — does not auto-CURRENT |
-| **K** | Creative practitioner needs no machinery training | Skip industrial-tool modules; emphasise safeguarding, media/IP, Creator Rights, learner dignity; equal World legitimacy |
-| **L** | Society World practitioner: strong policy background; partisan campaigning habits | Orientation on political/commercial neutrality, Education-First, learner dignity; boundary coaching; authorisation may restrict advocacy roles |
-| **M** | Senior faculty resists peer observation | Norm that observation is professional learning not ranking; proportional expectation for regular faculty; escalate culturally via leadership — prestige ≠ exemption |
-| **N** | Tarbiyat expands; needs internal adult-development facilitators | Layer 4 train-the-trainer: approved facilitators, supervised delivery, quality review; no certification franchise |
+| **A** | Experienced school teacher joins; never facilitated Missions | Layer 1 + Educator Layer 2 + Layer 3 shadow → co-facilitate; **not** automatic Practitioner or Mission Lead authorisation |
+| **B** | Robotics engineer becomes Practitioner-in-Residence | Proportional I-in-R orientation + `MIS-FRM-002`; Practitioner Layer 2; authorisation via `PEO-001` separately; org training ≠ mass PA-4 |
+| **C** | Mentor strong on wellbeing; weak on Six Worlds / pathways | Mentor Layer 2 Worlds dignity / Discover→Choose; keep referral boundaries; **not** therapy / counselling licence |
+| **D** | Technical Lab Professional wants Mission Lead | Layer 2–3 Lead practice; Lead ≠ top technical expert; authorisation separate |
+| **E** | Practitioner wants PA-4 Faculty Practitioner | Layer 2–4 bridge + observed practice; **not** automatic from seniority; FRM-001 desired-function ≠ authorised |
+| **F** | Educator struggles with production-oriented learning | Targeted Layer 2 + co-teaching; peer observation; non-safety weakness → development first (§20B) |
+| **G** | Excellent Practitioner repeatedly takes over learner work | Coaching + observed critique; may restrict until evidence improves; development ≠ skip accountability |
+| **H** | Mission Lead coordinates well; weak risk escalation | Targeted MIS-003 literacy; **cannot sole self-certify** completion (§24) |
+| **I** | Staff completes online course; never demonstrated skill | Attendance/LMS/certificate insufficient for elevated functions; require practice evidence (§15.1) |
+| **J** | Practitioner returns after currency review requiring refresh | Layer 5 / supervised practice aligned to FRM-008; supports re-review — **does not auto-CURRENT** |
+| **K** | Creative practitioner needs no machinery training | Skip industrial-tool modules; equal World legitimacy; development access preserved |
+| **L** | Society World practitioner: partisan campaigning habits | Neutrality / Education-First coaching; authorisation may restrict advocacy via `PEO-001` |
+| **M** | Senior faculty resists peer observation | Observation = professional learning not ranking; prestige ≠ exemption |
+| **N** | Needs internal adult-development facilitators | Selected facilitators; supervised delivery; **no** PA band / franchise / permission-granting certificate |
+| **O** | Layer 2–4 completion treated as silent PA expand | **Refuse** — route any expand to `PEO-001` / FRM-007 |
+| **P** | Certificate wall claimed as CURRENT | **Refuse** — currency only via `PEO-002` / FRM-008 |
+| **Q** | FRM-001 used as annual staff ranking / points | **Non-compliant** — no prestige ladder (§18, §25) |
+| **R** | Post-incident “do a workshop” instead of restrict | **Non-compliant** — containment first (§20A) |
+| **S** | Layer 5 calendar replaces PEO-002 triggers | **Non-compliant** — Layer 5 ≠ currency (§26) |
+| **T** | Guest forced into full FRM-001 bureaucracy | Normally **not required** (§25.3); escalate only if recurring / material responsibility |
+| **U** | Weak performance endlessly “in development” while elevated tools continue | Route to `PEO-002` when trigger / material competence concern (§18, §20) |
+| **V** | AI completes LMS modules → auto-ticks elevated competence | **Refuse** — practice evidence required (§15.1, §22) |
 
 ---
 
@@ -538,9 +634,11 @@ Development programme quality may consider:
 
 | Layer | Includes |
 |---|---|
-| **Core** | Deliberate adult development; function relevance; practice-based learning; separation from authorisation/currency; evidence beyond attendance; ethical formation; Six Worlds parity; programme architecture; scenarios |
+| **Core** | Deliberate adult development; function relevance; practice-based learning; three-system separation; FRM-001 threshold; practice-evidence minimum; ownership / non-self-certification; facilitator boundary; Layer 5 ≠ currency; incident sequencing; ethical formation; Six Worlds parity; programme architecture; scenarios |
 | **Country** | Mandatory teacher CPD; registered training requirements; professional CPD statutes; teaching/professional licences (`GAP-037`) |
-| **Implementation** | Course hours; calendar; named trainers; LMS; exact syllabi; budgets; certificates; training providers |
+| **Implementation** | Course hours; calendar; named trainers; LMS; exact syllabi; budgets; certificates; training providers; local title mapping for People / capability governance owner |
+
+**No universal Core** CPD-hour quota, annual course-hour requirement, certificate accumulation score, staff prestige ranking, promotion ladder or points system.
 
 ---
 
@@ -548,23 +646,23 @@ Development programme quality may consider:
 
 | Gap / doc | This standard does | Leaves to them |
 |---|---|---|
-| `PEO-001` / GAP-033 | Builds capability that may support authorisation evidence | Permission bands, onboarding, FRM-007 |
-| `PEO-002` / GAP-035 | Provides routes that may generate currency evidence | Currency states, renew≠expand, FRM-008 |
+| `PEO-001` / GAP-033 Closed | Builds capability that may support later authorisation evidence | Permission bands, onboarding, FRM-007 |
+| `PEO-002` / GAP-035 Closed | Provides routes that may generate currency evidence | Currency states, renew≠expand, FRM-008 |
 | `PEO-004` / GAP-032 | Protects development slack so schools are not 100% utilised | Mission Team loading / capacity checks |
 | GAP-037 | Notes country CPD/licence may apply | Teacher registration / statutory CPD mapping |
-| GAP-034 / `PEO-005` | — | Mentor caseloads / human-guidance capacity |
+| GAP-034 / `PEO-005` | Mentor **preparation** | Mentor caseloads / human-guidance capacity |
 | `MIS-FRM-002` | Complements external orientation | Remains external onboarding acknowledgement |
 
 ---
 
 ## 32. Related documents
 
-- `PEO-001` Practitioner Authorisation and Onboarding
-- `PEO-002` Practitioner Currency and Re-authorisation
-- `PEO-FRM-001` Faculty / Practitioner Development Plan & Record
-- ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation (UNDER REVIEW)
-- `MIS-001` / `MIS-002` / `MIS-003` / `MIS-TPL-001`
-- `GAP_REGISTER.md` — GAP-036; handoffs GAP-033 / 035 / 037
+- `PEO-001` Practitioner Authorisation and Onboarding (APPROVED; GAP-033 Closed)
+- `PEO-002` Practitioner Currency and Re-authorisation (APPROVED; GAP-035 Closed)
+- `PEO-FRM-001` Faculty / Practitioner Development Plan & Record (APPROVED with this standard)
+- ADR-0015 Educator Development / Practitioner Onboarding / Mentor Preparation (APPROVED)
+- `MIS-001` / `MIS-002` / `MIS-003` / `MIS-TPL-001` (APPROVED)
+- `GAP_REGISTER.md` — GAP-036 Closed; handoffs GAP-032 / 034 / 037
 
 ---
 
@@ -572,13 +670,16 @@ Development programme quality may consider:
 
 This standard does **not**:
 
-- approve ADR-0015 or close GAP-036;
-- automatically authorise anyone who completes training;
-- automatically establish CURRENT status from course attendance;
-- prescribe course hours, certificates or LMS products;
+- reopen APPROVED `PEO-001` or `PEO-002`;
+- automatically authorise anyone who completes training or a development layer;
+- automatically establish, renew or restore CURRENT from course attendance, certificates, LMS or Layer 5;
+- amend `MIS-FRM-007` scopes via development records;
+- prescribe course hours, certificates or LMS products as Core law;
 - invent country teacher-registration or CPD law (`GAP-037`);
 - create a conventional teacher-training syllabus as Tarbiyat Core;
 - force STEM-only development;
-- create ranking scores or a certification franchise;
+- create ranking scores, points systems or a certification franchise;
+- create a new PA band or licence called “approved facilitator”;
 - invent Mission Team capacity / ratio architecture (`PEO-004` / GAP-032) or replace Mentor caseload architecture (`PEO-005` / GAP-034);
-- replace `MIS-FRM-002` / `007` / `008`.
+- replace `MIS-FRM-002` / `007` / `008`;
+- approve `PEO-004`–`005` or close GAP-032 / 034 / 037.

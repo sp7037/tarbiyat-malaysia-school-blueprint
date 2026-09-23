@@ -19,6 +19,13 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### PEO-003 APPROVED — Faculty and Practitioner Development (2026-09-23) — Phase 2
+
+- Phase 2 human review of `PEO-003` / `PEO-FRM-001` passed: keep Faculty and Practitioner title; hard Development ≠ Authorisation ≠ Currency lock; FRM-001 mandatory threshold with PA-1/PA-0 proportionality; Layer 5 = Ongoing Professional Learning and Capability Development (not currency); incident sequencing A/B/C; People/capability governance owner + no sole self-certification; facilitator ≠ PA/franchise/CURRENT; no Core CPD-hours/prestige ladder; Mentor prep vs PEO-005 caseload; practice-evidence minimum; desired-function safeguard; hostile scenarios PASS.
+- `PEO-003` promoted `0.1.0` / `DRAFT` → `1.0.0` / `APPROVED`. `PEO-FRM-001` promoted `0.1.0` / `DRAFT` → `1.0.0` / `APPROVED`. **GAP-036 Closed**.
+- Does **not** approve PEO-004–005; GAP-032 / 034 / 037 remain open. No Malaysian statutory CPD invented in Core.
+- Deferred hygiene (not edited): APPROVED `PEO-002` handoff row still says PEO-003 “Defines what currency requires” — inverted companion wording for a later dependency-hygiene pass.
+
 ### PEO-002 APPROVED — Practitioner Currency and Re-authorisation (2026-09-20) — Phase 2
 
 - Phase 2 human review of `PEO-002` / `MIS-FRM-008` passed (approve with final minor corrections): no Core numeric cadence **and** no indefinite unreviewed CURRENT for PA-1–PA-4; documented review basis; FRM-008 required for all formal PA-1–PA-4 currency decisions (lightweight renew OK); FRM-007 currency-state pointer; licence/standing verifier wording; reviewer authority; REFRESH stop rules; cross-Mission propagation; elevated-risk evidence categories; PA-0 visitor exemption; scenarios A–X.

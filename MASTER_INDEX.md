@@ -59,7 +59,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | 05 Assessment | `docs/05-assessment/SECTION_README.md` | Competency Graph (GAP-009 Open); Proof of Capability (ADR-0016 APPROVED; GAP-010 Closed); POC-001 / POC-FRM-* DRAFT (GAP-038–044 proposed — not closed) | DRAFT |
 | 06 Missions and production | `docs/06-missions-and-production/SECTION_README.md` | Real missions; MIS-001–003 APPROVED (GAP-022–024 Closed); MIS-TPL-001 / MIS-FRM-001–006 APPROVED (GAP-031 Closed); MIS-FRM-007 APPROVED with PEO-001 (GAP-033 Closed); MIS-FRM-008 APPROVED with PEO-002 (GAP-035 Closed) | DRAFT |
 | 07 Industry and enterprise | `docs/07-industry-and-enterprise/SECTION_README.md` | Industry-in-Residence narrative; IP; Mission-to-Market (ops cross-link to MIS-001/002) | DRAFT |
-| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003–005 DRAFT (development / Mission capacity / Mentor caseload) | DRAFT |
+| 08 People and governance | `docs/08-people-and-governance/SECTION_README.md` | Roles, governance typology; ADR-0015 faculty architecture; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003 APPROVED (GAP-036 Closed); PEO-004–005 DRAFT (Mission capacity / Mentor caseload) | DRAFT |
 | 09 Campus blueprint | `docs/09-campus-blueprint/SECTION_README.md` | Functional campus/facilities architecture; CAM-001 overview (ADR-0020 APPROVED; GAP-049 Closed; GAP-050 Open) | DRAFT |
 | 11 Implementation | `docs/11-implementation/SECTION_README.md` | Pilot commissioning / readiness (IMP-001 DRAFT; GAP-051 proposed — not closed) | DRAFT |
 
@@ -88,10 +88,10 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | MIS-FRM-008 | `docs/06-missions-and-production/templates/MIS-FRM-008-practitioner-currency-review.md` | APPROVED | Practitioner Currency Review (PEO-002; GAP-035 Closed) |
 | PEO-001 | `docs/08-people-and-governance/PRACTITIONER_AUTHORISATION_AND_ONBOARDING.md` | APPROVED | Practitioner Authorisation and Onboarding Standard — GAP-033 Closed |
 | PEO-002 | `docs/08-people-and-governance/PRACTITIONER_CURRENCY_AND_REAUTHORISATION.md` | APPROVED | Practitioner Currency and Re-authorisation Standard — GAP-035 Closed |
-| PEO-003 | `docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md` | DRAFT | Faculty and Practitioner Development Standard — proposed GAP-036 resolution (not closed) |
+| PEO-003 | `docs/08-people-and-governance/FACULTY_AND_PRACTITIONER_DEVELOPMENT.md` | APPROVED | Faculty and Practitioner Development Standard — GAP-036 Closed |
 | PEO-004 | `docs/08-people-and-governance/MISSION_TEAM_LOADING_AND_STAFFING_CAPACITY.md` | DRAFT | Mission Team Loading and Staffing Capacity Standard — proposed GAP-032 resolution (not closed) |
 | PEO-005 | `docs/08-people-and-governance/MENTOR_CASELOAD_AND_HUMAN_GUIDANCE_CAPACITY.md` | DRAFT | Mentor Caseload and Human-Guidance Capacity Standard — proposed GAP-034 resolution (not closed) |
-| PEO-FRM-001 | `docs/08-people-and-governance/templates/PEO-FRM-001-faculty-practitioner-development-plan.md` | DRAFT | Faculty / Practitioner Development Plan & Record (PEO-003 / GAP-036) |
+| PEO-FRM-001 | `docs/08-people-and-governance/templates/PEO-FRM-001-faculty-practitioner-development-plan.md` | APPROVED | Faculty / Practitioner Development Plan & Record (PEO-003; GAP-036 Closed) |
 | PEO-FRM-002 | `docs/08-people-and-governance/templates/PEO-FRM-002-mission-team-capacity-check.md` | DRAFT | Mission Team Capacity Check (PEO-004 / GAP-032) |
 | PEO-FRM-003 | `docs/08-people-and-governance/templates/PEO-FRM-003-mentor-caseload-review.md` | DRAFT | Mentor Caseload Review (PEO-005 / GAP-034) |
 
@@ -133,7 +133,7 @@ Most sections contain only `SECTION_README.md` (DRAFT shell). Section **01** add
 | ADR-0007 | `docs/13-decisions/adr/ADR-0007-mission-ecosystem-authenticity-and-institution-in-residence.md` | APPROVED | Mission Ecosystem; authenticity A–F; Institution-in-Residence; GAP-018 Closed |
 | ADR-0011 | `docs/13-decisions/adr/ADR-0011-six-worlds-capability-and-progressive-depth-architecture.md` | APPROVED | Six Worlds capability / progressive depth; GAP-008 Closed; GAP-047 Open |
 | ADR-0014 | `docs/13-decisions/adr/ADR-0014-student-creator-rights-ip-innovation-micro-venture.md` | APPROVED | Student Creator Rights / IP / Micro-Venture; GAP-025 Closed |
-| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | APPROVED | Practitioner–Educator–Mentor faculty functions; teams; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003–005 DRAFT; GAP-032 / 034 / 036 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed (`1.0.1` status hygiene) |
+| ADR-0015 | `docs/13-decisions/adr/ADR-0015-practitioner-educator-mentor-faculty-architecture.md` | APPROVED | Practitioner–Educator–Mentor faculty functions; teams; PEO-001 APPROVED (GAP-033 Closed); PEO-002 APPROVED (GAP-035 Closed); PEO-003 APPROVED (GAP-036 Closed); PEO-004–005 DRAFT; GAP-032 / 034 proposed (not closed); GAP-037 proposed via MY-002 DRAFT — not closed (`1.0.3` status hygiene) |
 | ADR-0016 | `docs/13-decisions/adr/ADR-0016-proof-of-capability-and-capability-evidence.md` | APPROVED | Proof of Capability / capability evidence; GAP-010 Closed; GAP-038–044 remain open/proposed; POC-001 DRAFT ops companions |
 | ADR-0017 | `docs/13-decisions/adr/ADR-0017-discover-meaningful-exposure-package.md` | APPROVED | Discover meaningful exposure package; GAP-045 Closed |
 | ADR-0018 | `docs/13-decisions/adr/ADR-0018-discover-choose-pathway-preparation-architecture.md` | APPROVED | Discover→Choose pathway preparation; GAP-046 Closed |
