@@ -3,330 +3,431 @@
 | Field | Value |
 |---|---|
 | Document ID | `MY-002` |
-| Version | `0.1.1` |
-| Status | `DRAFT` |
-| Last reviewed | `2026-09-16` |
-| Access date for sources | `2026-09-16` |
+| Version | `1.0.0` |
+| Status | `APPROVED` |
+| Date | `2026-09-16` |
+| Approved | `2026-09-23` |
+| Last reviewed | `2026-09-23` |
+| Access date for sources | `2026-09-23` (Phase-2 approval); Phase-1 diagnostic access `2026-09-23`; prior catalogue `2026-09-16` |
 | Country scope | `MALAYSIA` |
-| Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` APPROVED; `PEO-001` APPROVED (GAP-033 Closed); `PEO-002` APPROVED (GAP-035 Closed); `PEO-003` APPROVED (GAP-036 Closed); `PEO-004`–`PEO-005` DRAFT; `MIS-001`–`003` APPROVED; `MY-000` / `MY-001`; Country Path research `MY-003` DRAFT |
-| Related gaps | `GAP-037` (primary); related `GAP-001`, `GAP-002`, `GAP-007`, `GAP-032`–`036`, safeguarding ops |
-| Source documents | See Evidence Catalogue (§18) |
+| Owner / reviewer | Documentation Architect / Human lead |
+| Dependencies | `ADR-0001` APPROVED; `FND-003` APPROVED; `ADR-0015` APPROVED; `PEO-001` / `MIS-FRM-007` APPROVED (GAP-033 Closed); `PEO-002` / `MIS-FRM-008` APPROVED (GAP-035 Closed); `PEO-003` / `PEO-FRM-001` APPROVED (GAP-036 Closed); `PEO-004`–`PEO-005` DRAFT; `MIS-001`–`003` APPROVED; `MY-000` / `MY-001`; Country Path `MY-003` DRAFT (**no Malaysia pilot category selected**) |
+| Related gaps | `GAP-037` primary — **Partially resolved / country mapping approved — implementation closure pending** (gap **not closed**); related `GAP-001`, `GAP-002`, `GAP-007`, `GAP-005`, `GAP-032`; Closed companions `GAP-033` / `035` / `036` |
+| Source documents | Evidence Catalogue (§19); Phase-1 diagnostic (2026-09-23); Phase-2 Human Review (2026-09-23) |
 
-> **Authority note:** This is a **Malaysia Country Profile regulatory mapping**, not Core architecture and **not** a legal opinion. It does **not** approve ADR-0015 or PEO-001–005, and does **not** close GAP-032–036. It proposes resolution of **GAP-037** and remains **DRAFT** until human legal review. Where evidence is incomplete, findings are marked **UNRESOLVED**. Do not invent Malaysian law from silence.
-
----
-
-## 1. Purpose
-
-Map Tarbiyat Core people functions (ADR-0015 / PEO context) to Malaysian legal and regulatory categories so that:
-
-1. Core educational innovation does **not** override Malaysian statute;
-2. Practitioner authorisation (PA bands) is understood as **school permission**, not a substitute for teacher registration or professional licences;
-3. Mentor / Practitioner roles do **not** silently cross into regulated counselling, psychology, medicine or other licensed practice;
-4. Authentic Mission production remains distinguishable from prohibited child employment / hazardous work.
+> **Approval boundary:** This is an **APPROVED Malaysia Country Profile regulated-people mapping baseline** based on currently verified authority. It is **not** final staffing clearance, **not** a legal opinion, **not** KPM/JPN approval, **not** selection of a Malaysia school category, and **not** closure of `GAP-037`. Category-dependent rules, supervised Mission participation vs statutory “teaching”, and pilot application packs remain implementation determinations. Do **not** invent Malaysian law from silence. Do **not** import government Education Service appointment rules into a private/international school merely because they appear on a KPM website. Do **not** alter APPROVED Core `PEO-001` / `002` / `003`.
 
 ---
 
-## 2. School-category assumption (critical limitation)
-
-Tarbiyat’s Malaysia campus category is **not yet decided** (`GAP-001`, `GAP-007`). `MY-003` (DRAFT) maps plausible Act 550 / MOE paths (government; government-aided; private NC IPS; international school under GP A3; expatriate **UNRESOLVED**; bespoke pilot/PPP only by Government decision). **No path is selected.**
-
-This mapping therefore states **general Education Act 1996 rules** that apply to registered educational institutions under that Act, and notes where government vs private pathways differ.
-
-| Assumption | Status |
-|---|---|
-| Campus will be a registered educational institution under Education Act 1996 (Act 550), or otherwise subject to MOE educational-institution registration | **Working assumption — UNRESOLVED pending GAP-001 category choice** |
-| Exact private / international / government / specialised category | **UNRESOLVED** — see `MY-003` option matrix |
-| Whether any special statutory exemption / bespoke pilot Act will apply | **UNRESOLVED — do not assume** |
-
-### Category overlays to apply after choice (do not invent now)
-
-| If category becomes… | Additional people overlays (from `MY-003` / GP A3 / Act 550) |
-|---|---|
-| Private NC IPS | Standard teacher registration / permits; governor/employee registration; MOE IPS staffing lists at registration |
-| International (GP A3) | All teachers need teaching permits; foreign teachers need EP support letters + GP A3 qualification/salary bands; Islamic Education teachers need State Religious Authority approval where applicable; Board of Governors composition/screening rules in GP A3; principal constraints |
-| Government / government-aided | Education Service / public-service appointment rules may apply — **UNRESOLVED detail** until category confirmed; do not use private IPS assumptions blindly |
-
-**If the eventual campus category differs**, this mapping must be re-checked before hiring or Mission Partner deployment. **GAP-037 remains open** pending category choice + human legal review.
-
----
-
-## 3. Governing Malaysian instruments reviewed (primary)
-
-| ID | Instrument | Issuing authority | Role in this mapping |
-|---|---|---|---|
-| MY-LAW-550 | Education Act 1996 (Act 550) | Parliament of Malaysia / MOE administration | Teacher registration; teaching permits; governor/employee registration; educational institutions |
-| MY-LAW-350 | Children and Young Persons (Employment) Act 1966 (Act 350), as amended | Parliament / Ministry of Human Resources | Child / young-person employment; hazardous work; school/vocational exceptions |
-| MY-LAW-611 | Child Act 2001 (Act 611) | Parliament / child-protection system | Care and protection; Protectors; reporting architecture |
-| MY-LAW-580 | Counsellors Act 1998 (Act 580) | Parliament / Board of Counsellors | Practising as counsellor |
-| MY-LAW-774 | Allied Health Professions Act 2016 (Act 774) | Parliament / Allied Health Professions Council | Clinical psychologist and other listed allied health professions |
-| MY-LAW-514 | Occupational Safety and Health Act 1994 (Act 514), reprint 1.6.2024 | Parliament / DOSH | Workplace safety; competent persons for scheduled activities |
-| MY-LAW-792 | Sexual Offences Against Children Act 2017 (Act 792) | Parliament | Offences; relationship-of-trust context for teachers/wardens (penalty architecture) |
-| MY-REG-1997 | Education (Registration of Educational Institutions) Regulations 1997 (as applied in MOE private-education forms) | MOE | Governor/employee registration practice forms |
-| MY-GUIDE-ESD | ESD Online Guidebook (Immigration / Expatriate Services) | Immigration Department of Malaysia (ESD) | Employment Pass; MOE as approving agency for education sector |
-| MY-GUIDE-MOE-EP | MOE Private Education Division — Employment Pass support-letter procedures | MOE Bahagian Pendidikan Swasta | Foreign teacher EP support letters |
-
-Secondary commentaries (espact summaries; academic articles on teacher mandatory reporting) are used only to locate or explain primary law and are **not** treated as statute.
-
----
-
-## 4. Key Malaysian legal definitions (Education Act)
-
-From Act 550 (English compilation consulted):
-
-- **Teacher** — a person who teaches pupils in an educational institution (or prepares/issues lessons / corrects returned answers for a distance education centre), **including a head teacher or principal**.
-- **Educational institution** — a school or other place where persons are habitually taught; includes kindergarten and distance education centre; excludes places confined exclusively to religious teaching (and Ministerial exclusions).
-- **School** — a place where ten or more persons are habitually taught (with the same religious-teaching exclusion).
-- **Employee** — a person employed by a board of governors in work connected with running/administration of an educational institution, **other than** a governor or a teacher (and certain Minister-appointed persons).
-- **Education Service** — public service under Federal Constitution Art. 132(1)(h).
-
-**Implication for Tarbiyat:** Malaysian law does **not** use Educator / Practitioner / Mentor labels. Mapping is functional: if a person **teaches pupils** in a registered educational institution, Act 550 teacher rules are engaged unless an exception applies.
-
----
-
-## 5. Educator findings
-
-### Legal requirements (HIGH where cited)
-
-1. **Prohibition to teach (s.103):** Subject to exceptions, **no person shall teach** in an educational institution unless registered as a teacher under Act 550.
-2. **Exceptions (s.103(2)):**
-   - Education Service members teaching in government / government-aided institutions;
-   - holders of a **permit to teach** under s.114;
-   - pupils in Minister-controlled teacher-training institutions (as specified).
-3. **Teaching permits (s.114):** Registrar General may issue permits to (a) student teachers under an approved scheme, (b) persons with pending teacher-registration applications, or (c) persons needed to act **temporarily** as teachers — in prescribed form and conditions; revocable.
-4. **Refusal grounds (s.106):** include age under 18; inadequate teaching qualifications (Registrar General opinion); false statements; certain convictions; not fit and proper.
-5. **Head teacher / principal:** included in the statutory definition of teacher → leadership teaching posts engage teacher-registration architecture (exact leadership qualification circulars beyond Act 550 text: **MEDIUM / partial — further MOE circular research needed**).
-6. **Foreign teachers:** Education-sector Employment Pass applications commonly require **MOE support letter** before Immigration/ESD approval (ESD guidebook lists MOE as approving agency for Education; MOE BPS procedures for foreign teaching staff). Exact age/qualification checklists are procedural and **must be re-verified at hire time**.
-
-### School policy / good practice (not elevated to statute here)
-
-- Child-sex-offender registry screening for child-related roles is **strongly encouraged** by JKM public guidance; whether it is universally mandatory by statute for all school hires remains **UNRESOLVED / evolving practice**.
-- Teacher CPD programmes for government teachers are separate from private registration mechanics (`GAP-036` / country CPD detail).
-
-### Tarbiyat overlay
-
-| Tarbiyat function | Malaysian category | Confidence |
-|---|---|---|
-| Educator (primary teaching function) | Registered teacher under Act 550 **or** Education Service member **or** lawful teaching-permit holder | **HIGH** |
-| Educator assessing Formal Recognition Layer academic work | Same as above for teaching duties; board/exam invigilation rules may add separate requirements | **MEDIUM** (exam-board detail → `GAP-002`) |
-
----
-
-## 6. Practitioner findings
-
-### Does a professional licence equal permission to teach?
-
-**No (HIGH).** Engineer / doctor / designer / entrepreneur status is **not** teacher registration under Act 550. Domain licence ≠ authority to teach pupils unsupervised in an educational institution.
-
-### May Practitioners work with learners?
-
-| Pattern | Legal reading | Confidence |
-|---|---|---|
-| Domain expert who **teaches** pupils (instruction, lessons, habitual teaching) | Requires teacher registration **or** teaching permit (or Education Service exception) | **HIGH** |
-| Domain expert as registered **employee** (non-teacher) under s.88–89 assisting operations without teaching | Governor/employee registration may apply; still not a substitute for teacher registration if they teach | **MEDIUM** |
-| Short demonstration / critique under continuous supervision of a lawful teacher, without independent teaching responsibility | Possibly operable as supervised specialist input — **boundary with “teach” is fact-specific** | **UNRESOLVED / LOW–MEDIUM** |
-| Alone with learners conducting learning activities | If “teaching”, unlawful without registration/permit; safeguarding risk high regardless | **HIGH** that unsupervised teaching without registration/permit is prohibited |
-| Assessing / certifying educational outcomes as teacher of record | Engages teaching/assessment authority → treat as teaching function | **HIGH** |
-| Signing regulated professional certificates (medical, engineering stamps, etc.) | Separate professional law; learners must not perform regulated professional acts | **HIGH** (principle); profession-specific detail case-by-case |
-
-### Underlying professional licences
-
-Where a Mission enters regulated professional practice (clinical care, engineering practice reserved by statute, etc.), **profession-specific Malaysian law overrides** Tarbiyat PA bands. Tarbiyat may only authorise **educational** participation that remains lawful.
-
----
-
-## 7. Mentor findings
-
-| Mentoring type | Malaysian regulation | Confidence |
-|---|---|---|
-| Academic / developmental / pathway mentoring (non-clinical) | Not itself a Counsellors Act practice if it does not “practise as a counsellor”; still subject to school employment/teacher rules if the person teaches | **MEDIUM** |
-| Practising as a counsellor / holding out as registered counsellor | Counsellors Act 1998 ss.22–23 — registration + practising certificate required | **HIGH** |
-| Clinical psychology practice | Allied Health Professions Act 2016 — Clinical Psychologist is a listed profession; registration/practising certificate required | **HIGH** |
-| Medical / health advice as treatment | Medical / allied-health statutes apply | **HIGH** |
-| Career guidance as ordinary educational advice | Not automatically Counsellors Act practice; do not brand as clinical counselling | **MEDIUM** |
-
-**Hard Tarbiyat + Malaysia rule:** Mentor function **must not** silently authorise regulated counselling, clinical psychology or healthcare. Dual-qualified adults may hold both roles only if separately lawfully registered.
-
----
-
-## 8. Mission Lead / Technical–Specialist Safety Authority
-
-| Concern | Malaysian hook | Mapping | Confidence |
-|---|---|---|---|
-| Educational Mission Lead | If Lead teaches pupils → teacher registration/permit; if Lead is operational coordinator only → may be employee registration + school authority | Split by actual duties | **MEDIUM** |
-| Workshop / machine tools / hazardous equipment | CYP Act hazardous-work list; OSHA competent-person rules for **scheduled** activities; school lab safety guidance | Technical authority ≠ educational authority; competent/trained adults required for hazardous plant | **HIGH** for principle; **MEDIUM** for exact DOSH schedule application to each campus tool |
-| Chemicals / labs | OSHA duties + MOE science-lab management guidance | Designate trained lab/workshop adults; do not invent a Core “lab licence” | **MEDIUM** |
-| Field trips / off-site | Education regulations + school SOPs; child-protection duties | Country/campus SOPs required | **UNRESOLVED** detail |
-| Health / medical supervision | Medical / nursing regulation | Specialist Services only | **HIGH** |
-
-**Compatibility:** Tarbiyat’s separation of **educational authority** and **technical/specialist authority** **FITS** Malaysian OSH/professional logic — with Malaysia overlay for competent persons and hazardous work.
-
----
-
-## 9. Visiting Experts / Mission Partner Professionals / I-in-R personnel
-
-| Tarbiyat role | Likely Malaysian treatment | Confidence |
-|---|---|---|
-| Visiting Expert (short, supervised) | Not automatic teacher; if teaching → permit/registration; if guest input under teacher control → treat cautiously; employee registration if employed | **MEDIUM** |
-| Mission Partner Professional on campus | External adult; MIS-001 Education-First; if teaching → Act 550; if employed by school → employee registration; partner staff remain partner employees under labour/immigration law | **MEDIUM** |
-| Practitioner-in-Residence / I-in-R personnel | Sustained presence increases likelihood of needing lawful teaching status and/or employee registration + immigration permission; **I-in-R ≠ automatic faculty** remains Core and fits Malaysia | **HIGH** for Core fit; **MEDIUM** for exact permit pathway |
-| Unsupervised 1:1 with minors | High safeguarding risk; Core forbids unsupervised partner control; Malaysia child-protection expectations support prohibition as campus policy even where statute is incomplete | **HIGH** (policy); **MEDIUM** (exact statutory 1:1 rule) |
-
----
-
-## 10. Safeguarding findings
-
-| Topic | Finding | Confidence |
-|---|---|---|
-| Child Act care/protection framework | Act 611 establishes Protectors, Child Protection Teams, care/protection architecture | **HIGH** |
-| Mandatory CAN reporting by teachers | Primary Act architecture mandates reporting for specified categories (family members, childcare providers, medical practitioners per secondary analyses of ss.27–29); teachers generally treated as **voluntary** reporters in scholarly sources | **MEDIUM** (confirm exact current statutory list with counsel before ops) |
-| Child sexual offender screening | JKM screening service exists for child-related recruitment; publicly encouraged; mandatory universal school duty **UNRESOLVED** as statute | **MEDIUM** practice / **UNRESOLVED** mandate |
-| Relationship of trust (teachers, wardens, coaches) | SOAC Act 2017 enhances offence architecture for persons in positions of trust including teachers/wardens/coaches | **HIGH** (penalty context) |
-| External adults | Core MIS/PEO vetting principles require country-law detail; Malaysia mapping requires institutional screening policy + Act 550 employee/teacher registration where applicable | **MEDIUM** |
-
----
-
-## 11. Foreign personnel findings
-
-| Topic | Finding | Confidence |
-|---|---|---|
-| Education-sector Employment Pass | ESD lists **Ministry of Education** as approving/regulatory body for Education sector support letters | **HIGH** |
-| MOE support-letter process | MOE Private Education Division publishes procedures/forms for foreign teaching staff EP support; applications via institution leadership | **HIGH** for existence; checklists time-sensitive |
-| Higher-education institutions | MOHE pathway via Xpats Gateway may apply for MOHE-regulated institutions — **different from MOE schools** | **HIGH** distinction |
-| Short-term visiting professionals | May involve Professional Visit Pass or other immigration categories depending on activity — **do not overgeneralise**; case-specific Immigration advice required | **UNRESOLVED** generic rule |
-| Foreign counsellor temporary practice | Counsellors Act provides temporary registration pathway with conditions | **HIGH** for counsellors only |
-
----
-
-## 12. Authentic production / child-labour boundary
-
-### CYP Act 350 (as amended) — HIGH where cited
-
-- **Child** = under 15; **young person** = 15 to under 18 (current Act text consulted).
-- No child/young person may engage in **hazardous work** (Fourth Schedule) or employment other than those allowed.
-- **Exception:** young person may engage in hazardous work **with personal supervision** if under apprenticeship contract or undergoing vocational training.
-- Children may engage in limited listed employments, including work **approved/sponsored by Federal/State Government and carried on in any school, training institution or training vessel**, and apprenticeship, and light work (age of admission to light work not less than 13).
-- Hours limits for employed children/young persons who also attend school.
-- Public entertainment by pupils of a registered school under school auspices has a defined carve-out in the Act’s entertainment definition.
-
-### Tarbiyat implication
-
-| Pattern | Reading | Confidence |
-|---|---|---|
-| Education-first Mission production inside school under adult supervision, not employment for gain | Aligns with school educational activity; still must avoid hazardous work unless lawful apprenticeship/vocational pathway + supervision | **MEDIUM–HIGH** |
-| Commercial production quotas / replacing paid workers / learner as cheap labour | Conflicts with CYP employment controls **and** Tarbiyat Education-First (ADR-0007 / MIS-001) | **HIGH** (architecture + employment principle) |
-| Remunerated internships / outside employment | Engages CYP Act employment rules; campus cannot invent exemptions | **HIGH** |
-| Hazardous machine work by learners | Fourth Schedule risk; only via lawful apprenticeship/vocational pathway with personal supervision for young persons; otherwise prohibit/simulate | **HIGH** |
-
-**Do not claim** that every school Mission is automatically “employment” or automatically exempt. Classification is fact-specific. Legal counsel should review remunerated / customer-facing / off-site production before launch.
-
----
-
-## 13. Professional-regulation override rule
-
-**Malaysia Country Profile rule (proposed):**
-
-> Where a Mission enters an activity reserved to a Malaysian regulated profession (examples: medical practice; clinical psychology; counselling practice; reserved engineering practice; architecture; legal services; accounting practice; scheduled OSH competent-person activities), the relevant Malaysian professional or safety statute **overrides** Tarbiyat Practitioner Authorisation bands. PA authority never authorises unlawful professional practice by adults or learners.
-
-Evidence base: Counsellors Act; Allied Health Professions Act; OSHA competent-person scheme; Medical Act architecture (not fully mapped here). **Confidence: HIGH for the override principle; profession-by-profession catalogues remain Open follow-on.**
-
----
-
-## 14. Mapping matrix
-
-Abbreviations: **Reg** = registration/licence; **Ind.** = independent with learners; **Conf.** = confidence.
-
-| Tarbiyat Function | Core Authority (ADR-0015/PEO) | Malaysian Legal / Regulatory Category | Reg / Licence Required? | May Work Independently with Learners? | Required Supervision | Safeguarding / Vetting | Professional Restrictions | Foreign-Personnel Implications | Evidence | Conf. |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Educator | Teaching & learning design function | Registered teacher (Act 550) / Education Service / teaching-permit holder; may also be employee if dual role | Teacher registration or s.114 permit (or Education Service) | Yes, if lawfully registered/permitted | School leadership / Inspectorate as applicable | Fit-and-proper; conviction bars; screening policy | Must meet Registrar General qualification opinion | MOE support letter + EP typical for foreign teachers | Act 550 ss.103–114; ESD/MOE EP guides | HIGH |
-| Practitioner | Domain expertise in Mission Labs | **Not** a statutory teacher class; if teaching → treat as teacher/permit; else employee/visitor under controls | Domain licence if practising that profession; teacher status if teaching | **No** automatic independence | Lawful teacher/educational authority for learning activities; technical supervision for tools | Same institutional screening; employee registration if employed | Domain licence ≠ teach authority | EP/PVP case-specific; not automatic via PA | Act 550; MIS/PEO; profession statutes | MEDIUM–HIGH |
-| Mentor | Longitudinal guidance (non-clinical) | Educational mentoring ≠ counsellor by default | Counsellor/psychologist regs **only if practising those professions** | Independent mentoring OK if not teaching unlawfully and not clinical practice | Escalate to Specialist Services for clinical need | Screening + school codes | Must not hold out as counsellor/clinical psychologist | Temporary counsellor registration if practising counselling | Counsellors Act; AHP Act; ADR-0015 | HIGH (boundary) |
-| Mission Lead | Coordinates Mission Team | Hybrid: educational lead + ops lead | If teaching → teacher rules; if ops employee → s.88 employee registration | Only within lawful teaching/ops authority | Educator + technical authorities as risk requires | Institutional | Cannot buy partner control | Immigration if foreign | Act 550 ss.88, 103; MIS-003 | MEDIUM |
-| Technical / Specialist Safety Authority | Tool/lab safety competence | OSHA competent person **where Fifth Schedule applies**; school lab/workshop trained adult | DOSH competent-person registration when scheduled; otherwise trained competent staff | Safety stop-work authority; not educational monopoly | Educational authority remains with school | Screening | Tool competence ≠ safeguarding lead | — | OSHA 514; DOSH guides | MEDIUM–HIGH |
-| Visiting Expert | Short governed input | Visitor / possible permit if teaching | Teacher permit if teaching; else supervised visitor | Generally **no** | Continuous educational supervision | Screening before learner contact | No assessment monopoly; no IP/data capture | Short-visit immigration category UNRESOLVED generically | Act 550; MIS-001 | MEDIUM |
-| Mission Partner Professional | External partner adult | Partner employee + school access limits | As partner role + any teaching/employee triggers | **No** unsupervised | School adults retain stop-work / educational authority | MIS-001 + screening | Education-First; no free labour | Partner immigration separate from school EP | MIS-001; Act 550 | MEDIUM |
-| Practitioner-in-Residence | Sustained embedded practitioner | Likely teacher and/or employee registration if teaching/employed by school | Likely yes if teaching/employed | Only if lawfully registered/permitted | School educational authority | Elevated vetting for sustained access | I-in-R ≠ automatic faculty | MOE/Immigration pathway if foreign | Act 550; MIS-002; ESD | MEDIUM |
-| I-in-R personnel | Sustained institutional embedding | Same as above + organisational controls | As above | No partner educational control | School retains authority | Elevated | Branding ≠ authority | Sector-specific EP support letters | MIS-002; ESD | MEDIUM |
-| Specialist Services (counsellor, etc.) | Distinct from Mentor | Registered counsellor / clinical psychologist / medical as applicable | Yes for regulated practice | Only within licence scope | Clinical governance | Clinical + school screening | Mentor must refer | Temporary registration pathways where provided | Acts 580, 774, Medical Act (partial) | HIGH |
-
----
-
-## 15. Core vs Malaysia vs campus classification
-
-| Finding | Class |
-|---|---|
-| Expertise ≠ educational authority; PA ≠ country licence; Mentor ≠ clinician; I-in-R ≠ automatic faculty | **A. Core invariant** |
-| Act 550 teacher registration / teaching permits; governor/employee registration; CYP hazardous-work rules; Counsellors/AHP practice bans; OSHA competent-person scheme for scheduled activities | **B. Malaysia legal requirement** |
-| This mapping document; campus-category-specific overlays; MOE EP support procedures; screening SOPs; Mission hazardous-work decision trees | **C. Malaysia Country Profile implementation** |
-| When to require teacher accompaniment for guest experts; internal 1:1 rules stricter than statute; extra screening cadence | **D. Campus policy / operating choice** |
-| Exact Tarbiyat school category under GAP-001; bright-line “demonstration vs teach” test; mandatory vs voluntary teacher CAN reporting; mandatory offender-registry screening; leadership licence circulars; foreign short-visit pass matrix; profession-by-profession reserved-acts catalogue; statutory staffing ratios | **E. Unresolved legal question** |
-
----
-
-## 16. ADR-0015 / PEO compatibility test
-
-| Principle | Result | Notes |
-|---|---|---|
-| 1. Practitioner expertise does NOT automatically confer Tarbiyat educational authority | **FITS** | Reinforced by Act 550 teacher registration |
-| 2. Professional licence does NOT automatically equal permission to teach unsupervised | **FITS** | Domain licence ≠ s.103 registration |
-| 3. Tarbiyat PA authorisation cannot override Malaysian law | **FITS** | Explicit in ADR-0015; confirmed by mapping |
-| 4. Educators do not require a fabricated Core PA ladder where country registration governs lawful teaching | **FITS** | Act 550 registration/permit is the teaching gate; PA bands remain for Practitioners |
-| 5. Mentor must not silently become regulated counselling/psychology/health practice | **FITS** | Counsellors Act / AHP Act boundaries |
-
-**No Core contradiction discovered.** Malaysia requires **Country Profile overlay** and campus SOPs, not Core redesign.
-
-**Needs Malaysia overlay:** hiring checklists; teaching-permit use for temporary experts; employee registration workflows; CYP hazardous-work Mission filters; immigration support letters; screening SOPs.
-
----
-
-## 17. What this document does **not** resolve
-
-1. Final Malaysia school establishment category (`GAP-001`).
-2. Numeric teacher/staff ratios (`GAP-032` evidence / MOE circulars).
-3. Exhaustive reserved-acts catalogue per profession.
-4. Bright-line statutory test for every guest demonstration vs “teach”.
-5. Whether teacher mandatory reporting will be expanded by future amendment.
-6. Complete foreign short-visit immigration matrix.
-7. Leadership qualification circulars beyond Act 550 definition of teacher.
-8. Closing of GAP-032–036 or approval of ADR-0015 / PEOs.
-
----
-
-## 18. Evidence catalogue
-
-| Evidence ID | Authority | Document | URL / location | Supports | Access date | Quality |
-|---|---|---|---|---|---|---|
-| EV-MY-037-01 | Parliament / MOE host | Education Act 1996 (Act 550) — MOE PDF | `https://www.moe.gov.my/storage/files/shares/Dasar/Kurikulum%20Kebangsaan/Akta%20550%20-%20Akta%20Pendidikan%201996.pdf` | Teacher registration; permits; definitions | 2026-09-16 | Primary statute (BM official host) |
-| EV-MY-037-02 | Compilation | Education Act 1996 English compilation | `https://tcclaw.com.my/wp-content/uploads/2025/07/Education-Act-1996.pdf` | English reading of ss.88, 103–114 | 2026-09-16 | Primary text compilation — verify against Gazette if litigating |
-| EV-MY-037-03 | MOHR / JTKSM | Children and Young Persons (Employment) Act 1966 PDF | `https://jtksm.mohr.gov.my/sites/default/files/2023-03/5.%20Children%20and%20Young%20Persons%20%28Employment%29%20Act%201966_0.pdf` | Hazardous work; school/vocational exceptions; ages | 2026-09-16 | Primary statute host |
-| EV-MY-037-04 | DOSH | OSHA 1994 Act 514 reprint 1.6.2024 | `https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf` | Competent person scheme | 2026-09-16 | Primary |
-| EV-MY-037-05 | MOH | Allied Health Professions Act 2016 | `https://hq.moh.gov.my/nutrition/wp-content/uploads/2023/12/Akta_AHP_Akta-774.pdf` | Clinical psychologist registration | 2026-09-16 | Primary |
-| EV-MY-037-06 | CommonLII | Counsellors Act 1998 | `http://www.commonlii.org/my/legis/consol_act/ca1998163/` | Counsellor registration / practice | 2026-09-16 | Primary text host |
-| EV-MY-037-07 | Immigration ESD | ESD Online Guidebook | `https://esd.imi.gov.my/portal/pdf/ESD_Online_Guidebook_V6_2025_(18022025).pdf` | MOE as education EP approving agency | 2026-09-16 | Official guidance |
-| EV-MY-037-08 | MOE BPS | Employment Pass support-letter procedures | `https://www.moe.gov.my/storage/files/shares/Lain-lain/subportal/bpswasta/Lain-lain/Posedur%20Dan%20Syarat%20Pas%20Penggajian/Prosedur%20Dan%20Syarat%20Pas%20Penggajian.pdf` | Foreign teacher EP support process | 2026-09-16 | Official procedural |
-| EV-MY-037-09 | MOE JPW | Private institution governor/employee form practice | `https://jpwpkl.moe.gov.my/.../borang-permohonan-permit-pengelola-atau-pekerja...` | Employee/governor registration practice | 2026-09-16 | Official form |
-| EV-MY-037-10 | Secondary | Academic analyses of Child Act mandatory reporters | DOI / MJSA papers | Teachers as voluntary reporters historically | 2026-09-16 | Secondary — mark MEDIUM |
-
----
-
-## 19. Explicit non-claims
-
-This document does **not**:
-
-- constitute Malaysian legal advice or regulatory approval;
-- invent school licensing under `GAP-001`;
-- approve ADR-0015 or PEO-001–005;
-- close GAP-032–036;
-- set staffing ratios;
-- claim government endorsement of Tarbiyat;
-- assert that every Mission is employment or that every demonstration is teaching without facts.
-
----
-
-## Document control
+## Revision history
 
 | Version | Date | Notes |
 |---|---|---|
-| 0.1.0 | 2026-09-16 | Initial DRAFT mapping for GAP-037; proposed resolution — not closed |
+| 0.1.0 | 2026-09-16 | Initial DRAFT mapping for GAP-037 |
 | 0.1.1 | 2026-09-16 | Category overlays after MY-003; GAP-037 remains open |
+| 0.2.0 | 2026-09-23 | Phase-1 diagnostic DRAFT: dual-gate; Act 550 / GP A3 / EP-2026 / NPQEL boundary; CPD Not established; EV-MY-037-11–16 |
+| 1.0.0 | 2026-09-23 | APPROVED after Phase-2 Human Review: dual-gate locked; category-specific scoping; teacher/permit exactness; practitioner demo-vs-teach as formal pre-pilot determination; principal/NPQEL boundary; immigration freshness rule; regulated-profession nuance; implementation matrix; hostile scenarios hardened. **GAP-037 remains Open** (partially resolved) |
+
+---
+
+## 1. Purpose and scope
+
+Map Tarbiyat Core people functions (ADR-0015; APPROVED `PEO-001` / `002` / `003`) to Malaysian legal and regulatory categories so that:
+
+1. Core educational innovation does **not** override Malaysian statute;
+2. Tarbiyat PA bands, currency and development are **school operating gates**, not substitutes for teacher registration/permits, immigration status or professional licences;
+3. Mentor / Practitioner roles do **not** silently become regulated counselling, psychology, medicine or other licensed practice;
+4. Lab-First / Mission participation by industry experts remains **lawfully possible** without wrongly converting every guest into a full-time schoolteacher — **unless** Malaysian law/guidance requires teaching status for the actual activity;
+5. Authentic Mission production remains distinguishable from prohibited child employment / hazardous work.
+
+**Out of scope:** inventing Malaysian CPD-hour quotas; setting Core staffing ratios (`GAP-032` / `PEO-004`); selecting campus category (`GAP-001` / `MY-003`); rewriting APPROVED Core PEOs.
+
+---
+
+## 2. Source hierarchy
+
+| Priority | Type | Use |
+|---|---|---|
+| 1 | Binding law / regulation / Gazette (Act 550; CYP Act; OSHA; Counsellors Act; AHP Act; Education Regulations) | Binding where applicable |
+| 2 | Official KPM / BPS / JPN **guidelines** (e.g. GP A3) | Category-specific operating requirements — **not** silently universal |
+| 3 | Official Immigration / ESD / MyXpats **policy instruments** | Work-pass eligibility; **country layer only**; time-sensitive |
+| 4 | Official **administrative forms** / service cards / procedural pages | Process pointers — not legislation |
+| 5 | Official **programme material** / competency guidance (e.g. NPQEL promo; SGM 2.0) | Pathway framing / guidance — do not convert into private-school statute without primary authority |
+| 6 | Secondary (law-firm alerts, media, school sites, blogs) | Locators only — never sole authority |
+
+FAQs and administrative practice are **not** converted into legislation unless their authority is clear.
+
+---
+
+## 3. Evidence states
+
+Use **only** these states. Do **not** use “compliant” for a school that does not yet exist. Do **not** present unresolved interpretation as Verified.
+
+| State | Meaning |
+|---|---|
+| **Verified** | Primary authority located; applicability clear for the stated scope |
+| **Verified — category-specific** | Verified for a named school category only |
+| **Verified — International School only** | Verified under GP A3 for international schools — **not** universal Malaysia requirements |
+| **Partial** | Primary authority exists; incomplete conditions / forms / overlays |
+| **Requires KPM/JPN confirmation** | Ambiguity material to Tarbiyat; must verify before pilot hire/Mission |
+| **Not established** | Reviewed sources do not establish the claimed rule |
+| **Not applicable** | Rule belongs to another category (e.g. government Education Service) |
+
+---
+
+## 4. School-category boundary (do not collapse)
+
+**No Malaysia pilot category has yet been selected** (`GAP-001`, `GAP-007`; `MY-003` DRAFT).
+
+MY-002 maps **multiple lawful pathways**. It does **not** select Private NC IPS, International, Government, Government-aided, or any bespoke category.
+
+| Category | People-law posture (summary) | Status |
+|---|---|---|
+| **Private NC IPS** (national-curriculum private school) | Act 550 teacher registration / permit architecture; governor/employee registration (s.88); IPS staffing lists at registration | **Partial** — category not selected |
+| **International school (GP A3)** | Teaching permits for all teachers; principal qualification/screening; foreign-teacher EP support; **Ahli Lembaga Pengelola (ALP)** / Board of Governors composition/permit rules; GP A3 salary/contract bands (reconcile with 2026 EP) | **Verified — International School only** for GP A3 text; **Partial** for 2026 EP reconciliation |
+| **Government / government-aided** | Education Service / public-service appointment may apply; **NPQEL** framed for Education Service officers | **Not applicable** to private/international unless category becomes government/aided — **do not import** |
+| **Expatriate school** | Named in Act 550 s.15 with international schools | **Requires KPM/JPN confirmation** |
+| **Bespoke pilot / PPP / special statute** | Would need Government instrument | **Not established** as off-the-shelf path |
+
+**Working assumption only (not a category selection):** eventual campus will be a registered educational institution under Act 550 (or expressly subject to MOE educational-institution registration).
+
+International-school rules derived from GP A3 are labelled **Verified — International School only**. They must **not** silently become universal Malaysia requirements. Government / Education Service rules remain separated.
+
+---
+
+## 5. Dual-gate architecture — APPROVED
+
+### Gate 1 — Malaysia legal eligibility
+
+A person must satisfy **every** Malaysian legal requirement applicable to the **actual activity**, including where relevant:
+
+- teacher registration;
+- teaching permit;
+- governor / employee registration;
+- professional licence / standing;
+- immigration / work authorisation;
+- other statutory role requirements.
+
+### Gate 2 — Tarbiyat operating eligibility
+
+The person must separately satisfy applicable Core controls including:
+
+- `PEO-001` authorisation / `MIS-FRM-007` scope;
+- `PEO-002` currency / `MIS-FRM-008` where required;
+- `PEO-003` development / `PEO-FRM-001` where required;
+- safeguarding;
+- Mission governance (`MIS-001`–`003`);
+- role-specific operational controls.
+
+**Neither gate substitutes for the other.**
+
+| Example | Reading |
+|---|---|
+| Malaysian teaching authority ≠ automatic PA-3 / PA-4 | Gate 1 teaching eligibility ≠ Gate 2 Mission / Practitioner scope |
+| PA-4 ≠ Malaysian teaching authority | Faculty Practitioner is Tarbiyat function; teaching still needs Act 550 status if the person teaches |
+| `MIS-FRM-008` CURRENT ≠ valid Employment Pass | Currency is Gate 2; EP / work pass is Gate 1 |
+| Professional licence ≠ independent Tarbiyat learner-facing authority | Licence is Gate 1 standing; learner contact needs Gate 2 + safeguarding |
+
+This dual-gate boundary is **APPROVED**.
+
+---
+
+## 6. Teacher registration / teaching permit
+
+### 6.1 Act 550 architecture (Verified)
+
+| Topic | Finding | Authority | State |
+|---|---|---|---|
+| Definition of **teacher** | A person who teaches pupils in an educational institution (or prepares/issues lessons / corrects returned answers for a distance education centre), **including a head teacher or principal** | Act 550 definitions (EV-MY-037-01 / 02) | Verified |
+| Prohibition | Subject to exceptions, **no person shall teach** in an educational institution unless registered as a teacher | Act 550 **s.103** | Verified |
+| Exceptions (exact) | (a) Education Service members teaching in government / government-aided institutions; (b) holders of a **permit to teach** under **s.114**; (c) specified pupil/student-teacher cases under Minister-controlled teacher-training schemes | Act 550 **s.103(2)** | Verified |
+| Teacher registration | Application to Registrar General; refusal grounds include age under 18; inadequate teaching qualifications (RG opinion); false statements; certain convictions; not fit and proper | Act 550 **ss.105–109** | Verified |
+| Teaching permits (exact pathway — **not** a universal alternative licence) | Registrar General may issue a permit to teach to: **(a)** a student teacher under an approved scheme; **(b)** a person whose teacher-registration application is pending; or **(c)** a person needed to act **temporarily** as a teacher — in prescribed form and conditions; revocable at RG discretion | Act 550 **s.114** | Verified |
+| Institution change | Every **registered teacher** shall within **fourteen days** of commencing or ceasing to teach in an educational institution report in writing to the Registrar General | Act 550 **s.116** | Verified |
+| Surrender / lapse signals | Registration certificate / permit may need surrender on revocation, continuous cessation of teaching >2 years, death, RG demand, or permit expiry | Act 550 **s.115** | Verified |
+
+**Tarbiyat PA-1–PA-4 do not replace teacher registration or teaching permit.**
+
+Do **not** paraphrase s.114 temporary/pending/student-teacher permits into a universal alternative teaching licence.
+
+### 6.2 Private / international practice
+
+| Topic | Finding | Authority | State |
+|---|---|---|---|
+| International schools — all teachers | All teachers must possess teaching permits | GP A3 (04.02.2021) (EV-MY-037-11) | **Verified — International School only** |
+| International — foreign teachers | Degree + professional education qualifications; KPM support letter before Immigration work-pass; GP A3 salary/contract categories (2021 text) | GP A3 | **Verified — International School only**; reconcile with EP policy effective 1 June 2026 (§12) |
+| Permit application locus | Commonly via JPN/PPD after institution registration certificate | MOE private-education guidelines / forms | Partial (process) |
+| Permit renewal timing in some IPS subtype GPs | Often within 30 days before expiry — **administrative practice** for cited subtypes; not auto-applied to all school categories | BPS subtype GPs (EV-MY-037-16) | Partial — confirm school-category form |
+| Private NC IPS exact checklist | Depends on IPS subtype guideline + JPN practice after category choice | — | Requires KPM/JPN confirmation |
+
+### 6.3 Portability
+
+Teacher registration under Act 550 is person-centred, but **s.116 notification** means change of institution is **not** silent. Permits and EP support letters are typically **institution-linked**. Do **not** assume automatic portability when changing school.
+
+---
+
+## 7. Principal / management / employees / governors
+
+### 7.1 Principal / Head of School
+
+| Topic | Finding | Authority | State |
+|---|---|---|---|
+| Statutory definition | Head teacher / principal is included in the Act 550 definition of **teacher** | Act 550 definitions | Verified |
+| International school principal | Must be appointed; minimum bachelor’s degree; professional/education-administration qualifications and experience; teaching permit **if required to teach**; medical fitness certified by a practitioner in Malaysia; PDRM screening; may manage **only one** school at a time | GP A3 | **Verified — International School only** |
+| Owner / Board relationship | Under GP A3 / IPS practice, the principal typically acts as secretary to the Board of Governors and generally **cannot** also be an **Ahli Lembaga Pengelola (ALP)** / Board member | GP A3 / IPS forms practice | Partial — confirm for selected category |
+| Malaysian nationality for principal | GP A3 does **not** state Malaysian nationality as mandatory for principal; applicant/owner citizenship rules are separate | GP A3 | Not established as nationality mandate for principal |
+| **NPQEL / NPQH** | Published NPQEL materials are framed for **Education Service** grade pathways (IAB / MPPS). Applicability to private/international Tarbiyat = **NOT ESTABLISHED** / **Requires KPM/JPN confirmation**. Do **not** import as mandate | IAB NPQEL 2026 promo (EV-MY-037-14); contrast GP A3 | Not established / Requires KPM/JPN confirmation |
+| Private NC IPS principal quals | Exact private-school academic/administrative circular beyond Act 550 “teacher” inclusion | — | Requires KPM/JPN confirmation |
+
+**Do not copy government Education Service leadership appointment rules into international/private models without applicability evidence.**
+
+### 7.2 Governors / managers / employees
+
+| Topic | Finding | Authority | State |
+|---|---|---|---|
+| Board of governors | Every educational institution shall have an instrument of government providing for a board of governors with a chairman | Act 550 **ss.53–54** | Verified |
+| Governor / employee registration | All governors and employees to be registered; temporary permits possible | Act 550 **ss.88–94** | Verified |
+| Employee definition | Employed by board in running/administration, **other than** a governor or a teacher | Act 550 definitions | Verified |
+| International **Ahli Lembaga Pengelola (ALP)** | Board of Governors member rules: composition / citizenship constraints; ALP cannot be appointed as teacher; ALP need MOE permit; PDRM screening | GP A3 | **Verified — International School only** |
+| Non-teaching staff | Employee registration if “employee” under Act; not a substitute for teaching permit if they teach | Act 550 | Verified (principle) |
+
+Map Tarbiyat governance roles to these Malaysian categories **without conflating** Core Mentor/Practitioner labels with governor/employee/teacher.
+
+---
+
+## 8. Practitioner / guest / I-in-R / Mission professional
+
+Malaysian law does **not** use Educator / Practitioner / Mentor labels. Functional test: if a person **teaches pupils** in a registered educational institution, Act 550 teacher rules are engaged unless an exception applies.
+
+**Do NOT invent a “Mission practitioner exemption.”**
+
+### 8.1 Approved pathway architecture
+
+| Pathway | Malaysia Gate 1 posture | Tarbiyat Gate 2 | State |
+|---|---|---|---|
+| **Visitor / short expert participation** | May participate only within a lawful, governed boundary. “Guest” does **not** mean exempt from Malaysian law | Usually PA-0 / visitor; Mission / safeguarding controls | Contextual |
+| **Supervised demonstration / specialist contribution** | Architecturally permitted by Tarbiyat under continuous lawful-teacher supervision with **no** independent teaching responsibility — but where Malaysian classification as “teaching” is unclear → **formal KPM/JPN determination required before implementation** | Scoped `PEO-001`; `MIS-FRM-002` as needed | **Requires KPM/JPN confirmation** |
+| **Recurring practitioner / co-facilitator** | Increasing recurrence, educational responsibility, assessment responsibility or independent learner-facing activity **must trigger legal-role reassessment** (likely teaching permit and/or employee registration if teaching/employed) | PA bands + currency + development as applicable | Contextual / Partial |
+| **Independent teaching** | Must **not** occur merely because the person is technically expert or PA-authorised. If Malaysian law requires teacher registration/permit, it must be satisfied | Gate 2 never cures Gate 1 | Verified |
+| **Organisation ≠ person** | Mission Partner / Institution-in-Residence organisation approval does **not** automatically authorise its employees. Each individual remains subject to applicable Malaysia + Tarbiyat gates | `PEO-001` org≠person; `MIS-001` / `MIS-002` | Verified (principle) + Core |
+
+### 8.2 Formal pre-pilot determination (highest priority)
+
+> **KPM/JPN determination required:** when does supervised industry / scientist / practitioner participation cross from demonstration, mentoring or contribution into statutory **“teaching”**?
+
+This remains **unresolved by interpretation**. It is one of the highest-priority Malaysia pre-opening questions. **`GAP-037` cannot close** until this is resolved sufficiently for the selected operating model.
+
+---
+
+## 9. Regulated-profession boundary
+
+**APPROVED principle:** `PEO-001` never overrides Malaysian professional regulation.
+
+Avoid over-broad statements. Educational exposure is **not** automatically reserved professional practice.
+
+| Domain | Educational exposure (examples) | Reserved professional practice (examples) | State |
+|---|---|---|---|
+| Counselling | Developmental Mentor guidance (non-clinical; no holding out as counsellor) | Practising as counsellor → Counsellors Act 1998 registration + practising certificate | Verified (boundary) |
+| Clinical psychology / AHP | Awareness / referral | Clinical Psychologist listed under Allied Health Professions Act 2016 | Verified |
+| Medicine / nursing | Health-learning Mission under school controls | Clinical treatment → Medical / nursing regulation | Verified (principle) |
+| Engineering | Educational design critique / demonstration | Reserved engineering practice stamps / approvals | Partial — reserved-acts catalogue later for actual pilot activities |
+| Lab / hazardous technical | Supervised educational labs | OSHA competent-person where Fifth Schedule applies; CYP hazardous-work limits for learners | Verified (principle) / Partial (tool schedule) |
+| Food / transport / other | Educational activity under school controls | Handler / driver / premises rules where applicable | Requires confirmation by activity |
+| Child safeguarding roles | All adults under school safeguarding SOPs | Child Act / SOAC architecture; screening practice | Partial / Verified (penalty context) |
+
+**Example distinction:** a health-learning Mission ≠ automatically clinical treatment. **Once** clinical / reserved activity begins, applicable professional law governs.
+
+Incomplete reserved-acts catalogues are marked for later verification against **actual pilot activities** — do not require resolution of irrelevant professions not used by the pilot.
+
+---
+
+## 10. CPD / professional development
+
+| Finding | State |
+|---|---|
+| **No universal Malaysia statutory CPD-hour quota** for the relevant private/international school categories has been established from reviewed authority | **Not established** |
+| Teaching-permit **renewal** is a recurring administrative condition in some BPS practice — **not** a CPD-hour mandate | Partial |
+| SGM 2.0 is professional competency/ethics **guidance** — not read as a private-school licence-hour statute | Official guidance (EV-MY-037-15) |
+| Government Education Service PPB / NPQEL pathways are **not** imported as private/international mandates | Not applicable (unless category is government/aided) |
+| Tarbiyat `PEO-003` remains the Core development system regardless | Core (APPROVED) |
+
+Do not convert SGM 2.0, government teacher development programmes, or permit-renewal administration into a statutory CPD-hours requirement without primary authority.
+
+---
+
+## 11. Foreign / expatriate personnel
+
+### 11.1 Freshness rule (APPROVED)
+
+> **Immigration thresholds, pass categories and KPM support procedures are time-sensitive implementation controls and must be reverified against current official requirements before recruitment or visa submission.**
+
+Do **not** turn current 2026 salary thresholds into permanent architectural constants. Do **not** hard-code them into Core PEO standards.
+
+### 11.2 Education-sector work authorisation
+
+| Topic | Finding | State |
+|---|---|---|
+| Approving agency | ESD materials list **MOE** as approving/regulatory body for Education-sector support letters | Verified |
+| MOE support letter | BPS publishes Employment Pass support-letter procedures for foreign teaching staff | Verified (official procedural) |
+| Short-term visiting experts | May involve Professional Visit Pass or other categories depending on activity | Not established as single generic rule — case advice required |
+| Visitor status | Ordinary visitor status is **not** a substitute for work authorisation for employment/teaching | Verified (principle) |
+
+### 11.3 Revised Employment Pass policy (effective 1 June 2026) — Country layer snapshot only
+
+Primary: ESD *Revised Expatriate Salary Policy* booklet (EV-MY-037-12 / 13). Snapshot for awareness — **reverify at hire**.
+
+| Topic | Snapshot finding (country layer) | State |
+|---|---|---|
+| Scope | Applies to new and renewal EP applications submitted on/after 1 June 2026 | Verified |
+| Salary basis | Basic monthly salary taxable in Malaysia; excludes allowances, incentives, bonuses, salary paid outside Malaysia | Verified |
+| Category I | Basic salary RM20,000 and above (ESD booklet) | Verified (snapshot) |
+| Category II | Basic RM10,000–19,999; succession plan mandatory from 1 January 2027 | Verified (snapshot) |
+| Category III | Basic RM5,000–9,999 (general); succession from 1 Jan 2027; duration up to 5 years | Verified (snapshot) |
+| GP A3 2021 salary bands | GP A3 lists older foreign-teacher bands. **Must reconcile** with current EP policy + KPM support-letter practice for 2026+ hires | **Requires KPM/JPN + Immigration confirmation** |
+
+---
+
+## 12. Malaysia implementation matrix
+
+| Person / activity | Malaysia gate | Tarbiyat gate | Current state |
+|---|---|---|---|
+| Registered / permitted teacher | Statutory teacher registration and/or teaching permit (Act 550 ss.103–114) | PA / currency / development where Practitioner or elevated functions apply | Category-dependent |
+| Principal / head | Statutory teacher inclusion + category rules (e.g. GP A3 for international) | Tarbiyat leadership authority + Gate 2 where teaching/Mission scopes exist | Category-dependent |
+| Recurring practitioner | Legal-role classification; reassess when teaching boundary approached | PA / currency / development | Verify where teaching boundary reached |
+| Visiting scientist / engineer | Immigration + teaching/activity boundary | Mission / guest controls | Contextual — 3-day residency remains **VERIFY** |
+| I-in-R / PiR | Recurrence / employment / teaching test | PEO + Mission controls; org ≠ person | Contextual |
+| Regulated professional | Professional standing if reserved act | PA + Mission controls | Activity-specific |
+| Foreign staff | KPM support + valid immigration status | Core people controls | Time-sensitive — reverify |
+
+**No universal staffing ratios** are created here. Malaysia statutory staffing ratio / capacity research remains `GAP-032` / relevant country overlay (`PEO-004` DRAFT).
+
+---
+
+## 13. Hostile-scenario results
+
+| # | Scenario | Malaysia Gate 1 | Tarbiyat Gate 2 | Outcome |
+|---|---|---|---|---|
+| 1 | World-class AI engineer, no MY teaching permit, independently teaches weekly classes | Fail (Act 550 s.103) | PA irrelevant to cure Gate 1 | **Restricted** |
+| 2 | Foreign scientist, 3-day Mission residency | Immigration category + whether activity = teach | Supervised visitor / PA-0–1 | **VERIFY** — not automatically permitted or prohibited |
+| 3 | Engineer beside authorised teacher starts independently assessing students | Likely teaching/assessment → permit/registration | Expand PA ≠ Gate 1 | **Restricted** until Gate 1 fixed |
+| 4 | PA-4 holder loses statutory professional standing | Gate 1 standing fails where activity reserved | Restrict / suspend scopes | **Restricted** |
+| 5 | Teacher has MY permit; Tarbiyat currency REFRESH REQUIRED | Gate 1 OK for teaching | Gate 2 fail for affected scopes | **Restricted** (Tarbiyat elevated / Mission scopes) |
+| 6 | Practitioner CURRENT under PEO-002; EP expires | Gate 1 immigration fail immediately | Currency cannot authorise work | **Restricted** |
+| 7 | Principal meets Tarbiyat leadership; fails GP A3 / Act requirements | Fail category Gate 1 | Core leadership insufficient | **Restricted** |
+| 8 | School assumes NPQEL mandatory without verifying private/international applicability | **Not established** as mandate | N/A | **VERIFY** — do not enforce invented mandate |
+| 9 | Foreign teacher on ordinary visitor status | Fail work authorisation | N/A | **Restricted** |
+| 10 | Hospital professional crosses into clinical treatment on health Mission | Medical regulation Gate 1 | Educational Mission authority insufficient | **Restricted** clinical acts |
+| 11 | Counselling Mentor provides regulated psychological services | Counsellors/AHP Gate 1 | Mentor function insufficient | **Restricted** |
+| 12 | Mission partner claims corporate staff auto-authorised with learners | Fail — partner employment ≠ school registration/permit | Org≠person (`PEO-001`) | **Restricted** |
+| 13 | LMS/CPD certificate treated as renewal of MY teaching authority | Fail — permit/registration renewal is statutory/admin process | PEO-003 completion ≠ Gate 1 | **Restricted** |
+| 14 | Registered teacher changes institution; approvals assumed portable | s.116 notification; permits/EP often institution-linked | Update FRM-007 institution fields | **Verify / re-register** — not automatic |
+| 15 | Government-school staffing rule copied into international/private model | Wrong category — no applicability evidence | N/A | **Restricted** mapping error |
+
+Where source authority is insufficient, outcome is **VERIFY**, not a pretended legal conclusion.
+
+---
+
+## 14. Pre-opening verification checklist
+
+Before first learner cohort / first elevated Mission with external adults:
+
+1. Confirm **school category** (`GAP-001`) and freeze category overlays — **not selected in this document**.
+2. Counsel review of Act 550 + category guideline pack (GP A3 and/or IPS).
+3. Obtain written **KPM/JPN** determination on supervised industry demonstration vs statutory “teach” (§8.2).
+4. Build Gate 1 hire checklist: teacher registration/permit; governor/employee registration; PDRM/medical where required.
+5. Build Gate 2 hire checklist: `MIS-FRM-007` / `008`; `PEO-FRM-001` as required; MIS risk/safeguarding.
+6. Foreign hires: BPS EP support + **current** ESD rules (**reverify** on application date — §11.1).
+7. Reconcile GP A3 foreign-teacher salary bands with then-current EP policy.
+8. Regulated-profession Mission filter for **actual pilot activities** only.
+9. Do **not** apply NPQEL as private/international mandate unless confirmed in writing.
+10. Institution-change / portability SOP for teachers (s.116 + permit/EP re-linkage).
+
+---
+
+## 15. Unresolved determinations (keep GAP-037 open)
+
+1. Final campus category (`GAP-001` / `MY-003`) — **GAP-001 remains Open**.
+2. **KPM/JPN determination:** supervised Mission participation vs statutory “teaching” (§8.2) — highest priority.
+3. Exact private NC IPS principal qualification circulars (beyond Act 550 teacher inclusion).
+4. Whether any NPQEL-like requirement will be imposed on the selected private/international category (**currently Not established**).
+5. Reconciliation of GP A3 2021 foreign-teacher salary/contract bands with EP policy from 1 June 2026 for KPM support letters.
+6. Complete short-visit immigration matrix for multi-day Mission residencies.
+7. Teacher CAN reporting / mandatory offender-registry screening statute vs practice.
+8. Profession-by-profession reserved-acts catalogue **for actual pilot activities**.
+9. Numeric staffing ratios (`GAP-032`) — not resolved here.
+10. Expatriate-school path detail if that category is later considered.
+11. Counsel / human legal acceptance of final pilot application pack.
+
+---
+
+## 16. ADR-0015 / PEO compatibility
+
+| Principle | Result |
+|---|---|
+| Expertise ≠ educational authority | **FITS** (Act 550) |
+| Professional licence ≠ teach permission | **FITS** |
+| PA cannot override Malaysian law | **FITS** (dual-gate APPROVED) |
+| Educators need not invent Core PA ladder for lawful teaching | **FITS** |
+| Mentor ≠ clinician | **FITS** (Acts 580/774) |
+| Development ≠ authorisation ≠ currency | **FITS** (PEO-003 APPROVED; country CPD-hour quota Not established) |
+
+**No Core redesign required.** Malaysia needs this Country overlay + campus SOPs.
+
+---
+
+## 17. GAP-037 status under this approval
+
+`MY-002` `1.0.0` **APPROVED** establishes the Malaysia regulated-people **mapping baseline**.
+
+`GAP-037` is **Partially resolved / country mapping approved — implementation closure pending**.
+
+**GAP-037 is not closed.** Remaining closure dependencies:
+
+1. Malaysia school/campus category selected through `GAP-001`;
+2. Applicable category-specific people rules confirmed for that category;
+3. KPM/JPN determination on supervised Mission participation vs statutory teaching;
+4. Material unresolved principal/people interpretations resolved for the selected path;
+5. Counsel/human legal acceptance of final pilot application;
+6. Any required professional-role catalogue completed for **actual pilot activities** (not irrelevant professions).
+
+Ratios / capacity remain `GAP-032`.
+
+---
+
+## 18. Explicit non-claims
+
+This document does **not**:
+
+- constitute Malaysian legal advice, KPM/JPN approval, or staffing clearance;
+- close `GAP-037` or select a Malaysia school category;
+- alter APPROVED ADR-0015 or PEO-001–003;
+- invent private-school CPD-hour quotas or NPQEL mandates for private/international schools;
+- hard-code immigration salaries into Core or treat 2026 thresholds as permanent constants;
+- invent a Mission practitioner exemption from Act 550;
+- resolve demo-vs-teach by interpretation;
+- set staffing ratios (`GAP-032`);
+- claim government endorsement of Tarbiyat;
+- assert every Mission is employment or every demonstration is teaching without facts.
+
+---
+
+## 19. Evidence catalogue
+
+| Evidence ID | Authority level | Document | URL / location | Supports | Access date | Quality |
+|---|---|---|---|---|---|---|
+| EV-MY-037-01 | Binding statute | Education Act 1996 (Act 550) — MOE BM PDF | `https://www.moe.gov.my/storage/files/shares/Dasar/Kurikulum%20Kebangsaan/Akta%20550%20-%20Akta%20Pendidikan%201996.pdf` | Teacher registration; permits; definitions; s.88; s.116 | 2026-09-16 | Primary statute host (BM) |
+| EV-MY-037-02 | Compilation (reading aid) | Education Act 1996 English compilation | CommonLII / published compilations | English reading aid | 2026-09-16 | Verify Gazette if litigating |
+| EV-MY-037-03 | Binding statute | Children and Young Persons (Employment) Act 1966 | JTKSM PDF | Hazardous work; school/vocational exceptions | 2026-09-16 | Primary |
+| EV-MY-037-04 | Binding statute | OSHA 1994 Act 514 reprint 1.6.2024 | DOSH PDF | Competent-person overlay | 2026-09-16 | Primary |
+| EV-MY-037-05 | Binding statute | Allied Health Professions Act 2016 | MOH PDF | Clinical psychologist boundary | 2026-09-16 | Primary |
+| EV-MY-037-06 | Binding statute | Counsellors Act 1998 | CommonLII | Counsellor registration / practice | 2026-09-16 | Primary text host |
+| EV-MY-037-07 | Official guidance | ESD Online Guidebook | ESD portal PDF | MOE as education EP approving agency | 2026-09-16 | Official guidance — not statute |
+| EV-MY-037-08 | Official procedural / administrative | MOE BPS Employment Pass support-letter procedures | moe.gov.my BPS | Foreign teacher EP support process | 2026-09-16 | Official procedural — time-sensitive |
+| EV-MY-037-09 | Official administrative form | MOE JPW / JPN private-institution governor/employee permit forms | State JPN sites | Employee/governor registration practice | 2026-09-16 | Administrative form — not legislation |
+| EV-MY-037-10 | Secondary | Academic analyses of Child Act mandatory reporters | Scholarly papers | Contextual only | 2026-09-16 | Secondary — MEDIUM |
+| EV-MY-037-11 | Official guideline | GP A3 Penubuhan Sekolah Antarabangsa (04.02.2021) | `https://www.moe.gov.my/storage/files/shares/Bahagian%20dan%20Unit/Bahagian%20Pendidikan%20Swasta/sekolah/garis-panduan-4/GP%20A3%20Penubuhan%20Sekolah%20Antarabangsa%2004022021.pdf` | International principal/teacher/ALP/foreign-teacher rules | 2026-09-23 | Official guideline — **International School only** |
+| EV-MY-037-12 | Official immigration policy | ESD Revised Expatriate Salary Policy (effective 1 June 2026) | `https://esd.imi.gov.my/portal/pdf/Revised_Expatriate_Salary_Policy.pdf` | EP Cat I–III thresholds; succession from 1 Jan 2027 | 2026-09-23 | Official policy booklet — time-sensitive snapshot |
+| EV-MY-037-13 | Official announcement | ESD announcement — Revised EP Salary Policy effective 1 June 2026 | `https://esd.imi.gov.my/portal/latest-news/announcement/announcement-266-ep-salary-policy-2026/` | Confirms effective date / new & renewal applications | 2026-09-23 | Official announcement |
+| EV-MY-037-14 | Official programme material | IAB / KPM NPQEL 2026 promotion | moe.gov.my IAB PDF | Education Service grade pathway framing — **not** private-school mandate | 2026-09-23 | Official programme — limited applicability |
+| EV-MY-037-15 | Official guidance (competency) | SGM 2.0 (Standard Guru Malaysia) | moe.gov.my | Professional standard/guidance — **not** private CPD-hour statute | 2026-09-23 | Official guidance |
+| EV-MY-037-16 | Official guideline (adjacent IPS subtype) | BPS Garis Panduan Pusat Tuisyen / related IPS GPs (permit renewal practice) | moe.gov.my BPS | Permit renewal timing for some IPS subtypes — **do not auto-apply** to full schools | 2026-09-23 | Official guideline — category-limited |

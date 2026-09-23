@@ -8,7 +8,7 @@
 | Last reviewed | `2026-09-16` |
 | Country scope | `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | MY-000, FND-003, MY-002 (people mapping DRAFT), MY-003 (Country Path DRAFT) |
+| Dependencies | MY-000, FND-003, MY-002 (people mapping APPROVED baseline; GAP-037 not closed), MY-003 (Country Path DRAFT) |
 | Source documents | references/malaysia/Tarbiyat_Malaysia_Concept_Note.docx (proposal; not approved fact); MY-003 research |
 
 ## 1. Status of source material
@@ -21,7 +21,7 @@ The Malaysia Concept Note is a **proposal document**, not an approved government
 |---|---|---|
 | Legal establishment pathway | **Partial research in `MY-003`** — Act 550 categories + MOE IPS / GP A3 international paths mapped; **category not selected** (`GAP-001`) | No invented licence |
 | Curriculum & exam board mapping | **Partial in `MY-003`** — NC core + prescribed exams (private); approved foreign curricula + MY-citizen subjects (international); **package not selected** (`GAP-002`) | Preserve ADR-0003 dual attainment |
-| Regulated people / faculty role mapping | DRAFT mapping in `MY-002` (GAP-037 proposed — not closed); re-check after category choice (`MY-003`) | Human legal review required |
+| Regulated people / faculty role mapping | APPROVED mapping baseline in `MY-002` (GAP-037 Partially resolved — **not closed**); re-check after category choice (`MY-003`) | Human legal / pilot pack review still required for closure |
 | Residential vs day model | Concept note proposes residential/24h culture | Requires decision; not Core default (`GAP-005`) |
 | Data / security architecture | Concept note uses sovereign-data language | Requires decision; not auto-adopted from Oman (`GAP-006`) |
 | Ownership / governance | Concept note proposes Government-owned = **PROPOSAL only**; private/international operator constraints mapped in `MY-003` (`GAP-007` Partial) | Stakeholder / Government decision still required |

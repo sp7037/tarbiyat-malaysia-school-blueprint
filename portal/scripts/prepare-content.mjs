@@ -573,8 +573,8 @@ function buildWorkstreams(adrs) {
       id: 'operating',
       name: 'School Operating Model',
       status: 'APPROVED',
-      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001 APPROVED (GAP-033 Closed). PEO-002 APPROVED (GAP-035 Closed). PEO-003 APPROVED (GAP-036 Closed). PEO-004–005 remain DRAFT (GAP-032 / 034 not closed). MY-002 DRAFT (GAP-037 not closed). ADR-0014 Creator Rights APPROVED (GAP-025 Closed).',
-      evidence: 'ADR-0015; ADR-0014; PEO-001–PEO-005; MY-002; docs/08 SECTION_README; GAP-032–037; GAP-025; GAP-033 / 035 / 036 Closed',
+      detail: 'ADR-0015 APPROVED: Educator + Practitioner + Mentor peer faculty functions; professional learning teams; scoped Practitioner authorisation; Mentor longitudinal capacity; Mission capacity coupling. PEO-001 APPROVED (GAP-033 Closed). PEO-002 APPROVED (GAP-035 Closed). PEO-003 APPROVED (GAP-036 Closed). PEO-004–005 remain DRAFT (GAP-032 / 034 not closed). MY-002 APPROVED (GAP-037 Partially resolved — not closed). ADR-0014 Creator Rights APPROVED (GAP-025 Closed).',
+      evidence: 'ADR-0015; ADR-0014; PEO-001–PEO-005; MY-002 APPROVED; docs/08 SECTION_README; GAP-032–037; GAP-025; GAP-033 / 035 / 036 Closed',
       href: '/areas/people-and-culture'
     },
     {
@@ -605,8 +605,8 @@ function buildWorkstreams(adrs) {
       id: 'malaysia',
       name: 'Malaysia Profile',
       status: 'IN PROGRESS',
-      detail: 'MY-003 Country Path DRAFT maps Act 550 / MOE IPS / GP A3 options (GAP-001/002/007 Partial — category not selected). MY-002 people mapping DRAFT (GAP-037 proposed — not closed). Residential/data gaps remain Open. No MOE approval claimed.',
-      evidence: 'MY-001; MY-002 DRAFT; MY-003 DRAFT; GAP-001/002/005/006/007/014/037',
+      detail: 'MY-003 Country Path DRAFT maps Act 550 / MOE IPS / GP A3 options (GAP-001/002/007 Partial — category not selected). MY-002 people mapping APPROVED v1.0.0 baseline (GAP-037 Partially resolved — not closed). Residential/data gaps remain Open. No MOE approval claimed.',
+      evidence: 'MY-001; MY-002 APPROVED; MY-003 DRAFT; GAP-001/002/005/006/007/014/037',
       href: '/country/malaysia'
     },
     {
@@ -800,7 +800,7 @@ const includes = [
     title: 'Malaysia Regulated People / Faculty Role Mapping (MY-002)',
     sourceRel: 'docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md',
     description:
-      'MY-002 DRAFT — proposed regulatory mapping for GAP-037 (not closed). Not legal advice; does not approve ADR-0015 or PEO-001–005.'
+      'MY-002 APPROVED v1.0.0 — Malaysia regulated-people mapping baseline for GAP-037 (Partially resolved — not closed). Dual-gate APPROVED; not legal advice / not staffing clearance; no school category selected.'
   },
   {
     outRel: 'country/malaysia-school-path.md',

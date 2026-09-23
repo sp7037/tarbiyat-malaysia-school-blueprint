@@ -3,13 +3,13 @@
 | Field | Value |
 |---|---|
 | Document ID | `EVD-002` |
-| Version | `0.4.0` |
+| Version | `0.4.1` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-16` |
+| Last reviewed | `2026-09-23` |
 | Country scope | `UNIVERSAL` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | EVD-001; evidence body files under `docs/12-evidence/`; MY-002 / MY-003 evidence catalogues |
-| Source documents | User brief (2026-09-13); Iteration 3 GAP-021 research (2026-09-14); GAP-037 MY research (2026-09-16); GAP-001/002/007 MY-003 research (2026-09-16) |
+| Source documents | User brief (2026-09-13); Iteration 3 GAP-021 research (2026-09-14); GAP-037 MY research (2026-09-16); GAP-001/002/007 MY-003 research (2026-09-16); GAP-037 Phase-1 diagnostic refresh (2026-09-23) |
 
 ## Instructions
 
@@ -28,6 +28,12 @@ Record evidence items that support or challenge claims. Prefer primary sources a
 | EV-MY-037-08 | Official guidance | MOE BPS Employment Pass support-letter procedures; `MY-002` §18 | Supports foreign-teacher EP support process | Official procedural |
 | EV-MY-037-09 | Official guidance | MOE JPW private-institution governor/employee permit forms; `MY-002` §18 | Supports employee/governor registration practice | Official form |
 | EV-MY-037-10 | Peer-reviewed / secondary | Academic analyses of Child Act mandatory reporters; `MY-002` §18 | Contextual only — teacher CAN reporting historically voluntary; mark MEDIUM | Secondary — do not treat as statute |
+| EV-MY-037-11 | Official guideline | GP A3 Penubuhan Sekolah Antarabangsa (04.02.2021); `MY-002` §18 | International principal / teacher / ALP / foreign-teacher requirements | Official guideline (category-specific) |
+| EV-MY-037-12 | Official immigration policy | ESD Revised Expatriate Salary Policy (effective 1 June 2026); `MY-002` §18 | EP Cat I–III basic-salary thresholds; succession plan from 1 Jan 2027 | Official policy booklet |
+| EV-MY-037-13 | Official announcement | ESD announcement — Revised EP Salary Policy effective 1 June 2026; `MY-002` §18 | Confirms new & renewal applications on/after effective date | Official announcement |
+| EV-MY-037-14 | Official programme material | IAB / KPM NPQEL 2026 promotion; `MY-002` §18 | Education Service grade pathway framing — **not** established as private/international principal mandate | Official programme — limited applicability |
+| EV-MY-037-15 | Official guidance | SGM 2.0; `MY-002` §18 | Teacher competency guidance — **not** read as private CPD-hour statute | Official guidance |
+| EV-MY-037-16 | Official guideline (adjacent IPS subtype) | BPS Pusat Tuisyen / related IPS GPs; `MY-002` §18 | Permit-renewal practice for some IPS subtypes — do not auto-apply to full schools | Official guideline — category-limited |
 | EV-MY-001-01 | Statute/regulation | Education Act 1996 (Act 550) — MOE BM PDF; `MY-003` §19 | Supports NES categories, registration, NC / private PEI duties for GAP-001/002/007 | Primary statute host (BM) |
 | EV-MY-001-02 | Statute/regulation | Act 550 English compilation (CommonLII); `MY-003` §19 | English reading aid for ss.15–19, 73–74, 79–82 | Compilation — verify Gazette if litigating |
 | EV-MY-001-03 | Official guidance | MOE BPS FAQ / institut pendidikan swasta pages; `MY-003` §19 | Supports IPS penubuhan → pendaftaran conditions | Official procedural |

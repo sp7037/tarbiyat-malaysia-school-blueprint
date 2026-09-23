@@ -53,7 +53,7 @@ Documentation work for Malaysia currently includes:
 - [GAP-007](/gaps#gap-007) — Ownership / governance model (**Partial** — [MY-003](/country/malaysia-school-path))
 - [GAP-011](/gaps#gap-011) — Student IP / micro-venture feasibility
 - [GAP-014](/gaps#gap-014) — Canonical Concept Note file
-- [GAP-037](/gaps#gap-037) — Country regulated-role mapping (**proposed** — [MY-002](/country/malaysia-regulated-people))
+- [GAP-037](/gaps#gap-037) — Country regulated-role mapping (**Partially resolved** — [MY-002](/country/malaysia-regulated-people) APPROVED; not closed)
 
 ## Continue
 

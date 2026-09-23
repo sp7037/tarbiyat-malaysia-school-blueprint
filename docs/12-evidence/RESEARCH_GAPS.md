@@ -5,7 +5,7 @@
 | Document ID | `EVD-003` |
 | Version | `0.6.0` |
 | Status | `DRAFT` |
-| Last reviewed | `2026-09-16` |
+| Last reviewed | `2026-09-23` |
 | Country scope | `CORE + MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
 | Dependencies | ROOT-GAP |
@@ -24,6 +24,8 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Constraints on alternative pedagogy within recognised schools.
 - Ownership / operator / governance constraints and foreign-participation rules.
 - **Status (2026-09-16):** People/faculty regulated-role mapping drafted as `MY-002` for `GAP-037` — **proposed, not closed**. Evidence catalogue `EV-MY-037-01`–`10` lodged.
+- **Status (2026-09-23 Phase-2 approval):** `MY-002` promoted to `1.0.0` / `APPROVED` — dual-gate locked; mapping baseline only. **GAP-037 remains Open** (Partially resolved / country mapping approved — implementation closure pending: GAP-001 category; KPM/JPN demo-vs-teach; counsel/pilot pack; pilot professional-role catalogue). Evidence `EV-MY-037-01`–`16`.
+- **Status (2026-09-23 Phase-1 diagnostic):** `MY-002` refreshed to `v0.2.0` DRAFT — dual-gate model; Act 550 / GP A3 / EP-2026 / NPQEL-boundary / CPD Not-established findings; evidence `EV-MY-037-11`–`16` lodged. **GAP-037 remains Open** (category unset; KPM/JPN determinations pending). Ready for Phase-2 Human Review of DRAFT — not ready to close.
 - **Status (2026-09-16 Country Path):** Establishment / recognition / governance research lodged as `MY-003` (`docs/10-malaysia/MALAYSIA_SCHOOL_ESTABLISHMENT_RECOGNITION_AND_GOVERNANCE_PATH.md`) for `GAP-001` / `GAP-002` / `GAP-007` — **Partial, not closed**. Evidence `EV-MY-001-01`–`07` lodged. Remaining: **select school category**; exact exam/board package; ownership model decision; Ministry confirmation on Mission intensity / Tarbiyat curriculum approval; counsel review of legal-review pack; BM/History policy beyond GP A3 if claimed as Hard Blocker.
 
 ### RP-B — Pedagogy & pathway timing
@@ -56,7 +58,7 @@ Operational tracker: `GAP_REGISTER.md`. This file holds longer research notes.
 - Mentor caseload evidence bands — supports `GAP-034`.
 - Practitioner currency and hybrid onboarding precedents — supports `GAP-033`, `GAP-035`, `GAP-036`.
 - Country regulated-role mapping method (Core functions → legal categories) — supports `GAP-037`.
-- **Status (2026-09-19):** Malaysia mapping lodged as `MY-002` DRAFT (`v0.1.1` category overlays after `MY-003`); `GAP-037` proposed via MY-002 — **not closed**. ADR-0015 APPROVED; `PEO-001` / `MIS-FRM-007` APPROVED (`GAP-033` Closed); `PEO-002` / `MIS-FRM-008` APPROVED (`GAP-035` Closed); `PEO-003` / `PEO-FRM-001` APPROVED (`GAP-036` Closed); `PEO-004`–`005` remain DRAFT; GAP-032 / 034 unchanged; campus category still unset.
+- **Status (2026-09-23):** Malaysia mapping APPROVED as `MY-002` (`v1.0.0`); `GAP-037` Partially resolved — **not closed** (implementation pending). ADR-0015 APPROVED; `PEO-001` / `MIS-FRM-007` APPROVED (`GAP-033` Closed); `PEO-002` / `MIS-FRM-008` APPROVED (`GAP-035` Closed); `PEO-003` / `PEO-FRM-001` APPROVED (`GAP-036` Closed); `PEO-004`–`005` remain DRAFT; GAP-032 / 034 unchanged; campus category still unset (`GAP-001` Open).
 
 ### RP-G — Campus & facilities architecture (opened with ADR-0020)
 

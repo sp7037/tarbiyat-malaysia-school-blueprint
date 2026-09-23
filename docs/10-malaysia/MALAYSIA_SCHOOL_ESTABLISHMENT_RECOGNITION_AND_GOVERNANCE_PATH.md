@@ -9,7 +9,7 @@
 | Access date for sources | `2026-09-16` |
 | Country scope | `MALAYSIA` |
 | Owner / reviewer | Documentation Architect / Human lead (TBD) |
-| Dependencies | `ADR-0001` APPROVED; `ADR-0003` APPROVED; `IMP-001` DRAFT; `MY-000` / `MY-001` / `MY-002` DRAFT |
+| Dependencies | `ADR-0001` APPROVED; `ADR-0003` APPROVED; `IMP-001` DRAFT; `MY-000` / `MY-001`; `MY-002` APPROVED (GAP-037 Partially resolved — not closed); `MY-003` DRAFT |
 | Related gaps | GAP-001 / GAP-002 / GAP-007 (primary); GAP-037 re-check; related GAP-005 / 006 / 014 / 051 |
 | Source documents | Evidence catalogue (§19); Concept Note treated as **proposal only** |
 
@@ -240,7 +240,7 @@ Do **not** generalise international-school subject rules to government schools o
 | Does MY-002 still fit? | **Yes as general Act 550 people mapping**, with explicit category caveat already present |
 | Category overlays needed? | **Yes — add** private-NC vs international overlays (permits, EP, Islamic teacher State approval, governor rules from GP A3) |
 | Close GAP-037? | **No** — campus category still unset; human Malaysian legal review still required |
-| Status | Remains **Proposed via MY-002 DRAFT — not closed**; strengthen dependency on MY-003 category choice |
+| Status | Remains **Partially resolved via MY-002 APPROVED — not closed**; strengthen dependency on MY-003 category choice |
 
 ---
 

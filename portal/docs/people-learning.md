@@ -16,7 +16,7 @@ description: High-level view of Tarbiyat’s human learning model — faculty fu
   lawful teaching authority, scoped Practitioner expertise, meaningful Mentor relationship, and honest capacity.
   Operating detail: PEO-001 (<strong>APPROVED</strong> — GAP-033 Closed); PEO-002 (<strong>APPROVED</strong> — GAP-035 Closed); PEO-003 (<strong>APPROVED</strong> — GAP-036 Closed); PEO-004–005 (<strong>DRAFT</strong> — GAP-032 / 034 not closed).
   No universal Core staffing / Mentor ratios.
-  Malaysia regulated-role mapping remains <a href="/country/malaysia-regulated-people">MY-002</a> DRAFT (GAP-037 — not closed).
+  Malaysia regulated-role mapping baseline <a href="/country/malaysia-regulated-people">MY-002</a> APPROVED (GAP-037 Partially resolved — not closed).
 </div>
 
 ## How to read the people model

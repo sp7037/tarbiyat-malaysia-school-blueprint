@@ -46,7 +46,7 @@ PEO-001 Authorisation  ↔  PEO-002 Currency  ↔  PEO-003 Development
               PEO-005 Mentor Human-Guidance Capacity
 ```
 
-These interact; they are **not** a promotion ladder. **Staff count ≠ Mission capacity.** **Assigned learners ≠ meaningfully mentored learners.** Country registration / statutory ratios remain `GAP-037` (Malaysia mapping proposed in `MY-002` — not closed).
+These interact; they are **not** a promotion ladder. **Staff count ≠ Mission capacity.** **Assigned learners ≠ meaningfully mentored learners.** Country registration / statutory ratios remain `GAP-037` (Malaysia mapping baseline APPROVED in `MY-002` — Partially resolved, not closed).
 
 ## Planned child documents (not yet created)
 
@@ -55,4 +55,4 @@ These interact; they are **not** a promotion ladder. **Staff count ≠ Mission c
 
 ## Country handoff (Malaysia)
 
-- `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`) — DRAFT proposed resolution of `GAP-037` (**not closed**; not legal advice)
+- `MY-002` (`docs/10-malaysia/MALAYSIA_REGULATED_PEOPLE_ROLE_MAPPING.md`) — APPROVED mapping baseline for `GAP-037` (**Partially resolved, not closed**; not legal advice / not staffing clearance)

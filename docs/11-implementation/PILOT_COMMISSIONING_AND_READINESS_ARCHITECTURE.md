@@ -122,7 +122,7 @@ For every gate: **purpose · minimum evidence · decision owner · launch blocke
 | **Blocks launch** | Unresolved **must-resolve** items for the chosen school category (see §6) |
 | **Provisional OK** | Long-term expansion category undecided if pilot category is clear; MY-002 / MY-003 used as DRAFT mapping aids only — do not treat as licence or category selection |
 | **Defer** | Non-pilot pathways; optional boarding if not used (`GAP-005`); sovereign-DC preference language (`GAP-006`) if lawful privacy-conscious alternative documented |
-| **Dependencies** | `GAP-001`, `GAP-002`, `GAP-007`, `GAP-037` / `MY-002` DRAFT; `MY-003` DRAFT Country Path research (option matrix — **category not selected**); country building rules |
+| **Dependencies** | `GAP-001`, `GAP-002`, `GAP-007`, `GAP-037` / `MY-002` APPROVED baseline (not staffing clearance); `MY-003` DRAFT Country Path research (option matrix — **category not selected**); country building rules |
 | **Records** | Country Path Brief; unresolved legal register |
 | **Stop/go** | Unresolved Class A / Hard Blocker legal items → **No-Go**. Conditional Go **cannot** waive Hard Blockers. Residual Conditional items may only be Class B/C items that remain lawful under an interim cited basis, with owner, mitigation and review date |
 
@@ -276,7 +276,7 @@ For every gate: **purpose · minimum evidence · decision owner · launch blocke
 | **B. May remain under development** | Important research not blocking lawful pilot category | Long-term ownership model options (`GAP-007`); optional boarding (`GAP-005`); preferred data-residency branding (`GAP-006`) if lawful alternative exists; full Six Worlds specialist licensing maps beyond pilot roles |
 | **C. Depends on final school category** | Requirements change with private/international/national/etc. category | Exact teacher registration pathways; foreign EP routes; lab codes; curriculum board mapping (`GAP-001`/`002`/`037`) |
 
-**MY-002** is DRAFT evidence for people-mapping research — **not** legal advice and **not** approval of GAP-037.
+**MY-002** is APPROVED people-mapping baseline — **not** legal advice, **not** staffing clearance, and **not** closure of GAP-037.
 
 ---
 

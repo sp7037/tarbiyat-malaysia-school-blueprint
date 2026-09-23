@@ -19,6 +19,19 @@ Format: Keep entries concise. Record **why** a change matters, not only file lis
 
 ## [Unreleased]
 
+### MY-002 APPROVED — Malaysia regulated people mapping baseline (2026-09-23) — Phase 2
+
+- Phase-2 human review of `MY-002` passed: dual-gate architecture APPROVED; category-specific mapping without selecting school category; Act 550 teacher registration vs s.114 temporary permit exactness; GP A3 labelled Verified — International School only; NPQEL Not established for private/international; practitioner demo-vs-teach retained as formal KPM/JPN pre-pilot determination; regulated-profession nuance; immigration freshness rule; CPD hours Not established; hostile scenarios hardened.
+- `MY-002` promoted `0.2.0` / `DRAFT` → `1.0.0` / `APPROVED` (mapping baseline — not staffing clearance).
+- **GAP-037 remains Open** — status: Partially resolved / country mapping approved — implementation closure pending (GAP-001 category; KPM/JPN demo-vs-teach; counsel/pilot pack; pilot professional-role catalogue). GAP-001 remains Open. No school category selected. No Core PEO edits.
+
+### MY-002 Phase-1 diagnostic — Malaysia regulated people / GAP-037 (2026-09-23)
+
+- Phase-1 research + diagnostic only: `MY-002` refreshed `0.1.1` → `0.2.0` **DRAFT** (not promoted; **GAP-037 remains Open**).
+- Dual-gate Country overlay drafted (Malaysia legal eligibility × Tarbiyat PEO-001/002/003 gates). Category boundary kept separate (private NC IPS / international GP A3 / government — NPQEL not imported). Teacher registration vs permit (Act 550 ss.103–116); principal/ALP/employee mapping; practitioner/guest pathways; regulated-profession override; EP policy effective 1 June 2026 (country layer only); private-school CPD-hour quota **Not established**.
+- Evidence catalogue extended: `EV-MY-037-11`–`16`. Hostile scenarios A–O style mapped. Pre-opening verification checklist + KPM/JPN unresolved list lodged.
+- Does **not** alter APPROVED PEO-001/002/003; does **not** select Malaysia school category; does **not** close GAP-037.
+
 ### PEO-003 APPROVED — Faculty and Practitioner Development (2026-09-23) — Phase 2
 
 - Phase 2 human review of `PEO-003` / `PEO-FRM-001` passed: keep Faculty and Practitioner title; hard Development ≠ Authorisation ≠ Currency lock; FRM-001 mandatory threshold with PA-1/PA-0 proportionality; Layer 5 = Ongoing Professional Learning and Capability Development (not currency); incident sequencing A/B/C; People/capability governance owner + no sole self-certification; facilitator ≠ PA/franchise/CURRENT; no Core CPD-hours/prestige ladder; Mentor prep vs PEO-005 caseload; practice-evidence minimum; desired-function safeguard; hostile scenarios PASS.
